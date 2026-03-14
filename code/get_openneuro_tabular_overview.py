@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 
 OPENNEURO_DATA_DIR = Path(__file__).parents[1] / "data"
-OUT_DIR = Path(__file__).parents[1] / "resources"
+RESOURCES_DIR = Path(__file__).parents[1] / "resources"
 # Assumes openneuro-annotations has been cloned into the parent directory of this repo
 OPENNEURO_ANNOTATIONS_DIR = Path(__file__).parents[2] / "openneuro-annotations"
 
@@ -33,9 +33,13 @@ def create_all_openneuro_datasets_overview(data_dir: Path) -> pd.DataFrame:
     all_datasets_overview = []
     for file in data_dir.glob("*.tsv"):
         dataset = file.stem
-        participants_tsv = pd.read_csv(file, sep="\t")
-        n_rows = len(participants_tsv)
-        n_columns = len(participants_tsv.columns)
+        try:
+            participants_tsv = pd.read_csv(file, sep="\t")
+            n_rows = len(participants_tsv)
+            n_columns = len(participants_tsv.columns)
+        # But this doesn't cover files that might have used a different delimiter
+        except Exception:
+            n_rows, n_columns = 0, 0
         all_datasets_overview.append(
             {"dataset": dataset, "n_rows": n_rows, "n_columns": n_columns}
         )
@@ -57,7 +61,6 @@ def get_datasets_covering_x_percent_participants(
 ) -> pd.DataFrame:
     overview = overview.copy()
     total_participants = overview["n_participants"].sum()
-    overview["cumulative_n_participants"] = overview["n_participants"].cumsum()
     top_x_perc = overview[
         overview["cumulative_n_participants"] <= (total_participants * percentage)
     ]
@@ -67,11 +70,12 @@ def get_datasets_covering_x_percent_participants(
 
 
 def main():
-    all_datasets_overview = create_all_openneuro_datasets_overview(OPENNEURO_DATA_DIR)
-    all_datasets_overview = all_datasets_overview.sort_values(
-        by="n_rows", ascending=False
-    )
-    write_tsv(all_datasets_overview, OUT_DIR / "all_openneuro_datasets_overview.tsv")
+    # all_datasets_overview = create_all_openneuro_datasets_overview(OPENNEURO_DATA_DIR)
+    # all_datasets_overview = all_datasets_overview.sort_values(
+    #     by="n_rows", ascending=False
+    # )
+    # write_tsv(all_datasets_overview, OUT_DIR / "all_openneuro_datasets_overview.tsv")
+    all_datasets_overview = pd.read_csv(RESOURCES_DIR / "data_overview.tsv", sep="\t")
 
     total_datasets = len(all_datasets_overview)
 
@@ -123,6 +127,9 @@ def main():
         by="n_participants", ascending=False
     )
 
+    datasets_with_tsvs_sorted["cumulative_n_participants"] = datasets_with_tsvs_sorted[
+        "n_participants"
+    ].cumsum()
     # Determine datasets needed to cover ~50% of all participants across datasets
     top_50_perc = get_datasets_covering_x_percent_participants(
         overview=datasets_with_tsvs_sorted, percentage=0.5
@@ -153,11 +160,11 @@ def main():
         f"Unannotated dataset in top 50% with fewest columns: {unannotated_min_cols_row['dataset']}, n_columns: {unannotated_min_cols_row['n_columns']}"
     )
 
-    write_tsv(datasets_with_tsvs_sorted, OUT_DIR / "openneuro_tabular_info.tsv")
-    write_tsv(top_50_perc, OUT_DIR / "openneuro_tabular_top_50_percent.tsv")
+    write_tsv(datasets_with_tsvs_sorted, RESOURCES_DIR / "openneuro_tabular.tsv")
+    write_tsv(top_50_perc, RESOURCES_DIR / "openneuro_tabular_top_50_percent.tsv")
     write_tsv(
         top_50_perc_unannotated,
-        OUT_DIR / "openneuro_tabular_top_50_percent_unannotated.tsv",
+        RESOURCES_DIR / "openneuro_tabular_top_50_percent_unannotated.tsv",
     )
 
 

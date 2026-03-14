@@ -1,0 +1,32 @@
+participant_id	date	player1_age	player1_gender	player1_handedness	player1_pre_processing_channels_fixed	player2_age	player2_gender	player2_handedness	player2_pre_processing_channels_fixed
+sub-01	9/11/2021	25	F	R		35	M	R	T8
+sub-02	16/11/2021	22	F	R	"FC5, T7, POz, P2"	27	F	R	
+sub-03	23/11/2021	26	F	L	"T7, P6"	30	F	R	FC1
+sub-04	23/11/2021	32	M	R	"T7, T8, O1"	27	M	R	"T7, T8"
+sub-05	24/11/2021	26	F	R		24	M	R	"T7, T8"
+sub-06	1/12/2021	20	F	R	"C1, T7, CP2"	18	F	R	AF8
+sub-07	7/12/2021	18	M	R	"T7, TP7, P5, P10"	18	F	R	"O1, F4, F8"
+sub-08	7/12/2021	42	F	R	"T7, TP8"	29	F	R	
+sub-09	14/12/2021	25	F	R		34	F	R	"P1, O2"
+sub-11	15/12/2021	21	F	R	"AF7, FT7, FC5, P1, PO3"	22	F	R	P6
+sub-12	15/12/2021	21	M	R	"F2, F4, PO4"	21	F	R	"F6, FT8"
+sub-13	7/6/2022	36	F	R		37	M	R	
+sub-14	17/6/2022	30	M	R		39	M	R	
+sub-15	26/6/2022	23	F	L		24	M	R	
+sub-16	30/6/2022	38	F	R		23	F	R	
+sub-17	1/7/2022	34	M	L		47	M	A	
+sub-18	4/7/2022	23	M	R		24	M	R	"POz, PO4, P2"
+sub-19	6/7/2022	33	F	R		29	F	R	
+sub-20	12/7/2022	33	F	R		47	M	R	P4
+sub-21	26/9/2022	22	F	R		24	F	R	
+sub-22	15/10/2022	34	F	R		23	F	L	
+sub-25	17/11/2022	32	M	R		32	M	R	
+sub-26	24/11/2022	30	M	R		21	M	R	
+sub-27	24/11/2022	31	F	R		30	F	R	
+sub-28	24/1/2023	25	M	R		21	F	R	
+sub-29	19/1/2023	18	F	R	"CP1, PO3"	23	M	R	
+sub-30	19/1/2023	33	F	L		29	F	R	
+sub-31	27/1/2023	24	NB	R	"POz, FC4, P10"	23	F	R	
+sub-32	27/1/2023	30	M	L		32	F	R	
+sub-33	24/2/2023	24	F	R		22	F	R	
+sub-34	31/3/2023	32	F	R	TP7	29	NB	R	

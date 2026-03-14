@@ -1,0 +1,5 @@
+participant_id	sex	age	first_language	handedness	handedness_preference	highest_education
+sub-01	F	23	English	right	4	bachelors
+sub-02	M	23	English	right	5	bachelors
+sub-03	F	30	Greek	right	5	masters
+sub-04	M	26	English	right	4	masters

@@ -1,0 +1,46 @@
+participant_id	study_date	sex	DOB	age	highest_level_of_ed	proficiency_English	vision_difficulty	hearing_impairments	neurological_psychiatric_diagnosis	medication	medication_if_y	neurological_illness_brain_injury	illness_if_y	tired	stress	alcohol_consumption	alcohol_consumption_if_y	caffeine_consumption	caffeine_consumption_if_y	glasses_contacts	glasses_contacts_prescription	glasses_contacts_reading	right_handed_score	handedness	included	condition	enviro_1_count	enviro_2_count	enviro_3_count	enviro_1_d_count	enviro_2_d_count	enviro_3_d_count	target_count_block_1	target_count_block_2	target_count_block_3	target_count_block_4	target_count_block_5	target_count_block_6	target_count_block_7	target_count_block_8	target_count_block_9	target_count_block_10	target_count_block_11	target_count_block_12	target_count_block_13	target_count_block_14	target_count_block_15
+sub-1	31/10/2017	f	18/10/1994	23	undergrad	n/a	n	n	n	n	n/a	n	n/a	n	n	n	n/a	y	1	n	n/a	n	20	r	1	1	1	2	3	3	1	2	29	33	32	21	23	27	28	21	33	26	24	20	25	31	26
+sub-2	31/10/2017	m	19/03/1992	25	PhD	4	n	n	n	n	n/a	n	n/a	n	n	n	n/a	n	n/a	y	n/a	y	18	r	1	1	2	3	1	1	2	3	35	41	34	22	33	29	26	20	28	26	28	23	30	33	35
+sub-3	3/08/2017	f	31/01/1996	21	undergrad	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	y	n	n/a	n	n/a	y	(-0.5)	y	20	r	1	1	3	1	2	2	3	1	45	39	38	22	29	31	26	21	32	26	28	25	31	29	35
+sub-4	14/11/2017	f	4/12/1995	21	undergrad	n/a	n	n	n	n	n/a	n	n/a	n	y	n	n/a	n	n/a	n	n/a	n	22	r	1	1	1	2	3	3	1	2	30	41	33	22	34	29	26	21	32	27	28	23	28	28	27
+sub-5	5/12/2017	f	11/01/1978	39	PhD	3	n/a	n/a	n/a	y	Atinolol, T3 hormone, Natilix, Lexitan, Benilate arlodipine?	n	n/a	y	n	n	n/a	y	1	y	(+1)	y	22	r	0	1	2	3	1	1	2	3	33	42	31	22	35	28	24	20	26	33	28	24	31	33	35
+sub-6	6/12/2017	f	6/06/1998	19	year 12	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	24	r	0	1	3	1	2	2	3	1	31	39	28	21	19	97	113	21	32	26	29	24	31	33	36
+sub-7	20/12/2017	m	9/02/1991	26	bachelor's degree	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	y	weak	n	22	r	1	1	1	2	3	3	1	2	36	42	33	22	34	30	26	21	32	26	28	24	31	31	35
+sub-8	3/01/2018	f	17/07/1998	19	year 12	n/a	n/a	n/a	n/a	y	Levlen ED	n	n/a	y	n	n	n/a	n	n/a	y	(-0.15) (+0.8)	n	23	r	1	2	1	2	3	2	3	1	35	41	33	22	34	28	26	21	34	24	28	23	31	33	n/a
+sub-9	4/01/2018	m	24/02/1996	21	n/a	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	15	r	1	2	2	3	1	3	1	2	36	43	32	22	33	29	26	21	32	26	27	23	31	33	n/a
+sub-10	5/01/2018	m	24/11/1993	24	cert 3	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	24	r	1	2	3	1	2	1	2	3	31	41	28	21	22	25	24	18	30	28	28	21	28	30	n/a
+sub-11	8/01/2018	f	17/08/1995	22	bachelor's degree	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	24	r	1	2	1	2	3	2	3	1	38	43	34	22	34	28	27	21	32	26	28	23	32	33	n/a
+sub-12	9/01/2018	f	10/12/1995	22	bachelor's degree	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	14	r	1	2	2	3	1	3	1	2	34	42	34	22	34	26	24	20	31	25	28	23	31	33	n/a
+sub-13	9/01/2018	m	7/01/1996	22	tafe	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	19	r	1	2	3	1	2	1	2	3	34	33	28	21	26	29	26	22	33	25	28	23	30	33	n/a
+sub-14	15/01/2018	f	4/04/1987	30	bachelor's degree	n/a	n/a	n/a	n/a	n	n/a	n	n/a	y	n	n	n/a	y	2	n	n/a	y	12	r	1	1	2	3	1	1	2	3	37	40	29	21	34	25	26	19	22	19	28	23	30	35	35
+sub-15	16/01/2018	f	19/12/1987	30	advanced diploma	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	y	n	n/a	y	1	n	n/a	n	22	r	1	1	3	1	2	2	3	1	36	42	34	22	32	29	25	20	32	28	28	23	32	34	33
+sub-16	17/01/2018	m	29/10/1999	18	year 12	4	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	y	n/a	n	16	r	1	1	1	2	3	3	1	2	35	43	33	22	34	29	25	21	32	26	28	23	28	37	36
+sub-17	23/01/2018	f	16/07/1995	22	bachelor's degree	n/a	n/a	n/a	n/a	y	Contraceptive pill	n	n/a	n	n	n	n/a	y	1	n	n/a	n	19	r	1	2	1	2	3	2	3	1	37	42	34	21	34	26	24	21	31	24	25	19	28	25	n/a
+sub-18	1/02/2018	m	31/07/1978	39	year 12	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	12	r	1	2	2	3	1	3	1	2	36	40	32	23	33	29	23	15	14	16	29	20	31	32	n/a
+sub-19	5/02/2018	f	31/01/1994	24	bachelor's degree	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	12	r	1	2	3	1	2	1	2	3	36	43	33	22	35	29	26	21	32	26	28	23	31	33	n/a
+sub-20	6/02/2018	f	21/08/1995	22	bachelor's degree	n/a	n/a	n/a	n/a	y	Levlen ED and Iron supplements	n	n/a	n	y	n	n/a	y	1	n	n/a	n	24	r	1	2	1	2	3	2	3	1	35	43	34	22	34	30	26	21	32	26	28	24	30	33	n/a
+sub-21	5/02/2018	m	14/12/1999	18	year 12	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	y	n	n/a	n	n/a	n	n/a	n	15	r	1	2	3	1	2	1	2	3	36	43	34	22	44	31	26	21	33	26	28	23	31	33	n/a
+sub-22	7/02/2018	f	29/12/1989	28	cert 3	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	21	r	1	2	1	2	3	2	3	1	35	42	39	22	35	29	26	21	32	26	28	22	39	36	n/a
+sub-23	8/02/2018	m	8/03/1987	30	tertiary	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	y	(-10.5)	y	11	n/a	1	1	2	3	1	1	2	3	29	31	29	17	33	29	27	21	32	28	28	23	31	33	35
+sub-24	13/02/2018	m	10/03/1983	34	cert 2	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	18	r	1	1	1	2	3	3	1	2	35	41	33	22	24	29	26	21	32	24	27	21	35	28	28
+sub-25	14/02/2018	m	22/10/1994	23	bachelor's degree	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	18	r	1	2	1	2	3	2	3	1	35	42	33	22	34	29	26	21	32	26	28	23	31	33	n/a
+sub-26	14/02/2018	m	4/10/1996	21	year 12	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	y	1	n	n/a	n	13	r	1	1	3	1	2	2	3	1	33	41	27	20	21	26	27	31	26	14	18	27	29	33	36
+sub-27	21/02/2018	f	23/01/1995	23	bachelor's degree	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	23	r	1	2	3	1	2	1	2	3	35	31	33	22	34	28	26	21	32	26	27	33	30	33	n/a
+sub-28	21/02/2018	m	2/04/1995	22	bachelor's degree	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	y	n	n/a	n	n/a	n	n/a	n	20	r	1	1	2	3	1	1	2	3	37	43	33	22	35	29	26	22	34	29	28	23	31	33	35
+sub-29	5/03/2018	f	26/11/1999	18	year 12	n/a	n/a	n/a	n/a	n	n/a	n	n/a	y	n	n	n/a	n	n/a	n	n/a	n	16	r	1	2	2	3	1	3	1	2	35	36	32	23	30	30	27	24	30	24	27	23	32	33	n/a
+sub-30	5/03/2018	m	4/05/1990	27	bachelor's degree	4	n/a	n/a	n/a	n	n/a	n	n/a	y	n	n	n/a	n	n/a	y	(-3.25)	y	21	r	1	1	1	2	3	3	1	2	48	42	32	22	36	28	23	21	30	23	24	23	20	19	24
+sub-31	6/03/2018	f	2/01/1996	22	commerce	n/a	n/a	n/a	n/a	n	n/a	n	n/a	n	n	n	n/a	n	n/a	y	(-1.75)	n	20	r	1	2	2	3	1	3	1	2	35	41	33	21	34	29	25	19	31	24	23	21	20	31	n/a
+sub-32	13/03/2018	f	26/05/1985	32	bachelor's degree	n/a	n/a	n/a	y	y	Paracodeine	n	n/a	y	y	n	n/a	n	n/a	y	reading glasses	y	13	r	1	2	3	1	2	1	2	3	36	32	29	22	34	29	46	21	31	26	27	23	20	41	n/a
+sub-33	21/03/2018	f	17/10/1995	22	year 12	n/a	n	n	n	n	n/a	n	n/a	n	n	n	n/a	y	2	n/a	n/a	n/a	2	l	0	2	1	2	3	2	3	1	33	42	36	23	25	31	17	20	32	24	29	23	29	34	n/a
+sub-34	22/03/2018	f	12/12/1998	19	year 12	n/a	n	n	n	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n/a	n/a	n/a	14	r	1	1	3	1	2	2	3	1	35	43	27	21	31	29	27	21	33	28	26	24	31	34	50
+sub-35	22/03/2018	f	20/12/1998	19	year 12	n/a	n	n	n	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	18	r	1	2	3	1	2	1	2	3	33	41	25	22	30	25	26	21	30	26	25	24	33	32	n/a
+sub-36	23/03/2018	f	18/08/1999	18	year 12	n/a	n	n	n	n	n/a	n	n/a	y	y	n	n/a	n	n/a	n	n/a	n	23	r	1	1	2	3	1	1	2	3	33	44	34	22	34	28	26	22	29	30	29	25	34	31	35
+sub-37	26/03/2018	f	13/10/1998	19	n/a	n/a	y	n	n	n	n/a	n	n/a	n	y	n	n/a	n	n/a	y	(-2.5)	n	11	n/a	1	1	1	2	3	3	1	2	34	41	31	20	34	28	27	20	31	22	29	20	24	30	31
+sub-38	26/03/2018	f	27/06/1996	21	year 12	n/a	n	n	n	n	n/a	n	n/a	n	n	n	n/a	n	n/a	n/a	n/a	n/a	14	r	1	2	2	3	1	3	1	2	35	43	34	22	34	30	26	21	32	26	27	23	31	33	n/a
+sub-39	27/03/2018	f	15/03/2018	19	diploma	n/a	n	n	n	y	Contraceptive pill	n	n/a	y	n	n	n/a	n	n/a	n	n/a	y	19	r	1	1	3	1	2	2	3	1	35	42	32	22	34	29	26	20	22	26	28	23	31	32	35
+sub-40	27/03/2018	f	6/09/1993	24	year 12	4	n	n	n	n	n/a	n	n/a	y	n	n	n/a	y	1	n	n/a	n	12	r	1	2	3	1	2	1	2	3	76	65	87	56	78	37	49	67	42	48	54	67	77	89	n/a
+sub-41	28/03/2018	f	17/02/1996	22	bachelor's degree	n/a	n	n	n	n	n/a	n	n/a	n	y	n	n/a	n	n/a	n	n/a	n	20	r	1	1	2	3	1	1	2	3	100	112	117	122	134	115	116	127	123	129	110	133	114	123	100
+sub-42	27/03/2018	f	25/05/1999	18	year 12	n/a	n	n	y	y	n/a	n	n/a	n	y	n	n/a	n	n/a	y	n/a	y	14	r	1	1	3	1	2	2	3	1	34	44	33	26	37	29	26	21	33	25	27	22	32	33	34
+sub-43	29/03/2018	m	27/05/1998	19	year 12	n/a	n/a	n/a	n/a	y	cold medication	n	n/a	n	n	n	n/a	n	n/a	n	n/a	n	11	n/a	1	2	1	2	3	2	3	1	34	42	33	22	34	29	26	21	22	26	28	23	27	32	n/a
+sub-44	3/04/2018	f	9/08/1998	19	year 12	n/a	n	n	n	n	n/a	n	n/a	y	y	n	n/a	n	n/a	n	n/a	n	16	r	1	2	1	3	2	3	1	2	32	40	33	22	34	30	26	22	32	25	28	22	31	30	n/a
+

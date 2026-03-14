@@ -1,0 +1,9 @@
+participant_id	age	sex	phenotype	hemisphere	misc_comments
+sub-01	30	f	epilepsy	r	n/a
+sub-02	19	m	epilepsy	r	ANT electrodes
+sub-03	31	f	epilepsy	r	n/a
+sub-04	13	f	epilepsy	l	n/a
+sub-05	46	m	epilepsy	r	n/a
+sub-06	63	m	epilepsy	l	n/a
+sub-07	19	m	epilepsy	l	ANT electrodes
+sub-08	20	f	epilepsy	r	55 trials for one HC pair

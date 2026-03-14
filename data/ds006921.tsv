@@ -1,0 +1,39 @@
+participant_id	ParticipantID	Age	Sex	HandLateralization	FootLateralization	Amputee	Pain	AmputationLevel	AmputationSide	Comment
+sub-15	15	22	M	45	-16	0	0	n/a	n/a	n/a
+sub-17	17	28	F	62	1	0	0	n/a	n/a	n/a
+sub-29	29	24	M	30	9	0	0	n/a	n/a	n/a
+sub-31	31	28	F	44	2	0	0	n/a	n/a	n/a
+sub-34	34	28	F	48	5	0	0	n/a	n/a	n/a
+sub-35	35	24	F	44	4	0	0	n/a	n/a	n/a
+sub-37	37	23	F	53	10	0	0	n/a	n/a	n/a
+sub-39	39	24	F	53	10	0	0	n/a	n/a	n/a
+sub-40	40	24	F	47	11	0	0	n/a	n/a	n/a
+sub-42	42	25	M	49	4	0	0	n/a	n/a	n/a
+sub-44	44	24	F	48	18	0	0	n/a	n/a	n/a
+sub-45	45	26	F	n/a	n/a	0	0	n/a	n/a	n/a
+sub-46	46	26	M	n/a	n/a	0	0	n/a	n/a	n/a
+sub-47	47	25	F	n/a	n/a	0	0	n/a	n/a	n/a
+sub-48	48	28	M	47	3	0	0	n/a	n/a	n/a
+sub-49	49	25	F	46	6	0	0	n/a	n/a	n/a
+sub-50	50	26	F	66	11	0	0	n/a	n/a	n/a
+sub-7	7	27	F	35	2	0	0	n/a	n/a	n/a
+sub-8	8	24	M	48	n/a	0	0	n/a	n/a	n/a
+sub-16	16	47	M	-58	19	1	0	Transhumeral	Right	n/a
+sub-21	21	44	M	36	1	1	0	Transradial	Left	Basically missing only the hand
+sub-24	24	46	M	60	10	1	0	Transhumeral	Left	n/a
+sub-25	25	39	F	53	n/a	1	0	Transfemoral	Right	Due to congenital malformation, amputated in childhood
+sub-33	33	77	M	n/a	n/a	1	0	Transtibial	Left	n/a
+sub-51	51	45	M	72	15	1	0	Transhumeral	Right	n/a
+sub-10	10	35	M	39	2	1	1	Transfemoral	Right	n/a
+sub-11	11	61	F	72	18	1	1	Transradial and transtibial	Quadruple	n/a
+sub-14	14	45	M	n/a	n/a	1	1	Transtibial	Right	n/a
+sub-18	18	43	F	64	4	1	1	Knee exarticulation	Right	n/a
+sub-2	2	57	M	52	16	1	1	Transtibial	Right	n/a
+sub-20	20	64	M	n/a	n/a	1	1	Transfemoral	Bilateral	n/a
+sub-26	26	38	F	64	-8	1	1	Transfemoral	Right	n/a
+sub-27	27	39	M	40	16	1	1	Transfemoral	Right	n/a
+sub-3	3	51	M	20	-4	1	1	Trashumeral	Right	n/a
+sub-4	4	50	M	52	16	1	1	Tanshumeral	Left	n/a
+sub-5	5	66	M	72	3	1	1	Transhumeral	Right	n/a
+sub-6	6	45	F	52	2	1	1	Transradial	Left	n/a
+sub-9	9	27	M	n/a	n/a	1	1	Transhumeral	Right	Handedness: Right

@@ -1,0 +1,13 @@
+participant_id	participant	date	sex	handedness	age	order	stimuli
+sub-27	27	18-Mar-2022 13:55:40	F	R	24	50-50 mixed 80-20	a lemon an orange
+sub-28	28	21-Mar-2022 14:57:27	F	R	30	80-20 mixed 50-50	a cherry an orange
+sub-29	29	31-Mar-2022 15:03:22	M	R	22	80-20 50-50 mixed	a cherry a lemon
+sub-30	30	04-Apr-2022 15:47:01	F	R	24	mixed 80-20 50-50	an orange a lemon
+sub-31	31	06-Apr-2022 11:00:58	F	R	23	mixed 50-50 80-20	a cherry a lemon
+sub-32	32	07-Apr-2022 13:33:53	M	R	52	50-50 80-20 mixed	a cherry an orange
+sub-33	33	08-Apr-2022 13:10:38	F	L	56	mixed 80-20 50-50	a lemon an orange
+sub-34	34	08-Apr-2022 15:52:25	M	R	32	50-50 80-20 mixed	an orange a lemon
+sub-35	35	13-Apr-2022 10:04:33	M	R	42	80-20 50-50 mixed	a cherry an orange
+sub-36	36	13-Apr-2022 12:21:42	M	R	77	mixed 80-20 50-50	a cherry a lemon
+sub-37	37	25-Apr-2022 14:07:29	F	R	68	50-50 80-20 mixed	a cherry an orange
+sub-38	38	27-Apr-2022 14:06:19	F	R	46	mixed 80-20 50-50	a cherry an orange

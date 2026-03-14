@@ -1,0 +1,54 @@
+participant_id	age	sex	handedness	education_years	ethnicity	final_sample_stimulus_locked
+sub-01	22	M	right	16	white	included
+sub-02	22	M	right	16	white	included
+sub-03	22	F	right	16	white	excluded
+sub-04	21	M	right	15	asian	excluded
+sub-07	18	M	right	13	white	included
+sub-08	19	M	right	13	white	included
+sub-09	18	F	right	13	hispanic	included
+sub-10	18	F	right	13	white/asian	included
+sub-11	21	F	right	16	asian	included
+sub-12	20	F	right	15	white	included
+sub-13	20	F	right	15	white	included
+sub-14	18	F	right	13	hispanic	included
+sub-15	19	F	right	14	white	excluded
+sub-16	24	M	right	16	caucasian	included
+sub-17	19	O	right	14	white	included
+sub-18	18	M	right	13	latino	included
+sub-19	20	F	left	15	white	included
+sub-21	19	F	right	14	african american	included
+sub-22	19	M	right	13	hispanic	included
+sub-23	18	F	right	13	white/asian	included
+sub-24	18	M	right	13	black	included
+sub-25	20	F	left	16	white/asian	excluded
+sub-28	22	F	left	16	white	included
+sub-30	18	F	left	13	african american	included
+sub-32	18	M	left	13	white	included
+sub-33	33	M	right	14	asian	excluded
+sub-34	20	F	right	14	african american	included
+sub-35	21	F	right	16	african american	included
+sub-36	19	M	right	14	african american	excluded
+sub-39	18	F	right	13	white	excluded
+sub-40	18	M	right	13	caucasian	included
+sub-41	18	F	right	13	asian	excluded
+sub-43	19	M	right	13	african american	excluded
+sub-46	25	M	right	13	asian	excluded
+sub-47	19	F	right	15	white	included
+sub-48	18	F	right	13	white/hispanic	included
+sub-49	20	F	right	13	white	included
+sub-50	20	F	right	14	african american	included
+sub-51	18	M	right	14	hispanic	included
+sub-52	19	F	right	14	black	excluded
+sub-53	18	F	right	13	black	excluded
+sub-54	19	F	right	13	white	included
+sub-58	18	F	right	13	caucasian	included
+sub-59	22	M	right	16	white	included
+sub-61	19	F	right	14	white	included
+sub-62	22	M	right	16	hispanic	included
+sub-64	18	M	right	13	african american	included
+sub-69	18	F	right	13	hispanic	included
+sub-70	19	F	right	13	white	included
+sub-72	19	F	right	13	black/african american	excluded
+sub-73	18	M	right	14	african american	included
+sub-74	20	M	right	15	asian	excluded
+sub-76	18	F	right	13	white	included

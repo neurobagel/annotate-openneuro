@@ -1,0 +1,161 @@
+participant_id	age	sex	race	ethnicity	highest_education	income	clinical_scores	fMRI_data	AXCPT	AS	SST	Flanker	CALM_IT
+sub-21201	17.69	F	White or Caucasian	0.0	1.0	8.0	0	0	0	0	0	0	0
+sub-21666	16.35	M	Black or African American	0.0	2.0	7.0	1	1	0	0	1	1	1
+sub-21776	19.84	F	Black or African American	0.0	n/a	n/a	0	0	0	0	0	0	0
+sub-22434	16.25	M	White or Caucasian	0.0	1.0	9.0	1	0	1	1	1	1	1
+sub-22485	17.27	M	White or Caucasian	0.0	2.0	8.0	1	0	1	1	1	1	1
+sub-22719	16.53	M	White or Caucasian	0.0	1.0	8.0	1	0	0	0	0	0	1
+sub-22857	15.7	M	White or Caucasian	1.0	2.0	7.0	0	0	0	0	0	0	0
+sub-22862	19.4	M	Asian	0.0	1.0	8.0	1	1	0	1	1	1	1
+sub-22978	15.93	F	Black or African American	1.0	5.0	5.0	1	0	0	0	0	0	1
+sub-23032	16.42	F	Asian	0.0	n/a	n/a	1	0	1	0	1	1	1
+sub-23069	13.03	F	Asian	0.0	n/a	n/a	1	1	1	0	1	1	1
+sub-23124	17.43	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-23159	17.96	M	White or Caucasian	1.0	1.0	8.0	1	0	0	0	1	1	1
+sub-23179	15.19	M	White or Caucasian	0.0	1.0	9.0	1	0	0	0	0	0	1
+sub-23447	17.06	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-23456	19.68	M	More than One Race	0.0	2.0	8.0	1	0	0	0	0	0	1
+sub-23534	11.97	F	White or Caucasian	0.0	1.0	8.0	1	0	1	1	1	1	1
+sub-23559	17.82	F	More than One Race	0.0	n/a	n/a	1	0	1	1	1	1	0
+sub-23622	12.29	M	More than One Race	1.0	1.0	9.0	1	0	1	0	0	0	1
+sub-23629	12.71	F	More than One Race	1.0	2.0	3.0	1	0	1	0	0	0	1
+sub-23658	13.76	M	White or Caucasian	0.0	1.0	9.0	1	0	1	1	1	1	1
+sub-23677	15.2	F	More than One Race	0.0	n/a	n/a	1	1	0	0	1	1	1
+sub-23683	15.28	F	White or Caucasian	0.0	2.0	7.0	1	0	0	1	1	1	1
+sub-23707	16.03	M	Black or African American	0.0	1.0	9.0	1	0	0	0	0	1	1
+sub-23724	16.32	F	White or Caucasian	0.0	1.0	8.0	1	0	0	0	1	1	1
+sub-23776	16.07	M	White or Caucasian	0.0	1.0	9.0	1	0	0	0	1	1	1
+sub-23781	17.08	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-23789	12.65	M	Black or African American	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-23790	10.77	M	Black or African American	0.0	1.0	8.0	1	0	0	1	1	1	1
+sub-23807	11.45	M	White or Caucasian	0.0	1.0	8.0	1	0	1	1	1	1	1
+sub-23822	11.61	F	White or Caucasian	0.0	1.0	8.0	1	0	1	0	1	1	1
+sub-23827	16.04	M	More than One Race	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-23831	12.23	M	White or Caucasian	0.0	n/a	n/a	1	1	0	0	0	0	1
+sub-23836	12.8	M	White or Caucasian	0.0	1.0	8.0	1	0	0	0	1	1	1
+sub-23837	14.77	M	White or Caucasian	0.0	n/a	n/a	1	1	0	0	0	0	1
+sub-23872	12.24	M	White or Caucasian	0.0	2.0	8.0	1	1	1	0	1	1	1
+sub-23873	13.93	F	White or Caucasian	0.0	2.0	8.0	1	0	1	1	1	1	1
+sub-23887	12.88	M	White or Caucasian	0.0	2.0	9.0	1	0	0	0	1	1	1
+sub-23939	13.0	F	White or Caucasian	0.0	n/a	n/a	0	0	0	0	0	0	0
+sub-23947	15.28	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	1	1	1
+sub-23987	17.75	F	White or Caucasian	0.0	1.0	8.0	1	1	1	1	1	1	1
+sub-23990	13.88	F	White or Caucasian	0.0	2.0	8.0	1	1	0	0	1	1	1
+sub-23993	20.22	M	White or Caucasian	0.0	1.0	9.0	1	0	1	1	1	1	1
+sub-23995	16.2	F	White or Caucasian	0.0	1.0	9.0	1	1	1	0	1	1	1
+sub-23996	13.77	M	White or Caucasian	0.0	1.0	9.0	1	1	1	1	1	1	1
+sub-24016	16.32	M	White or Caucasian	1.0	1.0	8.0	1	0	1	1	1	1	1
+sub-24032	13.28	M	More than One Race	2.0	2.0	7.0	1	0	1	1	1	0	0
+sub-24050	19.72	M	Unknown	1.0	3.0	5.0	1	0	0	1	1	1	0
+sub-24069	12.33	F	White or Caucasian	0.0	n/a	n/a	1	0	1	1	1	1	1
+sub-24074	16.41	M	Black or African American	0.0	n/a	n/a	1	0	1	1	1	1	1
+sub-24076	10.2	M	White or Caucasian	0.0	1.0	8.0	1	1	0	1	0	0	1
+sub-24104	13.0	M	White or Caucasian	0.0	1.0	9.0	1	0	0	1	1	1	1
+sub-24141	10.9	M	White or Caucasian	0.0	1.0	9.0	1	0	0	0	0	1	1
+sub-24146	15.76	M	White or Caucasian	0.0	1.0	8.0	1	1	1	1	1	1	1
+sub-24157	11.84	F	Other	0.0	2.0	8.0	1	1	1	1	1	1	1
+sub-24159	14.04	F	White or Caucasian	1.0	1.0	8.0	1	0	1	1	1	1	1
+sub-24162	15.06	M	White or Caucasian	0.0	1.0	8.0	1	1	1	1	1	1	1
+sub-24178	10.24	M	Black or African American	0.0	1.0	9.0	1	1	0	1	1	1	1
+sub-24182	14.61	M	White or Caucasian	0.0	1.0	8.0	1	0	1	0	1	1	1
+sub-24183	19.23	F	White or Caucasian	0.0	n/a	n/a	0	0	0	0	0	0	1
+sub-24196	16.33	M	White or Caucasian	1.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24197	14.61	F	White or Caucasian	0.0	n/a	n/a	1	1	1	1	1	1	1
+sub-24198	13.01	M	White or Caucasian	0.0	n/a	n/a	1	0	1	0	1	1	1
+sub-24234	13.88	M	Black or African American	0.0	n/a	n/a	1	1	0	0	0	0	1
+sub-24237	10.75	F	More than One Race	0.0	2.0	8.0	1	0	0	0	1	0	1
+sub-24239	13.03	M	White or Caucasian	0.0	1.0	9.0	1	0	0	1	1	1	1
+sub-24245	10.9	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24246	11.61	F	White or Caucasian	0.0	n/a	n/a	1	1	1	1	1	1	1
+sub-24248	9.98	M	White or Caucasian	0.0	n/a	n/a	1	0	1	1	0	1	0
+sub-24249	12.99	M	More than One Race	0.0	2.0	8.0	1	1	1	1	1	1	1
+sub-24250	16.18	M	More than One Race	0.0	2.0	8.0	1	0	0	0	1	0	1
+sub-24254	15.71	F	Black or African American	0.0	2.0	7.0	1	0	0	0	1	0	1
+sub-24262	9.43	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	1	1
+sub-24270	13.63	F	More than One Race	0.0	2.0	8.0	1	1	1	1	1	1	1
+sub-24275	17.28	F	White or Caucasian	0.0	1.0	9.0	1	1	1	1	1	1	1
+sub-24276	10.05	M	More than One Race	0.0	2.0	8.0	1	1	1	1	1	1	1
+sub-24279	12.81	M	More than One Race	0.0	n/a	n/a	0	0	0	0	0	0	0
+sub-24300	9.98	F	White or Caucasian	1.0	1.0	8.0	1	1	1	1	1	1	1
+sub-24312	14.19	F	More than One Race	0.0	1.0	9.0	1	0	1	1	1	1	1
+sub-24369	14.98	M	White or Caucasian	0.0	1.0	9.0	1	0	1	1	1	1	1
+sub-24374	17.14	F	White or Caucasian	0.0	1.0	9.0	1	0	1	1	1	1	1
+sub-24375	13.81	M	White or Caucasian	0.0	2.0	8.0	1	1	1	1	0	1	1
+sub-24386	16.26	F	White or Caucasian	0.0	2.0	8.0	1	1	0	0	0	0	1
+sub-24391	9.53	M	White or Caucasian	0.0	n/a	n/a	0	0	0	0	0	0	1
+sub-24395	10.77	F	Black or African American	1.0	1.0	n/a	1	1	1	1	1	1	1
+sub-24396	11.62	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	1	1	1
+sub-24400	9.66	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24402	10.86	M	White or Caucasian	0.0	1.0	9.0	1	0	0	0	1	1	1
+sub-24408	12.58	M	American Indian/Alaska Native	0.0	1.0	9.0	1	0	1	1	1	1	1
+sub-24412	10.15	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24414	10.58	F	More than One Race	0.0	1.0	9.0	1	0	0	0	0	0	1
+sub-24418	9.84	F	White or Caucasian	0.0	1.0	9.0	1	0	0	0	0	0	1
+sub-24424	9.86	F	White or Caucasian	0.0	1.0	8.0	1	0	0	0	0	0	1
+sub-24425	9.29	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24427	15.59	M	White or Caucasian	0.0	n/a	n/a	1	0	1	0	1	1	1
+sub-24428	17.77	F	White or Caucasian	0.0	2.0	8.0	1	0	1	1	1	1	1
+sub-24429	12.43	F	White or Caucasian	0.0	n/a	n/a	1	0	1	1	1	1	1
+sub-24432	10.99	M	White or Caucasian	0.0	n/a	n/a	0	0	0	0	0	0	1
+sub-24433	14.28	F	More than One Race	0.0	1.0	8.0	1	0	0	0	0	1	1
+sub-24435	15.21	F	White or Caucasian	0.0	1.0	8.0	1	1	0	0	0	0	1
+sub-24439	13.81	F	More than One Race	0.0	n/a	n/a	1	1	0	0	0	0	1
+sub-24440	9.0	M	Black or African American	0.0	1.0	9.0	1	0	0	0	1	1	1
+sub-24452	12.72	M	More than One Race	0.0	1.0	7.0	1	1	0	0	0	0	1
+sub-24462	13.53	F	White or Caucasian	2.0	1.0	8.0	1	1	0	0	1	1	1
+sub-24469	8.8	F	White or Caucasian	0.0	1.0	99.0	1	0	1	0	1	1	1
+sub-24486	10.05	M	Asian	0.0	1.0	8.0	1	0	0	0	0	0	1
+sub-24487	16.05	F	Black or African American	0.0	1.0	9.0	1	1	1	0	1	1	1
+sub-24488	13.88	F	White or Caucasian	0.0	2.0	8.0	1	0	0	0	0	0	1
+sub-24489	11.19	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24490	9.87	M	More than One Race	0.0	1.0	8.0	1	0	1	1	1	1	1
+sub-24492	16.37	F	White or Caucasian	0.0	1.0	8.0	1	0	0	0	0	0	1
+sub-24495	17.77	F	White or Caucasian	0.0	2.0	9.0	1	0	0	0	0	0	1
+sub-24500	15.74	F	More than One Race	0.0	1.0	9.0	1	0	1	1	0	1	1
+sub-24501	14.85	F	More than One Race	0.0	1.0	9.0	1	0	0	0	0	0	1
+sub-24502	10.04	M	White or Caucasian	0.0	2.0	9.0	1	1	0	0	0	0	1
+sub-24503	15.93	M	n/a	n/a	1.0	9.0	0	0	0	0	0	0	0
+sub-24512	15.98	M	White or Caucasian	0.0	1.0	9.0	1	1	0	0	0	0	1
+sub-24516	8.35	F	White or Caucasian	0.0	1.0	9.0	1	0	0	0	0	0	1
+sub-24523	11.92	M	White or Caucasian	0.0	2.0	4.0	0	0	0	0	0	0	1
+sub-24532	9.15	M	White or Caucasian	0.0	1.0	8.0	1	1	0	1	1	1	1
+sub-24536	14.78	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24537	12.66	M	White or Caucasian	0.0	n/a	n/a	1	0	1	1	0	0	1
+sub-24539	11.81	M	Asian	0.0	2.0	8.0	1	0	0	0	0	0	1
+sub-24541	9.44	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24547	10.71	M	White or Caucasian	0.0	1.0	8.0	1	0	0	0	0	0	1
+sub-24551	8.76	F	White or Caucasian	0.0	2.0	8.0	1	0	0	0	1	1	1
+sub-24552	12.21	M	Unknown	0.0	1.0	9.0	1	0	0	0	0	1	1
+sub-24554	10.51	M	White or Caucasian	0.0	1.0	9.0	1	0	0	0	0	0	1
+sub-24555	9.69	M	White or Caucasian	0.0	1.0	8.0	0	0	0	0	0	0	0
+sub-24556	15.46	M	More than One Race	0.0	1.0	9.0	1	0	0	0	1	1	1
+sub-24557	15.92	M	White or Caucasian	0.0	1.0	9.0	1	0	0	1	1	1	1
+sub-24559	13.49	M	White or Caucasian	0.0	1.0	9.0	1	0	0	0	0	0	1
+sub-24560	15.79	F	White or Caucasian	0.0	1.0	8.0	1	1	0	0	1	1	1
+sub-24566	16.64	F	White or Caucasian	0.0	1.0	9.0	1	0	0	1	0	1	1
+sub-24570	8.35	M	More than One Race	0.0	2.0	9.0	1	1	0	0	1	1	1
+sub-24571	17.71	F	White or Caucasian	0.0	1.0	8.0	0	1	1	0	1	1	1
+sub-24591	11.57	F	White or Caucasian	0.0	2.0	7.0	1	0	0	0	0	0	1
+sub-24619	11.07	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24623	11.98	M	More than One Race	0.0	n/a	n/a	1	0	0	0	0	1	1
+sub-24625	10.25	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24633	13.9	F	White or Caucasian	1.0	1.0	9.0	1	1	0	0	0	0	1
+sub-24647	14.51	F	American Indian/Alaska Native	1.0	1.0	9.0	1	0	0	0	0	0	1
+sub-24649	12.25	M	White or Caucasian	0.0	2.0	7.0	0	0	0	0	0	1	1
+sub-24650	17.17	M	Black or African American	0.0	1.0	9.0	1	0	0	0	0	0	1
+sub-24653	11.16	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24654	11.96	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24657	8.25	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24658	17.17	F	White or Caucasian	1.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24671	14.28	M	White or Caucasian	0.0	2.0	7.0	0	0	0	0	0	0	1
+sub-24682	9.97	M	White or Caucasian	0.0	1.0	9.0	1	0	0	0	0	0	1
+sub-24685	14.75	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	1	1
+sub-24687	12.88	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24690	11.66	M	Black or African American	0.0	n/a	n/a	1	0	0	0	0	0	0
+sub-24691	11.73	F	White or Caucasian	0.0	n/a	n/a	0	0	0	0	0	0	1
+sub-24694	15.16	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24708	9.42	M	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24719	14.91	F	White or Caucasian	0.0	n/a	n/a	1	0	0	0	0	0	1
+sub-24720	17.7	F	White or Caucasian	0.0	1.0	8.0	1	0	0	0	0	0	1
+sub-24721	8.92	F	Black or African American	0.0	2.0	9.0	0	0	0	0	0	0	0
+sub-25448	13.12	F	White or Caucasian	0.0	1.0	9.0	0	0	0	0	0	0	1

@@ -1,0 +1,14 @@
+participant_id	age	sex	handedness score
+sub-01	39,5	M	0,3
+sub-02	32,8	M	1
+sub-04	26,9	M	0,8
+sub-05	27,4	M	0,6
+sub-06	33,1	M	0,7
+sub-07	38,8	M	1
+sub-08	36,5	F	1
+sub-09	38,5	F	1
+sub-11	35,8	M	1
+sub-12	40,8	M	1
+sub-13	28,2	M	0,6
+sub-14	28,3	M	0,7
+sub-15	30,3	M	0,9

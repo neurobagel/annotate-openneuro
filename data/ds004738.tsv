@@ -1,0 +1,5 @@
+participant_id	Manufacturer	ModelName	ElectrodeModelName
+sub-abtpc	Abbott	Infinity 7	6172
+sub-bscpc	Boston Scientific	Vercise PC	n/a
+sub-mdtpc	Medtronic	Activa PC	3387
+sub-noIPG	none	none	none

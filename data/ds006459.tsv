@@ -1,0 +1,18 @@
+participant_id	age	sex	handedness	HeadCircumference	NasiontoInion	EartoEar	ArrayWornOrder	CapSize
+1	24	F	L	56	34	34	Sparse	56
+2	26	F	R	58	34	34	Sparse	58
+3	24	M	R	58.5	37.5	38	HD	58
+4	27	M	R	58	38	34.5	Sparse	58
+5	23	F	R	56	35	35	Sparse	56
+6	31	F	R	53	32	36	HD	54
+7	21	M	R	58	37	38	Sparse	56
+8	19	F	R	56	35	34	HD	56
+9	23	M	R	58	37.5	37	Sparse	56
+10	22	F	R	56	34.5	34	Sparse	54
+11	36	M	R	55	33	36	HD	56
+12	23	M	R	58	36	36	HD	58
+13	29	M	R	59	38	38	HD	58
+14	23	M		57	35	34	Sparse	58
+15	30	M	R	57	37	38	HD	58
+16	30	F	R	56	35.5	36	Sparse	58
+17	27	F	L	57.5	35.5	36	HD	56

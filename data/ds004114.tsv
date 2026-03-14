@@ -1,0 +1,752 @@
+participant_id	session_id	dataset_id	rat_strain	rat_sex	rat_age	rat_weight	anesthesia_induction	anesthesia_induction_dose	anesthesia_maintenance	anesthesia_maintenance_dose	anesthesia_route	anesthesia_post_induction_time	anesthesia_breathing_assistance	anesthesia_breathing_rate	anesthesia_heart_rate	MRI_vendor	MRI_field_strength	anat_sequence	anat_contrast	anat_TR	anat_TE	func_sequence	func_TR	func_TE	func_FA
+sub-0100100	ses-1	1001	Long Evans	Male	n/a	250-300	isoflurane	5	urethane	1250	n/a	60	free-breathing	90	510	Bruker	9.4	turboRARE	T2	3.6	0.031	GE-EPI	0.5	0.02	90
+sub-0100101	ses-1	1001	Long Evans	Male	n/a	200-250	isoflurane	5	urethane	1250	n/a	60	free-breathing	110	400	Bruker	9.4	turboRARE	T2	3.6	0.031	GE-EPI	0.5	0.02	90
+sub-0100102	ses-1	1001	Long Evans	Male	n/a	250-300	isoflurane	5	urethane	1250	n/a	60	free-breathing	80	490	Bruker	9.4	turboRARE	T2	3.6	0.031	GE-EPI	0.5	0.02	90
+sub-0100103	ses-1	1001	Long Evans	Male	n/a	250-300	isoflurane	5	urethane	1250	n/a	60	free-breathing	80	500	Bruker	9.4	turboRARE	T2	3.6	0.031	GE-EPI	0.5	0.02	90
+sub-0100104	ses-1	1001	Long Evans	Male	n/a	250-300	isoflurane	5	urethane	1250	n/a	60	free-breathing	120	490	Bruker	9.4	turboRARE	T2	3.6	0.031	GE-EPI	0.5	0.02	90
+sub-0100105	ses-1	1001	Long Evans	Male	n/a	250-300	isoflurane	5	urethane	1250	n/a	60	free-breathing	120	320	Bruker	9.4	turboRARE	T2	3.6	0.031	GE-EPI	0.5	0.02	90
+sub-0100106	ses-1	1001	Long Evans	Male	n/a	300-350	isoflurane	5	urethane	1250	n/a	60	free-breathing	120	290	Bruker	9.4	turboRARE	T2	3.6	0.031	GE-EPI	0.5	0.02	90
+sub-0100107	ses-1	1001	Long Evans	Male	n/a	300-350	isoflurane	5	urethane	1250	n/a	60	free-breathing	100	370	Bruker	9.4	turboRARE	T2	3.6	0.031	GE-EPI	0.5	0.02	90
+sub-0100108	ses-1	1001	Long Evans	Male	n/a	250-300	isoflurane	5	urethane	1250	n/a	60	free-breathing	80	450	Bruker	9.4	turboRARE	T2	3.6	0.031	GE-EPI	0.5	0.02	90
+sub-0100109	ses-1	1001	Long Evans	Male	n/a	300-350	isoflurane	5	urethane	1250	n/a	60	free-breathing	110	520	Bruker	9.4	turboRARE	T2	3.6	0.031	GE-EPI	0.5	0.02	90
+sub-0100200	ses-1	1002	Sprague Dawley	Male	2-4	n/a	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	320	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100200	ses-2	1002	Sprague Dawley	Male	2-4	n/a	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	320	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100201	ses-1	1002	Sprague Dawley	Male	2-4	n/a	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	320	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100201	ses-2	1002	Sprague Dawley	Male	2-4	n/a	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	320	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100202	ses-1	1002	Sprague Dawley	Male	0-2	n/a	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	320	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100202	ses-2	1002	Sprague Dawley	Male	0-2	n/a	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	320	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100203	ses-1	1002	Sprague Dawley	Male	0-2	n/a	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	320	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100203	ses-2	1002	Sprague Dawley	Male	0-2	n/a	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	320	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100204	ses-1	1002	Sprague Dawley	Male	0-2	200-250	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100205	ses-1	1002	Sprague Dawley	Male	0-2	250-300	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100206	ses-1	1002	Sprague Dawley	Male	0-2	200-250	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100207	ses-1	1002	Sprague Dawley	Male	0-2	200-250	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100208	ses-1	1002	Sprague Dawley	Male	0-2	250-300	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100209	ses-1	1002	Sprague Dawley	Male	0-2	250-300	isoflurane	4	isoflurane	2	n/a	50	free-breathing	50	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100300	ses-1	1003	Sprague Dawley	Male	0-2	350-400	isoflurane / medetomidine	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100301	ses-1	1003	Sprague Dawley	Male	0-2	350-400	isoflurane	4 / 0.05	isoflurane / medetomidine	0.25 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100302	ses-1	1003	Sprague Dawley	Male	0-2	350-400	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100303	ses-1	1003	Sprague Dawley	Male	0-2	350-400	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100304	ses-1	1003	Sprague Dawley	Male	0-2	350-400	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100305	ses-1	1003	Sprague Dawley	Male	0-2	400-450	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100306	ses-1	1003	Sprague Dawley	Male	0-2	300-350	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100306	ses-2	1003	Sprague Dawley	Male	2-4	400-450	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100307	ses-1	1003	Sprague Dawley	Male	0-2	350-350	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100307	ses-2	1003	Sprague Dawley	Male	2-4	450-500	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100308	ses-1	1003	Sprague Dawley	Male	0-2	200-250	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100308	ses-2	1003	Sprague Dawley	Male	2-4	300-350	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100309	ses-1	1003	Sprague Dawley	Male	0-2	300-350	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100309	ses-2	1003	Sprague Dawley	Male	2-4	350-400	isoflurane	4 / 0.05	isoflurane / medetomidine	0.5 / 0.15	s.c	50	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	1.5	0.011	90
+sub-0100400	ses-1	1004	Wistar	Male	2-4	300-350	isoflurane	3	isoflurane	1.3	n/a	90	free-breathing	60	n/a	Varian/Agilent	9.4	FSE	T2	2.5	0.04	SE-EPI	2	0.045	90
+sub-0100401	ses-1	1004	Wistar	Male	2-4	300-350	isoflurane	3	isoflurane	1.3	n/a	90	free-breathing	60	n/a	Varian/Agilent	9.4	FSE	T3	2.5	0.04	SE-EPI	2	0.045	90
+sub-0100402	ses-1	1004	Wistar	Male	2-4	300-350	isoflurane	3	isoflurane	1.3	n/a	90	free-breathing	60	n/a	Varian/Agilent	9.4	FSE	T4	2.5	0.04	SE-EPI	2	0.045	90
+sub-0100403	ses-1	1004	Wistar	Male	2-4	300-350	isoflurane	3	isoflurane	1.3	n/a	90	free-breathing	60	n/a	Varian/Agilent	9.4	FSE	T5	2.5	0.04	SE-EPI	2	0.045	90
+sub-0100404	ses-1	1004	Wistar	Male	2-4	300-350	isoflurane	3	isoflurane	1.3	n/a	90	free-breathing	60	n/a	Varian/Agilent	9.4	FSE	T6	2.5	0.04	SE-EPI	2	0.045	90
+sub-0100405	ses-1	1004	Wistar	Male	2-4	300-350	isoflurane	3	isoflurane	1.3	n/a	90	free-breathing	60	n/a	Varian/Agilent	9.4	FSE	T7	2.5	0.04	SE-EPI	2	0.045	90
+sub-0100406	ses-1	1004	Wistar	Male	2-4	300-350	isoflurane	3	isoflurane	1.3	n/a	90	free-breathing	60	n/a	Varian/Agilent	9.4	FSE	T8	2.5	0.04	SE-EPI	2	0.045	90
+sub-0100407	ses-1	1004	Wistar	Male	2-4	300-350	isoflurane	3	isoflurane	1.3	n/a	90	free-breathing	60	n/a	Varian/Agilent	9.4	FSE	T9	2.5	0.04	SE-EPI	2	0.045	90
+sub-0100408	ses-1	1004	Wistar	Male	2-4	300-350	isoflurane	3	isoflurane	1.3	n/a	90	free-breathing	60	n/a	Varian/Agilent	9.4	FSE	T10	2.5	0.04	SE-EPI	2	0.045	90
+sub-0100409	ses-1	1004	Wistar	Male	2-4	300-350	isoflurane	3	isoflurane	1.3	n/a	90	free-breathing	60	n/a	Varian/Agilent	9.4	FSE	T11	2.5	0.04	SE-EPI	2	0.045	90
+sub-0100500	ses-1	1005	Sprague Dawley	Male	n/a	300-350	ketamine / xylazine	80 / 10	isoflurane / medetomidine	0.25% iso and ~0.015 mg/kg/hr med.	n/a	90	free-breathing	50	n/a	Bruker	7	RARE	T2	6.5	0.05	GE-EPI	1.5	0.018	65
+sub-0100501	ses-1	1005	Sprague Dawley	Male	n/a	300-350	ketamine / xylazine	80 / 10	isoflurane / medetomidine	0.25% iso and ~0.015 mg/kg/hr med.	n/a	90	free-breathing	50	n/a	Bruker	7	RARE	T2	6.5	0.05	GE-EPI	1.5	0.018	65
+sub-0100502	ses-1	1005	Sprague Dawley	Male	n/a	300-350	ketamine / xylazine	80 / 10	isoflurane / medetomidine	0.25% iso and ~0.015 mg/kg/hr med.	n/a	90	free-breathing	50	n/a	Bruker	7	RARE	T2	6.5	0.05	GE-EPI	1.5	0.018	65
+sub-0100503	ses-1	1005	Sprague Dawley	Male	n/a	300-350	ketamine / xylazine	80 / 10	isoflurane / medetomidine	0.25% iso and ~0.015 mg/kg/hr med.	n/a	90	free-breathing	50	n/a	Bruker	7	RARE	T2	6.5	0.05	GE-EPI	1.5	0.018	65
+sub-0100504	ses-1	1005	Sprague Dawley	Male	n/a	300-350	ketamine / xylazine	80 / 10	isoflurane / medetomidine	0.25% iso and ~0.015 mg/kg/hr med.	n/a	90	free-breathing	50	n/a	Bruker	7	RARE	T2	6.5	0.05	GE-EPI	1.5	0.018	65
+sub-0100505	ses-1	1005	Sprague Dawley	Male	n/a	300-350	ketamine / xylazine	80 / 10	isoflurane / medetomidine	0.25% iso and ~0.015 mg/kg/hr med.	n/a	90	free-breathing	50	n/a	Bruker	7	RARE	T2	6.5	0.05	GE-EPI	1.5	0.018	65
+sub-0100506	ses-1	1005	Sprague Dawley	Male	n/a	300-350	ketamine / xylazine	80 / 10	isoflurane / medetomidine	0.25% iso and ~0.015 mg/kg/hr med.	n/a	90	free-breathing	50	n/a	Bruker	7	RARE	T2	6.5	0.05	GE-EPI	1.5	0.018	65
+sub-0100507	ses-1	1005	Sprague Dawley	Male	n/a	300-350	ketamine / xylazine	80 / 10	isoflurane / medetomidine	0.25% iso and ~0.015 mg/kg/hr med.	n/a	90	free-breathing	50	n/a	Bruker	7	RARE	T2	6.5	0.05	GE-EPI	1.5	0.018	65
+sub-0100508	ses-1	1005	Sprague Dawley	Male	n/a	300-350	ketamine / xylazine	80 / 10	isoflurane / medetomidine	0.25% iso and ~0.015 mg/kg/hr med.	n/a	90	free-breathing	50	n/a	Bruker	7	RARE	T2	6.5	0.05	GE-EPI	1.5	0.018	65
+sub-0100509	ses-1	1005	Sprague Dawley	Male	n/a	300-350	ketamine / xylazine	80 / 10	isoflurane / medetomidine	0.25% iso and ~0.015 mg/kg/hr med.	n/a	90	free-breathing	50	n/a	Bruker	7	RARE	T2	6.5	0.05	GE-EPI	1.5	0.018	65
+sub-0100600	ses-1	1006	Fischer 344	Male	16-18	450-500	isoflurane	4	isoflurane	2.5-3.0%	n/a	50	free-breathing	50	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100600	ses-2	1006	Fischer 344	Male	18-20	500-550	isoflurane	4	isoflurane	2.0-2.5%	n/a	50	free-breathing	50	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100601	ses-1	1006	Fischer 344	Female	14-16	300-350	isoflurane	4	isoflurane	2.0-2.5%	n/a	50	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100601	ses-2	1006	Fischer 344	Female	18-20	250-300	isoflurane	4	isoflurane	3.0-3.5%	n/a	60	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100602	ses-1	1006	Fischer 344	Female	16-18	350-400	isoflurane	4	isoflurane	2.0-2.5%	n/a	60	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100602	ses-2	1006	Fischer 344	Female	18-20	350-400	isoflurane	4	isoflurane	2.0-2.5%	n/a	50	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100603	ses-1	1006	Fischer 344	Female	16-18	300-350	isoflurane	4	isoflurane	2.0-2.5%	n/a	50	free-breathing	70	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100603	ses-2	1006	Fischer 344	Female	18-20	300-350	isoflurane	4	isoflurane	2.0-2.5%	n/a	50	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100604	ses-1	1006	Fischer 344	Male	14-16	550-600	isoflurane	4	isoflurane	2.5-3.0%	n/a	50	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100604	ses-2	1006	Fischer 344	Male	18-20	550-600	isoflurane	4	isoflurane	2.0-2.5%	n/a	50	free-breathing	50	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100605	ses-1	1006	Fischer 344	Male	18-20	550-600	isoflurane	4	isoflurane	2.5-3.0%	n/a	50	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100605	ses-2	1006	Fischer 344	Male	16-18	550-600	isoflurane	4	isoflurane	3.0-3.5%	n/a	50	free-breathing	70	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100606	ses-1	1006	Fischer 344	Female	16-18	250-300	isoflurane	4	isoflurane	2.0-2.5%	n/a	50	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100606	ses-2	1006	Fischer 344	Female	16-18	250-300	isoflurane	4	isoflurane	2.5-3.0%	n/a	60	free-breathing	50	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100607	ses-1	1006	Fischer 344	Female	16-18	250-300	isoflurane	4	isoflurane	2.0-2.5%	n/a	50	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100607	ses-2	1006	Fischer 344	Female	16-18	250-300	isoflurane	4	isoflurane	2.5-3.0%	n/a	60	free-breathing	50	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100608	ses-1	1006	Fischer 344	Female	16-18	250-300	isoflurane	4	isoflurane	2.0-2.5%	n/a	60	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100608	ses-2	1006	Fischer 344	Female	16-18	300-350	isoflurane	4	isoflurane	2.0-2.5%	n/a	60	free-breathing	50	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100609	ses-1	1006	Fischer 344	Male	16-18	450-500	isoflurane	4	isoflurane	2.5-3.0%	n/a	50	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100609	ses-2	1006	Fischer 344	Male	16-18	450-500	isoflurane	4	isoflurane	3.5-4.0%	n/a	60	free-breathing	60	n/a	Bruker	7	turboRARE	T2	0.325	0.0324	SE-EPI	0.9	0.015	90
+sub-0100700	ses-1	1007	Fischer 344	Female	2-4	150-200	isoflurane	5	isoflurane	1.5	n/a	190	free-breathing	50	n/a	Bruker	9.4	RARE	T2	2	0.05	GE-EPI	1	0.018	65
+sub-0100701	ses-1	1007	Fischer 344	Female	2-4	150-200	isoflurane	5	isoflurane	1.6	n/a	140	free-breathing	70	n/a	Bruker	9.4	RARE	T2	2	0.05	GE-EPI	1	0.018	65
+sub-0100702	ses-1	1007	Fischer 344	Female	2-4	150-200	isoflurane	5	isoflurane	1.6	n/a	180	free-breathing	60	n/a	Bruker	9.4	RARE	T2	2	0.05	GE-EPI	1	0.018	65
+sub-0100703	ses-1	1007	Fischer 344	Female	2-4	150-200	isoflurane	5	isoflurane	1.7	n/a	150	free-breathing	40	n/a	Bruker	9.4	RARE	T2	2	0.05	GE-EPI	1	0.018	65
+sub-0100704	ses-1	1007	Fischer 344	Female	2-4	150-200	isoflurane	5	isoflurane	1.8	n/a	210	free-breathing	50	n/a	Bruker	9.4	RARE	T2	2	0.05	GE-EPI	1	0.018	65
+sub-0100705	ses-1	1007	Fischer 344	Female	2-4	150-200	isoflurane	5	isoflurane	2	n/a	230	free-breathing	40	n/a	Bruker	9.4	RARE	T2	2	0.05	GE-EPI	1	0.018	65
+sub-0100706	ses-1	1007	Fischer 344	Female	2-4	150-200	isoflurane	5	isoflurane	2.3	n/a	190	free-breathing	40	n/a	Bruker	9.4	RARE	T2	2	0.05	GE-EPI	1	0.018	65
+sub-0100707	ses-1	1007	Fischer 344	Female	2-4	150-200	isoflurane	5	isoflurane	1.1	n/a	150	free-breathing	50	n/a	Bruker	9.4	RARE	T2	2	0.05	GE-EPI	1	0.018	65
+sub-0100708	ses-1	1007	Fischer 344	Female	2-4	150-200	isoflurane	5	isoflurane	1.6	n/a	140	free-breathing	50	n/a	Bruker	9.4	RARE	T2	2	0.05	GE-EPI	1	0.018	65
+sub-0100709	ses-1	1007	Fischer 344	Female	2-4	150-200	isoflurane	5	isoflurane	1.4	n/a	190	free-breathing	60	n/a	Bruker	9.4	RARE	T2	2	0.05	GE-EPI	1	0.018	65
+sub-0100800	ses-1	1008	Long Evans	Female	n/a	n/a	isoflurane	3.5	isoflurane / medetomidine	1 / 0.05 	s.c	50	free-breathing	50	n/a	Magnex Scientific	11.7	turboRARE	T2	4	0.041	SE-EPI	2	0.015	n/a
+sub-0100801	ses-1	1008	Long Evans	Female	n/a	n/a	isoflurane	3.5	isoflurane / medetomidine	1 / 0.05 	s.c	50	free-breathing	50	n/a	Magnex Scientific	11.7	turboRARE	T2	4	0.041	SE-EPI	2	0.015	n/a
+sub-0100802	ses-1	1008	Long Evans	Female	n/a	n/a	isoflurane	3.5	isoflurane / medetomidine	1 / 0.05 	s.c	50	free-breathing	50	n/a	Magnex Scientific	11.7	turboRARE	T2	4	0.041	SE-EPI	2	0.015	n/a
+sub-0100803	ses-1	1008	Long Evans	Female	n/a	n/a	isoflurane	3.5	isoflurane / medetomidine	1 / 0.05 	s.c	50	free-breathing	50	n/a	Magnex Scientific	11.7	turboRARE	T2	4	0.041	SE-EPI	2	0.015	n/a
+sub-0100804	ses-1	1008	Long Evans	Female	n/a	n/a	isoflurane	3.5	isoflurane / medetomidine	1 / 0.05 	s.c	50	free-breathing	50	n/a	Magnex Scientific	11.7	turboRARE	T2	4	0.041	SE-EPI	2	0.015	n/a
+sub-0100805	ses-1	1008	Long Evans	Male	n/a	n/a	isoflurane	3.5	isoflurane / medetomidine	1 / 0.05 	s.c	50	free-breathing	50	n/a	Magnex Scientific	11.7	turboRARE	T2	4	0.041	SE-EPI	2	0.015	n/a
+sub-0100806	ses-1	1008	Long Evans	Male	n/a	n/a	isoflurane	3.5	isoflurane / medetomidine	1 / 0.05 	s.c	50	free-breathing	50	n/a	Magnex Scientific	11.7	turboRARE	T2	4	0.041	SE-EPI	2	0.015	n/a
+sub-0100807	ses-1	1008	Long Evans	Male	n/a	n/a	isoflurane	3.5	isoflurane / medetomidine	1 / 0.05 	s.c	50	free-breathing	50	n/a	Magnex Scientific	11.7	turboRARE	T2	4	0.041	SE-EPI	2	0.015	n/a
+sub-0100808	ses-1	1008	Long Evans	Male	n/a	n/a	isoflurane	3.5	isoflurane / medetomidine	1 / 0.05 	s.c	50	free-breathing	50	n/a	Magnex Scientific	11.7	turboRARE	T2	4	0.041	SE-EPI	2	0.015	n/a
+sub-0100809	ses-1	1008	Long Evans	Male	n/a	n/a	isoflurane	3.5	isoflurane / medetomidine	1 / 0.05 	s.c	50	free-breathing	50	n/a	Magnex Scientific	11.7	turboRARE	T2	4	0.041	SE-EPI	2	0.015	n/a
+sub-0100900	ses-1	1009	Wistar	Female	2-4	150-200	urethane	1375	urethane	1375	i.p	70	free-breathing	130	330	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0100901	ses-1	1009	Wistar	Female	2-4	150-200	urethane	1375	urethane	1375	i.p	50	free-breathing	90	330	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0100902	ses-1	1009	Wistar	Female	2-4	150-200	urethane	1375	urethane	1375	i.p	50	free-breathing	110	330	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0100903	ses-1	1009	Wistar	Female	2-4	150-200	urethane	1375	urethane	1375	i.p	40	free-breathing	110	400	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0100904	ses-1	1009	Wistar	Female	0-2	150-200	urethane	1375	urethane	1375	i.p	60	free-breathing	110	340	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0100905	ses-1	1009	Wistar	Female	0-2	150-200	urethane	1375	urethane	1375	i.p	50	free-breathing	90	350	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0100906	ses-1	1009	Wistar	Female	2-4	200-250	urethane	1375	urethane	1375	i.p	50	free-breathing	150	310	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0100907	ses-1	1009	Wistar	Female	2-4	200-250	urethane	1375	urethane	1375	i.p	40	free-breathing	110	420	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0100908	ses-1	1009	Wistar	Female	2-4	150-200	urethane	1375	urethane	1375	i.p	40	free-breathing	100	300	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0100909	ses-1	1009	Wistar	Female	2-4	200-250	urethane	1375	urethane	1375	i.p	40	free-breathing	120	400	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101000	ses-1	1010	Wistar	Male	2-4	350-400	urethane	1375	urethane	1375	i.p	70	free-breathing	100	410	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101001	ses-1	1010	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	60	free-breathing	110	300	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101002	ses-1	1010	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	100	free-breathing	120	360	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101003	ses-1	1010	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	60	free-breathing	90	340	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101004	ses-1	1010	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	70	free-breathing	90	320	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101005	ses-1	1010	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	60	free-breathing	100	350	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101006	ses-1	1010	Wistar	Male	2-4	250-300	urethane	1375	urethane	1375	i.p	50	free-breathing	100	380	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101007	ses-1	1010	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	40	free-breathing	110	370	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101008	ses-1	1010	Wistar	Male	2-4	250-300	urethane	1375	urethane	1375	i.p	50	free-breathing	120	280	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101009	ses-1	1010	Wistar	Male	2-4	250-300	urethane	1375	urethane	1375	i.p	50	free-breathing	130	370	Bruker	7	turboRARE	T2	4	0.04	GE-EPI	1	0.018	60
+sub-0101100	ses-1	1011	Wistar	Female	2-4	150-200	urethane	1375	urethane	1375	i.p	50	free-breathing	130	330	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101101	ses-1	1011	Wistar	Female	2-4	150-200	urethane	1375	urethane	1375	i.p	30	free-breathing	90	330	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101102	ses-1	1011	Wistar	Female	2-4	150-200	urethane	1375	urethane	1375	i.p	30	free-breathing	130	320	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101103	ses-1	1011	Wistar	Female	2-4	150-200	urethane	1375	urethane	1375	i.p	20	free-breathing	110	380	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101104	ses-1	1011	Wistar	Female	0-2	150-200	urethane	1375	urethane	1375	i.p	40	free-breathing	120	350	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101105	ses-1	1011	Wistar	Female	0-2	150-200	urethane	1375	urethane	1375	i.p	30	free-breathing	100	360	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101106	ses-1	1011	Wistar	Female	2-4	200-250	urethane	1375	urethane	1375	i.p	30	free-breathing	140	320	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101107	ses-1	1011	Wistar	Female	2-4	200-250	urethane	1375	urethane	1375	i.p	20	free-breathing	140	n/a	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101108	ses-1	1011	Wistar	Female	2-4	150-200	urethane	1375	urethane	1375	i.p	20	free-breathing	110	300	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101109	ses-1	1011	Wistar	Female	2-4	200-250	urethane	1375	urethane	1375	i.p	20	free-breathing	120	350	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101200	ses-1	1012	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	50	free-breathing	130	430	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101201	ses-1	1012	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	40	free-breathing	120	330	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101202	ses-1	1012	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	80	free-breathing	130	360	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101203	ses-1	1012	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	40	free-breathing	90	n/a	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101204	ses-1	1012	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	50	free-breathing	110	n/a	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101205	ses-1	1012	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	40	free-breathing	120	370	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101206	ses-1	1012	Wistar	Male	2-4	250-300	urethane	1375	urethane	1375	i.p	30	free-breathing	110	n/a	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101207	ses-1	1012	Wistar	Male	2-4	300-350	urethane	1375	urethane	1375	i.p	20	free-breathing	120	390	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101208	ses-1	1012	Wistar	Male	2-4	250-300	urethane	1375	urethane	1375	i.p	30	free-breathing	110	300	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101209	ses-1	1012	Wistar	Male	2-4	250-300	urethane	1375	urethane	1375	i.p	30	free-breathing	110	360	Bruker	7	turboRARE	T2	4	0.04	SE-EPI	2	0.045	90
+sub-0101300	ses-1	1013	Wistar	Female	6-8	250-300	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	230	free-breathing	80	240	Bruker	9.4	turboRARE	T2	3.7	0.033	GE-EPI	1.5	0.015	90
+sub-0101301	ses-1	1013	Wistar	Female	6-8	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	170	free-breathing	70	270	Bruker	9.4	turboRARE	T2	3.7	0.033	GE-EPI	1.5	0.015	90
+sub-0101302	ses-1	1013	Wistar	Female	6-8	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	180	free-breathing	50	220	Bruker	9.4	turboRARE	T2	3.7	0.033	GE-EPI	1.5	0.015	90
+sub-0101303	ses-1	1013	Wistar	Female	6-8	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	190	free-breathing	80	230	Bruker	9.4	turboRARE	T2	3.7	0.033	GE-EPI	1.5	0.015	90
+sub-0101304	ses-1	1013	Wistar	Female	6-8	350-400	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	180	free-breathing	70	230	Bruker	9.4	turboRARE	T2	3.7	0.033	GE-EPI	1.5	0.015	90
+sub-0101305	ses-1	1013	Wistar	Female	6-8	400-450	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	i.v.	90	free-breathing	110	250	Bruker	9.4	turboRARE	T2	5.225	0.033	GE-EPI	1.5	0.015	90
+sub-0101306	ses-1	1013	Wistar	Female	6-8	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	i.v.	160	free-breathing	90	270	Bruker	9.4	turboRARE	T2	5.225	0.033	GE-EPI	1.5	0.015	90
+sub-0101307	ses-1	1013	Wistar	Female	6-8	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	i.v.	150	free-breathing	110	240	Bruker	9.4	turboRARE	T2	5.225	0.033	GE-EPI	1.5	0.015	90
+sub-0101308	ses-1	1013	Wistar	Female	6-8	350-400	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	i.v.	190	free-breathing	80	210	Bruker	9.4	turboRARE	T2	5.225	0.033	GE-EPI	1.5	0.015	90
+sub-0101309	ses-1	1013	Wistar	Female	6-8	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	i.v.	170	free-breathing	110	280	Bruker	9.4	turboRARE	T2	5.225	0.033	GE-EPI	1.5	0.015	90
+sub-0101400	ses-1	1014	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	3 / 0.3	medetomidine	0.6	n/a	10	free-breathing	n/a	n/a	Bruker	7	3D-RARE	T2	0.777	0.052	GE-EPI	2	0.015	n/a
+sub-0101401	ses-1	1014	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	3 / 0.3	medetomidine	0.6	n/a	10	free-breathing	n/a	n/a	Bruker	7	3D-RARE	T2	0.777	0.052	GE-EPI	2	0.015	n/a
+sub-0101402	ses-1	1014	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	3 / 0.3	medetomidine	0.6	n/a	10	free-breathing	n/a	n/a	Bruker	7	3D-RARE	T2	0.777	0.052	GE-EPI	2	0.015	n/a
+sub-0101403	ses-1	1014	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	3 / 0.3	medetomidine	0.6	n/a	10	free-breathing	n/a	n/a	Bruker	7	3D-RARE	T2	0.777	0.052	GE-EPI	2	0.015	n/a
+sub-0101404	ses-1	1014	Sprague Dawley	Male	2-4	300-350	isoflurane / medetomidine	3 / 0.3	medetomidine	0.6	n/a	10	free-breathing	n/a	n/a	Bruker	7	3D-RARE	T2	0.777	0.052	GE-EPI	2	0.015	n/a
+sub-0101405	ses-1	1014	Sprague Dawley	Female	2-4	200-250	isoflurane / medetomidine	3 / 0.3	medetomidine	0.6	n/a	10	free-breathing	n/a	n/a	Bruker	7	3D-RARE	T2	0.777	0.052	GE-EPI	2	0.015	n/a
+sub-0101406	ses-1	1014	Sprague Dawley	Female	2-4	200-250	isoflurane / medetomidine	3 / 0.3	medetomidine	0.6	n/a	10	free-breathing	n/a	n/a	Bruker	7	3D-RARE	T2	0.777	0.052	GE-EPI	2	0.015	n/a
+sub-0101407	ses-1	1014	Sprague Dawley	Female	2-4	200-250	isoflurane / medetomidine	3 / 0.3	medetomidine	0.6	n/a	10	free-breathing	n/a	n/a	Bruker	7	3D-RARE	T2	0.777	0.052	GE-EPI	2	0.015	n/a
+sub-0101408	ses-1	1014	Sprague Dawley	Female	0-2	200-250	isoflurane / medetomidine	3 / 0.3	medetomidine	0.6	n/a	10	free-breathing	n/a	n/a	Bruker	7	3D-RARE	T2	0.777	0.052	GE-EPI	2	0.015	n/a
+sub-0101409	ses-1	1014	Sprague Dawley	Female	0-2	200-250	isoflurane / medetomidine	3 / 0.3	medetomidine	0.6	n/a	10	free-breathing	n/a	n/a	Bruker	7	3D-RARE	T2	0.777	0.052	GE-EPI	2	0.015	n/a
+sub-0101500	ses-1	1015	Sprague Dawley	Male	0-2	350-400	isoflurane / medetomidine	4 / 0.1	medetomidine	0.1	n/a	190	free-breathing	110	n/a	Varian/Agilent	14.1	RARE	T2	3	0.01017	GE-EPI	1.6	0.01	90
+sub-0101501	ses-1	1015	Sprague Dawley	Male	0-2	350-400	isoflurane / medetomidine	4 / 0.1	medetomidine	0.1	n/a	170	free-breathing	90	n/a	Varian/Agilent	14.1	RARE	T2	3	0.01017	GE-EPI	1.6	0.01	90
+sub-0101502	ses-1	1015	Sprague Dawley	Male	0-2	350-400	isoflurane / medetomidine	4 / 0.1	medetomidine	0.1	n/a	180	free-breathing	80	n/a	Varian/Agilent	14.1	RARE	T2	3	0.01017	GE-EPI	1.6	0.01	90
+sub-0101503	ses-1	1015	Sprague Dawley	Male	0-2	350-400	isoflurane / medetomidine	4 / 0.1	medetomidine	0.1	n/a	170	free-breathing	80	n/a	Varian/Agilent	14.1	RARE	T2	3	0.01017	GE-EPI	1.6	0.01	90
+sub-0101504	ses-1	1015	Sprague Dawley	Male	0-2	300-350	isoflurane / medetomidine	4 / 0.1	medetomidine	0.1	n/a	170	free-breathing	90	n/a	Varian/Agilent	14.1	RARE	T2	3	0.01017	GE-EPI	1.6	0.01	90
+sub-0101505	ses-1	1015	Sprague Dawley	Male	0-2	300-350	isoflurane / medetomidine	4 / 0.1	medetomidine	0.1	n/a	170	free-breathing	100	n/a	Varian/Agilent	14.1	RARE	T2	3	0.01017	GE-EPI	1.6	0.01	90
+sub-0101506	ses-1	1015	Sprague Dawley	Male	0-2	300-350	isoflurane / medetomidine	4 / 0.1	medetomidine	0.1	n/a	160	free-breathing	150	n/a	Varian/Agilent	14.1	RARE	T2	3	0.01017	GE-EPI	1.6	0.01	90
+sub-0101507	ses-1	1015	Sprague Dawley	Male	0-2	250-300	isoflurane / medetomidine	4 / 0.1	medetomidine	0.1	n/a	190	free-breathing	100	n/a	Varian/Agilent	14.1	RARE	T2	3	0.01017	GE-EPI	1.6	0.01	90
+sub-0101508	ses-1	1015	Sprague Dawley	Male	0-2	300-350	isoflurane / medetomidine	4 / 0.1	medetomidine	0.1	n/a	200	free-breathing	100	n/a	Varian/Agilent	14.1	RARE	T2	3	0.01017	GE-EPI	1.6	0.01	90
+sub-0101509	ses-1	1015	Sprague Dawley	Male	0-2	250-300	isoflurane / medetomidine	4 / 0.1	medetomidine	0.1	n/a	160	free-breathing	90	n/a	Varian/Agilent	14.1	RARE	T2	3	0.01017	GE-EPI	1.6	0.01	90
+sub-0101600	ses-1	1016	Wistar	Male	0-2	200-250	isoflurane	3.5	isoflurane	0.8	n/a	20	free-breathing	50	n/a	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101601	ses-1	1016	Wistar	Male	0-2	200-250	isoflurane	3.5	isoflurane	1.6	n/a	20	free-breathing	40	n/a	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101602	ses-1	1016	Wistar	Male	0-2	200-250	isoflurane	3.5	isoflurane	1	n/a	20	free-breathing	50	n/a	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101603	ses-1	1016	Wistar	Male	0-2	200-250	isoflurane	3.5	isoflurane	1.2	n/a	20	free-breathing	40	n/a	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101604	ses-1	1016	Wistar	Male	0-2	200-250	isoflurane	3.5	isoflurane	1	n/a	20	free-breathing	60	n/a	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101605	ses-1	1016	Wistar	Male	0-2	200-250	isoflurane	3.5	isoflurane	2	n/a	20	free-breathing	60	n/a	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101606	ses-1	1016	Wistar	Male	0-2	200-250	isoflurane	3.5	isoflurane	1	n/a	20	free-breathing	50	n/a	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101607	ses-1	1016	Wistar	Male	0-2	200-250	isoflurane	3.5	isoflurane	1.5	n/a	20	free-breathing	70	n/a	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101608	ses-1	1016	Wistar	Male	0-2	250-300	isoflurane	3.5	isoflurane	1.2	n/a	20	free-breathing	40	n/a	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101609	ses-1	1016	Wistar	Male	0-2	200-250	isoflurane	3.5	isoflurane	1	n/a	20	free-breathing	40	n/a	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101700	ses-1	1017	Wistar	Male	16-18	300-350	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	60	230	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101700	ses-2	1017	Wistar	Male	16-18	300-350	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	60	230	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101701	ses-1	1017	Wistar	Male	16-18	450-500	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	250	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101701	ses-2	1017	Wistar	Male	16-18	450-500	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	250	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101702	ses-1	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	190	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101702	ses-2	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	190	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101703	ses-1	1017	Wistar	Male	16-18	300-350	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	30	160	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101703	ses-2	1017	Wistar	Male	16-18	300-350	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	30	160	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101704	ses-1	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	170	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101704	ses-2	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	170	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101705	ses-1	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	220	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101705	ses-2	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	220	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101706	ses-1	1017	Wistar	Male	16-18	300-350	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	270	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101706	ses-2	1017	Wistar	Male	16-18	300-350	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	270	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101707	ses-1	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	210	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101707	ses-2	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	40	210	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101708	ses-1	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	30	230	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101708	ses-2	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	30	230	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101709	ses-1	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	30	190	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101709	ses-2	1017	Wistar	Male	16-18	350-400	isoflurane / medetomidine	3.5 / 0.014	isoflurane	0.5	n/a	20	free-breathing	30	190	Bruker	7	turboRARE	T2	4.2	0.033	GE-EPI	1	0.02	60
+sub-0101800	ses-1	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101800	ses-2	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101801	ses-1	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101801	ses-2	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101802	ses-1	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101802	ses-2	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101803	ses-1	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101803	ses-2	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101804	ses-1	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101804	ses-2	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101805	ses-1	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101805	ses-2	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101806	ses-1	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101806	ses-2	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101807	ses-1	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101807	ses-2	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101808	ses-1	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101808	ses-2	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101809	ses-1	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101809	ses-2	1018	Long Evans	Male	2-4	n/a	isoflurane	4	isoflurane	1.5	n/a	20	free-breathing	60	350	Bruker	7	RARE	T2	2.31	0.036	GE-EPI	2	0.012	90
+sub-0101900	ses-1	1019	Sprague Dawley	Male	4-6	450-500	isoflurane	4	isoflurane	1	n/a	20	free-breathing	60	350	Varian/Agilent	7	FSE	T2	3	0.048	GE-EPI	2	0.012	90
+sub-0101901	ses-1	1019	Sprague Dawley	Male	4-6	450-500	isoflurane	4	isoflurane	1	n/a	20	free-breathing	60	350	Varian/Agilent	7	FSE	T2	3	0.048	GE-EPI	2	0.012	90
+sub-0101902	ses-1	1019	Sprague Dawley	Male	4-6	450-500	isoflurane	4	isoflurane	1	n/a	20	free-breathing	60	350	Varian/Agilent	7	FSE	T2	3	0.048	GE-EPI	2	0.012	90
+sub-0101903	ses-1	1019	Sprague Dawley	Male	4-6	450-500	isoflurane	4	isoflurane	1	n/a	20	free-breathing	60	350	Varian/Agilent	7	FSE	T2	3	0.048	GE-EPI	2	0.012	90
+sub-0101904	ses-1	1019	Sprague Dawley	Male	4-6	450-500	isoflurane	4	isoflurane	1	n/a	20	free-breathing	60	350	Varian/Agilent	7	FSE	T2	3	0.048	GE-EPI	2	0.012	90
+sub-0101905	ses-1	1019	Sprague Dawley	Male	4-6	450-500	isoflurane	4	isoflurane	1	n/a	20	free-breathing	60	350	Varian/Agilent	7	FSE	T2	3	0.048	GE-EPI	2	0.012	90
+sub-0101906	ses-1	1019	Sprague Dawley	Male	2-4	450-500	isoflurane	4	isoflurane	1	n/a	20	free-breathing	60	350	Varian/Agilent	7	FSE	T2	3	0.048	GE-EPI	2	0.012	90
+sub-0101907	ses-1	1019	Sprague Dawley	Male	2-4	450-500	isoflurane	4	isoflurane	1	n/a	20	free-breathing	60	350	Varian/Agilent	7	FSE	T2	3	0.048	GE-EPI	2	0.012	90
+sub-0101908	ses-1	1019	Sprague Dawley	Male	2-4	450-500	isoflurane	4	isoflurane	1	n/a	20	free-breathing	60	350	Varian/Agilent	7	FSE	T2	3	0.048	GE-EPI	2	0.012	90
+sub-0101909	ses-1	1019	Sprague Dawley	Male	2-4	450-500	isoflurane	4	isoflurane	1	n/a	20	free-breathing	60	350	Varian/Agilent	7	FSE	T2	3	0.048	GE-EPI	2	0.012	90
+sub-0102000	ses-1	1020	Lister Hooded	Male	2-4	250-300	isoflurane	2	isoflurane	1	n/a	10	ventilated	n/a	60	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102000	ses-2	1020	Lister Hooded	Male	2-4	250-300	isoflurane	2	isoflurane	1	n/a	20	ventilated	n/a	70	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102001	ses-1	1020	Lister Hooded	Male	2-4	250-300	isoflurane	2	isoflurane	1	n/a	10	ventilated	n/a	60	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102001	ses-2	1020	Lister Hooded	Male	2-4	250-300	isoflurane	2	isoflurane	1	n/a	20	ventilated	n/a	70	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102002	ses-1	1020	Lister Hooded	Male	2-4	200-250	isoflurane	2	isoflurane	1	n/a	10	ventilated	n/a	60	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102002	ses-2	1020	Lister Hooded	Male	2-4	200-250	isoflurane	2	isoflurane	1	n/a	20	ventilated	n/a	70	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102003	ses-1	1020	Lister Hooded	Male	2-4	300-350	isoflurane	2	isoflurane	1	n/a	10	ventilated	n/a	60	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102003	ses-2	1020	Lister Hooded	Male	2-4	300-350	isoflurane	2	isoflurane	1	n/a	20	ventilated	n/a	70	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102004	ses-1	1020	Lister Hooded	Male	2-4	300-350	isoflurane	2	isoflurane	1	n/a	10	ventilated	n/a	60	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102004	ses-2	1020	Lister Hooded	Male	2-4	300-350	isoflurane	2	isoflurane	1	n/a	20	ventilated	n/a	70	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102005	ses-1	1020	Lister Hooded	Male	2-4	300-350	isoflurane	2	isoflurane	1	n/a	20	ventilated	n/a	60	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102005	ses-2	1020	Lister Hooded	Male	2-4	300-350	isoflurane	2	isoflurane	1	n/a	30	ventilated	n/a	70	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102006	ses-1	1020	Lister Hooded	Male	2-4	300-350	isoflurane	2	isoflurane	1	n/a	20	ventilated	n/a	60	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102006	ses-2	1020	Lister Hooded	Male	2-4	300-350	isoflurane	2	isoflurane	1	n/a	30	ventilated	n/a	70	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102007	ses-1	1020	Lister Hooded	Male	2-4	350-400	isoflurane	2	isoflurane	1	n/a	20	ventilated	n/a	60	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102007	ses-2	1020	Lister Hooded	Male	2-4	350-400	isoflurane	2	isoflurane	1	n/a	30	ventilated	n/a	70	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102008	ses-1	1020	Lister Hooded	Male	2-4	350-400	isoflurane	2	isoflurane	1	n/a	20	ventilated	n/a	60	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102008	ses-2	1020	Lister Hooded	Male	2-4	350-400	isoflurane	2	isoflurane	1	n/a	30	ventilated	n/a	70	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102009	ses-1	1020	Lister Hooded	Male	2-4	300-350	isoflurane	2	isoflurane	1	n/a	20	ventilated	n/a	60	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102009	ses-2	1020	Lister Hooded	Male	2-4	300-350	isoflurane	2	isoflurane	1	n/a	30	ventilated	n/a	70	Varian/Agilent	4.7	bSSFP	T1	0.005	0.0025	GE-EPI	0.7	0.02	75
+sub-0102100	ses-1	1021	Sprague Dawley	Male	2-4	450-500	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	50	320	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102100	ses-2	1021	Sprague Dawley	Male	4-6	600-650	isoflurane	5	isoflurane	1.8	n/a	30	free-breathing	50	290	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102101	ses-1	1021	Sprague Dawley	Male	2-4	500-550	isoflurane	5	isoflurane	1.8	n/a	30	free-breathing	60	300	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102101	ses-2	1021	Sprague Dawley	Male	4-6	650-700	isoflurane	5	isoflurane	1.8	n/a	30	free-breathing	60	310	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102102	ses-1	1021	Sprague Dawley	Male	2-4	450-500	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	40	330	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102102	ses-2	1021	Sprague Dawley	Male	4-6	600-650	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	40	280	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102103	ses-1	1021	Sprague Dawley	Male	2-4	450-500	isoflurane	5	isoflurane	1.8	n/a	30	free-breathing	60	390	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102103	ses-2	1021	Sprague Dawley	Male	4-6	600-650	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	60	370	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102104	ses-1	1021	Sprague Dawley	Male	2-4	450-500	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	70	300	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102104	ses-2	1021	Sprague Dawley	Male	4-6	550-600	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	60	n/a	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102105	ses-1	1021	Sprague Dawley	Male	2-4	400-450	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	60	350	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102105	ses-2	1021	Sprague Dawley	Male	4-6	500-550	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	60	300	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102106	ses-1	1021	Sprague Dawley	Male	2-4	400-450	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	50	350	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102106	ses-2	1021	Sprague Dawley	Male	4-6	500-550	isoflurane	5	isoflurane	1.8	n/a	40	free-breathing	30	330	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102107	ses-1	1021	Sprague Dawley	Male	2-4	450-500	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	100	320	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102107	ses-2	1021	Sprague Dawley	Male	4-6	550-600	isoflurane	5	isoflurane	1.8	n/a	30	free-breathing	50	n/a	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102108	ses-1	1021	Sprague Dawley	Male	2-4	400-450	isoflurane	5	isoflurane	1.8	n/a	30	free-breathing	50	390	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102108	ses-2	1021	Sprague Dawley	Male	4-6	500-550	isoflurane	5	isoflurane	1.8	n/a	30	free-breathing	50	n/a	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102109	ses-1	1021	Sprague Dawley	Male	2-4	450-500	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	70	320	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102109	ses-2	1021	Sprague Dawley	Male	4-6	550-600	isoflurane	5	isoflurane	1.8	n/a	20	free-breathing	70	n/a	Bruker	9.4	MP2RAGE	T1	9	0.0027	GE-EPI	2.75	0.019	70
+sub-0102200	ses-1	1022	Wistar	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.2	n/a	20	free-breathing	60	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102201	ses-1	1022	Wistar	Male	0-2	200-250	isoflurane	n/a	isoflurane	1.3	n/a	20	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102202	ses-1	1022	Wistar	Male	0-2	200-250	isoflurane	n/a	isoflurane	1.1	n/a	20	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102203	ses-1	1022	Wistar	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.1	n/a	20	free-breathing	60	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102204	ses-1	1022	Wistar	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.3	n/a	20	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102205	ses-1	1022	Wistar	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.2	n/a	20	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102206	ses-1	1022	Wistar	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.4	n/a	20	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102207	ses-1	1022	Wistar	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.2	n/a	20	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102208	ses-1	1022	Wistar	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.4	n/a	20	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102209	ses-1	1022	Wistar	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.3	n/a	20	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102300	ses-1	1023	Long Evans	Male	2-4	n/a	awake	n/a	awake	n/a	n/a	n/a	n/a	n/a	n/a	Bruker	7	turboRARE	T1	1.5	0.008	GE-EPI	1	0.015	60
+sub-0102301	ses-1	1023	Long Evans	Male	2-4	250-300	awake	n/a	awake	n/a	n/a	n/a	n/a	n/a	n/a	Bruker	7	turboRARE	T1	1.5	0.008	GE-EPI	1	0.015	60
+sub-0102302	ses-1	1023	Long Evans	Male	2-4	n/a	awake	n/a	awake	n/a	n/a	n/a	n/a	n/a	n/a	Bruker	7	turboRARE	T1	1.5	0.008	GE-EPI	1	0.015	60
+sub-0102303	ses-1	1023	Long Evans	Male	2-4	n/a	awake	n/a	awake	n/a	n/a	n/a	n/a	n/a	n/a	Bruker	7	turboRARE	T1	1.5	0.008	GE-EPI	1	0.015	60
+sub-0102304	ses-1	1023	Long Evans	Male	2-4	n/a	awake	n/a	awake	n/a	n/a	n/a	n/a	n/a	n/a	Bruker	7	turboRARE	T1	1.5	0.008	GE-EPI	1	0.015	60
+sub-0102305	ses-1	1023	Long Evans	Male	2-4	n/a	awake	n/a	awake	n/a	n/a	n/a	n/a	n/a	n/a	Bruker	7	turboRARE	T1	1.5	0.008	GE-EPI	1	0.015	60
+sub-0102306	ses-1	1023	Long Evans	Male	2-4	n/a	awake	n/a	awake	n/a	n/a	n/a	n/a	n/a	n/a	Bruker	7	turboRARE	T1	1.5	0.008	GE-EPI	1	0.015	60
+sub-0102307	ses-1	1023	Long Evans	Male	2-4	n/a	awake	n/a	awake	n/a	n/a	n/a	n/a	n/a	n/a	Bruker	7	turboRARE	T1	1.5	0.008	GE-EPI	1	0.015	60
+sub-0102308	ses-1	1023	Long Evans	Male	2-4	250-300	awake	n/a	awake	n/a	n/a	n/a	n/a	n/a	n/a	Bruker	7	turboRARE	T1	1.5	0.008	GE-EPI	1	0.015	60
+sub-0102309	ses-1	1023	Long Evans	Male	2-4	350-400	awake	n/a	awake	n/a	n/a	n/a	n/a	n/a	n/a	Bruker	7	turboRARE	T1	1.5	0.008	GE-EPI	1	0.015	60
+sub-0102400	ses-1	1024	Fischer 344	Male	2-4	200-250	isoflurane	5	isoflurane / medetomidine	0.75 / 0.04 	n/a	n/a	free-breathing	50	n/a	Bruker	7	RARE	T2	2.5	0.03	GE-EPI	1	0.015	90
+sub-0102401	ses-1	1024	Fischer 344	Male	2-4	200-250	isoflurane	5	isoflurane / medetomidine	0.75 / 0.04 	n/a	n/a	free-breathing	50	n/a	Bruker	7	RARE	T2	2.5	0.03	GE-EPI	1	0.015	90
+sub-0102402	ses-1	1024	Fischer 344	Male	2-4	200-250	isoflurane	5	isoflurane / medetomidine	0.75 / 0.04 	n/a	n/a	free-breathing	50	n/a	Bruker	7	RARE	T2	2.5	0.03	GE-EPI	1	0.015	90
+sub-0102403	ses-1	1024	Fischer 344	Male	0-2	200-250	isoflurane	5	isoflurane / medetomidine	0.75 / 0.04 	n/a	n/a	free-breathing	50	n/a	Bruker	7	RARE	T2	2.5	0.03	GE-EPI	1	0.015	90
+sub-0102404	ses-1	1024	Fischer 344	Male	0-2	200-250	isoflurane	5	isoflurane / medetomidine	0.75 / 0.04 	n/a	n/a	free-breathing	50	n/a	Bruker	7	RARE	T2	2.5	0.03	GE-EPI	1	0.015	90
+sub-0102405	ses-1	1024	Fischer 344	Male	0-2	200-250	isoflurane	5	isoflurane / medetomidine	0.75 / 0.04 	n/a	n/a	free-breathing	60	n/a	Bruker	7	RARE	T2	2.5	0.03	GE-EPI	1	0.015	90
+sub-0102406	ses-1	1024	Fischer 344	Male	2-4	200-250	isoflurane	5	isoflurane / medetomidine	0.75 / 0.04 	n/a	n/a	free-breathing	50	n/a	Bruker	7	RARE	T2	2.5	0.03	GE-EPI	1	0.015	90
+sub-0102407	ses-1	1024	Fischer 344	Male	2-4	200-250	isoflurane	5	isoflurane / medetomidine	0.75 / 0.04 	n/a	n/a	free-breathing	50	n/a	Bruker	7	RARE	T2	2.5	0.03	GE-EPI	1	0.015	90
+sub-0102408	ses-1	1024	Fischer 344	Male	2-4	200-250	isoflurane	5	isoflurane / medetomidine	0.75 / 0.04 	n/a	n/a	free-breathing	50	n/a	Bruker	7	RARE	T2	2.5	0.03	GE-EPI	1	0.015	90
+sub-0102409	ses-1	1024	Fischer 344	Male	2-4	200-250	isoflurane	5	isoflurane / medetomidine	0.75 / 0.04 	n/a	n/a	free-breathing	60	n/a	Bruker	7	RARE	T2	2.5	0.03	GE-EPI	1	0.015	90
+sub-0102500	ses-1	1025	Sprague Dawley	Male	2-4	500-550	isoflurane	2	alpha-chloralose	25	n/a	60	ventilated	60	n/a	Bruker	14.1	RARE	T2	4	0.0361	GE-EPI	1	0.0125	15
+sub-0102501	ses-1	1025	Sprague Dawley	Male	2-4	500-550	isoflurane	2	alpha-chloralose	25	n/a	60	ventilated	60	n/a	Bruker	14.1	RARE	T2	4	0.0361	GE-EPI	1	0.0125	15
+sub-0102502	ses-1	1025	Sprague Dawley	Male	2-4	500-550	isoflurane	2	alpha-chloralose	25	n/a	60	ventilated	60	n/a	Bruker	14.1	RARE	T2	4	0.0361	GE-EPI	1	0.0125	15
+sub-0102503	ses-1	1025	Sprague Dawley	Male	2-4	500-550	isoflurane	2	isoflurane	1.5	n/a	60	ventilated	60	n/a	Bruker	14.1	RARE	T2	4	0.0361	GE-EPI	1	0.0125	15
+sub-0102504	ses-1	1025	Sprague Dawley	Male	2-4	500-550	isoflurane	2	alpha-chloralose	25	n/a	60	ventilated	60	n/a	Bruker	14.1	RARE	T2	2.6	0.0381	GE-EPI	1	0.0125	15
+sub-0102505	ses-1	1025	Sprague Dawley	Male	2-4	500-550	isoflurane	2	alpha-chloralose	25	n/a	60	ventilated	60	n/a	Bruker	14.1	RARE	T2	4	0.0361	GE-EPI	1	0.0125	15
+sub-0102506	ses-1	1025	Sprague Dawley	Male	2-4	500-550	isoflurane	2	alpha-chloralose	25	n/a	60	ventilated	60	n/a	Bruker	14.1	RARE	T2	4	0.0361	GE-EPI	1	0.0125	15
+sub-0102507	ses-1	1025	Sprague Dawley	Male	2-4	500-550	isoflurane	2	alpha-chloralose	25	n/a	60	ventilated	60	n/a	Bruker	14.1	RARE	T2	4	0.0361	GE-EPI	1	0.0125	15
+sub-0102508	ses-1	1025	Sprague Dawley	Male	2-4	500-550	isoflurane	2	alpha-chloralose	25	n/a	60	ventilated	60	n/a	Bruker	14.1	RARE	T2	4	0.0361	GE-EPI	1	0.0125	15
+sub-0102509	ses-1	1025	Sprague Dawley	Male	2-4	500-550	isoflurane	2	alpha-chloralose	25	n/a	60	ventilated	60	n/a	Bruker	14.1	RARE	T2	4	0.0361	GE-EPI	1	0.0125	15
+sub-0102600	ses-1	1026	Wistar	Male	n/a	300-350	isoflurane	4	medetomidine	0.1	n/a	80	free-breathing	80	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102600	ses-2	1026	Wistar	Male	n/a	400-450	isoflurane	4	medetomidine	0.1	n/a	70	free-breathing	60	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102601	ses-1	1026	Wistar	Male	n/a	300-350	isoflurane	4	medetomidine	0.1	n/a	80	free-breathing	80	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102601	ses-2	1026	Wistar	Male	n/a	400-450	isoflurane	4	medetomidine	0.1	n/a	90	free-breathing	60	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102602	ses-1	1026	Wistar	Male	n/a	250-300	isoflurane	4	medetomidine	0.1	n/a	80	free-breathing	60	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102602	ses-2	1026	Wistar	Male	n/a	300-350	isoflurane	4	medetomidine	0.1	n/a	90	free-breathing	50	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102603	ses-1	1026	Wistar	Male	n/a	250-300	isoflurane	4	medetomidine	0.1	n/a	70	free-breathing	60	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102603	ses-2	1026	Wistar	Male	n/a	300-350	isoflurane	4	medetomidine	0.1	n/a	120	free-breathing	70	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102604	ses-1	1026	Wistar	Male	n/a	300-350	isoflurane	4	medetomidine	0.1	n/a	80	free-breathing	60	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102604	ses-2	1026	Wistar	Male	n/a	350-400	isoflurane	4	medetomidine	0.1	n/a	110	free-breathing	60	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102605	ses-1	1026	Wistar	Male	n/a	250-300	isoflurane	4	medetomidine	0.1	n/a	80	free-breathing	70	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102605	ses-2	1026	Wistar	Male	n/a	300-350	isoflurane	4	medetomidine	0.1	n/a	130	free-breathing	60	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102606	ses-1	1026	Wistar	Male	n/a	300-350	isoflurane	4	medetomidine	0.1	n/a	110	free-breathing	80	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102606	ses-2	1026	Wistar	Male	n/a	350-400	isoflurane	4	medetomidine	0.1	n/a	100	free-breathing	80	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102607	ses-1	1026	Wistar	Male	n/a	300-350	isoflurane	4	medetomidine	0.1	n/a	100	free-breathing	80	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102607	ses-2	1026	Wistar	Male	n/a	400-450	isoflurane	4	medetomidine	0.1	n/a	100	free-breathing	60	40	Varian/Agilent	14.1	turboRARE	T2	2	0.01	GE-EPI	1.6	0.01	80
+sub-0102700	ses-1	1027	Long Evans	Female	2-4	250-300	isoflurane	4.5	isoflurane	1.5	n/a	20	ventilated	50	n/a	Bruker	9.4	RARE	T2	2.5	0.05	GE-EPI	1	0.012	60
+sub-0102701	ses-1	1027	Long Evans	Female	2-4	250-300	isoflurane	4.5	isoflurane	1.5	n/a	20	ventilated	50	n/a	Bruker	9.4	RARE	T2	2.5	0.05	GE-EPI	1	0.012	60
+sub-0102702	ses-1	1027	Long Evans	Female	2-4	250-300	isoflurane	4.5	isoflurane	1.5	n/a	20	ventilated	50	n/a	Bruker	9.4	RARE	T2	2.5	0.05	GE-EPI	1	0.012	60
+sub-0102703	ses-1	1027	Long Evans	Female	2-4	250-300	isoflurane	4.5	isoflurane	1.5	n/a	20	ventilated	50	n/a	Bruker	9.4	RARE	T2	2.5	0.05	GE-EPI	1	0.012	60
+sub-0102704	ses-1	1027	Long Evans	Female	2-4	250-300	isoflurane	4.5	isoflurane	1.5	n/a	20	ventilated	50	n/a	Bruker	9.4	RARE	T2	2.5	0.05	GE-EPI	1	0.012	60
+sub-0102705	ses-1	1027	Long Evans	Female	2-4	250-300	isoflurane	4.5	isoflurane	1.5	n/a	20	ventilated	50	n/a	Bruker	9.4	RARE	T2	2.5	0.05	GE-EPI	1	0.012	60
+sub-0102706	ses-1	1027	Long Evans	Female	2-4	250-300	isoflurane	4.5	isoflurane	1.5	n/a	20	ventilated	50	n/a	Bruker	9.4	RARE	T2	2.5	0.05	GE-EPI	1	0.012	60
+sub-0102707	ses-1	1027	Long Evans	Female	2-4	250-300	isoflurane	4.5	isoflurane	1.5	n/a	20	ventilated	50	n/a	Bruker	9.4	RARE	T2	2.5	0.05	GE-EPI	1	0.012	60
+sub-0102708	ses-1	1027	Long Evans	Female	2-4	250-300	isoflurane	4.5	isoflurane	1.5	n/a	20	ventilated	50	n/a	Bruker	9.4	RARE	T2	2.5	0.05	GE-EPI	1	0.012	60
+sub-0102709	ses-1	1027	Long Evans	Female	2-4	250-300	isoflurane	4.5	isoflurane	1.5	n/a	20	ventilated	50	n/a	Bruker	9.4	RARE	T2	2.5	0.05	GE-EPI	1	0.012	60
+sub-0102800	ses-1	1028	Long Evans	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.5	n/a	30	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102801	ses-1	1028	Long Evans	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.5	n/a	30	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102802	ses-1	1028	Long Evans	Male	0-2	250-300	isoflurane	n/a	isoflurane	1.5	n/a	30	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102803	ses-1	1028	Long Evans	Male	0-2	300-350	isoflurane	n/a	isoflurane	1.7	n/a	30	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102804	ses-1	1028	Long Evans	Male	0-2	300-350	isoflurane	n/a	isoflurane	1.5	n/a	30	free-breathing	60	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102805	ses-1	1028	Long Evans	Male	0-2	300-350	isoflurane	n/a	isoflurane	1.8	n/a	30	free-breathing	80	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102806	ses-1	1028	Long Evans	Male	2-4	300-350	isoflurane	n/a	isoflurane	1.5	n/a	30	free-breathing	60	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102807	ses-1	1028	Long Evans	Male	2-4	300-350	isoflurane	n/a	isoflurane	1.6	n/a	30	free-breathing	60	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102808	ses-1	1028	Long Evans	Male	2-4	250-300	isoflurane	n/a	isoflurane	1.6	n/a	30	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102809	ses-1	1028	Long Evans	Male	2-4	350-400	isoflurane	n/a	isoflurane	1.5	n/a	30	free-breathing	70	n/a	Bruker	4.7	RARE	T2	3	n/a	GE-EPI	2	0.0254	n/a
+sub-0102900	ses-1	1029	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0102901	ses-1	1029	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0102902	ses-1	1029	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0102903	ses-1	1029	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0102904	ses-1	1029	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0102905	ses-1	1029	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0102906	ses-1	1029	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0102907	ses-1	1029	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0102908	ses-1	1029	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0102909	ses-1	1029	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103000	ses-1	1030	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103001	ses-1	1030	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103002	ses-1	1030	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103003	ses-1	1030	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103004	ses-1	1030	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103005	ses-1	1030	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103006	ses-1	1030	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103007	ses-1	1030	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103008	ses-1	1030	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103009	ses-1	1030	Wistar	Male	n/a	n/a	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T1	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103100	ses-1	1031	Fischer 344	Female	4-6	150-200	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103100	ses-2	1031	Fischer 344	Female	8-10	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103101	ses-1	1031	Fischer 344	Female	4-6	150-200	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103101	ses-2	1031	Fischer 344	Female	8-10	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103102	ses-1	1031	Fischer 344	Female	4-6	150-200	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103102	ses-2	1031	Fischer 344	Female	8-10	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103103	ses-1	1031	Fischer 344	Female	4-6	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103103	ses-2	1031	Fischer 344	Female	8-10	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103104	ses-1	1031	Fischer 344	Female	4-6	n/a	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103104	ses-2	1031	Fischer 344	Female	8-10	150-200	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103105	ses-1	1031	Fischer 344	Female	4-6	150-200	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103105	ses-2	1031	Fischer 344	Female	8-10	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103106	ses-1	1031	Fischer 344	Female	4-6	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103106	ses-2	1031	Fischer 344	Female	8-10	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103107	ses-1	1031	Fischer 344	Female	4-6	150-200	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103107	ses-2	1031	Fischer 344	Female	8-10	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103108	ses-1	1031	Fischer 344	Female	4-6	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103108	ses-2	1031	Fischer 344	Female	8-10	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103109	ses-1	1031	Fischer 344	Female	4-6	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103109	ses-2	1031	Fischer 344	Female	8-10	200-250	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	n/a	n/a	GE-EPI	2	0.029	n/a
+sub-0103200	ses-1	1032	Wistar	Male	n/a	350-400	isoflurane	4	isoflurane	1.5	n/a	30	ventilated	n/a	n/a	Varian/Agilent	4.7	3D-RARE	T2	0.006	0.0025	GE-EPI	1.024	0.019	12
+sub-0103201	ses-1	1032	Wistar	Male	n/a	350-400	isoflurane	4	isoflurane	1.5	n/a	30	ventilated	n/a	n/a	Varian/Agilent	4.7	3D-RARE	T2	0.006	0.0025	GE-EPI	1.024	0.019	12
+sub-0103202	ses-1	1032	Wistar	Male	n/a	400-450	isoflurane	4	isoflurane	1.5	n/a	30	ventilated	n/a	n/a	Varian/Agilent	4.7	3D-RARE	T2	0.006	0.0025	GE-EPI	1.024	0.019	12
+sub-0103203	ses-1	1032	Wistar	Male	n/a	350-400	isoflurane	4	isoflurane	1.5	n/a	30	ventilated	n/a	n/a	Varian/Agilent	4.7	3D-RARE	T2	0.006	0.0025	GE-EPI	1.024	0.019	12
+sub-0103204	ses-1	1032	Wistar	Male	n/a	350-400	isoflurane	4	isoflurane	1.5	n/a	30	ventilated	n/a	n/a	Varian/Agilent	4.7	3D-RARE	T2	0.006	0.0025	GE-EPI	1.024	0.019	12
+sub-0103205	ses-1	1032	Wistar	Male	n/a	400-450	isoflurane	4	isoflurane	1.5	n/a	30	ventilated	n/a	n/a	Varian/Agilent	4.7	3D-RARE	T2	0.006	0.0025	GE-EPI	1.024	0.019	12
+sub-0103206	ses-1	1032	Wistar	Male	n/a	400-450	isoflurane	4	isoflurane	1.5	n/a	30	ventilated	n/a	n/a	Varian/Agilent	4.7	3D-RARE	T2	0.006	0.0025	GE-EPI	1.024	0.019	12
+sub-0103207	ses-1	1032	Wistar	Male	n/a	350-400	isoflurane	4	isoflurane	1.5	n/a	30	ventilated	n/a	n/a	Varian/Agilent	4.7	3D-RARE	T2	0.006	0.0025	GE-EPI	1.024	0.019	12
+sub-0103208	ses-1	1032	Wistar	Male	n/a	400-450	isoflurane	4	isoflurane	1.5	n/a	30	ventilated	n/a	n/a	Varian/Agilent	4.7	3D-RARE	T2	0.006	0.0025	GE-EPI	1.024	0.019	12
+sub-0103209	ses-1	1032	Wistar	Male	n/a	350-400	isoflurane	4	isoflurane	1.5	n/a	30	ventilated	n/a	n/a	Varian/Agilent	4.7	3D-RARE	T2	0.006	0.0025	GE-EPI	1.024	0.019	12
+sub-0103300	ses-1	1033	Sprague Dawley	Male	2-4	300-350	isoflurane	5	isoflurane	1.5	n/a	50	ventilated	50	420	Varian/Agilent	9.4	bSSFP	T2	0.005	0.0025	GE-EPI	0.7308	0.015	13
+sub-0103301	ses-1	1033	Sprague Dawley	Male	2-4	250-300	isoflurane	5	isoflurane	1.5	n/a	50	ventilated	50	410	Varian/Agilent	9.4	bSSFP	T2	0.005	0.0025	GE-EPI	0.7308	0.015	13
+sub-0103302	ses-1	1033	Sprague Dawley	Male	2-4	300-350	isoflurane	5	isoflurane	1.5	n/a	50	ventilated	50	400	Varian/Agilent	9.4	bSSFP	T2	0.005	0.0025	GE-EPI	0.7308	0.015	13
+sub-0103303	ses-1	1033	Sprague Dawley	Male	2-4	300-350	isoflurane	5	isoflurane	1.5	n/a	50	ventilated	50	460	Varian/Agilent	9.4	bSSFP	T2	0.005	0.0025	GE-EPI	0.7308	0.015	13
+sub-0103304	ses-1	1033	Sprague Dawley	Male	2-4	250-300	isoflurane	5	isoflurane	1.5	n/a	50	ventilated	40	330	Varian/Agilent	9.4	bSSFP	T2	0.005	0.0025	GE-EPI	0.7308	0.015	13
+sub-0103305	ses-1	1033	Sprague Dawley	Male	2-4	350-400	isoflurane	5	isoflurane	1.5	n/a	50	ventilated	50	n/a	Varian/Agilent	9.4	bSSFP	T2	0.005	0.0025	GE-EPI	0.7308	0.015	13
+sub-0103306	ses-1	1033	Sprague Dawley	Male	2-4	350-400	isoflurane	5	isoflurane	1.5	n/a	50	ventilated	40	370	Varian/Agilent	9.4	bSSFP	T2	0.005	0.0025	GE-EPI	0.7308	0.015	13
+sub-0103307	ses-1	1033	Sprague Dawley	Male	2-4	300-350	isoflurane	5	isoflurane	1.5	n/a	50	ventilated	50	390	Varian/Agilent	9.4	bSSFP	T2	0.005	0.0025	GE-EPI	0.7308	0.015	13
+sub-0103308	ses-1	1033	Sprague Dawley	Male	2-4	350-400	isoflurane	5	isoflurane	1.5	n/a	50	ventilated	n/a	n/a	Varian/Agilent	9.4	bSSFP	T2	0.005	0.0025	GE-EPI	0.7308	0.015	13
+sub-0103309	ses-1	1033	Sprague Dawley	Male	2-4	300-350	isoflurane	5	isoflurane	1.5	n/a	50	ventilated	50	380	Varian/Agilent	9.4	bSSFP	T2	0.005	0.0025	GE-EPI	0.7308	0.015	13
+sub-0103400	ses-1	1034	Wistar	Female	2-4	250-300	isoflurane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	30	ventilated	60	300	Bruker	9.4	turboRARE	T2	1.5	0.045	GE-EPI	2	0.015	68.4
+sub-0103401	ses-1	1034	Wistar	Female	2-4	250-300	isoflurane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	30	ventilated	60	300	Bruker	9.4	turboRARE	T2	1.5	0.045	GE-EPI	2	0.015	68.4
+sub-0103402	ses-1	1034	Wistar	Female	2-4	250-300	isoflurane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	30	ventilated	60	300	Bruker	9.4	turboRARE	T2	1.5	0.045	GE-EPI	2	0.015	68.4
+sub-0103403	ses-1	1034	Wistar	Female	2-4	250-300	isoflurane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	30	ventilated	60	300	Bruker	9.4	turboRARE	T2	1.5	0.045	GE-EPI	2	0.015	68.4
+sub-0103404	ses-1	1034	Wistar	Female	2-4	250-300	isoflurane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	30	ventilated	60	300	Bruker	9.4	turboRARE	T2	1.5	0.045	GE-EPI	2	0.015	68.4
+sub-0103405	ses-1	1034	Wistar	Male	2-4	250-300	isoflurane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	30	ventilated	60	300	Bruker	9.4	turboRARE	T2	1.5	0.045	GE-EPI	2	0.015	68.4
+sub-0103406	ses-1	1034	Wistar	Male	2-4	250-300	isoflurane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	30	ventilated	60	300	Bruker	9.4	turboRARE	T2	1.5	0.045	GE-EPI	2	0.015	68.4
+sub-0103407	ses-1	1034	Wistar	Male	2-4	250-300	isoflurane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	30	ventilated	60	300	Bruker	9.4	turboRARE	T2	1.5	0.045	GE-EPI	2	0.015	68.4
+sub-0103408	ses-1	1034	Wistar	Male	2-4	250-300	isoflurane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	30	ventilated	60	300	Bruker	9.4	turboRARE	T2	1.5	0.045	GE-EPI	2	0.015	68.4
+sub-0103409	ses-1	1034	Wistar	Male	2-4	250-300	isoflurane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	30	ventilated	60	300	Bruker	9.4	turboRARE	T2	1.5	0.045	GE-EPI	2	0.015	68.4
+sub-0103500	ses-1	1035	Long Evans	Female	8-10	200-250	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.4 / 0.1 	i.v	40	free-breathing	100	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	2	0.018	90
+sub-0103501	ses-1	1035	Long Evans	Female	12-14	250-300	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.4 / 0.1 	i.v	40	free-breathing	40	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	2	0.018	90
+sub-0103502	ses-1	1035	Long Evans	Female	12-14	250-300	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.4 / 0.1	i.v	40	free-breathing	90	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	2	0.018	90
+sub-0103503	ses-1	1035	Long Evans	Female	12-14	300-350	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.4 / 0.1	i.v	40	free-breathing	80	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	2	0.018	90
+sub-0103504	ses-1	1035	Long Evans	Female	12-14	300-350	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.4 / 0.1	i.v	40	free-breathing	60	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	2	0.018	90
+sub-0103505	ses-1	1035	Long Evans	Female	12-14	300-350	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.4 / 0.1	i.v	40	free-breathing	80	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	2	0.018	90
+sub-0103506	ses-1	1035	Long Evans	Female	12-14	250-300	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.4 / 0.1	i.v	40	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	2	0.018	90
+sub-0103507	ses-1	1035	Long Evans	Female	12-14	250-300	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.4 / 0.1	i.v	40	free-breathing	80	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	2	0.018	90
+sub-0103508	ses-1	1035	Long Evans	Female	12-14	250-300	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.4 / 0.1	i.v	40	free-breathing	90	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	2	0.018	90
+sub-0103509	ses-1	1035	Long Evans	Female	8-10	250-300	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.4 / 0.1	i.v	40	free-breathing	70	n/a	Bruker	9.4	turboRARE	T2	2.5	0.033	GE-EPI	2	0.018	90
+sub-0103600	ses-1	1036	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103601	ses-1	1036	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103602	ses-1	1036	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103603	ses-1	1036	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103604	ses-1	1036	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103605	ses-1	1036	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103606	ses-1	1036	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103607	ses-1	1036	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103608	ses-1	1036	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103609	ses-1	1036	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	1	0.021119	90
+sub-0103700	ses-1	1037	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103701	ses-1	1037	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103702	ses-1	1037	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103703	ses-1	1037	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103704	ses-1	1037	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103705	ses-1	1037	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103706	ses-1	1037	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103707	ses-1	1037	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103708	ses-1	1037	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103709	ses-1	1037	Wistar	Male	2-4	300-350	isoflurane	5	medetomidine	0.14	s.c	n/a	free-breathing	70	n/a	Bruker	7	RARE	T2	n/a	n/a	GE-EPI	2	0.021119	90
+sub-0103800	ses-1	1038	Wistar	Male	2-4	300-350	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	50	n/a	Bruker	7	RARE	T2	2.25	0.011	GE-EPI	2	0.029	90
+sub-0103801	ses-1	1038	Wistar	Male	2-4	350-400	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	60	n/a	Bruker	7	RARE	T2	2.25	0.011	GE-EPI	2	0.029	90
+sub-0103802	ses-1	1038	Wistar	Male	2-4	350-400	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	60	n/a	Bruker	7	RARE	T2	2.25	0.011	GE-EPI	2	0.029	90
+sub-0103803	ses-1	1038	Wistar	Male	2-4	350-400	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	60	n/a	Bruker	7	RARE	T2	2.25	0.011	GE-EPI	2	0.029	90
+sub-0103804	ses-1	1038	Wistar	Male	2-4	250-300	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	50	n/a	Bruker	7	RARE	T2	2.25	0.011	GE-EPI	2	0.029	90
+sub-0103805	ses-1	1038	Wistar	Male	2-4	350-400	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	60	n/a	Bruker	7	RARE	T2	2.25	0.011	GE-EPI	2	0.029	90
+sub-0103806	ses-1	1038	Wistar	Male	2-4	300-350	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	50	n/a	Bruker	7	RARE	T2	2.25	0.011	GE-EPI	2	0.029	90
+sub-0103807	ses-1	1038	Wistar	Male	2-4	300-350	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	80	n/a	Bruker	7	RARE	T2	2.25	0.011	GE-EPI	2	0.029	90
+sub-0103808	ses-1	1038	Wistar	Male	2-4	350-400	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	70	n/a	Bruker	7	RARE	T2	2.25	0.011	GE-EPI	2	0.029	90
+sub-0103809	ses-1	1038	Wistar	Male	2-4	350-400	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	70	n/a	Bruker	7	RARE	T2	2.25	0.011	GE-EPI	2	0.029	90
+sub-0103900	ses-1	1039	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	60	220	Bruker	9.4	FISP	T2	0.008	0.004	GE-EPI	1.7	0.017	60
+sub-0103901	ses-1	1039	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	100	270	Bruker	9.4	FISP	T2	0.008	0.004	GE-EPI	1.7	0.017	60
+sub-0103902	ses-1	1039	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	90	240	Bruker	9.4	FISP	T2	0.008	0.004	GE-EPI	1.7	0.017	60
+sub-0103903	ses-1	1039	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	70	220	Bruker	9.4	FISP	T2	0.008	0.004	GE-EPI	1.7	0.017	60
+sub-0103904	ses-1	1039	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	70	280	Bruker	9.4	FISP	T2	0.008	0.004	GE-EPI	1.7	0.017	60
+sub-0103905	ses-1	1039	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	80	210	Bruker	9.4	FISP	T2	0.008	0.004	GE-EPI	1.7	0.017	60
+sub-0103906	ses-1	1039	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	80	250	Bruker	9.4	FISP	T2	0.008	0.004	GE-EPI	1.7	0.017	60
+sub-0103907	ses-1	1039	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	90	270	Bruker	9.4	FISP	T2	0.008	0.004	GE-EPI	1.7	0.017	60
+sub-0103908	ses-1	1039	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	100	220	Bruker	9.4	FISP	T2	0.008	0.004	GE-EPI	1.7	0.017	60
+sub-0103909	ses-1	1039	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	70	300	Bruker	9.4	FISP	T2	0.008	0.004	GE-EPI	1.7	0.017	60
+sub-0104000	ses-1	1040	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	40	free-breathing	30	260	Bruker	9.4	turboRARE	T2	1.2	0.05	GE-EPI	1.5	0.017	60
+sub-0104001	ses-1	1040	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	30	free-breathing	80	290	Bruker	9.4	turboRARE	T2	1.2	0.05	GE-EPI	1.5	0.017	60
+sub-0104002	ses-1	1040	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	30	free-breathing	100	310	Bruker	9.4	turboRARE	T2	1.2	0.05	GE-EPI	1.5	0.017	60
+sub-0104003	ses-1	1040	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	30	free-breathing	90	280	Bruker	9.4	turboRARE	T2	1.2	0.05	GE-EPI	1.5	0.017	60
+sub-0104004	ses-1	1040	Sprague Dawley	Male	2-4	450-500	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	30	free-breathing	80	270	Bruker	9.4	turboRARE	T2	1.2	0.05	GE-EPI	1.5	0.017	60
+sub-0104005	ses-1	1040	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	30	free-breathing	80	250	Bruker	9.4	turboRARE	T2	1.2	0.05	GE-EPI	1.5	0.017	60
+sub-0104006	ses-1	1040	Sprague Dawley	Male	2-4	450-500	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	30	free-breathing	90	290	Bruker	9.4	turboRARE	T2	1.2	0.05	GE-EPI	1.5	0.017	60
+sub-0104007	ses-1	1040	Sprague Dawley	Male	2-4	450-500	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	30	free-breathing	80	240	Bruker	9.4	turboRARE	T2	1.2	0.05	GE-EPI	1.5	0.017	60
+sub-0104008	ses-1	1040	Sprague Dawley	Male	2-4	450-500	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	30	free-breathing	70	230	Bruker	9.4	turboRARE	T2	1.2	0.05	GE-EPI	1.5	0.017	60
+sub-0104009	ses-1	1040	Sprague Dawley	Male	2-4	450-500	isoflurane / medetomidine	4 /  0.07	isoflurane / medetomidine	0.5 / 0.28	n/a	30	free-breathing	80	230	Bruker	9.4	turboRARE	T2	1.2	0.05	GE-EPI	1.5	0.017	60
+sub-0104100	ses-1	1041	Fischer 344	Female	2-4	150-200	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104101	ses-1	1041	Fischer 344	Female	2-4	150-200	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104102	ses-1	1041	Fischer 344	Female	2-4	150-200	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104103	ses-1	1041	Fischer 344	Female	2-4	150-200	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104104	ses-1	1041	Fischer 344	Female	2-4	150-200	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104105	ses-1	1041	Fischer 344	Female	2-4	150-200	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104106	ses-1	1041	Fischer 344	Female	2-4	150-200	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104107	ses-1	1041	Fischer 344	Female	2-4	150-200	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104108	ses-1	1041	Fischer 344	Female	2-4	150-200	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104109	ses-1	1041	Fischer 344	Female	2-4	150-200	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104200	ses-1	1042	Fischer 344	Male	2-4	250-300	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104201	ses-1	1042	Fischer 344	Male	2-4	250-300	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104202	ses-1	1042	Fischer 344	Male	2-4	250-300	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104203	ses-1	1042	Fischer 344	Male	2-4	250-300	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104204	ses-1	1042	Fischer 344	Male	2-4	200-250	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104205	ses-1	1042	Fischer 344	Male	2-4	200-250	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104206	ses-1	1042	Fischer 344	Male	2-4	300-350	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104207	ses-1	1042	Fischer 344	Male	2-4	250-300	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104208	ses-1	1042	Fischer 344	Male	2-4	300-350	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104209	ses-1	1042	Fischer 344	Male	2-4	300-350	isoflurane	4	medetomidine	0.05	n/a	90	free-breathing	n/a	n/a	Bruker	7	turboRARE	T2	6	0.0353	GE-EPI	2	0.028	90
+sub-0104300	ses-1	1043	Wistar	Female	2-4	150-200	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	n/a	120	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5.55	0.037	GE-EPI	2	0.02	n/a
+sub-0104301	ses-1	1043	Wistar	Female	2-4	150-200	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	n/a	110	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5.55	0.037	GE-EPI	2	0.02	n/a
+sub-0104302	ses-1	1043	Wistar	Female	2-4	150-200	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	n/a	100	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5.55	0.037	GE-EPI	2	0.02	n/a
+sub-0104303	ses-1	1043	Wistar	Female	2-4	150-200	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	n/a	110	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5.55	0.037	GE-EPI	2	0.02	n/a
+sub-0104304	ses-1	1043	Wistar	Female	2-4	150-200	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	n/a	110	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5.55	0.037	GE-EPI	2	0.02	n/a
+sub-0104305	ses-1	1043	Wistar	Female	2-4	150-200	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	n/a	120	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5.55	0.037	GE-EPI	2	0.02	n/a
+sub-0104306	ses-1	1043	Wistar	Female	2-4	150-200	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	n/a	100	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5.55	0.037	GE-EPI	2	0.02	n/a
+sub-0104307	ses-1	1043	Wistar	Female	2-4	150-200	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	n/a	100	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5.55	0.037	GE-EPI	2	0.02	n/a
+sub-0104308	ses-1	1043	Wistar	Female	2-4	150-200	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	n/a	110	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5.55	0.037	GE-EPI	2	0.02	n/a
+sub-0104309	ses-1	1043	Wistar	Female	2-4	200-250	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	n/a	100	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5.55	0.037	GE-EPI	2	0.02	n/a
+sub-0104400	ses-1	1044	Sprague Dawley	Male	2-4	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	90	free-breathing	70	550	Bruker	9.4	RARE	T2	5	0.044	GE-EPI	1.5	0.015	65
+sub-0104401	ses-1	1044	Sprague Dawley	Male	2-4	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	80	free-breathing	50	760	Bruker	9.4	RARE	T2	5	0.044	GE-EPI	1.5	0.015	65
+sub-0104402	ses-1	1044	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	80	free-breathing	60	470	Bruker	9.4	RARE	T2	5	0.044	GE-EPI	1.5	0.015	65
+sub-0104403	ses-1	1044	Sprague Dawley	Male	2-4	400-450	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	90	free-breathing	80	300	Bruker	9.4	RARE	T2	5	0.044	GE-EPI	1.5	0.015	65
+sub-0104404	ses-1	1044	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	80	free-breathing	80	370	Bruker	9.4	RARE	T2	5	0.044	GE-EPI	1.5	0.015	65
+sub-0104405	ses-1	1044	Sprague Dawley	Male	2-4	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	80	free-breathing	70	700	Bruker	9.4	RARE	T2	5	0.044	GE-EPI	1.5	0.015	65
+sub-0104406	ses-1	1044	Sprague Dawley	Male	2-4	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	80	free-breathing	60	780	Bruker	9.4	RARE	T2	5	0.044	GE-EPI	1.5	0.015	65
+sub-0104407	ses-1	1044	Sprague Dawley	Male	2-4	300-350	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	80	free-breathing	60	620	Bruker	9.4	RARE	T2	5	0.044	GE-EPI	1.5	0.015	65
+sub-0104408	ses-1	1044	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	80	free-breathing	70	720	Bruker	9.4	RARE	T2	5	0.044	GE-EPI	1.5	0.015	65
+sub-0104409	ses-1	1044	Sprague Dawley	Male	2-4	350-400	isoflurane / medetomidine	5 / 0.05	medetomidine	0.1	s.c	80	free-breathing	80	750	Bruker	9.4	RARE	T2	5	0.044	GE-EPI	1.5	0.015	65
+sub-0104500	ses-1	1045	Sprague Dawley	Female	0-2	150-200	isoflurane	3.5	isoflurane / medetomidine	0.25 / 0.1	n/a	20	ventilated	110	n/a	Bruker	9.4	fSEMS	T2	4	0.03	GE-EPI	1	0.012	n/a
+sub-0104501	ses-1	1045	Sprague Dawley	Female	0-2	200-250	isoflurane	3.5	isoflurane / medetomidine	0.25 / 0.1	n/a	20	ventilated	110	n/a	Bruker	9.4	fSEMS	T2	4	0.03	GE-EPI	1	0.012	n/a
+sub-0104502	ses-1	1045	Sprague Dawley	Female	0-2	200-250	isoflurane	3.5	isoflurane / medetomidine	0.25 / 0.1	n/a	20	ventilated	110	n/a	Bruker	9.4	fSEMS	T2	4	0.03	GE-EPI	1	0.012	n/a
+sub-0104503	ses-1	1045	Sprague Dawley	Female	0-2	200-250	isoflurane	3.5	isoflurane / medetomidine	0.25 / 0.1	n/a	20	ventilated	110	n/a	Bruker	9.4	fSEMS	T2	4	0.03	GE-EPI	1	0.012	n/a
+sub-0104504	ses-1	1045	Sprague Dawley	Female	0-2	350-400	isoflurane	3.5	isoflurane / medetomidine	0.25 / 0.1	n/a	20	ventilated	110	n/a	Bruker	9.4	fSEMS	T2	4	0.03	GE-EPI	1	0.012	n/a
+sub-0104505	ses-1	1045	Sprague Dawley	Male	0-2	300-350	isoflurane	3.5	isoflurane / medetomidine	0.25 / 0.1	n/a	20	ventilated	110	n/a	Bruker	9.4	fSEMS	T2	4	0.03	GE-EPI	1	0.012	n/a
+sub-0104506	ses-1	1045	Sprague Dawley	Male	0-2	300-350	isoflurane	3.5	isoflurane / medetomidine	0.25 / 0.1	n/a	20	ventilated	110	n/a	Bruker	9.4	fSEMS	T2	4	0.03	GE-EPI	1	0.012	n/a
+sub-0104507	ses-1	1045	Sprague Dawley	Male	2-4	350-400	isoflurane	3.5	isoflurane / medetomidine	0.25 / 0.1	n/a	20	ventilated	110	n/a	Bruker	9.4	fSEMS	T2	4	0.03	GE-EPI	1	0.012	n/a
+sub-0104508	ses-1	1045	Sprague Dawley	Male	2-4	300-350	isoflurane	3.5	isoflurane / medetomidine	0.25 / 0.1	n/a	20	ventilated	110	n/a	Bruker	9.4	fSEMS	T2	4	0.03	GE-EPI	1	0.012	n/a
+sub-0104509	ses-1	1045	Sprague Dawley	Male	2-4	350-400	isoflurane	3.5	isoflurane / medetomidine	0.25 / 0.1	n/a	20	ventilated	110	n/a	Bruker	9.4	fSEMS	T2	4	0.03	GE-EPI	1	0.012	n/a
+sub-0104600	ses-1	1046	Sprague Dawley	Male	n/a	200-250	isoflurane	3	isoflurane / medetomidine	0.5 / 0.1	s.c	30	free-breathing	60	310	Bruker	7	RARE	T2	5	0.029	GE-EPI	1.3	0.023	60
+sub-0104601	ses-1	1046	Sprague Dawley	Male	n/a	200-250	isoflurane	3	isoflurane / medetomidine	0.5 / 0.1	s.c	30	free-breathing	50	320	Bruker	7	RARE	T2	5	0.029	GE-EPI	1.3	0.023	60
+sub-0104602	ses-1	1046	Sprague Dawley	Male	n/a	200-250	isoflurane	3	isoflurane / medetomidine	0.5 / 0.1	s.c	30	free-breathing	60	320	Bruker	7	RARE	T2	5	0.029	GE-EPI	1.3	0.023	60
+sub-0104603	ses-1	1046	Sprague Dawley	Male	n/a	200-250	isoflurane	3	isoflurane / medetomidine	0.5 / 0.1	s.c	30	free-breathing	70	330	Bruker	7	RARE	T2	5	0.029	GE-EPI	1.3	0.023	60
+sub-0104604	ses-1	1046	Sprague Dawley	Male	n/a	200-250	isoflurane	3	isoflurane / medetomidine	0.5 / 0.1	s.c	30	free-breathing	60	310	Bruker	7	RARE	T2	5	0.029	GE-EPI	1.3	0.023	60
+sub-0104605	ses-1	1046	Sprague Dawley	Male	n/a	200-250	isoflurane	3	isoflurane / medetomidine	0.5 / 0.1	s.c	30	free-breathing	50	320	Bruker	7	RARE	T2	5	0.029	GE-EPI	1.3	0.023	60
+sub-0104606	ses-1	1046	Sprague Dawley	Male	n/a	250-300	isoflurane	3	isoflurane / medetomidine	0.5 / 0.1	s.c	30	free-breathing	50	320	Bruker	7	RARE	T2	5	0.029	GE-EPI	1.3	0.023	60
+sub-0104607	ses-1	1046	Sprague Dawley	Male	n/a	200-250	isoflurane	3	isoflurane / medetomidine	0.5 / 0.1	s.c	30	free-breathing	60	300	Bruker	7	RARE	T2	5	0.029	GE-EPI	1.3	0.023	60
+sub-0104608	ses-1	1046	Sprague Dawley	Male	n/a	250-300	isoflurane	3	isoflurane / medetomidine	0.5 / 0.1	s.c	30	free-breathing	60	300	Bruker	7	RARE	T2	5	0.029	GE-EPI	1.3	0.023	60
+sub-0104609	ses-1	1046	Sprague Dawley	Male	n/a	200-250	isoflurane	3	isoflurane / medetomidine	0.5 / 0.1	s.c	30	free-breathing	60	290	Bruker	7	RARE	T2	5	0.029	GE-EPI	1.3	0.023	60
+sub-0104700	ses-1	1047	Wistar	Female	0-2	150-200	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	60	free-breathing	50	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104700	ses-2	1047	Wistar	Female	2-4	200-250	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	50	free-breathing	50	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104701	ses-1	1047	Wistar	Female	0-2	150-200	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	40	free-breathing	40	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104701	ses-2	1047	Wistar	Female	2-4	200-250	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	40	free-breathing	40	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104702	ses-1	1047	Wistar	Male	0-2	200-250	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	50	free-breathing	40	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104702	ses-2	1047	Wistar	Male	2-4	300-350	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	30	free-breathing	50	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104703	ses-1	1047	Wistar	Female	0-2	150-200	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	30	free-breathing	50	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104703	ses-2	1047	Wistar	Female	2-4	200-250	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	30	free-breathing	50	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104704	ses-1	1047	Wistar	Female	0-2	100-150	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	50	free-breathing	30	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104704	ses-2	1047	Wistar	Female	2-4	200-250	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	30	free-breathing	30	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104705	ses-1	1047	Wistar	Male	0-2	150-200	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	30	free-breathing	60	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104705	ses-2	1047	Wistar	Male	2-4	300-350	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	30	free-breathing	50	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104706	ses-1	1047	Wistar	Female	0-2	100-150	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	30	free-breathing	40	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104706	ses-2	1047	Wistar	Female	2-4	200-250	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	30	free-breathing	50	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104707	ses-1	1047	Wistar	Female	0-2	100-150	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	40	free-breathing	50	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104707	ses-2	1047	Wistar	Female	2-4	200-250	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	40	free-breathing	40	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104708	ses-1	1047	Wistar	Male	0-2	150-200	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	40	free-breathing	50	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104708	ses-2	1047	Wistar	Male	2-4	300-350	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	40	free-breathing	30	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104709	ses-1	1047	Wistar	Male	0-2	100-150	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	40	free-breathing	40	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104709	ses-2	1047	Wistar	Male	2-4	300-350	isoflurane / medetomidine	5 / 0.024	isoflurane	n/a	n/a	30	free-breathing	30	n/a	Bruker	7	FLASH	T2	0.03076	0.005	GE-EPI	1	0.02	60
+sub-0104800	ses-1	1048	Wistar	Male	0-2	250-300	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.37 / 0.1	n/a	n/a	ventilated	60	300	Bruker	9.4	TurboRARE	T2	4.7	0.033	GE-EPI	1	0.015	60
+sub-0104801	ses-1	1048	Wistar	Male	0-2	250-300	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.37 / 0.1	n/a	n/a	ventilated	60	300	Bruker	9.4	TurboRARE	T2	4.7	0.033	GE-EPI	1	0.015	60
+sub-0104802	ses-1	1048	Wistar	Male	0-2	250-300	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.37 / 0.1	n/a	n/a	ventilated	60	300	Bruker	9.4	TurboRARE	T2	4.7	0.033	GE-EPI	1	0.015	60
+sub-0104803	ses-1	1048	Wistar	Male	0-2	300-350	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.37 / 0.1	n/a	n/a	ventilated	60	300	Bruker	9.4	TurboRARE	T2	4.7	0.033	GE-EPI	1	0.015	60
+sub-0104804	ses-1	1048	Wistar	Male	0-2	300-350	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.37 / 0.1	n/a	n/a	ventilated	60	300	Bruker	9.4	TurboRARE	T2	4.7	0.033	GE-EPI	1	0.015	60
+sub-0104805	ses-1	1048	Wistar	Male	0-2	300-350	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.37 / 0.1	n/a	n/a	ventilated	60	300	Bruker	9.4	TurboRARE	T2	4.7	0.033	GE-EPI	1	0.015	60
+sub-0104806	ses-1	1048	Wistar	Male	0-2	300-350	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.37 / 0.1	n/a	n/a	ventilated	60	300	Bruker	9.4	TurboRARE	T2	4.7	0.033	GE-EPI	1	0.015	60
+sub-0104807	ses-1	1048	Wistar	Male	0-2	300-350	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.37 / 0.1	n/a	n/a	ventilated	60	300	Bruker	9.4	TurboRARE	T2	4.7	0.033	GE-EPI	1	0.015	60
+sub-0104808	ses-1	1048	Wistar	Male	0-2	300-350	isoflurane / medetomidine	5 / 0.05	isoflurane / medetomidine	0.37 / 0.1	n/a	n/a	ventilated	60	300	Bruker	9.4	TurboRARE	T2	4.7	0.033	GE-EPI	1	0.015	60
+sub-0104900	ses-1	1049	Wistar	Male	2-4	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	50	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104900	ses-2	1049	Wistar	Male	4-6	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	50	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104901	ses-1	1049	Wistar	Male	2-4	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	100	free-breathing	60	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104901	ses-2	1049	Wistar	Male	4-6	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	100	free-breathing	40	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104902	ses-1	1049	Wistar	Male	2-4	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	60	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104902	ses-2	1049	Wistar	Male	4-6	300-350	isoflurane	3	isoflurane / medetomidine	0.5	i.v	100	free-breathing	60	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104903	ses-1	1049	Wistar	Male	2-4	400-450	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	60	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104903	ses-2	1049	Wistar	Male	4-6	400-450	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	40	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104904	ses-1	1049	Wistar	Male	2-4	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	60	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104904	ses-2	1049	Wistar	Male	4-6	400-450	isoflurane	3	isoflurane / medetomidine	0.5	i.v	100	free-breathing	80	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104905	ses-1	1049	Wistar	Male	2-4	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	70	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104905	ses-2	1049	Wistar	Male	4-6	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	50	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104906	ses-1	1049	Wistar	Male	2-4	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	60	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104906	ses-2	1049	Wistar	Male	4-6	400-450	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	60	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104907	ses-1	1049	Wistar	Male	2-4	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	50	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104907	ses-2	1049	Wistar	Male	4-6	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	100	free-breathing	80	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104908	ses-1	1049	Wistar	Male	2-4	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	50	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104908	ses-2	1049	Wistar	Male	4-6	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	120	free-breathing	50	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104909	ses-1	1049	Wistar	Male	2-4	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	70	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0104909	ses-2	1049	Wistar	Male	4-6	350-400	isoflurane	3	isoflurane / medetomidine	0.5	i.v	90	free-breathing	60	n/a	Bruker	9.4	TurboRARE	T2	2.242	0.019	GE-EPI	1	0.015	90
+sub-0105000	ses-1	1050	Sprague Dawley	Male	2-4	250-300	isoflurane	5	isoflurane	2	n/a	10	free-breathing	50	n/a	Bruker	11.7	TurboRARE	T2	4.6	0.01	SE-EPI	0.65	0.0175	30
+sub-0105001	ses-1	1050	Sprague Dawley	Male	2-4	300-350	isoflurane	5	isoflurane	2.25	n/a	10	free-breathing	70	n/a	Bruker	11.7	TurboRARE	T2	4.6	0.01	SE-EPI	0.65	0.0175	30
+sub-0105002	ses-1	1050	Sprague Dawley	Male	2-4	300-350	isoflurane	5	isoflurane	2	n/a	10	free-breathing	70	n/a	Bruker	11.7	TurboRARE	T2	4.6	0.01	SE-EPI	0.65	0.0175	30
+sub-0105003	ses-1	1050	Sprague Dawley	Male	2-4	400-450	isoflurane	5	isoflurane	2	n/a	10	free-breathing	70	n/a	Bruker	11.7	TurboRARE	T2	4.6	0.01	SE-EPI	0.65	0.0175	30
+sub-0105004	ses-1	1050	Sprague Dawley	Male	2-4	450-500	isoflurane	5	isoflurane	2	n/a	10	free-breathing	70	n/a	Bruker	11.7	TurboRARE	T2	4.6	0.01	SE-EPI	0.65	0.0175	30
+sub-0105005	ses-1	1050	Sprague Dawley	Male	2-4	400-450	isoflurane	5	isoflurane	2.5	n/a	10	free-breathing	70	n/a	Bruker	11.7	TurboRARE	T2	4.6	0.01	SE-EPI	0.65	0.0175	30
+sub-0105006	ses-1	1050	Sprague Dawley	Male	2-4	300-350	isoflurane	5	isoflurane	2.25	n/a	10	free-breathing	70	n/a	Bruker	11.7	TurboRARE	T2	4.6	0.01	SE-EPI	0.65	0.0175	30
+sub-0105007	ses-1	1050	Sprague Dawley	Male	2-4	450-500	isoflurane	5	isoflurane	2	n/a	10	free-breathing	80	n/a	Bruker	11.7	TurboRARE	T2	4.6	0.01	SE-EPI	0.65	0.0175	30
+sub-0105008	ses-1	1050	Sprague Dawley	Male	2-4	400-450	isoflurane	5	isoflurane	2.5	n/a	10	free-breathing	70	n/a	Bruker	11.7	TurboRARE	T2	4.6	0.01	SE-EPI	0.65	0.0175	30
+sub-0105009	ses-1	1050	Sprague Dawley	Male	2-4	300-350	isoflurane	5	isoflurane	2	n/a	10	free-breathing	70	n/a	Bruker	11.7	TurboRARE	T2	4.6	0.01	SE-EPI	0.65	0.0175	30
+sub-0105100	ses-1	1051	Lister Hooded	Male	8-10	550-600	isoflurane	5	isoflurane	2	n/a	100	free-breathing	60	390	Bruker	9.4	GE-EPI	T2	1.832	0.0165	GE-EPI	1.832	0.0165	90
+sub-0105101	ses-1	1051	Lister Hooded	Male	8-10	500-550	isoflurane	5	isoflurane	1	n/a	80	free-breathing	60	270	Bruker	9.4	GE-EPI	T2	1.832	0.0165	GE-EPI	1.832	0.0165	90
+sub-0105102	ses-1	1051	Lister Hooded	Male	6-8	500-550	isoflurane	5	isoflurane	2	n/a	80	free-breathing	60	320	Bruker	9.4	GE-EPI	T2	1.832	0.0165	GE-EPI	1.832	0.0165	90
+sub-0105103	ses-1	1051	Lister Hooded	Male	6-8	550-600	isoflurane	5	isoflurane	2	n/a	80	free-breathing	50	290	Bruker	9.4	GE-EPI	T2	1.832	0.0165	GE-EPI	1.832	0.0165	90
+sub-0105104	ses-1	1051	Lister Hooded	Male	6-8	550-600	isoflurane	5	isoflurane	2	n/a	80	free-breathing	60	320	Bruker	9.4	GE-EPI	T2	1.832	0.0165	GE-EPI	1.832	0.0165	90
+sub-0105105	ses-1	1051	Lister Hooded	Male	6-8	550-600	isoflurane	5	isoflurane	2	n/a	90	free-breathing	70	330	Bruker	9.4	GE-EPI	T2	1.832	0.0165	GE-EPI	1.832	0.0165	90
+sub-0105106	ses-1	1051	Lister Hooded	Male	6-8	550-600	isoflurane	5	isoflurane	2	n/a	80	free-breathing	60	300	Bruker	9.4	GE-EPI	T2	1.832	0.0165	GE-EPI	1.832	0.0165	90
+sub-0105107	ses-1	1051	Lister Hooded	Male	6-8	450-500	isoflurane	5	isoflurane	1	n/a	90	free-breathing	60	310	Bruker	9.4	GE-EPI	T2	1.832	0.0165	GE-EPI	1.832	0.0165	90
+sub-0105108	ses-1	1051	Lister Hooded	Male	6-8	500-550	isoflurane	5	isoflurane	1	n/a	90	free-breathing	60	290	Bruker	9.4	GE-EPI	T2	1.832	0.0165	GE-EPI	1.832	0.0165	90
+sub-0105109	ses-1	1051	Lister Hooded	Male	6-8	550-600	isoflurane	5	isoflurane	2	n/a	90	free-breathing	70	310	Bruker	9.4	GE-EPI	T2	1.832	0.0165	GE-EPI	1.832	0.0165	90
+sub-0105200	ses-1	1052	Wistar	Male	2-4	350-400	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105200	ses-2	1052	Wistar	Male	2-4	350-400	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105201	ses-1	1052	Wistar	Male	2-4	350-400	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105201	ses-2	1052	Wistar	Male	2-4	350-400	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105202	ses-1	1052	Wistar	Male	2-4	300-350	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105202	ses-2	1052	Wistar	Male	2-4	300-350	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105203	ses-1	1052	Wistar	Male	2-4	300-350	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105203	ses-2	1052	Wistar	Male	2-4	300-350	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105204	ses-1	1052	Wistar	Male	2-4	250-300	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105204	ses-2	1052	Wistar	Male	2-4	250-300	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105205	ses-1	1052	Wistar	Male	2-4	250-300	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105205	ses-2	1052	Wistar	Male	2-4	250-300	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105206	ses-1	1052	Wistar	Male	2-4	200-250	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105206	ses-2	1052	Wistar	Male	2-4	200-250	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105207	ses-1	1052	Wistar	Male	2-4	200-250	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105207	ses-2	1052	Wistar	Male	2-4	200-250	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105208	ses-1	1052	Wistar	Male	2-4	200-250	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105208	ses-2	1052	Wistar	Male	2-4	200-250	isoflurane	4	awake	n/a	n/a	n/a	free-breathing	n/a	n/a	Bruker	7	TSE	T2	2.65	0.025	GE-EPI	1	0.017	55
+sub-0105300	ses-1	1053	Long Evans	Female	0-2	200-250	isoflurane / medetomidine	2 / 0.05	isoflurane / medetomidine	0.5 / 0.1	n/a	20	free-breathing	50	300	Bruker	7	TurboRARE	T2	1.8	0.06711	GE-EPI	2.5	0.018	n/a
+sub-0105301	ses-1	1053	Long Evans	Female	0-2	150-200	isoflurane	2 / 0.05	isoflurane / medetomidine	0.5 / 0.1	n/a	20	free-breathing	60	30	Bruker	7	TurboRARE	T2	1.8	0.06711	GE-EPI	2.5	0.018	n/a
+sub-0105302	ses-1	1053	Long Evans	Female	0-2	200-250	isoflurane	2 / 0.05	isoflurane / medetomidine	0.5 / 0.1	n/a	20	free-breathing	70	340	Bruker	7	TurboRARE	T2	1.8	0.06711	GE-EPI	2.5	0.018	n/a
+sub-0105303	ses-1	1053	Long Evans	Female	0-2	200-250	isoflurane	2 / 0.05	isoflurane / medetomidine	0.5 / 0.1	n/a	20	free-breathing	70	320	Bruker	7	TurboRARE	T2	1.8	0.06711	GE-EPI	2.5	0.018	n/a
+sub-0105304	ses-1	1053	Long Evans	Female	0-2	200-250	isoflurane	2 / 0.05	isoflurane / medetomidine	0.5 / 0.1	n/a	20	free-breathing	60	300	Bruker	7	TurboRARE	T2	1.8	0.06711	GE-EPI	2.5	0.018	n/a
+sub-0105305	ses-1	1053	Long Evans	Female	0-2	150-200	isoflurane	2 / 0.05	isoflurane / medetomidine	0.5 / 0.1	n/a	20	free-breathing	60	310	Bruker	7	TurboRARE	T2	1.8	0.06711	GE-EPI	2.5	0.018	n/a
+sub-0105306	ses-1	1053	Long Evans	Female	0-2	150-200	isoflurane	2 / 0.05	isoflurane / medetomidine	0.5 / 0.1	n/a	20	free-breathing	70	350	Bruker	7	TurboRARE	T2	1.8	0.06711	GE-EPI	2.5	0.018	n/a
+sub-0105307	ses-1	1053	Long Evans	Female	0-2	200-250	isoflurane	2 / 0.05	isoflurane / medetomidine	0.5 / 0.1	n/a	20	free-breathing	90	320	Bruker	7	TurboRARE	T2	1.8	0.06711	GE-EPI	2.5	0.018	n/a
+sub-0105308	ses-1	1053	Long Evans	Female	0-2	250-300	isoflurane	2 / 0.05	isoflurane / medetomidine	0.5 / 0.1	n/a	20	free-breathing	60	320	Bruker	7	TurboRARE	T2	1.8	0.06711	GE-EPI	2.5	0.018	n/a
+sub-0105309	ses-1	1053	Long Evans	Female	0-2	200-250	isoflurane	2 / 0.05	isoflurane / medetomidine	0.5 / 0.1	n/a	20	free-breathing	100	320	Bruker	7	TurboRARE	T2	1.8	0.06711	GE-EPI	2.5	0.018	n/a
+sub-0105400	ses-1	1054	Wistar	Male	0-2	300-350	isofluorane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	n/a	ventilated	50	320	Bruker	9.4	TurboRARE	T2	7	0.044	SE-EPI	1.5	0.015	45
+sub-0105401	ses-1	1054	Wistar	Male	0-2	300-350	isofluorane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	n/a	ventilated	50	330	Bruker	9.4	TurboRARE	T2	7	0.044	SE-EPI	1.5	0.015	45
+sub-0105402	ses-1	1054	Wistar	Male	0-2	300-350	isofluorane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	n/a	ventilated	60	350	Bruker	9.4	TurboRARE	T2	7	0.044	SE-EPI	1.5	0.015	45
+sub-0105403	ses-1	1054	Wistar	Male	0-2	350-400	isofluorane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	n/a	ventilated	60	320	Bruker	9.4	TurboRARE	T2	7	0.044	SE-EPI	1.5	0.015	45
+sub-0105404	ses-1	1054	Wistar	Male	0-2	300-350	isofluorane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	n/a	ventilated	60	340	Bruker	9.4	TurboRARE	T2	7	0.044	SE-EPI	1.5	0.015	45
+sub-0105405	ses-1	1054	Wistar	Male	2-4	400-450	isofluorane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	n/a	ventilated	40	300	Bruker	9.4	TurboRARE	T2	7	0.044	SE-EPI	1.5	0.015	45
+sub-0105406	ses-1	1054	Wistar	Male	2-4	450-500	isofluorane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	n/a	ventilated	50	300	Bruker	9.4	TurboRARE	T2	7	0.044	SE-EPI	1.5	0.015	45
+sub-0105407	ses-1	1054	Wistar	Male	2-4	400-450	isofluorane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	n/a	ventilated	60	310	Bruker	9.4	TurboRARE	T2	7	0.044	SE-EPI	1.5	0.015	45
+sub-0105408	ses-1	1054	Wistar	Male	2-4	400-450	isofluorane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	n/a	ventilated	40	280	Bruker	9.4	TurboRARE	T2	7	0.044	SE-EPI	1.5	0.015	45
+sub-0105409	ses-1	1054	Wistar	Male	2-4	500-550	isofluorane	4	isoflurane / medetomidine	0.5 / 0.1	n/a	n/a	ventilated	60	280	Bruker	9.4	TurboRARE	T2	7	0.044	SE-EPI	1.5	0.015	45
+sub-0105500	ses-1	1055	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	2	n/a	70	ventilated	90	310	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105501	ses-1	1055	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	2	n/a	70	ventilated	90	340	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105502	ses-1	1055	Sprague Dawley	Male	0-2	250-300	isoflurane	5	isoflurane	2	n/a	100	ventilated	90	350	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105503	ses-1	1055	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	2	n/a	70	ventilated	90	340	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105504	ses-1	1055	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	2	n/a	190	ventilated	90	300	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105505	ses-1	1055	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	2	n/a	50	ventilated	90	330	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105506	ses-1	1055	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	2	n/a	50	ventilated	90	300	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105507	ses-1	1055	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	2	n/a	80	ventilated	90	320	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105508	ses-1	1055	Sprague Dawley	Male	0-2	350-400	isoflurane	5	isoflurane	2	n/a	80	ventilated	90	290	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105509	ses-1	1055	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	2	n/a	90	ventilated	90	310	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105600	ses-1	1056	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	1.5	n/a	110	ventilated	90	340	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105601	ses-1	1056	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	1.5	n/a	120	ventilated	90	380	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105602	ses-1	1056	Sprague Dawley	Male	0-2	250-300	isoflurane	5	isoflurane	1.5	n/a	160	ventilated	90	380	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105603	ses-1	1056	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	1.5	n/a	120	ventilated	90	340	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105604	ses-1	1056	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	1.5	n/a	220	ventilated	90	290	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105605	ses-1	1056	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	1.5	n/a	90	ventilated	90	360	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105606	ses-1	1056	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	1.5	n/a	110	ventilated	90	400	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105607	ses-1	1056	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	1.5	n/a	120	ventilated	90	330	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105608	ses-1	1056	Sprague Dawley	Male	0-2	350-400	isoflurane	5	isoflurane	1.5	n/a	130	ventilated	90	290	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105609	ses-1	1056	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane	1.5	n/a	130	ventilated	90	350	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105700	ses-1	1057	Sprague Dawley	Male	0-2	300-350	isoflurane	5	medetomidine	0.02	s.c	160	ventilated	90	300	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105701	ses-1	1057	Sprague Dawley	Male	0-2	300-350	isoflurane	5	medetomidine	0.02	s.c	180	ventilated	90	320	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105702	ses-1	1057	Sprague Dawley	Male	0-2	250-300	isoflurane	5	medetomidine	0.02	s.c	200	ventilated	90	300	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105703	ses-1	1057	Sprague Dawley	Male	0-2	300-350	isoflurane	5	medetomidine	0.02	s.c	170	ventilated	90	320	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105704	ses-1	1057	Sprague Dawley	Male	0-2	300-350	isoflurane	5	medetomidine	0.02	s.c	240	ventilated	90	300	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105705	ses-1	1057	Sprague Dawley	Male	0-2	300-350	isoflurane	5	medetomidine	0.02	s.c	160	ventilated	90	300	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105706	ses-1	1057	Sprague Dawley	Male	0-2	300-350	isoflurane	5	medetomidine	0.02	s.c	160	ventilated	90	300	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105707	ses-1	1057	Sprague Dawley	Male	0-2	300-350	isoflurane	5	medetomidine	0.02	s.c	160	ventilated	90	270	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105708	ses-1	1057	Sprague Dawley	Male	0-2	350-400	isoflurane	5	medetomidine	0.02	s.c	220	ventilated	90	240	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105709	ses-1	1057	Sprague Dawley	Male	0-2	300-350	isoflurane	5	medetomidine	0.02	s.c	170	ventilated	90	250	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105800	ses-1	1058	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane / medetomidine	0.5 / 0.02	s.c	250	ventilated	90	350	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105801	ses-1	1058	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane / medetomidine	0.5 / 0.02	s.c	250	ventilated	90	320	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105802	ses-1	1058	Sprague Dawley	Male	0-2	250-300	isoflurane	5	isoflurane / medetomidine	0.5 / 0.02	s.c	300	ventilated	90	320	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105803	ses-1	1058	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane / medetomidine	0.5 / 0.02	s.c	270	ventilated	90	340	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105804	ses-1	1058	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane / medetomidine	0.5 / 0.02	s.c	390	ventilated	90	310	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105805	ses-1	1058	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane / medetomidine	0.5 / 0.02	s.c	230	ventilated	90	300	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105806	ses-1	1058	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane / medetomidine	0.5 / 0.02	s.c	230	ventilated	90	270	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105807	ses-1	1058	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane / medetomidine	0.5 / 0.02	s.c	240	ventilated	90	270	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105808	ses-1	1058	Sprague Dawley	Male	0-2	350-400	isoflurane	5	isoflurane / medetomidine	0.5 / 0.02	s.c	300	ventilated	90	230	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105809	ses-1	1058	Sprague Dawley	Male	0-2	300-350	isoflurane	5	isoflurane / medetomidine	0.5 / 0.02	s.c	200	ventilated	90	260	Bruker	9.4	RARE	T2	3.5	0.011	GE-EPI	2	0.015	68.4
+sub-0105900	ses-1	1059	Lister Hooded	Male	0-2	200-250	isoflurane	3	awake	n/a	n/a	30	free-breathing	80	n/a	Bruker	7	turboRARE	T2	4	0.01346	GE-EPI	4	0.005	83
+sub-0105901	ses-1	1059	Lister Hooded	Male	0-2	200-250	isoflurane	3	awake	n/a	n/a	30	free-breathing	80	n/a	Bruker	7	turboRARE	T2	4	0.01346	GE-EPI	4	0.005	83
+sub-0105902	ses-1	1059	Lister Hooded	Male	0-2	200-250	isoflurane	3	awake	n/a	n/a	30	free-breathing	80	n/a	Bruker	7	turboRARE	T2	4	0.01346	GE-EPI	4	0.005	83
+sub-0105903	ses-1	1059	Lister Hooded	Male	0-2	200-250	isoflurane	3	awake	n/a	n/a	30	free-breathing	80	n/a	Bruker	7	turboRARE	T2	4	0.01346	GE-EPI	4	0.005	83
+sub-0105904	ses-1	1059	Lister Hooded	Male	0-2	200-250	isoflurane	3	awake	n/a	n/a	30	free-breathing	80	n/a	Bruker	7	turboRARE	T2	4	0.01346	GE-EPI	4	0.005	83
+sub-0105905	ses-1	1059	Lister Hooded	Male	0-2	200-250	isoflurane	3	awake	n/a	n/a	30	free-breathing	80	n/a	Bruker	7	turboRARE	T2	4	0.01346	GE-EPI	4	0.005	83
+sub-0105906	ses-1	1059	Lister Hooded	Male	0-2	200-250	isoflurane	3	awake	n/a	n/a	30	free-breathing	80	n/a	Bruker	7	turboRARE	T2	4	0.01346	GE-EPI	4	0.005	83
+sub-0105907	ses-1	1059	Lister Hooded	Male	0-2	200-250	isoflurane	3	awake	n/a	n/a	30	free-breathing	80	n/a	Bruker	7	turboRARE	T2	4	0.01346	GE-EPI	4	0.005	83
+sub-0105908	ses-1	1059	Lister Hooded	Male	0-2	200-250	isoflurane	3	awake	n/a	n/a	30	free-breathing	80	n/a	Bruker	7	turboRARE	T2	4	0.01346	GE-EPI	4	0.005	83
+sub-0105909	ses-1	1059	Lister Hooded	Male	0-2	200-250	isoflurane	3	awake	n/a	n/a	30	free-breathing	80	n/a	Bruker	7	turboRARE	T2	4	0.01346	GE-EPI	4	0.005	83
+sub-0106000	ses-1	1060	Sprague Dawley	Male	n/a	300-350	isoflurane	4	isoflurane	2	n/a	20	free-breathing	50	160	Bruker	7	RARE	T2	5	0.0691	GE-EPI	3	0.025	30
+sub-0106001	ses-1	1060	Sprague Dawley	Male	n/a	300-350	isoflurane	4	isoflurane	2	n/a	20	free-breathing	50	170	Bruker	7	RARE	T2	5	0.0691	GE-EPI	3	0.025	30
+sub-0106002	ses-1	1060	Sprague Dawley	Male	n/a	300-350	isoflurane	4	isoflurane	2	n/a	20	free-breathing	50	200	Bruker	7	RARE	T2	5	0.0691	GE-EPI	3	0.025	30
+sub-0106003	ses-1	1060	Sprague Dawley	Male	n/a	300-350	isoflurane	4	isoflurane	2	n/a	20	free-breathing	30	150	Bruker	7	RARE	T2	5	0.0691	GE-EPI	3	0.025	30
+sub-0106004	ses-1	1060	Sprague Dawley	Male	n/a	300-350	isoflurane	4	isoflurane	2	n/a	20	free-breathing	60	220	Bruker	7	RARE	T2	5	0.0691	GE-EPI	3	0.025	30
+sub-0106005	ses-1	1060	Sprague Dawley	Male	n/a	250-300	isoflurane	4	isoflurane	2	n/a	20	free-breathing	40	310	Bruker	7	RARE	T2	5	0.0691	GE-EPI	3	0.025	30
+sub-0106006	ses-1	1060	Sprague Dawley	Male	n/a	300-350	isoflurane	4	isoflurane	2	n/a	20	free-breathing	60	290	Bruker	7	RARE	T2	5	0.0691	GE-EPI	3	0.025	30
+sub-0106007	ses-1	1060	Sprague Dawley	Male	n/a	250-300	isoflurane	4	isoflurane	2	n/a	20	free-breathing	40	230	Bruker	7	RARE	T2	5	0.0691	GE-EPI	3	0.025	30
+sub-0106008	ses-1	1060	Sprague Dawley	Male	n/a	250-300	isoflurane	4	isoflurane	2	n/a	20	free-breathing	60	230	Bruker	7	RARE	T2	5	0.0691	GE-EPI	3	0.025	30
+sub-0106009	ses-1	1060	Sprague Dawley	Male	n/a	250-300	isoflurane	4	isoflurane	2	n/a	20	free-breathing	40	160	Bruker	7	RARE	T2	5	0.0691	GE-EPI	3	0.025	30
+sub-0106100	ses-1	1061	Sprague Dawley	Male	n/a	150-200	isoflurane	4	isoflurane	2	n/a	20	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5	0.0691	GE-EPI	2	0.02	60
+sub-0106101	ses-1	1061	Sprague Dawley	Male	n/a	150-200	isoflurane	4	isoflurane	2	n/a	20	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5	0.0691	GE-EPI	2	0.02	60
+sub-0106102	ses-1	1061	Sprague Dawley	Male	n/a	150-200	isoflurane	4	isoflurane	2	n/a	20	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5	0.0691	GE-EPI	2	0.02	60
+sub-0106103	ses-1	1061	Sprague Dawley	Male	n/a	150-200	isoflurane	4	isoflurane	2	n/a	20	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5	0.0691	GE-EPI	2	0.02	60
+sub-0106104	ses-1	1061	Sprague Dawley	Male	n/a	150-200	isoflurane	4	isoflurane	2	n/a	20	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5	0.0691	GE-EPI	2	0.02	60
+sub-0106105	ses-1	1061	Sprague Dawley	Male	n/a	150-200	isoflurane	4	isoflurane	2	n/a	20	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5	0.0691	GE-EPI	2	0.02	60
+sub-0106106	ses-1	1061	Sprague Dawley	Male	n/a	100-150	isoflurane	4	isoflurane	2	n/a	20	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5	0.0691	GE-EPI	2	0.02	60
+sub-0106107	ses-1	1061	Sprague Dawley	Male	n/a	150-200	isoflurane	4	isoflurane	2	n/a	20	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5	0.0691	GE-EPI	2	0.02	60
+sub-0106108	ses-1	1061	Sprague Dawley	Male	n/a	150-200	isoflurane	4	isoflurane	2	n/a	20	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5	0.0691	GE-EPI	2	0.02	60
+sub-0106109	ses-1	1061	Sprague Dawley	Male	n/a	150-200	isoflurane	4	isoflurane	2	n/a	20	free-breathing	n/a	n/a	Bruker	7	RARE	T2	5	0.0691	GE-EPI	2	0.02	60
+sub-0106200	ses-1	1062	Wistar	Male	2-4	500-550	isoflurane	4	isoflurane	1.8	n/a	30	free-breathing	80	n/a	Bruker	11.7	FLASH	T1	5	0.0175	GE-EPI	1	0.01	90
+sub-0106201	ses-1	1062	Wistar	Male	2-4	500-550	isoflurane	4	isoflurane	2	n/a	30	free-breathing	80	n/a	Bruker	11.7	FLASH	T1	5	0.0175	GE-EPI	1	0.01	90
+sub-0106202	ses-1	1062	Wistar	Male	2-4	500-550	isoflurane	4	isoflurane	1.8	n/a	30	free-breathing	90	n/a	Bruker	11.7	FLASH	T1	5	0.0175	GE-EPI	1	0.01	90
+sub-0106203	ses-1	1062	Wistar	Male	2-4	450-500	isoflurane	4	isoflurane	1.75	n/a	30	free-breathing	70	n/a	Bruker	11.7	FLASH	T1	5	0.0175	GE-EPI	1	0.01	90
+sub-0106204	ses-1	1062	Wistar	Male	2-4	450-500	isoflurane	4	isoflurane	1.9	n/a	30	free-breathing	100	n/a	Bruker	11.7	FLASH	T1	5	0.0175	GE-EPI	1	0.01	90
+sub-0106205	ses-1	1062	Wistar	Male	2-4	600-650	isoflurane	4	isoflurane	1.8	n/a	30	free-breathing	100	n/a	Bruker	11.7	FLASH	T1	5	0.0175	GE-EPI	1	0.01	90
+sub-0106206	ses-1	1062	Wistar	Male	2-4	500-550	isoflurane	4	isoflurane	1.8	n/a	30	free-breathing	80	n/a	Bruker	11.7	FLASH	T1	5	0.0175	GE-EPI	1	0.01	90
+sub-0106207	ses-1	1062	Wistar	Male	2-4	550-600	isoflurane	4	isoflurane	1.8	n/a	30	free-breathing	70	n/a	Bruker	11.7	FLASH	T1	5	0.0175	GE-EPI	1	0.01	90
+sub-0106208	ses-1	1062	Wistar	Male	2-4	500-550	isoflurane	4	isoflurane	1.8	n/a	30	free-breathing	50	n/a	Bruker	11.7	FLASH	T1	5	0.0175	GE-EPI	1	0.01	90
+sub-0106209	ses-1	1062	Wistar	Male	2-4	600-650	isoflurane	4	isoflurane	1.8	n/a	30	free-breathing	70	n/a	Bruker	11.7	FLASH	T1	5	0.0175	GE-EPI	1	0.01	90
+sub-0106300	ses-1	1063	Wistar	Male	0-2	350-400	isoflurane	4	medetomidine	0.14	i.v	20	free-breathing	60	230	Bruker	7	RARE	T2	2.5	0.06	GE-EPI	2	0.02	75
+sub-0106301	ses-1	1063	Wistar	Male	0-2	350-400	isoflurane	4	medetomidine	0.14	i.v	20	free-breathing	60	260	Bruker	7	RARE	T2	2.5	0.06	GE-EPI	2	0.02	75
+sub-0106302	ses-1	1063	Wistar	Male	0-2	350-400	isoflurane	4	medetomidine	0.14	i.v	20	free-breathing	50	300	Bruker	7	RARE	T2	2.5	0.06	GE-EPI	2	0.02	75
+sub-0106303	ses-1	1063	Wistar	Male	0-2	350-400	isoflurane	4	medetomidine	0.14	i.v	20	free-breathing	60	320	Bruker	7	RARE	T2	2.5	0.06	GE-EPI	2	0.02	75
+sub-0106304	ses-1	1063	Wistar	Male	0-2	350-400	isoflurane	4	medetomidine	0.14	i.v	20	free-breathing	70	270	Bruker	7	RARE	T2	2.5	0.06	GE-EPI	2	0.02	75
+sub-0106305	ses-1	1063	Wistar	Male	0-2	350-400	isoflurane	4	medetomidine	0.14	i.v	20	free-breathing	50	290	Bruker	7	RARE	T2	2.5	0.06	GE-EPI	2	0.02	75
+sub-0106306	ses-1	1063	Wistar	Male	0-2	300-350	isoflurane	4	medetomidine	0.14	i.v	20	free-breathing	80	270	Bruker	7	RARE	T2	2.5	0.06	GE-EPI	2	0.02	75
+sub-0106307	ses-1	1063	Wistar	Male	0-2	300-350	isoflurane	4	medetomidine	0.14	i.v	20	free-breathing	50	260	Bruker	7	RARE	T2	2.5	0.06	GE-EPI	2	0.02	75
+sub-0106308	ses-1	1063	Wistar	Male	0-2	350-400	isoflurane	4	medetomidine	0.14	i.v	20	free-breathing	50	260	Bruker	7	RARE	T2	2.5	0.06	GE-EPI	2	0.02	75
+sub-0106309	ses-1	1063	Wistar	Male	0-2	350-400	isoflurane	4	medetomidine	0.14	i.v	20	free-breathing	60	310	Bruker	7	RARE	T2	2.5	0.06	GE-EPI	2	0.02	75
+sub-0106400	ses-1	1064	Wistar	Female	n/a	300-350	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	60	n/a	Bruker	3	turboRARE	T2	n/a	n/a	GE-EPI	1	0.03	64
+sub-0106401	ses-1	1064	Wistar	Female	n/a	300-350	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	60	n/a	Bruker	3	turboRARE	T2	n/a	n/a	GE-EPI	1	0.03	64
+sub-0106402	ses-1	1064	Wistar	Female	n/a	300-350	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	50	n/a	Bruker	3	turboRARE	T2	n/a	n/a	GE-EPI	1	0.03	64
+sub-0106403	ses-1	1064	Wistar	Female	n/a	300-350	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	50	n/a	Bruker	3	turboRARE	T2	n/a	n/a	GE-EPI	1	0.03	64
+sub-0106404	ses-1	1064	Wistar	Female	n/a	300-350	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	50	n/a	Bruker	3	turboRARE	T2	n/a	n/a	GE-EPI	1	0.03	64
+sub-0106405	ses-1	1064	Wistar	Male	n/a	550-600	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	70	n/a	Bruker	3	turboRARE	T2	n/a	n/a	GE-EPI	1	0.03	64
+sub-0106406	ses-1	1064	Wistar	Male	n/a	550-600	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	60	n/a	Bruker	3	turboRARE	T2	n/a	n/a	GE-EPI	1	0.03	64
+sub-0106407	ses-1	1064	Wistar	Male	n/a	550-600	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	50	n/a	Bruker	3	turboRARE	T2	n/a	n/a	GE-EPI	1	0.03	64
+sub-0106408	ses-1	1064	Wistar	Male	n/a	650-700	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	60	n/a	Bruker	3	turboRARE	T2	n/a	n/a	GE-EPI	1	0.03	64
+sub-0106409	ses-1	1064	Wistar	Male	n/a	600-650	isoflurane / medetomidine	5 /  0.05	isoflurane / medetomidine	0.4 / 0.1	s.c	40	free-breathing	60	n/a	Bruker	3	turboRARE	T2	n/a	n/a	GE-EPI	1	0.03	64
+sub-0106500	ses-1	1065	Sprague Dawley	Female	3-4	250-300	isoflurane	4.5	isoflurane / medetomidine	1 / 0.2	s.c	80	free-breathing	40	260	Bruker	7	FISP	T2	0.00507	0.002535	GE-EPI	1	0.017	55
+sub-0106501	ses-1	1065	Sprague Dawley	Male	3-4	250-300	isoflurane	4.5	isoflurane / medetomidine	1 / 0.15	s.c	70	free-breathing	50	270	Bruker	7	FISP	T2	0.00507	0.002535	GE-EPI	1	0.017	55
+sub-0106502	ses-1	1065	Sprague Dawley	Male	3-4	250-300	isoflurane	4.5	isoflurane / medetomidine	1 / 0.15	s.c	60	free-breathing	40	270	Bruker	7	FISP	T2	0.00507	0.002535	GE-EPI	1	0.017	55
+sub-0106503	ses-1	1065	Sprague Dawley	Female	3-4	200-250	isoflurane	4.5	isoflurane / medetomidine	1 / 0.15	s.c	60	free-breathing	50	270	Bruker	7	FISP	T2	0.00507	0.002535	GE-EPI	1	0.017	55
+sub-0106504	ses-1	1065	Sprague Dawley	Female	3-4	250-300	isoflurane	4.5	isoflurane / medetomidine	1 / 0.15	s.c	60	free-breathing	50	260	Bruker	7	FISP	T2	0.00507	0.002535	GE-EPI	1	0.017	55
+sub-0106505	ses-1	1065	Sprague Dawley	Female	3-4	250-300	isoflurane	4.5	isoflurane / medetomidine	1 / 0.15	s.c	70	free-breathing	30	250	Bruker	7	FISP	T2	0.00507	0.002535	GE-EPI	1	0.017	55
+sub-0106506	ses-1	1065	Sprague Dawley	Male	3-4	350-400	isoflurane	4.5	isoflurane / medetomidine	1 / 0.15	s.c	70	free-breathing	60	260	Bruker	7	FISP	T2	0.00507	0.002535	GE-EPI	1	0.017	55
+sub-0106507	ses-1	1065	Sprague Dawley	Male	3-4	350-400	isoflurane	4.5	isoflurane / medetomidine	1 / 0.15	s.c	70	free-breathing	50	270	Bruker	7	FISP	T2	0.00507	0.002535	GE-EPI	1	0.017	55
+sub-0106508	ses-1	1065	Sprague Dawley	Male	3-4	350-400	isoflurane	4.5	isoflurane / medetomidine	1 / 0.15	s.c	60	free-breathing	60	270	Bruker	7	FISP	T2	0.00507	0.002535	GE-EPI	1	0.017	55
+sub-0106509	ses-1	1065	Sprague Dawley	Male	3-4	350-400	isoflurane	4.5	isoflurane / medetomidine	1 / 0.15	s.c	60	free-breathing	40	270	Bruker	7	FISP	T2	0.00507	0.002535	GE-EPI	1	0.017	55

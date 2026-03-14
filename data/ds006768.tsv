@@ -1,0 +1,31 @@
+participant_id	gender_identity	age	visual_accuity	handedness	cap_size	date
+sub-01	a woman	25	normal	right	56	19/10/2023
+sub-02	a man	19	normal	right	58	25/10/2023
+sub-03	a woman	18	normal	right	56	25/10/2023
+sub-04	a woman	20	normal	right	56	27/10/2023
+sub-05	a woman	20	normal	right	56	27/10/2023
+sub-06	a woman	21	normal	right	54	30/10/2023
+sub-07	a man	20	normal	right	58	31/10/2023
+sub-08	a woman	29	short sighted	right	59	30/1/2024
+sub-09	a woman	19	normal	right	56	22/2/2024
+sub-10	a man	18	normal	right	58	22/2/2024
+sub-11	a woman	17	normal	right	54	23/2/2024
+sub-12	a woman	27	normal	right	58	23/2/2024
+sub-13	a woman	17	normal	right	54	29/2/2024
+sub-14	a woman	21	normal	right	56	1/3/2024
+sub-15	a woman	27	normal	right	56	1/3/2024
+sub-16	a woman	18	contact lenses	right	54	11/3/2024
+sub-17	a woman	17	normal	right	54	12/3/2024
+sub-18	a woman	18	normal	left	56	14/3/2024
+sub-19	a man	20	normal	right	58	25/3/2024
+sub-20	a man	18	normal	left	60	25/3/2024
+sub-21	a woman	20	contact lenses	right	58	26/3/2024
+sub-22	a woman	18	normal	right	60	27/3/2024
+sub-23	a woman	21	short sighted (can't see far away)	right	56	3/4/2024
+sub-24	a woman	18	contact lenses	right	56	4/4/2024
+sub-25	a man	17	normal	right	60	15/4/2024
+sub-26	a woman	18	contact lenses	right	54	15/5/2024
+sub-27	a woman	19	normal	right	58	16/5/2024
+sub-28	a woman	18	normal	right	54	16/5/2024
+sub-29	a woman	18	normal	right	56	17/5/2024
+sub-30	a woman	30	normal	right	54	19/5/2024

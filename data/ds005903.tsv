@@ -1,0 +1,7 @@
+participant_id	age	sex	handedness	group	initials	excluded
+sub-01	27	female	right	main	IR01	0
+sub-03	25	female	right	main	CB01	0
+sub-04	25	female	right	main	NL01	1
+sub-05	22	female	right	main	RB01	0
+sub-06	54	male	right	main	FB01	0
+sub-07	31	male	right	main	JG01	0

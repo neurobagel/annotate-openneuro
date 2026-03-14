@@ -1,0 +1,26 @@
+participant_id	Age	Gender	Race	Ethnicity	Left_500Hz	Left_1000Hz	Left_2000Hz	Left_4000Hz	Left_8000Hz	Right_500Hz	Right_1000Hz	Right_2000Hz	Right_4000Hz	Right_8000Hz	EEG_version
+sub-01	37	Female	White	Not Hispanic or Latino	15	15	15	10	15	10	10	5	10	15	1
+sub-02	37	Male	White	Not Hispanic or Latino	0	0	0	0	5	0	0	0	0	0	1
+sub-03	19	Female	Asian	Not Hispanic or Latino	10	5	5	5	0	10	5	5	5	0	1
+sub-04	26	Male	White	Not Hispanic or Latino	10	5	0	20	10	0	0	0	10	10	1
+sub-05	19	Female	Asian	Not Hispanic or Latino	15	10	5	5	5	10	10	5	5	5	1
+sub-06	20	Female	White	Not Hispanic or Latino	0	0	0	0	5	5	5	0	0	0	1
+sub-07	35	Male	White	Not Hispanic or Latino	5	0	5	10	15	5	5	10	10	10	2
+sub-08	20	Male	Asian	Not Hispanic or Latino	5	5	10	20	0	5	5	0	10	0	2
+sub-09	20	Female	Asian	Not Hispanic or Latino	5	10	5	10	10	10	15	10	10	5	2
+sub-10	21	Female	White	Not Hispanic or Latino	0	0	0	5	10	10	0	0	0	10	2
+sub-11	21	Female	White	Not Hispanic or Latino	5	10	5	0	10	10	5	0	5	15	2
+sub-12	22	Male	White	Not Hispanic or Latino	5	5	0	0	0	5	0	-5	5	0	2
+sub-13	19	Male	More	Not Hispanic or Latino	0	-5	0	0	0	0	0	-5	5	-5	2
+sub-14	20	Male	Asian	Not Hispanic or Latino	5	10	0	0	5	10	5	0	0	0	2
+sub-15	25	Female	White	Not Hispanic or Latino	0	5	-5	10	5	0	5	-5	10	5	2
+sub-16	20	Female	White	Not Hispanic or Latino	10	5	0	10	10	5	10	5	15	15	2
+sub-17	20	Female	White	Not Hispanic or Latino	5	5	5	5	10	5	5	0	0	10	2
+sub-18	28	Female	Asian	Not Hispanic or Latino	5	10	5	0	10	10	5	0	5	15	2
+sub-19	23	Male	Black or African American	Not Hispanic or Latino	15	5	0	0	5	10	0	0	0	0	2
+sub-20	22	Female	Asian	Not Hispanic or Latino	0	5	0	0	0	10	10	0	0	0	2
+sub-21	22	Female	Asian	Not Hispanic or Latino	0	0	0	5	5	10	5	5	5	10	2
+sub-22	20	Female	White	Not Hispanic or Latino	0	5	0	0	5	0	0	0	15	0	2
+sub-23	28	Female	Asian	Not Hispanic or Latino	5	10	10	15	10	10	10	10	5	15	2
+sub-24	19	Male	Asian	Not Hispanic or Latino	0	0	5	0	15	0	5	0	15	5	2
+sub-25	21	Female	Asian	Not Hispanic or Latino	0	0	0	0	5	0	0	0	0	0	2

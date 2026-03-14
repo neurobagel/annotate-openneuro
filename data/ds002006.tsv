@@ -1,0 +1,31 @@
+participant_id	Task_order	Button_order	Age	Sex	height_ft	height_in	height_total_inches	weight_lbs	BMI	Handedness	Race	Ethnicity	Vision	Learning_Attention_Disorder	Neurological_Disorder	Mental_Health_Disorder	Traumatic_Head_injury	Medications_Drug_use	Eating_Disorder
+sub-02	2	1	19	M	5	8	68	177	26.90981834	R	African-American	n/a	Normal	No	No	No	No	No	No
+sub-03	1	2	22	F	5	6	66	115	18.55945822	R	Asian	Not Hispanic	Normal	No	No	No	No	No	No
+sub-04	2	2	22	F	5	5	65	198	32.94532544	R	Asian	Not Hispanic	Normal	No	No	No	No	No	No
+sub-05	1	1	18	M	5	10	70	140	20.08571429	R	Caucasian	Not Hispanic	Normal	No	No	No	No	No	No
+sub-06	2	1	20	F	5	5	65	130	21.63076923	R	Multiracial	Not Hispanic	Normal	No	No	No	No	Nicomide_Beyaz_sulfamethoxazole	No
+sub-07	1	2	21	F	5	6	66	104	16.78420569	R	Multiracial	Not Hispanic	Normal	No	No	No	No	No	No
+sub-08	2	2	28	M	5	11	71	260	36.25867883	R	African-American	Not Hispanic	Normal	No	No	No	No	No	No
+sub-09	1	1	23	F	5	8	68	115	17.48378028	R	Asian	n/a	Normal	No	No	No	No	No	No
+sub-10	2	1	23	F	5	7	67	156	24.43038539	R	Asian	n/a	Corrected	No	No	No	No	No	No
+sub-11	1	2	32	M	6	2	74	180	23.10810811	R	Hispanic	Hispanic	Normal	No	No	No	No	No	No
+sub-12	2	2	22	F	5	2	62	125	22.86030177	R	Asian	Not Hispanic	Normal	No	No	No	No	No	No
+sub-13	1	1	20	F	5	5	65	128	21.29798817	R	Asian	Not Hispanic	Corrected	No	No	No	No	No	No
+sub-14	2	1	28	F	5	3	63	125	22.14033762	R	Caucasian	Hispanic	Normal	No	No	No	No	No	No
+sub-15	1	2	20	F	5	4	64	128	21.96875	R	Asian/Caucasian	n/a	Normal	No	No	No	No	birth_control	No
+sub-16	2	2	29	M	5	10	70	155	22.2377551	R	Caucasian	Hispanic	Normal	No	No	No	No	No	No
+sub-17	1	1	20	M	5	9	69	140	20.6721277	R	Asian	n/a	Normal	No	No	No	No	No	No
+sub-18	2	1	34	F	5	7	67	185	28.97193139	R	Asian	Not Hispanic	Normal	No	No	No	No	No	No
+sub-19	1	2	22	M	5	7	67	175	27.40588104	R	Asian	Not Hispanic	Normal	No	No	No	No	No	No
+sub-20	2	2	32	F	5	7	67	110	17.2265538	R	Caucasian	Not Hispanic	Normal	No	No	No	No	No	No
+sub-21	1	1	24	F	5	8	68	120	18.24394464	R	Multiracial	Hispanic	Normal	No	No	No	No	No	No
+sub-22	2	1	21	F	5	5	65	168	27.95360947	R	African-American	Not Hispanic	Corrected	No	No	No	No	No	No
+sub-23	1	2	35	F	5	2	62	130	23.77471384	R	Caucasian	n/a	Normal	No	No	No	No	No	No
+sub-24	2	2	28	F	5	4	64	154	26.43115234	R	Asian	n/a	Normal	No	No	No	No	No	No
+sub-25	1	1	33	M	5	8	68	168	25.54152249	R	n/a	n/a	Normal	No	No	No	No	No	No
+sub-27	1	2	37	F	5	2	62	120	21.9458897	R	African-American	n/a	Normal	No	No	No	No	No	No
+sub-28	2	2	25	M	5	11	71	150	20.91846856	R	Caucasian	Not Hispanic	Normal	No	No	No	No	No	No
+sub-29	1	1	21	F	5	5	65	120	19.96686391	R	Asian	n/a	Normal	No	No	No	No	No	No
+sub-30	2	1	23	M	6	0	72	180	24.40972222	R	Asia	Not Hispanic	Corrected	No	No	No	No	No	No
+sub-31	1	2	20	F	5	8	68	130	19.76427336	R	n/a	n/a	Normal	No	No	No	No	No	No
+sub-33	1	1	19	M	5	11	71	135	18.8266217	R	n/a	n/a	Corrected	No	No	No	No	No	No

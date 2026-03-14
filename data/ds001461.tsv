@@ -1,0 +1,82 @@
+participant_id	sex	age	diagnosis	smoking_status
+sub-101	F	22	schizophrenia	nonsmoking
+sub-102	F	59	schizophrenia	nonsmoking
+sub-103	F	42	schizophrenia	nonsmoking
+sub-104	F	25	schizophrenia	nonsmoking
+sub-105	M	28	schizophrenia	nonsmoking
+sub-106	F	37	schizophrenia	nonsmoking
+sub-107	F	32	schizophrenia	nonsmoking
+sub-108	F	40	schizophrenia	nonsmoking
+sub-109	F	37	schizophrenia	nonsmoking
+sub-110	F	31	schizophrenia	nonsmoking
+sub-111	M	20	schizophrenia	nonsmoking
+sub-112	F	26	schizophrenia	nonsmoking
+sub-113	F	37	schizophrenia	nonsmoking
+sub-114	M	30	schizophrenia	nonsmoking
+sub-115	M	33	schizophrenia	nonsmoking
+sub-116	M	26	schizophrenia	nonsmoking
+sub-117	M	31	schizophrenia	nonsmoking
+sub-118	M	35	schizophrenia	nonsmoking
+sub-119	M	24	schizophrenia	nonsmoking
+sub-120	M	17	schizophrenia	nonsmoking
+sub-121	F	39	schizophrenia	nonsmoking
+sub-122	F	27	schizophrenia	nonsmoking
+sub-123	F	30	schizophrenia	nonsmoking
+sub-124	F	34	schizophrenia	nonsmoking
+sub-125	F	17	schizophrenia	nonsmoking
+sub-301	M	22	healthy controls	nonsmoking
+sub-302	M	31	healthy controls	nonsmoking
+sub-303	F	32	healthy controls	nonsmoking
+sub-304	M	31	healthy controls	nonsmoking
+sub-305	M	29	healthy controls	nonsmoking
+sub-306	M	29	healthy controls	nonsmoking
+sub-307	F	45	healthy controls	nonsmoking
+sub-308	F	26	healthy controls	nonsmoking
+sub-309	F	49	healthy controls	nonsmoking
+sub-310	F	50	healthy controls	nonsmoking
+sub-311	M	40	healthy controls	nonsmoking
+sub-312	F	44	healthy controls	nonsmoking
+sub-201	M	19	schizophrenia	smoking
+sub-202	M	36	schizophrenia	smoking
+sub-203	M	30	schizophrenia	smoking
+sub-204	M	27	schizophrenia	smoking
+sub-205	F	32	schizophrenia	smoking
+sub-206	F	20	schizophrenia	smoking
+sub-207	M	19	schizophrenia	smoking
+sub-208	M	28	schizophrenia	smoking
+sub-209	M	25	schizophrenia	smoking
+sub-210	M	21	schizophrenia	smoking
+sub-211	M	49	schizophrenia	smoking
+sub-212	M	34	schizophrenia	smoking
+sub-213	M	24	schizophrenia	smoking
+sub-214	M	20	schizophrenia	smoking
+sub-215	M	27	schizophrenia	smoking
+sub-216	M	53	schizophrenia	smoking
+sub-217	M	18	schizophrenia	smoking
+sub-218	M	46	schizophrenia	smoking
+sub-219	M	33	schizophrenia	smoking
+sub-220	M	25	schizophrenia	smoking
+sub-221	M	24	schizophrenia	smoking
+sub-222	F	38	schizophrenia	smoking
+sub-401	M	26	healthy controls	smoking
+sub-402	F	28	healthy controls	smoking
+sub-403	M	41	healthy controls	smoking
+sub-404	M	60	healthy controls	smoking
+sub-405	M	50	healthy controls	smoking
+sub-406	M	39	healthy controls	smoking
+sub-407	M	33	healthy controls	smoking
+sub-408	M	39	healthy controls	smoking
+sub-409	M	32	healthy controls	smoking
+sub-410	M	42	healthy controls	smoking
+sub-411	M	36	healthy controls	smoking
+sub-412	F	29	healthy controls	smoking
+sub-413	F	52	healthy controls	smoking
+sub-414	M	36	healthy controls	smoking
+sub-415	M	38	healthy controls	smoking
+sub-416	M	32	healthy controls	smoking
+sub-417	M	24	healthy controls	smoking
+sub-418	M	24	healthy controls	smoking
+sub-419	M	26	healthy controls	smoking
+sub-420	M	26	healthy controls	smoking
+sub-421	M	24	healthy controls	smoking
+sub-422	M	23	healthy controls	smoking

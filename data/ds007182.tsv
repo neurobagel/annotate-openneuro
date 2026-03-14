@@ -1,0 +1,67 @@
+participant_id	age	handedness	sex	years_education	ethnicity	autism_diagnosis	autism_year	adhd_diagnosis	id_diagnosis	other_diagnosis	other_diagnosis_description	aq_total	aq_social	aq_attention_switching	aq_attention_to_detail	aq_communication	aq_imagination	sdq_total	sdq_emotional_problems	sdq_conduct_problems	sdq_hyperactivity	sdq_peer_problems	sdq_prosocial	session_1_time	session_2_time	session_3_time	days_between_1_2	days_between_2_3	days_between_1_3	rsfMRI_complete
+sub-001	26.2	0.67	male	17-20 years	Europe	yes	2017	no	no	no	none	156	33	32	26	33	32	30	6	2	6	7	9	09:00:00	12:00:00	12:00:00	7	7	14	True
+sub-002	19.5	1	female	13-16 years	Europe	no	n/a	no	no	no	none	83	10	20	22	16	15	21	2	1	7	1	10	09:00:00	09:00:00	09:00:00	17	18	35	True
+sub-003	22.7	0.83	female	9-12 years	South and Central America	yes	2023	no	no	yes	Anxiety, Mood, Personality	154	34	35	29	29	27	41	10	5	10	6	10	11:00:00	11:00:00	15:00:00	5	9	14	True
+sub-004	20.2	1	female	13-16 years	Europe	yes	2020	no	no	no	none	150	27	32	31	31	29	31	8	4	8	4	7	11:00:00	16:00:00	16:00:00	9	11	20	True
+sub-005	19.5	0.83	female	9-12 years	Europe	yes	2021	no	no	no	none	136	27	33	28	26	22	25	6	2	8	2	7	16:00:00	15:00:00	16:00:00	8	7	15	True
+sub-006	29.3	0.83	male	More than 20 years	Europe	yes	1998	no	no	no	none	100	14	27	21	22	16	15	2	1	2	1	9	10:00:00	10:00:00	16:00:00	15	12	27	True
+sub-007	21.2	1	female	13-16 years	Europe	yes	2019	no	no	no	none	109	22	21	21	19	26	16	2	1	2	1	10	16:00:00	09:00:00	14:00:00	14	12	26	True
+sub-008	24.8	0.67	male	17-20 years	Europe	yes	2017	no	no	no	none	147	19	38	33	26	31	24	6	0	8	3	7	10:00:00	09:00:00	13:00:00	7	7	14	True
+sub-009	21.6	1	male	13-16 years	Europe	yes	2025	no	no	no	none	156	32	38	37	26	23	29	7	3	4	7	8	15:00:00	09:00:00	09:00:00	3	4	7	True
+sub-010	23.9	0.83	female	17-20 years	Europe	yes	2021	no	no	no	none	127	28	27	31	22	19	25	8	1	3	3	10	13:00:00	14:00:00	14:00:00	8	7	15	True
+sub-011	24.3	-1	female	13-16 years	Europe	yes	2021	yes	no	no	none	151	30	34	33	27	27	27	8	0	7	3	9	14:00:00	09:00:00	09:00:00	11	6	17	False
+sub-013	20.4	1	male	13-16 years	Europe	yes	2023	yes	no	no	none	130	25	32	26	28	19	25	9	1	6	2	7	10:00:00	15:00:00	13:00:00	17	19	36	True
+sub-014	21.6	1	male	9-12 years	Europe	no	n/a	no	no	no	none	76	13	13	18	13	19	12	0	1	0	1	10	13:00:00	11:00:00	12:00:00	9	10	19	True
+sub-015	23.2	0.83	male	13-16 years	Europe	yes	2004	no	no	no	none	152	32	31	28	31	30	18	5	0	1	5	7	12:00:00	11:00:00	14:00:00	7	7	14	True
+sub-016	19.2	1	female	9-12 years	Europe	no	n/a	no	no	no	none	83	17	18	18	16	14	13	0	1	2	0	10	12:00:00	11:00:00	11:00:00	7	7	14	True
+sub-017	23.3	0.83	male	13-16 years	Europe	yes	2024	no	no	no	none	145	30	32	29	30	24	25	5	2	7	4	7	12:00:00	11:00:00	11:00:00	7	8	15	True
+sub-018	22.4	1	female	9-12 years	Europe	no	n/a	no	no	no	none	107	15	23	30	23	16	18	3	0	3	2	10	14:00:00	09:00:00	17:00:00	9	10	19	True
+sub-019	18.8	-0.83	male	9-12 years	Europe	no	n/a	no	no	no	none	121	24	24	27	22	24	21	2	3	4	3	9	14:00:00	10:00:00	10:00:00	10	10	20	True
+sub-020	19.2	0.83	female	9-12 years	Europe	no	n/a	no	no	no	none	99	13	23	22	19	22	15	3	0	2	1	9	13:00:00	09:00:00	09:00:00	7	21	28	True
+sub-021	23.1	1	female	17-20 years	Europe	no	n/a	no	no	no	none	101	13	19	36	16	17	30	8	1	9	2	10	11:00:00	09:00:00	10:00:00	14	28	42	True
+sub-022	20.1	0.5	male	9-12 years	Southeast Asia, Europe	yes	2009	yes	no	no	none	122	25	26	25	28	18	25	6	4	6	5	4	10:00:00	13:00:00	11:00:00	22	6	28	True
+sub-023	25.9	1	female	13-16 years	Europe	yes	2016	no	no	yes	Mood	171	31	38	38	33	31	21	9	1	6	2	3	12:00:00	11:00:00	11:00:00	7	7	14	True
+sub-024	29.3	-1	male	13-16 years	Europe	no	n/a	yes	no	no	none	102	20	22	25	14	21	20	2	2	5	1	10	11:00:00	10:00:00	13:00:00	7	14	21	True
+sub-025	22.3	1	male	9-12 years	Europe	no	n/a	no	no	no	none	86	13	17	24	15	17	13	1	0	1	1	10	13:00:00	12:00:00	10:00:00	11	7	18	True
+sub-026	19.5	1	female	13-16 years	Europe	no	n/a	no	no	no	none	74	11	17	10	16	20	12	0	0	3	0	9	11:00:00	10:00:00	10:00:00	11	23	34	True
+sub-027	22.2	0.83	male	9-12 years	Europe	no	n/a	no	no	no	none	90	14	20	24	14	18	16	2	0	3	1	10	15:00:00	10:00:00	11:00:00	9	7	16	True
+sub-028	29.1	1	female	17-20 years	Europe	no	n/a	no	no	no	none	83	17	21	17	14	14	14	1	1	1	2	9	14:00:00	n/a	13:00:00	n/a	n/a	22	False
+sub-029	28.8	0.5	female	13-16 years	Europe	yes	2011	no	no	no	none	137	30	31	26	25	25	23	4	0	6	4	9	09:00:00	12:00:00	12:00:00	8	8	16	True
+sub-030	28.4	0.83	male	17-20 years	Europe	yes	2005	no	no	no	none	140	26	31	30	33	20	25	3	0	8	5	9	10:00:00	11:00:00	10:00:00	7	7	14	True
+sub-031	20.9	0.83	female	13-16 years	Europe	yes	2019	no	no	no	none	165	34	36	29	36	30	30	8	2	6	7	7	12:00:00	14:00:00	12:00:00	28	7	35	True
+sub-032	28.7	0.83	male	17-20 years	Europe	yes	2020	no	no	no	none	120	21	30	24	21	24	15	2	1	2	1	9	09:00:00	n/a	15:00:00	7	7	14	False
+sub-033	30.8	1	female	9-12 years	Southeast Asia, Europe	yes	2019	no	no	no	none	128	27	21	14	35	31	24	1	7	8	3	5	09:00:00	15:00:00	11:00:00	11	7	18	True
+sub-034	20.7	0.83	male	13-16 years	Europe	yes	2013	yes	no	yes	Mood, Gender Dysphoria	131	24	30	29	27	21	31	6	3	8	6	8	15:00:00	15:00:00	16:00:00	12	8	20	True
+sub-035	27	1	female	17-20 years	Europe	yes	2021	no	no	yes	Anxiety, Mood	145	32	31	24	30	28	24	10	1	3	2	8	12:00:00	11:00:00	10:00:00	14	14	28	True
+sub-036	22.2	1	male	13-16 years	Europe	no	n/a	no	no	no	none	115	22	28	24	24	17	29	7	3	8	5	6	12:00:00	12:00:00	10:00:00	10	9	19	True
+sub-037	19.1	1	female	9-12 years	Europe	no	n/a	no	no	no	none	90	14	20	19	19	18	17	2	0	5	0	10	12:00:00	09:00:00	08:00:00	10	7	17	True
+sub-038	23.2	1	male	13-16 years	Europe	no	n/a	no	no	no	none	79	17	21	15	12	14	19	2	0	6	1	10	09:00:00	12:00:00	14:00:00	16	6	22	True
+sub-039	21.8	0.83	female	13-16 years	Europe	yes	2023	yes	no	no	none	159	27	38	33	33	28	27	8	2	6	4	7	16:00:00	11:00:00	14:00:00	11	7	18	True
+sub-040	19.2	1	female	9-12 years	Europe	no	n/a	no	no	yes	Personality	88	17	20	22	14	15	16	4	1	1	0	10	16:00:00	10:00:00	10:00:00	9	5	14	True
+sub-041	18.9	1	male	9-12 years	Europe	no	n/a	yes	no	yes	Anxiety	123	21	31	29	25	17	32	10	1	9	3	9	14:00:00	12:00:00	10:00:00	46	8	54	True
+sub-042	29.9	-0.5	male	13-16 years	Europe	no	n/a	yes	no	yes	Schizophrenia Spectrum, Substance Use	92	14	23	17	15	23	20	1	1	6	3	9	10:00:00	10:00:00	10:00:00	7	7	14	True
+sub-043	20.2	1	female	13-16 years	Europe	yes	2022	yes	no	yes	Anxiety	137	31	31	22	31	22	26	8	2	5	5	6	15:00:00	09:00:00	10:00:00	9	7	16	True
+sub-044	21.2	1	female	13-16 years	Europe	yes	2025	no	no	yes	Compulsive	159	32	35	31	30	31	31	10	0	7	4	10	11:00:00	11:00:00	11:00:00	7	7	14	False
+sub-045	25.9	1	male	17-20 years	Europe	no	n/a	no	no	yes	Personality	90	18	17	23	15	17	19	3	1	4	1	10	10:00:00	10:00:00	10:00:00	7	7	14	True
+sub-046	20.5	0.83	female	13-16 years	Europe	no	n/a	no	no	no	none	99	20	22	22	15	20	26	6	2	6	2	10	14:00:00	09:00:00	09:00:00	14	8	22	True
+sub-047	21	0.5	female	13-16 years	East and South Africa, Europe	no	n/a	no	no	no	none	90	15	20	26	16	13	15	3	1	1	2	8	09:00:00	10:00:00	13:00:00	9	5	14	True
+sub-048	24	1	female	13-16 years	East Asia, Europe	yes	2005	no	no	no	none	119	18	27	31	22	21	17	5	0	2	0	10	11:00:00	12:00:00	12:00:00	5	6	11	True
+sub-049	21.1	1	male	9-12 years	Europe	no	n/a	no	no	no	none	94	18	21	19	20	16	18	3	1	4	0	10	14:00:00	16:00:00	10:00:00	12	35	47	True
+sub-050	26.5	-0.33	male	17-20 years	Europe	no	n/a	no	no	no	none	121	24	22	28	24	23	10	0	0	2	0	8	15:00:00	n/a	13:00:00	n/a	n/a	25	False
+sub-051	19.3	1	female	9-12 years	Europe	no	n/a	no	no	no	none	117	22	25	26	23	21	22	6	1	5	2	8	15:00:00	11:00:00	13:00:00	6	11	17	True
+sub-052	19.5	0.83	female	9-12 years	Europe	no	n/a	yes	no	no	none	92	15	21	22	18	16	24	3	1	8	2	10	13:00:00	15:00:00	14:00:00	7	7	14	True
+sub-053	22.1	0.83	female	13-16 years	Europe	no	n/a	no	no	no	none	101	20	23	24	18	16	11	2	0	0	2	7	11:00:00	09:00:00	09:00:00	6	7	13	True
+sub-054	28.5	-1	male	9-12 years	Europe	yes	2006	yes	no	yes	Mood	125	22	31	25	29	18	32	7	5	9	4	7	10:00:00	09:00:00	09:00:00	8	6	14	True
+sub-055	20.8	0.83	male	13-16 years	Europe	no	n/a	no	no	no	none	86	17	24	15	17	13	24	4	0	8	4	8	11:00:00	10:00:00	10:00:00	7	7	14	True
+sub-056	20.5	1	female	9-12 years	Europe	no	n/a	no	no	no	none	106	13	25	24	21	23	20	3	0	7	0	10	13:00:00	13:00:00	13:00:00	7	7	14	True
+sub-057	24.7	1	male	9-12 years	Europe	no	n/a	no	no	no	none	88	12	25	19	15	17	19	5	1	3	0	10	10:00:00	11:00:00	15:00:00	7	7	14	True
+sub-058	25.1	1	male	13-16 years	Europe	no	n/a	no	no	yes	Anxiety	90	16	22	15	18	19	25	7	1	7	1	9	10:00:00	10:00:00	12:00:00	13	7	20	False
+sub-059	23.3	1	female	13-16 years	Europe	no	n/a	no	no	yes	Mood	96	14	22	25	16	19	21	7	0	4	0	10	09:00:00	10:00:00	11:00:00	9	7	16	True
+sub-060	21	-0.83	male	9-12 years	Europe	yes	2011	no	no	no	none	130	32	28	26	24	20	17	5	1	3	2	6	11:00:00	14:00:00	14:00:00	7	7	14	True
+sub-061	20.2	-0.5	male	9-12 years	Europe	yes	2013	yes	no	no	none	96	15	22	21	21	17	19	3	1	6	0	9	11:00:00	13:00:00	12:00:00	11	10	21	True
+sub-062	25.6	1	male	13-16 years	Europe	yes	2010	no	no	no	none	138	29	32	27	27	23	20	7	3	2	3	5	11:00:00	11:00:00	10:00:00	7	13	20	True
+sub-063	22	1	female	9-12 years	Europe	yes	2022	yes	no	no	none	136	22	35	28	29	22	27	7	1	7	2	10	15:00:00	14:00:00	10:00:00	14	29	43	True
+sub-064	24.9	1	female	17-20 years	Europe	no	n/a	no	no	no	none	101	20	24	17	22	18	23	7	1	4	2	9	12:00:00	13:00:00	16:00:00	11	14	25	True
+sub-065	24	-0.17	male	17-20 years	Europe	no	n/a	no	no	no	none	106	15	30	18	19	24	20	3	5	2	3	7	11:00:00	10:00:00	14:00:00	7	8	15	True
+sub-066	25.2	1	male	More than 20 years	Europe	yes	2007	no	no	no	none	156	36	37	26	29	28	22	5	0	6	4	7	13:00:00	15:00:00	11:00:00	7	8	15	True
+sub-067	25.2	1	female	17-20 years	East Asia	yes	2024	no	no	yes	Anxiety, PTSD	166	30	37	36	34	29	28	7	1	7	4	9	13:00:00	14:00:00	14:00:00	7	7	14	True

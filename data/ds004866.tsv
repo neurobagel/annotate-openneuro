@@ -1,0 +1,6 @@
+participant_id	sex	age	Time Listening at Home Per Day	Handedness	language proficiency key	english proficiency	french proficiency	spanish proficiency	chinese proficiency	years ch folk life	hours ch folk year	years classical life	hours all per week	years music lessons
+sub-sid001401	M	55	["0m0s","33m3s","34m36s","48m47s","0m0s","31m22s","25m37s","44m23s","0m0s"]	R	SPOKEN,UNDERSTOOD,READ,WRITTEN	3,3,3,3	1,2,2,1	2,2,2,1	0,0,0,0	0	0	>10	>5	>10
+sub-sid002548	F	21	["15m0s","38m57s","48m22s","28m47s","39m26s","42m21s","90m37s"]	R	SPOKEN,UNDERSTOOD,READ,WRITTEN	3,3,3,3	2,2,2,2	1,1,2,1	0,0,0,0	0	0	>10	>5	>0,<5
+sub-sid002564	F	19	["18m6s","11m48s","83m48s","8m21s","16m35s","30m0s_SR","79m37s"]	R	SPOKEN,UNDERSTOOD,READ,WRITTEN	3,3,3,3	0,0,0,0	3,3,3,3	0,0,0,0	0	0	>5,<10	>0,<5	>5,<10
+sub-sid002566	M	19	["0m0s","41m59s","40m42s","48m49s","60m0s_SR","51m19s","31m29s"]	L	SPOKEN,UNDERSTOOD,READ,WRITTEN	3,3,3,3	0,0,0,0	1,1,0,0	2,2,2,2	0	0	>5,<10	>5	>0,<5
+sub-sid002589	M	36	["0m0s","8m13s","79m56s","38m35s","17m12s","0m0s","11m8s","63m49s"]	R	SPOKEN,UNDERSTOOD,READ,WRITTEN	3,3,3,3	0,1,1,0	0,1,1,0	0,0,0,0	0	0	>10	>5	>0,<5

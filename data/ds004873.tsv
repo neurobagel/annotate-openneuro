@@ -1,0 +1,76 @@
+participant_id	sex	age	Hct	O2sat	comments
+sub-p019	f	23	40.2	98	
+sub-p020	m	31	44.5	100	
+sub-p021	m	41	40.5	98	
+sub-p022	m	29			EXCLUDED due to behavioral problems (skipped nearly all memory keywords)
+sub-p023	f	23	37.5	100	
+sub-p024	m	54	38.3		EXCLUDED: contrast agent did not reach participant, no peak in data found
+sub-p025	f	60	39.6		EXCLUDED: contrast agent did not reach participant, no peak in data found
+sub-p026	m	33	45.3	96	
+sub-p027	m	41	44.9	97	
+sub-p028	m	32	46.9	98	
+sub-p029	f	29	40.4	97	
+sub-p030	f	29	41.2	98	
+sub-p031	f	29	42.4	98	
+sub-p032	f	32	41.0	97	
+sub-p033	f	23	40.0	99	
+sub-p034	m	28	43.1	99	
+sub-p035	m	23	43.5	99	
+sub-p036	f	23	39.2	98	
+sub-p037	f	54	39.5	97	
+sub-p038	m	25	40.7	97	
+sub-p039	f	22	37.8	98	
+sub-p040	f	26	41.5	98	
+sub-p042	f	32		99	EXCLUDED: CBF maps are unilateral
+sub-p043	m	23	43.1	98	
+sub-p044	f	30	36.7	99	
+sub-p046	f	21	41.2	99	
+sub-p047	m	21	42.6	98	
+sub-p048	f	29	41.1	99	
+sub-p049	m	39	45.1	98	
+sub-p050	f	35	43.4	98	
+sub-p051	f	44	43.9	99	
+sub-p052	f	33	38.9	98	
+sub-p053	m	39	41.2	96	EXCLUDED: T2* maps are unilateral
+sub-p054	m	28	42.5	98	
+sub-p055	m	41	43.3	98	
+sub-p056	f	28	41.1		EXCLUDED: movement artifacts/ringing, unilateral data in T2* calc
+sub-p058	m	33	45.5	98	
+sub-p059	f	22	37.8	98	
+sub-p060	m	27	43.3	98	
+sub-p061	m	24	43.5	98	
+sub-p062	f	26			    EXCLUDED: huge susceptibility artifacts above ear canals, didn't continue scanning
+sub-p063	f	39	40.7	98	
+sub-p064	f	41	38.7	98	
+sub-p065	f	40	41.8	98	
+sub-p066	f	45	42.4	98	
+sub-p067	m	25	47.9	98	
+sub-p068	m	28	46.5	98	
+sub-dp007	f	23			control study
+sub-dp008	f	28			control study
+sub-dp009	m	31			control study
+sub-dp010	f	31			control study
+sub-dp011	f	24			control study
+sub-dp012	f	30			control study
+sub-dp013	m	27			control study
+sub-dp014	f	26			control study
+sub-dp015	f	29			control study
+sub-dp016	m	28			control study
+sub-dp017	f	31			control study
+sub-dp018	m	22			control study
+sub-dp019	f	32			control study
+sub-dp020	f	23			control study
+sub-dp021	f	27			control study
+sub-dp022	m	27			control study
+sub-dp023	m	43			control study
+sub-dp024	m	24			control study
+sub-r070	f	24			replication study
+sub-r071	f	26			replication study
+sub-r072	f	29			replication study
+sub-r073	f	28			replication study
+sub-r074	m	34			replication study
+sub-r075	m	38			replication study
+sub-r076	m	47			replication study
+sub-r077	m	33			replication study
+sub-r078	f	27			replication study
+sub-r079	m	32			replication study

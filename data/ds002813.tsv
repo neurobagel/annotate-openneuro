@@ -1,0 +1,41 @@
+participant_id	age	gender	inclusion	comment
+sub-201	21	female	0	high regressor correlation
+sub-202	19	female	1	n/a
+sub-203	20	female	1	n/a
+sub-204	19	male	0	poor behavior
+sub-205	27	female	1	n/a
+sub-206	19	male	1	n/a
+sub-207	27	male	1	n/a
+sub-208	20	female	1	fintest_run-3 motion exclusion
+sub-209	29	female	1	n/a
+sub-210	23	female	1	n/a
+sub-211	18	female	0	poor behavior
+sub-212	21	male	1	n/a
+sub-213	19	female	1	n/a
+sub-214	20	female	1	n/a
+sub-215	22	female	1	n/a
+sub-216	21	male	1	n/a
+sub-217	32	male	0	excessive motion
+sub-218	19	female	1	train_run-2 motion exclusion
+sub-219	23	male	0	incomplete data
+sub-220	26	female	0	high regressor correlation
+sub-221	24	female	1	n/a
+sub-222	20	male	1	n/a
+sub-223	26	female	1	n/a
+sub-224	22	female	0	high regressor correlation
+sub-225	22	female	1	n/a
+sub-226	20	male	1	n/a
+sub-227	21	female	1	n/a
+sub-228	20	female	1	n/a
+sub-229	22	female	1	n/a
+sub-230	19	female	0	incomplete data
+sub-231	18	female	1	n/a
+sub-232	30	male	1	n/a
+sub-233	19	male	0	poor behavior
+sub-234	19	male	1	n/a
+sub-235	19	male	0	high regressor correlation
+sub-236	18	male	1	n/a
+sub-237	21	female	1	n/a
+sub-238	22	female	1	n/a
+sub-239	20	female	0	high regressor correlation
+sub-240	25	male	1	n/a

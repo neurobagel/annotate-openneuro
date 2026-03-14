@@ -1,0 +1,15 @@
+participant_id	MnExposition	age	gender	Obvolume_mm3	Id12items	avg_rating	BOLD in VOI Olf	notes
+sub-2001	y	15	f	99	12	2.0	0.037	n/a
+sub-2002	y	12	m	71	10	5.0	0.039	n/a
+sub-2003	y	19	m	87	5	2.5	0.041	n/a
+sub-2004	y	12	m	126	9	7.0	0.047	n/a
+sub-2005	n	14	m	160	n/a	n/a	n/a	sinusite at the time of the acquisition
+sub-2006	y	18	m	162	10	1.5	0.037	n/a
+sub-2007	y	12	f	161	9	5.5	0.035	n/a
+sub-2008	y	15	f	105	11	5.5	0.031	n/a
+sub-2009	n	15	f	133	9	7.0	0.048	n/a
+sub-2010	y	17	m	138	10	7.5	0.043	n/a
+sub-2011	n	14	f	120	11	7.0	0.043	n/a
+sub-2012	n	15	m	179	8	4.0	0.113	n/a
+sub-2013	y	13	f	n/a	9	6.0	0.035	n/a
+sub-2014	y	13	m	n/a	10	4.0	n/a	artefacts

@@ -1,0 +1,24 @@
+participant_id	seeg_id	age	sex	excluded_from_network_analysis	reason_for_exclusion
+sub-01	12	35	f	0	n/a
+sub-02	13	24	f	0	n/a
+sub-03	17	33	m	0	n/a
+sub-04	18	11	f	0	n/a
+sub-05	19	9	f	1	Modified anatomy, freesurfer analysis not possible
+sub-06	21	28	m	0	n/a
+sub-07	23	36	f	0	n/a
+sub-08	32	29	m	0	n/a
+sub-09	34	28	m	0	n/a
+sub-10	36	42	m	0	n/a
+sub-11	70	41	m	0	n/a
+sub-12	73	20	m	0	n/a
+sub-13	92	27	m	0	n/a
+sub-14	96	26	m	0	n/a
+sub-15	99	24	m	0	n/a
+sub-16	100	18	m	0	n/a
+sub-17	104	20	f	0	n/a
+sub-18	107	26	m	0	n/a
+sub-19	114	29	m	1	Prior resection, freesurfer analysis not possible
+sub-20	118	54	f	0	n/a
+sub-21	499	29	m	0	n/a
+sub-22	507	35	f	0	n/a
+sub-23	510	42	m	0	n/a

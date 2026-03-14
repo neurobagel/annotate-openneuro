@@ -1,0 +1,8 @@
+participant_id	species	age	sex	pathology	institution	field
+sub-MGH	phantom	n/a	n/a	HC	MGH	7T
+sub-MNI	phantom	n/a	n/a	HC	MNI	7T
+sub-MSSM	phantom	n/a	n/a	HC	MSSM	7T
+sub-NTNU	phantom	n/a	n/a	HC	NTNU	7T
+sub-UCL	phantom	n/a	n/a	HC	UCL	7T
+sub-CRMBM	phantom	n/a	n/a	HC	CRMBM	7T
+sub-MPI	phantom	n/a	n/a	HC	MPI	7T

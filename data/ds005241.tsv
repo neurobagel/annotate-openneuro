@@ -1,0 +1,33 @@
+participant_id	block_order	hand	gender	spelling_preference	languages_spoken
+sub-A0394	"1,2"	Right	M	American	"English, Mandarin, Korean, Spanish, Malay"
+sub-A0421	"2,1 "	Right	F	American	English
+sub-A0446	"1,2"	Right	M	British	English
+sub-A0451	"2,1"	Right	F	British	"English, French"
+sub-A0461	"1, 2"	Right	F	British	English
+sub-A0468	"2, 1"	Right	M	American	"English, Brazilian Portuguese, Spanish"
+sub-A0484	"1, 2"	n/a	n/a	British	Bengali
+sub-A0495	"2, 1"	Right	F	British	n/a
+sub-A0501	"1, 2"	Right	M	British	"Tamil, English"
+sub-A0502	"2, 1"	Right	M	American	"Hindi, English, Gujarati"
+sub-A0503	"1, 2"	Right	F	British	"English, Farsi"
+sub-A0504	"2, 1"	Right	F	American	"English, Bangla, Hindi, Urdu"
+sub-A0505	"1, 2"	Right	M	No clear preference	"Kinyarwanda, Chinese, English"
+sub-A0508 	"2, 1"	Right	M	British	"English, Bengali"
+sub-A0509	"1, 2"	Right	F	British	"English, Bengali, Urdu, Arabic"
+sub-A0510	"2, 1"	Right	F	No clear preference	"Hindi, English"
+sub-A0511	"1, 2"	Right	M	British	"Arabic, French, English"
+sub-A0512	"2, 1"	Right	M	British	"English, Swahili"
+sub-A0513	"1, 2"	Right	F	American	"Russian, English, Kazakh"
+sub-A0514	"2, 1"	Left	M	British	"Urdu, English"
+sub-A0515	"1, 2"	Right	F	American	"Hindi, Nepali, English, Maithili"
+sub-A0516	"2, 1"	Right	F	American	"English, Italian"
+sub-A0517	"1, 2"	Right	F	American	"English, Russian, German"
+sub-A0518	"2, 1"	Right	M	American	"English, Spanish"
+sub-A0519	"1, 2"	Right	M	American	"Amharic, English"
+sub-A0520	"2, 1"	Right	F	American	"English, Korean"
+sub-A0521	"1, 2"	Right	M	No clear preference	"Spanish, English, French"
+sub-A0522	"2, 1"	Right	M	British	"English, Bengali"
+sub-A0523	"1, 2"	Right	M	No clear preference	"Urdu, Sindhi, English"
+sub-A0524	"2, 1"	Right	M	British	Pashto/Urdu/Punjabi/English/Arabic/Russian/Spanish/Malayalam
+sub-A0525	"1, 2"	Right	F	British	English
+sub-A0526	"2 ,1 "	Right	M	American	English

@@ -1,0 +1,398 @@
+participant_id	sex	age	institution_id	institution	manufacturer	manufacturers_model_name	researcher	pathology	moco_software	segmentation_type
+sub-hamburgP01	19	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP02	25	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP03	18	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP04	23	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP05	26	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP06	24	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP07	29	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP08	25	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP09	22	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP10	23	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP11	31	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP12	19	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP13	23	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP14	29	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP15	19	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP16	27	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP17	20	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP18	23	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP19	22	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP20	30	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP21	27	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP22	24	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP23	26	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP24	18	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP25	30	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP26	20	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP27	20	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP28	24	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP29	27	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-hamburgP30	25	M	hamburg	 University Medical Center Hamburg-Eppendorf	Siemens	Magnetom Prisma Fit 3 Tesla System	Alexandra Tinnermann	HC	SCT	Automated
+sub-nwM01	38	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM02	24	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM03	20	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM04	21	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM05	24	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM06	35	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM07	23	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM08	31	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM09	24	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM10	21	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM11	22	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM12	27	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM13	20	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM14	26	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM15	23	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM16	29	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM17	29	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM18	21	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM20	31	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM21	24	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM22	26	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM23	30	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM24	23	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM25	33	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM26	28	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM27	27	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM29	22	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwM30	24	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kimberly Hemmerling	HC	AFNI	Manual
+sub-nwMW01	30	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwMW02	29	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwMW03	30	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwMW04	26	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwMW05	27	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwMW06	25	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwMW07	29	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwMW08	30	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwMW09	26	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwMW10	26	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwMW11	27	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile01	33	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile02	37	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile03	28	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile04	33	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile07	28	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile08	29	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile09	28	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile10	28	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile12	56	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile13	67	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile14	48	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile15	30	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile16	25	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile17	41	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile18	30	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile19	33	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile20	29	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile21	48	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile22	47	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile23	25	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile24	31	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile25	57	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile26	25	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile27	28	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile28	47	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile29	25	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwTactile30	35	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	DCM	FSL	Manual
+sub-nwTactile31	32	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	DCM	FSL	Manual
+sub-nwT01	30	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT02	29	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT03	31	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT04	27	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT06	31	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT07	29	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT08	34	F	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT09	29	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT10	26	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT11	26	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT12	26	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-nwT13	27	M	nw	Northwestern University	Siemens	Magnetom Prisma Fit 3 Tesla System	Kenneth Weber	HC	FSL	Manual
+sub-ouhscCSMS01	59	M	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS02	51	M	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS03	61	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS04	53	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS05	61	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS06	58	M	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS07	76	M	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS08	60	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS09	69	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS10	64	M	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS11	34	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS12	59	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS13	52	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS14	45	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscCSMS15	54	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	CSM	FSL	Manual
+sub-ouhscHCS16	52	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS17	45	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS18	39	M	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS19	42	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS20	46	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS21	49	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS22	59	M	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS23	54	M	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS24	63	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS25	53	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS26	50	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS27	52	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-ouhscHCS28	53	F	ouhsc	University of Oklahoma	GE	Discovery 750 3 Tesla System	Fauziyya Muhammad	HC	FSL	Manual
+sub-stanfordR01	33	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR02	26	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR03	25	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR04	28	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR05	19	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR06	20	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR07	29	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR08	21	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR09	40	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR10	30	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR11	21	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR12	21	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR13	39	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR14	20	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR15	26	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR16	25	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR17	25	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR18	22	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR19	20	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR20	32	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR21	20	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR22	21	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR23	24	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR24	22	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR25	27	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR26	23	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR27	24	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR28	32	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordR29	26	F	stanford	Stanford University	GE	Discovery 750 3 Tesla System	Kenneth Weber/Christine Law	HC	FSL	Manual
+sub-stanfordRMFM01	50	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM02	44	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM03	50	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM04	25	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM05	46	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM06	58	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM07	41	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM08	37	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM09	51	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM10	43	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM11	44	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM12	47	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM13	62	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM14	62	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM15	38	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM16	41	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM17	50	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM18	48	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM19	64	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM20	43	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM21	42	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM23	61	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM24	59	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM25	56	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM26	53	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM27	53	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM28	47	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM29	60	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM30	56	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMFM31	32	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	FM	FSL	Manual
+sub-stanfordRMHC32	29	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC33	52	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC34	56	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC35	56	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC36	64	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC37	61	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC38	56	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC39	41	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC40	50	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC41	53	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC42	40	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC43	49	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC44	59	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC45	56	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-stanfordRMHC46	37	N/A	stanford	Stanford University	GE	Signa Premier 3 Tesla System	Kenneth Weber/Katherine Martucci	HC	FSL	Manual
+sub-unfMSL01	26	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL02	23	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL03	25	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL04	26	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL05	19	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL06	23	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL07	27	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL08	29	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL09	27	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL10	26	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL11	22	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL12	18	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL13	23	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL14	23	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL15	27	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL16	29	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL17	25	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL18	29	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL19	23	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL20	29	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL21	24	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL22	23	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL23	29	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL24	23	M	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL25	22	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL26	27	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-unfMSL27	24	F	unf	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-ZurichCervC01	60	M	Zurich	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal	Siemens	Magnetom Trio Tim 3 Tesla System	Mahdi Mobarak-Abadi	HC	SCT	Manual
+sub-ZurichCervC02	39	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC03	39	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC04	61	F	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC05	47	F	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC06	35	F	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC07	53	F	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC08	43	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC09	45	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC10	44	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC11	33	F	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC12	29	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC13	42	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC14	54	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC15	47	F	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC16	35	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC17	44	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichCervC18	33	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Simon Schading	HC	FSL & SCT	Manual
+sub-ZurichLumbC01	23	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC02	27	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC03	29	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC04	27	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC05	27	F	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC06	27	F	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC07	28	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC08	28	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC09	26	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC10	37	F	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC11	29	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC12	32	F	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-ZurichLumbC13	33	M	Zurich	Balgrist University Hospital, University of Zurich	Siemens	Magnetom Prisma Fit 3 Tesla System	Gergely David	HC	FSL & SCT	Manual
+sub-genevaR101	24	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR102	30	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR103	28	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR104	25	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR105	24	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR106	29	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR107	25	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR108	27	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR109	27	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR110	22	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR111	26	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR112	25	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR113	25	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR114	28	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR115	25	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR116	33	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR117	36	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR201	27	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR202	33	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR203	25	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR204	28	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR205	29	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR206	31	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR207	28	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR208	26	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR209	30	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR210	32	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR211	23	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR212	33	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR301	29	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR302	25	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR303	26	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR304	29	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR305	27	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR306	34	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR307	31	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR308	40	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR309	26	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR310	26	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR311	28	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR312	29	M	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR313	25	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-genevaR314	25	F	geneva	Ecole Polytechnique Federale de Lausanne	Siemens	Magnetom Prisma Fit 3 Tesla System	Nawal Kinany	HC	SCT	Manual
+sub-leipzigR01	21	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR02	22	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR03	37	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR04	30	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR05	28	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR06	32	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR07	21	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR08	33	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR10	22	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR11	29	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR12	26	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR13	27	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR14	30	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR15	24	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR16	27	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR17	30	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR19	30	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR20	25	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR21	20	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR22	28	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR23	30	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR24	33	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR25	23	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR26	24	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR27	29	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR28	33	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR29	28	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR31	26	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR32	24	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR33	26	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR34	24	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR35	28	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR36	27	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR37	23	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR38	32	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR39	27	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR40	31	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR41	24	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR42	26	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR43	25	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR44	31	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR45	26	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR46	23	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR47	28	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigR48	22	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Merve Kaptan	HC	SCT	Manual
+sub-leipzigP01	31	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP02	30	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP03	35	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP04	22	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP05	35	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP06	32	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP07	28	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP08	28	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP09	24	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP10	32	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP11	29	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP12	20	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP13	30	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP14	31	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP15	30	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP16	34	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP17	32	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP18	25	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP19	23	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP20	22	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP21	26	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP22	21	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP23	26	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP24	24	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP25	25	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP26	32	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP27	28	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP28	28	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP29	18	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP30	24	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP31	22	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP32	22	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP33	33	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP34	21	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP35	34	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP36	26	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP37	28	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP38	22	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP39	32	F	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated
+sub-leipzigP40	25	M	leipzig	Max Planck Institute for Human Cognitive and Brain Sciences	Siemens	Magnetom Prisma Fit 3 Tesla System	Alice Dabbagh	HC	SCT	Automated

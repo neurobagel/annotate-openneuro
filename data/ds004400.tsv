@@ -1,0 +1,57 @@
+participant_id	gender	age	handedness	braille_reading_hand	silent_reading_comprehention_test_time	silent_reading_comprehention_test_accuracy	tactile_braille_letters_reading_pretest	tactile_braille_numbers_reading_pretest	tactile_braille_words_reading_1st_set_pretest	tactile_braille_words_reading_2nd_set_pretest	tactile_braille_words_reading_3rd_set_pretest	tactile_braille_words_reading_4th_set_pretest	tactile_braille_words_reading_5th_set_pretest	tactile_braille_words_reading_6th_set_pretest	tactile_braille_letters_reading_posttest	tactile_braille_numbers_reading_posttest	tactile_braille_words_reading_1st_set_posttest	tactile_braille_words_reading_2nd_set_posttest	tactile_braille_words_reading_3rd_set_posttest	tactile_braille_words_reading_4th_set_posttest	tactile_braille_words_reading_5th_set_posttest	tactile_braille_words_reading_6th_set_posttest	electronic_braille_display_test_900ms	electronic_braille_display_test_600ms	electronic_braille_display_test_300ms
+sub-1	f	23	r	r	2:47	8	7	4	1	3	2	2	1	0	12	6	3	3	2	2	4	1	13	9	8
+sub-2	f	25	r	r	1:00	5	13	3	1	1	2	0	0	1	15	21	2	2	5	4	1	2	17	13	14
+sub-3	f	25	r	r	4:24	9	13	13	5	5	7	6	3	7	18	47	5	6	6	5	5	8	18	15	16
+sub-4	f	27	r	r	2:08	6	16	17	0	1	2	6	0	2	16	30	2	6	3	3	5	3	16	11	8
+sub-5	f	24	r	r	2:25	9	5	3	1	1	0	1	0	0	9	10	2	1	2	0	3	0	12	9	11
+sub-6	f	32	r	r	2:35	8	26	20	7	14	14	12	9	14	32	49	8	12	11	13	12	14	20	19	17
+sub-7	f	23	r	l	2:53	6	13	6	3	6	6	3	3	5	13	27	2	1	3	3	3	3	16	13	14
+sub-8	f	22	r	l	2:05	6	20	13	2	8	10	8	8	9	21	28	7	8	5	7	7	8	18	13	15
+sub-9	f	27	r	l	6:03	8	13	3	1	4	1	1	1	0	17	22	3	5	3	7	4	5	17	13	14
+sub-10	f	23	r	l	2:33	8	13	10	3	6	7	5	7	8	16	24	8	7	7	8	8	8	19	17	17
+sub-11	f	25	r	l	1:56	6	15	6	2	7	6	3	8	6	21	35	10	5	6	6	10	11	19	17	17
+sub-12	f	24	r	r	2:25	8	17	9	7	5	7	8	7	11	20	48	8	5	7	6	9	10	19	17	15
+sub-13	f	25	r	r	3:04	10	16	7	5	6	6	8	6	1	20	36	8	7	8	8	13	9	19	20	17
+sub-14	f	23	r	l	2:11	7	13	11	2	6	6	6	4	6	17	15	6	6	6	7	5	4	18	15	15
+sub-15	f	27	r	r	2:03	7	18	9	9	13	13	13	8	11	31	45	14	18	16	16	16	17	20	20	17
+sub-16	f	25	r	r	1:05	7	15	14	7	4	4	5	5	1	16	33	4	8	8	12	5	4	20	19	17
+sub-17	f	32	r	l	2:06	5	14	9	2	5	3	4	2	5	16	14	4	6	8	4	4	5	18	15	15
+sub-18	f	22	r	l	1:58	7	14	6	0	4	4	1	2	3	14	28	2	5	0	0	2	2	15	11	12
+sub-19	f	27	r	r	1:45	9	10	8	2	1	2	3	2	1	16	24	2	6	3	4	1	2	15	11	12
+sub-20	f	23	r	l	2:21	7	17	9	3	6	7	9	6	8	21	23	8	9	7	9	7	10	19	17	17
+sub-21	f	22	r	r	2:35	8	15	11	3	8	3	9	7	2	19	32	11	7	8	7	8	7	20	17	15
+sub-22	f	31	r	r	1:35	5	19	9	1	4	2	2	1	1	12	18	4	6	6	2	3	2	15	10	11
+sub-23	f	32	r	r	1:48	7	17	28	3	5	4	7	3	3	18	37	6	6	7	6	5	6	20	15	15
+sub-24	f	23	r	l	2:43	9	22	13	3	6	6	8	4	9	19	27	4	6	6	8	5	3	16	12	12
+sub-25	f	30	r	r	3:35	9	23	23	6	8	8	5	10	13	29	37	10	7	10	10	7	7	20	17	17
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									

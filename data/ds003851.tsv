@@ -1,0 +1,45 @@
+participant_id	age	gender	inclusion	comment
+sub-1	19	2	1	n/a
+sub-2	21	2	1	n/a
+sub-3	20	1	1	n/a
+sub-4	21	2	1	n/a
+sub-5	24	1	1	n/a
+sub-6	19	2	1	n/a
+sub-7	18	2	1	n/a
+sub-8	19	2	1	n/a
+sub-9	21	2	1	n/a
+sub-10	21	1	1	n/a
+sub-11	21	2	1	n/a
+sub-12	23	2	1	n/a
+sub-13	n/a	2	0	Undisclosed neurological condition and migraine during scan
+sub-14	n/a	2	0	Excessive motion (> 2mm)
+sub-15	26	2	1	n/a
+sub-16	25	2	1	n/a
+sub-17	23	1	1	n/a
+sub-18	19	2	1	n/a
+sub-19	30	2	1	n/a
+sub-20	30	1	1	n/a
+sub-21	28	1	1	n/a
+sub-22	21	1	1	n/a
+sub-23	22	2	1	n/a
+sub-24	19	1	1	n/a
+sub-25	21	1	1	n/a
+sub-26	20	2	1	n/a
+sub-27	18	2	1	n/a
+sub-28	20	1	1	n/a
+sub-29	n/a	2	0	Excessive motion (> 2mm)
+sub-30	19	2	1	n/a
+sub-31	21	2	1	n/a
+sub-32	20	2	1	n/a
+sub-33	19	1	1	n/a
+sub-34	21	1	1	n/a
+sub-35	21	1	1	n/a
+sub-36	n/a	1	0	"Scanner operator error with headcoil, bad data"
+sub-37	22	1	1	n/a
+sub-38	20	1	1	n/a
+sub-39	19	1	1	n/a
+sub-40	18	2	1	n/a
+sub-41	21	1	1	n/a
+sub-42	22	2	1	n/a
+sub-43	20	2	1	n/a
+sub-44	21	1	1	n/a

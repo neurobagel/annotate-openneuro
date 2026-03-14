@@ -1,0 +1,23 @@
+participant_id	session	age	sex	etiology	outcome	follow_up
+sub-01	1A,2A	15	F	DNET	1	33
+sub-02	1A,2A	7	F	FCD 2b	1	24
+sub-03	1A,2A	17	M	Sturge Weber	1	30
+sub-04	1A,2A	22	M	Ganglioglioma	1	18
+sub-05	1A,2A	20	F	FCD 2a	1	13
+sub-06	1A,2A	3	F	Sturge Weber	3	20
+sub-07	1A,2A	34	M	Astrocytoma	1	29
+sub-08	1A,2A	23	F	FCD 2a	1	12
+sub-09	1A,2A	1	M	FCD 2	1	43
+sub-10	1A,2A	15	F	Sturge Weber syndrome	3	30
+sub-11	1A,2A	36	F	Ependymoma (WHO II)	1	28
+sub-12	1A,2A	38	M	Anaplastic astrocytoma (WHO III)	1	14
+sub-13	1A,2A	42	F	Cavernoma	5	29
+sub-14	1A,2A	7	F	FCD 2b	1	16
+sub-15	1A,2A	17	M	FCD 3	5	35
+sub-16	1A,2A	67	F	ODG (WHO II)	1	31
+sub-17	1A,2A	3	F	FCD 2a	3	36
+sub-18	1A,2A	4	M	FCD 1a	5	38
+sub-19	1A,2A	17	M	Hippocampal sclerosis	5	40
+sub-20	1A,2A	4	M	FCD 1c	1	38
+sub-21	1A,2A	41	M	Cavernoma	5	35
+sub-22	1A,2A	5	F	Fibrillary astrocytoma (WHO II)	1	40

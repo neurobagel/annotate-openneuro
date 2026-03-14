@@ -1,0 +1,165 @@
+"""
+Summarize tabular datasets in OpenNeuro, including:
+- which datasets have a participants.tsv file
+- the number of participants in each participants.tsv (based on presence of a participant_id column)
+- which datasets have already been annotated using Neurobagel
+- which datasets are needed to cover ~50% of all participants across datasets
+"""
+
+import logging
+from pathlib import Path
+
+import pandas as pd
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s: %(message)s",
+    datefmt="[%Y-%m-%d %H:%M:%S]",
+)
+logger = logging.getLogger(__name__)
+
+
+OPENNEURO_DATA_DIR = Path(__file__).parents[1] / "data"
+OUT_DIR = Path(__file__).parents[1] / "resources"
+# Assumes openneuro-annotations has been cloned into the parent directory of this repo
+OPENNEURO_ANNOTATIONS_DIR = Path(__file__).parents[2] / "openneuro-annotations"
+
+
+def write_tsv(df: pd.DataFrame, path: Path):
+    df.to_csv(path, sep="\t", index=False)
+
+
+def create_all_openneuro_datasets_overview(data_dir: Path) -> pd.DataFrame:
+    all_datasets_overview = []
+    for file in data_dir.glob("*.tsv"):
+        dataset = file.stem
+        participants_tsv = pd.read_csv(file, sep="\t")
+        n_rows = len(participants_tsv)
+        n_columns = len(participants_tsv.columns)
+        all_datasets_overview.append(
+            {"dataset": dataset, "n_rows": n_rows, "n_columns": n_columns}
+        )
+    return pd.DataFrame(all_datasets_overview)
+
+
+def add_dataset_annotated_status(
+    overview: pd.DataFrame, annotations_dir: Path
+) -> pd.DataFrame:
+    overview = overview.copy()
+    overview["annotated"] = overview["dataset"].apply(
+        lambda ds: (annotations_dir / f"{ds}.json").exists()
+    )
+    return overview
+
+
+def get_datasets_covering_x_percent_participants(
+    overview: pd.DataFrame, percentage=0.5
+) -> pd.DataFrame:
+    overview = overview.copy()
+    total_participants = overview["n_participants"].sum()
+    overview["cumulative_n_participants"] = overview["n_participants"].cumsum()
+    top_x_perc = overview[
+        overview["cumulative_n_participants"] <= (total_participants * percentage)
+    ]
+    # include the dataset that pushes it over x%
+    top_x_perc = overview.iloc[: len(top_x_perc) + 1]
+    return top_x_perc
+
+
+def main():
+    all_datasets_overview = create_all_openneuro_datasets_overview(OPENNEURO_DATA_DIR)
+    all_datasets_overview = all_datasets_overview.sort_values(
+        by="n_rows", ascending=False
+    )
+    write_tsv(all_datasets_overview, OUT_DIR / "all_openneuro_datasets_overview.tsv")
+
+    total_datasets = len(all_datasets_overview)
+
+    # Remove datasets with no/empty participants.tsv (n_rows == 0)
+    datasets_with_tsvs = all_datasets_overview[
+        all_datasets_overview["n_rows"] > 0
+    ].copy()
+    logger.info(
+        f"Datasets with participants.tsv: {len(datasets_with_tsvs)}/{total_datasets}"
+    )
+
+    # Count number of participants in each dataset based on presence of participant_id column in participants.tsv
+    datasets_with_tsvs["n_participants"] = None
+    datasets_missing_participant_id_col = []
+    unparseable_datasets = []
+    for idx, row in datasets_with_tsvs.iterrows():
+        ds_id = row["dataset"]
+        try:
+            participants_tsv = pd.read_csv(
+                OPENNEURO_DATA_DIR / f"{ds_id}.tsv", sep="\t"
+            )
+        except Exception as err:
+            logger.warning(
+                f"{ds_id}.tsv: Could not parse file due to error {err}, skipping n_participants calculation"
+            )
+            unparseable_datasets.append(ds_id)
+            continue
+        if "participant_id" in participants_tsv.columns:
+            n_participants = participants_tsv["participant_id"].nunique()
+            datasets_with_tsvs.at[idx, "n_participants"] = n_participants
+        else:
+            logger.warning(f"{ds_id}.tsv: does not have a 'participant_id' column")
+            datasets_missing_participant_id_col.append(ds_id)
+
+    logger.info(
+        f"Datasets missing 'participant_id' column ({len(datasets_missing_participant_id_col)}/{len(datasets_with_tsvs)}): "
+        f"{', '.join(datasets_missing_participant_id_col)}"
+    )
+    logger.info(
+        f"Datasets that could not be parsed ({len(unparseable_datasets)}/{len(datasets_with_tsvs)}): "
+        f"{', '.join(unparseable_datasets)}"
+    )
+
+    # Add info about whether the dataset has already been annotated using Neurobagel
+    datasets_with_tsvs = add_dataset_annotated_status(
+        datasets_with_tsvs, OPENNEURO_ANNOTATIONS_DIR
+    )
+    datasets_with_tsvs_sorted = datasets_with_tsvs.sort_values(
+        by="n_participants", ascending=False
+    )
+
+    # Determine datasets needed to cover ~50% of all participants across datasets
+    top_50_perc = get_datasets_covering_x_percent_participants(
+        overview=datasets_with_tsvs_sorted, percentage=0.5
+    )
+    top_50_perc_unannotated = top_50_perc[~top_50_perc["annotated"]]
+    # Get unannotated dataset in top 50 with the biggest n_columns
+    unannotated_max_cols_row = top_50_perc_unannotated.loc[
+        top_50_perc_unannotated["n_columns"].idxmax(), ["dataset", "n_columns"]
+    ]
+    # Get unannotated dataset in top 50 with the smallest n_columns
+    unannotated_min_cols_row = top_50_perc_unannotated.loc[
+        top_50_perc_unannotated["n_columns"].idxmin(), ["dataset", "n_columns"]
+    ]
+
+    logger.info(
+        f"Datasets needed to cover ~50% of participants: {len(top_50_perc)}/{len(datasets_with_tsvs_sorted)}"
+    )
+    logger.info(
+        f"Num. annotated datasets in top 50%: {top_50_perc['annotated'].sum()}/{len(top_50_perc)}"
+    )
+    logger.info(
+        f"Num. datasets requiring annotation in top 50%: {len(top_50_perc_unannotated)}/{len(top_50_perc)}"
+    )
+    logger.info(
+        f"Unannotated dataset in top 50% with most columns: {unannotated_max_cols_row['dataset']}, n_columns: {unannotated_max_cols_row['n_columns']}"
+    )
+    logger.info(
+        f"Unannotated dataset in top 50% with fewest columns: {unannotated_min_cols_row['dataset']}, n_columns: {unannotated_min_cols_row['n_columns']}"
+    )
+
+    write_tsv(datasets_with_tsvs_sorted, OUT_DIR / "openneuro_tabular_info.tsv")
+    write_tsv(top_50_perc, OUT_DIR / "openneuro_tabular_top_50_percent.tsv")
+    write_tsv(
+        top_50_perc_unannotated,
+        OUT_DIR / "openneuro_tabular_top_50_percent_unannotated.tsv",
+    )
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,20 @@
+{
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "study": {
+        "Description": "study/dataset that the participant belonged to",
+        "Levels": {
+            "GroupSCVR": "participants with 2 fMRI runs used in mapping group-level spinal cord vascular reactivity in the original study",
+            "IndividualSCVR": "participants with 18 fMRI runs used in mapping individual spinal cord vascular reactivity in the original study"
+        }
+    }
+}

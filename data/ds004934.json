@@ -1,0 +1,14 @@
+{
+    "age": {
+        "LongName" : "Age of participant in years",
+        "Description": "Rounded to preserve anonymity"
+    },
+    "gender": {
+        "LongName" : "Self reported gender of participant",
+        "Description": "Note: Not sex assigned at birth"
+    },
+    "group": {
+        "LongName" : "Not used in curr dataset (e.g. experimental vs control)",
+        "Description": "Not a between subjects design; everyone assigned to same condition (control)"
+    }
+}

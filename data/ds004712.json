@@ -1,0 +1,24 @@
+{
+    "participant_id": {
+        "LongName": "patient identification",
+        "Description": "anonymized, BIDS compatible identification"
+    },  
+    "sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+                  }
+    },
+    "age": {
+        "Description": "age of the participant at first scan",
+        "Units": "years"
+    },
+        "phase": {
+        "Description": "acquisition phase",
+        "Levels": {
+            "A": "phase A",
+            "B": "phase B"
+                  }
+    }
+}

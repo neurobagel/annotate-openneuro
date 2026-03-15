@@ -1,0 +1,38 @@
+{
+    "participant_id": {
+        "Description": "Participant's ID."
+    },
+
+    "birth_month": {
+        "Description": "Participant's birth month.",
+        "Units": "months"
+    },
+
+    "birth_year": {
+        "Description": "Participant's birth year.",
+        "Units": "years"
+    },
+
+    "gender": {
+        "Description": "Participant's gender",
+        "Levels": {
+            "Male": "male",
+            "Female": "female",
+            "Other": "other"
+        }
+    },
+
+    "diagnosis": {
+        "Description": "History of diagnosis of mental health condition.",
+        "Levels": {
+            "Yes": "yes",
+            "No": "no",
+            "Don't know": "unsure"
+        }
+    },
+
+    "loneliness": {
+        "Description": "UCLA Loneliness 3rd edition raw score.",
+        "Units": "score"
+    }
+}

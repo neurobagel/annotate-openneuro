@@ -1,0 +1,1 @@
+{"participant_id":{"Description":"Identifier of type sub-<label>"},"sex":{"Description":"Phenotypic sex","Levels":{"f":"female","m":"male","o":"other"}},"age":{"Description":"Age in years","Units":"years"},"headcircumference":{"Description":"Cranial perimeter (cap size)","Units":"cm"}}

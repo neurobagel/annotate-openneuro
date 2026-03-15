@@ -1,0 +1,31 @@
+{
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "Age": {
+    "Description": "Age of subject in years"
+  },
+  "Gender": {
+    "Description": "Self reported gender",
+    "Levels": {
+        "1": "male",
+        "2": "female",
+        "3": "other",
+        "4": "prefer not to respond",
+        "": "empty"
+     }
+  },
+  "Race": {
+    "Description": "Race (could choose more than one, see README)"
+  },
+  "Handedness": {
+    "Description": "Self reported handedness",
+    "Levels": {
+        "1": "right",
+        "2": "left",
+        "3": "both",
+        "" : "empty"
+     }
+  }
+}
+

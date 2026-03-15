@@ -1,0 +1,17 @@
+{
+  "age": {
+    "LongName": "",
+    "Description": "age of the animal",
+    "Units": "weeks",
+    "DataType": "number"
+  },
+  "sex": {
+    "LongName": "",
+    "Description": "sex of the animal",
+    "DataType": "string",
+    "Levels": {
+      "m": "male",
+      "f": "female"
+    }
+  }
+}

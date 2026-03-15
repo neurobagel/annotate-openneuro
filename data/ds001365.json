@@ -1,0 +1,54 @@
+{
+    "age": {
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Age",
+                "Label": ""
+            },
+            "MissingValues": [
+                "",
+                "n/a",
+                " "
+            ],
+            "Format": {
+                "TermURL": "nb:FromFloat",
+                "Label": "float data"
+            },
+            "VariableType": "Continuous"
+        },
+        "Description": "There should have been a description here, but there wasn't. :("
+    },
+    "ctopp.pa.comp": {
+        "Description": "There should have been a description here, but there wasn't. :("
+    },
+    "ctopp.rln.raw": {
+        "Description": "There should have been a description here, but there wasn't. :("
+    },
+    "participant_id": {
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": ""
+            },
+            "VariableType": "Identifier"
+        },
+        "Description": "There should have been a description here, but there wasn't. :("
+    },
+    "ppvt.raw": {
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Assessment",
+                "Label": ""
+            },
+            "IsPartOf": {
+                "TermURL": "snomed:273692005",
+                "Label": ""
+            },
+            "VariableType": "Collection"
+        },
+        "Description": "There should have been a description here, but there wasn't. :("
+    },
+    "wasi.matr.raw": {
+        "Description": "There should have been a description here, but there wasn't. :("
+    }
+}

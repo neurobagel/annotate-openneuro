@@ -1,0 +1,13 @@
+{
+  "participant_id": {
+    "LongName": "Participant identifier",
+    "Description": "Unique subject identifier"
+  },
+  "group": {
+    "Description": "Healthy subject or schizophrenia patient",
+    "Levels": {
+      "P": "patients",
+      "HC": "healthy controls"
+    }
+  }
+}

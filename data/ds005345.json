@@ -1,0 +1,26 @@
+{
+    "age": {
+        "LongName": "",
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "sex": {
+        "LongName": "",
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "eeg_acq_time": {
+        "LongName": "",
+        "Description": "EEG data acquisition time",
+        "Units": "year-month-date"
+    },
+    "fmri_acq_time": {
+        "LongName": "",
+        "Description": "fMRI data acquisition time",
+        "Units": "year-month-date"
+    }
+}
+

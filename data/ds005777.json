@@ -1,0 +1,11 @@
+{
+  "participant_id": {
+    "Description": "Unique identifier for each participant in the study."
+  },
+  "MORPHINE": {
+    "Description": "Visit identifier for the session when the participant received morphine."
+  },
+  "PLACEBO": {
+    "Description": "Visit identifier for the session when the participant received the placebo."
+  }
+}

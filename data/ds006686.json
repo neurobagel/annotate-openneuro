@@ -1,0 +1,42 @@
+{
+  "participant_id": {
+    "Description": "Unique subject identifier, matching the BIDS folder naming (e.g., sub-101)"
+  },
+  "age": {
+    "Description": "Age of the participant at the time of testing",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Self-report gender of the participant",
+    "Levels": {
+      "M": "Male",
+      "F": "Female"
+    }
+  },
+  "group": {
+    "Description": "Age group of the participant",
+    "Levels": {
+      "young": "Young adults (18-30)",
+      "older": "Older adults (60+)"
+    }
+  },
+  "race": {
+    "Description": "Race of the participant, as self-reported",
+    "Levels": {
+      "White": "White",
+      "Black or African American": "Black or African American",
+      "Asian": "Asian",
+      "American Indian or Alaska Native": "American Indian or Alaska Native",
+      "Native Hawaiian or Pacific Islander": "Native Hawaiian or Pacific Islander",
+      "Unknown": "Not reported/Missing"
+    }
+  },
+  "ethnicity": {
+    "Description": "Ethnicity of the participant, as self-reported",
+    "Levels": {
+      "Hispanic/Latino": "Participant identifies as Hispanic or Latino",
+      "Not Hispanic/Latino": "Participant does not identify as Hispanic or Latino",
+      "Unknown": "Not reported/Missing"
+    }
+  }
+}

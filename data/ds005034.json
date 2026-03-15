@@ -1,0 +1,14 @@
+{
+  "participant_id": {
+    "Description": "unique participant identifier"
+  },
+  "age": {
+    "Description": "age of the participant in years"
+  },
+  "sex": {
+    "Description": "sex of the participant: m - male, f - female"
+  },
+  "hand": {
+    "Description": "dominant hand: l - left, r - right, b - ambidextrous"
+  }
+}

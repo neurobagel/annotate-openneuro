@@ -1,0 +1,25 @@
+{
+  "participant_id": {
+    "LongName": "Participant identifier",
+    "Description": "Unique subject identifier"
+  },
+  "sex": {
+    "Description": "Sex of the subject",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "age": {
+    "Description": "Age or range of age of the subject",
+    "Units": "years"
+  },
+  "handedness": {
+    "LongName": "Handedness of the subject",
+    "Description": "Tendency to use either the right or the left hand more naturally than the other.",
+    "Levels": {
+      "R": "Right",
+      "L": "Left"
+    }
+  }
+}

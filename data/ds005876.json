@@ -1,0 +1,33 @@
+{
+  "participant_id": {
+    "Description": "participant number"
+  },
+  "datetime": {
+    "Description": "date and time at start of task"
+  },
+  "age": {
+    "Description": "self-reported age of participant"
+  },
+  "sex": {
+    "Description": "self-reported sex of participant",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "cch": {
+    "Description": "coarse and curly hair type",
+    "Levels": {
+      "Y": "yes",
+      "N": "no"
+    }
+  },
+  "handedness": {
+    "Description": "self-reported handedness of participant",
+    "Levels": {
+      "L": "left-handed",
+      "R": "right-handed",
+      "LR": "ambidextrous"
+    }
+  }
+}

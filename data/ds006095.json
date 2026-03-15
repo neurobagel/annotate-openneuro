@@ -1,0 +1,31 @@
+{
+  "participant_id": {
+    "LongName": "Participant identifier",
+    "Description": "Unique participant identifier"
+  },
+  "sex": {
+    "Description": "Sex of the participant",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "age": {
+    "Description": "age of the participant",
+    "Units": "years"
+  },
+  "treadmill_speed": {
+    "Description": "uneven terrain treadmill walking speed of the participant",
+    "Units": "m/s"
+  },
+  "MOCA": {
+    "Description": "Montreal Cognitive Assessment (MoCA)"
+  },
+  "SPPB": {
+    "Description": "Short Physical Performance Battery"
+  },
+  "time_400m_seconds": {
+    "Description": "Time to finish 400 meter walking",
+    "Units": "seconds"
+  }
+}

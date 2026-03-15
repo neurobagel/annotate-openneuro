@@ -1,0 +1,17 @@
+{
+  "participant_id": {
+    "Description": "Participant identifier"
+  },
+  "age": {
+    "Description": "Age in years at the time of measurement"
+  },
+  "sex": {
+    "Description": "Self-rated by participant, m for male / f for female"
+  },
+  "handedness": {
+    "Description": "Handedness according to Oldfield (1971) Neuropsychologia"
+  },
+  "remarks": {
+    "Description": "Potentially relevant remarks"
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "date": {
+        "Description": "Date of data collection in the following format: DD/MM/YYYY"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "handedness": {
+        "Description": "Handedness of the participant",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "A": "ambidextrous",
+            "N/A": "information not provided"
+        }
+    },
+    "corrected_to_normal_vision": {
+        "Description": "If participants had corrected or normal vision",
+        "Levels": {
+            "YES": "yes",
+            "NO": "no"
+        }
+    },
+    "removed": {
+        "Description": "Participant retained in analysis or removed because of technical problems",
+        "Levels": {
+            "1": "yes",
+            "0": "no"
+        }
+    }
+}

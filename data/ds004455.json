@@ -1,0 +1,31 @@
+{
+    "session_id": {
+        "LongName": "session_id",
+        "Description": "available session ID for a subject"
+    },
+    "data_id": {
+        "LongName": "data_id",
+        "Description": "corresponding data ID of the session"
+    },
+    "age": {
+        "LongName": "age",
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "handedness": {
+        "LongName": "handedness",
+        "Description": "handedness of the participant as reported by the participant",
+        "Levels": {
+            "l": "left",
+            "r": "right"
+        }
+    },
+    "sex": {
+        "LongName": "sex",
+        "Description": "sex of the participant",
+        "Levels": {
+            "m": "male",
+            "f": "female"
+        }
+    }
+}

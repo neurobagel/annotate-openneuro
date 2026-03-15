@@ -1,0 +1,28 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier"
+  },
+  "site": {
+    "Description": "Country/site where data were collected",
+    "Levels": {
+      "India": "Collection site in India",
+      "Tanzania": "Collection site in Tanzania"
+    }
+  },
+  "sex": {
+    "Description": "Biological sex (as recorded)"
+  },
+  "age": {
+    "Description": "Age of the participant",
+    "Units": "years"
+  },
+  "age_group": {
+    "Description": "Age bin (as recorded)"
+  },
+  "mhq_score": {
+    "Description": "MHQ score (as recorded)"
+  },
+  "income_usd": {
+    "Description": "Income category in USD (as recorded)"
+  }
+}

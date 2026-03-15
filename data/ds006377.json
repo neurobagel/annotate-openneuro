@@ -1,0 +1,560 @@
+{
+    "participant_id": {
+        "Description": "Unique identifier for each participant",
+        "Units": "N/A"
+    },
+    "subIndex": {
+        "Description": "IRB subject index",
+        "Units": "N/A"
+    },
+    "brainROIorder": {
+        "Description": "Order of brainROIs of interest in the brain for data collection for the hair characteristics indexed as 1,2 and 3 in the following columns",
+        "Units": "N/A"
+    },
+    "AverageNumberofHairs_1": {
+        "Description": "Average number of hairs counted in scalp brainROI 1",
+        "Units": "count"
+    },
+    "AverageNumberofHairs_2": {
+        "Description": "Average number of hairs counted in scalp brainROI 2",
+        "Units": "count"
+    },
+    "AverageNumberofHairs_3": {
+        "Description": "Average number of hairs counted in scalp brainROI 3",
+        "Units": "count"
+    },
+    "AverageHairShaftThickness_1": {
+        "Description": "Average thickness of hair shafts in brainROI 1",
+        "Units": "micrometers"
+    },
+    "AverageHairShaftThickness_2": {
+        "Description": "Average thickness of hair shafts in brainROI 2",
+        "Units": "micrometers"
+    },
+    "AverageHairShaftThickness_3": {
+        "Description": "Average thickness of hair shafts in brainROI 3",
+        "Units": "micrometers"
+    },
+    "ThinHairsPercent_1": {
+        "Description": "Percentage of thin hairs in scalp brainROI 1",
+        "Units": "percent"
+    },
+    "ThinHairsPercent_2": {
+        "Description": "Percentage of thin hairs in scalp brainROI 2",
+        "Units": "percent"
+    },
+    "ThinHairsPercent_3": {
+        "Description": "Percentage of thin hairs in scalp brainROI 3",
+        "Units": "percent"
+    },
+    "MidHairsPercent_1": {
+        "Description": "Percentage of medium-thickness hairs in scalp brainROI 1",
+        "Units": "percent"
+    },
+    "MidHairsPercent_2": {
+        "Description": "Percentage of medium-thickness hairs in scalp brainROI 2",
+        "Units": "percent"
+    },
+    "MidHairsPercent_3": {
+        "Description": "Percentage of medium-thickness hairs in scalp brainROI 3",
+        "Units": "percent"
+    },
+    "ThickHairsPercent_1": {
+        "Description": "Percentage of thick hairs in scalp brainROI 1",
+        "Units": "percent"
+    },
+    "ThickHairsPercent_2": {
+        "Description": "Percentage of thick hairs in scalp brainROI 2",
+        "Units": "percent"
+    },
+    "ThickHairsPercent_3": {
+        "Description": "Percentage of thick hairs in scalp brainROI 3",
+        "Units": "percent"
+    },
+    "SingleFollicularUnitsPercent_1": {
+        "Description": "Percentage of single follicular units in brainROI 1",
+        "Units": "percent"
+    },
+    "SingleFollicularUnitsPercent_2": {
+        "Description": "Percentage of single follicular units in brainROI 2",
+        "Units": "percent"
+    },
+    "SingleFollicularUnitsPercent_3": {
+        "Description": "Percentage of single follicular units in brainROI 3",
+        "Units": "percent"
+    },
+    "DoubleFollicularUnitsPercent_1": {
+        "Description": "Percentage of double follicular units in brainROI 1",
+        "Units": "percent"
+    },
+    "DoubleFollicularUnitsPercent_2": {
+        "Description": "Percentage of double follicular units in brainROI 2",
+        "Units": "percent"
+    },
+    "DoubleFollicularUnitsPercent_3": {
+        "Description": "Percentage of double follicular units in brainROI 3",
+        "Units": "percent"
+    },
+    "TripleFollicularUnitsPercent_1": {
+        "Description": "Percentage of triple follicular units in brainROI 1",
+        "Units": "percent"
+    },
+    "TripleFollicularUnitsPercent_2": {
+        "Description": "Percentage of triple follicular units in brainROI 2",
+        "Units": "percent"
+    },
+    "TripleFollicularUnitsPercent_3": {
+        "Description": "Percentage of triple follicular units in brainROI 3",
+        "Units": "percent"
+    },
+    "CumulativeHairThickness_1": {
+        "Description": "Cumulative hair thickness measurement in brainROI 1",
+        "Units": "micrometers"
+    },
+    "CumulativeHairThickness_2": {
+        "Description": "Cumulative hair thickness measurement in brainROI 2",
+        "Units": "micrometers"
+    },
+    "CumulativeHairThickness_3": {
+        "Description": "Cumulative hair thickness measurement in brainROI 3",
+        "Units": "micrometers"
+    },
+    "NumberofFollicularUnits_1": {
+        "Description": "Total number of follicular units in brainROI 1",
+        "Units": "count"
+    },
+    "NumberofFollicularUnits_2": {
+        "Description": "Total number of follicular units in brainROI 2",
+        "Units": "count"
+    },
+    "NumberofFollicularUnits_3": {
+        "Description": "Total number of follicular units in brainROI 3",
+        "Units": "count"
+    },
+    "DerivedSinclairScale_1": {
+        "Description": "Sinclair Scale derived value in brainROI 1",
+        "Units": "scale"
+    },
+    "DerivedSinclairScale_2": {
+        "Description": "Sinclair Scale derived value in brainROI 2",
+        "Units": "scale"
+    },
+    "DerivedSinclairScale_3": {
+        "Description": "Sinclair Scale derived value in brainROI 3",
+        "Units": "scale"
+    },
+    "SkinPigmentation": {
+        "Description": "Skin pigmentation level of participant measured by a Melanometer",
+        "Units": "scale"
+    },
+    "SkinTone": {
+        "Description": "Skin tone of participant via visual inspection - Fitz-Patrick Scale",
+        "Units": "N/A"
+    },
+    "HairColor": {
+        "Description": "Hair color of participant",
+        "Units": "N/A"
+    },
+    "HairShape": {
+        "Description": "Hair Type",
+        "Units": "N/A"
+    },
+    "HairStrandTexture": {
+        "Description": "Texture of individual hair strands",
+        "Units": "N/A"
+    },
+    "Gender": {
+        "Description": "Gender of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "HeadCircumference": {
+        "Description": "Circumference of participant's head",
+        "Units": "centimeters"
+    },
+    "NasiontoNasion": {
+        "Description": "Measurement from nasion to nasion",
+        "Units": "centimeters"
+    },
+    "EartoEar": {
+        "Description": "Measurement from one ear to the other across the top of the head",
+        "Units": "centimeters"
+    },
+    "Age": {
+        "Description": "Age of the participant",
+        "Units": "years"
+    },
+  "PercentPower_1": {
+    "Description": "Power percentage of the source",
+    "Source": "Source1",
+    "Detector": "Detector1",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_2": {
+    "Description": "Power percentage of the source",
+    "Source": "Source1",
+    "Detector": "Detector2",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_3": {
+    "Description": "Power percentage of the source",
+    "Source": "Source1",
+    "Detector": "Detector9",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_4": {
+    "Description": "Power percentage of the source",
+    "Source": "Source2",
+    "Detector": "Detector1",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_5": {
+    "Description": "Power percentage of the source",
+    "Source": "Source2",
+    "Detector": "Detector2",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_6": {
+    "Description": "Power percentage of the source",
+    "Source": "Source2",
+    "Detector": "Detector10",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_7": {
+    "Description": "Power percentage of the source",
+    "Source": "Source3",
+    "Detector": "Detector3",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_8": {
+    "Description": "Power percentage of the source",
+    "Source": "Source3",
+    "Detector": "Detector4",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_9": {
+    "Description": "Power percentage of the source",
+    "Source": "Source3",
+    "Detector": "Detector5",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_10": {
+    "Description": "Power percentage of the source",
+    "Source": "Source3",
+    "Detector": "Detector11",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_11": {
+    "Description": "Power percentage of the source",
+    "Source": "Source4",
+    "Detector": "Detector3",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_12": {
+    "Description": "Power percentage of the source",
+    "Source": "Source4",
+    "Detector": "Detector5",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_13": {
+    "Description": "Power percentage of the source",
+    "Source": "Source4",
+    "Detector": "Detector6",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_14": {
+    "Description": "Power percentage of the source",
+    "Source": "Source4",
+    "Detector": "Detector12",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_15": {
+    "Description": "Power percentage of the source",
+    "Source": "Source5",
+    "Detector": "Detector4",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_16": {
+    "Description": "Power percentage of the source",
+    "Source": "Source5",
+    "Detector": "Detector5",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_17": {
+    "Description": "Power percentage of the source",
+    "Source": "Source5",
+    "Detector": "Detector13",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_18": {
+    "Description": "Power percentage of the source",
+    "Source": "Source6",
+    "Detector": "Detector5",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_19": {
+    "Description": "Power percentage of the source",
+    "Source": "Source6",
+    "Detector": "Detector6",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_20": {
+    "Description": "Power percentage of the source",
+    "Source": "Source6",
+    "Detector": "Detector14",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_21": {
+    "Description": "Power percentage of the source",
+    "Source": "Source7",
+    "Detector": "Detector7",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_22": {
+    "Description": "Power percentage of the source",
+    "Source": "Source7",
+    "Detector": "Detector8",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_23": {
+    "Description": "Power percentage of the source",
+    "Source": "Source7",
+    "Detector": "Detector15",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_24": {
+    "Description": "Power percentage of the source",
+    "Source": "Source8",
+    "Detector": "Detector7",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_25": {
+    "Description": "Power percentage of the source",
+    "Source": "Source8",
+    "Detector": "Detector8",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_26": {
+    "Description": "Power percentage of the source",
+    "Source": "Source8",
+    "Detector": "Detector16",
+    "Wavelength": 1,
+    "Run": 1
+  },
+  "PercentPower_27": {
+    "Description": "Power percentage of the source",
+    "Source": "Source1",
+    "Detector": "Detector1",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_28": {
+    "Description": "Power percentage of the source",
+    "Source": "Source1",
+    "Detector": "Detector2",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_29": {
+    "Description": "Power percentage of the source",
+    "Source": "Source1",
+    "Detector": "Detector9",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_30": {
+    "Description": "Power percentage of the source",
+    "Source": "Source2",
+    "Detector": "Detector1",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_31": {
+    "Description": "Power percentage of the source",
+    "Source": "Source2",
+    "Detector": "Detector2",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_32": {
+    "Description": "Power percentage of the source",
+    "Source": "Source2",
+    "Detector": "Detector10",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_33": {
+    "Description": "Power percentage of the source",
+    "Source": "Source3",
+    "Detector": "Detector3",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_34": {
+    "Description": "Power percentage of the source",
+    "Source": "Source3",
+    "Detector": "Detector4",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_35": {
+    "Description": "Power percentage of the source",
+    "Source": "Source3",
+    "Detector": "Detector5",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_36": {
+    "Description": "Power percentage of the source",
+    "Source": "Source3",
+    "Detector": "Detector11",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_37": {
+    "Description": "Power percentage of the source",
+    "Source": "Source4",
+    "Detector": "Detector3",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_38": {
+    "Description": "Power percentage of the source",
+    "Source": "Source4",
+    "Detector": "Detector5",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_39": {
+    "Description": "Power percentage of the source",
+    "Source": "Source4",
+    "Detector": "Detector6",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_39": {
+    "Description": "Power percentage of the source",
+    "Source": "Source4",
+    "Detector": "Detector6",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_40": {
+    "Description": "Power percentage of the source",
+    "Source": "Source4",
+    "Detector": "Detector12",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_41": {
+    "Description": "Power percentage of the source",
+    "Source": "Source5",
+    "Detector": "Detector4",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_42": {
+    "Description": "Power percentage of the source",
+    "Source": "Source5",
+    "Detector": "Detector5",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_43": {
+    "Description": "Power percentage of the source",
+    "Source": "Source5",
+    "Detector": "Detector13",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_44": {
+    "Description": "Power percentage of the source",
+    "Source": "Source6",
+    "Detector": "Detector5",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_45": {
+    "Description": "Power percentage of the source",
+    "Source": "Source6",
+    "Detector": "Detector6",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_46": {
+    "Description": "Power percentage of the source",
+    "Source": "Source6",
+    "Detector": "Detector14",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_47": {
+    "Description": "Power percentage of the source",
+    "Source": "Source7",
+    "Detector": "Detector7",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_48": {
+    "Description": "Power percentage of the source",
+    "Source": "Source7",
+    "Detector": "Detector8",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_49": {
+    "Description": "Power percentage of the source",
+    "Source": "Source7",
+    "Detector": "Detector15",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_50": {
+    "Description": "Power percentage of the source",
+    "Source": "Source8",
+    "Detector": "Detector7",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_51": {
+    "Description": "Power percentage of the source",
+    "Source": "Source8",
+    "Detector": "Detector8",
+    "Wavelength": 2,
+    "Run": 1
+  },
+  "PercentPower_52": {
+    "Description": "Power percentage of the source",
+    "Source": "Source8",
+    "Detector": "Detector16",
+    "Wavelength": 2,
+    "Run": 1
+  }
+}

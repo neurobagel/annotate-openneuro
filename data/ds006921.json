@@ -1,0 +1,57 @@
+{
+	"participant_id" : {
+		"Description" : "Unique participant ID formated as sub-XX"
+	},
+	"ParticipantID" : {
+		"Description" : "Unique participant ID formated as XX"
+	},
+	"Age" : {
+		"Description" : "Age at the time of the first recording",
+		"Units": "year"
+	},
+	"Sex" : {
+		"Description" : "Sex of the participant as reported by the participant",
+		"Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+	},
+	"HandLateralization" : {
+		"Description" : "Handedness of the participant assessed by the Waterloo Handedness Questionnaire",
+		"Units": "[-72, 72]"
+	},
+	"FootLateralization" : {
+		"Description" : "Footedness of the participant assessed by the Waterloo Footedness Questionnaire",
+		"Units": "[-20, 20]"
+	},
+	"Amputee" : {
+		"Description" : "Amputation status of participant",
+		"Levels": {
+            "0": "Non-amputee",
+            "1": "Amputee"
+        }
+	},
+	"Pain" : {
+		"Description" : "Presence of phantom limb pain in the amputate limb",
+		"Levels": {
+            "0": "No pain",
+            "1": "Pain"
+        }
+	},
+	"AmputationLevel" : {
+		"Description": "Level of amputation"
+	},
+	"AmputationSide" : {
+		"Description": "Side of amputation",
+    	"Levels": {
+        		"Left": "Left",
+        		"Right": "Right",
+        		"Bilateral": "Both",
+        		"Quadruple": "Both sides, upper and lower limb",
+				"n/a": "Not applicable"
+    	}
+	},
+	"Comment" : {
+		"Description" : "Additional information about the participant"
+	}
+}

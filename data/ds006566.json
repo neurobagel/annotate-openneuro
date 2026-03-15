@@ -1,0 +1,19 @@
+{
+  "session": {
+    "Description": "Session number for the participant",
+    "Levels": {
+      "2": "Two sessions"
+    }
+  },
+  "anatomical": {
+    "Description": "Whether an anatomical (structural) scan was acquired for this participant",
+    "Levels": {
+      "T1": "T1-weighted anatomical scan available"
+    }
+  },
+  "bold_runs": {
+    "Description": "Number of functional (BOLD) runs acquired for this participant",
+    "Units": "count"
+  }
+}
+

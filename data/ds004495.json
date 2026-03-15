@@ -1,0 +1,20 @@
+{
+    "participant_id": {
+        "LongName": "Participant ID",
+        "Description": "Participant ID"
+    },
+    "age": {
+        "LongName": "Age",
+        "Description": "Age",
+        "Units": "Years"
+    },
+    "sex": {
+        "LongName": "Sex",
+        "Description": "Sex"
+    },
+    "first_ses": {
+        "LongName": "First Session",
+        "Description": "First Session (SEM or EP)",
+        "Units": "Years"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of particioant",
+
+        "Units": "Years"
+    },
+    "sex": {
+        "Description": "Biological sex of participant",
+        "Levels": {
+           "m": "male",
+            "f": "female"
+        }
+    },
+    "size": {
+        "Description": "Size of participant",
+        "Units": "meter"
+    },
+    "weight": {
+        "Description": "Weight of participant",
+        "Units": "kilogram"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Sex-at-birth of the participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    },
+    "race_ethnicity": {
+        "Description": "Race/ethnicity of the participant",
+        "Levels": {
+            "B": "Black or African-American",
+            "EA": "East Asian",
+            "HL": "Hispanic/Latino",
+            "SEA": "Southeast Asian",
+            "W": "White"
+        }
+    }
+}

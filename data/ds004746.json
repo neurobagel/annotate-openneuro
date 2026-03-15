@@ -1,0 +1,27 @@
+{
+    "age":{
+        "Description":"Age of participant",
+        "Units":"years"
+    },
+    "sex":{
+        "Description":"Sex of participant",
+        "Levels":{
+            "M":"male",
+            "F":"female"
+        }
+    },
+    "zygosity":{
+        "Description":"type of twins",
+        "Levels":{
+            "MZ":"monozygotic",
+            "DZ":"dizygotic",
+            "OS":"dizygotic opposite sex"
+        }
+    },
+    "family_id":{
+        "Description":"random id of family. Twins have the same family id"
+    },
+    "twin_id":{
+        "Description":"random id of the twin, consisting of the zygosity, family id, twin number (1 or 2) and then the sex (0- female, 1- male)"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    }, 
+    "species": {
+        "Description": " A binomial species name from the NCBI Taxonomy"
+    },     
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "handedness": {
+        "Description": "Handedness of the participant",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "A": "ambidextrous"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "group": {
+        "Description": "Group membership of participant",
+        "Levels": {
+            "HC": "Healthy Control",
+            "PD-NC": "Parkinson's disease with normal cognition",
+	    "PD-MCI": "Parkinson's disease with mild cognitive impairment"	
+        }
+    },
+    "age": {
+        "Description": "Age of the participant",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Gender of the participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    }
+}

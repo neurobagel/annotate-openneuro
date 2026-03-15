@@ -1,0 +1,156 @@
+{
+	"participant_id": {
+		"Description": "assigned participant-id"
+	},
+	"Age": {
+		"LongName": "Age",
+		"Units": "years"
+	},	
+	"Parasite": {
+		"LongName": "Intestinal parasites",
+		"Levels": {
+			"1": "Present", 
+			"2": "Absent"
+		}
+	},
+	"LoE": {
+		"LongName": "Level of Education",
+		"Levels": {
+			"1": "Bachelor", 
+			"2": "Undergraduate", 
+			"3": "Postgraduate"
+		}
+	},
+	"SES": {
+		"LongName": "Socioeconomical status",
+		"Levels": {
+			"1": "Low",
+			"2": "Medium",
+			"3": "High"
+		}
+	},
+	"PA": {
+		"LongName": "Physical  activity",
+		"Levels": {
+			"1": "Low", 
+			"2": "Moderate",
+			"3": "Vigorous"
+		}
+	},
+	"BMI": {
+		"LongName": "Body mass index",
+		"Units": "Kg/mt2"
+	},
+	"WHR": {
+		"LongName": "waist-hip ratio",
+		"Units": "cm"
+	},
+	"SBP": {
+		"LongName": "Systolic blood pressure",
+		"Units": "mmHg"
+	},
+	"DBP": {
+		"LongName": "Diastolic blood pressure",
+		"Units": "mmHg"
+	},
+	"SDNN_all": {
+		"LongName": "All day standard deviation of the NN intervals",
+		"Units": "ms"
+	},
+	"RMSSD": {
+	"LongName": "All day root mean square of successive differences between normal heartbeats",
+	"Units": "ms"
+	},
+	"ln_LF_all": {
+		"LongName": "All day natural logarithm of low frequency power",
+		"Units": "ln ms2"
+	},
+	"ln_HF_all": {
+		"LongName": "All day natural logarithm high frequency power",
+		"Units": "ln ms2"
+	},
+	"SQ_all": {
+		"LongName": "All day natural logarithm of the LF /HF ratio",
+		"Units": "ln ms2"
+	},
+	"SQ": {
+		"LongName": "All day  LF /HF ratio",
+		"Units": "ms2"
+	},
+	"LF": {
+		"LongName": "Low frequency power",
+		"Units": "ms2"
+	},
+	"HF": {
+		"LongName": "High frequency power",
+		"Units": "ms2"
+	},
+	"Zung_S": {
+		"LongName": "Zund depressoin scale",
+		"Units": "N/A"
+	},
+ 	"STAI_R": {
+ 		"LongName": "State-Trait Anxiety Inventory form Y trait scale",
+ 		"Units": "N/A"
+ 	},
+	"STAI_S": {
+		"LongName": "State-Trait Anxiety Inventory form Y state scale",
+		"Units": "N/A"
+	},
+	"Kcal": {
+		"LongName": "Caloric intake",
+		"Units": "Kcal"
+	},
+	"Prot": {
+		"LongName": "Protein",
+		"Units": "gr"
+	},
+	"TF": {
+		"LongName": "Total fat",
+		"Units": "gr"
+	},
+	"SatFat": {
+		"LongName": "Saturated fat",
+		"Units": "gr"
+	},
+	"MUF": {
+		"LongName": "Monounsaturated fat",
+		"Units": "gr"
+	},
+	"Poly_InsFat": {
+		"LongName": "Polyunsaturated fat",
+		"Units": "gr"
+	},
+	"Chol": {
+		"LongName": "Cholesterol",
+		"Units": "mg"
+	},
+	"Carb": {
+		"LongName": "Carbohydrates",
+		"Units": "gr"
+	},
+	"Fiber": {
+		"LongName": "Fiber",
+		"Units": "gr"
+	},
+	"Chao1": {
+		"LongName": "Chao 1 index",
+		"Units": "N/A"
+	},
+	"Shannon": {
+		"LongName": "Shannon index",
+		"Units": "N/A"
+	},
+	"InvSimpson": {
+		"LongName": "Inverse Simpson  index",
+		"Units": "N/A"
+	},
+	"FR_rumi_unc": {
+		"LongName": "Relative frequency of Ruminoccocacea_unclassified genus",
+		"Units": "N/A"
+	},
+	"FR_rumi_fam": {
+		"LongName": "Relative frequency of Ruminoccocacea family",
+		"Units": "N/A"
+	}
+}

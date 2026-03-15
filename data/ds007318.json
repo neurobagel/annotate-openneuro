@@ -1,0 +1,20 @@
+{
+  "age": {
+    "Description": "Age of participant",
+    "Units": "years",
+    "Notes": "Format: three digits followed by Y, e.g., 023Y = 23 years"
+  },
+  "sex": {
+    "Description": "Sex of participant",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "group": {
+    "Description": "Group assignment",
+    "Levels": {
+      "patient": "All participants are patients"
+    }
+  }
+}

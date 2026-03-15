@@ -1,0 +1,8 @@
+{
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "Group": {
+    "Description": "Participant group label"
+  }
+}

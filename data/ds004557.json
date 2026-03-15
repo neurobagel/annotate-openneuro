@@ -1,0 +1,45 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "session_id": {
+        "LongName": "Long (unabbreviated) name of the column",
+        "Description": "Description of the the column",
+        "Levels": {
+            "Key": "Value (This is for categorical variables: a dictionary of possible values (keys) and their descriptions (values))"
+        },
+        "Units": "Measurement units. [<prefix symbol>]<unit symbol> format following the SI standard is RECOMMENDED"
+    },
+    "age": {
+        "LongName": "Long (unabbreviated) name of the column",
+        "Description": "Description of the the column",
+        "Levels": {
+            "Key": "Value (This is for categorical variables: a dictionary of possible values (keys) and their descriptions (values))"
+        },
+        "Units": "Measurement units. [<prefix symbol>]<unit symbol> format following the SI standard is RECOMMENDED"
+    },
+    "sex": {
+        "LongName": "Long (unabbreviated) name of the column",
+        "Description": "Description of the the column",
+        "Levels": {
+            "Key": "Value (This is for categorical variables: a dictionary of possible values (keys) and their descriptions (values))"
+        },
+        "Units": "Measurement units. [<prefix symbol>]<unit symbol> format following the SI standard is RECOMMENDED"
+    },
+    "size": {
+        "LongName": "Long (unabbreviated) name of the column",
+        "Description": "Description of the the column",
+        "Levels": {
+            "Key": "Value (This is for categorical variables: a dictionary of possible values (keys) and their descriptions (values))"
+        },
+        "Units": "Measurement units. [<prefix symbol>]<unit symbol> format following the SI standard is RECOMMENDED"
+    },
+    "weight": {
+        "LongName": "Long (unabbreviated) name of the column",
+        "Description": "Description of the the column",
+        "Levels": {
+            "Key": "Value (This is for categorical variables: a dictionary of possible values (keys) and their descriptions (values))"
+        },
+        "Units": "Measurement units. [<prefix symbol>]<unit symbol> format following the SI standard is RECOMMENDED"
+    }
+}

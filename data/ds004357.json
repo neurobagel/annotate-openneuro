@@ -1,0 +1,7 @@
+{
+	"Date":{"Description":"Date of testing"},
+	"Age":{"Description":"Age at time of testing"},
+	"Gender":{"Description":"Self-described gender"},
+	"Handedness":{"Description":"Self-described dominant hand"},
+	"corrected_to_normal_vision":{"Description":"Self-described normal vision"}
+}

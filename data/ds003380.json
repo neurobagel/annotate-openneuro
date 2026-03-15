@@ -1,0 +1,11 @@
+{
+  "participant_id": {
+    "LongName": "serial animal identifier"
+  },
+  "animal_id": {
+    "LongName": "unique animal identifier"
+  },
+  "group": {
+    "LongName": "state of the experiment"
+  }
+}

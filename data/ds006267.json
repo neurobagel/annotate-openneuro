@@ -1,0 +1,31 @@
+{
+    "sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "age": {
+        "Description": "age of the participant",
+        "Units": "year"
+    },
+
+    "handedness": {
+        "Description": "handedness of the participant as reported by the participant",
+        "Levels": {
+            "L": "left",
+            "R": "right"
+        }
+    },
+    "tanner": {
+        "Description": "Tanner Staging, Sexual Maturity Rating (SMR)",
+        "Levels": {
+            "1": "Stage 1 (prepubertal)",
+            "2": "Stage 2",
+            "3": "Stage 3",
+            "4": "Stage 4",
+            "5": "Stage 5 (reproductive maturation)"
+        }
+    }
+}

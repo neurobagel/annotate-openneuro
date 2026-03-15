@@ -1,0 +1,11 @@
+{
+    "group": {
+        "LongName": "Participant's group",
+        "Description": "Whether the participant was a healthy volunteer or a depressed",
+        "Levels": {
+            "HV": "Healthy volunteers",
+            "MDD": "Patients with major depressive disorders"
+        }
+
+}
+}

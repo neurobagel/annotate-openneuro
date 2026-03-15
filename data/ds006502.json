@@ -1,0 +1,44 @@
+{
+  "age": {
+    "LongName": "age",
+    "Units": "years",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0000011"
+  },
+  "sex": {
+    "LongName": "sex",
+    "Description": "String value indicating phenotypical sex.",
+    "TermURL": "http://purl.obolibrary.org/obo/PATO_0001894",
+    "Levels": {
+      "F": {
+        "Description": "Female",
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000383"
+      },
+      "M": {
+        "Description": "Male",
+        "TermURL": "http://purl.obolibrary.org/obo/PATO_0000384"
+      }
+    }
+  },
+  "handedness": {
+    "LongName": "handedness",
+    "Description": "Indicates the dominant hand for this subject as determined by the Edinburgh Handedness Inventory (EHI).",
+    "Levels": {
+      "Right": {
+        "Description": "Subject is right-handed."
+      },
+      "Left": {
+        "Description": "Subject is left-handed."
+      }
+    }
+  },
+  "meg1_to_meg2_interval": {
+    "LongName": "Time interval between MEG1 and MEG2 sessions",
+    "Description": "This interval indicates how much time passed between MEG sessions 1 and 2.",
+    "Units": "days"
+  },
+  "meg1_to_meg3_interval": {
+    "LongName": "Time interval between MEG1 and MEG3 sessions",
+    "Description": "This interval indicates how much time passed between MEG sessions 1 and 3.",
+    "Units": "days"
+  }
+}

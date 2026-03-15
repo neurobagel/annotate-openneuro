@@ -1,0 +1,19 @@
+{
+    "age": {
+        "Description": "Age of participant in years"
+    },
+    "sex": {
+        "Description": " Sex of participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "group": {
+        "Description": "Group membership",
+        "Levels": {
+            "control": "Control group",
+            "slackline": "Slackline intervention group"
+        }
+    }
+}

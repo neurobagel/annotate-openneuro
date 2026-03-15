@@ -1,0 +1,39 @@
+{
+  "participant_id": {
+    "LongName": "Participant identification label",
+    "Description": "Assigned identification number for a subject"
+  },
+  "sessions": {
+    "LongName": "Number of sessions",
+    "Description": "Number of sessions that the participant underwent"
+  },
+  "age": {
+    "LongName": "Age",
+    "Description": "Reported age of the participant at time of PET session 1"
+  },
+  "sex": {
+    "LongName": "Sex",
+    "Description": "Reported sex of the participant",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "handedness": {
+    "LongName": "Handedness",
+    "Description": "Reported handedness of the participant",
+    "Levels": {
+      "L": "left",
+      "R": "right"
+    }
+  },
+  "ses01_ses02_interval_days": {
+    "LongName": "Session 01 - Session 02 interval (days)",
+    "Description": "Number of days between PET session 01 and session 02 (if second session available)"
+  },
+  "mri-pet_ses01_interval_days": {
+    "LongName": "MRI - PET session 01 interval (days)",
+    "Description": "Number of days between the MRI and PET session 01. Positive numbers indicate the MRI took place prior to the PET and vice versa."
+  }
+}
+

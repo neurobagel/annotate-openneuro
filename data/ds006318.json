@@ -1,0 +1,9 @@
+{
+    "label": {
+        "Description": "Classification label indicating if the participant image represents tumor or non-tumor",
+        "Levels": {
+            "tumor": "Image shows tumor",
+            "non_tumor": "Image shows no tumor"
+        }
+    }
+}

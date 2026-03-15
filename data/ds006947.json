@@ -1,0 +1,17 @@
+{
+    "age":{
+        "Description":"Age of participant",
+        "Units":"years"
+    },
+    "sex":{
+        "Description":"Sex of participant",
+        "Levels":{
+            "M":"male",
+            "F":"female",
+            "T":"transgender"
+        }
+    },
+    "group":{
+        "Description":"participant group assignment"
+    }
+}

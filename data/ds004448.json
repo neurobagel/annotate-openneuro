@@ -1,0 +1,15 @@
+{
+    "participants_id": {
+        "Description": "index of the participant"
+    },
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "gender": {
+        "Description": "gender of the participant"
+    },
+    "handedness": {
+        "Description": "handedness of the participant"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "nationality": {
+        "Description": "The subject's self-reported naitionaly"
+      },
+    "hand": {
+        "Description": "Handedness of the participant"
+    },
+    "date": {
+        "Description": "The date of data collection (dd/mm/yyyy)"
+    },
+    "comments": {
+        "Description": "Comments made by BL during data collection."
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "participant_id": {
+    "Description": "unique participant identifier"
+  },
+  "Original_ID": {
+    "Description": "participant identifier from recording"
+  },
+  "sex": {
+    "Description": "sex of the participant"
+  },
+  "age": {
+    "Description": "age of the participant"
+  },
+  "Study": {
+    "Description": "Study 1 or 2"
+  },
+  "sess1_Drug": {
+    "Description": "Drug in session 1"
+  },
+  "sess2_Drug": {
+    "Description": "Drug in session 2"
+  }
+}

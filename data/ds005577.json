@@ -1,0 +1,17 @@
+{
+  "participant_id": {
+    "Description": "Participant identifier"
+  },
+  "group": {
+    "Description": "Control or dyslexia group"
+  },
+  "age": {
+    "Description": "Age in years at time of scanning"
+  },
+  "sex": {
+    "Description": "Self-rated by participant"
+  },
+  "handedness": {
+    "Description": "writing hand"
+  }
+}

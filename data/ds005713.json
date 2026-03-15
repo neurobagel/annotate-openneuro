@@ -1,0 +1,166 @@
+{
+  "participant_id": {
+    "Description": "Unique Participant's ID",
+    "LongName": "Participant's ID"
+  },
+  "group": {
+    "Description": "Healthy controls or patients with trigeminal neuralgia",
+    "LongName": "Experimental group",
+    "Levels": {
+      "patient": "Patient with trigeminal neuralgia",
+      "control": "Healthy control"
+    }
+  },
+  "age": {
+    "Description": "Age of participant",
+    "LongName": "age",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Sex of the participant as reported by the participant",
+    "LongName": "Participant's sex",
+    "Levels": {
+      "0": "female",
+      "1": "male"
+    }
+  },
+  "Clinical_finding": {
+    "Description": "Neurological or other general somatic symptoms/diseases"
+  },
+  "MRI_finding": {
+    "Description": "Notable features of MRI images of the participants"
+  },
+  "Sindou_grade": {
+    "Description": "Grades of neurovascular conflict according to M.Sindou classification system",
+    "Levels": {
+      "0": "no detectable neurovascular conflict",
+      "1": "slight contact of the nerve with the offending vessel",
+      "2": "distortion or displacement of the nerve",
+      "3": "marked indentation of the nerve",
+      "NA": "Not applicable"
+    }
+  },
+  "Previous_surgeries": {
+    "Description": "This variable indicates whether the patient earlier underwent any surgery for trigeminal neuralgia",
+    "Levels": {
+      "NA": "Not applicable",
+      "yes": "There was at least one surgery done for the treatment of patient's facial pain",
+      "no": "No surgeries were done before current hospital admission"
+    }
+  },
+  "Pain_side": {
+    "Description": "Side of the facial pain in patients",
+    "Levels": {
+      "NA": "Not applicable",
+      "R": "Right-sided pain",
+      "L": "Left-sided pain",
+      "Bilateral": "Bilateral pain"
+    }
+  },
+  "Pain_type": {
+    "Description": "Type of the facial pain in patients",
+    "Levels": {
+      "NA": "Not applicable",
+      "Paroxysmal": "Paroxysmal pain",
+      "Persistent": "Persistent pain"
+    }
+  },
+  "Pain_severity": {
+    "Description": "Average pain severity score (0-10 scale)",
+    "LongName": "Pain severity score",
+    "Units": "0-10 scale"
+  },
+  "Disease_duration": {
+    "Description": "Duration of the trigeminal neuralgia history in patients",
+    "Units": "years"
+  },
+  "Pharm_treatment": {
+    "Description": "Drugs taken by patients and daily dose (mg)"
+  },
+  "Surgery_type": {
+    "Description": "Type of the surgery that patient underwent for trigeminal neuralgia treatment",
+    "Levels": {
+      "NA": "Not applicable",
+      "MVD": "Microvascular decompression",
+      "PI": "Percutaneous interventions (rhizotomy or balloon compression)",
+      "Outpatient": "Patients who did not undergo surgical treatment"
+    }
+  },
+  "Surgery_outcome": {
+    "Description": "Outcome of the surgical treatment",
+    "Levels": {
+      "NA": "Not applicable",
+      "Pos": "Positive outcome",
+      "Neg": "Negative outcome"
+    }
+  },
+  "Postsurgery_pain_reduction": {
+    "Description": "Percentage of pain reduction after surgery",
+    "Units": "%"
+  },
+  "Surgical_complications": {
+    "Description": "Complications occurred during or after surgery"
+  },
+  "First_follow-up": {
+    "Description": "Whether first follow-up data was collected",
+    "Levels": {
+      "NA": "Not applicable",
+      "yes": "First follow-up data available",
+      "no": "No first follow-up data"
+    }
+  },
+  "First_follow-up_time": {
+    "Description": "Time from surgery to first follow-up",
+    "Units": "days"
+  },
+  "Second_follow-up": {
+    "Description": "Whether second follow-up data was collected",
+    "Levels": {
+      "NA": "Not applicable",
+      "yes": "Second follow-up data available",
+      "no": "No second follow-up data"
+    }
+  },
+  "Second_follow-up_pain_NRS": {
+    "Description": "Pain score at second follow-up",
+    "Units": "0-10 scale"
+  },
+  "Second_follow-up_time": {
+    "Description": "Time from surgery to second follow-up",
+    "Units": "days"
+  },
+  "Neuropsychological_assessment": {
+    "Description": "Whether neuropsychological assessment was performed",
+    "Levels": {
+      "NA": "Not applicable",
+      "yes": "Full assessment completed",
+      "no": "No assessment",
+      "partial": "Partial assessment completed"
+    }
+  },
+  "Psychological_assessment": {
+    "Description": "Whether psychological assessment was performed",
+    "Levels": {
+      "NA": "Not applicable",
+      "yes": "Full assessment completed",
+      "no": "No assessment",
+      "partial": "Partial assessment completed"
+    }
+  },
+  "Education": {
+    "Description": "Highest level of education completed"
+  },
+  "Occupational_status": {
+    "Description": "Current occupational status"
+  },
+  "Racial_ethnic_category": {
+    "Description": "Racial or ethnic category"
+  },
+  "BMI": {
+    "Description": "Body Mass Index",
+    "Units": "kg/m²"
+  },
+  "Comorbid_medical_conditions": {
+    "Description": "Other medical conditions present"
+  }
+}

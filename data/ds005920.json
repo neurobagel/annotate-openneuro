@@ -1,0 +1,22 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "sex": {
+        "Description": "Sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "age": {
+        "Description": "Age of the participant in years",
+        "Units": "years"
+    },
+    "run1": {
+        "Description": "Experimental condition for run 1 (e.g., HSS/LSS)"
+    },
+    "run2": {
+        "Description": "Experimental condition for run 2 (e.g., HSS/LSS)"
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "Gender": {
+    "Description": "Participant gender",
+    "Levels": {
+      "man": "Biological male",
+      "woman": "Biological female"
+    }
+  },
+  "Age": {
+    "Description": "Participant age (years)",
+    "Units": "years"
+  },
+  "NativeLanguage": {
+    "Description": "",
+    "Levels": {
+      "french": "Of french origin",
+      "other": "Not of french origin"
+    }
+  },
+  "EducationLevel": {
+    "Description": ""
+  },
+  "Handedness": {
+    "Description": ""
+  },
+  "Inclusion": {
+    "Description": ""
+  },
+  "Comment": {
+    "Description": ""
+  }
+}

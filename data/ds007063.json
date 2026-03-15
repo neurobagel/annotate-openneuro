@@ -1,0 +1,31 @@
+{
+    
+    "participant_id": {
+        "Description": "Identification number for each participant"
+    },
+    
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    
+    "gender": {
+        "Description": "gender of the participant as reported by the participant",
+        "Levels": {
+            "0": "male",
+            "1": "female",
+            "2": "other"
+        }
+    },
+    
+    "cat": {
+        "Description": "categorization scores for each particiant",
+        "Units": "corrected hit rate"
+        },
+    
+    "recog": {
+        "Description": "recognition scores for each participant",
+        "Units": "accuracy"
+    }
+
+}

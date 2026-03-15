@@ -1,0 +1,394 @@
+{
+    "participant_id": {
+        "Description": "unique sub_id of participant",
+        "Units": "unique strings"
+    },
+    "handedness": {
+        "Description": "handedness of the participant as reported by the participant",
+        "Levels": {
+            "left": "left",
+            "right": "right"
+        }
+    },
+    "age": {
+        "Description": "age of participant",
+        "Units": "years" 
+    },
+    "sex": {
+        "Description": "sex of participant",
+        "Levels": {
+            "male": "male",
+            "female": "female"
+        }
+    },
+    "polx_general": {
+        "Description": "general left-right political orientation of participant",
+        "Units": "1 (very left) to 100 (very right)" 
+    },
+    "polx_social": {
+        "Description": "left-right political orientation of participant on social issues",
+        "Units": "1 (very left) to 100 (very right)" 
+    },
+    "polx_econ": {
+        "Description": "left-right political orientation of participant on economic issues",
+        "Units": "1 (very left) to 100 (very right)" 
+    },
+    "ideology_parties": {
+        "Description": "which Dutch party would the participant vote for",
+        "Type": "string" 
+    },
+    "ideology_parties_18_TEXT": {
+        "Description": "if no party selected, which party would the participant vote for",
+        "Type": "string" 
+    },
+    "libertarianism": {
+        "Description": "How much value do you place on individual liberty and autonomy, as opposed to government regulation?",
+        "Units": "1 (none at all) to 5 (a great deal)" 
+    },
+    "environmentalism": {
+        "Description": "To what extent do you see yourself as someone who cares about the environment and considers being environmentally responsible an important part of who you are?",
+        "Units": "1 (none at all) to 5 (a great deal)"  
+    },
+    "pol_interest": {
+        "Description": "How interested are you in politics?",
+        "Units": "1 (not at all) to 5 (very interested)"  
+    },
+    "mfq_rel_care_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether or not someone suffered emotionally",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_fairness_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether some people were treated differently than others",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_loyalty_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether somones actions showed loved for his or her country",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_authority_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone has shown too little respect for authority",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_sanctity_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone has violated standards of purity and decency",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_control_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone was good at math",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_care_2": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone cared for someone weak or vulnerable",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_fairness_2": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone has acted dishonestly",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_loyalty_2": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone has betrayed his or her group",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_authority_2": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone conformed to the traditions of society",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_sanctity_2": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone did something disgusting",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_care_3": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone was cruel",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_fairness_3": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone's rights have been denied",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_loyalty_3": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone has shown too little loyalty",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_authority_3": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone's actions caused chaos or disorder",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_rel_sanctity_3": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Whether someone was behaving in a way that God would approve of",
+        "Units": "1 (not at all relevant) to 5 (very relevant)"  
+    },
+    "mfq_judg_care_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Compassion for those who suffer is the most important virtue",
+        "Units": "1 (strongly disagree) to 5 (very much agree)"  
+    },
+    "mfq_judg_fairness_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): When government makes laws, ensuring that everyone is treated fairly should be the most imporant principle",
+        "Units": "1 (strongly disagree) to 5 (very much agree)"  
+    },
+    "mfq_judg_loyalty_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): I am proud of my country's history",
+        "Units": "1 (strongly disagree) to 5 (very much agree)"   
+    },
+    "mfq_judg_authority_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Respect for authority is something all children need to learn",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)" 
+    },
+    "mfq_judg_sanctity_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): People should not do disgusting things, even if noone is harmed",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)" 
+    },
+    "mfq_judg_control_1": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): It is better to do something good than something bad",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)"   
+    },
+    "mfq_judg_care_2": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): One of the worst things a person could do is hurt a defenseless animal",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)" 
+    },
+    "mfq_judg_fairness_2": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Justice is the most important need for a society",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)" 
+    },
+    "mfq_judg_loyalty_2": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): People should be loyal to their relatives even when they have done something bad",
+        "Units": "1 (strongly disagree) to 5 (very much agree)" 
+    },
+    "mfq_judg_authority_2": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Men and women each have different roles in society",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)" 
+    },
+    "mfq_judg_sanctity_2": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): I think some actions are bad because they are unnatural",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)" 
+    },
+    "mfq_judg_care_3": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): It can never be right to kill a human being",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)" 
+    },
+    "mfq_judg_fairness_3": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): I think it is morally wrong that rich children inherit a lot of money while poor children inherit nothing",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)"  
+    },
+    "mfq_judg_loyalty_3": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): It is more important to be a team player than to express yourself",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)" 
+    },
+    "mfq_judg_authority_3": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): If I were a soldier and I disagreed with my superior's orders, I would still obey because it is my duty",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)" 
+    },
+    "mfq_judg_sanctity_3": {
+        "Description": "MFQ-30 (van Leuwen & Spiering, 2010): Chastisity is an important and valuable virtue",
+        "Units":  "1 (strongly disagree) to 5 (very much agree)"  
+    },
+    "sdo_1": {
+        "Description": "SDO (Ho et al., 2015): An ideal society requires some groups to be on top and others to be on the bottom.",
+        "Units":  "1 (strongly oppose) to 7 (strongly favor)"  
+    },
+    "sdo_2": {
+        "Description": "SDO (Ho et al., 2015): Some groups of people are simply inferior to other groups.",
+        "Units":  "1 (strongly oppose) to 7 (strongly favor)"  
+    },
+    "sdo_3": {
+        "Description": "SDO (Ho et al., 2015): No one group should dominate in society.*",
+        "Units":  "1 (strongly oppose) to 7 (strongly favor)"  
+    },
+    "sdo_4": {
+        "Description": "SDO (Ho et al., 2015): Groups at the bottom are just as deserving as groups at the top.*",
+        "Units":  "1 (strongly oppose) to 7 (strongly favor)"  
+    },
+    "sdo_5": {
+        "Description": "SDO (Ho et al., 2015): Group equality should not be our primary goal.",
+        "Units":  "1 (strongly oppose) to 7 (strongly favor)"  
+    },
+    "sdo_6": {
+        "Description": "SDO (Ho et al., 2015): It is unjust to try to make groups equal.",
+        "Units":  "1 (strongly oppose) to 7 (strongly favor)"  
+    },
+    "sdo_7": {
+        "Description": "SDO (Ho et al., 2015): We should do what we can to equalize conditions for different groups.*",
+        "Units":  "1 (strongly oppose) to 7 (strongly favor)"  
+    },
+    "sdo_8": {
+        "Description": "SDO (Ho et al., 2015): We should work to give all groups an equal chance to succeed.*",
+        "Units":  "1 (strongly oppose) to 9 (strongly favor)"  
+    },
+    "rwa_1": {
+        "Description": "RWA (Altemeyer, 2022): Our country desperately needs a mighty leader who will do what has to be done to destroy the radical new ways and sinfulness that are ruining us.",
+        "Units":  "1 (strongly oppose) to 9 (strongly favor)"  
+    },
+    "rwa_2": {
+        "Description": "RWA (Altemeyer, 2022): Gays and lesbians are just as healthy and moral as anybody else.*",
+        "Units":  "1 (strongly favor) to 9 (strongly oppose)"  
+    },
+    "rwa_3": {
+        "Description": "RWA (Altemeyer, 2022): The “old-fashioned ways” and the “old-fashioned values” still show the best way to live.",
+        "Units":  "1 (strongly oppose) to 9 (strongly favor)"  
+    },
+    "rwa_5": {
+        "Description": "RWA (Altemeyer, 2022): Atheists and others who have rebelled against the established religions are no doubt every bit as good and virtuous as those who attend church regularly.*",
+        "Units":  "1 (strongly favor) to 9 (strongly oppose)"  
+    },
+    "rwa_6": {
+        "Description": "RWA (Altemeyer, 2022): God’s laws about abortion, pornography and marriage must be strictly followed before it is too late, and those who break them must be strongly punished.",
+        "Units":  "1 (strongly oppose) to 9 (strongly favor)"  
+    },
+    "rwa_7": {
+        "Description": "RWA (Altemeyer, 2022): What our country really needs is a strong, determined leader who will crush evil and take us back to our true path.",
+        "Units":  "1 (strongly oppose) to 9 (strongly favor)"  
+    },
+    "rwa_8": {
+        "Description": "RWA (Altemeyer, 2022): You have to admire those who challenged the law and the majority’s view by protesting for women’s abortion rights, for animal rights, or to abolish school prayer.*",
+        "Units":  "1 (strongly favor) to 9 (strongly oppose)"  
+    },
+    "rwa_9": {
+        "Description": "RWA (Altemeyer, 2022): Homosexuals and feminists should be praised for being brave enough to defy “traditional family values.”*",
+        "Units":  "1 (strongly favor) to 9 (strongly oppose)"  
+    },
+    "rwa_10": {
+        "Description": "RWA (Altemeyer, 2022): The only way our country can get through the crisis ahead is to get back to our traditional values, put some tough leaders in power, and silence the troublemakers spreading bad ideas.",
+        "Units":  "1 (strongly oppose) to 9 (strongly favor)"  
+    },
+    "rwa_11": {
+        "Description": "RWA (Altemeyer, 2022): Everyone should have their own lifestyle, religious beliefs, and sexual preferences, even if it makes them different from everyone else.*",
+        "Units":  "1 (strongly favor) to 9 (strongly oppose)"  
+    },
+    "IUS12_1": {
+        "Description": "IUS (Caleton et al., 2008): Unforeseen events upset me greatly.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_2": {
+        "Description": "IUS (Caleton et al., 2008): It frustrates me not having all the information I need.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_3": {
+        "Description": "IUS (Caleton et al., 2008): One should always look ahead so as to avoid surprises.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_4": {
+        "Description": "IUS (Caleton et al., 2008): A small, unforeseen event can spoil everything, even with the best of planning.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_5": {
+        "Description": "IUS (Caleton et al., 2008): I always want to know what the future has in store for me.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_7": {
+        "Description": "IUS (Caleton et al., 2008): I can’t stand being taken by surprise.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_8": {
+        "Description": "IUS (Caleton et al., 2008): I should be able to organize everything in advance.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_9": {
+        "Description": "IUS (Caleton et al., 2008): Uncertainty keeps me from living a full life.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_10": {
+        "Description": "IUS (Caleton et al., 2008): When it's time to act, uncertainty paralyses me.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_11": {
+        "Description": "IUS (Caleton et al., 2008): When I am uncertain I can’t function very well.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_12": {
+        "Description": "IUS (Caleton et al., 2008): The smallest doubt can stop me from acting.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "IUS12_13": {
+        "Description": "IUS (Caleton et al., 2008): I must get away from all uncertain situations.",
+        "Units":  "1 (not at all characteristic of me) to 5 (entirely characteristic of me)"  
+    },
+    "dws_1": {
+        "Description": "Dangeous worldview: My knowledge and experience tells me that the social world we live in is basically a safe, stable and secure place in which most people are fundamentally good*",
+        "Units":  "1 (strongly agree) to 7 (strongly disagree)"  
+    },
+    "dws_2": {
+        "Description": "It seems that every year there are fewer and fewer truly respectable people, and more and more persons with no morals at all who threaten everyone else",
+        "Units":  "1 (strongly disagree) to 7 (strongly agree)"  
+    },
+    "dws_3": {
+        "Description": "Although it may appear that things are constantly getting more dangerous and chaotic, it really isn’t so. Every era has its problems, and a person’s chances of living asafe, untroubled life are better today than ever before*",
+        "Units":  "1 (strongly agree) to 7 (strongly disagree)"  
+    },
+    "dws_4": {
+        "Description": "Any day now chaos and anarchy could erupt around us. All the signs are pointing to it",
+        "Units":  "1 (strongly disagree) to 7 (strongly agree)"  
+    },
+    "dws_5": {
+        "Description": "There are many dangerous people in our society who will attack someone out of pure meanness, for no reason at all",
+        "Units":  "1 (strongly disagree) to 7 (strongly agree)"  
+    },
+    "dws_6": {
+        "Description": "The ‘‘end’’ is not near. People who think that earthquakes, wars, and famines mean God might be about to destroy the world are being foolish*",
+        "Units":  "1 (strongly agree) to 7 (strongly disagree)"  
+    },
+    "dws_7": {
+        "Description": "My knowledge and experience tells me that the social world we live in is basically a dangerous and unpredictable place, in which good, decent and moral people’s values and way of life are threatened and disrupted by bad people",
+        "Units":  "1 (strongly disagree) to 7 (strongly agree)"  
+    },
+    "dws_8": {
+        "Description": "Despite what one hears about ‘‘crime in the street,’’ there probably isn’t any more now than there ever has been*",
+        "Units":  "1 (strongly agree) to 7 (strongly disagree)"  
+    },
+    "dws_9": {
+        "Description": "If a person takes a few sensible precautions, nothing bad is likely to happen to him or her; we do not live in a dangerous world*",
+        "Units":  "1 (strongly agree) to 7 (strongly disagree)"  
+    },
+    "dws_10": {
+        "Description": "Every day as society become more lawless and bestial, a person’s chances of being robbed, assaulted, and even murdered go up and up",
+        "Units":  "1 (strongly disagree) to 7 (strongly agree)"  
+    },
+    "attention_check_1": {
+        "Description": "participant had to select a particular option from the scale",
+        "Type":  "string",
+        "Unit":  "True if passed; False if failed"
+    },
+    "attention_check_2": {
+        "Description": "participant had to select a particular option from the scale",
+        "Type":  "string",
+        "Unit":  "True if passed; False if failed"
+    },
+    "attention_self_report": {
+        "Description": "how much attention participant paid during survey",
+        "Units":  "1 (not at all) to 10 (very much)"  
+    },
+    "mfq_care_avg": {
+        "Description": "mean score for mfq care items",
+        "Units":  "float"  
+    },
+    "mfq_fairness_avg": {
+        "Description": "mean score for mfq fairness items",
+        "Units":  "float"  
+    },
+    "mfq_loyalty_avg": {
+        "Description": "mean score for mfq loyalty items",
+        "Units":  "float"  
+    },
+    "mfq_authority_avg": {
+        "Description": "mean score for mfq authority items",
+        "Units":  "float"  
+    },
+    "mfq_sanctity_avg": {
+        "Description": "mean score for mfq purity items",
+        "Units":  "float"  
+    },
+    "sdo_avg": {
+        "Description": "mean score for sdo scale",
+        "Units":  "float"  
+    },
+    "rwa_sum": {
+        "Description": "summed score for rwa",
+        "Units":  "integer"  
+    },
+    "ius_avg": {
+        "Description": "mean score for IUS scale",
+        "Units":  "float"  
+    },
+    "dws_avg": {
+        "Description": "mean score for dws scale",
+        "Units":  "float"  
+    }
+}

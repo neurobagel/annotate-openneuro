@@ -1,0 +1,18 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "Demographic information",
+        "TermURI": "N/A"
+    },
+    "gender": {
+        "Description": "Participant gender",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    },
+    "age": {
+        "Description": "Participant age",
+        "Units": "Years"
+    }
+
+}

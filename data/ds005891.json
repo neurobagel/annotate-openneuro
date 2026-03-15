@@ -1,0 +1,8 @@
+{
+  "group": {
+    "Description": "Quality control data"
+  },
+  "original_id": {
+    "Description": "Original ID of the participants. "
+  }
+}

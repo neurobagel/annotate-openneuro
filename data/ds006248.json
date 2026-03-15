@@ -1,0 +1,27 @@
+{
+    "participant_id": {
+        "Description": "Unique subject identifier in the dataset"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    },
+    "hormonal_activity": {
+        "Description": "Hormonal activity of the tumor",
+        "Levels": {
+            "Secretory": "Tumor with hormone secretion",
+            "NFPA": "Non-Functioning pituitary adenoma"
+        }
+    },
+    "volume": {
+        "Description": "Tumor volume",
+        "Units": "cm³"
+    },
+    "age_at_surgery": {
+        "Description": "Age of the participant at the time of surgery",
+        "Units": "years"
+    }
+}

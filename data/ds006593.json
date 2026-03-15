@@ -1,0 +1,8 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "study description": {
+        "Description": "Description of the tasks the participant is involved in"
+    }
+}

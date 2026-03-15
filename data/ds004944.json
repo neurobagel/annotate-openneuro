@@ -1,0 +1,29 @@
+{
+    "participant_id": {
+        "Description": "ID of the patient"
+    },
+    "session": {
+        "Description": "available sessions(situations), each situation is labelled with an increasing number and letter indicative of the time respective to the surgical resection and the position of the electrodes"
+    },
+    "age": {
+        "Description": "age of the patient at the time of recording",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "etiology": {
+        "Description": "clinical diagnosis of the patient with epilepsy"
+    },
+    "outcome": {
+        "Description": "surgical outcome in ILAE scale"
+    },
+    "follow_up": {
+        "Description": "number of months the patient was followed up after the surgery",
+        "Units": "months"
+    }
+}

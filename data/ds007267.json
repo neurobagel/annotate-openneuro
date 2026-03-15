@@ -1,0 +1,32 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier",
+    "LongName": "Participant identifier"
+  },
+  "age": {
+    "Description": "Age of participant",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Biological sex as recorded by the study",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "height": {
+    "Description": "Participant height",
+    "Units": "cm"
+  },
+  "weight": {
+    "Description": "Participant body weight",
+    "Units": "kg"
+  },
+  "diet": {
+    "Description": "Diet condition indicator used in the study",
+    "Levels": {
+      "0": "not on diet",
+      "1": "on diet"
+    }
+  }
+}

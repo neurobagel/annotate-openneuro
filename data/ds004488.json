@@ -1,0 +1,14 @@
+{
+  "participant_id": {
+    "Description": "Participant identifier"
+  },
+  "age": {
+    "Description": "Age in years"
+  },
+  "sex": {
+    "Description": "self-rated by participant, M for male/F for female"
+  },
+  "handedness_score": {
+    "Description": "Measured by the revised Edinburgh Handedness Inventory"
+  }  
+}

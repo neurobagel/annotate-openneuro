@@ -1,0 +1,12 @@
+{
+    "participant_id": {
+        "Description": "A participant identifier",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": "Subject Unique Identifier"
+            },
+            "Identifies": "participant"
+        }
+    }
+}

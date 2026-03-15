@@ -1,3 +1,9 @@
+"""
+Fetch participants.json files from all non-empty dataset repositories in the OpenNeuroDatasets organization.
+
+NOTE: This script does not check which datasets' participants.tsv files have already been fetched.
+"""
+
 import base64
 import logging
 import os

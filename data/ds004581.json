@@ -1,0 +1,38 @@
+{
+  "age": {
+    "LongName": "age",
+    "Description": "age of the participant",
+    "Levels": {},
+    "Units": "years"
+  },
+  "sex": {
+    "LongName": "biological_sex",
+    "Description": "sex of the participant as reported by the participant",
+    "Levels": {
+      "m": "male",
+      "f": "female"
+    },
+    "Units": "years"
+  },
+  "age_of_aq_of_l2": {
+    "LongName": "age of aquisition of L2",
+    "Description": "age at which second language was aquired",
+    "Levels": {},
+    "Units": "years"
+  },
+  "age_of_aq_of_l3": {
+    "LongName": "age of aquisition of L3",
+    "Description": "age at which third language was aquired",
+    "Levels": {},
+    "Units": "years"
+  },
+  "handedness": {
+    "LongName": "handedness",
+    "Description": "handedness of the participant as reported by the participant",
+    "Levels": {
+      "left": "left",
+      "right": "right"
+    },
+    "Units": "years"
+  }
+}

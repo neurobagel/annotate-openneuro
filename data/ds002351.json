@@ -1,0 +1,10 @@
+{
+  "age" : {"Description" : "age of participant"},
+  "sex" : {"Description" : "sex of participant"},
+  "tsa_rt" : {"Description" : "participant's correct reaction time(ms) for TSA condition"},
+  "tsw_rt" : {"Description" : "participant's correct reaction time(ms) for TSW condition"},
+  "rs_rt" : {"Description" : "participant's correct reaction time(ms) for RS condition"},
+  "tsa_error" : {"Description" : "participant's error rate(%) for TSA condition"},
+  "tsw_error" : {"Description" : "participant's error rate(%) for TSW condition"},
+  "rs_error" : {"Description" : "participant's error rate(%) for RS condition"}
+}

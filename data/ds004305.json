@@ -1,0 +1,10 @@
+{
+    "group": {
+        "Description": "experimental group the participant belonged to",
+        "Levels": {
+            "veh": "participants treated with saline vehicle",
+            "lps": "participants treated with LPS",
+            "lps-nr": "LPS-treated participants classified as non-responders"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "Gender": {
+    "Description": "Participant gender"
+  },
+  "Age": {
+    "Description": "Participant age (years)",
+    "Units": "years"
+  },
+  "Group": {
+    "Description": "Participant group label"
+  },
+  "Handedness": {
+    "Description": ""
+  },
+  "Highest_degree": {
+    "Description": ""
+  },
+  "ASL_AoA": {
+    "Description": "",
+    "Units": "years"
+  },
+  "PPVT_score": {
+    "Description": ""
+  },
+  "WJ_passage_score": {
+    "Description": ""
+  },
+  "WJ_readingscore": {
+    "Description": ""
+  },
+  "ASL_SRTscore": {
+    "Description": ""
+  }
+}

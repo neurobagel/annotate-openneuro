@@ -1,0 +1,21 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier"
+  },
+  "age": {
+    "Description": "Age of participants"
+  },
+  "sex": {
+    "Description": "Biological sex of participant",
+    "Levels": {
+      "m": "male",
+       "f": "female"
+   }
+  },
+  "state": {
+    "Description": "Whether the session is included after data quality check"
+  },
+  "included": {
+    "Description": "Whether the session is included after data quality check"
+  }
+}

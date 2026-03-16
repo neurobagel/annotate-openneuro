@@ -1,0 +1,9 @@
+{
+    "sex": {
+        "Description": "Sex of the participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    }
+}

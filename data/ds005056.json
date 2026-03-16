@@ -1,0 +1,19 @@
+{
+  "Age": {
+  "LongName": "Age in years",
+  "Description": "Participant age at sanning"
+  },  
+  "Gender": { 
+   "Description": "Gender. F-Female; M-Male"
+   },
+  "DOB": { 
+  "LongName": "Date of Birth" 
+  },  
+  "Handness": { 
+  "Description": "handness"
+  },    
+  "Freesurfer_ITV": { 
+  "Description": "total intracranial volume calculated using freesurfer"
+  }
+    
+}

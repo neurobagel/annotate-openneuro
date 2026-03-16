@@ -1,0 +1,22 @@
+{
+    "gender": {
+        "Description": "C57Bl/6J mice",
+	"Levels": {
+            "m": "Male",
+	    "f": "Female"
+	}
+    },
+
+    "condition": {
+        "Description": "Experimental group",
+        "Levels": {
+            "veh": "Vehicle",
+            "psi1": "Psilocybin 1 mg/kg",
+	    "psi2": "Psilocybin 2 mg/kg"
+        }
+    },
+    "weight": {
+        "Description": "animal weight in gram"
+    }
+ 
+}

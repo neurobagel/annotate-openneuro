@@ -1,0 +1,34 @@
+{
+  "birthdate_shifted": {
+    "LongName": "Shifted date of birth",
+	"Description": "Shifted date of birth. Dates were randomly shifted -365 to 0 days and back 200 years across subjects to protect privacy."
+  },
+  "sex": {
+    "LongName": "Sex",
+    "Description": "Sex of participant",
+    "Levels": {
+      "1": "male",
+      "2": "female"
+    }
+  },
+  "adhd": {
+    "LongName": "ADHD Diagnosis",
+    "Description": "ADHD diagnosis of participant",
+    "Levels": {
+      "0": "no",
+      "1": "yes"
+    }
+  },
+  "handedness": {
+    "LongName": "Participant handedness",
+    "Description": "Handedness laterality based on the Edinburgh Handedness Inventory"
+  },
+  "a_date": {
+    "LongName": "Shifted aquisition date of acq-a images",
+	"Description": "Shifted aquisition date of acq-a images. Dates were randomly shifted -365 to 0 days and back 200 years across subjects to protect privacy."
+  },
+  "b_date": {
+    "LongName": "Shifted aquisition date of acq-b images",
+	"Description": "Shifted aquisition date of acq-b images. Dates were randomly shifted -365 to 0 days and back 200 years across subjects to protect privacy."
+  }
+}

@@ -1,0 +1,137 @@
+participant_id	age	sex	group	handedness	completed_ASSR	completed_AVSRT	completed_Beep-Flash	completed_FAST	completed_Illusory_contours	completed_Motor	completed_Resting_state	fsiq	srs2_total_t	mabc_total_ss	cpt_response_style	ados_css	medication	fsiq_dup	srs2_total_t_dup	mabc_total_ss_dup	cpt_response_style_dup	ados_css_dup	medication_dup
+sub-10025	8.3	m	TD	L	yes	yes	yes	yes	yes	yes	yes	121.0	44.0	5.0	74	n/a	No	121.0	44.0	5.0	74	n/a	No
+sub-10036	11.0	m	TD	R	yes	yes	yes	yes	yes	yes	yes	85.0	48.0	8.0	40	n/a	No	85.0	48.0	8.0	40	n/a	No
+sub-10129	12.7	f	TD	R	yes	yes	yes	yes	yes	yes	yes	115.0	54.0	8.0	38	n/a	No	115.0	54.0	8.0	38	n/a	No
+sub-10170	8.3	f	TD	R	yes	yes	yes	yes	yes	yes	yes	94.0	60.0	6.0	42	n/a	No	94.0	60.0	6.0	42	n/a	No
+sub-10177	8.1	m	TD	R	yes	yes	yes	yes	yes	yes	yes	118.0	47.0	8.0	65	n/a	No	118.0	47.0	8.0	65	n/a	No
+sub-10182	10.6	f	TD	R	yes	yes	yes	yes	yes	yes	yes	84.0	55.0	7.0	51	n/a	No	84.0	55.0	7.0	51	n/a	No
+sub-10212	9.5	m	TD	R	yes	yes	yes	yes	yes	yes	yes	97.0	45.0	7.0	54	n/a	No	97.0	45.0	7.0	54	n/a	No
+sub-10213	8.2	f	TD	R	yes	yes	yes	yes	yes	yes	yes	111.0	46.0	10.0	74	n/a	No	111.0	46.0	10.0	74	n/a	No
+sub-10214	12.6	f	TD	R	yes	yes	yes	yes	yes	yes	yes	105.0	43.0	4.0	51	n/a	No	105.0	43.0	4.0	51	n/a	No
+sub-10258	12.7	m	TD	R	yes	yes	yes	yes	yes	yes	yes	114.0	54.0	5.0	62	n/a	No	114.0	54.0	5.0	62	n/a	No
+sub-10260	8.3	f	TD	R	yes	yes	yes	yes	yes	yes	yes	88.0	41.0	2.0	53	n/a	No	88.0	41.0	2.0	53	n/a	No
+sub-10310	11.8	m	TD	R	yes	yes	yes	yes	yes	yes	yes	81.0	53.0	10.0	26	n/a	No	81.0	53.0	10.0	26	n/a	No
+sub-10314	9.0	m	TD	R	yes	yes	yes	yes	yes	yes	yes	105.0	41.0	10.0	58	n/a	No	105.0	41.0	10.0	58	n/a	No
+sub-10354	12.5	f	TD	R	yes	yes	yes	yes	yes	yes	yes	97.0	59.0	7.0	59	n/a	No	97.0	59.0	7.0	59	n/a	No
+sub-10400	12.6	f	TD	R	yes	yes	yes	yes	yes	yes	yes	106.0	52.0	3.0	58	n/a	No	106.0	52.0	3.0	58	n/a	No
+sub-10434	8.7	m	TD	R	yes	yes	yes	yes	yes	yes	yes	92.0	46.0	5.0	52	n/a	No	92.0	46.0	5.0	52	n/a	No
+sub-10520	11.0	m	TD	R	yes	yes	yes	yes	yes	yes	yes	94.0	39.0	8.0	57	n/a	No	94.0	39.0	8.0	57	n/a	No
+sub-10593	9.4	f	TD	R	yes	no	yes	no	yes	yes	yes	101.0	48.0	10.0	61	n/a	Unknown	n/a	n/a	n/a	n/a	n/a	n/a
+sub-10741	11.7	f	TD	R	yes	yes	yes	yes	yes	yes	yes	97.0	59.0	7.0	62	n/a	No	97.0	59.0	7.0	62	n/a	No
+sub-10747	9.2	m	TD	R	yes	yes	yes	yes	yes	yes	yes	110.0	43.0	11.0	76	n/a	No	110.0	43.0	11.0	76	n/a	No
+sub-10752	11.9	m	TD	R	yes	yes	yes	yes	yes	yes	yes	97.0	44.0	4.0	49	n/a	No	97.0	44.0	4.0	49	n/a	No
+sub-10764	12.9	f	TD	R	yes	yes	yes	yes	yes	yes	yes	126.0	41.0	11.0	48	n/a	No	126.0	41.0	11.0	48	n/a	No
+sub-10769	12.0	m	TD	R	yes	yes	yes	yes	yes	yes	yes	107.0	49.0	5.0	64	n/a	No	107.0	49.0	5.0	64	n/a	No
+sub-10777	9.0	m	TD	R	yes	yes	yes	yes	yes	yes	yes	99.0	45.0	6.0	67	n/a	No	99.0	45.0	6.0	67	n/a	No
+sub-10787	12.9	f	TD	R	yes	yes	yes	yes	yes	no	yes	142.0	42.0	11.0	53	n/a	No	142.0	42.0	11.0	53	n/a	No
+sub-10788	8.6	m	TD	A	yes	yes	yes	yes	yes	yes	yes	113.0	45.0	7.0	64	n/a	No	113.0	45.0	7.0	64	n/a	No
+sub-10790	11.1	m	TD	R	yes	yes	yes	yes	yes	yes	yes	88.0	44.0	2.0	42	n/a	No	88.0	44.0	2.0	42	n/a	No
+sub-10809	11.6	f	TD	L	yes	yes	yes	yes	yes	yes	yes	89.0	50.0	4.0	52	n/a	No	89.0	50.0	4.0	52	n/a	No
+sub-10825	8.5	m	TD	R	yes	yes	yes	yes	yes	yes	yes	91.0	39.0	7.0	54	n/a	No	91.0	39.0	7.0	54	n/a	No
+sub-10842	8.2	f	TD	R	yes	yes	yes	yes	yes	yes	yes	105.0	43.0	8.0	65	n/a	No	105.0	43.0	8.0	65	n/a	No
+sub-10846	8.3	m	TD	R	yes	yes	yes	yes	yes	yes	yes	142.0	41.0	5.0	74	n/a	No	142.0	41.0	5.0	74	n/a	No
+sub-10862	12.6	f	TD	R	yes	yes	yes	yes	yes	yes	yes	104.0	53.0	6.0	65	n/a	No	104.0	53.0	6.0	65	n/a	No
+sub-10876	11.5	m	TD	R	yes	yes	yes	yes	yes	no	yes	93.0	45.0	5.0	57	n/a	No	93.0	45.0	5.0	57	n/a	No
+sub-10883	10.7	f	TD	R	yes	yes	yes	yes	yes	no	yes	89.0	64.0	8.0	52	n/a	No	89.0	64.0	8.0	52	n/a	No
+sub-10918	12.4	m	TD	R	yes	yes	yes	yes	yes	yes	yes	118.0	41.0	10.0	50	n/a	No	118.0	41.0	10.0	50	n/a	No
+sub-10959	8.0	f	TD	R	yes	yes	yes	yes	yes	yes	yes	105.0	45.0	7.0	53	n/a	No	105.0	45.0	7.0	53	n/a	No
+sub-10970	9.0	f	TD	R	yes	yes	yes	yes	yes	yes	yes	101.0	38.0	6.0	62	n/a	No	101.0	38.0	6.0	62	n/a	No
+sub-10990	10.1	f	TD	R	yes	yes	yes	yes	yes	yes	yes	142.0	42.0	15.0	50	n/a	No	142.0	42.0	15.0	50	n/a	No
+sub-11025	9.3	m	ASD	R	yes	no	no	yes	no	yes	yes	n/a	n/a	n/a	n/a	n/a	No	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11038	10.7	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	108.0	100.0	n/a	70	15.0	No	108.0	100.0	n/a	70	15.0	No
+sub-11049	11.9	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	94.0	66.0	1.0	50	10.0	Albuterol 2.5 mg/3 ml sol,ventolyn 90mcg, claritin 10mg	94.0	66.0	1.0	50	10.0	Albuterol 2.5 mg/3 ml sol,ventolyn 90mcg, claritin 10mg
+sub-11055	9.9	m	ASD	R	yes	no	no	yes	yes	yes	yes	81.0	67.0	n/a	67	7.0	No	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11057	9.7	f	ASD	R	yes	yes	yes	yes	yes	yes	yes	88.0	78.0	3.0	79	10.0	No	88.0	78.0	3.0	79	10.0	No
+sub-11062	12.9	f	ASD	R	yes	yes	yes	yes	yes	yes	yes	82.0	88.0	6.0	60	8.0	No	82.0	88.0	6.0	60	8.0	No
+sub-11074	10.7	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	98.0	63.0	3.0	56	6.0	No	98.0	63.0	3.0	56	6.0	No
+sub-11152	8.1	m	ASD	L	yes	yes	yes	yes	yes	yes	yes	99.0	55.0	3.0	66	9.0	No	99.0	55.0	3.0	66	9.0	No
+sub-11161	11.0	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	69.0	80.0	5.0	35	10.0	No	69.0	80.0	5.0	35	10.0	No
+sub-11181	8.5	m	ASD	L	yes	yes	yes	yes	yes	yes	yes	99.0	79.0	5.0	52	10.0	No	99.0	79.0	5.0	52	10.0	No
+sub-11204	11.3	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	94.0	57.0	11.0	45	7.0	No	94.0	57.0	11.0	45	7.0	No
+sub-11215	11.4	f	ASD	R	yes	yes	no	yes	yes	yes	yes	67.0	61.0	2.0	63	n/a	Oxybutynin 10mg 1x a day	67.0	61.0	2.0	63	n/a	Oxybutynin 10mg 1x a day
+sub-11227	10.8	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	89.0	49.0	6.0	61	7.0	No	89.0	49.0	6.0	61	7.0	No
+sub-11229	11.2	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	110.0	64.0	10.0	36	6.0	No	110.0	64.0	10.0	36	6.0	No
+sub-11235	11.3	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	70.0	89.0	3.0	65	10.0	No	70.0	89.0	3.0	65	10.0	No
+sub-11242	12.7	m	ASD	A	yes	yes	no	yes	yes	yes	yes	67.0	64.0	3.0	57	9.0	No	67.0	64.0	3.0	57	9.0	No
+sub-11243	8.6	f	ASD	R	yes	yes	yes	yes	yes	yes	yes	76.0	66.0	3.0	59	10.0	No	76.0	66.0	3.0	59	10.0	No
+sub-11244	12.0	f	ASD	R	yes	yes	yes	yes	yes	yes	yes	111.0	96.0	5.0	62	n/a	No	111.0	96.0	5.0	62	n/a	No
+sub-11256	12.4	m	ASD	L	yes	yes	yes	yes	yes	yes	yes	101.0	62.0	4.0	61	4.0	No	101.0	62.0	4.0	61	4.0	No
+sub-11274	11.3	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	119.0	71.0	6.0	40	7.0	No	119.0	71.0	6.0	40	7.0	No
+sub-11321	10.4	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	79.0	59.0	8.0	49	10.0	ADHD Meds	79.0	59.0	8.0	49	10.0	ADHD Meds
+sub-11323	10.0	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	75.0	91.0	2.0	61	n/a	Sertraline 2ml	75.0	91.0	2.0	61	n/a	Sertraline 2ml
+sub-11325	14.5	f	ASD	R	yes	yes	yes	yes	yes	yes	yes	117.0	71.0	6.0	63	9.0	No	117.0	71.0	6.0	63	9.0	No
+sub-11335	10.7	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	95.0	75.0	5.0	63	8.0	Stimulant + SSRI	95.0	75.0	5.0	63	8.0	Stimulant + SSRI
+sub-11386	12.4	f	ASD	R	yes	yes	yes	yes	yes	yes	yes	87.0	88.0	2.0	55	9.0	No	87.0	88.0	2.0	55	9.0	No
+sub-11391	12.8	f	ASD	R	yes	yes	yes	yes	yes	yes	yes	120.0	58.0	11.0	30	3.0	No	120.0	58.0	11.0	30	3.0	No
+sub-11423	10.6	f	ASD	R	yes	yes	yes	yes	yes	yes	yes	100.0	56.0	8.0	70	7.0	No	100.0	56.0	8.0	70	7.0	No
+sub-11453	10.1	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	100.0	74.0	4.0	60	7.0	No	100.0	74.0	4.0	60	7.0	No
+sub-11497	10.7	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	89.0	71.0	3.0	44	6.0	No	89.0	71.0	3.0	44	6.0	No
+sub-11535	9.3	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	96.0	94.0	n/a	65	8.0	Zoloft, Adderall	96.0	94.0	n/a	65	8.0	Zoloft, Adderall
+sub-11547	13.0	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	69.0	71.0	6.0	74	9.0	No	69.0	71.0	6.0	74	9.0	No
+sub-11548	12.4	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	105.0	78.0	3.0	73	10.0	Methylphenidate	105.0	78.0	3.0	73	10.0	Methylphenidate
+sub-11551	11.7	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	71.0	64.0	2.0	39	8.0	No	71.0	64.0	2.0	39	8.0	No
+sub-11562	12.0	m	ASD	R	yes	no	no	yes	yes	no	yes	78.0	n/a	n/a	n/a	n/a	Vyvanse, Sertraline	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11576	10.8	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	93.0	81.0	3.0	55	n/a	Asthma inhaler	93.0	81.0	3.0	55	n/a	Asthma inhaler
+sub-11593	9.5	m	ASD	R	yes	no	yes	yes	yes	no	yes	91.0	66.0	1.0	86	n/a	Concerta 75mg	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11601	12.9	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	75.0	75.0	1.0	78	10.0	Focalin 5 mg	75.0	75.0	1.0	78	10.0	Focalin 5 mg
+sub-11613	10.2	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	100.0	90.0	5.0	33	4.0	No	100.0	90.0	5.0	33	4.0	No
+sub-11636	10.7	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	105.0	77.0	6.0	62	7.0	No	105.0	77.0	6.0	62	7.0	No
+sub-11638	10.9	m	ASD	L	yes	yes	yes	yes	yes	yes	yes	98.0	83.0	6.0	45	5.0	No	98.0	83.0	6.0	45	5.0	No
+sub-11674	11.7	m	ASD	R	yes	no	no	yes	no	no	yes	n/a	95.0	n/a	n/a	n/a	No	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11731	11.5	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	108.0	84.0	1.0	59	10.0	No	108.0	84.0	1.0	59	10.0	No
+sub-11755	8.1	m	ASD	R	yes	yes	no	yes	yes	yes	yes	76.0	74.0	1.0	60	9.0	No	76.0	74.0	1.0	60	9.0	No
+sub-11759	11.6	m	ASD	R	yes	yes	no	no	yes	no	yes	n/a	54.0	n/a	-	n/a	No	n/a	54.0	n/a	-	n/a	No
+sub-11776	11.1	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	118.0	58.0	9.0	45	8.0	Unknown	118.0	58.0	9.0	45	8.0	Unknown
+sub-11777	12.5	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	106.0	78.0	4.0	56	n/a	No	106.0	78.0	4.0	56	n/a	No
+sub-11791	9.3	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	119.0	79.0	6.0	52	7.0	Methylphenidate	119.0	79.0	6.0	52	7.0	Methylphenidate
+sub-11831	8.0	f	ASD	R	yes	yes	yes	yes	yes	yes	yes	112.0	61.0	3.0	76	5.0	No	112.0	61.0	3.0	76	5.0	No
+sub-11847	8.3	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	86.0	70.0	4.0	67	7.0	No	86.0	70.0	4.0	67	7.0	No
+sub-11868	10.1	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	133.0	64.0	8.0	62	7.0	No	133.0	64.0	8.0	62	7.0	No
+sub-11876	10.6	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	104.0	79.0	9.0	50	10.0	Methylphenidate	104.0	79.0	9.0	50	10.0	Methylphenidate
+sub-11883	10.8	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	109.0	76.0	5.0	57	9.0	No	109.0	76.0	5.0	57	9.0	No
+sub-11936	12.0	f	ASD	L	yes	yes	yes	yes	yes	yes	yes	84.0	97.0	1.0	82	7.0	No	84.0	97.0	1.0	82	7.0	No
+sub-11955	8.5	m	ASD	L	yes	yes	yes	yes	yes	yes	yes	84.0	70.0	2.0	51	6.0	No	84.0	70.0	2.0	51	6.0	No
+sub-11976	8.3	f	ASD	R	yes	yes	yes	yes	yes	yes	yes	112.0	76.0	9.0	78	7.0	No	112.0	76.0	9.0	78	7.0	No
+sub-11990	11.7	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	109.0	51.0	6.0	54	7.0	n/a	109.0	51.0	6.0	54	7.0	n/a
+sub-11993	8.6	m	ASD	R	yes	yes	yes	yes	yes	yes	yes	90.0	61.0	8.0	39	8.0	No	90.0	61.0	8.0	39	8.0	No
+sub-1501	8.1	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	109.0	40.0	6.0	48	n/a	No	109.0	40.0	6.0	48	n/a	No
+sub-1502	9.3	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	117.0	n/a	7.0	59	n/a	No	117.0	n/a	7.0	59	n/a	No
+sub-1507	11.3	m	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	86.0	51.0	5.0	49	n/a	No	86.0	51.0	5.0	49	n/a	No
+sub-1513	9.7	m	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	70.0	61.0	2.0	62	n/a	No	70.0	61.0	2.0	62	n/a	No
+sub-1514	12.6	m	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	81.0	68.0	5.0	48	n/a	No	81.0	68.0	5.0	48	n/a	No
+sub-1522	11.6	m	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	94.0	48.0	5.0	56	n/a	Meds for Allergy	94.0	48.0	5.0	56	n/a	Meds for Allergy
+sub-1526	7.9	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	127.0	49.0	6.0	35	n/a	No	127.0	49.0	6.0	35	n/a	No
+sub-1530	9.9	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	119.0	38.0	5.0	71	n/a	Polyethelene Laxative	119.0	38.0	5.0	71	n/a	Polyethelene Laxative
+sub-1536	12.1	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	n/a	38.0	n/a	n/a	n/a	No	n/a	38.0	n/a	n/a	n/a	No
+sub-1537	12.6	m	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	101.0	46.0	5.0	68	n/a	No	101.0	46.0	5.0	68	n/a	No
+sub-1546	10.1	f	ASD SIBLING	R	yes	yes	no	yes	yes	yes	yes	98.0	49.0	5.0	61	n/a	No	98.0	49.0	5.0	61	n/a	No
+sub-1551	9.2	m	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	no	95.0	n/a	7.0	n/a	n/a	Focalin	95.0	n/a	7.0	n/a	n/a	Focalin
+sub-1555	10.4	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	104.0	54.0	8.0	45	n/a	No	104.0	54.0	8.0	45	n/a	No
+sub-1558	10.2	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	no	101.0	50.0	5.0	56	n/a	No	101.0	50.0	5.0	56	n/a	No
+sub-1559	10.3	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	111.0	42.0	5.0	42	n/a	No	111.0	42.0	5.0	42	n/a	No
+sub-1563	10.0	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	114.0	n/a	7.0	56	n/a	No	114.0	n/a	7.0	56	n/a	No
+sub-1571	10.2	f	ASD SIBLING	L	yes	yes	yes	yes	yes	yes	yes	86.0	44.0	6.0	51	n/a	No	86.0	44.0	6.0	51	n/a	No
+sub-1572	13.0	m	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	88.0	52.0	7.0	64	n/a	No	88.0	52.0	7.0	64	n/a	No
+sub-1579	11.0	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	120.0	48.0	7.0	44	n/a	Albuterol for asthma, Diphenhydramine for eczema	120.0	48.0	7.0	44	n/a	Albuterol for asthma, Diphenhydramine for eczema
+sub-1582	11.6	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	106.0	40.0	7.0	50	n/a	No	106.0	40.0	7.0	50	n/a	No
+sub-1583	10.7	f	ASD SIBLING	R	yes	yes	yes	yes	no	yes	yes	86.0	46.0	7.0	41	n/a	No	86.0	46.0	7.0	41	n/a	No
+sub-1584	10.9	m	ASD SIBLING	L	yes	yes	yes	yes	yes	yes	yes	105.0	44.0	4.0	44	n/a	Methylphenidate	105.0	44.0	4.0	44	n/a	Methylphenidate
+sub-1588	9.5	m	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	96.0	49.0	11.0	48	n/a	No	96.0	49.0	11.0	48	n/a	No
+sub-1589	12.9	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	126.0	42.0	12.0	41	n/a	No	126.0	42.0	12.0	41	n/a	No
+sub-1590	10.0	f	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	80.0	40.0	9.0	65	n/a	No	80.0	40.0	9.0	65	n/a	No
+sub-1593	8.3	m	ASD SIBLING	R	yes	yes	yes	yes	yes	yes	yes	119.0	60.0	10.0	49	n/a	No	119.0	60.0	10.0	49	n/a	No
+sub-1598	11.8	m	ASD SIBLING	R	yes	yes	yes	no	yes	yes	yes	122.0	43.0	4.0	61	n/a	No	122.0	43.0	4.0	61	n/a	No
+sub-2713	9.9	m	ASD	R	yes	yes	yes	no	yes	yes	yes	65.0	76.0	3.0	90	n/a	No	65.0	76.0	3.0	90	n/a	No
+sub-10508	8.6	m	TD	R	no	yes	no	yes	no	no	no	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	Unknown
+sub-11053	9.3	m	ASD	R	no	yes	yes	yes	yes	yes	yes	n/a	n/a	n/a	n/a	n/a	n/a	96.0	71.0	5.0	58	8.0	No
+sub-11510	11.8	m	ASD	R	no	yes	yes	yes	yes	yes	yes	n/a	n/a	n/a	n/a	n/a	n/a	84.0	70.0	6.0	80	7.0	No
+sub-1528	8.0	m	ASD SIBLING	n/a	no	yes	yes	no	no	no	yes	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11405	9.0	m	ASD	R	no	no	yes	yes	no	yes	yes	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11814	n/a	n/a	NAN	n/a	no	no	yes	yes	no	no	yes	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+sub-10003	12.9	m	TD	A	no	no	no	yes	yes	yes	yes	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+sub-10124	12.0	f	TD	R	no	no	no	yes	yes	no	yes	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11078	10.5	m	ASD	R	no	no	no	yes	yes	no	yes	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11173	11.8	m	ASD	R	no	no	no	yes	no	no	no	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11265	12.1	f	ASD	R	no	no	no	yes	no	no	yes	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11141	11.5	m	ASD	R	no	no	no	no	no	yes	no	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+sub-11426	8.9	m	ASD	R	no	no	no	no	no	yes	no	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a

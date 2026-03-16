@@ -1,0 +1,7 @@
+participant_id	species	age	sex	pathology	institution	field
+sub-01	homo sapiens	n/a	n/a	HC	MGH	7T
+sub-02	homo sapiens	n/a	n/a	HC	MGH	7T
+sub-03	homo sapiens	n/a	n/a	HC	MGH	7T
+sub-04	homo sapiens	n/a	n/a	HC	MNI	7T
+sub-05	homo sapiens	n/a	n/a	HC	MNI	7T
+

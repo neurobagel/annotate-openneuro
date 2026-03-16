@@ -1,0 +1,9 @@
+{
+    "sex": {
+        "Description": "Participant's sex"
+    },
+
+    "Age": {
+        "Description": "Participant's age at the moment of testing"
+    }
+}

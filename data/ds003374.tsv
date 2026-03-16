@@ -1,0 +1,10 @@
+participant_id	age	sex	pathology	implanted_electrodes	SOZ_electrodes
+sub-01	31	M	sclerosis	AL, AR	AR
+sub-02	48	M	gliosis	AL, AR	AR
+sub-03	19	F	sclerosis	AL	n/a
+sub-04	22	M	sclerosis	AL	n/a
+sub-05	34	M	sclerosis	AR	AR
+sub-06	23	M	sclerosis	AL, AR	AR
+sub-07	39	M	gliosis	AL, AR	AR
+sub-08	27	F	astrocytoma	AL	n/a
+sub-09	22	M	sclerosis	AL, AR	AL, AR

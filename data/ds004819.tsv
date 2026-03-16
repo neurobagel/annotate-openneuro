@@ -1,0 +1,8 @@
+participant_id	collectionIssues	testdate	age	sex	StimulationTest1	StimulationTest2	StimulationTest3
+sub-SS01MicrosEEG	none	21-Dec-XXXX	0.5833	F	Spine stimulation multiple amplitudes	n/a	n/a
+sub-MM01MicrosEEG	none	21-Mar-XXXX	11	M	n/a	n/a	n/a
+sub-MM02MicrosEEG	none	21-Mar-XXXX	14	M	n/a	n/a	n/a
+sub-RN03MicrosEEG	none	1-Mar-XXXX	0.333	M	n/a	Whisker airpuff stimulation	Whisker barrel stimulation
+sub-RN08MicrosEEG	none	29-Nov-XXXX	0.333	M	n/a	Whisker airpuff stimulation	Whisker barrel stimulation
+sub-RN09MicrosEEG	none	29-Nov-XXXX	0.333	M	n/a	Whisker airpuff stimulation	Whisker barrel stimulation
+sub-RN10MicrosEEG	none	11-June-XXXX	0.333	M	n/a	Whisker airpuff stimulation	Whisker barrel stimulation

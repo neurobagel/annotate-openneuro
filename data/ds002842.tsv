@@ -1,0 +1,24 @@
+participant_id	age	sex	speaker	L1	Where_learnt_German	How_long_learnt_German_years	From_which_age	Level	How_long_lived_inGerman_speaking_country_years	From_which_age_lived_inGerman_speaking_country
+sub-01	29	F	L2_speaker_of_German	native_Italian_speaker	Italy	9,00	15	unknown	4,58	25
+sub-02	20	F	L2_speaker_of_German	native_Italian_speaker	Luxembourg	13,00	7	unknown	13,00	19
+sub-03	23	F	L2_speaker_of_German	native_Italian_speaker	Italy	9,00	14	B2.2/C1	0,17	23
+sub-04	21	F	L2_speaker_of_German	native_Italian_speaker	Italy	5,00	16	B2.2	0,17	21
+sub-05	20	F	L2_speaker_of_German	native_Italian_speaker	Both_Italy_German_speaking_country	4,50	15	unknown	1,00	19
+sub-06	24	F	L2_speaker_of_German	native_Italian_speaker	Both_Italy_German_speaking_country	9,00	15	B2	0,75	24
+sub-07	29	F	L2_speaker_of_German	native_Italian_speaker	Italy	10,00	19	C1	3,00	26
+sub-08	28	F	L2_speaker_of_German	native_Italian_speaker	German_speaking_country	2,00	26	B2	1 week	28
+sub-09	28	F	L2_speaker_of_German	native_Italian_speaker	Italy	8,00	14	B2/C1	3,00	24
+sub-10	22	F	L2_speaker_of_German	native_Italian_speaker	Both_Italy_German_speaking_country	11,00	8	C1+	5,00	17
+sub-11	22	M	L2_speaker_of_German	native_Italian_speaker	German_speaking_country	1,00	small	unknown	0,42	22
+sub-12	20	M	L2_speaker_of_German	native_Italian_speaker	Both_Italy_German_speaking_country	15,00	5	B2	0,25	20
+sub-13	24	F	L2_speaker_of_German	native_Italian_speaker	Italy	10,00	8	C1	4,00	17
+sub-14	26	F	L2_speaker_of_German	native_Italian_speaker	Both_Italy_German_speaking_country	10,00	16	C1	6,00	20
+sub-15	22	F	L2_speaker_of_German	native_Italian_speaker	Both_Italy_German_speaking_country	8,08	11	C1	0,50	22
+sub-16	40	F	L2_speaker_of_German	native_Italian_speaker	German_speaking_country	1,00	34	unknown	7,00	33
+sub-17	22	F	L2_speaker_of_German	native_Italian_speaker	Both_Italy_German_speaking_country	8,33	11	C1	3,00	19
+sub-18	28	F	L2_speaker_of_German	native_Italian_speaker	Italy	9,00	16	C1/C2	5,00	23
+sub-19	29	F	L2_speaker_of_German	native_Italian_speaker	German_speaking_country	22,00	7	unknown	22,00	7
+sub-20	33	F	L2_speaker_of_German	native_Italian_speaker	German_speaking_country	5,00	27	unknown	5,00	27
+sub-21	25	M	L2_speaker_of_German	native_Italian_speaker	Both_Italy_German_speaking_country	6,00	14	unknown	1,33	24
+sub-22	31	F	L2_speaker_of_German	native_Italian_speaker	Both_Italy_German_speaking_country	7,00	16	good C1	5,00	21
+

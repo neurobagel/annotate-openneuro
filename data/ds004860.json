@@ -1,0 +1,39 @@
+{
+
+  "participant_id": {
+
+    "Description": "Unique participant label"
+
+  },
+
+ "age": {
+
+    "Description": "Age of participant in years"
+
+  },
+
+ "gender": {
+
+    "Description": "Gender of participant"
+
+  },
+
+ "inclusion_analysis": {
+
+    "Description": "Inclusion in the analysis (1 = yes, 0 = no)"
+
+  },
+
+ "respcode": {
+
+    "Description": "Laterality of correct response (1 = left hand, 2 = right hand)"
+
+  },
+
+ "stimorder": {
+
+    "Description": "Stimuli randomization order"
+
+  }
+
+}

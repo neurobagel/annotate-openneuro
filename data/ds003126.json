@@ -1,0 +1,21 @@
+{
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "group": {
+        "Description": "group",
+        "Levels": {
+            "DL": "Dyslexia",
+            "SpD": "Spelling Disorder",
+            "TD": "Control"
+        }
+    },
+    "sex": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier"
+  },
+  "species": {
+    "Description": "Species of subjects"
+  },
+  "age": {
+    "Description": "Age of subjects",
+    "Units": "Years"
+  },
+  "sex": {
+    "Description": "Sex of subjects",
+    "Levels": {
+      "M": "Male",
+      "F": "Female"
+    }
+  },
+  "handedness": {
+    "Description": "Subjects dominant hand",
+    "Levels": {
+      "L": "Left",
+      "R": "Right"
+    }
+  }
+}

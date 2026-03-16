@@ -1,0 +1,4 @@
+participant_id	age	sex	handedness	duration	VAS	timestamp
+sub-deipp01	44	F	right	7	5	2022-06-29
+sub-deipp02	37	F	right	1	7	2022-02-18
+sub-deipp03	37	F	right	13	7	2022-02-23

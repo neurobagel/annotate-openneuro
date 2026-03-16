@@ -1,0 +1,17 @@
+{
+	"nr":{
+		"Description":"numerical ID of the participant"
+	},
+	"age":{
+		"Description":"age of the participant",
+		"Unit":"years"
+	},
+	"sex":{
+		"Description":"gender of the participant",
+		"Levels":{
+			"M":"male",
+			"F":"female",
+			"NB":"non-binary"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "participant_id": {
+      "Description": "sub-01"
+    },
+    "age": {
+      "Description": "13",
+      "Units": "years"
+    },
+    "sex": {
+      "Description": "Biological sex of the participant",
+      "Levels": {
+        "M": "Male"
+      }
+    },
+    "handedness": {
+      "Description": "Handedness of the participant",
+      "Levels": {
+        "R": "Right-handed"
+      }
+    }
+  }
+  

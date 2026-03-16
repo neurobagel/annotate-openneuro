@@ -1,0 +1,22 @@
+{
+    "age": {
+        "LongName": "Age",
+        "Units": "Years"
+    },
+    "gender": {
+        "LongName": "Gender",
+        "Description": "Gender of each participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    },
+    "weight": {
+        "LongName": "Weight",
+        "Units": "Kilograms"
+    },
+    "num_sessions": {
+        "LongName": "Number of Sessions",
+        "Description": "Number of participant scan sessions"
+    }
+}

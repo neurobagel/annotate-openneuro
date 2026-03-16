@@ -1,0 +1,31 @@
+repos:
+  - repo: https://github.com/psf/black-pre-commit-mirror
+    rev: 26.3.0
+    hooks:
+      - id: black
+
+  - repo: https://github.com/PyCQA/flake8
+    rev: 7.3.0
+    hooks:
+      - id: flake8
+        language_version: python3
+        args:
+          # See https://black.readthedocs.io/en/stable/guides/using_black_with_other_tools.html#e203
+          - --max-line-length=88
+          - --extend-select=B950
+          - --extend-ignore=E203,E701,E501
+
+  - repo: https://github.com/pycqa/isort
+    rev: 8.0.1
+    hooks:
+      - id: isort
+        args:
+          - "--profile=black"
+          - "--filter-files"
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.2
+    hooks:
+      - id: codespell
+        args:
+          - --skip=data/*

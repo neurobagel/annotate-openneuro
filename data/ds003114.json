@@ -1,0 +1,44 @@
+{
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "PROG": {
+           "Description": "concentration levels of progesterone",
+           "Units": "pg/ml"
+       },
+    "E2": {
+           "Description": "concentration levels of estrogen",
+           "Units": "pg/ml"
+       },
+    "BAS1": {
+           "Description": "behaviroal activation system-rewards",
+           "Units": "scores"
+       },
+    "BAS2": {
+              "Description": "behaviroal activation system-dirve",
+              "Units": "scores"
+          },
+    "BAS3": {
+              "Description": "behaviroal activation system-fun seeking",
+              "Units": "scores"
+          },
+    "BIS": {
+              "Description": "behaviroal inhibition system",
+              "Units": "scores"
+          },
+    "group": {
+        "Description": "group",
+        "Levels": {
+            "FP": "late follicular phase",
+            "LP": "mid luteal phase"
+        }
+    },
+    "sex": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    }
+}

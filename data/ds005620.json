@@ -1,0 +1,41 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "Female": "female",
+            "Male": "male"
+        }
+    },
+    "awakenings": {
+        "Description": "Number of times the participant was awakened during sedation",
+        "Units": "count"
+    },
+    "TMS": {
+        "Description": "Indicates if Transcranial Magnetic Stimulation (TMS) was applied",
+        "Levels": {
+            "True": "TMS applied",
+            "False": "No TMS applied"
+        }
+    },
+    "tms_count": {
+        "Description": "Number of TMS sessions the participant received",
+        "Units": "count"
+    },
+    "excluded": {
+        "Description": "Indicates if the participant was excluded from the experiment",
+        "Levels": {
+            "True": "Excluded",
+            "False": "Included"
+        }
+    },
+    "bad_after_preprocessing": {
+        "Description": "List of TMS sessions marked as bad after preprocessing due to data quality issues"
+    }
+}

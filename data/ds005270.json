@@ -1,0 +1,40 @@
+﻿{
+  "participant_id": {
+    "Description": "participant id number"
+  },
+  "age": {
+    "Description": "age of the participant",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "sex of the participant as reported by the participant",
+    "Levels": {
+      "m": "male",
+      "f": "female"
+    }
+  },
+  "t1w": {
+    "Description": "t1-weighted MP-RAGE imaging available"
+  },
+  "t2w": {
+    "Description": "t2-weighted FLAIR imaging available"
+  },
+  "dwi": {
+    "Description": "diffusion-weighted imaging available"
+  },
+  "rest": {
+    "Description": "resting state BOLD fMRI available"
+  },
+  "nbk": {
+    "Description": "n-back task BOLD fMRI available"
+  },
+  "tsw": {
+    "Description": "task switching BOLD fMRI available"
+  },
+  "gng": {
+    "Description": "go/no-go BOLD fMRI available"
+  },
+  "perf": {
+    "Description": "perfusion (pASL) imaging available"
+  }
+}

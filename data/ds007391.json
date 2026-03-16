@@ -1,0 +1,233 @@
+{
+    "participant_id": {
+        "Description": "The subject ID of the participant"
+    },
+    "age": {
+        "Description": "The age of the participant in years."
+    },
+    "sex": {
+        "Description": "The self-reported gender of the participant."
+    },
+    "ethnicity": {
+        "Description": "The self-reported ethnicity of the participant."
+    },
+    "Hand": {
+        "Description": "The dominant hand of the participant (left or right)."
+    },
+    "SW_sum": {
+        "Description": "Sum score for society works best scale"
+    },
+    "pol_af": {
+        "Description": "Political affiliation of the participant."
+    },
+    "pol_orient": {
+        "Description": "Political orientation of the participant (1 extremely liberal - 100 extremely conservative)."
+    },
+    "MFTA1_1": {
+        "Description": "Response to MFQ-Whether or not someone suffered emotionally."
+    },
+    "MFTA2_8": {
+        "Description": "Response to MFQ-Whether or not someone cared for someone weak or vulnerable."
+    },
+    "MFTA3_8": {
+        "Description": "Response to MFQ-Whether or not someone was cruel."
+    },
+    "MFTB1_1": {
+        "Description": "Response to MFQ-Compassion for those who are suffering is the most crucial virtue."
+    },
+    "MFTB2_2": {
+        "Description": "Response to MFQ-One of the worst things a person could do is hurt a defenseless animal."
+    },
+    "MFTB4_2": {
+        "Description": "Response to MFQ-It can never be right to kill a human being."
+    },
+    "MFTA1_2": {
+        "Description": "Response to MFQ-Whether or not some people were treated differently than others."
+    },
+    "MFTA2_6": {
+        "Description": "Response to MFQ-Whether or not someone acted unfairly."
+    },
+    "MFTB1_2": {
+        "Description": "Response to MFQ-When the government makes laws, the number one principle should be ensuring that everyone is treated fairly."
+    },
+    "MFTB2_3": {
+        "Description": "Response to MFQ-Justice is the most important requirement for a society."
+    },
+    "MFTB4_3": {
+        "Description": "Response to MFQ-I think it\u2019s morally wrong that rich children inherit a lot of money while poor children inherit nothing."
+    },
+    "MFTA1_3": {
+        "Description": "Response to MFQ-Whether or not someone\u2019s action showed love for his or her country."
+    },
+    "MFTA2_3": {
+        "Description": "Response to MFQ-Whether or not someone did something to betray his or her group."
+    },
+    "MFTA3_2": {
+        "Description": "Response to MFQ-Whether or not someone showed a lack of loyalty."
+    },
+    "MFTB1_3": {
+        "Description": "Response to MFQ-Justice is the most important requirement for a society."
+    },
+    "MFTB2_4": {
+        "Description": "Response to MFQ-People should be loyal to their family members, even when they have done something wrong."
+    },
+    "MFTB4_4": {
+        "Description": "Response to MFQ-It is more important to be a team player than to express oneself."
+    },
+    "MFTA1_4": {
+        "Description": "Response to MFQ-Whether or not someone showed a lack of respect for authority."
+    },
+    "MFTA2_2": {
+        "Description": "Response to MFQ-Whether or not someone conformed to the traditions of society."
+    },
+    "MFTA3_12": {
+        "Description": "Response to MFQ-Whether or not an action caused chaos or disorder."
+    },
+    "MFTB1_4": {
+        "Description": "Response to MFQ-Respect for authority is something all children need to learn."
+    },
+    "MFTB2_5": {
+        "Description": "Response to MFQ-Men and women each have different roles to play in society."
+    },
+    "MFTB4_5": {
+        "Description": "Response to MFQ-If I were a soldier and disagreed with my commanding officers orders, I would obey anyway because that is my duty."
+    },
+    "MFTA1_5": {
+        "Description": "Response to MFQ-Whether or not someone violated standards of purity and decency."
+    },
+    "MFTA3_7": {
+        "Description": "Response to MFQ-Whether or not someone did something disgusting."
+    },
+    "MFTA3_13": {
+        "Description": "Response to MFQ-Whether or not someone acted in a way that God would approve of."
+    },
+    "MFTB1_5": {
+        "Description": "Response to MFQ-People should not do things that are disgusting, even if no one is harmed."
+    },
+    "MFTB4_1": {
+        "Description": "Response to MFQ-I would call some acts wrong on the grounds that they are unnatural."
+    },
+    "MFTB4_6": {
+        "Description": "Response to MFQ-Chastity is an important and valuable virtue."
+    },
+    "MFTA3_3": {
+        "Description": "Response to MFQ-Whether or not someone was denied their rights."
+    },
+    "MFTA2_7": {
+        "Description": "Response to MFQ CATCH-Whether or not someone was good at math"
+    },
+    "MFTB2_1": {
+        "Description": "Response to MFQ CATCH-It is better to do good than bad."
+    },
+    "mfq_care_avg": {
+        "Description": "Average score for the care/harm foundation in the Moral Foundations Questionnaire (MFQ)."
+    },
+    "mfq_fairness_avg": {
+        "Description": "Average score for the fairness/cheating foundation in the MFQ."
+    },
+    "mfq_loyalty_avg": {
+        "Description": "Average score for the loyalty/betrayal foundation in the MFQ."
+    },
+    "mfq_authority_avg": {
+        "Description": "Average score for the authority/subversion foundation in the MFQ."
+    },
+    "mfq_sanctity_avg": {
+        "Description": "Average score for the sanctity/degradation foundation in the MFQ."
+    },
+    "E5_2": {
+        "Description": "Response to IRI-When I am reading an interesting story or novel, I imagine how I would feel if the events in the story were happening to me."
+    },
+    "E1_5": {
+        "Description": "Response to IRI-I really get involved with the feelings of the characters in a novel."
+    },
+    "E2_1": {
+        "Description": "Response to IRI-I am usually objective when I watch a movie or play, and I don't often get completely caught up in it."
+    },
+    "E3_4": {
+        "Description": "Response to IRI-After seeing a play or movie, I have felt as though I were one of the characters."
+    },
+    "E1_1": {
+        "Description": "Response to IRI-I daydream and fantasize, with some regularity, about things that might happen to me."
+    },
+    "E2_6": {
+        "Description": "Response to IRI-Becoming extremely involved in a good book or movie is somewhat rare for me."
+    },
+    "E4_5": {
+        "Description": "Response to IRI-When I watch a good movie, I can very easily put myself in the place of a leading character."
+    },
+    "E5_4": {
+        "Description": "Response to IRI-Before criticizing somebody, I try to imagine how I would feel if I were in their place."
+    },
+    "E3_3": {
+        "Description": "Response to IRI-If I'm sure I'm right about something, I don't waste much time listening to other people's arguments."
+    },
+    "E2_5": {
+        "Description": "Response to IRI-I sometimes try to understand my friends better by imagining how things look from their perspective."
+    },
+    "E4_3": {
+        "Description": "Response to IRI-I believe that there are two sides to every question and try to look at them both."
+    },
+    "E1_3": {
+        "Description": "Response to IRI-I sometimes find it difficult to see things from the 'other guy's' point of view."
+    },
+    "E2_2": {
+        "Description": "Response to IRI-I try to look at everybody's side of a disagreement before I make a decision."
+    },
+    "E5_1": {
+        "Description": "Response to IRI-When I'm upset at someone, I usually try to 'put myself in his shoes' for a while."
+    },
+    "E2_3": {
+        "Description": "Response to IRI-When I see someone being taken advantage of, I feel kind of protective towards them."
+    },
+    "E3_6": {
+        "Description": "Response to IRI-When I see someone being treated unfairly, I sometimes don't feel very much pity for them."
+    },
+    "E1_2": {
+        "Description": "Response to IRI-I often have tender, concerned feelings for people less fortunate than me."
+    },
+    "E4_4": {
+        "Description": "Response to IRI-I would describe myself as a pretty soft-hearted person."
+    },
+    "E1_4": {
+        "Description": "Response to IRI-Sometimes I don't feel very sorry for other people when they are having problems."
+    },
+    "E3_2": {
+        "Description": "Response to IRI-Other people's misfortunes do not usually disturb me a great deal."
+    },
+    "E4_2": {
+        "Description": "Response to IRI-I am often quite touched by things that I see happen."
+    },
+    "E5_3": {
+        "Description": "Response to IRI-When I see someone who badly needs help in an emergency, I go to pieces."
+    },
+    "E2_4": {
+        "Description": "Response to IRI-I sometimes feel helpless when I am in the middle of a very emotional situation."
+    },
+    "E1_6": {
+        "Description": "Response to IRI-In emergency situations, I feel apprehensive and ill-at-ease."
+    },
+    "E4_1": {
+        "Description": "Response to IRI-I am usually pretty effective in dealing with emergencies."
+    },
+    "E3_5": {
+        "Description": "Response to IRI-Being in a tense emotional situation scares me."
+    },
+    "E3_1": {
+        "Description": "Response to IRI-When I see someone get hurt, I tend to remain calm."
+    },
+    "E4_6": {
+        "Description": "Response to IRI-I tend to lose control during emergencies."
+    },
+    "iri_fantasy_avg": {
+        "Description": "Average score for the Fantasy subscale of the Interpersonal Reactivity Index (IRI)."
+    },
+    "iri_perspective_avg": {
+        "Description": "Average score for the Perspective Taking subscale of the IRI."
+    },
+    "iri_concern_avg": {
+        "Description": "Average score for the Empathic Concern subscale of the IRI."
+    },
+    "iri_distress_avg": {
+        "Description": "Average score for the Empathic Distress subscale of the IRI."
+    }
+}

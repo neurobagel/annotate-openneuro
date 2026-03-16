@@ -1,0 +1,12 @@
+{
+  "age": {
+    "Description": "Age in years"
+  },
+  "sex": {
+    "Description": "self-rated by participant, M for male/F for female"
+  },
+  "group": {
+    "Description": "Group within the project the participant belongs to"
+  }
+  
+}

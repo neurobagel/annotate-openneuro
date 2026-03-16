@@ -1,0 +1,39 @@
+{
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "Gender": {
+    "Description": "Participant gender"
+  },
+  "Age": {
+    "Description": "Participant age (years)",
+    "Units": "years"
+  },
+  "Group": {
+    "Description": "Participant group label"
+  },
+  "number_in_other_study": {
+    "Description": ""
+  },
+  "Highest_degree": {
+    "Description": ""
+  },
+  "ASL_AoA": {
+    "Description": ""
+  },
+  "PPVT_score": {
+    "Description": ""
+  },
+  "PIAT_score": {
+    "Description": ""
+  },
+  "Andrews_score": {
+    "Description": ""
+  },
+  "MOTavTargetsCorrect": {
+    "Description": ""
+  },
+  "MOTcapacity": {
+    "Description": ""
+  }
+}

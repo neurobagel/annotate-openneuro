@@ -1,0 +1,8 @@
+{
+  "age1": {
+    "Description": "Left partiicipant's age in years"
+  },
+  "age2": {
+    "Description": "Right participant's age in years"
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "handgrip_condition": {
+        "Description": "Participant's experiment condition for the IHG task",
+        "Levels": {
+          "Control": "Participants do not squeeze the ball during the blue cue",
+          "IHG": "Participants squeeze the ball during the blue cue"
+        }
+    },
+
+    "hormone_group": {
+      "Description": "Participant's hormone group. Note that LU and HC are younger adult women and PM are older adult women",
+      "Levels": {
+        "LU": "Luteal group - subjects in the luteal phase of their menstrual cycle",
+        "HC": "Hormonal contraceptive group - subjects taking hormonal contraceptive",
+        "PM": "Post-menopausal group - older post-menopausal women"
+      }
+    },
+
+    "age": {
+        "Description": "Participant's age"
+    },
+
+    "sex": {
+        "Description": "Participant's sex"
+    },
+
+    "exclude": {
+      "Description": "Exclusion tag from further analyses",
+      "Levels": {
+        "0": "Subject is included in analyses",
+        "1": "Subject is excluded from analyses"
+      }
+    }
+}

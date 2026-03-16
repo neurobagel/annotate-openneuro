@@ -1,0 +1,22 @@
+{
+  "seeg_id": {
+    "Description": "SUUB epilepsy unit patient ID"
+  },
+  "age": {
+    "Description": "age of the participant",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "sex of the participant as reported by the participant",
+    "Levels": {
+      "m": "male",
+      "f": "female"
+    }
+  },
+  "excluded_from_network_analysis": {
+    "Description": "field that indicates whether the patient has been excluded from functional network analysis"
+  },
+  "reason_for_exclusion": {
+    "Description": "reason for which the patient was excluded from functional network analysis (modified anatomy, prior surgical resection, artefacted ieeg, too few data points etc)"
+  }
+}

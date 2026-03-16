@@ -1,0 +1,10 @@
+{
+	"date": {"description": "date of testing"},
+	"age": {"description": "age at testing date"},
+	"gender": {"description": "gender"},
+	"ESL": {"description": "English as second language (yes/no)"},
+	"R": {"description": "total reponse for right-handed (Edinburgh Handedness Inventory)"},
+	"L": {"description": "total reponse for left-handed (Edinburgh Handedness Inventory)"},
+	"Total": {"description": "combined total handedness score (Edinburgh Handedness Inventory)"},
+	"Handedness": {"description": "categorised handedness (left/right/ambidextrous)"}
+}

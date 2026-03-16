@@ -1,0 +1,30 @@
+{
+	"participant_id": {
+		"Description": "assigned participant-id"
+	},
+	"sex": {
+		"Description":"participant sex",
+		"Levels": {
+			"M":"male",
+			"F":"female"
+		}
+	},
+	"age": {
+		"Description": "age of the participant",
+		"Units": "years"
+	},
+	"native_english": {
+		"Description":"native english speaker",
+		"Levels": {
+			"Y": "yes",
+			"N": "no"
+		}
+	},
+	"ses-rest": {
+		"Description":"resting scan present",
+		"Levels": {
+			"TRUE": "yes",
+			"FALSE": "no"
+		}
+	}
+}

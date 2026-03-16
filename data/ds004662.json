@@ -1,0 +1,21 @@
+{
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "rgrip_mvc": {
+        "Description": "right hand grasp force at maximum voluntary contraction (mvc)",
+        "Units": "pound-force (lbf)"
+    },
+    "lgrip_mvc": {
+        "Description": "left hand grasp force at maximum voluntary contraction (mvc)",
+        "Units": "pound-force (lbf)"
+    }
+}

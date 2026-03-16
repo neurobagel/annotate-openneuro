@@ -1,0 +1,36 @@
+{
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+	"sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+	"scanner_model": {
+        "Description": "scanner model in which data was acquired (i.e. the scanner was upgraded during the study)",
+        "Levels": {
+            "1": "TimTrio",
+            "2": "Prisma"
+        }
+    },
+	"L1_ses-01": {
+        "Description": "Peformance on adapted Boston Naming Test in subject's native language (Spanish) in the first session",
+        "Units": "percent accuracy"
+    },
+	"L1_ses-02": {
+        "Description": "Peformance on adapted Boston Naming Test in subject's native language (Spanish) in the second session",
+        "Units": "percent accuracy"
+    },
+	"Ln_ses-01": {
+        "Description": "Peformance on adapted Boston Naming Test in subject's new language (English) in the first session",
+        "Units": "percent accuracy"
+    },
+	"Ln_ses-02": {
+        "Description": "Peformance on adapted Boston Naming Test in subject's new language (English) in the second session",
+        "Units": "percent accuracy"
+    }
+}

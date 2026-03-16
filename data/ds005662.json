@@ -1,0 +1,37 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "Female": "female",
+            "Male": "male",
+            "Other": "other"
+        }
+    },
+    "handedness": {
+        "Description": "Self-reported handedness",
+        "Levels": {
+            "Right handed": "right handed",
+            "Left handed": "left handed",
+            "Ambidextrous": "ambidextrous"
+        }
+    },
+    "VT_score": {
+        "Description": "Total vicarious touch score"
+    },
+    "EQ_score": {
+        "Description": "Total EQ score (short Empathy Quotient scale)"
+    },
+    "IRI_score": {
+        "Description": "Total perspective taking score (Interpersonal Reactivity Index)"
+    },
+    "MTS": {
+        "Description": "Self-reported mirror-touch synesthesia"
+    }
+}

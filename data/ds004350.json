@@ -1,0 +1,9 @@
+{
+  "group": {
+    "Description": "group, active participant or sham participant",
+    "Levels": {
+      "FB": "active participant receiving feedback",
+      "S": "sham participant"
+    }
+  }
+}

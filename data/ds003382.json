@@ -1,0 +1,107 @@
+{
+  "participant_id": {
+    "Description": "Participant identifier"
+  },
+  "age": {
+    "Description": "Age in years"
+  },
+  "sex": {
+    "Description": "self-rated by participant, M for male/F for female"
+  },
+  "group": {
+    "Description": "all the sujbects are on control group"
+  },
+  "handedness": {
+    "Description": "handedness of the participant as reported by the participant"
+  },
+  "education_years": {
+    "Description": "years of education calculated as formal education of 6 months or more. starts from the first year of primary/elementary school onwards"
+  },
+  "education_specify": {
+    "Description": "the highest level of formal education completed (i.e., does not include uncompleted education or education currently undertaken)"
+  },
+  "body_weight":{
+    "Description": "body weight of the participant"
+  },
+  "efl": {
+    "Description": "english as first language"
+  },
+  "visual_impairment": {
+    "Description": "any kind of vision impairment including wearing reading glasses"
+  },
+  "visual_impairment_specify": {
+    "Description": "description of visual impairment"
+  },
+  "mental_illness_history": {
+    "Description": "handedness of the participant as reported by the participant"
+  },
+  "mental_illness_specify": {
+    "Description": "diagnosis or treatment of whether the person has received a diagnosis for any Axis I psychiatric condition"
+  },
+  "mental_illness_family_history": {
+    "Description": "self-report of whether the person has a family member who has had a current or past Axis I psychiatric condition"
+  },
+  "mental_illness_family_history_specify": {
+    "Description": "diagnosis or treatment of the family member’s  psychiatric condition"
+  },
+  "dementia_suspec_dx_family": {
+    "Description": "Whether a family member had suspected or diagnosed dementia"
+  },
+  "neurological": {
+    "Description": "Whether the person has a current or previous neurological condition"
+  },
+  "cardiovascular": {
+    "Description": "Whether the person has a current or previous cardiovascular condition"
+  },
+  "diabetes": {
+    "Description": "Whether the person has a current or previous diabetes diagnosis"
+  },
+  "regular_medication": {
+    "Description": "Whether the person is currently taking regular medication"
+  },
+  "regular_medication_specify": {
+    "Description": "description of regular medication"
+  },
+  "medication_last24hr": {
+    "Description": "Whether the person took medication in the previous 24hrs"
+  },
+  "current_smoker": {
+    "Description": "currently smoking"
+  },
+  "previous_smoker": {
+    "Description": "previous smoking"
+  },
+  "previous_smoker_specify": {
+    "Description": "description of previous smoking "
+  },
+  "alcohol_drinking_days": {
+    "Description": "number of days per week/month the person drinks"
+  },
+  "alcohol_days_per_week": {
+    "Description": "number of days per week the person drinks"
+  },
+  "standard_drinks_per_drinking_day": {
+    "Description": "number average number of standard drinks per drinking day"
+  },
+  "recreational_drugs": {
+    "Description": "used recreational drugs in last 6 months"
+  },
+  "recreational_drugs_specify": {
+    "Description": "description of recreational drugs used in last 6 months"
+  },
+  "edinburgh_hand_l": {
+    "Description": "Edinburgh Handedness Inventory: left-hand"
+  },
+  "edinburgh_hand_r": {
+    "Description": "Edinburgh Handedness Inventory: right-hand"
+  },
+  "cesd_r": {
+    "Description": "Centre for Epidemiological Studies Depression Inventory - Revised total score"
+  },
+  "bsl": {
+    "Description": "Blood sugar level"
+  },
+  "dose": {
+    "Description": "FDG dose in MBq"
+  }
+}

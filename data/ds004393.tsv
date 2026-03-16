@@ -1,0 +1,32 @@
+participant_ID	Set_1	ImAcq_Csp	VisAcq_Csp	Age	Gender	Race	ImAcq_vivid_Cspi	ImAcq_vivid_Csmi	ImAcq_effort_Cspi	ImAcq_effort_Csmi	ImAcq_fear_Cspi	ImAcq_fear_Csmi	ImAcq_fear_Cspv	ImAcq_fear_Csmv	VisAcq_vivid_Cspi	VisAcq_vivid_Csmi	VisAcq_effort_Cspi	VisAcq_effort_Csmi	VisAcq_fear_Cspi	VisAcq_fear_Csmi	VisAcq_fear_Cspv	VisAcq_fear_Csmv
+sub-01	ImAcq	Left	Right	32	Male	Caucasian	5	5	5	5	4	1	1	1	5	5	5	5	1	1	4	1
+sub-02	ImAcq	Left	Right	24	Female	Caucasian	6	6	6	6	3	1	1	1	6	5	5	5	1	1	2	1
+sub-03	ImAcq	Left	Right	22	Female	Caucasian	4	4	5	3	6	1	1	1	1	3	6	4	3	1	7	1
+sub-04	ImAcq	Left	Horizontal	27	Male	Caucasian	1	6	6	6	6	1	1	1	6	5	5	5	1	1	6	1
+sub-05	ImAcq	Left	Right	24	Female	African American	2	4	7	6	7	4	1	3	2	3	7	6	2	2	7	5
+sub-06	VisImAcqcq	Left	Horizontal	26	Female	Caucasian	4	6	6	5	2	1	1	1	5	3	6	5	4	1	4	1
+sub-07	VisImAcqcq	Left	Right	22	Female	Latino	3	6	6	4	6	1	1	1	5	2	3	6	4	1	6	2
+sub-08	VisImAcqcq	Left	Horizontal	27	Female	Caucasian	6	6	6	6	5	1	4	1	6	6	7	7	5	1	6	1
+sub-09	VisImAcqcq	Vertical	Right	24	Male	Hispanic	6	6	6	6	6	1	1	1	5	6	6	6	4	4	4	3
+sub-10	ImAcq	Vertical	Horizontal	25	Male	Caucasian	6	4	4	4	4	2	4	2	5	5	5	5	2	2	2	2
+sub-11	VisImAcqcq	Left	Horizontal	25	Female	Hispanic	6	5	6	5	6	1	6	1	7	6	5	5	5	1	5	1
+sub-12	VisImAcqcq	Left	Right	30	Male	Asian	4	5	6	5	4	4	1	2	4	5	5	5	3	3	7	2
+sub-13	VisImAcqcq	Vertical	Horizontal	29	Male	Caucasian	6	4	7	4	6	1	6	1	4	5	6	6	5	3	5	3
+sub-14	VisImAcqcq	Vertical	Right	28	Male	American Indian/Alaska Native	6	4	1	2	7	3	1	1	4	5	2	5	2	1	3	2
+sub-15	ImAcq	Left	Right	20	Female	Caucasian	5	6	5	5	3	1	2	1	5	7	4	5	1	1	3	1
+sub-16	ImAcq	Left	Right	27	Male	Caucasian	3	2	6	6	4	2	5	2	3	3	5	6	5	4	5	5
+sub-17	ImAcq	Vertical	Horizontal	20	Female	Caucasian	7	7	5	6	5	3	5	1	7	7	6	6	6	1	6	1
+sub-18	ImAcq	Vertical	Right	33	Male	Asian	3	2	3	3	5	1	6	1	4	3	4	4	6	1	2	2
+sub-19	VisImAcqcq	Left	Horizontal	19	Female	Caucasian	7	6	3	5	1	1	1	1	7	7	3	3	1	1	1	1
+sub-20	VisImAcqcq	Vertical	Right	26	Female	Caucasian	7	6	6	6	4	1	5	1	4	6	4	7	1	1	1	1
+sub-21	VisImAcqcq	Vertical	Horizontal	28	Male	Asian	7	7	1	1	1	1	1	1	7	7	1	1	1	1	1	1
+sub-22	VisImAcqcq	Vertical	Right	18	Female	Caucasian	6	5	7	7	1	1	1	1	5	6	7	7	1	1	1	1
+sub-23	ImAcq	Vertical	Horizontal	21	Female	Caucasian	6	3	5	4	4	1	1	1	2	2	4	4	2	1	4	1
+sub-24	ImAcq	Left	Right	20	Male	Caucasian	5	6	6	6	7	2	3	1	6	7	5	6	2	1	3	1
+sub-25	ImAcq	Vertical	Right	21	Female	Asian	6	6	5	5	5	6	4	5	6	5	4	4	6	4	6	4
+sub-26	VisImAcqcq	Left	Horizontal	33	Female	Caucasian	5	6	6	4	5	1	1	1	6	6	4	6	4	1	1	1
+sub-28	ImAcq	Vertical	Horizontal	n/a	n/a	n/a	6	4	4	5	6	6	2	2	5	6	7	7	1	1	1	1
+sub-29	ImAcq	Left	Horizontal	18	Male	Caucasian	5	6	4	5	5	1	1	1	6	6	4	5	1	1	5	1
+sub-30	VisImAcqcq	Left	Right	n/a	n/a	n/a	6	7	3	3	7	1	7	1	5	5	3	2	6	2	6	2
+sub-31	VisImAcqcq	Vertical	Right	19	Female	Caucasian	3	2	5	1	1	5	1	1	4	3	7	7	5	5	5	5
+sub-32	VisImAcqcq	Left	Horizontal	17	Female	Caucasian	5	5	7	7	6	4	5	4	6	6	7	7	2	5	2	5

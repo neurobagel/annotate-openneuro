@@ -1,0 +1,21 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "treatment": {
+        "LongName": "treatment",
+        "Description": "Indicates which treatment condition each subject mouse belongs to",
+        "Levels": {
+            "Key": "Control and Sepsis"
+        },
+        "Units": "Null"
+    },
+    "sex": {
+        "LongName": "Sex",
+        "Description": "Indicates whether subject mouse is male or female",
+        "Levels": {
+            "Key": "Male and Female"
+        },
+        "Units": "Null"
+    }
+}

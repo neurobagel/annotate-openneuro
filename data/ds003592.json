@@ -1,0 +1,52 @@
+{
+	"sex": {
+			"Description": "sex of the participant",
+			"Levels": {
+					"M": "male",
+					"F": "female"
+			}
+	},
+	"site": {
+			"Description": "site of participant",
+			"Levels": {
+					"1": "Ithaca, NY",
+					"2": "Toronto, Canada"
+			}
+	},
+	"agegroup": {
+			"Description": "age group of participant",
+			"Levels": {
+					"Y": "younger adult",
+					"O": "older adult"
+			}
+	},
+	"age": {
+			"Description": "age of the participant",
+			"Units": "years"
+	},
+	"education": {
+			"Description": "education of the participant",
+			"Units": "years"
+	},
+	"openneuro": {
+			"Description": "exists in other openneuro dataset",
+			"Levels": {
+					"0": "no",
+					"1": "yes"
+			}
+	},
+	"flair_slicediff": {
+			"Description": "discrepancy in FLAIR slices",
+			"Levels": {
+					"0": "no",
+					"1": "yes"
+			}
+	},
+	"rest_voldiff": {
+			"Description": "discrepancy in rest volumes",
+			"Levels": {
+					"0": "no",
+					"1": "yes"
+			}
+	}
+}

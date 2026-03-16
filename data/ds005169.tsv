@@ -1,0 +1,23 @@
+participant_id	seeg_id	age	sex	excluded_from_network_analysis	reason_for_exclusion
+sub-01	65	39	m	0	n/a
+sub-02	67	39	m	0	n/a
+sub-03	76	28	m	0	n/a
+sub-04	77	19	f	0	n/a
+sub-05	78	25	m	1	Prior resection, freesurfer and group analysis not possible
+sub-06	81	19	m	0	n/a
+sub-07	83	26	f	0	n/a
+sub-08	84	32	m	0	n/a
+sub-09	87	22	f	0	n/a
+sub-10	88	47	m	0	n/a
+sub-11	92	27	m	0	n/a
+sub-12	94	33	m	0	n/a
+sub-13	98	39	f	0	n/a
+sub-14	101	31	m	0	n/a
+sub-15	111	21	m	0	n/a
+sub-16	112	35	f	1	Very few stimulations evoking clinical effects
+sub-17	121	23	f	0	n/a
+sub-18	122	18	m	0	n/a
+sub-19	123	30	m	0	n/a
+sub-20	124	32	m	0	n/a
+sub-21	125	25	m	0	n/a
+sub-22	129	38	m	0	n/a

@@ -1,0 +1,13 @@
+{
+  "participant_id": {
+    "Description": "Participant identifier"
+  },
+  "age": {
+    "Description": "Age at time of testing",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Biological sex of the participant",
+    "Levels": {"f": "female", "m": "male"}
+  }
+}

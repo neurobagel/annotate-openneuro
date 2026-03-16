@@ -1,0 +1,17 @@
+{
+    "participant_id": {
+        "LongName": "Participant ID"
+    },
+    "age": {
+        "LongName": "Age",
+        "Units": "Years"
+    },
+    "gender": {
+        "LongName": "Gender",
+        "Description": "Gender of each participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "participant_id": "Unique participant identifier",
+    "sex": "Biological sex of the participant",
+    "age": "Age of the participant at time of first session",
+    "education": "Years of education (or education level) at time of first session",
+    "handedness": "Participant handedness (R for right-handed)",
+    "MWQ_score": "Average score on the Mind Wandering Questionnare (1-5 items)",
+    "MWD_score_SES01": "Average score on Mind Wandering - Deliberate (1-4 items) at session 1",
+    "MWS_score_SES01": "Average score on Mind Wandering - Spontaneous (1-4 items) at session 1",
+    "MWD_score_SES02": "Average score on Mind Wandering - Deliberate (1-4 items) at session 2",
+    "MWS_score_SES02": "Average score on Mind Wandering - Spontaneous (1-4 items) at session 2",
+    "GRO_score_SES01": "Groningen Sleep Score at session 1",
+    "GRO_score_SES02": "Groningen Sleep Score at session 2",
+    "INS_score": "Athens Insomnia Scale score",
+    "Vocabulary": "Vocabulary score (WAIS-IV subtest)",
+    "Digit_Symbol": "Digit-Symbol score (WAIS-IV subtest)",
+    "NonWord_sum": "Non-words repeated during Non-Word Repetition Test",
+    "NonWord_span": "Syllable count of non-words repeated (2 of 4) correctly during Non-Word Repetition Test"
+}

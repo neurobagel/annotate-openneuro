@@ -1,0 +1,32 @@
+{
+  "participant_id": {
+    "Description": "unique participant identifier"
+  },
+  "orig_ID": {
+    "Description": "participant identifier from recording"
+  },
+  "Sex": {
+    "Description": "sex of the participant"
+  },
+  "Age": {
+    "Description": "age of the participant"
+  },
+  "Accuracy_Manipulation_5": {
+    "Description": "accuracy in proportion of correct response in the manipulation task with 5 load"
+  },
+  "Accuracy_Manipulation_6": {
+    "Description": "accuracy in proportion of correct response in the manipulation task with 6 load"
+  },
+  "Accuracy_Manipulation_7": {
+    "Description": "accuracy in proportion of correct response in the manipulation task with 7 load"
+  },
+  "Accuracy_Retention_5": {
+    "Description": "accuracy in proportion of correct response in the retention task with 5 load"
+  },
+  "Accuracy_Retention_6": {
+    "Description": "accuracy in proportion of correct response in the retention task with 6 load"
+  },
+  "Accuracy_Retention_7": {
+    "Description": "accuracy in proportion of correct response in the retention task with 7 load"
+  }
+}

@@ -1,0 +1,137 @@
+{
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "handedness": {
+        "Description": "handedness of the participant as reported by the participant",
+        "Levels": {
+            "L": "left",
+            "R": "right"
+        }
+    },
+    "education_years": {
+        "Description": "years of education calculated as formal education of 6 months or more. Starts from the first year of primary/elementary school onwards. Note that Australian education system includes 13 years of school: 7 years primary/elementary 6 years high school.",
+        "Units": "years"
+    },
+    "education_specify": {
+        "Description": "the highest level of formal education completed (i.e., does not include uncompleted education or education currently undertaken). In Australia, 'technical school' is education undertaken in the TAFE/vocational education sector"
+    },
+    "efl": {
+        "Description": "English as first language",
+        "Levels": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "first_language": {
+        "Description": "First language spoken"
+    },
+    "visual_impairment": {
+        "Description": "any kind of vision impairment including wearing reading glasses (self reported)",
+        "Levels": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "visual_impairment_specify": {
+        "Description": "description of visual impairment"
+    },
+    "mental_illness_history": {
+        "Description": "self report of whether the person has had a current or past Axis I psychiatric condition",
+        "Levels": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "mental_illness_history_specify": {
+        "Description": "diagnosis or treatment Whether the person has received a diagnosis for any Axis I psychiatric condition"
+    },
+    "cardiovascular_disease": {
+        "Description": "history of cadiovascular disease",
+        "Levels": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "diabetes": {
+        "Description": "history of diabetes",
+        "Levels": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "regular_medication": {
+        "Description": "Regular medication",
+        "Levels": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "regular_medication_specify": {
+        "Description": "Description of regular medication",
+        "Levels": {}
+    },
+    "current_smoker": {
+        "Description": "Currently smoking",
+        "Levels": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "current_smoker_specify": {
+        "Description": "Description of current smoking habit"
+    },
+    "previous_smoker": {
+        "Description": "Previous smoking",
+        "Levels": {}
+    },
+    "previous_smoker_specify": {
+        "Description": "Description of previous smoking habit",
+        "Levels": {}
+    },
+    "alcohol_consumption": {
+        "Description": "Self report a lcohol consumption.",
+        "Levels": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "alcolhol_drinking_days": {
+        "Description": "Includes number of days per week/month the person drinks",
+        "Units": "DaysPerWeek"
+    },
+    "alcohol_number_drinks": {
+        "Description": "Number average number of standard drinks per drinking session"
+    },
+    "alcohol_notes": {
+        "Description": "Description of alcohol consumption",
+        "Levels": {}
+    },
+    "recreational_drugs": {
+        "Description": "Used recreational drugs in last 6 months",
+        "Levels": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "recreational_drugs_specify": {
+        "Description": "Description of recreational drugs used in last 6 months"
+    },
+    "edinburgh_hand_r": {
+        "Description": "Edinburgh Handedness Inventory: right-hand"
+    },
+    "edinburgh_hand_l": {
+        "Description": "Edinburgh Handedness Inventory: left-hand"
+    },
+    "cesd_r": {
+        "Description": "R Centre for Epidemiological Studies Depression Inventory - Revised total score"
+    }
+}

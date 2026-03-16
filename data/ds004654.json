@@ -1,0 +1,23 @@
+{
+    "participant_id": {
+        "Description": "Participant Identifier"
+    },
+    "diagnosis": {
+        "Description": "Diagnosis of Participant",
+        "Levels": {
+            "HC": "Healthy Control",
+            "FrX": "Fragile X Syndrome"
+        }
+    },
+    "age": {
+        "Description": "Age of Participant at first session",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Sex of Participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "participant_id": {
+        "Description": "Participant Identifier"
+    },
+    "age": {
+        "Description": "Age of Participant at first session",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Sex of Participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    }
+}

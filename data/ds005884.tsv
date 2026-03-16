@@ -1,0 +1,23 @@
+participant_id	age	sex	education	weight	height	comments
+sub-01	44	M	25	80	175	
+sub-02	59	F	16	50	163	
+sub-03	66	F	12	55	158	
+sub-04	35	F	20	67	157	
+sub-05	48	F	15	55	172	
+sub-06	64	M	12	65	160	
+sub-07	46	F	15	58	160	
+sub-08	56	M	15	67	175	no motor_L physio
+sub-09	54	F	15	53	160	
+sub-10	64	M	15	70	174	
+sub-11	74	M	15	74	180	
+sub-12	40	F	19	67	162	
+sub-13	37	M	19	80	173	
+sub-14	62	F	16	59	160	
+sub-15	59	F	9	65	160	
+sub-16	52	M	21	63.5	170	
+sub-17	46	M	18	84	174	
+sub-18	40	F	12	51	153	
+sub-19	46	F	17	62	165	
+sub-20	42	M	12	74	180	
+sub-21	59	M	16	N/A	N/A	
+sub-22	59	F	15	90	170	

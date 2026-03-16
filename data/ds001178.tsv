@@ -1,0 +1,24 @@
+participant_id	source	problem
+sub-steph02	Stephanie A. Gagnon <sgagnon@stanford.edu>	func motion
+sub-kate000	Kate Mills @le_feufollet	"T1 Minor Motion; Motion from slide 95-143 in superior frontal"
+sub-kate001	Kate Mills @le_feufollet	T1 Minor motion; Motion from 139:165 in superior frontal; pixelated artefact from 86:101 in superior parietal; possible cyst on slice 141 in superior frontal
+sub-kate002	Kate Mills @le_feufollet	T1 Minor motion; Motion in superior frontal and parietal cortex; some pixelated artefact in superior parietal
+sub-kate004	Kate Mills @le_feufollet	No issues
+sub-kate006	Kate Mills @le_feufollet	"T1 motion; Failed both T1 and Cort Recon"
+sub-kate007	Kate Mills @le_feufollet	T1 motion; Motion in superior frontal (slice 091:146)
+sub-kate008	Kate Mills @le_feufollet	T1 motion
+sub-kate013	Kate Mills @le_feufollet	T1 motion; Minor motion slice 89:126; 146:151
+sub-ben01	Ben Inglis <binglis@berkeley.edu>	func spikes (loose RF connector)
+sub-ben02	Ben Inglis <binglis@berkeley.edu>	func motion eye
+sub-ben03	Ben Inglis <binglis@berkeley.edu>	func motion pace nodding
+sub-ben04	Ben Inglis <binglis@berkeley.edu>	func motion talking
+sub-ben05	Ben Inglis <binglis@berkeley.edu>	func motion swallow cough
+sub-ben06	Ben Inglis <binglis@berkeley.edu>	func motion intl nodding
+sub-ben07	Ben Inglis <binglis@berkeley.edu>	func motion head nod
+sub-ben08	Ben Inglis <binglis@berkeley.edu>	func motion feet move
+sub-ben09	Ben Inglis <binglis@berkeley.edu>	func bad ghost
+sub-arielle01	Arielle Tambini <tambini@berkeley.edu>	func two small spikes
+sub-arielle02	Arielle Tambini <tambini@berkeley.edu>	spikes
+sub-ds001s07	OpenfMRI ds000001 (https://openfmri.org/dataset/ds000001/)	func lots of spikes in the first 50 or so volumes
+sub-beast329	PoldrackLab	slice leakage
+sub-ds045s409874	OpenfMRI ds000045	spin history

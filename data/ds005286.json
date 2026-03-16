@@ -1,0 +1,22 @@
+{
+  "ID": {
+    "Description": "Subject number at the time of research"
+  },
+  "Pre_ID": {
+    "Description": "Subject number at the time of raw data acquisition"
+  },
+  "Age": {
+    "Description": "Chronological age of the participant",
+    "Units": "years"
+  },
+  "Gender": {
+    "Description": "Biological sex of the participant",
+    "Levels": {
+      "M": "Physiological male",
+      "F": "Physiological female"
+    }
+  },
+  "Pain_Threthold": {
+    "Description": "mean the laser energy intensity corresponds to a pain score of 7 out of 10."
+  }
+}

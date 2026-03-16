@@ -1,0 +1,9 @@
+{
+    "G": {
+        "LongName": "Gender",
+        "Description": "Gender",
+        "Levels": {
+            "M": "Man",
+            "F": "Woman"        }
+    }
+}

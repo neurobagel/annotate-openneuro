@@ -1,0 +1,19 @@
+{
+	"group": {
+		"Description": "Second language acquisition group",
+		"Levels": {
+			"MC": "Monolingual control",
+			"EB": "Early-acquisition bilingual",
+			"LB": "Late-acquisition bilingual"
+		}
+	},
+	"ethnicity": {
+		"Description": "Self-reported ethnicity",
+		"Levels": {
+			"1": "White",
+			"2": "Hispanic or Latino/a",
+			"3": "Hispanic or Latino/a,White"
+		}
+	}
+	
+}

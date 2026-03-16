@@ -1,0 +1,17 @@
+{
+    "sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "f": "female",
+            "m": "male"
+        }
+    },
+    "group": {
+        "Description": "experimental group assignment for the eeg session",
+        "Levels": {
+            "NREM": "participant took a nap containing non-rapid eye movement sleep only",
+            "REM": "participant took a nap containing rapid eye movement sleep",
+            "WAKE": "participant remained awake and rested quietly while listening to a podcast"
+        }
+    }
+}

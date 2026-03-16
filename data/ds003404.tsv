@@ -1,0 +1,21 @@
+participant_id	Age	Gender	Handedness	HasRestData	YearsEduSelf	Hispanic	Race
+sub-C05	28	F	R	1	13	No	African American
+sub-C13	53	M	R	1	22	Yes	Mixed
+sub-C14	28	F	R	1	16	Yes	Unknown
+sub-C15	52	M	R	1	15	No	African American
+sub-C22	25	M	R	1	12	No	White
+sub-C23	39	F	L	0	14	No	White
+sub-C25	48	M	R	1	12	No	African American
+sub-C26	30	F	R	1	12	No	White
+sub-C27	52	M	L	1	12	No	White
+sub-C29	26	F	R	1	12	Yes	White
+sub-C32	55	M	R	1	16	No	Asian
+sub-C33	35	F	R	1	18	No	African American
+sub-C34	45	F	R	1	18	No	Asian
+sub-C36	47	M	R	1	14	No	White
+sub-C39	26	M	R	1	16	No	African American
+sub-C40	49	M	A	1	14	No	African American
+sub-C41	26	M	R	1	16	Yes	Mixed
+sub-C43	32	M	R	1	15	No	African American
+sub-C45	29	F	R	1	14	Yes	White
+sub-C50	27	M	A	1	16	Yes	Mixed

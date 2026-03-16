@@ -1,0 +1,173 @@
+{   
+    "Description": "Participant-level metadata for the ASD Precision fMRI dataset",
+    "participant_id": {
+        "DataType": "categorical",
+        "Description": "Unique identifier for each participant"
+    },
+    "age": {
+        "DataType": "numeric",
+        "Description": "Age of the participant at time of first session",
+        "Units": "years"
+    },
+    "handedness": {
+        "DataType": "numeric",
+        "Description": "Handedness of the participant (average of three Edinburgh items)",
+        "Units": "arbitrary"
+    },
+    "sex": {
+        "DataType": "categorical",
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "male": "male",
+            "female": "female"
+        }
+    },
+    "years_education": {
+        "DataType": "categorical",
+        "Description": "Number of years of formal education completed",
+        "Levels":{
+            "9-12 years": "Some high school to completed high school",
+            "13-16 years": "Completed high school to some college",
+            "17-20 years": "Completed college to some graduate school",
+            "More than 20 years": "Completed graduate school"
+        }
+    },
+    "ethnicity": {
+        "DataType": "categorical",
+        "Description": "Self-reported ethnicity of the participant (geographic birth place of parents and grandparents)"
+    },
+    "autism_diagnosis": {
+        "DataType": "categorical",
+        "Description": "Whether the participant has an autism spectrum disorder diagnosis",
+        "Levels": {
+            "yes": "Has autism diagnosis",
+            "no": "No autism diagnosis"
+        }
+    },
+    "autism_year": {
+        "DataType": "numeric",
+        "Description": "Year when autism diagnosis was received",
+        "Units": "years"
+    },
+    "adhd_diagnosis": {
+        "DataType": "categorical",
+        "Description": "Whether the participant has an ADHD diagnosis",
+        "Levels": {
+            "yes": "Has ADHD diagnosis",
+            "no": "No ADHD diagnosis"
+        }
+    },
+    "id_diagnosis": {
+        "DataType": "categorical",
+        "Description": "Whether the participant has an intellectual disability diagnosis",
+        "Levels": {
+            "yes": "Has intellectual disability diagnosis",
+            "no": "No intellectual disability diagnosis"
+        }
+    },
+    "other_diagnosis": {
+        "DataType": "categorical",
+        "Description": "Whether the participant has other diagnoses",
+        "Levels": {
+            "yes": "Has other diagnosis",
+            "no": "No other diagnosis"
+        }
+    },
+    "other_diagnosis_description": {
+        "Description": "Description of other diagnoses if present"
+    },
+    "aq_total": {
+        "DataType": "numeric",
+        "Description": "Autism Quotient (AQ) total score",
+        "Units": "arbitrary",
+        "TermURL": "https://www.autismresearchcentre.com/arc_tests"
+    },
+    "aq_social": {
+        "DataType": "numeric",
+        "Description": "AQ subscale score for social skills",
+        "Units": "arbitrary"
+    },
+    "aq_attention_switching": {
+        "DataType": "numeric",
+        "Description": "AQ subscale score for attention switching",
+        "Units": "arbitrary"
+    },
+    "aq_attention_to_detail": {
+        "DataType": "numeric",
+        "Description": "AQ subscale score for attention to detail",
+        "Units": "arbitrary"
+    },
+    "aq_communication": {
+        "DataType": "numeric",
+        "Description": "AQ subscale score for communication",
+        "Units": "arbitrary"
+    },
+    "aq_imagination": {
+        "DataType": "numeric",
+        "Description": "AQ subscale score for imagination",
+        "Units": "arbitrary"
+    },
+    "sdq_total": {
+        "DataType": "numeric",
+        "Description": "Strengths and Difficulties Questionnaire (SDQ) total difficulties score",
+        "Units": "arbitrary",
+        "TermURL": "https://www.sdqinfo.org/"
+    },
+    "sdq_emotional_problems": {
+        "DataType": "numeric",
+        "Description": "SDQ subscale score for emotional problems",
+        "Units": "arbitrary"
+    },
+    "sdq_conduct_problems": {
+        "DataType": "numeric",
+        "Description": "SDQ subscale score for conduct problems",
+        "Units": "arbitrary"
+    },
+    "sdq_hyperactivity": {
+        "DataType": "numeric",
+        "Description": "SDQ subscale score for hyperactivity/inattention",
+        "Units": "arbitrary"
+    },
+    "sdq_peer_problems": {
+        "DataType": "numeric",
+        "Description": "SDQ subscale score for peer relationship problems",
+        "Units": "arbitrary"
+    },
+    "sdq_prosocial": {
+        "DataType": "numeric",
+        "Description": "SDQ subscale score for prosocial behavior",
+        "Units": "arbitrary"
+    },
+    "session_1_time": {
+        "Description": "Time of day for the participant's first session (format: HH:MM:SS)"
+    },
+    "session_2_time": {
+        "Description": "Time of day for the participant's second session (format: HH:MM:SS)"
+    },
+    "session_3_time": {
+        "Description": "Time of day for the participant's third session (format: HH:MM:SS)"
+    },
+    "days_between_1_2": {
+        "DataType": "numeric",
+        "Description": "Number of days between the first and second sessions",
+        "Units": "days"
+    },
+    "days_between_2_3": {
+        "DataType": "numeric",
+        "Description": "Number of days between the second and third sessions",
+        "Units": "days"
+    },
+    "days_between_1_3": {
+        "DataType": "numeric",
+        "Description": "Number of days between the first and third sessions",
+        "Units": "days"
+    },
+    "rsfMRI_complete": {
+        "DataType": "categorical",
+        "Description": "Whether all rsfMRI runs are available for the participant",
+        "Levels": {
+            "True": "All fMRI runs are available",
+            "False": "Not all fMRI runs are available"
+        }
+    }
+}

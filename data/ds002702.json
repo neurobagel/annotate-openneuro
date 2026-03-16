@@ -1,0 +1,10 @@
+{
+	"sex": {
+		"Description":"participant sex",
+		"Levels": {
+			"m":"male",
+			"f":"female"
+		}
+	}
+}
+

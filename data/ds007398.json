@@ -1,0 +1,16 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier with prefix 'sub-'. Must match folder names in the dataset."
+  },
+  "Age": {
+    "Description": "Participant age at the time of the session.",
+    "Units": "years"
+  },
+  "Gender": {
+    "Description": "Sex assigned at birth.",
+    "Levels": { "F": "female",
+      "M": "male"
+
+    }
+  }
+}

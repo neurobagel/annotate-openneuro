@@ -1,0 +1,24 @@
+participant_id	UH2_ID	session	sex	age	Sess1_Drug	Sess2_Drug	Sess3_Drug
+sub-001	2869	1  2  3	male	18	Placebo	10 mg	20 mg
+sub-002	2880	1  2  3	male	20	10 mg	20 mg	Placebo
+sub-003	2881	1  2  3	female	20	20 mg	Placebo	10 mg
+sub-004	2882	1  2  3	female	18	Placebo	10 mg	20 mg
+sub-005	2885	1  2  3	female	21	10 mg	20 mg	Placebo
+sub-006	2894	1  2  3	female	24	Placebo	10 mg	20 mg
+sub-007	2898	1  2  3	male	35	20 mg	Placebo	10 mg
+sub-008	2901	1  2  3	female	22	20 mg	Placebo	10 mg
+sub-009	2902	1  2  3	male	22	10 mg	20 mg	Placebo
+sub-010	2909	1  2  3	female	20	Placebo	10 mg	20 mg
+sub-011	2914	1  2  3	female	23	Placebo	10 mg	20 mg
+sub-012	2918	1  2  3	male	31	20 mg	Placebo	10 mg
+sub-013	2920	1  2  3	female	21	10 mg	20 mg	Placebo
+sub-014	2941	1  2  3	female	19	Placebo	10 mg	20 mg
+sub-015	2942	1  2  3	female	19	10 mg	20 mg	Placebo
+sub-016	2945	1  2  3	female	22	20 mg	Placebo	10 mg
+sub-017	2950	1  2  3	male	20	Placebo	10 mg	20 mg
+sub-018	2959	1  2  3	male	18	Placebo	10 mg	20 mg
+sub-019	2961	1  2  3	male	32	20 mg	Placebo	10 mg
+sub-020	2963	1  2  3	male	18	10 mg	20 mg	Placebo
+sub-021	2967	1  2  3	male	19	10 mg	20 mg	Placebo
+sub-022	2969	1  2  3	male	29	20 mg	Placebo	10 mg
+sub-023	2975	1  2  3	male	22	10 mg	20 mg	Placebo

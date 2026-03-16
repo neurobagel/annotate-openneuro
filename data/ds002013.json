@@ -1,0 +1,24 @@
+{
+  "participant_id": {
+    "LongName": "Participant ID",
+    "Description": "Participant ID as provided during the scanning session"
+  },
+  "date": {
+    "LongName": "Date",
+    "Description": "Exact day of the scanning session",
+    "TermURL": "https://en.wikipedia.org/wiki/ISO_8601"
+  },
+  "time": {
+    "LongName": "Time",
+    "Description": "Start time of the first main run",
+    "TermURL": "https://en.wikipedia.org/wiki/ISO_8601"
+  },
+  "age": {
+    "LongName": "Age",
+    "Description": "Chronological age in years at the time of data acquisition"
+  },
+  "gender": {
+    "LongName": "Gender",
+    "Description": "Social gender (male or female) at the time of data acquisition"
+  }
+}

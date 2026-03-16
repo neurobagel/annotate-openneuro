@@ -1,0 +1,20 @@
+{
+    "group": {
+        "Description": "group membership",
+        "Levels": {
+            "ASD": "ASD (Autism Spectrum Disorders)",
+            "Neurotypical": "Neurotypicals (controls)"
+        }
+    },
+    "age": {
+        "Description": "age of participant",
+        "Units": "years (rounded down)"
+    },
+    "sex": {
+        "Description": "biological sex of participant",
+        "Levels": {
+            "m": "male",
+            "f": "female"
+        }
+    }
+}

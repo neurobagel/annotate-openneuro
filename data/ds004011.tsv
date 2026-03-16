@@ -1,0 +1,28 @@
+participant_id	age	sex	hand	nblocks	exclude	notes
+sub-01	25	F	L	6	0	n/a
+sub-02	23	M	R	5	1	did not complete all blocks
+sub-03	22	F	L	6	0	n/a
+sub-04	23	F	R	6	1	Signal dropout -- not fixable
+sub-05	33	M	R	6	1	Signal dropout -- not fixable
+sub-06	27	F	R	6	0	n/a
+sub-07	23	F	R	6	0	n/a
+sub-08	24	F	R	4	1	did not complete all blocks
+sub-09	31	F	R	6	0	n/a
+sub-10	23	F	R	6	0	n/a
+sub-11	23	F	L	6	0	n/a
+sub-12	31	F	R	6	0	n/a
+sub-13	22	F	R	6	0	n/a
+sub-14	22	M	R	6	0	n/a
+sub-15	22	F	R	6	0	n/a
+sub-16	41	F	R	6	0	n/a
+sub-17	22	F	R	6	0	n/a
+sub-18	22	M	R	6	0	n/a
+sub-19	24	F	R	6	0	n/a
+sub-20	22	M	R	6	1	"Scanner timed out, not all trials were recorded per block"
+sub-21	25	M	R	6	0	n/a
+sub-22	22	F	R	6	0	n/a
+sub-23	22	F	R	6	0	n/a
+sub-24	23	F	R	6	0	n/a
+sub-25	23	F	R	6	0	n/a
+sub-26	23	M	R	6	0	n/a
+sub-27	23	M	R	6	0	n/a

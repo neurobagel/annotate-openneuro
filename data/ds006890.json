@@ -1,0 +1,18 @@
+{
+    "participant_id": {
+        "LongName": "Participant (monkey) ID",
+        "Description": "Unique participant ID following BIDS conventions."
+    },
+    "species": {
+        "LongName": "Species",
+        "Description": "Monkey species."
+    },
+    "sex": {
+        "LongName": "Sex",
+        "Description": "Biological sex of the subject (M/F)."
+    },
+    "age": {
+        "LongName": "Age (in years)",
+        "Description": "Age of the monkey at the start of experiment."
+    }
+}

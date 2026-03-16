@@ -1,0 +1,20 @@
+{
+    "group": {
+        "Description": "group the participant belonged to in the experimental paradigm",
+        "Levels": {
+            "CONTROL": "healthy subject",
+            "PD-denovo": "de novo Parkinson's disease patient"
+        }
+    },
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "gender": {
+        "Description": "gender of the participant",
+        "Levels": {
+            "m": "male",
+            "f": "female"
+        }
+    }
+}

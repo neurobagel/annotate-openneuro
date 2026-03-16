@@ -1,0 +1,6 @@
+{
+  "age" : {"Description" : "age of participant"},
+  "sex" : {"Description" : "sex of participant"},
+  "quiz_score" : {"Description" : "participant's score on 12-question multiple-choice questionnaire concerning contents of story following experimental session"},
+  "final_dB" : {"Description" : "final volume at which audio stimulus was played"}
+}

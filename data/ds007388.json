@@ -1,0 +1,1016 @@
+{
+    "participant_id": {
+        "Description": "The subject ID of the participant"
+    },
+    "age": {
+        "Description": "The age of the participant in years."
+    },
+    "Sex": {
+        "Description": "The self-reported sex of the participant."
+    },
+    "English": {
+        "Description": "Is English the first language?."
+    },
+    "Race": {
+        "Description": "The self-reported race of the participant."
+    },
+    "PI1": {
+        "Description": "Response to PEW Topline, Ideological Consistency Scale, and Carsey & Harden (2010). Government is almost always wasteful and inefficient vs. Government often does a better job than people give it credit for."
+    },
+    "PI2": {
+        "Description": "Response to PEW Topline, Ideological Consistency Scale, and Carsey & Harden (2010). Government regulation of business is necessary to protect the public interest vs. Government regulation of business usually does more harm than good."
+    },
+    "PI3": {
+        "Description": "Response to PEW Topline, Ideological Consistency Scale, and Carsey & Harden (2010). Poor people today have it easy because they can get government benefits without doing anything in return vs. Poor people have hard lives because government benefits don't go far enough to help them live decently."
+    },
+    "PI4": {
+        "Description": "Response to PEW Topline, Ideological Consistency Scale, and Carsey & Harden (2010). The government should do more to help needy Americans, even if it means going deeper into debt vs. The government today can't afford to do much more to help the needy."
+    },
+    "PI5": {
+        "Description": "Response to PEW Topline, Ideological Consistency Scale, and Carsey & Harden (2010). Racial discrimination is the main reason why many black people can't get ahead these days vs. Blacks who can't get ahead in this country are mostly responsible for their own condition."
+    },
+    "PI6": {
+        "Description": "Response to PEW Topline, Ideological Consistency Scale, and Carsey & Harden (2010). Immigrants today strengthen our country because of their hard work and talents vs. Immigrants today are a burden on our country because they take our jobs, housing and health care."
+    },
+    "PI7": {
+        "Description": "Response to PEW Topline, Ideological Consistency Scale, and Carsey & Harden (2010). The best way to ensure peace is through military strength vs. Good diplomacy is the best way to ensure peace."
+    },
+    "PI8": {
+        "Description": "Response to PEW Topline, Ideological Consistency Scale, and Carsey & Harden (2010). Business corporations make too much profit vs. Most corporations make a fair and reasonable amount of profit."
+    },
+    "PI9": {
+        "Description": "Response to PEW Topline, Ideological Consistency Scale, and Carsey & Harden (2010). Homosexuality should be discouraged by society vs. Homosexuality should be accepted by society."
+    },
+    "PI10": {
+        "Description": "Response to PEW Topline, Ideological Consistency Scale, and Carsey & Harden (2010). Stricter environmental laws and regulations cost too many jobs and hurt the economy vs. Stricter environmental laws and regulations are worth the cost."
+    },
+    "PI11_1": {
+        "Description": "Feeling thermometer (0 very cold; 100 very warm): Republicans."
+    },
+    "PI11_2": {
+        "Description": "Feeling thermometer (0 very cold; 100 very warm): Democrats."
+    },
+    "PI11_3": {
+        "Description": "Feeling thermometer (0 very cold; 100 very warm): Elected officials in Washington."
+    },
+    "PI11_4": {
+        "Description": "Feeling thermometer (0 very cold; 100 very warm): People in the military."
+    },
+    "PI11_5": {
+        "Description": "Feeling thermometer (0 very cold; 100 very warm): Evangelical Christians."
+    },
+    "PI11_6": {
+        "Description": "Feeling thermometer (0 very cold; 100 very warm): Atheists."
+    },
+    "PI12": {
+        "Description": "Compared to other Americans, would you say Republicans are...NET More moral; A lot more moral; Somewhat more moral; About the same;  NET More IMmoral;  Somewhat more IMmoral; A lot more IMmoral."
+    },
+    "PI13": {
+        "Description": "Compared to other Americans, would you say Republicans are...NET More hard-working; A lot more hard-working; Somewhat more hard-working; About the same; NET More lazy; Somewhat more lazy; A lot more lazy."
+    },
+    "PI14": {
+        "Description": "Compared to other Americans, would you say Republicans are...NET More open-minded; A lot more open-minded; Somewhat more open-minded; About the same; NET More closed-minded; Somewhat more closed-minded; A lot more closed-minded."
+    },
+    "PI15": {
+        "Description": "Compared to other Americans, would you say Republicans are...NET More honest; A lot more honest;  Somewhat more honest; About the same;  NET More DIShonest;  Somewhat more DIShonest;  A lot more DIShonest."
+    },
+    "PI16": {
+        "Description": "Compared to other Americans, would you say Republicans are...NET More intelligent;  A lot more intelligent;  Somewhat more intelligent;  About the same;  NET More UNintelligent;  Somewhat more UNintelligent;  A lot more UNintelligent."
+    },
+    "PI17": {
+        "Description": "Compared to other Americans, would you say Democrats are...NET More moral; A lot more moral; Somewhat more moral; About the same;  NET More IMmoral;  Somewhat more IMmoral; A lot more IMmoral."
+    },
+    "PI18": {
+        "Description": "Compared to other Americans, would you say Democrats are...NET More hard-working; A lot more hard-working; Somewhat more hard-working; About the same; NET More lazy; Somewhat more lazy; A lot more lazy."
+    },
+    "PI19": {
+        "Description": "Compared to other Americans, would you say Democrats are...NET More open-minded; A lot more open-minded; Somewhat more open-minded; About the same; NET More closed-minded; Somewhat more closed-minded; A lot more closed-minded."
+    },
+    "PI20": {
+        "Description": "Compared to other Americans, would you say Republicans are...NET More honest; A lot more honest;  Somewhat more honest; About the same;  NET More DIShonest;  Somewhat more DIShonest;  A lot more DIShonest."
+    },
+    "PI21": {
+        "Description": "Compared to other Americans, would you say Republicans are...NET More intelligent;  A lot more intelligent;  Somewhat more intelligent;  About the same;  NET More UNintelligent;  Somewhat more UNintelligent;  A lot more UNintelligent."
+    },
+    "MFQ2-1_1": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 1. Caring for people who have suffered is an important virtue."
+    },
+    "MFQ2-1_2": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 2. The world would be a better place if everyone made the same amount of money."
+    },
+    "MFQ2-1_3": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 3. I think people who are more hard-working should end up with more money."
+    },
+    "MFQ2-1_4": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 4. I think children should be taught to be loyal to their country."
+    },
+    "MFQ2-1_5": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 5. I think it is important for societies to cherish their traditional values."
+    },
+    "MFQ2-1_6": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 6. I think the human body should be treated like a temple, housing something sacred within."
+    },
+    "MFQ2-1_7": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 7. I believe that compassion for those who are suffering is one of the most crucial virtues."
+    },
+    "MFQ2-1_8": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 8. Our society would have fewer problems if people had the same income."
+    },
+    "MFQ2-1_9": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 9. I think people should be rewarded in proportion to what they contribute."
+    },
+    "MFQ2-1_10": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 10. It upsets me when people have no loyalty to their country."
+    },
+    "MFQ2-2_1": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 11. I feel that most traditions serve a valuable function in keeping society orderly."
+    },
+    "MFQ2-2_2": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 12. I believe chastity is an important virtue."
+    },
+    "MFQ2-2_3": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 13. We should all care for people who are in emotional pain."
+    },
+    "MFQ2-2_4": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 14. I believe that everyone should be given the same quantity of resources in life."
+    },
+    "MFQ2-2_5": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 15. The effort a worker puts into a job ought to be reflected in the size of a raise they receive."
+    },
+    "MFQ2-2_6": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 16. Everyone should love their own community."
+    },
+    "MFQ2-2_7": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 17. I think obedience to parents is an important virtue."
+    },
+    "MFQ2-2_8": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 18. It upsets me when people use foul language like it is nothing."
+    },
+    "MFQ2-2_9": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 19. I am empathetic toward those people who have suffered in their lives."
+    },
+    "MFQ2-2_10": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 20. I believe it would be ideal if everyone in society wound up with roughly the same amount of money."
+    },
+    "MFQ2-3_1": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 21. It makes me happy when people are recognized on their merits."
+    },
+    "MFQ2-3_2": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 22. Everyone should defend their country, if called upon."
+    },
+    "MFQ2-3_3": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 23. We all need to learn from our elders."
+    },
+    "MFQ2-3_4": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 24. If I found out that an acquaintance had an unusual but harmless sexual fetish I would feel uneasy about them."
+    },
+    "MFQ2-3_5": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 25. Everyone should try to comfort people who are going through something hard."
+    },
+    "MFQ2-3_6": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 26. When people work together toward a common goal, they should share the rewards equally, even if some worked harder on it."
+    },
+    "MFQ2-3_7": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 27. In a fair society, those who work hard should live with higher standards of living."
+    },
+    "MFQ2-3_8": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 28. Everyone should feel proud when a person in their community wins in an international competition."
+    },
+    "MFQ2-3_9": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 29. I believe that one of the most important values to teach children is to have respect for authority."
+    },
+    "MFQ2-3_10": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 30. People should try to use natural medicines rather than chemically identical human-made ones."
+    },
+    "MFQ2-4_1": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 31. It pains me when I see someone ignoring the needs of another human being."
+    },
+    "MFQ2-4_2": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 32. I get upset when some people have a lot more money than others in my country."
+    },
+    "MFQ2-4_3": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 33. I feel good when I see cheaters get caught and punished."
+    },
+    "MFQ2-4_4": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 34. I believe the strength of a sports team comes from the loyalty of its members to each other."
+    },
+    "MFQ2-4_5": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 35. I think having a strong leader is good for society."
+    },
+    "MFQ2-4_6": {
+        "Description": "For each of the statements below, please indicate how well each statement describes you or your opinions. - 36. I admire people who keep their virginity until marriage."
+    },
+    "mfq_care_avg": {
+        "Description": "Average score for the care/harm foundation in the Moral Foundations Questionnaire2 (MFQ2)."
+    },
+    "mfq_equality_avg": {
+        "Description": "Average score for the equality foundation in the MFQ2."
+    },
+    "mfq_proportionality_avg": {
+        "Description": "Average score for the equality foundation in the MFQ2."
+    },
+    "mfq_loyalty_avg": {
+        "Description": "Average score for the loyalty/betrayal foundation in the MFQ2."
+    },
+    "mfq_authority_avg": {
+        "Description": "Average score for the authority/subversion foundation in the MFQ2."
+    },
+    "mfq_sanctity_avg": {
+        "Description": "Average score for the sanctity/degradation foundation in the MFQ2."
+    },
+    "MAC1_1": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone acted to protect their family."
+    },
+    "MAC1_2": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone helped a member of their family."
+    },
+    "MAC1_3": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone\u2019s action showed love for their family."
+    },
+    "MAC1_4": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone acted in a way that helped their community."
+    },
+    "MAC1_5": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone helped a member of their community."
+    },
+    "MAC1_6": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone worked to unite a community."
+    },
+    "MAC1_7": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone did what they had agreed to do."
+    },
+    "MAC1_8": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone kept their promise."
+    },
+    "MAC1_9": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone proved that they could be trusted."
+    },
+    "MAC2_1": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone acted heroically."
+    },
+    "MAC2_2": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone showed courage in the face of adversity."
+    },
+    "MAC2_3": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone was brave."
+    },
+    "MAC2_4": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone deferred to those in authority."
+    },
+    "MAC2_5": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone disobeyed orders."
+    },
+    "MAC2_6": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone showed respect for authority."
+    },
+    "MAC2_7": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone kept the best part for themselves."
+    },
+    "MAC2_8": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone showed favouritism."
+    },
+    "MAC2_9": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone took more than others."
+    },
+    "MAC2_10": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone vandalised another person\u2019s property."
+    },
+    "MAC2_11": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone kept something that didn\u2019t belong to them."
+    },
+    "MAC2_12": {
+        "Description": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? - Whether or not someone\u2019s property was damaged."
+    },
+    "MAC3_1": {
+        "Description": "To what extent do you agree with the following statements? - People should be willing to do anything to help a member of their family."
+    },
+    "MAC3_2": {
+        "Description": "To what extent do you agree with the following statements? - You should always be loyal to your family."
+    },
+    "MAC3_3": {
+        "Description": "To what extent do you agree with the following statements? - You should always put the interests of your family first."
+    },
+    "MAC3_4": {
+        "Description": "To what extent do you agree with the following statements? - People have an obligation to help members of their community."
+    },
+    "MAC3_5": {
+        "Description": "To what extent do you agree with the following statements? - It\u2019s important for individuals to play an active role in their communities."
+    },
+    "MAC3_6": {
+        "Description": "To what extent do you agree with the following statements? - You should try to be a useful member of society."
+    },
+    "MAC3_7": {
+        "Description": "To what extent do you agree with the following statements? - You have an obligation to help those who have helped you."
+    },
+    "MAC3_8": {
+        "Description": "To what extent do you agree with the following statements? - You should always make amends for the things you have done wrong."
+    },
+    "MAC3_9": {
+        "Description": "To what extent do you agree with the following statements? - You should always return a favour if you can."
+    },
+    "MAC4_1": {
+        "Description": "To what extent do you agree with the following statements? - Courage in the face of adversity is the most admirable trait."
+    },
+    "MAC4_2": {
+        "Description": "To what extent do you agree with the following statements? - Society should do more to honour its heroes."
+    },
+    "MAC4_3": {
+        "Description": "To what extent do you agree with the following statements? - To be willing to lay down your life for your country is the height of bravery."
+    },
+    "MAC4_4": {
+        "Description": "To what extent do you agree with the following statements? - People should always defer to their superiors."
+    },
+    "MAC4_5": {
+        "Description": "To what extent do you agree with the following statements? - Society would be better if people were more obedient to authority."
+    },
+    "MAC4_6": {
+        "Description": "To what extent do you agree with the following statements? - You should respect people who are older than you."
+    },
+    "MAC4_7": {
+        "Description": "To what extent do you agree with the following statements? - Everyone should be treated the same."
+    },
+    "MAC4_8": {
+        "Description": "To what extent do you agree with the following statements? - Everyone's rights are equally important."
+    },
+    "MAC4_9": {
+        "Description": "To what extent do you agree with the following statements? - The current levels of inequality in society are unfair."
+    },
+    "MAC4_10": {
+        "Description": "To what extent do you agree with the following statements? - It\u2019s acceptable to steal food if you are starving."
+    },
+    "MAC4_11": {
+        "Description": "To what extent do you agree with the following statements? - It\u2019s ok to keep valuable items that you find, rather than try to locate the rightful owner."
+    },
+    "MAC4_12": {
+        "Description": "To what extent do you agree with the following statements? - Sometimes you are entitled to take things you need from other people."
+    },
+    "macq_family_avg": {
+        "Description": "Average score for the family foundation in the MACQ."
+    },
+    "macq_group_avg": {
+        "Description": "Average score for the group foundation in the MACQ."
+    },
+    "macq_reciprocity_avg": {
+        "Description": "Average score for the reciprocity foundation in the MACQ."
+    },
+    "macq_heroism_avg": {
+        "Description": "Average score for the heroism foundation in the MACQ."
+    },
+    "macq_deference_avg": {
+        "Description": "Average score for the deference foundation in the MACQ."
+    },
+    "macq_fairness_avg": {
+        "Description": "Average score for the fairness foundation in the MACQ."
+    },
+    "macq_property_avg": {
+        "Description": "Average score for the property foundation in the MACQ."
+    },
+    "severity_care_emotional06": {
+        "Description": "Response to the severity rating for vignette care_emotional06."
+    },
+    "severity_social_norms06": {
+        "Description": "Response to the severity rating for vignette social_norms06."
+    },
+    "severity_social_norms13": {
+        "Description": "Response to the severity rating for vignette social_norms13."
+    },
+    "severity_care_physical04": {
+        "Description": "Response to the severity rating for vignette care_physical04."
+    },
+    "severity_care_physical14": {
+        "Description": "Response to the severity rating for vignette care_physical14."
+    },
+    "severity_sanctity07": {
+        "Description": "Response to the severity rating for vignette sanctity07."
+    },
+    "severity_sanctity12": {
+        "Description": "Response to the severity rating for vignette sanctity12."
+    },
+    "severity_authority05": {
+        "Description": "Response to the severity rating for vignette authority05."
+    },
+    "severity_authority11": {
+        "Description": "Response to the severity rating for vignette authority11."
+    },
+    "severity_fairness01": {
+        "Description": "Response to the severity rating for vignette fairness01."
+    },
+    "severity_fairness06": {
+        "Description": "Response to the severity rating for vignette fairness06."
+    },
+    "severity_fairness15": {
+        "Description": "Response to the severity rating for vignette fairness15."
+    },
+    "severity_loyalty03": {
+        "Description": "Response to the severity rating for vignette loyalty03."
+    },
+    "severity_loyalty12": {
+        "Description": "Response to the severity rating for vignette loyalty12."
+    },
+    "severity_family05": {
+        "Description": "Response to the severity rating for vignette family05."
+    },
+    "severity_family01": {
+        "Description": "Response to the severity rating for vignette family01."
+    },
+    "severity_reciprocity05": {
+        "Description": "Response to the severity rating for vignette reciprocity05."
+    },
+    "severity_heroism01": {
+        "Description": "Response to the severity rating for vignette heroism01."
+    },
+    "severity_heroism03": {
+        "Description": "Response to the severity rating for vignette heroism03."
+    },
+    "severity_property04": {
+        "Description": "Response to the severity rating for vignette property04."
+    },
+    "severity_property01": {
+        "Description": "Response to the severity rating for vignette property01."
+    },
+    "severity_group05": {
+        "Description": "Response to the severity rating for vignette group05."
+    },
+    "severity_deference05": {
+        "Description": "Response to the severity rating for vignette deference05."
+    },
+    "severity_deference03": {
+        "Description": "Response to the severity rating for vignette deference03."
+    },
+    "severity_care_physical08": {
+        "Description": "Response to the severity rating for vignette care_physical08."
+    },
+    "severity_sanctity01": {
+        "Description": "Response to the severity rating for vignette sanctity01."
+    },
+    "severity_sanctity08": {
+        "Description": "Response to the severity rating for vignette sanctity08."
+    },
+    "severity_sanctity13": {
+        "Description": "Response to the severity rating for vignette sanctity13."
+    },
+    "severity_authority07": {
+        "Description": "Response to the severity rating for vignette authority07."
+    },
+    "severity_authority12": {
+        "Description": "Response to the severity rating for vignette authority12."
+    },
+    "severity_fairness04": {
+        "Description": "Response to the severity rating for vignette fairness04."
+    },
+    "severity_fairness12": {
+        "Description": "Response to the severity rating for vignette fairness12."
+    },
+    "severity_loyalty01": {
+        "Description": "Response to the severity rating for vignette loyalty01."
+    },
+    "severity_loyalty07": {
+        "Description": "Response to the severity rating for vignette loyalty07."
+    },
+    "severity_loyalty15": {
+        "Description": "Response to the severity rating for vignette loyalty15."
+    },
+    "severity_family03": {
+        "Description": "Response to the severity rating for vignette family03."
+    },
+    "severity_reciprocity04": {
+        "Description": "Response to the severity rating for vignette reciprocity04."
+    },
+    "severity_reciprocity01": {
+        "Description": "Response to the severity rating for vignette reciprocity01."
+    },
+    "severity_heroism04": {
+        "Description": "Response to the severity rating for vignette heroism04."
+    },
+    "severity_heroism02": {
+        "Description": "Response to the severity rating for vignette heroism02."
+    },
+    "severity_property05": {
+        "Description": "Response to the severity rating for vignette property05."
+    },
+    "severity_group02": {
+        "Description": "Response to the severity rating for vignette group02."
+    },
+    "severity_group01": {
+        "Description": "Response to the severity rating for vignette group01."
+    },
+    "severity_deference04": {
+        "Description": "Response to the severity rating for vignette deference04."
+    },
+    "severity_deference01": {
+        "Description": "Response to the severity rating for vignette deference01."
+    },
+    "severity_social_norms14": {
+        "Description": "Response to the severity rating for vignette social_norms14."
+    },
+    "severity_social_norms07": {
+        "Description": "Response to the severity rating for vignette social_norms07."
+    },
+    "severity_social_norms03": {
+        "Description": "Response to the severity rating for vignette social_norms03."
+    },
+    "severity_care_emotional15": {
+        "Description": "Response to the severity rating for vignette care_emotional15."
+    },
+    "severity_care_physical13": {
+        "Description": "Response to the severity rating for vignette care_physical13."
+    },
+    "severity_sanctity05": {
+        "Description": "Response to the severity rating for vignette sanctity05."
+    },
+    "severity_sanctity11": {
+        "Description": "Response to the severity rating for vignette sanctity11."
+    },
+    "severity_authority03": {
+        "Description": "Response to the severity rating for vignette authority03."
+    },
+    "severity_authority08": {
+        "Description": "Response to the severity rating for vignette authority08."
+    },
+    "severity_authority13": {
+        "Description": "Response to the severity rating for vignette authority13."
+    },
+    "severity_fairness16": {
+        "Description": "Response to the severity rating for vignette fairness16."
+    },
+    "severity_fairness13": {
+        "Description": "Response to the severity rating for vignette fairness13."
+    },
+    "severity_loyalty02": {
+        "Description": "Response to the severity rating for vignette loyalty02."
+    },
+    "severity_loyalty10": {
+        "Description": "Response to the severity rating for vignette loyalty10."
+    },
+    "severity_family04": {
+        "Description": "Response to the severity rating for vignette family04."
+    },
+    "severity_family02": {
+        "Description": "Response to the severity rating for vignette family02."
+    },
+    "severity_reciprocity03": {
+        "Description": "Response to the severity rating for vignette reciprocity03."
+    },
+    "severity_reciprocity02": {
+        "Description": "Response to the severity rating for vignette reciprocity02."
+    },
+    "severity_heroism05": {
+        "Description": "Response to the severity rating for vignette heroism05."
+    },
+    "severity_property03": {
+        "Description": "Response to the severity rating for vignette property03."
+    },
+    "severity_property02": {
+        "Description": "Response to the severity rating for vignette property02."
+    },
+    "severity_group03": {
+        "Description": "Response to the severity rating for vignette group03."
+    },
+    "severity_group04": {
+        "Description": "Response to the severity rating for vignette group04."
+    },
+    "severity_deference02": {
+        "Description": "Response to the severity rating for vignette deference02."
+    },
+    "severity_care_emotional05": {
+        "Description": "Response to the severity rating for vignette care_emotional05."
+    },
+    "severity_social_norms10": {
+        "Description": "Response to the severity rating for vignette social_norms10."
+    },
+    "severity_social_norms05": {
+        "Description": "Response to the severity rating for vignette social_norms05."
+    },
+    "believe_care_emotional06": {
+        "Description": "Response to the believability rating for vignette care_emotional06."
+    },
+    "believe_social_norms06": {
+        "Description": "Response to the believability rating for vignette social_norms06."
+    },
+    "believe_social_norms13": {
+        "Description": "Response to the believability rating for vignette social_norms13."
+    },
+    "believe_care_physical04": {
+        "Description": "Response to the believability rating for vignette care_physical04."
+    },
+    "believe_care_physical14": {
+        "Description": "Response to the believability rating for vignette care_physical14."
+    },
+    "believe_sanctity07": {
+        "Description": "Response to the believability rating for vignette sanctity07."
+    },
+    "believe_sanctity12": {
+        "Description": "Response to the believability rating for vignette sanctity12."
+    },
+    "believe_authority05": {
+        "Description": "Response to the believability rating for vignette authority05."
+    },
+    "believe_authority11": {
+        "Description": "Response to the believability rating for vignette authority11."
+    },
+    "believe_fairness01": {
+        "Description": "Response to the believability rating for vignette fairness01."
+    },
+    "believe_fairness06": {
+        "Description": "Response to the believability rating for vignette fairness06."
+    },
+    "believe_fairness15": {
+        "Description": "Response to the believability rating for vignette fairness15."
+    },
+    "believe_loyalty03": {
+        "Description": "Response to the believability rating for vignette loyalty03."
+    },
+    "believe_loyalty12": {
+        "Description": "Response to the believability rating for vignette loyalty12."
+    },
+    "believe_family05": {
+        "Description": "Response to the believability rating for vignette family05."
+    },
+    "believe_family01": {
+        "Description": "Response to the believability rating for vignette family01."
+    },
+    "believe_reciprocity05": {
+        "Description": "Response to the believability rating for vignette reciprocity05."
+    },
+    "believe_heroism01": {
+        "Description": "Response to the believability rating for vignette heroism01."
+    },
+    "believe_heroism03": {
+        "Description": "Response to the believability rating for vignette heroism03."
+    },
+    "believe_property04": {
+        "Description": "Response to the believability rating for vignette property04."
+    },
+    "believe_property01": {
+        "Description": "Response to the believability rating for vignette property01."
+    },
+    "believe_group05": {
+        "Description": "Response to the believability rating for vignette group05."
+    },
+    "believe_deference05": {
+        "Description": "Response to the believability rating for vignette deference05."
+    },
+    "believe_deference03": {
+        "Description": "Response to the believability rating for vignette deference03."
+    },
+    "believe_care_physical08": {
+        "Description": "Response to the believability rating for vignette care_physical08."
+    },
+    "believe_sanctity01": {
+        "Description": "Response to the believability rating for vignette sanctity01."
+    },
+    "believe_sanctity08": {
+        "Description": "Response to the believability rating for vignette sanctity08."
+    },
+    "believe_sanctity13": {
+        "Description": "Response to the believability rating for vignette sanctity13."
+    },
+    "believe_authority07": {
+        "Description": "Response to the believability rating for vignette authority07."
+    },
+    "believe_authority12": {
+        "Description": "Response to the believability rating for vignette authority12."
+    },
+    "believe_fairness04": {
+        "Description": "Response to the believability rating for vignette fairness04."
+    },
+    "believe_fairness12": {
+        "Description": "Response to the believability rating for vignette fairness12."
+    },
+    "believe_loyalty01": {
+        "Description": "Response to the believability rating for vignette loyalty01."
+    },
+    "believe_loyalty07": {
+        "Description": "Response to the believability rating for vignette loyalty07."
+    },
+    "believe_loyalty15": {
+        "Description": "Response to the believability rating for vignette loyalty15."
+    },
+    "believe_family03": {
+        "Description": "Response to the believability rating for vignette family03."
+    },
+    "believe_reciprocity04": {
+        "Description": "Response to the believability rating for vignette reciprocity04."
+    },
+    "believe_reciprocity01": {
+        "Description": "Response to the believability rating for vignette reciprocity01."
+    },
+    "believe_heroism04": {
+        "Description": "Response to the believability rating for vignette heroism04."
+    },
+    "believe_heroism02": {
+        "Description": "Response to the believability rating for vignette heroism02."
+    },
+    "believe_property05": {
+        "Description": "Response to the believability rating for vignette property05."
+    },
+    "believe_group02": {
+        "Description": "Response to the believability rating for vignette group02."
+    },
+    "believe_group01": {
+        "Description": "Response to the believability rating for vignette group01."
+    },
+    "believe_deference04": {
+        "Description": "Response to the believability rating for vignette deference04."
+    },
+    "believe_deference01": {
+        "Description": "Response to the believability rating for vignette deference01."
+    },
+    "believe_social_norms14": {
+        "Description": "Response to the believability rating for vignette social_norms14."
+    },
+    "believe_social_norms07": {
+        "Description": "Response to the believability rating for vignette social_norms07."
+    },
+    "believe_social_norms03": {
+        "Description": "Response to the believability rating for vignette social_norms03."
+    },
+    "believe_care_emotional15": {
+        "Description": "Response to the believability rating for vignette care_emotional15."
+    },
+    "believe_care_physical13": {
+        "Description": "Response to the believability rating for vignette care_physical13."
+    },
+    "believe_sanctity05": {
+        "Description": "Response to the believability rating for vignette sanctity05."
+    },
+    "believe_sanctity11": {
+        "Description": "Response to the believability rating for vignette sanctity11."
+    },
+    "believe_authority03": {
+        "Description": "Response to the believability rating for vignette authority03."
+    },
+    "believe_authority08": {
+        "Description": "Response to the believability rating for vignette authority08."
+    },
+    "believe_authority13": {
+        "Description": "Response to the believability rating for vignette authority13."
+    },
+    "believe_fairness16": {
+        "Description": "Response to the believability rating for vignette fairness16."
+    },
+    "believe_fairness13": {
+        "Description": "Response to the believability rating for vignette fairness13."
+    },
+    "believe_loyalty02": {
+        "Description": "Response to the believability rating for vignette loyalty02."
+    },
+    "believe_loyalty10": {
+        "Description": "Response to the believability rating for vignette loyalty10."
+    },
+    "believe_family04": {
+        "Description": "Response to the believability rating for vignette family04."
+    },
+    "believe_family02": {
+        "Description": "Response to the believability rating for vignette family02."
+    },
+    "believe_reciprocity03": {
+        "Description": "Response to the believability rating for vignette reciprocity03."
+    },
+    "believe_reciprocity02": {
+        "Description": "Response to the believability rating for vignette reciprocity02."
+    },
+    "believe_heroism05": {
+        "Description": "Response to the believability rating for vignette heroism05."
+    },
+    "believe_property03": {
+        "Description": "Response to the believability rating for vignette property03."
+    },
+    "believe_property02": {
+        "Description": "Response to the believability rating for vignette property02."
+    },
+    "believe_group03": {
+        "Description": "Response to the believability rating for vignette group03."
+    },
+    "believe_group04": {
+        "Description": "Response to the believability rating for vignette group04."
+    },
+    "believe_deference02": {
+        "Description": "Response to the believability rating for vignette deference02."
+    },
+    "believe_care_emotional05": {
+        "Description": "Response to the believability rating for vignette care_emotional05."
+    },
+    "believe_social_norms10": {
+        "Description": "Response to the believability rating for vignette social_norms10."
+    },
+    "believe_social_norms05": {
+        "Description": "Response to the believability rating for vignette social_norms05."
+    },
+    "exp_care_emotional06": {
+        "Description": "Response to the daily experience for vignette care_emotional06."
+    },
+    "exp_social_norms06": {
+        "Description": "Response to the daily experience for vignette social_norms06."
+    },
+    "exp_social_norms13": {
+        "Description": "Response to the daily experience for vignette social_norms13."
+    },
+    "exp_care_physical04": {
+        "Description": "Response to the daily experience for vignette care_physical04."
+    },
+    "exp_care_physical14": {
+        "Description": "Response to the daily experience for vignette care_physical14."
+    },
+    "exp_sanctity07": {
+        "Description": "Response to the daily experience for vignette sanctity07."
+    },
+    "exp_sanctity12": {
+        "Description": "Response to the daily experience for vignette sanctity12."
+    },
+    "exp_authority05": {
+        "Description": "Response to the daily experience for vignette authority05."
+    },
+    "exp_authority11": {
+        "Description": "Response to the daily experience for vignette authority11."
+    },
+    "exp_fairness01": {
+        "Description": "Response to the daily experience for vignette fairness01."
+    },
+    "exp_fairness06": {
+        "Description": "Response to the daily experience for vignette fairness06."
+    },
+    "exp_fairness15": {
+        "Description": "Response to the daily experience for vignette fairness15."
+    },
+    "exp_loyalty03": {
+        "Description": "Response to the daily experience for vignette loyalty03."
+    },
+    "exp_loyalty12": {
+        "Description": "Response to the daily experience for vignette loyalty12."
+    },
+    "exp_family05": {
+        "Description": "Response to the daily experience for vignette family05."
+    },
+    "exp_family01": {
+        "Description": "Response to the daily experience for vignette family01."
+    },
+    "exp_reciprocity05": {
+        "Description": "Response to the daily experience for vignette reciprocity05."
+    },
+    "exp_heroism01": {
+        "Description": "Response to the daily experience for vignette heroism01."
+    },
+    "exp_heroism03": {
+        "Description": "Response to the daily experience for vignette heroism03."
+    },
+    "exp_property04": {
+        "Description": "Response to the daily experience for vignette property04."
+    },
+    "exp_property01": {
+        "Description": "Response to the daily experience for vignette property01."
+    },
+    "exp_group05": {
+        "Description": "Response to the daily experience for vignette group05."
+    },
+    "exp_deference05": {
+        "Description": "Response to the daily experience for vignette deference05."
+    },
+    "exp_deference03": {
+        "Description": "Response to the daily experience for vignette deference03."
+    },
+    "exp_care_physical08": {
+        "Description": "Response to the daily experience for vignette care_physical08."
+    },
+    "exp_sanctity01": {
+        "Description": "Response to the daily experience for vignette sanctity01."
+    },
+    "exp_sanctity08": {
+        "Description": "Response to the daily experience for vignette sanctity08."
+    },
+    "exp_sanctity13": {
+        "Description": "Response to the daily experience for vignette sanctity13."
+    },
+    "exp_authority07": {
+        "Description": "Response to the daily experience for vignette authority07."
+    },
+    "exp_authority12": {
+        "Description": "Response to the daily experience for vignette authority12."
+    },
+    "exp_fairness04": {
+        "Description": "Response to the daily experience for vignette fairness04."
+    },
+    "exp_fairness12": {
+        "Description": "Response to the daily experience for vignette fairness12."
+    },
+    "exp_loyalty01": {
+        "Description": "Response to the daily experience for vignette loyalty01."
+    },
+    "exp_loyalty07": {
+        "Description": "Response to the daily experience for vignette loyalty07."
+    },
+    "exp_loyalty15": {
+        "Description": "Response to the daily experience for vignette loyalty15."
+    },
+    "exp_family03": {
+        "Description": "Response to the daily experience for vignette family03."
+    },
+    "exp_reciprocity04": {
+        "Description": "Response to the daily experience for vignette reciprocity04."
+    },
+    "exp_reciprocity01": {
+        "Description": "Response to the daily experience for vignette reciprocity01."
+    },
+    "exp_heroism04": {
+        "Description": "Response to the daily experience for vignette heroism04."
+    },
+    "exp_heroism02": {
+        "Description": "Response to the daily experience for vignette heroism02."
+    },
+    "exp_property05": {
+        "Description": "Response to the daily experience for vignette property05."
+    },
+    "exp_group02": {
+        "Description": "Response to the daily experience for vignette group02."
+    },
+    "exp_group01": {
+        "Description": "Response to the daily experience for vignette group01."
+    },
+    "exp_deference04": {
+        "Description": "Response to the daily experience for vignette deference04."
+    },
+    "exp_deference01": {
+        "Description": "Response to the daily experience for vignette deference01."
+    },
+    "exp_social_norms14": {
+        "Description": "Response to the daily experience for vignette social_norms14."
+    },
+    "exp_social_norms07": {
+        "Description": "Response to the daily experience for vignette social_norms07."
+    },
+    "exp_social_norms03": {
+        "Description": "Response to the daily experience for vignette social_norms03."
+    },
+    "exp_care_emotional15": {
+        "Description": "Response to the daily experience for vignette care_emotional15."
+    },
+    "exp_care_physical13": {
+        "Description": "Response to the daily experience for vignette care_physical13."
+    },
+    "exp_sanctity05": {
+        "Description": "Response to the daily experience for vignette sanctity05."
+    },
+    "exp_sanctity11": {
+        "Description": "Response to the daily experience for vignette sanctity11."
+    },
+    "exp_authority03": {
+        "Description": "Response to the daily experience for vignette authority03."
+    },
+    "exp_authority08": {
+        "Description": "Response to the daily experience for vignette authority08."
+    },
+    "exp_authority13": {
+        "Description": "Response to the daily experience for vignette authority13."
+    },
+    "exp_fairness16": {
+        "Description": "Response to the daily experience for vignette fairness16."
+    },
+    "exp_fairness13": {
+        "Description": "Response to the daily experience for vignette fairness13."
+    },
+    "exp_loyalty02": {
+        "Description": "Response to the daily experience for vignette loyalty02."
+    },
+    "exp_loyalty10": {
+        "Description": "Response to the daily experience for vignette loyalty10."
+    },
+    "exp_family04": {
+        "Description": "Response to the daily experience for vignette family04."
+    },
+    "exp_family02": {
+        "Description": "Response to the daily experience for vignette family02."
+    },
+    "exp_reciprocity03": {
+        "Description": "Response to the daily experience for vignette reciprocity03."
+    },
+    "exp_reciprocity02": {
+        "Description": "Response to the daily experience for vignette reciprocity02."
+    },
+    "exp_heroism05": {
+        "Description": "Response to the daily experience for vignette heroism05."
+    },
+    "exp_property03": {
+        "Description": "Response to the daily experience for vignette property03."
+    },
+    "exp_property02": {
+        "Description": "Response to the daily experience for vignette property02."
+    },
+    "exp_group03": {
+        "Description": "Response to the daily experience for vignette group03."
+    },
+    "exp_group04": {
+        "Description": "Response to the daily experience for vignette group04."
+    },
+    "exp_deference02": {
+        "Description": "Response to the daily experience for vignette deference02."
+    },
+    "exp_care_emotional05": {
+        "Description": "Response to the daily experience for vignette care_emotional05."
+    },
+    "exp_social_norms10": {
+        "Description": "Response to the daily experience for vignette social_norms10."
+    },
+    "exp_social_norms05": {
+        "Description": "Response to the daily experience for vignette social_norms05."
+    }
+}

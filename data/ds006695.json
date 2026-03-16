@@ -1,0 +1,18 @@
+{
+  "participant_id": {
+    "LongName": "Participant ID",
+    "Description": "Event onset"
+  },
+  "sex": {
+    "LongName": "Gender",
+    "Description": "Gender"
+  },
+  "age": {
+    "LongName": "Age",
+    "Description": "Age in years"
+  },
+  "ethnicity": {
+    "LongName": "Ethnicity",
+    "Description": "Ethnicity"
+  }
+}

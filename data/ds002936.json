@@ -1,0 +1,15 @@
+{
+"participant_id": {"Description": "Arbitrary ID of the participants"},
+"Diagn": {"Description": "The participant Diagnose, 1 means healthy control."},
+"Gender": {
+  "Description": "sex of the participant",
+  "Levels": {
+      "1": "male",
+      "0": "female"
+  }
+},
+"Age": {
+  "Description": "age of the participant",
+  "Units": "years"
+}
+}

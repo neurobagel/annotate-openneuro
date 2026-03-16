@@ -1,0 +1,20 @@
+participant_id	species	age	sex	handedness
+sub-01	homo sapiens	24	M	R
+sub-02	homo sapiens	22	M	R
+sub-04	homo sapiens	20	F	L
+sub-05	homo sapiens	22	F	R
+sub-06	homo sapiens	22	F	R
+sub-07	homo sapiens	24	F	R
+sub-08	homo sapiens	22	F	R
+sub-09	homo sapiens	27	M	R
+sub-10	homo sapiens	20	M	R
+sub-11	homo sapiens	21	F	R
+sub-12	homo sapiens	20	M	R
+sub-14	homo sapiens	22	M	R
+sub-15	homo sapiens	22	F	R
+sub-16	homo sapiens	21	F	R
+sub-17	homo sapiens	22	F	R
+sub-18	homo sapiens	21	F	R
+sub-19	homo sapiens	22	M	R
+sub-20	homo sapiens	22	M	R
+sub-21	homo sapiens	21	M	L

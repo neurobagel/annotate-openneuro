@@ -1,0 +1,122 @@
+participant_id	age	sex	handedness	group	fsiq	srs2_total_t	mabc_total_ss	cpt_response_style	ados_css	medication
+sub-10025	8.3	M	L	TD	121.0	44.0	5.0	74	n/a	No
+sub-10036	11.0	M	R	TD	85.0	48.0	8.0	40	n/a	No
+sub-10129	12.7	F	R	TD	115.0	54.0	8.0	38	n/a	No
+sub-10170	8.3	F	R	TD	94.0	60.0	6.0	42	n/a	No
+sub-10177	8.1	M	R	TD	118.0	47.0	8.0	65	n/a	No
+sub-10182	10.6	F	R	TD	84.0	55.0	7.0	51	n/a	No
+sub-10212	9.5	M	R	TD	97.0	45.0	7.0	54	n/a	No
+sub-10213	8.2	F	R	TD	111.0	46.0	10.0	74	n/a	No
+sub-10214	12.6	F	R	TD	105.0	43.0	4.0	51	n/a	No
+sub-10258	12.7	M	R	TD	114.0	54.0	5.0	62	n/a	No
+sub-10260	8.3	F	R	TD	88.0	41.0	2.0	53	n/a	No
+sub-10310	11.8	M	R	TD	81.0	53.0	10.0	26	n/a	No
+sub-10314	9.0	M	R	TD	105.0	41.0	10.0	58	n/a	No
+sub-10354	12.5	F	R	TD	97.0	59.0	7.0	59	n/a	No
+sub-10400	12.6	F	R	TD	106.0	52.0	3.0	58	n/a	No
+sub-10434	8.7	M	R	TD	92.0	46.0	5.0	52	n/a	No
+sub-10508	8.6	M	R	TD	n/a	n/a	n/a	n/a	n/a	Unknown
+sub-10520	11.0	M	R	TD	94.0	39.0	8.0	57	n/a	No
+sub-10741	11.7	F	R	TD	97.0	59.0	7.0	62	n/a	No
+sub-10747	9.2	M	R	TD	110.0	43.0	11.0	76	n/a	No
+sub-10752	11.9	M	R	TD	97.0	44.0	4.0	49	n/a	No
+sub-10764	12.9	F	R	TD	126.0	41.0	11.0	48	n/a	No
+sub-10769	12.0	M	R	TD	107.0	49.0	5.0	64	n/a	No
+sub-10777	9.0	M	R	TD	99.0	45.0	6.0	67	n/a	No
+sub-10787	12.9	F	R	TD	142.0	42.0	11.0	53	n/a	No
+sub-10788	8.6	M	A	TD	113.0	45.0	7.0	64	n/a	No
+sub-10790	11.1	M	R	TD	88.0	44.0	2.0	42	n/a	No
+sub-10809	11.6	F	L	TD	89.0	50.0	4.0	52	n/a	No
+sub-10825	8.5	M	R	TD	91.0	39.0	7.0	54	n/a	No
+sub-10842	8.2	F	R	TD	105.0	43.0	8.0	65	n/a	No
+sub-10846	8.3	M	R	TD	142.0	41.0	5.0	74	n/a	No
+sub-10862	12.6	F	R	TD	104.0	53.0	6.0	65	n/a	No
+sub-10876	11.5	M	R	TD	93.0	45.0	5.0	57	n/a	No
+sub-10883	10.7	F	R	TD	89.0	64.0	8.0	52	n/a	No
+sub-10918	12.4	M	R	TD	118.0	41.0	10.0	50	n/a	No
+sub-10959	8.0	F	R	TD	105.0	45.0	7.0	53	n/a	No
+sub-10970	9.0	F	R	TD	101.0	38.0	6.0	62	n/a	No
+sub-10990	10.1	F	R	TD	142.0	42.0	15.0	50	n/a	No
+sub-11038	10.7	M	R	ASD	108.0	100.0	n/a	70	15.0	No
+sub-11049	11.9	M	R	ASD	94.0	66.0	1.0	50	10.0	Albuterol 2.5 mg/3 ml sol,ventolyn 90mcg, claritin 10mg
+sub-11053	9.3	M	R	ASD	96.0	71.0	5.0	58	8.0	No
+sub-11057	9.7	F	R	ASD	88.0	78.0	3.0	79	10.0	No
+sub-11062	12.9	F	R	ASD	82.0	88.0	6.0	60	8.0	No
+sub-11074	10.7	M	R	ASD	98.0	63.0	3.0	56	6.0	No
+sub-11152	8.1	M	L	ASD	99.0	55.0	3.0	66	9.0	No
+sub-11161	11.0	M	R	ASD	69.0	80.0	5.0	35	10.0	No
+sub-11181	8.5	M	L	ASD	99.0	79.0	5.0	52	10.0	No
+sub-11204	11.3	M	R	ASD	94.0	57.0	11.0	45	7.0	No
+sub-11215	11.4	F	R	ASD	67.0	61.0	2.0	63	n/a	Oxybutynin 10mg 1x a day
+sub-11227	10.8	M	R	ASD	89.0	49.0	6.0	61	7.0	No
+sub-11229	11.2	M	R	ASD	110.0	64.0	10.0	36	6.0	No
+sub-11235	11.3	M	R	ASD	70.0	89.0	3.0	65	10.0	No
+sub-11242	12.7	M	A	ASD	67.0	64.0	3.0	57	9.0	No
+sub-11243	8.6	F	R	ASD	76.0	66.0	3.0	59	10.0	No
+sub-11244	12.0	F	R	ASD	111.0	96.0	5.0	62	n/a	No
+sub-11256	12.4	M	L	ASD	101.0	62.0	4.0	61	4.0	No
+sub-11274	11.3	M	R	ASD	119.0	71.0	6.0	40	7.0	No
+sub-11321	10.4	M	R	ASD	79.0	59.0	8.0	49	10.0	ADHD Meds
+sub-11323	10.0	M	R	ASD	75.0	91.0	2.0	61	n/a	Sertraline 2ml
+sub-11325	14.5	F	R	ASD	117.0	71.0	6.0	63	9.0	No
+sub-11335	10.7	M	R	ASD	95.0	75.0	5.0	63	8.0	Stimulant + SSRI
+sub-11386	12.4	F	R	ASD	87.0	88.0	2.0	55	9.0	No
+sub-11391	12.8	F	R	ASD	120.0	58.0	11.0	30	3.0	No
+sub-11423	10.6	F	R	ASD	100.0	56.0	8.0	70	7.0	No
+sub-11453	10.1	M	R	ASD	100.0	74.0	4.0	60	7.0	No
+sub-11497	10.7	M	R	ASD	89.0	71.0	3.0	44	6.0	No
+sub-11510	11.8	M	R	ASD	84.0	70.0	6.0	80	7.0	No
+sub-11535	9.3	M	R	ASD	96.0	94.0	n/a	65	8.0	Zoloft, Adderall
+sub-11547	13.0	M	R	ASD	69.0	71.0	6.0	74	9.0	No
+sub-11548	12.4	M	R	ASD	105.0	78.0	3.0	73	10.0	Methylphenidate
+sub-11551	11.7	M	R	ASD	71.0	64.0	2.0	39	8.0	No
+sub-11576	10.8	M	R	ASD	93.0	81.0	3.0	55	n/a	Asthma inhaler
+sub-11601	12.9	M	R	ASD	75.0	75.0	1.0	78	10.0	Focalin 5 mg
+sub-11613	10.2	M	R	ASD	100.0	90.0	5.0	33	4.0	No
+sub-11636	10.7	M	R	ASD	105.0	77.0	6.0	62	7.0	No
+sub-11638	10.9	M	L	ASD	98.0	83.0	6.0	45	5.0	No
+sub-11731	11.5	M	R	ASD	108.0	84.0	1.0	59	10.0	No
+sub-11755	8.1	M	R	ASD	76.0	74.0	1.0	60	9.0	No
+sub-11759	11.6	M	R	ASD	n/a	54.0	n/a	-	n/a	No
+sub-11776	11.1	M	R	ASD	118.0	58.0	9.0	45	8.0	Unknown
+sub-11777	12.5	M	R	ASD	106.0	78.0	4.0	56	n/a	No
+sub-11791	9.3	M	R	ASD	119.0	79.0	6.0	52	7.0	Methylphenidate
+sub-11831	8.0	F	R	ASD	112.0	61.0	3.0	76	5.0	No
+sub-11847	8.3	M	R	ASD	86.0	70.0	4.0	67	7.0	No
+sub-11868	10.1	M	R	ASD	133.0	64.0	8.0	62	7.0	No
+sub-11876	10.6	M	R	ASD	104.0	79.0	9.0	50	10.0	Methylphenidate
+sub-11883	10.8	M	R	ASD	109.0	76.0	5.0	57	9.0	No
+sub-11936	12.0	F	L	ASD	84.0	97.0	1.0	82	7.0	No
+sub-11955	8.5	M	L	ASD	84.0	70.0	2.0	51	6.0	No
+sub-11976	8.3	F	R	ASD	112.0	76.0	9.0	78	7.0	No
+sub-11990	11.7	M	R	ASD	109.0	51.0	6.0	54	7.0	n/a
+sub-11993	8.6	M	R	ASD	90.0	61.0	8.0	39	8.0	No
+sub-1501	8.1	F	R	ASD SIBLING	109.0	40.0	6.0	48	n/a	No
+sub-1502	9.3	F	R	ASD SIBLING	117.0	n/a	7.0	59	n/a	No
+sub-1507	11.3	M	R	ASD SIBLING	86.0	51.0	5.0	49	n/a	No
+sub-1513	9.7	M	R	ASD SIBLING	70.0	61.0	2.0	62	n/a	No
+sub-1514	12.6	M	R	ASD SIBLING	81.0	68.0	5.0	48	n/a	No
+sub-1522	11.6	M	R	ASD SIBLING	94.0	48.0	5.0	56	n/a	Meds for Allergy
+sub-1526	7.9	F	R	ASD SIBLING	127.0	49.0	6.0	35	n/a	No
+sub-1528	8.0	M	n/a	ASD SIBLING	n/a	n/a	n/a	n/a	n/a	n/a
+sub-1530	9.9	F	R	ASD SIBLING	119.0	38.0	5.0	71	n/a	Polyethelene Laxative
+sub-1536	12.1	F	R	ASD SIBLING	n/a	38.0	n/a	n/a	n/a	No
+sub-1537	12.6	M	R	ASD SIBLING	101.0	46.0	5.0	68	n/a	No
+sub-1546	10.1	F	R	ASD SIBLING	98.0	49.0	5.0	61	n/a	No
+sub-1551	9.2	M	R	ASD SIBLING	95.0	n/a	7.0	n/a	n/a	Focalin
+sub-1555	10.4	F	R	ASD SIBLING	104.0	54.0	8.0	45	n/a	No
+sub-1558	10.2	F	R	ASD SIBLING	101.0	50.0	5.0	56	n/a	No
+sub-1559	10.3	F	R	ASD SIBLING	111.0	42.0	5.0	42	n/a	No
+sub-1563	10.0	F	R	ASD SIBLING	114.0	n/a	7.0	56	n/a	No
+sub-1571	10.2	F	L	ASD SIBLING	86.0	44.0	6.0	51	n/a	No
+sub-1572	13.0	M	R	ASD SIBLING	88.0	52.0	7.0	64	n/a	No
+sub-1579	11.0	F	R	ASD SIBLING	120.0	48.0	7.0	44	n/a	Albuterol for asthma, Diphenhydramine for eczema
+sub-1582	11.6	F	R	ASD SIBLING	106.0	40.0	7.0	50	n/a	No
+sub-1583	10.7	F	R	ASD SIBLING	86.0	46.0	7.0	41	n/a	No
+sub-1584	10.9	M	L	ASD SIBLING	105.0	44.0	4.0	44	n/a	Methylphenidate
+sub-1588	9.5	M	R	ASD SIBLING	96.0	49.0	11.0	48	n/a	No
+sub-1589	12.9	F	R	ASD SIBLING	126.0	42.0	12.0	41	n/a	No
+sub-1590	10.0	F	R	ASD SIBLING	80.0	40.0	9.0	65	n/a	No
+sub-1593	8.3	M	R	ASD SIBLING	119.0	60.0	10.0	49	n/a	No
+sub-1598	11.8	M	R	ASD SIBLING	122.0	43.0	4.0	61	n/a	No
+sub-2713	9.9	M	R	ASD	65.0	76.0	3.0	90	n/a	No

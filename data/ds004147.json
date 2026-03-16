@@ -1,0 +1,33 @@
+{
+  "participant": {
+    "Description": "participant number as input by the tester"
+  },
+  "date": {
+    "Description": "date and time at start of task"
+  },
+  "sex": {
+    "Description": "self-reported sex of participant",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "handedness": {
+    "Description": "self-reported handedness of participant",
+    "Levels": {
+      "L": "left-handed",
+      "R": "right-handed",
+      "LR": "ambidextrous"
+    }
+  },
+  "age": {
+    "Description": "self-reported age of participant",
+    "Units": "years"
+  },
+  "order": {
+    "Description": "task order"
+  },
+  "stimuli": {
+    "Description": "feedback stimuli (win, loss)"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "age": {
+        "Description": "Age of the participant",
+        "Units": "Years"
+    },
+    "sex": {
+        "Description": "Self-reported sex of the participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    }
+}

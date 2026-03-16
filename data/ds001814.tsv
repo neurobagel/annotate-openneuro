@@ -1,0 +1,37 @@
+participant_id	gender	age	scanner	exclude	exclude_reason
+sub-hc001	M	32	Trio	False	n/a
+sub-hc002	M	27	Trio	False	n/a
+sub-hc003	M	31	Trio	True	No variability
+sub-hc004	M	52	Trio	False	n/a
+sub-hc005	M	36	Trio	False	n/a
+sub-hc006	M	31	Trio	False	n/a
+sub-hc007	M	55	Trio	False	n/a
+sub-hc008	M	30	Trio	False	n/a
+sub-hc009	M	32	Trio	False	n/a
+sub-hc010	M	49	Trio	False	n/a
+sub-hc011	F	32	Trio	False	n/a
+sub-hc012	F	35	Trio	True	No variability
+sub-hc013	M	45	Trio	False	n/a
+sub-hc014	M	30	Trio	True	Misisng DICOMS
+sub-hc015	M	46	Trio	False	n/a
+sub-hc016	M	36	Trio	True	No variability
+sub-hc017	F	37	Trio	False	n/a
+sub-hc018	F	33	Trio	True	Missing RT
+sub-hc019	M	39	Trio	False	n/a
+sub-hc020	M	37	Trio	True	No variability
+sub-hc021	M	30	Trio	False	n/a
+sub-hc022	M	30	Trio	False	n/a
+sub-hc023	F	33	Trio	False	n/a
+sub-hc024	M	43	Trio	True	No variability
+sub-hc025	F	42	Trio	False	n/a
+sub-hc026	F	28	Trio	False	n/a
+sub-hc027	M	50	Trio	False	n/a
+sub-hc028	F	23	Prisma	False	n/a
+sub-hc029	M	27	Prisma	False	n/a
+sub-hc030	F	24	Prisma	False	n/a
+sub-hc031	M	26	Prisma	False	n/a
+sub-hc032	F	23	Prisma	False	n/a
+sub-hc033	M	23	Prisma	False	n/a
+sub-hc034	F	26	Prisma	False	n/a
+sub-hc035	F	24	Prisma	True	Missing RT
+sub-hc036	F	25	Prisma	False	n/a

@@ -1,0 +1,20 @@
+{
+ "sex": {
+  "Description": "Sex of the participant (DICOM derived)",
+  "levels": {
+   "M": "male",
+   "F": "female"
+  }
+ },
+ "age": {
+  "Description": "Age of the participant (DICOM derived)",
+  "Units": "years"
+ },
+ "physio": {
+  "Description": "Device used for recording of physiological signals",
+  "Levels":  {
+   "a": "Siemens Physiological Recording Unit",
+   "b": "BrainProduct BrainAmp MR ExG"
+  }
+ }
+}

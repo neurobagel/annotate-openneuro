@@ -1,0 +1,22 @@
+{
+    
+    "group": {
+        "Description": "group",
+        "Levels": {
+            "exercise": "biofeedback training",
+            "control": "mobile games"
+        }
+    },
+   "gender": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    }
+     
+}

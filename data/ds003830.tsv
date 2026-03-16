@@ -1,0 +1,38 @@
+participant_id	breed-phenotype	age (years)	gender 	Body weight (kg)	displacematn mean absolut (mm)	displament mean relative (mm)	Medical treatment at the timepoint of MRI	Time between last reported seizure to MRI	Time between first seizure to MRI	Annfalsstyp	postictal agression	interictal behavioural changes	cluster-seizures before MRI	Status Epileptikus before MRI	Sevofluran level start BOLD (%)	Sevofluran level end BOLD (%)	HF (/min)	RR (/min)
+sub-01	Beagle	7,1	female	13,5	0,03	0,04	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	91	22
+sub-02	Beagle	7,2	female	9,6	0,04	0,04	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	107	19
+sub-03	Beagle	6,4	female	17,6	0,06	0,05	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	1,8	1,8	80	20
+sub-04	Beagle	5,9	female	17	0,09	0,07	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,2	2,2	92	11
+sub-05	Beagle	5	female	16,4	0,06	0,06	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,6	2,6	100	16
+sub-06	Beagle	4,1	male	17,8	0,04	0,05	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,4	2,4	88	18
+sub-07	Beagle	4,4	male	18,8	0,04	0,05	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,9	2,8	112	10
+sub-08	Beagle	5,5	male	16,3	0,05	0,04	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,2	2,2	83	14
+sub-09	Beagle	2,5	male	13,8	0,09	0,06	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,4	2,4	96	15
+sub-10	Beagle	2,5	male	16,3	0,07	0,08	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,4	2,4	108	14
+sub-11	Border Colli control	8,5	male (castrated)	21	0,14	0,12	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,3	2,3	58	7
+sub-12	Border Colli control	8,5	male (castrated)	20	0,08	0,08	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,5	2,5	70	11
+sub-13	Border Colli control	8	female (spayed)	19,6	0,05	0,06	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	1,8	1,6	56	15
+sub-14	Border Colli control	1,2	female	21,8	0,06	0,07	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,4	2,4	74	18
+sub-15	GSS control	4	female	39	0,06	0,07	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2	2	130	21
+sub-16	GSS control	1,5	female	42	0,05	0,06	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,1	2,1	77	15
+sub-17	GSS control	4	female	50	0,09	0,09	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2	2	82	20
+sub-18	GSS control	4,8	male	52	0,05	0,06	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,2	2,2	86	15
+sub-19	GSS control	4,8	male	54	0,06	0,08	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,2	2,3	92	15
+sub-20	GSS control	3,9	male	37,5	0,07	0,07	none	n/a	n/a	n/a	n/a	n/a	n/a	n/a	2,3	2,2	76	15
+sub-21	Boder Collie Epilepsy	8,5	male (castrated)	23	0,09	0,14	Phenobarbital  4.3 mg/kg BID, Levetiracetam 20  mg/kg TID, Potassium bromid 11 mg/kg BID 	> 1 week	5 years	tonic-clonic, with urination and defectation, onset unkown	n/a	n/a	yes	no	2,4	2,5	73	12
+sub-22	Boder Collie Epilepsy	5	female (spayed)	20	0,1	0,06	 Aphenylbarbit 3mg/kg q12, Levetiracetam 12mg/kg q8	2 days	3 months	tonic-clonic, with urination and defectaion, onset unkown	n/a	n/a	yes	no	2,2	2,3	48	9
+sub-23	Boder Collie Epilepsy	2	male	20	0,05	0,07	Aphenylbarbit 2.3mg/kg BID, Potassium Bromide 500mg  22.7mg/kg  SID	3 days	4 months	tonic-clonic, with urination and defectaion, onset unkown	n/a	n/a	yes	no	2,3	2,3	58	11
+sub-24	Boder Collie Epilepsy	0,8	male	15,9	0,07	0,07	Phenobarbital 2,5mg/kg BID, Levetiracetam 20mg/kg TID	6 days	6 days	focal onset secondary generalisation, tonic-clonic, with urination and defecation	n/a	n/a	yes	yes	2,6	2,6	71	17
+sub-25	Boder Collie Epilepsy	1	male	21	0,06	0,06	Phenobarbital 3 mg/kg for 3 days 	3 days	3 days	focal onset secondaery generalisation, tonisch-klonisch mit Urin 	n/a	anxiety 	yes	no	2,4	2,4	78	13
+sub-26	Boder Collie Epilepsy	4	female (spayed)	14	0,06	0,05	none	1 month	3 months	tonisch -klonisch mit Urin und Kotabsatz	n/a	n/a	no	no	2,3	2,3	88	20
+sub-27	Boder Collie Epilepsy	2	male 	19	0,09	0,11	Phenobarbital 2.6 mg/kg BID, NEUROCARE food; Cannabidiol oil; Imepitoin 20 mg/kg BID	2 days	1 year	focal onset secondary generalisation, ttonic-clonis, focal seizures	n/a	n/a	no	no	1,9	1,9	86	20
+sub-28	Boder Collie Epilepsy	6	female (spayed)	15	0,08	0,08	Phenobarbital 10 mg/kg BID; Potassium bromide  30 mg/kg SID	2 days	2.5 years	tonic-clonic	n/a	n/a	no	no	2,1	2,1	58	20
+sub-29	Boder Collie Epilepsy	6	female (spayed)	16,5	0,08	0,08	Phenobarbital 4 mg/kg BID 	1 month	2 years	focal onset secondary generalisation, tonic-clonic, with urination	n/a	n/a	no	no	2,2	2,3	69	18
+sub-30	Boder Collie Epilepsy	3	male	19,7	0,32	0,14	none	8 days	1 month	focal onset secondary generalisation, tonic-clonic, with urination and salivation	n/a	n/a	no	no	2,5	2,6	67	20
+sub-31	Boder Collie Epilepsy	2,5	male	17,75	0,05	0,05	cannabidiol 	10 days	1,5 months	tonic-clonic, with salivation, unkown onset	yes	yes	yes	no	2,1	2,2	70	16
+sub-32	GSS Epilepsy	1	male	62	0,08	0,08	none	1 month	2 months	focal onset secondary generalisation/ tonic-clonic, with salivation	n/a	seperation anxiety 	no	no	3,2	3,2	105	15
+sub-33	GSS Epilepsy	5	male	60	0,08	0,07	Phenobarbital 2 mg/kg BID, Potassium bromide 	3 weeks	1 year	focal onset secondary generalisation/ tonic-clonic, with salivation	n/a	n/a	no	no	3,3	3,5	98	20
+sub-34	GSS Epilepsy	7	male	70	0,22	0,21	none	2 weeks	7 moths	focal onset secondary generalisation/ tonic-clonic, with salivation	n/a	n/a	no	no	3,8	3,8	103	25
+sub-35	GSS Epilepsy	3,5	male	55	0,11	0,14	none	1 week 	7 months	focal onset secondary generalisation/ tonic-clonic, with salivation and urination	yes	n/a	no	no	3,2	3,2	94	12
+sub-36	GSS Epilepsy	3	male	58,6	0,1	0,12	none	18 days	8 months	tonic-clonic, with urination and salivation, onset unknown	yes	anxiety	no	no	3	3	88	28
+sub-37	GSS Epilepsy	2	female	48	0,08	0,08	none	18 days	2 months	tonic-clonic, with urination and salivation, onset unknown	yes	n/a	no	no	2,1	2,2	70	14

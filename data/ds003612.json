@@ -1,0 +1,66 @@
+{
+    "participant_id": {
+        "Description": "A participant ID",
+        "Annotations": {
+            "IsAbout": {
+                "Label": "Subject Unique Identifier",
+                "TermURL": "nb:ParticipantID"
+            },
+            "Identifies": "participant"
+        }
+    },
+    "age": {
+        "Annotations": {
+            "IsAbout": {
+                "Label": "Age",
+                "TermURL": "nb:Age"
+            },
+            "Transformation": {
+                "Label": "integer value",
+                "TermURL": "nb:FromInt"
+            },
+            "MissingValues": []
+        },
+        "Description": ""
+    },
+    "sex": {
+        "Annotations": {
+            "IsAbout": {
+                "Label": "Sex",
+                "TermURL": "nb:Sex"
+            },
+            "Levels": {
+                "M": {
+                    "Label": "Male",
+                    "TermURL": "snomed:248153007"
+                },
+                "F": {
+                    "Label": "Female",
+                    "TermURL": "snomed:248152002"
+                }
+            },
+            "MissingValues": []
+        },
+        "Description": ""
+    },
+    "handedness": {
+        "Annotations": {
+            "IsAbout": {
+                "Label": "Handedness"
+            },
+            "Levels": {
+                "R": {
+                    "Label": "right"
+                },
+                "L": {
+                    "Label": "left"
+                },
+                "A": {
+                    "Label": "ambidextrous"
+            },
+            "MissingValues": []
+        },
+        "Description": "Subject handedness"
+    }
+}
+}

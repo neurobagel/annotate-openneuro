@@ -1,0 +1,23 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier matching BIDS folder name"
+    },
+    "site": {
+        "Description": "Site where participant was scanned",
+        "Levels": {
+            "NCKU": "National Cheng Kung University",
+            "NTU": "National Taiwan University"
+        }
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    },
+    "age": {
+        "Description": "Age of the participant at time of scan",
+        "Units": "years"
+    }
+}

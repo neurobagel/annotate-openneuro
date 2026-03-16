@@ -1,0 +1,37 @@
+participant_id	age	sex	group	hand	HAM-D	YMRS	Zanarini-1	Zanarini-2	Zanarini-3	Zanarini-4	Zanarini-5	Zanarini-6	Zanarini-7	Zanarini-8	Zanarini-9	CTQ-PhysAbuse	CTQ-EmotAbuse	CTQ-SexAbuse	CTQ-PhysNeglect	CTQ-EmotNeglect	drug-1	drug-2	drug-3
+EESS001	25	F	Control	L	0	0	0	0	0	0	0	0	0	0	0	1	1.4	1	1	1	n/a	n/a	n/a
+EESS002	35	F	Patient	R	24	2	3	4	4	3	3	3	4	2	1	3.2	4.6	5	3.2	5	Aripiprazole 30mg	Depixol 40mg/2wk	Fluoxetine 60mg
+EESS003	27	F	Patient	R	5	2	0	1	0	2	1	2	0	0	1	1	4.2	5	2.3	0	Citalopram 10mg	Lamotrigine 200mg	n/a
+EESS004	20	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1.8	1.8	n/a	n/a	n/a
+EESS005	32	F	Patient	R	10	6	1	3	3	2	2	1	1	3	1	2.5	5	5	2.4	4.4	Quetiapine 50mg	Trazadone 150mg	Lofepramine 280mg
+EESS006	51	F	Patient	R	32	0	1	0	4	4	3	4	4	0	3	2.2	4.6	1	3	0	Chlorpromazine 50mg	Fluoxetine 60mg	n/a
+EESS007	43	F	Patient	R	7	0	0	4	0	0	2	0	1	0	0	2.2	4	1.8	1.7	0	Clozapine 10mg	Chlorpromazine PRN 25mg	Cipralex 20mg
+EESS008	30	M	Patient	R	16	11	2	2	1	1	2	0	2	0	0	3.8	4.4	5	3.4	3	n/a	n/a	n/a
+EESS009	43	F	Patient	R	14	3	3	3	3	1	4	1	2	1	0	4.6	5	5	4.7	0	Haloperidol 15mg	Sulpiride 100mg	Venlafaxine 300mg
+EESS010	24	F	Patient	R	3	0	0	1	1	0	3	0	0	1	0	2.4	3.4	1	1.4	4.6	Aripiprazole 10mg	Citalopram 20mg	n/a
+EESS011	46	M	Patient	R	4	0	1	1	1	0	1	1	1	1	2	2	2.2	3.6	4.4	3.6	Quetiapine 50mg	n/a	n/a
+EESS012	43	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	n/a	n/a	n/a
+EESS013	41	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	1.4	1.4	1	1.6	1.8	n/a	n/a	n/a
+EESS014	21	F	Patient	R	17	0	1	1	0	3	1	0	2	2	2	5	4.6	5	1.7	0	Imipramine 200mg	n/a	n/a
+EESS015	41	M	Patient	R	27	0	0	3	3	2	4	0	3	2	3	1.2	1	1	1	1.6	Quetiapine 750mg	Risperidone 4mg	Trazodone 450mg
+EESS017	46	F	Patient	R	24	2	1	3	3	2	3	1	2	1	1	5	4.2	5	2.3	0	n/a	n/a	n/a
+EESS018	36	F	Patient	R	20	2	1	2	0	2	3	1	1	2	1	5	4.6	5	2	4.2	n/a	n/a	n/a
+EESS019	46	F	Patient	L	18	8	2	3	3	1	2	0	1	2	2	1	3.4	2.6	1.4	3.6	Trazodone 50mg	Venlafaxine 225mg	L-tryptophan 50mg
+EESS021	41	F	Patient	R	21	5	1	2	4	0	3	1	2	0	0	2.4	3	1.8	1	1	Chlorpromazine PRN 25mg	Carbamazepine 800mg	Escitalopram 20mg
+EESS022	50	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	1	1	3.8	1.8	3.6	n/a	n/a	n/a
+EESS023	38	F	Patient	R	9	1	0	1	2	2	1	0	2	1	0	1	4.6	1	2.2	4.8	Escitalopram 10mg	n/a	n/a
+EESS024	29	F	Patient	R	23	2	3	4	3	3	3	2	4	2	3	2	3.8	4	1.5	3.8	Chlorpromazine 100mg	n/a	n/a
+EESS025	38	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	1	1.4	1	1.6	1	n/a	n/a	n/a
+EESS026	26	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	n/a	n/a	n/a
+EESS027	35	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1.8	n/a	n/a	n/a
+EESS029	34	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	n/a	n/a	n/a
+EESS030	26	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1.4	n/a	n/a	n/a
+EESS031	31	M	Control	R	0	0	0	0	0	0	0	0	0	0	0	1	1.6	1.8	1.2	1.2	n/a	n/a	n/a
+EESS033	24	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	n/a	n/a	n/a
+EESS034	32	F	Patient	R	5	0	0	2	1	1	0	1	0	0	3	1	3.8	1.2	1	0	Sertraline 200mg	n/a	n/a
+EESS035	35	M	Control	R	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	n/a	n/a	n/a
+EESS036	28	F	Patient	R	21	2	0	3	0	1	2	0	0	1	2	1.6	3.8	2	1	2.8	Aripiprazole 20mg	Chlorpromazine PRN 5mg	Trazodone 300mg
+EESS037	33	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1.4	1	n/a	n/a	n/a
+EESS038	26	F	Patient	R	9	0	0	3	2	1	0	0	0	0	0	1	1.6	1.8	1.2	1.2	Chlorpromazine 25mg	Sertraline 75mg	n/a
+EESS039	42	F	Control	R	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	n/a	n/a	n/a
+EESS040	40	M	Control	R	0	0	0	0	0	0	0	0	0	0	0	1.8	2.4	1	1.2	2.4	n/a	n/a	n/a

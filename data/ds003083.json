@@ -1,0 +1,6 @@
+{
+  "age": {
+    "LongName": "Age",
+    "Description": "Age at first study session"
+  }
+}

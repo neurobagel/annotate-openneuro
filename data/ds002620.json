@@ -1,0 +1,23 @@
+{
+
+  "sex": {
+    "LongName": "Sex",
+    "Description": "-"
+  },
+
+  "age": {
+    "LongName": "Age",
+    "Description": "Age of participant at time of MRI scan."
+  },
+
+  "rLEF": {
+    "LongName": "rate of change in longitudinal executive function",
+    "Description": "Metric for the rate of change in executive function, calculated from longitudinal measurements of cognitive performance tasks. For further details see supplementary material as referenced in dataset_description."
+  },
+
+  "EF": {
+    "LongName": "Executive Function",
+    "Description": "Metric for executive function, calculated from recent measurements of cognitive performance tasks. For further details see supplementary material as referenced in dataset_description."
+  }
+
+}

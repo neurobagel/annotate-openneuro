@@ -1,0 +1,20 @@
+{
+    "age": {
+        "LongName": "Participant age",
+        "Description": "Participant age, self-reported",
+        "Units": "Years"
+    },
+    "gender": {
+        "LongName": "Participant gender",
+        "Description": "Self-reported gender (open-ended)"
+    },
+    "inclusion": {
+        "LongName": "Participant inclusion",
+        "Description": "Indicates if participant was included in manuscript analyses",
+        "Units": "1 = included in manuscript, 0 = excluded in manuscript"
+    },
+    "comment": {
+        "LongName": "Comments on participants",
+        "Description": "Reason for exclusion, any notes about participant."
+    }
+}

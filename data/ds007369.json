@@ -1,0 +1,29 @@
+{
+    "participant_id": {
+        "Description": "The unique participant identifier of the form sub-<label>, matching a participant entity found in the dataset"
+    },
+    "age@ses-01": {
+        "Description": "Age of the participant at the time of the acquired session",
+        "Units": "year"
+    },
+    "sex": {
+        "Description": "Sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female",
+            "O": "other"
+        }
+    },
+    "height": {
+        "Description": "Height of the participant",
+        "Units": "meter"
+    },
+    "weight": {
+        "Description": "Weight of the participant",
+        "Units": "kilogram"
+    },
+    "age@ses-02": {
+        "Description": "Age of the participant at the time of the acquired session",
+        "Units": "year"
+    }
+}

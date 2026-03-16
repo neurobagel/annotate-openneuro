@@ -1,0 +1,17 @@
+{
+    "gender": {
+	"Description": "Participant gender",
+	"Levels": {
+	    "Male": "Male participant (self-reported)",
+	    "Female": "Female participant (self-reported)"
+	}
+    },
+    
+    "age": {
+	"Description": "Age at the time of scanning"
+    },
+
+    "notes": {
+	"Description" : "Miscellaneous notes (missing data/runs, etc.)"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "sex": {
+        "LongName": "biological sex",
+        "Description": "biological sex as reported by participants",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "age": {
+        "LongName": "age",
+        "Units": "years"
+    }
+}

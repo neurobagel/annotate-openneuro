@@ -1,0 +1,167 @@
+participant_id	age	sex	daily_seizure	asm	resected_side	mri	seizure_capture	failed_resec_SOZ	extra_temporal	extent_of_resection	outcome	followup	cohort
+sub-01	12	Male	Absence	3	Left	Absence	Yes	Not failed	Not needed	4.9	1	75	Derivation
+sub-02	8	Female	Absence	1	Right	Absence	Yes	Not failed	Needed	22.4	1	50	Derivation
+sub-03	10	Male	Absence	1	Right	Presence	Yes	Not failed	Needed	30.8	4	112	Derivation
+sub-04	15	Female	Absence	1	Right	Presence	No	Not failed	Needed	1.1	1	123	Derivation
+sub-05	5	Male	Absence	1	Left	Presence	Yes	Not failed	Needed	19.6	1	83	Derivation
+sub-06	20	Male	Absence	2	Left	Absence	Yes	Not failed	Not needed	7.5	1	76	Derivation
+sub-07	17	Female	Absence	2	Left	Presence	Yes	Not failed	Not needed	3.4	1	50	Derivation
+sub-08	6	Male	Presence	3	Left	Presence	Yes	Not failed	Needed	14.3	1	27	Derivation
+sub-09	10	Female	Absence	2	Right	Presence	No	Not failed	Not needed	13.7	3	32	Derivation
+sub-10	11	Male	Absence	1	Left	Presence	Yes	Not failed	Needed	50.9	3	26	Derivation
+sub-11	17	Male	Absence	2	Left	Absence	Yes	Not failed	Not needed	6.4	1	106	Derivation
+sub-12	13	Female	Absence	3	Left	Presence	Yes	Failed	Needed	14.9	5	80	Derivation
+sub-13	11	Female	Presence	2	Right	Absence	Yes	Not failed	Needed	3.2	1	39	Derivation
+sub-14	14	Male	Absence	2	Left	Presence	Yes	Not failed	Needed	4.9	1	50	Derivation
+sub-15	5	Male	Absence	3	Left	Presence	Yes	Not failed	Needed	81.3	5	113	Derivation
+sub-16	8	Male	Absence	2	Left	Absence	Yes	Not failed	Needed	3.3	1	122	Derivation
+sub-17	19	Female	Presence	3	Right	Presence	Yes	Not failed	Needed	84.8	1	41	Derivation
+sub-18	5	Male	Presence	3	Left	Absence	Yes	Not failed	Needed	3.5	1	89	Derivation
+sub-19	13	Female	Absence	3	Right	Absence	No	Not failed	Needed	37.4	5	75	Derivation
+sub-20	9	Female	Presence	2	Left	Presence	Yes	Not failed	Not needed	7.9	1	65	Derivation
+sub-21	12	Female	Presence	3	Left	Presence	Yes	Not failed	Needed	13.6	1	48	Derivation
+sub-22	10	Male	Presence	1	Left	Presence	Yes	Not failed	Not needed	8.1	1	90	Derivation
+sub-23	11	Female	Presence	2	Left	Presence	Yes	Not failed	Not needed	4.1	1	55	Derivation
+sub-24	4	Female	Presence	1	Right	Presence	Yes	Not failed	Not needed	10.3	1	12	Derivation
+sub-25	10	Female	Absence	2	Right	Presence	Yes	Not failed	Not needed	9.699999999999999	1	59	Derivation
+sub-26	16	Male	Absence	3	Left	Absence	Yes	Not failed	Needed	15.8	4	29	Derivation
+sub-27	15	Male	Absence	2	Left	Absence	Yes	Not failed	Not needed	3.9	1	27	Derivation
+sub-28	16	Male	Presence	1	Right	Absence	Yes	Not failed	Not needed	20	1	112	Derivation
+sub-29	10	Male	Absence	1	Right	Presence	Yes	Not failed	Needed	19	1	89	Derivation
+sub-30	14	Male	Absence	1	Left	Absence	Yes	Not failed	Not needed	5.3	1	105	Derivation
+sub-31	7	Male	Presence	3	Right	Absence	Yes	Failed	Needed	27.2	4	40	Derivation
+sub-32	28	Female	Absence	2	Left	Absence	Yes	Not failed	Not needed	5.9	1	76	Derivation
+sub-33	17	Male	Absence	2	Right	Absence	Yes	Not failed	Needed	17.5	1	52	Derivation
+sub-34	17	Male	Absence	3	Left	Presence	Yes	Not failed	Needed	22.4	1	36	Derivation
+sub-35	30	Male	Absence	3	Right	Absence	Yes	Not failed	Not needed	13.3	1	57	Derivation
+sub-36	10	Male	Absence	2	Right	Absence	Yes	Not failed	Not needed	5.6	1	23	Derivation
+sub-37	4	Male	Absence	1	Left	Presence	No	Not failed	Needed	1.8	1	88	Derivation
+sub-38	9	Female	Presence	1	Left	Presence	Yes	Not failed	Not needed	4.2	1	59	Derivation
+sub-39	21	Female	Presence	1	Left	Presence	Yes	Not failed	Needed	4.5	1	84	Derivation
+sub-40	12	Male	Presence	2	Left	Presence	Yes	Not failed	Needed	0.6	1	56	Derivation
+sub-41	28	Male	Absence	1	Right	Presence	Yes	Not failed	Not needed	10.1	1	68	Derivation
+sub-42	11	Female	Presence	2	Left	Presence	Yes	Not failed	Not needed	6.3	1	39	Derivation
+sub-43	10	Male	Absence	3	Right	Absence	Yes	Not failed	Needed	41.9	1	115	Derivation
+sub-44	16	Male	Absence	2	Left	Presence	Yes	Not failed	Needed	2.8	1	130	Derivation
+sub-45	6	Female	Absence	2	Left	Presence	Yes	Not failed	Not needed	4.7	1	63	Derivation
+sub-46	19	Male	Absence	3	Right	Presence	Yes	Not failed	Not needed	6.7	3	27	Derivation
+sub-47	12	Female	Absence	1	Left	Presence	Yes	Not failed	Needed	1.8	1	38	Derivation
+sub-48	44	Male	Absence	2	Right	Absence	Yes	Not failed	Needed	40.7	1	80	Derivation
+sub-49	10	Female	Presence	1	Left	Presence	Yes	Not failed	Needed	1	1	127	Derivation
+sub-50	15	Male	Absence	1	Right	Absence	No	Not failed	Needed	17.3	1	42	Derivation
+sub-51	4	Female	Presence	1	Left	Absence	Yes	Failed	Needed	89.8	1	128	Derivation
+sub-52	10	Female	Absence	2	Left	Presence	Yes	Not failed	Needed	4.7	3	103	Derivation
+sub-53	12	Female	Absence	2	Left	Presence	Yes	Not failed	Not needed	3.6	2	60	Derivation
+sub-54	8	Male	Presence	1	Left	Presence	Yes	Not failed	Not needed	5.7	1	19	Derivation
+sub-55	14	Male	Presence	3	Right	Presence	Yes	Not failed	Needed	5.7	1	126	Derivation
+sub-56	14	Female	Presence	3	Left	Absence	Yes	Not failed	Not needed	6.4	4	98	Derivation
+sub-57	6	Female	Absence	1	Right	Absence	No	Not failed	Needed	11.4	1	98	Derivation
+sub-58	4	Male	Presence	1	Right	Presence	Yes	Failed	Not needed	9.199999999999999	1	61	Derivation
+sub-59	8	Male	Presence	2	Right	Presence	Yes	Not failed	Needed	22.1	1	48	Derivation
+sub-60	14	Female	Presence	1	Left	Presence	Yes	Not failed	Not needed	5.9	3	39	Derivation
+sub-61	37	Female	Absence	2	Left	Presence	Yes	Not failed	Not needed	5.5	1	78	Derivation
+sub-62	19	Male	Absence	2	Right	Presence	Yes	Not failed	Needed	31.8	3	12	Derivation
+sub-63	11	Female	Presence	2	Right	Absence	Yes	Failed	Needed	63.4	3	84	Derivation
+sub-64	14	Female	Absence	2	Right	Absence	Yes	Not failed	Needed	5.8	3	45	Derivation
+sub-65	17	Male	Presence	2	Right	Presence	Yes	Not failed	Not needed	9.1	1	64	Derivation
+sub-66	14	Male	Absence	2	Left	Absence	No	Failed	Needed	4.1	1	117	Derivation
+sub-67	12	Male	Presence	2	Right	Absence	Yes	Not failed	Not needed	9.9	1	70	Derivation
+sub-68	11	Female	Absence	2	Right	Absence	Yes	Not failed	Needed	20.3	1	35	Derivation
+sub-69	27	Female	Absence	1	Left	Presence	Yes	Not failed	Needed	5.2	1	66	Derivation
+sub-70	10	Male	Presence	3	Right	Presence	Yes	Not failed	Needed	1.1	1	73	Derivation
+sub-71	19	Female	Presence	3	Right	Presence	Yes	Not failed	Needed	21.6	1	61	Derivation
+sub-72	16	Male	Absence	2	Left	Absence	Yes	Not failed	Needed	9	4	51	Derivation
+sub-73	37	Female	Absence	1	Left	Presence	No	Not failed	Needed	5.5	1	87	Derivation
+sub-74	13	Male	Absence	3	Right	Presence	Yes	Not failed	Needed	23.4	4	85	Derivation
+sub-75	14	Male	Absence	1	Left	Presence	No	Not failed	Not needed	4	1	119	Derivation
+sub-76	8	Male	Presence	2	Right	Absence	Yes	Not failed	Needed	21.6	5	74	Derivation
+sub-77	15	Male	Presence	2	Left	Presence	Yes	Not failed	Not needed	11.2	1	101	Derivation
+sub-78	15	Female	Absence	1	Left	Presence	Yes	Not failed	Not needed	7	1	82	Derivation
+sub-79	5	Female	Presence	3	Left	Presence	Yes	Not failed	Needed	33.6	5	85	Derivation
+sub-80	15	Male	Absence	2	Left	Absence	Yes	Not failed	Not needed	5.4	1	29	Derivation
+sub-81	4	Male	Presence	3	Right	Presence	Yes	Not failed	Needed	2.5	1	105	Derivation
+sub-82	11	Female	Presence	3	Left	Presence	Yes	Not failed	Needed	1.8	1	96	Derivation
+sub-83	18	Female	Absence	3	Right	Presence	Yes	Not failed	Needed	49.7	1	112	Derivation
+sub-84	9	Female	Presence	1	Left	Presence	Yes	Not failed	Needed	5.9	1	125	Derivation
+sub-85	17	Male	Absence	3	Left	Absence	Yes	Not failed	Not needed	4.3	1	34	Derivation
+sub-86	7	Female	Absence	2	Left	Absence	Yes	Not failed	Needed	27.5	4	126	Derivation
+sub-87	14	Male	Absence	3	Right	Absence	Yes	Failed	Needed	7.2	5	87	Derivation
+sub-88	13	Male	Absence	2	Right	Absence	Yes	Not failed	Needed	16.3	1	56	Derivation
+sub-89	19	Female	Absence	3	Right	Presence	Yes	Failed	Needed	5.5	4	99	Derivation
+sub-90	13	Female	Absence	2	Left	Absence	Yes	Failed	Not needed	4.3	3	47	Derivation
+sub-91	17	Male	Absence	1	Left	Presence	Yes	Not failed	Not needed	4.8	1	110	Derivation
+sub-92	9	Male	Absence	2	Left	Presence	Yes	Failed	Needed	5.7	5	67	Derivation
+sub-93	41	Female	Presence	2	Left	Absence	Yes	Not failed	Not needed	5	1	75	Derivation
+sub-94	6	Female	Absence	3	Left	Absence	Yes	Failed	Needed	12.9	4	12	Derivation
+sub-95	12	Female	Absence	2	Right	Presence	Yes	Not failed	Not needed	5.7	1	20	Derivation
+sub-96	16	Female	Absence	2	Left	Absence	Yes	Not failed	Needed	7.6	1	89	Derivation
+sub-97	8	Male	Presence	2	Right	Presence	Yes	Failed	Needed	91.59999999999999	3	98	Derivation
+sub-98	14	Female	Absence	1	Right	Presence	Yes	Not failed	Not needed	5.4	1	75	Derivation
+sub-99	13	Female	Presence	3	Right	Absence	Yes	Not failed	Not needed	6.4	3	43	Derivation
+sub-100	17	Female	Absence	2	Right	Absence	Yes	Not failed	Needed	23.8	1	124	Derivation
+sub-101	5	Female	Presence	2	Left	Presence	Yes	Not failed	Not needed	1.9	1	60	Derivation
+sub-102	10	Male	Absence	1	Right	Absence	Yes	Not failed	Needed	2.1	1	25	Derivation
+sub-103	16	Male	Absence	2	Right	Absence	Yes	Not failed	Not needed	6.5	1	88	Derivation
+sub-104	15	Female	Absence	3	Right	Absence	Yes	Not failed	Not needed	4.7	1	63	Derivation
+sub-105	7	Male	Absence	3	Left	Presence	Yes	Not failed	Needed	89.7	1	71	Derivation
+sub-106	14	Female	Absence	2	Right	Presence	Yes	Not failed	Not needed	12.2	1	15	Derivation
+sub-107	5	Female	Absence	1	Right	Absence	No	Failed	Needed	39.5	1	127	Derivation
+sub-108	16	Female	Presence	2	Right	Absence	Yes	Failed	Needed	53.6	5	117	Derivation
+sub-109	13	Male	Absence	1	Right	Presence	Yes	Failed	Needed	0.7	4	89	Derivation
+sub-110	11	Female	Presence	2	Right	Absence	Yes	Not failed	Not needed	19.5	1	113	Derivation
+sub-111	10	Female	Presence	5	Left	Presence	Yes	Not failed	Needed	2.5	1	54	Derivation
+sub-112	17	Male	Presence	2	Right	Presence	Yes	Not failed	Needed	26.1	4	20	Derivation
+sub-113	14	Female	Absence	3	Left	Presence	No	Not failed	Needed	2.4	2	77	Derivation
+sub-114	8	Female	Absence	2	Right	Absence	No	Failed	Needed	1.4	1	114	Derivation
+sub-115	9	Female	Presence	2	Left	Presence	Yes	Not failed	Not needed	8.699999999999999	1	108	Derivation
+sub-116	17	Female	Presence	1	Left	Absence	Yes	Not failed	Needed	2	1	116	Derivation
+sub-117	12	Male	Absence	2	Left	Presence	No	Not failed	Not needed	11.7	4	16	Derivation
+sub-118	11	Male	Absence	3	Right	Presence	Yes	Not failed	Needed	14	1	30	Derivation
+sub-119	12	Male	Presence	1	Left	Absence	Yes	Not failed	Not needed	3.9	3	44	Derivation
+sub-120	11	Female	Absence	2	Left	Presence	Yes	Not failed	Needed	38.1	1	46	Derivation
+sub-121	23	Male	Absence	2	Left	Absence	Yes	Failed	Needed	10.9	3	90	Derivation
+sub-122	5	Male	Presence	3	Right	Presence	Yes	Not failed	Needed	51.8	1	109	Derivation
+sub-123	13	Male	Absence	2	Left	Absence	Yes	Not failed	Not needed	8.199999999999999	3	86	Derivation
+sub-124	4	Female	Absence	2	Right	Presence	Yes	Not failed	Needed	42	1	29	Derivation
+sub-125	16	Female	Absence	1	Left	Presence	No	Not failed	Needed	12.6	1	27	Derivation
+sub-126	8	Male	Absence	2	Right	Absence	No	Not failed	Needed	10.1	5	27	Derivation
+sub-127	5	Female	Absence	3	Left	Presence	Yes	Not failed	Needed	50.2	1	25	Derivation
+sub-128	5	Female	Absence	3	Right	Absence	No	Not failed	Needed	72.59999999999999	4	24	Derivation
+sub-129	7	Male	Presence	3	Right	Presence	Yes	Not failed	Needed	65.8	4	24	Derivation
+sub-130	16	Male	Presence	1	Right	Absence	Yes	Not failed	Needed	26.5	4	24	Derivation
+sub-131	15	Female	Absence	2	Right	Absence	Yes	Not failed	Needed	4.9	1	22	Derivation
+sub-132	8	Male	Absence	2	Left	Presence	Yes	Not failed	Needed	7.2	1	21	Derivation
+sub-133	14	Female	Absence	2	Right	Presence	No	Not failed	Not needed	4.4	1	20	Derivation
+sub-134	5	Female	Absence	1	Right	Presence	Yes	Not failed	Needed	1.6	1	16	Derivation
+sub-135	13	Male	Absence	2	Left	Presence	No	Not failed	Needed	9.4	3	12	Derivation
+sub-136	9	Male	Presence	1	Left	Presence	Yes	Not failed	Not needed	5.4	1	64	Derivation
+sub-137	13	Male	Absence	2	Right	Absence	Yes	Not failed	Needed	22.4	1	62	Derivation
+sub-138	11	Male	Presence	5	Left	Presence	Yes	Not failed	Needed	19.8	1	60	Derivation
+sub-139	13	Female	Absence	3	Right	Absence	Yes	Not failed	Needed	39	1	58	Derivation
+sub-140	20	Male	Absence	2	Right	Absence	Yes	Not failed	Needed	9.699999999999999	5	12	Derivation
+sub-141	35	Male	Absence	2	Right	Absence	Yes	Not failed	Not needed	5	1	113	Validation
+sub-142	18	Female	Absence	2	Left	Presence	Yes	Not failed	Not needed	2.6	1	78	Validation
+sub-143	35	Male	Absence	3	Left	Absence	Yes	Not failed	Not needed	7.2	1	48	Validation
+sub-144	15	Female	Absence	3	Left	Presence	Yes	Not failed	Not needed	4.2	1	35	Validation
+sub-145	26	Female	Absence	3	Left	Absence	Yes	Not failed	Not needed	3.2	5	75	Validation
+sub-146	22	Male	Absence	3	Right	Presence	Yes	Not failed	Not needed	11	5	12	Validation
+sub-147	16	Male	Absence	2	Right	Presence	Yes	Not failed	Needed	3.4	3	86	Validation
+sub-148	35	Female	Absence	4	Right	Absence	Yes	Failed	Needed	2.7	3	86	Validation
+sub-149	32	Female	Absence	2	Left	Presence	Yes	Not failed	Not needed	2.4	3	26	Validation
+sub-150	14	Female	Presence	4	Right	Presence	Yes	Failed	Needed	1.6	1	24	Validation
+sub-151	12	Female	Absence	3	Left	Absence	Yes	Failed	Needed	8.199999999999999	3	82	Validation
+sub-152	27	Female	Absence	4	Left	Presence	Yes	Not failed	Not needed	8.6	1	81	Validation
+sub-153	20	Male	Absence	5	Left	Absence	Yes	Failed	Needed	3	5	33	Validation
+sub-154	22	Male	Presence	1	Left	Presence	Yes	Not failed	Needed	3.8	1	23	Validation
+sub-155	37	Male	Absence	4	Right	Absence	Yes	Not failed	Not needed	10.2	1	13	Validation
+sub-156	21	Male	Absence	3	Left	Presence	Yes	Not failed	Not needed	1.2	1	75	Validation
+sub-157	34	Female	Absence	3	Right	Presence	Yes	Not failed	Not needed	6	1	12	Validation
+sub-158	28	Female	Presence	3	Left	Presence	Yes	Not failed	Not needed	4.9	1	24	Validation
+sub-159	19	Male	Presence	3	Right	Presence	Yes	Not failed	Needed	2.9	1	12	Validation
+sub-160	36	Male	Absence	3	Left	Presence	Yes	Not failed	Not needed	10	1	24	Validation
+sub-161	14	Male	Presence	4	Left	Absence	Yes	Failed	Needed	13	1	12	Validation
+sub-162	21	Female	Absence	3	Left	Presence	Yes	Not failed	Needed	1.2	1	13	Validation
+sub-163	39	Female	Presence	3	Right	Absence	Yes	Failed	Needed	2.1	4	65	Validation
+sub-164	27	Female	Absence	4	Right	Presence	Yes	Not failed	Not needed	3.3	1	49	Validation
+sub-165	21	Male	Absence	3	Left	Absence	Yes	Not failed	Not needed	4.1	2	12	Validation
+sub-166	42	Female	Presence	4	Right	Presence	Yes	Not failed	Needed	0.8	5	14	Validation

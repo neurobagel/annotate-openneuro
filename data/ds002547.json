@@ -1,0 +1,20 @@
+{
+  "sex": {
+    "Description": "(Self-reported) sex of participant",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "age": {
+    "Description": "Age of participant, rounded to nearest integer"
+  },
+  "validation_session": {
+    "Description": "Which session was used for the validation set. For participants with two sessions, the other session was used for exploration.",
+    "Levels": {
+      "1": "The first session was used for validation (if present, the second session was used for exploration)",
+      "2": "The second session was used for validation (the first session was used for exploration)",
+      "n/a": "The data was not used for the (validation) analyses"
+    }
+  }
+}

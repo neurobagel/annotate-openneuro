@@ -1,0 +1,27 @@
+{
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "group": {
+        "Description": "membership of participant",
+        "Levels": {
+            "soccer": "actively playing soccer for at least 10 years "
+        }
+    },
+    "svt": {
+        "Description": "standardized video task in soccer",
+        "Units": "ratings of four UEFA A licensed soccer coaches - [0-5]"
+    },
+    "soccer_exp": {
+        "Description": "soccer experience",
+        "Units": "years"
+    }
+}

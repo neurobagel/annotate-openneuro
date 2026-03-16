@@ -1,0 +1,11 @@
+{
+    "age": {
+        "description": "Age in 2019 (in years)"
+    },
+    "sex": {
+        "levels": [
+            "m",
+            "f"
+        ]
+    }
+}

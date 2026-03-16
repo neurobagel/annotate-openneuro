@@ -1,0 +1,38 @@
+{
+  "sex": {
+    "LongName": "Sex",
+    "Description": "Biological sex at birth",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "age": {
+    "LongName": "Age in years",
+    "Description": "Integer age in years",
+    "Units": "years"
+  },
+  "handedness": {
+    "Description": "handedness of the participant as reported by the participant",
+    "Levels": {
+      "LEFT": "left",
+      "RIGHT": "right",
+      "AMBIDEXTROUS": "ambidextrous"
+    }
+  },
+  "group": {
+    "Description": "experimental group the participant belonged to",
+    "Levels": {
+      "MDD": "Participants with current, ongoing, or historical depression",
+      "HV": "Healthy volunteers"
+    }
+  },
+  "MFQ": {
+    "LongName": "Mood and Feelings Questionnaire total score",
+    "Description": "Total score from self report on the short version of the Mood and Feelings Questionnaire (MFQ) (Angold et al., 1995), which measures depressive symptoms in children and adolescents."
+  },
+  "SHAPS": {
+    "LongName": "Snaith-Hamilton Pleasure Scale total score",
+    "Description": "Total score from self report on the SHAPS (Snaith et al., 1995), which measures anhedonia symptoms."
+  }
+}

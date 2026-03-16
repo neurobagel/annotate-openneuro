@@ -1,0 +1,18 @@
+{
+  "ID": {
+    "Description": "Subject number at the time of research"
+  },
+  "Pre_ID": {
+    "Description": "Subject number at the time of raw data acquisition"
+  },
+  "Gender": {
+    "Description": "Biological sex of the participant",
+    "Levels": {
+      "M": "Physiological male",
+      "F": "Physiological female"
+    }
+  },
+  "Age": {
+    "Description": "Chronological age of the participant"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "participant_id": {
+        "Description": "Participant identifier"
+    }, 
+    "exp_group": {
+        "Description": "experimental group"
+    }, 
+    "mouse_strain": {
+        "Description": "mouse strain"
+    }, 
+    "mouse_sex": {
+        "Description": "mouse sex"
+    }, 
+    "DOB": {
+        "Description": "date of birth"
+    }, 
+    "date_run": {
+        "Description": "date of scan"
+    }, 
+    "weight": {
+        "Description": "weight at scan"
+    }, 
+    "mother_glucose": {
+        "Description": "mother glucose level"
+    }
+}

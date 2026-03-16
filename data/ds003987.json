@@ -1,0 +1,27 @@
+{
+  "participant_id": {
+    "Description": "unique participant identifier"
+  },
+  "UH2_ID": {
+    "Description": "unique participant identifier"
+  },
+  "sex": {
+    "Description": "sex of the participant"
+  },
+  "age": {
+    "Description": "age of the participant"
+  },
+  "Sess1_Drug": {
+    "Description": "drug condition"
+  },
+  "Sess2_Drug": {
+    "Description": "drug condition"
+  },
+  "Sess3_Drug": {
+    "Description": "drug condition"
+  },
+  "session": {
+    "Description": "session numbers"
+  }
+
+}

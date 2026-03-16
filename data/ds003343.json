@@ -1,0 +1,27 @@
+{
+  "age": {
+    "LongName": "Age",
+    "Units": "Years"
+  },
+  "sex": {
+    "LongName": "Sex",
+    "Levels": {
+      "F": "Female",
+      "M": "Male"
+    }
+  },
+  "handedness": {
+    "LongName": "Handedness",
+    "Levels": {
+      "R": "Right",
+      "L": "Left"
+    }
+  },
+  "stimulated_side": {
+    "LongName": "Stimulated elbow side",
+    "Levels": {
+      "R": "Right",
+      "L": "Left"
+    }
+  }
+}

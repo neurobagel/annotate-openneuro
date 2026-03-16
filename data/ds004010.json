@@ -1,0 +1,26 @@
+{
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "Gender": {
+    "Description": "Participant gender",
+    "Levels": {
+      "F": "Female",
+      "M": "Male"
+    }
+  },
+  "Age": {
+    "Description": "Participant age (years)",
+    "Units": "years"
+  },
+  "Group": {
+    "Description": "Participant group label"
+  },
+  "Handedness": {
+    "Description": "Participant dominant hand",
+    "Levels": {
+      "L": "Left",
+      "R": "Right"
+    }
+  }
+}

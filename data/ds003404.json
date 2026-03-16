@@ -1,0 +1,22 @@
+{
+    "age": {
+        "LongName": "Age",
+        "Units": "Years"
+    },
+    "gender": {
+        "LongName": "Gender",
+        "Description": "Gender of each participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    },
+    "handedness": {
+        "LongName": "Handedness",
+        "Description": "Handedness of each participant",
+        "Levels": {
+            "L": "Left",
+            "R": "Right"
+        }
+    }
+}

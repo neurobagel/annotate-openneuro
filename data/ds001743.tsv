@@ -1,0 +1,13 @@
+participant_id	group	gender	age	VA_OD	VA_OS	VFI_OD	VFI_OS	vCD_OD	vCD_OS	RNFL_OD	RNFL_OS	affected_eye	dominant_eye
+sub-01	Patient	F	19	20/20	20/30	100%	41%	0.34	0.83	121	56	OS	N/A
+sub-02	Patient	M	54	20/20	20/20	92%	99%	0.66	0.33	66	70	OD	N/A
+sub-03	Patient	F	57	20/25	20/30	54%	99%	0.82	0.63	52	73	OD	N/A
+sub-04	Patient	M	59	20/30	20/20	62%	97%	0.82	0.8	45	57	OD	N/A
+sub-05	Patient	F	65	20/40	20/25	96%	69%	0.57	0.78	73	52	OS	N/A
+sub-06	Patient	F	66	20/20	20/20	100%	91%	0.74	0.89	83	66	OS	N/A
+sub-07	Control	F	21	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	OD
+sub-08	Control	F	34	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	OD
+sub-09	Control	M	26	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	OD
+sub-10	Control	F	21	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	OS
+sub-11	Control	M	21	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	OS
+sub-12	Control	F	21	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	OS

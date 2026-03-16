@@ -1,0 +1,12 @@
+{
+    "age": {
+        "Description": "Rat age in months"
+        },
+    "sex": {
+        "Description": "Rat sex",
+	"Levels": {
+            "M": "Male",
+	    "F": "Female"
+	}
+    }
+}

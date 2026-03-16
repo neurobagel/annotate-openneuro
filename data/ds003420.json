@@ -1,0 +1,24 @@
+{
+  "participant_id": {
+    "LongName": "Participant identifier",
+    "Description": "Unique participant identifier"
+  },
+  "sex": {
+    "Description": "Sex of the participant",
+    "Levels": {
+      "m": "male",
+      "f": "female"
+    }
+  },
+  "age": {
+    "Description": "age of the participant",
+    "Units": "years"
+  },
+  "education_level": {
+    "Description": "Education level, self-rated by participant",
+    "Levels": {
+      "1": "Student at university",
+      "2": "Has degree from university"
+  }
+}
+}

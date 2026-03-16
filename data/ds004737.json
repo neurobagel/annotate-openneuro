@@ -1,0 +1,15 @@
+{
+  "participant_id": {
+    "Description": "Participant identifier"
+  },
+  "age": {
+    "Description": "Age in years in the first session. May not be accurate for later sessions."
+  },
+  "sex": {
+    "Description": "Sex, self-rate by participant.",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  }
+}

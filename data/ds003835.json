@@ -1,0 +1,27 @@
+{
+    "gender": {
+        "Levels": {
+            "F": "Female",
+            "M": "Male"
+        }
+    }, 
+     "age": {
+        "Description": "Age in years"
+        },
+   "glasses": {
+        "Description": "Whether or not the participant wore glasses in the scanner, Y or N"
+        },
+   "hand": {
+        "Description": "Dominant hand, R = Right"
+        },
+
+   "sleep1": {
+        "Description": "Hours of sleep between Day 1 and Day 2 sessions"
+        },
+    "sleep2": {
+        "Description": "Hours of sleep between Day 2 and Day 3 sessions"
+        },
+    "random_list": {
+        "Description": "# of 6 pseudorandom lists for video order and Full/Interrupted trial allocation"
+        }
+    }

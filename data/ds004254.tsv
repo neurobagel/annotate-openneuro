@@ -1,0 +1,16 @@
+participant_id	exp_group	mouse_strain	mouse_sex	date_run
+sub-jgrGermFreeSPF1	Control 	NMRI	Male	28/6/2018
+sub-jgrGermFreeSPF2	Control 	NMRI	Male	27/6/2018
+sub-jgrGermFreeSPF3	Control 	NMRI	Male	6/6/2018
+sub-jgrGermFreeSPF4	Control 	NMRI	Male	24/5/2018
+sub-jgrGermFreeSPF5	Control 	NMRI	Male	22/5/2018
+sub-jgrGermFreeGF1	Germ-free	NMRI	Male	25/6/2018
+sub-jgrGermFreeGF2	Germ-free	NMRI	Male	26/6/2018
+sub-jgrGermFreeGF3	Germ-free	NMRI	Male	5/6/2018
+sub-jgrGermFreeGF4	Germ-free	NMRI	Male	23/5/2018
+sub-jgrGermfreeGF5	Germ-free	NMRI	Male	16/5/2018
+sub-jgrGermFreeConV1	Coventionalised	NMRI	Male	11/6/2018
+sub-jgrGermFreeCONV2	Coventionalised	NMRI	Male	6/6/2018
+sub-jgrGermFreeConV3	Coventionalised	NMRI	Male	31/5/2018
+sub-jgrGermFreeConV4	Coventionalised	NMRI	Male	22/5/2018
+sub-jgrGermfreeConV5	Coventionalised	NMRI	Male	15/5/2018

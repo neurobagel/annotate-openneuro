@@ -1,0 +1,21 @@
+{
+    "participant_id": {
+        "Description": "Unique identifier for each participant.",
+        "LongName": "Participant ID",
+        "Units": "n/a"
+    },
+    "age": {
+        "Description": "Age of the participant at the time of data collection.",
+        "LongName": "Age",
+        "Units": "years",
+        "DataType": "float"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant.",
+        "LongName": "Sex",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    }
+}

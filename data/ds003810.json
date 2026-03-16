@@ -1,0 +1,23 @@
+{
+    "gender": {
+        "Description": "sex of the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "participant_id": {
+        "Description": "unique participant identifier"
+    },
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "dominant hand": {
+        "Description": "greater skill, performance, speed, precision or an individual preference for the use of a particular hand",
+        "Levels": {
+            "R": "right hand",
+            "L": "left hand"
+        }
+    }
+}

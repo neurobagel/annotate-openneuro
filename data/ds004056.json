@@ -1,0 +1,14 @@
+{
+    "gender": {
+        "Levels": {
+            "F": "Female",
+            "M": "Male"
+        }
+    }, 
+     "age": {
+        "Description": "Age in years"
+        },
+   "hand": {
+        "Description": "Dominant hand, R = Right"
+        }
+}

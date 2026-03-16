@@ -1,0 +1,35 @@
+participant_id	age	sex	handedness	exclusion
+sub-01	25	F	r	no
+sub-02	26	F	r	no
+sub-03	29	M	r	no
+sub-04	22	M	r	yes, but only for mean beta analysis
+sub-05	25	M	r	no
+sub-06	23	M	r	no
+sub-07	27	F	r	no
+sub-08	21	M	r	no
+sub-09	23	F	r	no
+sub-10	22	F	r	no
+sub-11	22	F	r	no
+sub-12	27	M	r	no
+sub-13	23	F	r	no
+sub-14	25	F	r	no
+sub-15	30	M	r	no
+sub-16	26	M	r	yes, mriqc (FD) > 0.3
+sub-17	21	M	r	no
+sub-18	21	F	r	yes, but only for mean beta analysis
+sub-19	22	F	r	no
+sub-20	22	M	r	no
+sub-21	26	F	r	Yes, performance < 60%
+sub-22	24	F	r	no
+sub-23	28	F	r	no
+sub-24	24	F	r	no
+sub-25	25	M	r	no
+sub-26	22	M	r	yes, mriqc (FD) > 0.3
+sub-27	21	F	r	no
+sub-28	20	F	r	yes, but only for mean beta analysis
+sub-29	21	F	r	no
+sub-30	22	F	r	no
+sub-31	26	F	r	no
+sub-32	21	M	r	no
+sub-33	23	F	r	no
+sub-34	23	F	r	no

@@ -1,0 +1,21 @@
+{
+    "age": {
+        "Description": "Age of the participant",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Sex of the participant",
+        "Levels": {
+            "M": "Male",
+            "F": "Female"
+        }
+    },
+    "eye_dominance": {
+        "Description": "Ocular dominance",
+        "Levels": {
+            "R": "Right",
+            "L": "Left",
+            "M": "Mixed"
+        }
+    }
+}

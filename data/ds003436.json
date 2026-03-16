@@ -1,0 +1,46 @@
+{
+  "participant_id": {
+    "Description": "Participant identifier"
+  },
+  "age": {
+    "Description": "Age at time of testing",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Biological sex of the participant",
+    "Levels": {"F": "female", "M": "male"}
+  },
+  "A": {
+    "Description": "Agreeableness raw score",
+    "Units": "average score from a 5-point Likert scale"
+  },
+  "E": {
+    "Description": "Extraversion raw score",
+    "Units": "average score from a 5-point Likert scale"
+  },
+  "C": {
+    "Description": "Conscietiousness raw score",
+    "Units": "average score from a 5-point Likert scale"
+  },
+  "N": {
+    "Description": "Neuroticism raw score",
+    "Units": "average score from a 5-point Likert scale"
+  },
+  "O": {
+    "Description": "Openness to experience raw score",
+    "Units": "average score from a 5-point Likert scale"
+  },
+  "IQ": {
+    "Description": "Abbreviated Raven test scores",
+    "Units": "predicted correct items out of 60 items"
+  },
+  "SOCIAL": {
+    "Description": "Accuracy for social animations",
+    "Units": "percent"
+  },
+  "RANDOM": {
+    "Description": "Accuracy for random animations",
+    "Units": "percent"
+  }
+  
+}

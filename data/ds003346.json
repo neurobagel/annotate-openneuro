@@ -1,0 +1,67 @@
+{
+    "group": {
+        "Description": "group participant",
+        "Levels": {
+            "1": "HC",
+            "2": "CUD" }
+    },
+    "age": {
+        "Description": "age of the participant",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "sex of participants",
+        "Levels": {
+            "1": "men",
+            "2": "women"
+        }
+    },
+    "educ": {
+    },
+    "educ_yr": {
+    },
+    "occup": {
+    },
+    "income": {
+    },
+    "civil_st": {
+    },
+    "child": {
+    },
+    "child_num": {
+    },
+    "work_thirtydays": {
+    },
+    "work_threeyears": {
+    },
+    "laterality": {
+    },
+    "ed_score": {
+    },
+    "amai": {
+    },
+    "amai_score": {
+    },
+    "admin.route": {
+    },
+    "years.begin": {
+    },
+    "coc.age.onset": {
+    },
+    "days.last.use": {
+    },
+    "week.dose": {
+    },
+    "tobc.lastyear": {
+    },
+    "tobc.day": {
+    },
+    "tobc.totyears": {
+    },
+    "tobc.begin": {
+    },
+    "exclusion": {
+    },
+    "comm": {
+    }
+}

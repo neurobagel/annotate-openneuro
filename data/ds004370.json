@@ -1,0 +1,20 @@
+{
+	"participant_id":{
+		"Description":"name of the patient"
+	},
+	"session":{
+		"Description":"session number, session 1 is the first period of invasive recordings, 1a\/b means that the electrodes have changes during the first session"
+	},
+	"age":{
+		"Description":"age of the patient during the session",
+		"Units":"years"
+	},
+	"sex":{
+		"Description":"sex of the patient (male\/female\/unknown)",
+		"Levels":{
+			"male":"male",
+			"female":"female",
+			"unknown":"unknown"
+		}
+	}
+}

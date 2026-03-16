@@ -1,0 +1,32 @@
+{
+  "gender": {
+    "LongName": "gender",
+    "Description": "gender",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+   "handedness": {
+    "LongName": "handedness",
+    "Description": "handedness",
+    "Levels": {
+      "R": "right",
+      "L": "left"
+    }
+  }, 
+  "age": {
+    "LongName": "age",
+    "Units": "years"
+  },
+    "scandate": {
+    "LongName": "Date of the fMRI scan session",
+    "Units": "DD-MM-YY"
+  },
+    "scan_time": {
+    "LongName": "Starting time of the fMRI scan session",
+    "Description": "Variable indicates the starting time. fMRI scan sessions always lasted for 2 hours",
+    "Units": "HH:mm"
+  }
+}
+

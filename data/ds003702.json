@@ -1,0 +1,18 @@
+{
+  "participant_id": {
+    "LongName": "Participant identifier"
+  },
+ "orig_ID": {
+    "LongName": "Original identifier"
+  },
+  "Age": {
+    "Description": "age of the participant",
+    "Units": "years"
+  },
+  "Handedness": {
+    "Description": "prefered hand of the participant"
+  },
+  "Gender": {
+    "Description": "gender of the participant"
+  }
+}

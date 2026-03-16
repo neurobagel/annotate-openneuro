@@ -1,0 +1,19 @@
+{
+    
+    "Age": {
+        "Description": "Participant's age at the moment of testing"
+    },
+
+    "sex": {
+        "Description": "Participant's gender"
+    },
+
+    "handedness": {
+        "Description": "Participant's dominant hand"
+    },
+
+    "group": {
+        "Description": "Assignment to No-Apparent-olfactory-bulb (NAB) group or a control group"
+    }
+
+}

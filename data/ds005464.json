@@ -1,0 +1,32 @@
+{
+    "age": {
+        "Description": "age of the participant",
+        "Units": "year"
+    },
+    "sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "date": {
+        "Description": "date of participation",
+        "Format": "MM/DD/YY"
+    },
+    "category_cond": {
+        "Description": "visual category condition the participant belonged to",
+        "Levels": {
+            "OFS": "objects were presented three times and faces once during encoding of session 1",
+            "SOF": "Scenes were presented three times and objects once during encoding of session 1",
+            "FSO": "Faces were presented three times and scenes once during encoding of session 1"
+        }
+    },
+    "test_cond": {
+        "Description": "test and restudy block order condition the participant belonged to",
+        "Levels": {
+            "TR": "the 1st encoding block was tested and the 2nd encoding block restudied",
+            "RT": "the 1st encoding block was restudied and the 2nd encoding block tested"
+        }
+    }
+}

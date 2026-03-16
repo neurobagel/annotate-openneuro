@@ -1,0 +1,19 @@
+{
+    "sex": {
+        "Description": "Sex of the participant(s)",
+        "Levels": {
+            "Male": "Male",
+            "Female": "Female",
+            "Other": "Other"
+        }
+    },
+    "age": {
+        "Description": "Age of the participant(s)",
+        "Units": "year"
+    },
+    "weight": {
+        "Description": "Body weight of the participant(s)",
+        "Units": "kg",
+        "Levels": {}
+    }
+}

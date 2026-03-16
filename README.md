@@ -2,7 +2,7 @@
 Scripts and data for bulk-generation of OpenNeuro data dictionaries.
 
 
-### Fetching all `participants.tsv` files
+### Fetching all `participants.tsv` files (WIP)
 
 1. Clone and install from source [`ondiagnostics`](https://github.com/OpenNeuroOrg/ondiagnostics):
 

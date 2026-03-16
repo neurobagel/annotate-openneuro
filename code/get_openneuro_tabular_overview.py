@@ -1,8 +1,7 @@
 """
-Summarize tabular datasets in OpenNeuro, including:
-- which datasets have a participants.tsv file
-- the number of participants in each participants.tsv (based on presence of a participant_id column)
-- which datasets have already been annotated using Neurobagel
+Summarize OpenNeuro participants.tsv files where the file is non-empty or non-header-only, including:
+- the number of participants in the participants.tsv (based on presence of a participant_id column)
+- whether the dataset has already been annotated using Neurobagel
 - which datasets are needed to cover ~50% of all participants across datasets
 """
 

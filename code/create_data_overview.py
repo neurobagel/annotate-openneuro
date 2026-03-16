@@ -39,7 +39,7 @@ def write_participants_tsv_overview(data_dir: Path, out_file: Path):
             {"dataset": dataset, "n_rows": n_rows, "n_columns": n_columns}
         )
     logger.info(
-        f"Datasets that could not be parsed: {len(unparseable_datasets)}/{len(all_participants_tsvs)}: "
+        f"participants.tsv files that could not be parsed: {len(unparseable_datasets)}/{len(all_participants_tsvs)}: "
         f"{', '.join(unparseable_datasets)}"
     )
     all_datasets_overview = pd.DataFrame(all_datasets_overview_rows)

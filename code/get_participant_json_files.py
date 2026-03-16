@@ -11,6 +11,7 @@ from pathlib import Path
 
 from github import Auth, GithubIntegration
 from github.GithubException import GithubException, UnknownObjectException
+from github.Repository import Repository
 from tqdm import tqdm
 
 APP_ID = os.environ.get("NB_BOT_ID")
@@ -23,6 +24,7 @@ DATA_DIR = Path(__file__).parents[1] / "data"
 logging.basicConfig(
     level=logging.INFO,
     format="%(levelname)s: %(message)s",
+    filename=Path(__file__).parents[1] / "logs" / "get_participants_files.log",
 )
 logger = logging.getLogger(__name__)
 
@@ -58,6 +60,21 @@ def get_nonempty_dataset_repos(repos: list) -> list:
     return nonempty_repos
 
 
+def get_file_from_repo(repo: Repository, filename: str) -> bytes | None:
+    file = repo.get_contents(filename)
+    try:
+        return file.decoded_content
+    except AssertionError:
+        # File too large for contents API, fetch via blob SHA instead
+        blob = repo.get_git_blob(file.sha)
+        if blob.encoding == "base64":
+            return base64.b64decode(blob.content)
+        return blob.content.encode()
+    except Exception as err:
+        logger.warning(f"{repo.name}: unexpected error parsing {filename}: {err}")
+        return None
+
+
 def main():
     g = gh_authenticate_as_app()
     org = g.get_organization(DATASETS_ORG)
@@ -74,26 +91,13 @@ def main():
         if (DATA_DIR / f"{repo.name}.json").exists():
             continue
         try:
-            file = repo.get_contents("participants.json")
-            try:
-                content = file.decoded_content
-            except AssertionError:
-                # File too large for contents API, fetch via blob SHA instead
-                blob = repo.get_git_blob(file.sha)
-                if blob.encoding == "base64":
-                    content = base64.b64decode(blob.content)
-                else:
-                    content = blob.content.encode()
-            except Exception as err:
-                logger.warning(
-                    f"{repo.name}: unexpected error parsing participants.json: {err}"
-                )
-            (DATA_DIR / f"{repo.name}.json").write_bytes(content)
+            file_contents = get_file_from_repo(repo, "participants.json")
+            if file_contents is not None:
+                (DATA_DIR / f"{repo.name}.json").write_bytes(file_contents)
         except UnknownObjectException:
             datasets_missing_participants_json.append(repo.name)
         except GithubException as err:
             logger.warning(f"{repo.name}: error fetching participants.json: {err}")
-
     logger.info(
         f"Datasets missing participants.json: {len(datasets_missing_participants_json)} / {len(dataset_repos)}"
     )

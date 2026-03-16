@@ -28,23 +28,6 @@ def write_tsv(df: pd.DataFrame, path: Path):
     df.to_csv(path, sep="\t", index=False)
 
 
-def create_all_openneuro_datasets_overview(data_dir: Path) -> pd.DataFrame:
-    all_datasets_overview = []
-    for file in data_dir.glob("*.tsv"):
-        dataset = file.stem
-        try:
-            participants_tsv = pd.read_csv(file, sep="\t")
-            n_rows = len(participants_tsv)
-            n_columns = len(participants_tsv.columns)
-        # But this doesn't cover files that might have used a different delimiter
-        except Exception:
-            n_rows, n_columns = 0, 0
-        all_datasets_overview.append(
-            {"dataset": dataset, "n_rows": n_rows, "n_columns": n_columns}
-        )
-    return pd.DataFrame(all_datasets_overview)
-
-
 def add_dataset_annotated_status(
     overview: pd.DataFrame, annotations_dir: Path
 ) -> pd.DataFrame:
@@ -69,21 +52,16 @@ def get_datasets_covering_x_percent_participants(
 
 
 def main():
-    # all_datasets_overview = create_all_openneuro_datasets_overview(OPENNEURO_DATA_DIR)
-    # all_datasets_overview = all_datasets_overview.sort_values(
-    #     by="n_rows", ascending=False
-    # )
-    # write_tsv(all_datasets_overview, OUT_DIR / "all_openneuro_datasets_overview.tsv")
     all_datasets_overview = pd.read_csv(RESOURCES_DIR / "data_overview.tsv", sep="\t")
 
     total_datasets = len(all_datasets_overview)
 
-    # Remove datasets with no/empty participants.tsv (n_rows == 0)
+    # Remove datasets where the participants.tsv is empty or only has a header row (n_rows = 0)
     datasets_with_tsvs = all_datasets_overview[
         all_datasets_overview["n_rows"] > 0
     ].copy()
     logger.info(
-        f"Datasets with participants.tsv: {len(datasets_with_tsvs)}/{total_datasets}"
+        f"Datasets with participants.tsv containing >=1 data rows: {len(datasets_with_tsvs)}/{total_datasets}"
     )
 
     # Count number of participants in each dataset based on presence of participant_id column in participants.tsv

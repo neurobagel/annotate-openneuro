@@ -1,27 +1,9 @@
 {
   "age_ses-T1": {
-    "LongName": "Age at session 1",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromFloat",
-        "Label": "float data"
-      },
-      "VariableType": "Continuous"
-    },
-    "Description": "There should have been a description here, but there wasn't. :("
+    "LongName": "Age at session 1"
   },
   "age_ses-T2": {
-    "LongName": "Age at session 2",
-    "Description": "There should have been a description here, but there wasn't. :("
+    "LongName": "Age at session 2"
   },
   "sex": {
     "LongName": "Sex",
@@ -29,23 +11,6 @@
     "Levels": {
       "1": "male",
       "2": "female"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "1": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        },
-        "2": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
     }
   },
   "handedness": {
@@ -96,15 +61,5 @@
       "2": "Not Hispanic or Latino",
       "3": "Unknown or not resported"
     }
-  },
-  "participant_id": {
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    },
-    "Description": "There should have been a description here, but there wasn't. :("
   }
 }

@@ -1,31 +1,40 @@
 {
-	"nr": {
-		"Description": "unique participant identifier"
-	},
-	"biological_sex": {
-		"Description": "biological sex of the participant",
-		"Levels": {
-			"m": "male",
-			"f": "female"
-		}
-	},
-	"age": {
-		"Description": "age of the participant",
-		"Units": "years"
-	},
-	"cap_size": {
-		"Description": "head circumference and EEG cap sized used",
-		"Units": "centimeter"
-	},
-	"block_1": {
-		"Description": "pseudo permutation of sensory feedback conditions: condition of first block",
-		"Units": "Visual = Visual only condition; Visual + Vibro = Simultaneous visual and vibrotactile sensory feedback"
-	},
-	"block_2": {
-		"Description": "pseudo permutation of sensory feedback conditions: condition of second block"
-	},
-	"block_3": {
-		"Description": "some select participants completed a third block with Visual + Vibro + EMS sensory feedback",
-		"Units": "Visual + Vibro + EMS = Simultaneous visual, vibrotactile and electrical muscle stimulation sensory feedback"
-	}
+  "participant_id": {
+    "LongName": "Participant Identifier",
+    "Description": "unique identifier for the participant"
+  }, 
+  "age": {
+    "Description": "age of the participant",
+    "Units": "years"
+  },
+  "cap_size": {
+    "LongName": "Cap Size",
+    "Description": "size of the cap used for the participant",
+    "Units": "cm"
+  },
+  "block_1": {
+    "LongName": "Block 1",
+    "Description": "Haptic condition in block 1",
+    "Levels": {
+      "Visual+Vibro": "Visual feedback in combination with vibration under the fingertip of the index finger",
+      "Visual": "Visual only feedback"
+    }
+  },
+  "block_2": {
+    "LongName": "Block 2",
+    "Description": "Haptic condition in block 2",
+    "Levels": {
+      "Visual+Vibro": "Visual feedback in combination with vibration under the fingertip of the index finger",
+      "Visual": "Visual only feedback"
+    }
+  },
+  "block_3": {
+    "LongName": "Block 3",
+    "Description": "Haptic condition in block 3",
+    "Levels": {
+      "Visual+Vibro+EMS": "Visual feedback in combination with vibration under the fingertip of the index finger and electrical muscle stimulation on the forearm",
+      "Visual+Vibro": "Visual feedback in combination with vibration under the fingertip of the index finger",
+      "Visual": "Visual only feedback"
+    }
+  }
 }

@@ -1,52 +1,12 @@
 {
   "participant_id": {
-    "Description": "Participant identifier",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    }
+    "Description": "Participant identifier"
   },
   "age": {
-    "Description": "Age in years",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromInt",
-        "Label": "integer data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Description": "Age in years"
   },
   "sex": {
-    "Description": "self-rated by participant, M for male/F for female",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
-    }
+    "Description": "self-rated by participant, M for male/F for female"
   },
   "group": {
     "Description": "all the sujbects are on control group"
@@ -60,182 +20,41 @@
   "education_specify": {
     "Description": "the highest level of formal education completed (i.e., does not include uncompleted education or education currently undertaken)"
   },
-  "body_weight": {
+  "body_weight":{
     "Description": "body weight of the participant"
   },
   "efl": {
     "Description": "english as first language"
   },
   "visual_impairment": {
-    "Description": "any kind of vision impairment including wearing reading glasses",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {
-        "yes": {
-          "TermURL": "snomed:397540003",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "no"
-      ],
-      "VariableType": "Categorical"
-    }
+    "Description": "any kind of vision impairment including wearing reading glasses"
   },
   "visual_impairment_specify": {
-    "Description": "description of visual impairment",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {
-        "a little short sighted": {
-          "TermURL": "snomed:397540003",
-          "Label": ""
-        },
-        "glasses": {
-          "TermURL": "snomed:397540003",
-          "Label": ""
-        },
-        "reading glasses": {
-          "TermURL": "snomed:397540003",
-          "Label": ""
-        },
-        "slight short sightedness": {
-          "TermURL": "snomed:397540003",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "",
-        " ",
-        "nan",
-        "n/a"
-      ],
-      "VariableType": "Categorical"
-    }
+    "Description": "description of visual impairment"
   },
   "mental_illness_history": {
-    "Description": "handedness of the participant as reported by the participant",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {
-        "yes": {
-          "TermURL": "snomed:74732009",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "no"
-      ],
-      "VariableType": "Categorical"
-    }
+    "Description": "handedness of the participant as reported by the participant"
   },
   "mental_illness_specify": {
-    "Description": "diagnosis or treatment of whether the person has received a diagnosis for any Axis I psychiatric condition",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {
-        "anxiety": {
-          "TermURL": "snomed:197480006",
-          "Label": ""
-        },
-        "anxiety, diagnosed treated and recovered": {
-          "TermURL": "snomed:197480006",
-          "Label": ""
-        },
-        "depression": {
-          "TermURL": "snomed:35489007",
-          "Label": ""
-        },
-        "depression, diagnosis, ongoing, receiving treatment": {
-          "TermURL": "snomed:35489007",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "",
-        " ",
-        "nan",
-        "n/a"
-      ],
-      "VariableType": "Categorical"
-    }
+    "Description": "diagnosis or treatment of whether the person has received a diagnosis for any Axis I psychiatric condition"
   },
   "mental_illness_family_history": {
     "Description": "self-report of whether the person has a family member who has had a current or past Axis I psychiatric condition"
   },
   "mental_illness_family_history_specify": {
-    "Description": "diagnosis or treatment of the family member\u2019s  psychiatric condition"
+    "Description": "diagnosis or treatment of the family member’s  psychiatric condition"
   },
   "dementia_suspec_dx_family": {
     "Description": "Whether a family member had suspected or diagnosed dementia"
   },
   "neurological": {
-    "Description": "Whether the person has a current or previous neurological condition",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {
-        "concussion at 8 years old": {
-          "TermURL": "snomed:110030002",
-          "Label": ""
-        },
-        "migraine": {
-          "TermURL": "snomed:37796009",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "no"
-      ],
-      "VariableType": "Categorical"
-    }
+    "Description": "Whether the person has a current or previous neurological condition"
   },
   "cardiovascular": {
-    "Description": "Whether the person has a current or previous cardiovascular condition",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {
-        "congenital tachycardia \"fixed\"": {
-          "TermURL": "snomed:82838007",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "no"
-      ],
-      "VariableType": "Categorical"
-    }
+    "Description": "Whether the person has a current or previous cardiovascular condition"
   },
   "diabetes": {
-    "Description": "Whether the person has a current or previous diabetes diagnosis",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {},
-      "MissingValues": [
-        "no"
-      ],
-      "VariableType": "Categorical"
-    }
+    "Description": "Whether the person has a current or previous diabetes diagnosis"
   },
   "regular_medication": {
     "Description": "Whether the person is currently taking regular medication"
@@ -247,71 +66,13 @@
     "Description": "Whether the person took medication in the previous 24hrs"
   },
   "current_smoker": {
-    "Description": "currently smoking",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {},
-      "MissingValues": [
-        "no"
-      ],
-      "VariableType": "Categorical"
-    }
+    "Description": "currently smoking"
   },
   "previous_smoker": {
-    "Description": "previous smoking",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {
-        "yes": {
-          "TermURL": "snomed:77176002",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "no"
-      ],
-      "VariableType": "Categorical"
-    }
+    "Description": "previous smoking"
   },
   "previous_smoker_specify": {
-    "Description": "description of previous smoking ",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {
-        "10 cigs a day for 10 years, stopped 3 years ago": {
-          "TermURL": "snomed:77176002",
-          "Label": ""
-        },
-        "6 in whole lifetime": {
-          "TermURL": "snomed:77176002",
-          "Label": ""
-        },
-        "once ever": {
-          "TermURL": "snomed:77176002",
-          "Label": ""
-        },
-        "yes as a social smoker": {
-          "TermURL": "snomed:77176002",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "",
-        " ",
-        "nan",
-        "n/a"
-      ],
-      "VariableType": "Categorical"
-    }
+    "Description": "description of previous smoking "
   },
   "alcohol_drinking_days": {
     "Description": "number of days per week/month the person drinks"

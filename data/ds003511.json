@@ -1,35 +1,10 @@
 {
     "participant_id": {
-        "LongName": "Participant ID",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
+        "LongName": "Participant ID"
     },
     "age": {
         "LongName": "Age",
-        "Units": "Years",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Age",
-                "Label": ""
-            },
-            "MissingValues": [
-                "",
-                "n/a",
-                " "
-            ],
-            "Format": {
-                "TermURL": "nb:FromInt",
-                "Label": "integer data"
-            },
-            "VariableType": "Continuous"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
+        "Units": "Years"
     },
     "gender": {
         "LongName": "Gender",
@@ -37,23 +12,6 @@
         "Levels": {
             "M": "Male",
             "F": "Female"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "F": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "M": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
         }
     }
 }

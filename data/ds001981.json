@@ -9,18 +9,10 @@
     "Units": "minutes"
   },
   "efs_runs": {
-    "LongName": "Number of electrical forepaw stimulaiton (EFS) fMRI runs",
-    "Description": "There should have been a description here, but there wasn't. :("
+    "LongName": "Number of electrical forepaw stimulaiton (EFS) fMRI runs"
   },
   "participant_id": {
-    "Description": "ID of the rat, from sub-01 to sub-24",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    }
+    "Description": "ID of the rat, from sub-01 to sub-24"
   },
   "protocol": {
     "LongName": "medetomidine administration protocol",
@@ -33,8 +25,7 @@
     }
   },
   "rs_runs": {
-    "LongName": "Number of resting state (RS) fMRI runs",
-    "Description": "There should have been a description here, but there wasn't. :("
+    "LongName": "Number of resting state (RS) fMRI runs"
   },
   "weight": {
     "LongName": "Body weight",

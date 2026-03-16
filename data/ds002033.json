@@ -1,34 +1,11 @@
 {
   "participant_id": {
     "LongName": "participant_id",
-    "Description": "participant id",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    }
+    "Description": "participant id"
   },
   "age": {
     "LongName": "age",
-    "Description": "age of participant",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromInt",
-        "Label": "integer data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Description": "age of participant"
   },
   "sex": {
     "LongName": "sex",
@@ -36,23 +13,6 @@
     "Levels": {
       "M": "male",
       "F": "female"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
     }
   },
   "handedness": {

@@ -1,56 +1,13 @@
 {
   "participant_id": {
-    "Description": "Participant identifier",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    }
+    "Description": "Participant identifier"
   },
   "age": {
     "Description": "Age at time of testing",
-    "Units": "years",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromInt",
-        "Label": "integer data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Units": "years"
   },
   "sex": {
     "Description": "Biological sex of the participant",
-    "Levels": {
-      "f": "female",
-      "m": "male"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "f": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "m": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
-    }
+    "Levels": {"f": "female", "m": "male"}
   }
 }

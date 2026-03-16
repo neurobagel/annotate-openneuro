@@ -1,58 +1,18 @@
 {
     "participant_id": {
-        "Description": "Participant identifier",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        }
+        "Description": "Participant identifier"
     },
     "experimental_id": {
         "Description": "Animal identification number"
     },
     "age": {
-        "Description": "Age (in years, rounded down) at session 1",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Age",
-                "Label": ""
-            },
-            "MissingValues": [
-                "",
-                "n/a",
-                " "
-            ],
-            "Format": {
-                "TermURL": "nb:FromInt",
-                "Label": "integer data"
-            },
-            "VariableType": "Continuous"
-        }
+        "Description": "Age (in years, rounded down) at session 1"
     },
     "sex": {
         "Description": "Sex of the animals",
         "Levels": {
             "F": "female",
             "M": "male"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "F": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "M": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
         }
     },
     "group": {

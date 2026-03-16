@@ -1,59 +1,19 @@
 {
   "age": {
     "Description": "Age of participant in years",
-    "Units": "Years, with one quantile precision",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromFloat",
-        "Label": "float data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Units": "Years, with one quantile precision"
   },
   "sex": {
     "Description": "(Self-reported) biological sex of participant",
     "Levels": {
       "M": "male",
       "F": "female"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "",
-        " ",
-        "nan",
-        "n/a"
-      ],
-      "VariableType": "Categorical"
     }
   },
   "BMI": {
     "LongName": "Body mass index (rounded to nearest integer",
     "Units": "kilograms per squared meters",
-    "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/60621009",
-    "Description": "There should have been a description here, but there wasn't. :("
+    "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/60621009"
   },
   "handedness": {
     "Description": "Whether someone is left-handed, right-handed, or ambidextrous",
@@ -74,23 +34,16 @@
     "Description": "Whether the subject considered him/herself religious or not",
     "Levels": {
       "no": "No religious affiliation",
-      "yes": "Considers him/herself to be religous"
+      "yes": "Considers him/herself to be religous" 
     }
   },
   "raven_score": {
     "Description": "Score on Raven's Progressive Matrices test (duration: 30 min)",
-    "Units": "Sum of completed sets",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Assessment",
-        "Label": ""
-      },
-      "IsPartOf": {
-        "TermURL": "snomed:718148002",
-        "Label": ""
-      },
-      "VariableType": "Collection"
-    }
+    "Units": "Sum of completed sets"
+  },
+  "NEO_A": {
+    "Description": "Score on the Agreeableness scale of the NEO-FFI",
+    "Units": "Sum of individual items"
   },
   "NEO_A": {
     "Description": "Score on the Agreeableness scale of the NEO-FFI",
@@ -111,15 +64,5 @@
   "NEO_O": {
     "Description": "Score on the Openness scale of the NEO-FFI",
     "Units": "Sum of individual items"
-  },
-  "participant_id": {
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    },
-    "Description": "There should have been a description here, but there wasn't. :("
   }
 }

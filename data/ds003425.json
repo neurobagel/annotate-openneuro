@@ -1,51 +1,24 @@
 {
-    "Age_Sess1": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Age",
-                "Label": ""
-            },
-            "MissingValues": [
-                "",
-                "n/a",
-                " "
-            ],
-            "Format": {
-                "TermURL": "nb:FromInt",
-                "Label": "integer data"
-            },
-            "VariableType": "Continuous"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
+  "Sex": {
+    "LongName": "Sex",
+    "Description": "Sex",
+    "Levels": {
+      "M": "Male",
+      "F": "Female"
+      }
     },
-    "Sex": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "F": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "M": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
+  "Age_Sess1": {
+    "LongName": "Age at the time of Session 1",
+    "Units": "Years"
     },
-    "participant_id": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
+  "Days-bet-Sess": {
+    "LongName": "Days between Sessions",
+    "Description": "Days between Sessions 1 and 2",
+    "Units": "Days"
+  },
+  "Age_Sess2": {
+  "LongName": "Age at session 2",
+  "Description": "n/a indicats the participant did not return",
+  "Units": "Years"
     }
 }

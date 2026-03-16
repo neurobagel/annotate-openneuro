@@ -1,46 +1,13 @@
 {
     "age": {
         "Description": "age of the participant",
-        "Units": "years",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Age",
-                "Label": ""
-            },
-            "MissingValues": [
-                "",
-                "n/a",
-                " "
-            ],
-            "Format": {
-                "TermURL": "nb:FromInt",
-                "Label": "integer data"
-            },
-            "VariableType": "Continuous"
-        }
+        "Units": "years"
     },
     "sex": {
         "Description": "sex of the participant as reported by the participant",
         "Levels": {
             "Male": "male",
             "Female": "female"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "Female": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "Male": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
         }
     },
     "handedness": {
@@ -50,15 +17,5 @@
             "left": "left",
             "right": "right"
         }
-    },
-    "participant_id": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
     }
 }

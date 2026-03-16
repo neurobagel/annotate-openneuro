@@ -1,14 +1,7 @@
 {
     "participant_id": {
         "LongName": "",
-        "Description": "Participant ID in BIDS format",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        }
+        "Description": "Participant ID in BIDS format"
     },
     "sex": {
         "LongName": "",
@@ -16,23 +9,6 @@
         "Levels": {
             "M": "male",
             "F": "female"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "F": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "M": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
         }
     },
     "handedness": {

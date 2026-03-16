@@ -1,30 +1,13 @@
 {
     "session": {
         "Description": "Imaging session"
-    },
+        },
     "gender": {
         "Description": "C57Bl/6J mice",
-        "Levels": {
+	"Levels": {
             "m": "Male",
-            "f": "Female"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "f": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "m": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
-        }
+	    "f": "Female"
+	}
     },
     "condition": {
         "Description": "Experimental group",
@@ -38,15 +21,5 @@
     },
     "Experiment_Date": {
         "Description": "Date of recording"
-    },
-    "participant_id": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
-    }
+  }
 }

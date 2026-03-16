@@ -8,23 +8,6 @@
         "Levels": {
             "M": "Male",
             "F": "Female"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "F": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "M": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
         }
     },
     "times_after_stroke": {
@@ -55,45 +38,13 @@
             "am": "Acoustic-mnestic aphasia",
             "s-m": "Sensoir and motoric combination aphasies",
             "m-am": "Motor and acoustic-mnestic combination of aphasies"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "am": {
-                    "TermURL": "snomed:87486003",
-                    "Label": ""
-                },
-                "m": {
-                    "TermURL": "snomed:87486003",
-                    "Label": ""
-                },
-                "m-am": {
-                    "TermURL": "snomed:87486003",
-                    "Label": ""
-                },
-                "s": {
-                    "TermURL": "snomed:87486003",
-                    "Label": ""
-                },
-                "s-m": {
-                    "TermURL": "snomed:87486003",
-                    "Label": ""
-                }
-            },
-            "MissingValues": [
-                "sm"
-            ],
-            "VariableType": "Categorical"
         }
     },
     "size": {
         "Description": "Conventional size of the stroke lession",
         "Levels": {
             "S": "Small size (up to 20 mm)",
-            "M": "Medium size (up to 50 mm)",
+            "M": "Medium size (up to 50 mm)", 
             "H": "Hight size (more than 50 mm)"
         }
     },
@@ -128,15 +79,6 @@
             "P": "Area was partially injured by the stroke",
             "N": "Area wasn't injured by the stroke"
         }
-    },
-    "participant_id": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
     }
 }
+

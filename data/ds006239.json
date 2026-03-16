@@ -1,7 +1,8 @@
 {
     "particpant_id": {
         "LongName": "Subject ID Numbers",
-        "Description": "ID associated with each participant"
+        "Description": "ID associated with each participant",
+        "DataType": "string"
     },
     "birthdate": {
         "LongName": "Shifted date of birth",

@@ -1,14 +1,7 @@
 {
   "participant_id": {
     "LongName": "Participant ID number",
-    "Description": "ID number assigned to participant (prefix sub-).",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    }
+    "Description": "ID number assigned to participant (prefix sub-)."
   },
   "gender": {
     "LongName": "Gender",
@@ -16,45 +9,12 @@
     "Levels": {
       "F": "female",
       "M": "male"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
     }
   },
   "age": {
     "LongName": "Age in years",
     "Description": "Age of participant in years.",
-    "Units": "years",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromInt",
-        "Label": "integer data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Units": "years"
   },
   "scanner": {
     "LongName": "MRI scanner",

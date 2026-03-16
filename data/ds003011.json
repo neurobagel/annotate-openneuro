@@ -1,13 +1,6 @@
 {
   "participant_id": {
-    "Description": "Participant identifier",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    }
+    "Description": "Participant identifier"
   },
   "has_Y1CMH": {
     "Description": "Scanned on GE 750w Discovery 3T at CMH in year 1 of study"

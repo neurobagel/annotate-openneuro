@@ -1,35 +1,12 @@
 {
   "participant_id": {
-    "Description": "Participant identifier",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    }
+    "Description": "Participant identifier"
   },
   "family_id": {
     "Description": "Family identifier (participants belonging to the same family share a family_id)"
   },
   "age": {
-    "Description": "Age (in years, rounded down) at session 1",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromInt",
-        "Label": "integer data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Description": "Age (in years, rounded down) at session 1"
   },
   "age_ses02": {
     "Description": "Age (in years, rounded down) at session 2"
@@ -39,23 +16,6 @@
     "Levels": {
       "M": "male",
       "F": "female"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
     }
   },
   "handedness": {

@@ -14,76 +14,9 @@
     "Levels": {
       "f": "female",
       "m": "male"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "f": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "m": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        },
-        "F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "F,F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "F,F,F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "F,F,F,F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "F,F,F,F,F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "F,F,F,F,F,F,F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        },
-        "M,M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        },
-        "M,M,M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        },
-        "M,M,M,M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
     }
   },
   "task": {
     "Description": "tasks (story stimuli) collected for participant"
-  },
-  "participant_id": {
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    },
-    "Description": "There should have been a description here, but there wasn't. :("
   }
 }

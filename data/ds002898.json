@@ -1,46 +1,13 @@
 {
     "age": {
         "Description": "age of the participant",
-        "Units": "years",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Age",
-                "Label": ""
-            },
-            "MissingValues": [
-                "",
-                "n/a",
-                " "
-            ],
-            "Format": {
-                "TermURL": "nb:FromInt",
-                "Label": "integer data"
-            },
-            "VariableType": "Continuous"
-        }
+        "Units": "years"
     },
     "sex": {
         "Description": "sex of the participant as reported by the participant",
         "Levels": {
             "M": "male",
             "F": "female"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "F": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "M": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
         }
     },
     "handedness": {
@@ -72,128 +39,26 @@
         "Levels": {
             "yes": "Yes",
             "no": "No"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "yes": {
-                    "TermURL": "snomed:397540003",
-                    "Label": ""
-                }
-            },
-            "MissingValues": [
-                "no"
-            ],
-            "VariableType": "Categorical"
         }
     },
     "visual_impairment_specify": {
-        "Description": "description of visual impairment",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "contact lenses": {
-                    "TermURL": "snomed:397540003",
-                    "Label": ""
-                },
-                "difficulty with contrast at night": {
-                    "TermURL": "snomed:397540003",
-                    "Label": ""
-                },
-                "glasses": {
-                    "TermURL": "snomed:397540003",
-                    "Label": ""
-                },
-                "glasses long distance": {
-                    "TermURL": "snomed:397540003",
-                    "Label": ""
-                },
-                "reading glasses": {
-                    "TermURL": "snomed:397540003",
-                    "Label": ""
-                }
-            },
-            "MissingValues": [
-                "",
-                " ",
-                "nan",
-                "n/a"
-            ],
-            "VariableType": "Categorical"
-        }
+        "Description": "description of visual impairment"
     },
     "mental_illness_history": {
         "Description": "self report of whether the person has had a current or past Axis I psychiatric condition",
         "Levels": {
             "yes": "Yes",
             "no": "No"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "yes": {
-                    "TermURL": "snomed:74732009",
-                    "Label": ""
-                }
-            },
-            "MissingValues": [
-                "no"
-            ],
-            "VariableType": "Categorical"
         }
     },
     "mental_illness_history_specify": {
-        "Description": "diagnosis or treatment Whether the person has received a diagnosis for any Axis I psychiatric condition",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "depressed period no diagnosis": {
-                    "TermURL": "snomed:35489007",
-                    "Label": ""
-                }
-            },
-            "MissingValues": [
-                "",
-                " ",
-                "nan",
-                "n/a"
-            ],
-            "VariableType": "Categorical"
-        }
+        "Description": "diagnosis or treatment Whether the person has received a diagnosis for any Axis I psychiatric condition"
     },
     "cardiovascular_disease": {
         "Description": "history of cadiovascular disease",
         "Levels": {
             "yes": "Yes",
             "no": "No"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "yes": {
-                    "TermURL": "snomed:49601007",
-                    "Label": ""
-                }
-            },
-            "MissingValues": [
-                "no"
-            ],
-            "VariableType": "Categorical"
         }
     },
     "diabetes": {
@@ -201,22 +66,6 @@
         "Levels": {
             "yes": "Yes",
             "no": "No"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "yes": {
-                    "TermURL": "snomed:73211009",
-                    "Label": ""
-                }
-            },
-            "MissingValues": [
-                "no"
-            ],
-            "VariableType": "Categorical"
         }
     },
     "regular_medication": {
@@ -235,69 +84,14 @@
         "Levels": {
             "yes": "Yes",
             "no": "No"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "yes": {
-                    "TermURL": "snomed:77176002",
-                    "Label": ""
-                }
-            },
-            "MissingValues": [
-                "no"
-            ],
-            "VariableType": "Categorical"
         }
     },
     "current_smoker_specify": {
-        "Description": "Description of current smoking habit",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "once a month 2-3": {
-                    "TermURL": "snomed:77176002",
-                    "Label": ""
-                },
-                "yes 2-3 per day": {
-                    "TermURL": "snomed:77176002",
-                    "Label": ""
-                }
-            },
-            "MissingValues": [
-                "",
-                " ",
-                "nan",
-                "n/a"
-            ],
-            "VariableType": "Categorical"
-        }
+        "Description": "Description of current smoking habit"
     },
     "previous_smoker": {
         "Description": "Previous smoking",
-        "Levels": {},
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "yes": {
-                    "TermURL": "snomed:77176002",
-                    "Label": ""
-                }
-            },
-            "MissingValues": [
-                "no"
-            ],
-            "VariableType": "Categorical"
-        }
+        "Levels": {}
     },
     "previous_smoker_specify": {
         "Description": "Description of previous smoking habit",
@@ -339,15 +133,5 @@
     },
     "cesd_r": {
         "Description": "R Centre for Epidemiological Studies Depression Inventory - Revised total score"
-    },
-    "participant_id": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
     }
 }

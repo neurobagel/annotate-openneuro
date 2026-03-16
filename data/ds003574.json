@@ -1,13 +1,6 @@
 {
     "participant_id": {
-        "Description": "Participant identifier",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        }
+        "Description": "Participant identifier"
     },
     "group_won_game": {
         "Description": "subjects won at the face or the maze game at the end of the task sessions"
@@ -17,44 +10,11 @@
     },
     "age": {
         "Description": "Age at time of testing",
-        "Units": "years",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Age",
-                "Label": ""
-            },
-            "MissingValues": [
-                "",
-                "n/a",
-                " "
-            ],
-            "Format": {
-                "TermURL": "nb:FromInt",
-                "Label": "integer data"
-            },
-            "VariableType": "Continuous"
-        }
+        "Units": "years"
     },
     "sex": {
         "Description": "Biological sex of the participant",
-        "Units": "f for female, m for male",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "f": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "m": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
-        }
+        "Units": "f for female, m for male"
     },
     "memory_face_game": {
         "Description": "memory for the FACE game, performance for the placement of face according to the original location",
@@ -65,7 +25,7 @@
         "Units": "arbitrary"
     },
     "memory_maze_game": {
-        "Description": "memory for the MAZE game, performances measured as the shortest map distance from the participant\ufffds current location after 30 s to the starting (here goal) point",
+        "Description": "memory for the MAZE game, performances measured as the shortest map distance from the participant�s current location after 30 s to the starting (here goal) point",
         "Units": "arbitrary"
     },
     "memory_maze_game_Z_score": {

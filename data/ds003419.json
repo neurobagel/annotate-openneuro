@@ -1,13 +1,6 @@
 {
     "participant_id": {
-        "Description": "unique participant identifier",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        }
+        "Description": "unique participant identifier"
     },
     "season": {
         "LongName": "season of experiment",
@@ -16,27 +9,11 @@
             "1": "Season 1",
             "2": "Season 2"
         }
-    },
+     },
     "age": {
         "LongName": "age of participant",
         "Description": "age of the participant at scanning date",
-        "Units": "years",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Age",
-                "Label": ""
-            },
-            "MissingValues": [
-                "",
-                "n/a",
-                " "
-            ],
-            "Format": {
-                "TermURL": "nb:FromInt",
-                "Label": "integer data"
-            },
-            "VariableType": "Continuous"
-        }
+        "Units": "years"
     },
     "sex": {
         "LongName": "sex of participant",
@@ -44,23 +21,6 @@
         "Levels": {
             "F": "female",
             "M": "male"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "F": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "M": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
         }
     },
     "size": {

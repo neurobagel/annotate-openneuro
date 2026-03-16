@@ -1,48 +1,32 @@
 {
     "age": {
         "Description": "age of the participant",
-        "Units": "years",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Age",
-                "Label": ""
-            },
-            "MissingValues": [
-                "",
-                "n/a",
-                " "
-            ],
-            "Format": {
-                "TermURL": "nb:FromInt",
-                "Label": "integer data"
-            },
-            "VariableType": "Continuous"
-        }
+        "Units": "years"
     },
     "PROG": {
-        "Description": "concentration levels of progesterone",
-        "Units": "pg/ml"
-    },
+           "Description": "concentration levels of progesterone",
+           "Units": "pg/ml"
+       },
     "E2": {
-        "Description": "concentration levels of estrogen",
-        "Units": "pg/ml"
-    },
+           "Description": "concentration levels of estrogen",
+           "Units": "pg/ml"
+       },
     "BAS1": {
-        "Description": "behaviroal activation system-rewards",
-        "Units": "scores"
-    },
+           "Description": "behaviroal activation system-rewards",
+           "Units": "scores"
+       },
     "BAS2": {
-        "Description": "behaviroal activation system-dirve",
-        "Units": "scores"
-    },
+              "Description": "behaviroal activation system-dirve",
+              "Units": "scores"
+          },
     "BAS3": {
-        "Description": "behaviroal activation system-fun seeking",
-        "Units": "scores"
-    },
+              "Description": "behaviroal activation system-fun seeking",
+              "Units": "scores"
+          },
     "BIS": {
-        "Description": "behaviroal inhibition system",
-        "Units": "scores"
-    },
+              "Description": "behaviroal inhibition system",
+              "Units": "scores"
+          },
     "group": {
         "Description": "group",
         "Levels": {
@@ -55,42 +39,6 @@
         "Levels": {
             "M": "male",
             "F": "female"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "F": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "M": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
         }
-    },
-    "BAS-drive": {
-        "Description": "There should have been a description here, but there wasn't. :("
-    },
-    "BAS-fun seeking": {
-        "Description": "There should have been a description here, but there wasn't. :("
-    },
-    "BAS-rewards": {
-        "Description": "There should have been a description here, but there wasn't. :("
-    },
-    "participant_id": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
     }
 }

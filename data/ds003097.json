@@ -1,54 +1,13 @@
 {
   "age": {
     "Description": "Age of participant in years",
-    "Units": "Years, with one quantile precision",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromFloat",
-        "Label": "float data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Units": "Years, with one quantile precision"
   },
   "sex": {
     "Description": "(Self-reported) biological sex of participant",
     "Levels": {
       "M": "male",
       "F": "female"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        },
-        "female": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "male": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
     }
   },
   "gender_identity_M": {
@@ -56,7 +15,7 @@
   },
   "gender_identity_F": {
     "Description": "To what degree the subject felt female"
-  },
+  }, 
   "sexual_attraction_M": {
     "Description": "To what degree the subject was attracted to males"
   },
@@ -66,8 +25,7 @@
   "BMI": {
     "LongName": "Body mass index (rounded to nearest integer",
     "Units": "kilograms per squared meters",
-    "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/60621009",
-    "Description": "There should have been a description here, but there wasn't. :("
+    "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/60621009"
   },
   "handedness": {
     "Description": "Whether someone is left-handed, right-handed, or ambidextrous",
@@ -92,7 +50,7 @@
     "Description": "Whether the subject was religious or not",
     "Levels": {
       "no": "Not religious",
-      "yes": "Religious"
+      "yes": "Religious" 
     }
   },
   "religious_now": {
@@ -136,6 +94,10 @@
     "Description": "Score on the Agreeableness scale of the NEO-FFI",
     "Units": "Sum of individual items"
   },
+  "NEO_A": {
+    "Description": "Score on the Agreeableness scale of the NEO-FFI",
+    "Units": "Sum of individual items"
+  },
   "NEO_C": {
     "Description": "Score on the Conscientiousness scale of the NEO-FFI",
     "Units": "Sum of individual items"
@@ -163,15 +125,5 @@
   },
   "DWI_TR_run3": {
     "Description": "Repetition Time (TR) for the third DWI scan (if this scan doesn't exist for a subject, it is coded 'n/a')"
-  },
-  "participant_id": {
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    },
-    "Description": "There should have been a description here, but there wasn't. :("
   }
 }

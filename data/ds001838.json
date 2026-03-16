@@ -5,13 +5,6 @@
     "Levels": {
       "1:27": "right handed",
       "101:128": "left handed"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
     }
   },
   "group": {
@@ -24,23 +17,7 @@
   },
   "age": {
     "LongName": "age",
-    "Description": "age of participant",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromFloat",
-        "Label": "float data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Description": "age of participant"
   },
   "sex": {
     "LongName": "sex",
@@ -48,29 +25,6 @@
     "Levels": {
       "M": "male",
       "F": "female"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "",
-        " ",
-        "nan",
-        "n/a"
-      ],
-      "VariableType": "Categorical"
     }
   },
   "NeurologicalQuestionnaire_Eligibility": {

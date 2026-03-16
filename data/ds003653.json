@@ -1,46 +1,13 @@
 {
     "age": {
         "Description": "age of the participant",
-        "Units": "years",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Age",
-                "Label": ""
-            },
-            "MissingValues": [
-                "",
-                "n/a",
-                " "
-            ],
-            "Format": {
-                "TermURL": "nb:FromFloat",
-                "Label": "float data"
-            },
-            "VariableType": "Continuous"
-        }
+        "Units": "years"
     },
     "sex": {
         "Description": "sex of the participant as reported by the participant",
         "Levels": {
             "M": "male",
             "F": "female"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "F": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                },
-                "M": {
-                    "TermURL": "snomed:248153007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
         }
     },
     "group": {
@@ -48,28 +15,7 @@
         "Levels": {
             "UD": "individuals with unipolar depression including those diagnosed with MDD and PDD",
             "HC": "healthy controls",
-            "HCconvertedMDD": "individual that presented as HC at baseline, but converted to MDD during the course of the study"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "HC": {
-                    "TermURL": "ncit:C94342",
-                    "Label": ""
-                },
-                "HCconvertedMDD": {
-                    "TermURL": "snomed:35489007",
-                    "Label": ""
-                },
-                "UD": {
-                    "TermURL": "snomed:35489007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
+	    "HCconvertedMDD": "individual that presented as HC at baseline, but converted to MDD during the course of the study"
         }
     },
     "group_dx": {
@@ -79,31 +25,6 @@
             "PDD": "persistent depressive disorder",
             "HC": "healthy controls",
             "HCconvertedMDD": "individual that presented as HC at baseline, but converted to MDD during the course of the study"
-        },
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Diagnosis",
-                "Label": ""
-            },
-            "Levels": {
-                "HC": {
-                    "TermURL": "ncit:C94342",
-                    "Label": ""
-                },
-                "HCconvertedMDD": {
-                    "TermURL": "snomed:35489007",
-                    "Label": ""
-                },
-                "MDD": {
-                    "TermURL": "snomed:35489007",
-                    "Label": ""
-                },
-                "PDD": {
-                    "TermURL": "snomed:35489007",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
         }
     },
     "number_comorbid_dx": {
@@ -112,22 +33,11 @@
     },
     "medload": {
         "Description": "reflects the number of dosage of psychotropic medications taken by participants. Higher numbers correspond to more medications and/or higher medication dosage ",
-        "Units": "arbitraty units"
+        "Units": "arbitraty units" 
     },
     "iq": {
         "Description": "IQ derived based on the NART assessment.",
-        "Units": "arbitraty units",
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Assessment",
-                "Label": ""
-            },
-            "IsPartOf": {
-                "TermURL": "snomed:273640001",
-                "Label": ""
-            },
-            "VariableType": "Collection"
-        }
+        "Units": "arbitraty units"
     },
     "session": {
         "Description": "scanning session",
@@ -135,15 +45,6 @@
             "1": "baseline",
             "2": "6 months follow-up scan"
         }
-    },
-    "participant_id": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
     }
 }
+

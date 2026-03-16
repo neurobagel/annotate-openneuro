@@ -1,14 +1,7 @@
 {
   "participant_id": {
-    "LongName": "Participant ID",
-    "Description": "Id of the participant",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    }
+    	"LongName": "Participant ID",
+    	"Description": "Id of the participant"   
   },
   "exam_date": {
     "LongName": "Date of exam",
@@ -20,23 +13,6 @@
     "Levels": {
       "control": "Participant without aneurysm",
       "patient": "Participant with aneurysm(s)"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {
-        "control": {
-          "TermURL": "ncit:C94342",
-          "Label": ""
-        },
-        "patient": {
-          "TermURL": "snomed:432119003",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
     }
   }
 }

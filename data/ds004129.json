@@ -1,33 +1,10 @@
 {
   "participant_id": {
-    "Description": "OpenNeuro ID of the subject.",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    }
+    "Description": "OpenNeuro ID of the subject."
   },
   "age": {
     "Description": "Participant's age in years. n/a means there was no response from participant though a response was possible. Question may have been skipped over by participant.",
-    "Units": "Years",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromBounded",
-        "Label": "bounded data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Units": "Years"
   },
   "sex": {
     "Description": "Biological sex assigned at birth.",
@@ -35,29 +12,6 @@
       "male": "Male",
       "female": "Female",
       "n/a": "No response, meaning there was no response from participant though a response was possible. Question may have been skipped over by participant."
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "female": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "male": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "MissingValues": [
-        "",
-        " ",
-        "nan",
-        "n/a"
-      ],
-      "VariableType": "Categorical"
     }
   },
   "handedness": {
@@ -172,17 +126,6 @@
     "Levels": {
       "0": "Not Present",
       "1": "Present"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Assessment",
-        "Label": ""
-      },
-      "IsPartOf": {
-        "TermURL": "snomed:273843002",
-        "Label": ""
-      },
-      "VariableType": "Collection"
     }
   },
   "whodas": {

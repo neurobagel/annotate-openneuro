@@ -1,8 +1,8 @@
 {
     "diet_importance": {
-        "LongName": "Diet Importance",
-        "Description": "subject's self-rating of how important dieting is to them",
-        "Units": "1-5 scale, 5 being the highest"
+	"LongName": "Diet Importance",
+	"Description": "subject's self-rating of how important dieting is to them",
+	"Units": "1-5 scale, 5 being the highest"
     },
     "appetite_pre": {
         "LongName": "Pre-scan Appetite Rating (Hunger Covariate)",
@@ -28,50 +28,5 @@
         "LongName": "Cycle Phase Covariate",
         "Description": "Menstrual Cycle phase (based on days_since_menstruation and oral_contraceptive",
         "Units": "0 = Not in phase 1 or 2 (29 days or more) or using oral contraceptives, 1 = Follicular phase/ovulation (day 1-14), 2 = Luteal phase (day 15 to 28)"
-    },
-    "age": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Age",
-                "Label": ""
-            },
-            "MissingValues": [
-                "",
-                "n/a",
-                " "
-            ],
-            "Format": {
-                "TermURL": "nb:FromFloat",
-                "Label": "float data"
-            },
-            "VariableType": "Continuous"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
-    },
-    "participant_id": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:ParticipantID",
-                "Label": ""
-            },
-            "VariableType": "Identifier"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
-    },
-    "sex": {
-        "Annotations": {
-            "IsAbout": {
-                "TermURL": "nb:Sex",
-                "Label": ""
-            },
-            "Levels": {
-                "F": {
-                    "TermURL": "snomed:248152002",
-                    "Label": ""
-                }
-            },
-            "VariableType": "Categorical"
-        },
-        "Description": "There should have been a description here, but there wasn't. :("
     }
 }

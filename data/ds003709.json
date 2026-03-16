@@ -5,45 +5,12 @@
     "Levels": {
       "M": "male",
       "F": "female"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
     }
   },
   "age": {
     "LongName": "Age in years",
     "Description": "Integer age in years",
-    "Units": "years",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromInt",
-        "Label": "integer data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Units": "years"
   },
   "handedness": {
     "Description": "handedness of the participant as reported by the participant",
@@ -58,23 +25,6 @@
     "Levels": {
       "MDD": "Participants with current, ongoing, or historical depression",
       "HV": "Healthy volunteers"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Diagnosis",
-        "Label": ""
-      },
-      "Levels": {
-        "HV": {
-          "TermURL": "ncit:C94342",
-          "Label": ""
-        },
-        "MDD": {
-          "TermURL": "snomed:370143000",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
     }
   },
   "MFQ": {
@@ -84,15 +34,5 @@
   "SHAPS": {
     "LongName": "Snaith-Hamilton Pleasure Scale total score",
     "Description": "Total score from self report on the SHAPS (Snaith et al., 1995), which measures anhedonia symptoms."
-  },
-  "participant_id": {
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    },
-    "Description": "There should have been a description here, but there wasn't. :("
   }
 }

@@ -1,63 +1,18 @@
 {
-  "participant_id": {
-    "LongName": "Participant Id",
-    "Description": "label identifying a particular subject",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    }
+  "participant_id":{
+    "LongName":"Participant Id",
+    "Description":"label identifying a particular subject"
   },
-  "age": {
-    "LongName": "Age",
-    "Description": "Age of the participant",
-    "Units": "years",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromFloat",
-        "Label": "float data"
-      },
-      "VariableType": "Continuous"
-    }
+  "age":{
+    "LongName":"Age",
+    "Description":"Age of the participant",
+    "Units": "years"
   },
-  "gender": {
-    "LongName": "gender",
-    "Description": "Sex of the participant",
+  "gender":{
+    "LongName":"gender",
+    "Description":"Sex of the participant",
     "Levels": {
-      "M": "male",
-      "F": "female"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "F": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        },
-        "M": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        },
-        "female": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
+      "M": "male", "F": "female"
     }
   }
 }

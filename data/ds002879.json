@@ -5,23 +5,7 @@
   },
   "age": {
     "LongName": "Age",
-    "Description": "Age at first study session",
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Age",
-        "Label": ""
-      },
-      "MissingValues": [
-        "",
-        "n/a",
-        " "
-      ],
-      "Format": {
-        "TermURL": "nb:FromFloat",
-        "Label": "float data"
-      },
-      "VariableType": "Continuous"
-    }
+    "Description": "Age at first study session"
   },
   "sex": {
     "LongName": "Sex",
@@ -29,23 +13,6 @@
     "Levels": {
       "1": "male",
       "2": "female"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Sex",
-        "Label": ""
-      },
-      "Levels": {
-        "1": {
-          "TermURL": "snomed:248153007",
-          "Label": ""
-        },
-        "2": {
-          "TermURL": "snomed:248152002",
-          "Label": ""
-        }
-      },
-      "VariableType": "Categorical"
     }
   },
   "race": {
@@ -108,15 +75,5 @@
   "VVWord_run-02_date": {
     "LongName": "Shifted date of aquistion of VVWord_run-02",
     "Description": "Shifted date of aquistion of VVWord_run-02. Dates were shifted -365 to 0 days across subjects to protect privacy"
-  },
-  "participant_id": {
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:ParticipantID",
-        "Label": ""
-      },
-      "VariableType": "Identifier"
-    },
-    "Description": "There should have been a description here, but there wasn't. :("
   }
 }

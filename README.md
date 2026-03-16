@@ -1,8 +1,9 @@
 # annotate-openneuro
 Scripts and data for bulk-generation of OpenNeuro data dictionaries.
 
+## Get annotatable data
 
-### Fetching all `participants.tsv` files (WIP)
+### Fetch all `participants.tsv` files (WIP)
 
 1. Clone and install from source [`ondiagnostics`](https://github.com/OpenNeuroOrg/ondiagnostics):
 
@@ -42,8 +43,7 @@ Scripts and data for bulk-generation of OpenNeuro data dictionaries.
 
     NOTE: This script creates a TSV file for all datasets regardless of if the file exists or not in the repo.
 
-
-### Fetching all `participants.json` files
+### Fetch all `participants.json` files
 
 > [!NOTE]
 > This script is agnostic to whether participants.tsv files have already been fetched.
@@ -57,3 +57,18 @@ Scripts and data for bulk-generation of OpenNeuro data dictionaries.
     ```bash
     python run code/get_participants_json_files.py
     ```
+
+### Create overview of `participants.tsv` files
+
+```bash
+python code/create_data_overview.py
+```
+
+This will create a file called `data_overview.tsv`.
+
+
+### Determine datasets needed to cover ~50% of all participants
+
+```bash
+python code/get_openneuro_tabular_overview.py
+```

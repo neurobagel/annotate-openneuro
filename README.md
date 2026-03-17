@@ -72,3 +72,9 @@ This will create a file called `data_overview.tsv`.
 ```bash
 python code/get_openneuro_tabular_overview.py
 ```
+
+### Generate summary mega-tables of all columns and categorical values in all `participants.tsv` files
+
+```bash
+python code/generate_participants_tsv_contents_table.py
+```

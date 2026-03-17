@@ -12,19 +12,15 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-DATASETS_TO_ANNOTATE = (
-    Path(__file__).parents[1]
-    / "resources"
-    / "openneuro_tabular_top_50_percent_unannotated.tsv"
-)
 DATA_DIR = Path(__file__).parents[1] / "data"
-COLUMN_SUMMARIES_OUT_FILE = (
-    Path(__file__).parents[1] / "resources" / "participants_tsv_columns_summary.tsv"
+RESOURCES_DIR = Path(__file__).parents[1] / "resources"
+DATASETS_TO_ANNOTATE = (
+    RESOURCES_DIR / "openneuro_tabular_top_50_percent_unannotated.tsv"
 )
+
+COLUMN_SUMMARIES_OUT_FILE = RESOURCES_DIR / "participants_tsv_columns_summary.tsv"
 VALUE_SUMMARIES_OUT_FILE = (
-    Path(__file__).parents[1]
-    / "resources"
-    / "participants_tsv_categorical_values_summary.tsv"
+    RESOURCES_DIR / "participants_tsv_categorical_values_summary.tsv"
 )
 
 PARTICIPANT_ID_COLUMN = "participant_id"
@@ -77,7 +73,11 @@ def get_column_description(column_json_info: dict) -> str | None:
 
 def get_column_bids_levels(column_json_info: dict) -> list:
     """Get the BIDS levels for a column from the participants.json file, if they exist."""
-    return list(column_json_info.get("Levels", {}).keys())
+    try:
+        return list(column_json_info.get("Levels", {}).keys())
+    # In case the "Levels" key is incorrectly formatted
+    except Exception:
+        return []
 
 
 def get_column_bids_units(column_json_info: dict) -> str | None:
@@ -159,7 +159,11 @@ def infer_age_format(column_data: pd.Series) -> str | None:
 
 def get_value_description(column_json_info: dict, value: str) -> str | None:
     """Get the description for a specific value in a column from the participants.json file, if it exists."""
-    return column_json_info.get("Levels", {}).get(value, None)
+    try:
+        return column_json_info.get("Levels", {}).get(value, None)
+    # In case the "Levels" key is incorrectly formatted
+    except Exception:
+        return None
 
 
 def infer_if_missing_value(value: str) -> bool | None:

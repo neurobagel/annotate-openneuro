@@ -18,8 +18,13 @@ DATASETS_TO_ANNOTATE = (
     / "openneuro_tabular_top_50_percent_unannotated.tsv"
 )
 DATA_DIR = Path(__file__).parents[1] / "data"
-OUT_FILE = (
+COLUMN_SUMMARIES_OUT_FILE = (
     Path(__file__).parents[1] / "resources" / "participants_tsv_columns_summary.tsv"
+)
+VALUE_SUMMARIES_OUT_FILE = (
+    Path(__file__).parents[1]
+    / "resources"
+    / "participants_tsv_categorical_values_summary.tsv"
 )
 
 PARTICIPANT_ID_COLUMN = "participant_id"
@@ -39,6 +44,7 @@ COMMON_COLUMN_MAPPINGS = {
     "nb:Age": ["age", "age_years", "age_yrs", "participant_age"],
     "nb:Diagnosis": ["diagnosis", "dx", "group_dx", "group", "study_group"],
 }
+COMMON_MISSING_VALUES = ["none", "nan", "n/a", "na", "null", ""]
 # arbitrary threshold for number of unique values to consider a column categorical
 CATEGORICAL_COLUMN_THRESHOLD = 10
 
@@ -110,8 +116,8 @@ def are_column_values_euro_decimals(column_data: pd.Series) -> bool:
     return values.str.match(euro_decimal_pattern).any()
 
 
-def is_categorical_column_basic(column_data: pd.Series) -> bool:
-    """Check if a column is categorical based on basic heuristics (e.g. low number of unique values)."""
+def is_categorical_column_basic(column_data: pd.Series) -> bool | None:
+    """Infer if a column is categorical based on basic heuristics (e.g. low number of unique values)."""
     column_name = column_data.name.lower()
     if column_name == PARTICIPANT_ID_COLUMN:
         return False
@@ -121,9 +127,12 @@ def is_categorical_column_basic(column_data: pd.Series) -> bool:
         return False
     if not is_column_str_like_dtype(column_data):
         # Account for boolean columns that might be number-coded
-        return column_data.nunique() == 2
-    n_unique = column_data.nunique(dropna=False)
-    return n_unique < CATEGORICAL_COLUMN_THRESHOLD
+        if column_data.nunique() == 2:
+            return True
+    n_unique = column_data.nunique()
+    if n_unique < CATEGORICAL_COLUMN_THRESHOLD:
+        return True
+    return None
 
 
 def get_common_std_var_mapping(column_name: str) -> str | None:
@@ -148,10 +157,22 @@ def infer_age_format(column_data: pd.Series) -> str | None:
     return None
 
 
-def get_column_summaries(
+def get_value_description(column_json_info: dict, value: str) -> str | None:
+    """Get the description for a specific value in a column from the participants.json file, if it exists."""
+    return column_json_info.get("Levels", {}).get(value, None)
+
+
+def infer_if_missing_value(value: str) -> bool | None:
+    if pd.isna(value) or str(value).lower() in COMMON_MISSING_VALUES:
+        return True
+    return None
+
+
+def get_column_and_value_summaries(
     participants_tsv: pd.DataFrame, participants_json: dict
-) -> dict:
+) -> tuple[list[dict], list[dict]]:
     col_summaries = []
+    value_summaries = []
     for col_name, col_data in participants_tsv.items():
         column_json_info = participants_json.get(col_name, {})
 
@@ -162,12 +183,12 @@ def get_column_summaries(
             "column": col_name,
             "dtype": str(col_data.dtype),
             "description": get_column_description(column_json_info),
-            "n_unique_values": col_data.nunique(dropna=False),
+            "n_unique_values": col_data.nunique(),
             "n_empty_values": int(col_data.isna().sum()),
             "bids_levels": bids_levels,
             "bids_units": get_column_bids_units(column_json_info),
             "is_categorical": bool(bids_levels)
-            or is_categorical_column_basic(col_data),
+            or is_categorical_column_basic(col_data) is True,
             "standardized_var": standardized_var,
             "age_format": (
                 infer_age_format(col_data) if standardized_var == "nb:Age" else None
@@ -182,7 +203,18 @@ def get_column_summaries(
 
         col_summaries.append(col_summary)
 
-    return col_summaries
+        if col_summary["is_categorical"] is True:
+            # NOTE: This includes NaN values
+            for col_value in col_data.unique():
+                value_summary = {
+                    "column": col_name,
+                    "value": col_value,
+                    "description": get_value_description(column_json_info, col_value),
+                    "is_missing_value": infer_if_missing_value(col_value),
+                }
+                value_summaries.append(value_summary)
+
+    return col_summaries, value_summaries
 
 
 def main():
@@ -204,33 +236,57 @@ def main():
         "assessment_term",
         "age_format",
     ]
-    all_columns_df = pd.DataFrame(columns=all_columns_df_order)
 
-    for dataset_id in tqdm(
-        datasets_to_annotate["dataset"].head(5), "Processing datasets"
-    ):
+    all_cat_values_df_order = [
+        "dataset",
+        "column",
+        "value",
+        "description",
+        "is_missing_value",
+        "standardized_term",
+    ]
+
+    all_columns_df = pd.DataFrame(columns=all_columns_df_order)
+    all_cat_values_df = pd.DataFrame(columns=all_cat_values_df_order)
+
+    for dataset_id in tqdm(datasets_to_annotate["dataset"], "Processing datasets"):
         participants_tsv = read_tsv(DATA_DIR / f"{dataset_id}.tsv")
         if participants_tsv is None:
             continue
         participants_json = load_json(DATA_DIR / f"{dataset_id}.json")
-        dataset_columns = get_column_summaries(participants_tsv, participants_json)
+
+        dataset_columns, dataset_values = get_column_and_value_summaries(
+            participants_tsv, participants_json
+        )
+
+        # Add column summaries for dataset to mega-table
         dataset_columns_df = pd.DataFrame(dataset_columns)
         dataset_columns_df["dataset"] = dataset_id
-
         # transform bids_levels into a string for readability
         dataset_columns_df["bids_levels"] = dataset_columns_df["bids_levels"].apply(
             lambda x: ", ".join(x) if isinstance(x, list) else x
         )
-
-        # create empty column called "assessment_term"
+        # create empty column to be filled during annotation
         dataset_columns_df["assessment_term"] = None
-
         all_columns_df = pd.concat(
             [all_columns_df, dataset_columns_df], ignore_index=True
         )
 
+        # Add column value summaries for dataset to mega-table
+        dataset_values_df = pd.DataFrame(dataset_values)
+        dataset_values_df["dataset"] = dataset_id
+        # create empty column to be filled during annotation
+        dataset_values_df["standardized_term"] = None
+        all_cat_values_df = pd.concat(
+            [all_cat_values_df, dataset_values_df], ignore_index=True
+        )
+
+    # Reorder columns in mega-tables
     all_columns_df = all_columns_df[all_columns_df_order]
-    all_columns_df.to_csv(OUT_FILE, sep="\t", index=False)
+    all_cat_values_df = all_cat_values_df[all_cat_values_df_order]
+
+    all_columns_df.to_csv(COLUMN_SUMMARIES_OUT_FILE, sep="\t", index=False)
+    all_cat_values_df.to_csv(VALUE_SUMMARIES_OUT_FILE, sep="\t", index=False)
 
 
 if __name__ == "__main__":

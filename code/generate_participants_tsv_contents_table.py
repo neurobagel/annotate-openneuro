@@ -211,6 +211,8 @@ def get_column_and_value_summaries(
 
         if col_summary["is_categorical"] is True:
             # NOTE: This includes NaN values
+            # NOTE: Unique values in the actual column don't always correspond to values listed in the participants.json "Levels"
+            # e.g., an empty cell might be represented in "Levels" as "n/a"
             for col_value in col_data.unique():
                 value_summary = {
                     "column": col_name,

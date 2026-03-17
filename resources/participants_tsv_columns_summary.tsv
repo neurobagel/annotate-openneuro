@@ -704,17 +704,17 @@ ds005460	ICE_guilt	int64	Inventory of Climate Emotions (Marczak et al. 2023) - C
 ds005460	ICE_isolation	int64	Inventory of Climate Emotions (Marczak et al. 2023) - Climate isolation	13	0		Total score	False	0.0	12.0			
 ds005460	ICE_anxiety	int64	Inventory of Climate Emotions (Marczak et al. 2023) - Climate anxiety	14	0		Total score	False	3.0	16.0			
 ds005460	ICE_sorrow	int64	Inventory of Climate Emotions (Marczak et al. 2023) - Climate sorrow	14	0		Total score	False	1.0	16.0			
-ds005270	participant_id	str		158	0			False			nb:ParticipantID		
-ds005270	age	int64		63	0			False	20.0	86.0	nb:Age		nb:FromFloat
-ds005270	sex	str		2	0			True			nb:Sex		
-ds005270	t1w	int64		1	0			True	1.0	1.0			
-ds005270	t2w	int64		1	0			True	1.0	1.0			
-ds005270	dwi	int64		2	0			True	0.0	1.0			
-ds005270	rest	int64		2	0			True	0.0	1.0			
-ds005270	nbk	int64		1	0			True	1.0	1.0			
-ds005270	tsw	int64		2	0			True	0.0	1.0			
-ds005270	gng	int64		1	0			True	1.0	1.0			
-ds005270	perf	int64		2	0			True	0.0	1.0			
+ds005270	participant_id	str	participant id number	158	0			False			nb:ParticipantID		
+ds005270	age	int64	age of the participant	63	0		years	False	20.0	86.0	nb:Age		nb:FromFloat
+ds005270	sex	str	sex of the participant as reported by the participant	2	0	m, f		True			nb:Sex		
+ds005270	t1w	int64	t1-weighted MP-RAGE imaging available	1	0			True	1.0	1.0			
+ds005270	t2w	int64	t2-weighted FLAIR imaging available	1	0			True	1.0	1.0			
+ds005270	dwi	int64	diffusion-weighted imaging available	2	0			True	0.0	1.0			
+ds005270	rest	int64	resting state BOLD fMRI available	2	0			True	0.0	1.0			
+ds005270	nbk	int64	n-back task BOLD fMRI available	1	0			True	1.0	1.0			
+ds005270	tsw	int64	task switching BOLD fMRI available	2	0			True	0.0	1.0			
+ds005270	gng	int64	go/no-go BOLD fMRI available	1	0			True	1.0	1.0			
+ds005270	perf	int64	perfusion (pASL) imaging available	2	0			True	0.0	1.0			
 ds003655	participant_id	str	unique participant identifier	156	0			False			nb:ParticipantID		
 ds003655	orig_ID	int64	participant identifier from recording	156	0			False	1.0	186.0			
 ds003655	Sex	str	sex of the participant	2	0			True			nb:Sex		

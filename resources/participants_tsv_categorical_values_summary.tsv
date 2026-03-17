@@ -1504,8 +1504,8 @@ ds005460	PCAE_c	6
 ds005460	PCAE_c	5			
 ds005460	PCAE_c	4			
 ds005460	PCAE_c	3			
-ds005270	sex	m			
-ds005270	sex	f			
+ds005270	sex	m	male		
+ds005270	sex	f	female		
 ds005270	t1w	1			
 ds005270	t2w	1			
 ds005270	dwi	1			

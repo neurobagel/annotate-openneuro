@@ -59,7 +59,8 @@ def load_json(path: Path) -> dict:
     if not path.exists():
         return {}
     try:
-        with open(path, "r", encoding="utf-8") as f:
+        # Use encoding "utf-8-sig" to handle potential BOM in JSON files - common in Windows-created files
+        with open(path, "r", encoding="utf-8-sig") as f:
             return json.load(f)
     except Exception as e:
         logger.error(f"Error loading JSON file {path.name}: {e}")

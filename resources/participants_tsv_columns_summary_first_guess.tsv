@@ -1,16 +1,16 @@
 dataset	column	dtype	description	n_unique_values	n_empty_values	bids_levels	bids_units	is_categorical	min	max	standardized_var	assessment_term	age_format
-ds004186	participant_id	str	Unique participant identifier	2951	0			False					
+ds004186	participant_id	str	Unique participant identifier	2951	0			False			nb:ParticipantID		
 ds004186	release	float64	Release number in which subjects' data was published	10	0			False	1.1	10.0			
-ds004186	gender	int64	Sex of the participant	2	0	M, F		True	0.0	1.0			
-ds004186	age	float64	age of the participant	2763	0		years	False	5.005932	21.899041			
+ds004186	gender	int64	Sex of the participant	2	0	M, F		True	0.0	1.0	nb:Sex		
+ds004186	age	float64	age of the participant	2763	0		years	False	5.005932	21.899041	nb:Age		nb:FromFloat
 ds004186	handedness	float64	Subject's handedness. +100=Fully Right-handed, -100=Fully Left-handed	289	43			False	-100.05	100.05			
 ds004186	commercial_use	str	Did the participant consent to commercial use of data?	2	0	Yes, No		True					
 ds004186	full_pheno	str	Does the participant have a full phenotypic file?	2	0	Yes, No		True					
-ds005752	participant_id	str	OpenNeuro ID of the subject.	1859	0			False					
+ds005752	participant_id	str	OpenNeuro ID of the subject.	1859	0			False			nb:ParticipantID		
 ds005752	release_1	int64	Presence of participant data in release 1 of the dataset.	2	0	0, 1		True	0.0	1.0			
 ds005752	release_2	int64	Presence of participant data in release 2 of the dataset.	2	0	0, 1		True	0.0	1.0			
-ds005752	age	str	Participant's age at first/baseline online screening visit in years. n/a means there was no response from participant though a response was possible. Question may have been skipped over by participant.	70	30		Years	False					
-ds005752	sex	str	Biological sex assigned at birth.	2	12	male, female, n/a		True					
+ds005752	age	str	Participant's age at first/baseline online screening visit in years. n/a means there was no response from participant though a response was possible. Question may have been skipped over by participant.	70	30		Years	False			nb:Age		
+ds005752	sex	str	Biological sex assigned at birth.	2	12	male, female, n/a		True			nb:Sex		
 ds005752	handedness	str	Handedness is decided based on Laterality Quotient ranges from the Edinburgh Handedness Inventory.  See Levels below for exact ranges.	3	27	left, ambidextrous, right, n/a		True					
 ds005752	eligibility	int64	Eligibility for the study.	2	0	0, 1		True	0.0	1.0			
 ds005752	MRI	int64	Presence of Magnetic Resonance Imaging (MRI) data in data set.	2	0	0, 1		True	0.0	1.0			
@@ -50,9 +50,9 @@ ds005752	urinalysis	int64	Presence of Urinalysis data in data set.	2	0	0, 1		Tru
 ds005752	urine_chemistry	int64	Presence of Urine Chemistry data in data set.	2	0	0, 1		True	0.0	1.0			
 ds005752	vitamin_levels	int64	Presence of Vitamin Levels data in data set.	2	0	0, 1		True	0.0	1.0			
 ds005752	whodas	int64	Presence of World Health Organization Disability Assessment Schedule 2.0 (WHODAS 2.0) data in data set.	2	0	0, 1		True	0.0	1.0			
-ds004889	participant_id	str		1505	0			False					
-ds004889	sex	str	gender of the participant as reported by the participant	2	399	F, M		True					
-ds004889	age	str	age in years at time of scan, clamped to 89	68	399		years	False					
+ds004889	participant_id	str		1505	0			False			nb:ParticipantID		
+ds004889	sex	str	gender of the participant as reported by the participant	2	399	F, M		True			nb:Sex		
+ds004889	age	str	age in years at time of scan, clamped to 89	68	399		years	False			nb:Age		
 ds004889	race	str	race and ethnicity code from electronic health records	2	464	b, w		True					
 ds004889	acuteischaemicstroke	float64	Was an acute ischemic stroke diagnosed at admission	1	399	0, 1		True	1.0	1.0			
 ds004889	priorstroke	float64	Evidence of prior stroke	2	399	0, 1		True	0.0	1.0			
@@ -60,21 +60,21 @@ ds004889	bmi	float64	Body mass index.	640	459		score	False	12.23	115.56
 ds004889	nihss	float64	NIH Stroke Score	35	399		score	False	0.0	35.0			
 ds004889	gs_rankin_6isdeath	float64	Rankin score at discharge	7	767		score	True	0.0	6.0			
 ds004889	etiology	str		5	425			True					
-ds005385	participant_id	str	IDs	608	0			False					
-ds005385	sex	str	Sex of the participant	2	0	M, F		True					
-ds005385	age	int64	Age of the participant	51	0		years	False	20.0	70.0			
+ds005385	participant_id	str	IDs	608	0			False			nb:ParticipantID		
+ds005385	sex	str	Sex of the participant	2	0	M, F		True			nb:Sex		
+ds005385	age	int64	Age of the participant	51	0		years	False	20.0	70.0	nb:Age		nb:FromFloat
 ds005385	handedness	str	handedness of the participant as obtained from the Edinburgh Handedness Inventory 	2	2	left, right		True					
 ds005385	session1	str	participant took part in session 1	1	0		yes/no	True					
 ds005385	late_ses1	int64	there are late trigger in datasets; datasets are probable not continuous	60	0		count	False	0.0	2370.0			
 ds005385	session2	str	participant took part in session 2	2	0		yes/no	True					
 ds005385	late_ses2	float64	there are late trigger in datasets; datasets are probable not continuous	7	400		count	True	0.0	136.0			
-ds004605	participant_id	str	participant identifier	583	0			False					
-ds004605	age	float64	age of the participant	110	0		years	False	7.6	20.5			
-ds004605	sex	int64	sex of the participant as reported by the participant	2	0	1, -1		True	-1.0	1.0			
-ds005515	participant_id	str	The prticipant ID set in the HBN dataset	533	0			False					
+ds004605	participant_id	str	participant identifier	583	0			False			nb:ParticipantID		
+ds004605	age	float64	age of the participant	110	0		years	False	7.6	20.5	nb:Age		nb:FromFloat
+ds004605	sex	int64	sex of the participant as reported by the participant	2	0	1, -1		True	-1.0	1.0	nb:Sex		
+ds005515	participant_id	str	The prticipant ID set in the HBN dataset	533	0			False			nb:ParticipantID		
 ds005515	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005515	sex	str	Gender	2	0	F, M		True					
-ds005515	age	float64	Age in years	529	0			False	5.2639	21.5097			
+ds005515	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005515	age	float64	Age in years	529	0			False	5.2639	21.5097	nb:Age		nb:FromFloat
 ds005515	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	136	1			False	-100.05	100.05			
 ds005515	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005515	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -95,7 +95,7 @@ ds005515	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005515	seqLearning6target	str	Availability status of the sequence learning 6-target task	1	0			True					
 ds005515	seqLearning8target	str	Availability status of the sequence learning 8-target task	1	0			True					
 ds005515	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds004856	participant_id	str	Subject identifier	464	0		ID	False					
+ds004856	participant_id	str	Subject identifier	464	0		ID	False			nb:ParticipantID		
 ds004856	AgeCog_W1	int64	Age of the participant at the wave 1 cognitive battery	67	0		years	False	21.0	89.0			
 ds004856	AgeMRI_W1	int64	Age of the participant at the wave 1 MRI scan	67	0		years	False	21.0	89.0			
 ds004856	AgePETAmy_W1	float64	Age of the participant at the wave 1 amyloid PET scan	55	169		years	False	31.0	89.0			
@@ -107,7 +107,7 @@ ds004856	AgeCog_W3	float64	Age of the participant at the wave 3 cognitive batter
 ds004856	AgeMRI_W3	float64	Age of the participant at the wave 3 MRI scan	60	271		years	False	31.0	97.0			
 ds004856	AgePETAmy_W3	float64	Age of the participant at the wave 3 amyloid PET scan	38	388		years	False	40.0	97.0			
 ds004856	AgePETTau_W3	float64	Age of the participan at the wave 3 tau PET scant	53	340		years	False	34.0	98.0			
-ds004856	Sex	str	Participant’s biological sex	2	0	m, f		True					
+ds004856	Sex	str	Participant’s biological sex	2	0	m, f		True			nb:Sex		
 ds004856	Race	int64	Race that the participant self-identifies with	7	0	1, 2, 3, 4, 5, 6, 7		True	1.0	7.0			
 ds004856	Ethnicity	float64	Ethnicity that the participant self-identifies with	2	2	1, 2		True	0.0	1.0			
 ds004856	EduYrsEstCap	float64	This is a conversion of the participant's self-reported highest level of education into a capped estimated number of years it would take to reach this highest level of education: 11 maximum = Less than high school; 12 = high school; 15 maximum = some college; 16 = Bachelor's degree; 20 maximum = some graduate work; 18 = master's degree; 21 = MD/JD/PhD/Advanced degree	16	1		years	False	11.0	21.0			
@@ -131,10 +131,10 @@ ds004856	MRIW1toW3	float64	Time interval between wave 1 and wave 3 MRI scan	134	
 ds004856	PETAmyW1toW2	float64	Time interval between wave 1 and wave 2 amyloid PET scan	91	283		years	False	2.8	5.19			
 ds004856	PETAmyW2toW3	float64	Time interval between wave 2 and wave 3 amyloid PET scan	63	391		years	False	2.93	6.4			
 ds004856	PETAmyW1toW3	float64	Time interval between wave 1 and wave 3 amyloid PET scan	62	387		years	False	6.0	9.77			
-ds005516	participant_id	str	The prticipant ID set in the HBN dataset	430	0			False					
+ds005516	participant_id	str	The prticipant ID set in the HBN dataset	430	0			False			nb:ParticipantID		
 ds005516	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005516	sex	str	Gender	2	0	F, M		True					
-ds005516	age	float64	Age in years	426	0			False	5.0802	22.0002			
+ds005516	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005516	age	float64	Age in years	426	0			False	5.0802	22.0002	nb:Age		nb:FromFloat
 ds005516	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	136	3			False	-100.05	100.05			
 ds005516	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005516	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -155,15 +155,15 @@ ds005516	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005516	seqLearning6target	str	Availability status of the sequence learning 6-target task	1	0			True					
 ds005516	seqLearning8target	str	Availability status of the sequence learning 8-target task	1	0			True					
 ds005516	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds004746	participant_id	str		397	0			False					
+ds004746	participant_id	str		397	0			False			nb:ParticipantID		
 ds004746	family_id	int64	random id of family. Twins have the same family id	244	0			False	10119.0	99196.0			
 ds004746	twin_id	str	random id of the twin, consisting of the zygosity, family id, twin number (1 or 2) and then the sex (0- female, 1- male)	397	0			False					
 ds004746	zygosity	str	type of twins	3	0	MZ, DZ, OS		True					
-ds004746	sex	str	Sex of participant	2	0	M, F		True					
-ds004746	age	int64	Age of participant	16	0		years	False	27.0	77.0			
-ds005143	participant_id	str	Unique ID	397	0			False					
-ds005143	sex	int64	M or F	49	0			True	18.0	76.0			
-ds005143	age	str	yy	2	45			True					
+ds004746	sex	str	Sex of participant	2	0	M, F		True			nb:Sex		
+ds004746	age	int64	Age of participant	16	0		years	False	27.0	77.0	nb:Age		nb:FromFloat
+ds005143	participant_id	str	Unique ID	397	0			False			nb:ParticipantID		
+ds005143	sex	int64	M or F	49	0			True	18.0	76.0	nb:Sex		
+ds005143	age	str	yy	2	45			True			nb:Age		
 ds005143	institution_id	str	InstitutionId	8	0			True					
 ds005143	institution	str	InstitutionName	8	0			True					
 ds005143	manufacturer	str	ManufacturerName	2	0			True					
@@ -172,10 +172,10 @@ ds005143	researcher	str	Researcher	12	0			False
 ds005143	pathology	str	The diagnosis of pathology of the participant	4	0	HC, DCM, FM		True					
 ds005143	moco_software	str	Software used for motion-correction of the fMRI data	4	0	SCT, FSL, SPM, AFNI		True					
 ds005143	segmentation_type	str	Type of binary spinal cord segmentation	2	0	Manual, Automated		True					
-ds005511	participant_id	str	The prticipant ID set in the HBN dataset	381	0			False					
+ds005511	participant_id	str	The prticipant ID set in the HBN dataset	381	0			False			nb:ParticipantID		
 ds005511	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005511	sex	str	Gender	2	0	F, M		True					
-ds005511	age	float64	Age in years	378	0			False	5.2228	21.899			
+ds005511	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005511	age	float64	Age in years	378	0			False	5.2228	21.899	nb:Age		nb:FromFloat
 ds005511	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	111	2			False	-100.05	100.05			
 ds005511	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005511	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -196,20 +196,20 @@ ds005511	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005511	seqLearning6target	str		2	0			True					
 ds005511	seqLearning8target	str		2	0			True					
 ds005511	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds004395	participant_id	str	Unique participant identifier	364	0			False					
-ds004395	age	float64	Age of the participant at time of testing	34	35		years	False	17.0	86.0			
-ds004395	sex	str	Biological sex of the participant	2	49	F, M		True					
+ds004395	participant_id	str	Unique participant identifier	364	0			False			nb:ParticipantID		
+ds004395	age	float64	Age of the participant at time of testing	34	35		years	False	17.0	86.0	nb:Age		nb:FromFloat
+ds004395	sex	str	Biological sex of the participant	2	49	F, M		True			nb:Sex		
 ds004395	hand	str	Handedness of the participant	3	35	R, L, A		True					
-ds007045	participant_id	str	Unique Participant's ID	337	0			False					
-ds007045	sex	int64	Sex of the participant as reported by the participant	2	0	1, 0		True	0.0	1.0			
-ds007045	age	int64	Age of participant	50	0		years	False	29.0	86.0			
+ds007045	participant_id	str	Unique Participant's ID	337	0			False			nb:ParticipantID		
+ds007045	sex	int64	Sex of the participant as reported by the participant	2	0	1, 0		True	0.0	1.0	nb:Sex		
+ds007045	age	int64	Age of participant	50	0		years	False	29.0	86.0	nb:Age		nb:FromFloat
 ds007045	MGMT	int64	O6-methylguanine-DNA methyltransferase (MGMT) promoter methylation status	2	0	1, 0		True	0.0	1.0			
 ds007045	field_strength	str	MRI system magnetic field strength (Tesla)	3	0			False					
 ds007045	scanner_model	str	MRI scanner model	21	0			False					
-ds005509	participant_id	str	The prticipant ID set in the HBN dataset	330	0			False					
+ds005509	participant_id	str	The prticipant ID set in the HBN dataset	330	0			False			nb:ParticipantID		
 ds005509	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005509	sex	str	Gender	2	0	F, M		True					
-ds005509	age	float64	Age in years	326	0			False	5.1735	20.8778			
+ds005509	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005509	age	float64	Age in years	326	0			False	5.1735	20.8778	nb:Age		nb:FromFloat
 ds005509	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	78	1			False	-100.05	100.05			
 ds005509	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005509	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -230,10 +230,10 @@ ds005509	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005509	seqLearning6target	str		2	0			True					
 ds005509	seqLearning8target	str		3	0			True					
 ds005509	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds005508	participant_id	str	The prticipant ID set in the HBN dataset	324	0			False					
+ds005508	participant_id	str	The prticipant ID set in the HBN dataset	324	0			False			nb:ParticipantID		
 ds005508	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005508	sex	str	Gender	2	0	F, M		True					
-ds005508	age	float64	Age in years	321	0			False	5.0414	20.8418			
+ds005508	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005508	age	float64	Age in years	321	0			False	5.0414	20.8418	nb:Age		nb:FromFloat
 ds005508	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	79	1			False	-100.05	100.05			
 ds005508	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005508	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -254,10 +254,10 @@ ds005508	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005508	seqLearning6target	str		2	0			True					
 ds005508	seqLearning8target	str		2	0			True					
 ds005508	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds005514	participant_id	str	The prticipant ID set in the HBN dataset	295	0			False					
+ds005514	participant_id	str	The prticipant ID set in the HBN dataset	295	0			False			nb:ParticipantID		
 ds005514	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005514	sex	str	Gender	2	0	F, M		True					
-ds005514	age	float64	Age in years	295	0			False	5.362	19.7603			
+ds005514	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005514	age	float64	Age in years	295	0			False	5.362	19.7603	nb:Age		nb:FromFloat
 ds005514	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	100	1			False	-100.0	100.05			
 ds005514	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005514	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -278,55 +278,55 @@ ds005514	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005514	seqLearning6target	str		2	0			True					
 ds005514	seqLearning8target	str		3	0			True					
 ds005514	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds007137	participant_id	str	Unique participant label	294	0			False					
-ds007137	Age	float64	Age of subject in years	10	1			False	18.0	33.0			
-ds007137	Gender	float64	Self reported gender	4	1	1, 2, 3, 4, 		True	1.0	4.0			
+ds007137	participant_id	str	Unique participant label	294	0			False			nb:ParticipantID		
+ds007137	Age	float64	Age of subject in years	10	1			False	18.0	33.0	nb:Age		nb:FromFloat
+ds007137	Gender	float64	Self reported gender	4	1	1, 2, 3, 4, 		True	1.0	4.0	nb:Sex		
 ds007137	Race	str	Race (could choose more than one, see README)	20	12			False					
 ds007137	Handedness	float64	Self reported handedness	3	12	1, 2, 3, 		True	1.0	3.0			
-ds007139	participant_id	str	Unique participant label	292	0			False					
-ds007139	Age	float64	Age of subject in years	10	2			False	18.0	33.0			
-ds007139	Gender	float64	Self reported gender	4	7	1, 2, 3, 4, 		True	1.0	4.0			
+ds007139	participant_id	str	Unique participant label	292	0			False			nb:ParticipantID		
+ds007139	Age	float64	Age of subject in years	10	2			False	18.0	33.0	nb:Age		nb:FromFloat
+ds007139	Gender	float64	Self reported gender	4	7	1, 2, 3, 4, 		True	1.0	4.0	nb:Sex		
 ds007139	Race	str	Race (could choose more than one, see README)	20	12			False					
 ds007139	Handedness	float64	Self reported handedness	3	12	1, 2, 3, 		True	1.0	3.0			
-ds007096	participant_id	str	Unique participant label	292	0			False					
-ds007096	Age	int64	Age of subject in years	10	0			False	18.0	33.0			
-ds007096	Gender	int64	Self reported gender	4	0	1, 2, 3, 4, 		True	1.0	4.0			
+ds007096	participant_id	str	Unique participant label	292	0			False			nb:ParticipantID		
+ds007096	Age	int64	Age of subject in years	10	0			False	18.0	33.0	nb:Age		nb:FromFloat
+ds007096	Gender	int64	Self reported gender	4	0	1, 2, 3, 4, 		True	1.0	4.0	nb:Sex		
 ds007096	Race	str	Race (could choose more than one, see README)	20	12			False					
 ds007096	Handedness	float64	Self reported handedness	3	12	1, 2, 3, 		True	1.0	3.0			
-ds007052	participant_id	str	Unique participant label	288	0			False					
-ds007052	Age	float64	Age of subject in years	10	1			False	18.0	33.0			
-ds007052	Gender	float64	Self reported gender	4	1	1, 2, 3, 4, 		True	1.0	4.0			
+ds007052	participant_id	str	Unique participant label	288	0			False			nb:ParticipantID		
+ds007052	Age	float64	Age of subject in years	10	1			False	18.0	33.0	nb:Age		nb:FromFloat
+ds007052	Gender	float64	Self reported gender	4	1	1, 2, 3, 4, 		True	1.0	4.0	nb:Sex		
 ds007052	Race	str	Race (could choose more than one, see README)	19	12			False					
 ds007052	Handedness	float64	Self reported handedness	3	12	1, 2, 3, 		True	1.0	3.0			
-ds007056	participant_id	str	Unique participant label	287	0			False					
-ds007056	Age	float64	Age of subject in years	10	9			False	18.0	33.0			
-ds007056	Gender	float64	Self reported gender	4	11	1, 2, 3, 4, 		True	1.0	4.0			
+ds007056	participant_id	str	Unique participant label	287	0			False			nb:ParticipantID		
+ds007056	Age	float64	Age of subject in years	10	9			False	18.0	33.0	nb:Age		nb:FromFloat
+ds007056	Gender	float64	Self reported gender	4	11	1, 2, 3, 4, 		True	1.0	4.0	nb:Sex		
 ds007056	Race	str	Race (could choose more than one, see README)	19	12			False					
 ds007056	Handedness	float64	Self reported handedness	3	12	1, 2, 3, 		True	1.0	3.0			
-ds007069	participant_id	str	Unique participant label	281	0			False					
-ds007069	Age	float64	Age of subject in years	10	1			False	18.0	33.0			
-ds007069	Gender	float64	Self reported gender	4	1	1, 2, 3, 4, 		True	1.0	4.0			
+ds007069	participant_id	str	Unique participant label	281	0			False			nb:ParticipantID		
+ds007069	Age	float64	Age of subject in years	10	1			False	18.0	33.0	nb:Age		nb:FromFloat
+ds007069	Gender	float64	Self reported gender	4	1	1, 2, 3, 4, 		True	1.0	4.0	nb:Sex		
 ds007069	Race	str	Race (could choose more than one, see README)	20	12			False					
 ds007069	Handedness	float64	Self reported handedness	3	12	1, 2, 3, 		True	1.0	3.0			
-ds004789	participant_id	str	Unique participant identifier	280	0			False					
-ds004789	age	int64	Age of the participant at time of testing	48	0		years	False	18.0	65.0			
-ds004789	sex	str	Biological sex of the participant	2	0	F, M		True					
+ds004789	participant_id	str	Unique participant identifier	280	0			False			nb:ParticipantID		
+ds004789	age	int64	Age of the participant at time of testing	48	0		years	False	18.0	65.0	nb:Age		nb:FromFloat
+ds004789	sex	str	Biological sex of the participant	2	0	F, M		True			nb:Sex		
 ds004789	hand	str	Handedness of the participant	3	7	R, L, A		True					
-ds006148	participant_id	str	The unique participant identifier of the form sub-<label>, matching a participant entity found in the dataset	266	0			False					
-ds006148	session_id	str	The session identifier of the form ses-<label>, matching a session found in the dataset	3	0			True					
-ds005896	participant_id	str		262	0			False					
-ds005896	Age	int64	Age of the participant	10	0		years	False	11.0	20.0			
-ds005896	Sex	str	Sex of the participant	2	0	F, M		True					
+ds006148	participant_id	str	The unique participant identifier of the form sub-<label>, matching a participant entity found in the dataset	266	0			False			nb:ParticipantID		
+ds006148	session_id	str	The session identifier of the form ses-<label>, matching a session found in the dataset	3	0			True			nb:SessionID		
+ds005896	participant_id	str		262	0			False			nb:ParticipantID		
+ds005896	Age	int64	Age of the participant	10	0		years	False	11.0	20.0	nb:Age		nb:FromFloat
+ds005896	Sex	str	Sex of the participant	2	0	F, M		True			nb:Sex		
 ds005896	Weight	float64	Weight of the participant	96	0		kilograms	False	38.5553563545	131.0882116053			
 ds005896	Size	float64	Height of the participant	25	0		meters	False	1.2446024908333	2.0320040666667			
-ds004809	participant_id	str	Unique participant identifier	258	0			False					
-ds004809	age	float64	Age of the participant at time of testing	46	4		years	False	18.0	65.0			
-ds004809	sex	str	Biological sex of the participant	2	0	F, M		True					
+ds004809	participant_id	str	Unique participant identifier	258	0			False			nb:ParticipantID		
+ds004809	age	float64	Age of the participant at time of testing	46	4		years	False	18.0	65.0	nb:Age		nb:FromFloat
+ds004809	sex	str	Biological sex of the participant	2	0	F, M		True			nb:Sex		
 ds004809	hand	str	Handedness of the participant	3	10	R, L, A		True					
-ds005512	participant_id	str	The prticipant ID set in the HBN dataset	257	0			False					
+ds005512	participant_id	str	The prticipant ID set in the HBN dataset	257	0			False			nb:ParticipantID		
 ds005512	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005512	sex	str	Gender	2	0	F, M		True					
-ds005512	age	float64	Age in years	254	0			False	5.0552	21.8196			
+ds005512	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005512	age	float64	Age in years	254	0			False	5.0552	21.8196	nb:Age		nb:FromFloat
 ds005512	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	71	2			False	-100.0	100.05			
 ds005512	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005512	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -347,22 +347,22 @@ ds005512	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005512	seqLearning6target	str		2	0			True					
 ds005512	seqLearning8target	str		2	0			True					
 ds005512	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds004884	participant_id	str		245	0			False					
-ds004884	sex	str	sex of the participant as reported by the participant	2	0	M, F		True					
+ds004884	participant_id	str		245	0			False			nb:ParticipantID		
+ds004884	sex	str	sex of the participant as reported by the participant	2	0	M, F		True			nb:Sex		
 ds004884	age_at_stroke	int64	age of the participant at the time of their stroke	50	0		years	False	23.0	80.0			
 ds004884	race	str		2	2			True					
 ds004884	wab_days	int64	Days since participants stroke that the WAB (Western Aphasia Battery-Revised) was collected	230	0		Days	False	42.0	8798.0			
 ds004884	wab_aq	float64	WAB (Western Aphasia Battery-Revised) Aphasia Quotient	208	0		Score	False	5.0	100.0			
 ds004884	wab_type	str	Aphasia type from the Western Aphasia Battery	6	38	Anomic, Broca, Conduction, Global, TranscorticalMotor, Wernicke, None		True					
-ds005237	participant_id	str		245	0			False					
+ds005237	participant_id	str		245	0			False			nb:ParticipantID		
 ds005237	species	str		1	0			True					
-ds005237	age	float64		189	0			False	18.08	68.33			
-ds005237	sex	str		3	0			True					
+ds005237	age	float64		189	0			False	18.08	68.33	nb:Age		nb:FromFloat
+ds005237	sex	str		3	0			True			nb:Sex		
 ds005237	Site	int64		2	0			True	1.0	2.0			
-ds005237	Group	str		2	0			True					
-ds007118	participant_id	str		233	0			False					
-ds007118	age	int64	age of the participant	42	0		year	False	0.0	45.0			
-ds007118	sex	str	sex of the participant as reported by the participant	2	0	male, female		True					
+ds005237	Group	str		2	0			True			nb:Diagnosis		
+ds007118	participant_id	str		233	0			False			nb:ParticipantID		
+ds007118	age	int64	age of the participant	42	0		year	False	0.0	45.0	nb:Age		nb:FromFloat
+ds007118	sex	str	sex of the participant as reported by the participant	2	0	male, female		True			nb:Sex		
 ds007118	asm_number	int64	Number of antiseizure medications	5	0			True	1.0	5.0			
 ds007118	mri_lesion	str	MRI-visible lesion	2	0	presence, absence		True					
 ds007118	daily_seizure	str	presence of daily seizures as reported by the participant	2	0	presence, absence		True					
@@ -373,9 +373,9 @@ ds007118	extratemporal_resection	str	Need for extra-temporal lobe resection	2	0	
 ds007118	extent_of_resection	float64	Extent of resection	206	0		%	False	0.1	91.6			
 ds007118	outcome	int64	ILAE Class (1-6) outcome	6	0			True	1.0	6.0			
 ds007118	cohort	str	Derivation or test dataset	4	0	Derivation_cohort, Temporal_external_cohort, Geographical_external_cohort1, Geographical_external_cohort2		True					
-ds007120	participant_id	str		233	0			False					
-ds007120	age	int64	age of the participant	42	0		year	False	0.0	45.0			
-ds007120	sex	str	sex of the participant as reported by the participant	2	0	male, female		True					
+ds007120	participant_id	str		233	0			False			nb:ParticipantID		
+ds007120	age	int64	age of the participant	42	0		year	False	0.0	45.0	nb:Age		nb:FromFloat
+ds007120	sex	str	sex of the participant as reported by the participant	2	0	male, female		True			nb:Sex		
 ds007120	asm_number	int64	Number of antiseizure medications	5	0			True	1.0	5.0			
 ds007120	mri_lesion	str	MRI-visible lesion	2	0	presence, absence		True					
 ds007120	daily_seizure	str	presence of daily seizures as reported by the participant	2	0	presence, absence		True					
@@ -386,9 +386,9 @@ ds007120	extratemporal_resection	str	Need for extra-temporal lobe resection	2	0	
 ds007120	extent_of_resection	float64	Extent of resection	206	0		%	False	0.1	91.6			
 ds007120	outcome	int64	ILAE Class (1-6) outcome	6	0			True	1.0	6.0			
 ds007120	cohort	str	Derivation or test dataset	4	0	Derivation_cohort, Temporal_external_cohort, Geographical_external_cohort1, Geographical_external_cohort2		True					
-ds007119	participant_id	str		233	0			False					
-ds007119	age	int64	age of the participant	42	0		year	False	0.0	45.0			
-ds007119	sex	str	sex of the participant as reported by the participant	2	0	male, female		True					
+ds007119	participant_id	str		233	0			False			nb:ParticipantID		
+ds007119	age	int64	age of the participant	42	0		year	False	0.0	45.0	nb:Age		nb:FromFloat
+ds007119	sex	str	sex of the participant as reported by the participant	2	0	male, female		True			nb:Sex		
 ds007119	asm_number	int64	Number of antiseizure medications	5	0			True	1.0	5.0			
 ds007119	mri_lesion	str	MRI-visible lesion	2	0	presence, absence		True					
 ds007119	daily_seizure	str	presence of daily seizures as reported by the participant	2	0	presence, absence		True					
@@ -399,17 +399,17 @@ ds007119	extratemporal_resection	str	Need for extra-temporal lobe resection	2	0	
 ds007119	extent_of_resection	float64	Extent of resection	206	0		%	False	0.1	91.6			
 ds007119	outcome	int64	ILAE Class (1-6) outcome	6	0			True	1.0	6.0			
 ds007119	cohort	str	Derivation or test dataset	4	0	Derivation_cohort, Temporal_external_cohort, Geographical_external_cohort1, Geographical_external_cohort2		True					
-ds002181	participant_id	str		226	0			False					
-ds002181	age	int64		2	0			True	6.0	36.0			
-ds002181	sex	float64		0	226			True					
-ds005280	participant_id	str		223	0			False					
+ds002181	participant_id	str		226	0			False			nb:ParticipantID		
+ds002181	age	int64		2	0			True	6.0	36.0	nb:Age		nb:FromFloat
+ds002181	sex	float64		0	226			True			nb:Sex		
+ds005280	participant_id	str		223	0			False			nb:ParticipantID		
 ds005280	ID	int64	Subject number at the time of research	223	0			False	1.0	223.0			
 ds005280	Pre_ID	int64	Subject number at the time of raw data acquisition	223	0			False	204.0	525.0			
-ds005280	Age	int64	Chronological age of the participant	14	0		years	False	16.0	32.0			
-ds005280	Gender	str	Biological sex of the participant	2	0	M, F		True					
-ds005754	participant_id	str	Unique BIDS identifier for the participant in this study.	220	0			False					
-ds005754	age	float64	Age in years.	95	0			False	8.1	18.0			
-ds005754	sex	str	Sex of the participant.	2	0	F, M		True					
+ds005280	Age	int64	Chronological age of the participant	14	0		years	False	16.0	32.0	nb:Age		nb:FromFloat
+ds005280	Gender	str	Biological sex of the participant	2	0	M, F		True			nb:Sex		
+ds005754	participant_id	str	Unique BIDS identifier for the participant in this study.	220	0			False			nb:ParticipantID		
+ds005754	age	float64	Age in years.	95	0			False	8.1	18.0	nb:Age		nb:FromFloat
+ds005754	sex	str	Sex of the participant.	2	0	F, M		True			nb:Sex		
 ds005754	race	str	2. What race do you consider yourself to be?  Select one or more of the following.	7	0	AMERICAN INDIAN OR ALASKAN NATIVE, ASIAN, BLACK OR AFRICAN AMERICAN, MULTIPLE RACES, UNKNOWN, WHITE		True					
 ds005754	ethnicity	int64	1.  Do you consider yourself to be Hispanic or Latino? (See definition below.)  Select one	3	0	0, 1, 2		True	0.0	2.0			
 ds005754	highest_education	float64	Educational status (highest parent if subject is a child/college student self if adult)	8	43	0, 1, 2, 3, 4, 5, 6, 7		True	0.0	7.0			
@@ -422,7 +422,7 @@ ds005754	AS	int64	Does the participant have trial-level behavioral task data for
 ds005754	SST	int64	Does the participant have trial-level behavioral task data for the stop-signal task?	2	0	1, 0		True	0.0	1.0			
 ds005754	Flanker	int64	Does the participant have trial-level behavioral task data for the flanker task?	2	0	1, 0		True	0.0	1.0			
 ds005534	Dataset_id	int64	Dataset identifier	23	0			False	1013.0	2022.0			
-ds005534	participant_id	str	Rat identifier	217	0			False					
+ds005534	participant_id	str	Rat identifier	217	0			False			nb:ParticipantID		
 ds005534	Rat_strain	str	Rat strain	4	0			True					
 ds005534	Rat_sex	str	Rat sex	2	0			True					
 ds005534	Rat_age	str	Rat age in months reported in 2 months bins	4	49			True					
@@ -447,18 +447,18 @@ ds005534	Func_TE	float64	Echo time in seconds of the functional sequence	10	0			
 ds005534	Func_FA	str	Flip angle in degrees of the functional sequence	7	38			True					
 ds005534	Func_sensory_system	str	Sensory system stimulated during the sensory evoked task. Either, forepaw, hindpaw, eyes or whiskers	5	0			True					
 ds005534	Func_sensory_stimulation	str	Sensory stimulation type. Either, electrical, thermal, visual, optognetic or mechanical deflection	5	0			True					
-ds005595	participant_id	str	Unique identifier for each participant.	200	0		n/a	False					
-ds005595	age	float64	Age of the participant at the time of data collection.	173	0		years	False	36.0	100.0			
-ds005595	sex	str	Biological sex of the participant.	2	0	M, F		True					
-ds004796	participant_id	str	Participant's ID.	192	0			False					
+ds005595	participant_id	str	Unique identifier for each participant.	200	0		n/a	False			nb:ParticipantID		
+ds005595	age	float64	Age of the participant at the time of data collection.	173	0		years	False	36.0	100.0	nb:Age		nb:FromFloat
+ds005595	sex	str	Biological sex of the participant.	2	0	M, F		True			nb:Sex		
+ds004796	participant_id	str	Participant's ID.	192	0			False			nb:ParticipantID		
 ds004796	second_phase	int64	Information on whether a given participant took part in the second phase of the experiment.	2	0	0, 1		True	0.0	1.0			
 ds004796	session_order	float64	Information on whether a given participant underwent an EEG session first or a MRI/fMRI session first.	2	122	0, 1		True	0.0	1.0			
 ds004796	APOE_rs429358	str	Apolipoprotein gene rs429358.	4	0			True					
 ds004796	APOE_rs7412	str	Apolipoprotein gene rs7412.	5	0			True					
 ds004796	APOE_haplotype	str	APOE gene haplotype, based on rs429358/rs7412 results.	7	0			True					
 ds004796	PICALM_rs3851179	str	Phosphatidylinositol Binding Clathrin Assembly Protein gene rs3851179.	4	0			True					
-ds004796	age	int64	Age of participants.	14	0		years	False	50.0	63.0			
-ds004796	sex	int64	Sex of participants.	2	0	0, 1		True	0.0	1.0			
+ds004796	age	int64	Age of participants.	14	0		years	False	50.0	63.0	nb:Age		nb:FromFloat
+ds004796	sex	int64	Sex of participants.	2	0	0, 1		True	0.0	1.0	nb:Sex		
 ds004796	education	float64	Education level of participants.	3	18	0, 1, 2, 3		True	1.0	3.0			
 ds004796	learning_deficits	str	Learning deficits.	6	17	0, 1, 2, 3, 4, 5		True					
 ds004796	BMI	float64	Body mass index calculated for each participants, based on height and weight.	167	0			False	19.03	39.04			
@@ -537,16 +537,16 @@ ds004796	non-HDL_cholesterol	float64	Blood tests: non-HDL cholesterol level.	74	
 ds004796	LDL_cholesterol	float64	Blood tests: LDL cholesterol level.	76	116		mg/dl	False	54.12	200.36			
 ds004796	triglycerides	float64	Blood tests: triglycerides level.	76	116		mg/dl	False	43.6	307.3			
 ds004796	HSV_r	float64	Blood tests: herpes simple virus (HSV) IgG positive result.	2	116	0, 1		True	0.0	1.0			
-ds004711	participant_id	str	This column contains ids for 189 participants recruited for the neuroimaging session.	189	0			False					
-ds004711	gender	str	This column contains participant self-reported gender (male, female).	2	0			True					
-ds004711	age	float64	This column contains participant age at the time of the neuroimaging session, calculated from self-reported date of birth.	186	0			False	16.22	81.48			
+ds004711	participant_id	str	This column contains ids for 189 participants recruited for the neuroimaging session.	189	0			False			nb:ParticipantID		
+ds004711	gender	str	This column contains participant self-reported gender (male, female).	2	0			True			nb:Sex		
+ds004711	age	float64	This column contains participant age at the time of the neuroimaging session, calculated from self-reported date of birth.	186	0			False	16.22	81.48	nb:Age		nb:FromFloat
 ds004711	bart_run1	int64	This column indicates whether data for the first run of the Balloon Analogue Risk Task was collected inside the scanner for a given participant. 0 = no, 1 = yes.	2	0			True	0.0	1.0			
 ds004711	bart_run2	int64	This column indicates whether data for the second run of the Balloon Analogue Risk Task was collected inside the scanner for a given participant. 0 = no, 1 = yes.	2	0			True	0.0	1.0			
 ds004711	delay_discounting	int64	This column indicates whether data for the delay discounting task was collected inside the scanner for a given participant. 0 = no, 1 = yes.	2	0			True	0.0	1.0			
-ds006577	participant_id	str	BIDS participant identifier.	185	0			False					
-ds006577	sex	str	Biological sex assigned at birth.	2	0	MALE, FEMALE		True					
+ds006577	participant_id	str	BIDS participant identifier.	185	0			False			nb:ParticipantID		
+ds006577	sex	str	Biological sex assigned at birth.	2	0	MALE, FEMALE		True			nb:Sex		
 ds006577	race	str		6	0	BLACK OR AFRICAN AMERICAN, UNKNOWN, ASIAN, WHITE, MULTIPLE RACES, AMERICAN INDIAN OR ALASKAN NATIVE, Native American or Other Pacific Islander		True					
-ds006577	group	str		2	0	HV, Anx		True					
+ds006577	group	str		2	0	HV, Anx		True			nb:Diagnosis		
 ds006577	condition	str	The randomization group subject was assigned to.	2	72	active, sham		True					
 ds006577	mri_pre	int64	Presence of Magnetic Resonance Imaging (MRI) session prior to Cognitive Behavioral Therapy (CBT) treatment. Baseline session for Healthy Volunteer subjects.	2	0	1, 0		True	0.0	1.0			
 ds006577	mri_post	int64	Presence of Magnetic Resonance Imaging (MRI) session after Cognitive Behavioral Therapy (CBT) treatment for Anxiety group. Second MRI session for Healthy Volunteer subjects.	2	0	1, 0		True	0.0	1.0			
@@ -573,18 +573,18 @@ ds006577	staic_cbt03	int64	Presence of State-Trait Anxiety Inventory – Child v
 ds006577	staic_cbt08	int64	Presence of State-Trait Anxiety Inventory – Child version (STAIC) asessment in Tabular phenotypic data collection session after 8 weeks of Cognitive Behavioral Therapy (CBT).	2	0	0, 1		True	0.0	1.0			
 ds006577	staic_cbt12	int64	Presence of State-Trait Anxiety Inventory – Child version (STAIC) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).	2	0	0, 1		True	0.0	1.0			
 ds006577	cgi_cbt12	int64	Presence of Clinical Global Impressions Scale (CGI) asessment in Tabular phenotypic data collection session after 12 weeks of Cognitive Behavioral Therapy (CBT).	2	0	0, 1		True	0.0	1.0			
-ds005398	participant_id	str	Unique participant identifier	185	0			False					
+ds005398	participant_id	str	Unique participant identifier	185	0			False			nb:ParticipantID		
 ds005398	methods	int64	Grid 1; SEEG 0	2	0	1, 0		True	0.0	1.0			
 ds005398	sampling_frequency	int64	EEG sampling frequency in Hz	2	0		Hz	True	1000.0	2000.0			
-ds005398	age	int64	Age of the participant in years	29	0		years	False	2.0	44.0			
-ds005398	sex	int64	Sex of the participant as reported by the participant	2	0	1, 0		True	0.0	1.0			
+ds005398	age	int64	Age of the participant in years	29	0		years	False	2.0	44.0	nb:Age		nb:FromFloat
+ds005398	sex	int64	Sex of the participant as reported by the participant	2	0	1, 0		True	0.0	1.0	nb:Sex		
 ds005398	resection	int64	Resection status. 1 means has resection, 0 means no	2	0	1, 0		True	0.0	1.0			
 ds005398	Engel_Class1	float64	Engel_Class1. 1 means yes, 0 means others	2	23	1, 0		True	0.0	1.0			
 ds005398	pathology	float64	Pathology. HS 1; FCD 2; Tumor 3; Others 4	4	23	1, 2, 3, 4		True	1.0	4.0			
-ds005507	participant_id	str	The prticipant ID set in the HBN dataset	184	0			False					
+ds005507	participant_id	str	The prticipant ID set in the HBN dataset	184	0			False			nb:ParticipantID		
 ds005507	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005507	sex	str	Gender	2	0	F, M		True					
-ds005507	age	float64	Age in years	183	0			False	5.0414	20.9982			
+ds005507	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005507	age	float64	Age in years	183	0			False	5.0414	20.9982	nb:Age		nb:FromFloat
 ds005507	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	69	6			False	-100.05	100.05			
 ds005507	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005507	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -605,25 +605,25 @@ ds005507	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005507	seqLearning6target	str		2	0			True					
 ds005507	seqLearning8target	str		3	0			True					
 ds005507	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds004602	participant_id	str		182	0			False					
-ds004602	SubjectID	int64	Subject ID	182	0			False	1002.0	2136.0			
-ds004602	Gender	str	Gender of the participant	3	0	M, W, O		True					
-ds004602	Sex	str	Sex of the participant	2	0	M, F		True					
-ds004602	Age	int64	Age of the participant	10	0		years	False	18.0	32.0			
+ds004602	participant_id	str		182	0			False			nb:ParticipantID		
+ds004602	SubjectID	int64	Subject ID	182	0			False	1002.0	2136.0	nb:ParticipantID		
+ds004602	Gender	str	Gender of the participant	3	0	M, W, O		True			nb:Sex		
+ds004602	Sex	str	Sex of the participant	2	0	M, F		True			nb:Sex		
+ds004602	Age	int64	Age of the participant	10	0		years	False	18.0	32.0	nb:Age		nb:FromFloat
 ds004602	Race	str	Race of the participant	5	0	AIA, A, BAA, M, W		True					
 ds004602	Ethnicity	str	Ethnicity of participants	2	0	Y, N		True					
 ds004602	StudySite	str	Study site where participant was run	2	0	B, U		True					
-ds004883	participant_id	str		172	0			False					
-ds004883	SubjectID	int64	Subject ID	172	0			False	1004.0	2125.0			
-ds004883	Gender	str	Gender of the participant	3	0	M, W, O		True					
-ds004883	Sex	str	Sex of the participant	2	0	M, F		True					
-ds004883	Age	int64	Age of the participant	11	0		years	False	18.0	58.0			
+ds004883	participant_id	str		172	0			False			nb:ParticipantID		
+ds004883	SubjectID	int64	Subject ID	172	0			False	1004.0	2125.0	nb:ParticipantID		
+ds004883	Gender	str	Gender of the participant	3	0	M, W, O		True			nb:Sex		
+ds004883	Sex	str	Sex of the participant	2	0	M, F		True			nb:Sex		
+ds004883	Age	int64	Age of the participant	11	0		years	False	18.0	58.0	nb:Age		nb:FromFloat
 ds004883	Race	str	Race of the participant	6	0	AIA, A, BAA, M, W		True					
 ds004883	Ethnicity	str	Ethnicity of participants	2	0	Y, N		True					
 ds004883	StudySite	str	Study site where participant was run	2	0	B, U		True					
-ds004199	participant_id	str		170	0			False					
-ds004199	group	str	the group a person belongs to	2	0	fcd, hc		True					
-ds004199	sex	str	sex of the participant	2	0	M, F		True					
+ds004199	participant_id	str		170	0			False			nb:ParticipantID		
+ds004199	group	str	the group a person belongs to	2	0	fcd, hc		True			nb:Diagnosis		
+ds004199	sex	str	sex of the participant	2	0	M, F		True			nb:Sex		
 ds004199	age_epilepsyonset	float64	categorized age in years at the time of the first seizure	9	85	1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13		True	1.0	9.0			
 ds004199	age_scan	int64	categorized age in years at the time of MRI	11	0	1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13		True	3.0	13.0			
 ds004199	mri_diagnosis	str	diagnosis made by neuroradiologists at the University Hospital Bonn at the time of presurgical assesment	3	85	suspicion, none, other		True					
@@ -640,9 +640,9 @@ ds004199	time_follow-up	float64	date of last follow-up in years after surgery	7	
 ds004199	hemisphere	str	hemisphere affected by the FCD	2	85	L, R		True					
 ds004199	lobe	str	lobe affected by the FCD	8	85	FL, TL, PL, OL, IL		True					
 ds004199	split	str		2	0			True					
-ds006107	participant_id	str		166	0			False					
-ds006107	age	int64	age of the participant	33	0		(years)	False	4.0	44.0			
-ds006107	sex	str	sex of the participant as reported by the participant	2	0		Male or Female	True					
+ds006107	participant_id	str		166	0			False			nb:ParticipantID		
+ds006107	age	int64	age of the participant	33	0		(years)	False	4.0	44.0	nb:Age		nb:FromFloat
+ds006107	sex	str	sex of the participant as reported by the participant	2	0		Male or Female	True			nb:Sex		
 ds006107	daily_seizure	str	presence of daily seizures as reported by the participant	2	0		Presence or Absence	True					
 ds006107	asm	int64	Number of antiseizure medications	5	0		(ASMs)	True	1.0	5.0			
 ds006107	resected_side	str	Resected hemisphere	2	0		Right or Left	True					
@@ -654,17 +654,17 @@ ds006107	extent_of_resection	float64	Extent of resection	125	0		 (%)	False	0.6	9
 ds006107	outcome	int64	ILAE Class outcome	5	0		 1-6 	True	1.0	5.0			
 ds006107	followup	int64	Follow-up Period	95	0		 Derivation or Validation 	False	12.0	130.0			
 ds006107	cohort	str	Cohort	2	0			True					
-ds005305	participant_id	str	Unique participant label	165	0			False					
-ds005305	Gender	str	Participant gender	2	0	man, woman		True					
-ds005305	Age	int64	Participant age (years)	19	0		years	False	18.0	36.0			
+ds005305	participant_id	str	Unique participant label	165	0			False			nb:ParticipantID		
+ds005305	Gender	str	Participant gender	2	0	man, woman		True			nb:Sex		
+ds005305	Age	int64	Participant age (years)	19	0		years	False	18.0	36.0	nb:Age		nb:FromFloat
 ds005305	NativeLanguage	str		2	0	french, other		True					
 ds005305	EducationLevel	int64		9	0			True	12.0	20.0			
 ds005305	Handedness	str		2	0			True					
 ds005305	Inclusion	int64		2	0			True	0.0	1.0			
 ds005305	Comment	str		13	141			False					
-ds005166	participant_id	str	Unique BIDS identifier for the participant in this study.	160	0			False					
-ds005166	age	float64	Age in years.	141	0			False	8.25	20.22			
-ds005166	sex	str	Sex at birth of the participant.	2	0	F, M		True					
+ds005166	participant_id	str	Unique BIDS identifier for the participant in this study.	160	0			False			nb:ParticipantID		
+ds005166	age	float64	Age in years.	141	0			False	8.25	20.22	nb:Age		nb:FromFloat
+ds005166	sex	str	Sex at birth of the participant.	2	0	F, M		True			nb:Sex		
 ds005166	race	str	2. What race do you consider yourself to be?  Select one or more of the following.	7	1	America Indian/Alaska Native, Asian, Black or African American, More than One Race, Unknown, White or Caucasian		True					
 ds005166	ethnicity	float64	1.  Do you consider yourself to be Hispanic or Latino? (See definition below.)  Select one	3	1	0, 1, 2		True	0.0	2.0			
 ds005166	highest_education	float64	11a. What is your highest level of education?	4	53	1, 2, 3, 4, 5		True	1.0	5.0			
@@ -676,10 +676,10 @@ ds005166	AS	int64	Does the participant have trial-level behavioral task data for
 ds005166	SST	int64	Does the participant have trial-level behavioral task data for the stop-signal task?	2	0	1, 0		True	0.0	1.0			
 ds005166	Flanker	int64	Does the participant have trial-level behavioral task data for the flanker task?	2	0	1, 0		True	0.0	1.0			
 ds005166	CALM_IT	int64	Does the participant have scored behavioral data for the CALM-IT task?	2	0	1, 0		True	0.0	1.0			
-ds005460	participant_id	str		160	0			False					
+ds005460	participant_id	str		160	0			False			nb:ParticipantID		
 ds005460	condition	str	Experimental condition to which the participant belonged	3	0	ANG, HOP, NEU		True					
-ds005460	sex	int64	Sex	2	0	0, 1		True	0.0	1.0			
-ds005460	age	int64	Age	8	0		Years	True	19.0	26.0			
+ds005460	sex	int64	Sex	2	0	0, 1		True	0.0	1.0	nb:Sex		
+ds005460	age	int64	Age	8	0		Years	True	19.0	26.0	nb:Age		nb:FromFloat
 ds005460	residence	int64	Place of residence	5	0	0, 1, 2, 3, 4		True	0.0	4.0			
 ds005460	education	int64	Education level	4	0	0, 1, 2, 3, 4, 5, 6, 7, 8		True	3.0	6.0			
 ds005460	CCC	int64	How concerned are you about climate change?	5	0	0, 1, 2, 3, 4		True	0.0	4.0			
@@ -704,9 +704,9 @@ ds005460	ICE_guilt	int64	Inventory of Climate Emotions (Marczak et al. 2023) - C
 ds005460	ICE_isolation	int64	Inventory of Climate Emotions (Marczak et al. 2023) - Climate isolation	13	0		Total score	False	0.0	12.0			
 ds005460	ICE_anxiety	int64	Inventory of Climate Emotions (Marczak et al. 2023) - Climate anxiety	14	0		Total score	False	3.0	16.0			
 ds005460	ICE_sorrow	int64	Inventory of Climate Emotions (Marczak et al. 2023) - Climate sorrow	14	0		Total score	False	1.0	16.0			
-ds005270	participant_id	str	participant id number	158	0			False					
-ds005270	age	int64	age of the participant	63	0		years	False	20.0	86.0			
-ds005270	sex	str	sex of the participant as reported by the participant	2	0	m, f		True					
+ds005270	participant_id	str	participant id number	158	0			False			nb:ParticipantID		
+ds005270	age	int64	age of the participant	63	0		years	False	20.0	86.0	nb:Age		nb:FromFloat
+ds005270	sex	str	sex of the participant as reported by the participant	2	0	m, f		True			nb:Sex		
 ds005270	t1w	int64	t1-weighted MP-RAGE imaging available	1	0			True	1.0	1.0			
 ds005270	t2w	int64	t2-weighted FLAIR imaging available	1	0			True	1.0	1.0			
 ds005270	dwi	int64	diffusion-weighted imaging available	2	0			True	0.0	1.0			
@@ -715,34 +715,34 @@ ds005270	nbk	int64	n-back task BOLD fMRI available	1	0			True	1.0	1.0
 ds005270	tsw	int64	task switching BOLD fMRI available	2	0			True	0.0	1.0			
 ds005270	gng	int64	go/no-go BOLD fMRI available	1	0			True	1.0	1.0			
 ds005270	perf	int64	perfusion (pASL) imaging available	2	0			True	0.0	1.0			
-ds003655	participant_id	str	unique participant identifier	156	0			False					
+ds003655	participant_id	str	unique participant identifier	156	0			False			nb:ParticipantID		
 ds003655	orig_ID	int64	participant identifier from recording	156	0			False	1.0	186.0			
-ds003655	Sex	str	sex of the participant	2	0			True					
-ds003655	Age	int64	age of the participant	16	0			False	17.0	34.0			
+ds003655	Sex	str	sex of the participant	2	0			True			nb:Sex		
+ds003655	Age	int64	age of the participant	16	0			False	17.0	34.0	nb:Age		nb:FromFloat
 ds003655	Accuracy_Manipulation_5	float64	accuracy in proportion of correct response in the manipulation task with 5 load	12	0			False	0.45	1.0			
 ds003655	Accuracy_Manipulation_6	float64	accuracy in proportion of correct response in the manipulation task with 6 load	15	0			False	0.3	1.0			
 ds003655	Accuracy_Manipulation_7	float64	accuracy in proportion of correct response in the manipulation task with 7 load	12	0			False	0.35	0.9			
 ds003655	Accuracy_Retention_5	float64	accuracy in proportion of correct response in the retention task with 5 load	8	0			True	0.65	1.0			
 ds003655	Accuracy_Retention_6	float64	accuracy in proportion of correct response in the retention task with 6 load	11	0			False	0.45	1.0			
 ds003655	Accuracy_Retention_7	float64	accuracy in proportion of correct response in the retention task with 7 load	11	0			False	0.5	1.0			
-ds004118	participant_id	str		156	0			False					
-ds004118	group	str	type of subject group the subject belongs to (e.g. autistic, normal, control...)	1	0			True					
+ds004118	participant_id	str		156	0			False			nb:ParticipantID		
+ds004118	group	str	type of subject group the subject belongs to (e.g. autistic, normal, control...)	1	0			True			nb:Diagnosis		
 ds004118	year_of_birth	float64	subject’s year of birth only	37	17			False	1955.0	1996.0			
 ds004118	legacy_labID	int64	labID used to reference the subject in ESS	156	0			False	1001.0	3425.0			
-ds005366	participant_id	str	Unique participant identifier	155	0			False					
-ds005366	sex	str	Biological sex of the participant	2	0	F, M		True					
-ds005366	age	int64	Age of the participant at time of testing	63	0		years	False	6.0	89.0			
+ds005366	participant_id	str	Unique participant identifier	155	0			False			nb:ParticipantID		
+ds005366	sex	str	Biological sex of the participant	2	0	F, M		True			nb:Sex		
+ds005366	age	int64	Age of the participant at time of testing	63	0		years	False	6.0	89.0	nb:Age		nb:FromFloat
 ds005366	handedness	str	Dominant hand of the participant	3	0	R, L, A		True					
 ds005366	participant_type	str	Reason for data collection from the participant	2	0	healthy, patient		True					
-ds002385	participant_id	str		152	0			False					
+ds002385	participant_id	str		152	0			False			nb:ParticipantID		
 ds002385	ses	float64		3	3			True	1.0	3.0			
-ds002385	age	float64		296	6			False	12.04	33.35			
-ds002385	sex	str		3	4			True					
-ds005498	participant_id	str		152	0			False					
-ds005498	Gender	int64		3	0			True	1.0	3.0			
+ds002385	age	float64		296	6			False	12.04	33.35	nb:Age		nb:FromFloat
+ds002385	sex	str		3	4			True			nb:Sex		
+ds005498	participant_id	str		152	0			False			nb:ParticipantID		
+ds005498	Gender	int64		3	0			True	1.0	3.0	nb:Sex		
 ds005498	Race	int64		7	0			True	2.0	8.0			
 ds005498	Ethnicity	int64		3	0			True	1.0	3.0			
-ds005498	Age	int64		36	0			False	18.0	61.0			
+ds005498	Age	int64		36	0			False	18.0	61.0	nb:Age		nb:FromFloat
 ds005498	Years of Education	int64		10	0			False	12.0	21.0			
 ds005498	PHQ-9 Score	float64		23	3			False	0.0	24.0			
 ds005498	GAD-7 Score	float64		22	5			False	0.0	21.0			
@@ -789,10 +789,10 @@ ds005498	L-pMFG Scan (Minus38x22x48)	int64		2	0			True	0.0	1.0
 ds005498	R-pMFG Scan (46x26x38)	int64		2	0			True	0.0	1.0			
 ds005498	L-aMFG Scan ( Minus32x42x34)	int64		2	0			True	0.0	1.0			
 ds005498	Resting Scan	int64		2	0			True	0.0	1.0			
-ds005506	participant_id	str	The prticipant ID set in the HBN dataset	150	0			False					
+ds005506	participant_id	str	The prticipant ID set in the HBN dataset	150	0			False			nb:ParticipantID		
 ds005506	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005506	sex	str	Gender	2	0	F, M		True					
-ds005506	age	float64	Age in years	149	0			False	5.0360000000000005	18.5425			
+ds005506	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005506	age	float64	Age in years	149	0			False	5.0360000000000005	18.5425	nb:Age		nb:FromFloat
 ds005506	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	56	6			False	-96.72	100.05			
 ds005506	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005506	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -813,29 +813,29 @@ ds005506	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005506	seqLearning6target	str		2	0			True					
 ds005506	seqLearning8target	str		2	0			True					
 ds005506	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds006303	participant_id	str	OpenNeuro ID of the subject.	149	0			False					
-ds006303	sex	int64	Biological sex assigned at birth.	2	0	M, F		True	-1.0	1.0			
-ds006303	age	int64	Participant's age in years.	11	0		Years	False	8.0	18.0			
-ds004584	participant_id	str	unique participant identifier	149	0			False					
-ds004584	GROUP	str	Control or PD	2	0			True					
+ds006303	participant_id	str	OpenNeuro ID of the subject.	149	0			False			nb:ParticipantID		
+ds006303	sex	int64	Biological sex assigned at birth.	2	0	M, F		True	-1.0	1.0	nb:Sex		
+ds006303	age	int64	Participant's age in years.	11	0		Years	False	8.0	18.0	nb:Age		nb:FromFloat
+ds004584	participant_id	str	unique participant identifier	149	0			False			nb:ParticipantID		
+ds004584	GROUP	str	Control or PD	2	0			True			nb:Diagnosis		
 ds004584	ID	int64	ID	100	0			False	1001.0	1991.0			
 ds004584	EEG	str	EEG file name	149	0			False					
-ds004584	AGE	int64	Age of the participant	34	0			False	48.0	86.0			
-ds004584	GENDER	str	Gender of the participant	2	0	F, M		True					
+ds004584	AGE	int64	Age of the participant	34	0			False	48.0	86.0	nb:Age		nb:FromFloat
+ds004584	GENDER	str	Gender of the participant	2	0	F, M		True			nb:Sex		
 ds004584	MOCA	int64	MOCA score	18	0			False	9.0	30.0			
 ds004584	UPDRS	float64	UPDRS score	26	49			False	1.0	28.0			
 ds004584	TYPE	int64	numeric value of participant type	2	0			True	0.0	1.0			
-ds004795	participant_id	str		148	0			False					
-ds004795	sex	str		2	0	F, M		True					
-ds004795	age	float64		144	0		years	False	18.15	74.8			
-ds006866	participant_id	str	Unique participant label	148	0			False					
+ds004795	participant_id	str		148	0			False			nb:ParticipantID		
+ds004795	sex	str		2	0	F, M		True			nb:Sex		
+ds004795	age	float64		144	0		years	False	18.15	74.8	nb:Age		nb:FromFloat
+ds006866	participant_id	str	Unique participant label	148	0			False			nb:ParticipantID		
 ds006866	UCLA_R	int64	UCLA Loneliness Scale (Revised) score, measuring perceived loneliness.	45	0			False	22.0	67.0			
 ds006866	LSAS	int64	Liebowitz Social Anxiety Scale score, assessing social anxiety.	74	0			False	0.0	111.0			
 ds006866	CESD	int64	Center for Epidemiologic Studies Depression Scale score, measuring depressive symptoms.	44	0			False	0.0	53.0			
 ds006866	ERQ_CR	int64	Emotion Regulation Questionnaire Cognitive Reappraisal score, assessing cognitive reappraisal tendencies.	36	0			False	6.0	42.0			
 ds006866	Set_Shifting_Cost	float64	Cost of set shifting, measuring cognitive flexibility.	148	0			False	-94.6164060283687	360.96305991342			
-ds006866	Gender	int64	Participant gender. Velues: 1-Female, 2-Male	2	0			True	1.0	2.0			
-ds006866	Age	int64	Participant age in years.	18	0			False	18.0	35.0			
+ds006866	Gender	int64	Participant gender. Velues: 1-Female, 2-Male	2	0			True	1.0	2.0	nb:Sex		
+ds006866	Age	int64	Participant age in years.	18	0			False	18.0	35.0	nb:Age		nb:FromFloat
 ds006866	CERQ_OS	int64	Cognitive Emotion Regulation Questionnaire - Self-blame subscale score.	17	0			False	4.0	20.0			
 ds006866	CERQ_A	int64	Cognitive Emotion Regulation Questionnaire - Acceptance subscale score.	14	0			False	4.0	20.0			
 ds006866	CERQ_R	int64	Cognitive Emotion Regulation Questionnaire - Rumination subscale score.	17	0			False	4.0	20.0			
@@ -846,38 +846,38 @@ ds006866	CERQ_SP	int64	Cognitive Emotion Regulation Questionnaire - Putting into
 ds006866	CERQ_K	int64	Cognitive Emotion Regulation Questionnaire - Catastrophizing subscale score.	14	0			False	4.0	17.0			
 ds006866	CERQ_OI	int64	Cognitive Emotion Regulation Questionnaire - Other-blame subscale score.	13	0			False	4.0	16.0			
 ds006866	SNS	int64	Social Network Scale - Measure of objective social isolation	21	0			False	5.0	27.0			
-ds004580	participant_id	str	unique participant identifier	147	0			False					
-ds004580	GROUP	str	Control or PD	2	0			True					
+ds004580	participant_id	str	unique participant identifier	147	0			False			nb:ParticipantID		
+ds004580	GROUP	str	Control or PD	2	0			True			nb:Diagnosis		
 ds004580	ID	int64	ID	99	0			False	1003.0	1993.0			
 ds004580	EEG	str	EEG file name	147	0			False					
 ds004580	BEHAVIOR	str	Behavior file name	147	0			False					
-ds004580	AGE	int64	Age of the participant	34	0			False	48.0	86.0			
-ds004580	GENDER	str	Gender of the participant	2	0	F, M		True					
+ds004580	AGE	int64	Age of the participant	34	0			False	48.0	86.0	nb:Age		nb:FromFloat
+ds004580	GENDER	str	Gender of the participant	2	0	F, M		True			nb:Sex		
 ds004580	MOCA	int64	MOCA score	17	0			False	11.0	30.0			
 ds004580	UPDRS	float64	UPDRS score	26	48			False	1.0	28.0			
 ds004580	TYPE	int64	numeric value of participant type	2	0			True	0.0	1.0			
-ds005016	participant_id	str		147	0			False					
-ds005016	sex	str		2	1			True					
-ds005016	group	str		2	57			True					
-ds004574	participant_id	str	unique participant identifier	146	0			False					
-ds004574	GROUP	str	Control or PD	2	0			True					
+ds005016	participant_id	str		147	0			False			nb:ParticipantID		
+ds005016	sex	str		2	1			True			nb:Sex		
+ds005016	group	str		2	57			True			nb:Diagnosis		
+ds004574	participant_id	str	unique participant identifier	146	0			False			nb:ParticipantID		
+ds004574	GROUP	str	Control or PD	2	0			True			nb:Diagnosis		
 ds004574	ID	int64	ID	99	0			False	1004.0	1994.0			
 ds004574	EEG	str	EEG file name	146	0			False					
 ds004574	BEHAVIOR	str	Behavior file name	146	0			False					
-ds004574	AGE	int64	Age of the participant	33	0			False	48.0	86.0			
-ds004574	GENDER	str	Gender of the participant	2	0	F, M		True					
+ds004574	AGE	int64	Age of the participant	33	0			False	48.0	86.0	nb:Age		nb:FromFloat
+ds004574	GENDER	str	Gender of the participant	2	0	F, M		True			nb:Sex		
 ds004574	MOCA	int64	MOCA score	18	0			False	9.0	30.0			
 ds004574	UPDRS	float64	UPDRS score	26	48			False	1.0	28.0			
 ds004574	TYPE	int64	numeric value of participant type (1=PD, 0=Control)	2	0			True	0.0	1.0			
-ds005292	participant_id	str		142	0			False					
+ds005292	participant_id	str		142	0			False			nb:ParticipantID		
 ds005292	ID	int64	Subject number at the time of research	142	0			False	1.0	142.0			
 ds005292	Pre_ID	int64	Subject number at the time of raw data acquisition	142	0			False	1.0	159.0			
-ds005292	Gender	str	Biological sex of the participant	2	0	M, F		True					
-ds005292	Age	int64	Chronological age of the participant	19	0		years	False	17.0	50.0			
-ds006923	participant_id	str	Unique participant identifier	140	0			False					
+ds005292	Gender	str	Biological sex of the participant	2	0	M, F		True			nb:Sex		
+ds005292	Age	int64	Chronological age of the participant	19	0		years	False	17.0	50.0	nb:Age		nb:FromFloat
+ds006923	participant_id	str	Unique participant identifier	140	0			False			nb:ParticipantID		
 ds006923	Subject type	str	Type of participant	2	0	Offender, No Offender		True					
-ds006923	Age	int64	Participant age (years)	6	0		Years	True	14.0	19.0			
-ds006923	Gender	str	Sex of the participant	1	0	Male, Female		True					
+ds006923	Age	int64	Participant age (years)	6	0		Years	True	14.0	19.0	nb:Age		nb:FromFloat
+ds006923	Gender	str	Sex of the participant	1	0	Male, Female		True			nb:Sex		
 ds006923	Level of education	str	Educational level achieved by the participant	6	0	Basic primary, Basic secondary, High school, Middle school, Technical, University		True					
 ds006923	Years of education	int64	Total number of years completed in the formal education system	11	0		Years	False	2.0	12.0			
 ds006923	School dropout	str	Indicate whether the participant dropped out of school before completing the corresponding educational level	2	0	No, Yes		True					
@@ -895,20 +895,20 @@ ds006923	Alcohol	str	Specify if the participant consumes alcoholic beverages	2	0
 ds006923	Marijuana	str	Specify if the participant consumes marijuana	2	0	No, Yes		True					
 ds006923	Cocaine	str	Specify if the participant uses cocaine	2	0	No, Yes		True					
 ds006923	Age of first use	float64	Age at which the participant first consumed any psychoactive substance or alcohol	10	71		Years	False	6.0	16.0			
-ds004579	participant_id	str	unique participant identifier	139	0			False					
-ds004579	GROUP	str	Control or PD	2	0			True					
+ds004579	participant_id	str	unique participant identifier	139	0			False			nb:ParticipantID		
+ds004579	GROUP	str	Control or PD	2	0			True			nb:Diagnosis		
 ds004579	ID	int64	ID	98	0			False	1005.0	1995.0			
 ds004579	EEG	str	EEG file name	139	0			False					
-ds004579	AGE	int64	Age of the participant	34	0			False	48.0	86.0			
-ds004579	GENDER	str	Gender of the participant	2	0	F, M		True					
+ds004579	AGE	int64	Age of the participant	34	0			False	48.0	86.0	nb:Age		nb:FromFloat
+ds004579	GENDER	str	Gender of the participant	2	0	F, M		True			nb:Sex		
 ds004579	MOCA	int64	MOCA score	18	0			False	9.0	30.0			
 ds004579	UPDRS	int64	UPDRS score	26	0			False	0.0	28.0			
 ds004579	TYPE	int64	numeric value of participant type	2	0			True	0.0	1.0			
-ds006218	participant_id	str	label identifying a particular subject	138	0			False					
+ds006218	participant_id	str	label identifying a particular subject	138	0			False			nb:ParticipantID		
 ds006218	subject number	str		138	0			False					
 ds006218	species	str	Species of the subject	1	0			True					
 ds006218	strain	str	Strain of the subject	1	0			True					
-ds006218	gender	str	Sex of the participant	3	0	M, F		True					
+ds006218	gender	str	Sex of the participant	3	0	M, F		True			nb:Sex		
 ds006218	genotype	str	Phenotype of the animal	2	0			True					
 ds006218	name ses1	str		1	0			True					
 ds006218	weight ses1	float64		40	95			False	24.1	52.8			
@@ -922,15 +922,15 @@ ds006218	age ses 3	float64		2	93			True	13.0	14.0
 ds006218	name ses4	str		1	0			True					
 ds006218	weight ses4	float64		41	91			False	20.9	33.9			
 ds006218	age ses 4	float64		4	91			True	25.0	28.0			
-ds005851	participant_id	str		138	0			False					
-ds005851	age	int64	age of the participant	40	0		years	False	19.0	75.0			
-ds005851	sex	str	sex of the participant	2	0	M, F		True					
+ds005851	participant_id	str		138	0			False			nb:ParticipantID		
+ds005851	age	int64	age of the participant	40	0		years	False	19.0	75.0	nb:Age		nb:FromFloat
+ds005851	sex	str	sex of the participant	2	0	M, F		True			nb:Sex		
 ds005851	TIV	float64	total intracranial volume	138	0		liters	False	1.32874117661961	2.12813851409124			
 ds005851	scanner	str	acquisition scanner	2	0	quatro, trio		True					
-ds007427	participant_id	str	Unique participant identifier	138	0			False					
+ds007427	participant_id	str	Unique participant identifier	138	0			False			nb:ParticipantID		
 ds007427	hand	float64	Handedness of the participant	0	138	R, L, A		True					
-ds007427	age	float64	Age of the participant at time of testing	36	46		years	False	21.0	65.0			
-ds007427	sex	str	Biological sex of the participant	2	46	F, M		True					
+ds007427	age	float64	Age of the participant at time of testing	36	46		years	False	21.0	65.0	nb:Age		nb:FromFloat
+ds007427	sex	str	Biological sex of the participant	2	46	F, M		True			nb:Sex		
 ds007427	education	float64		16	46			False	1.0	18.0			
 ds007427	MM_Tiempo	float64		6	47			True	0.0	5.0			
 ds007427	MM_espac	float64		4	47			True	0.0	5.0			
@@ -944,10 +944,10 @@ ds007427	Denom_med	float64		5	47			True	1.0	5.0
 ds007427	Denom_baja	float64		5	47			True	1.0	5.0			
 ds007427	Denom_total	float64		10	47			False	0.0	15.0			
 ds007427	Denom_error	float64		8	47			True	0.0	7.0			
-ds006780	participant_id	str	Unique participant label (BIDS).	136	0			False					
-ds006780	age	float64	Age in years at time of recording (if available).	46	1		years	False	7.9	14.5			
-ds006780	sex	str	Biological sex as reported.	2	1	m, f, n/a		True					
-ds006780	group	str	Diagnostic group or cohort label.	4	0	TD, ASD, SIB, n/a		True					
+ds006780	participant_id	str	Unique participant label (BIDS).	136	0			False			nb:ParticipantID		
+ds006780	age	float64	Age in years at time of recording (if available).	46	1		years	False	7.9	14.5	nb:Age		nb:FromFloat
+ds006780	sex	str	Biological sex as reported.	2	1	m, f, n/a		True			nb:Sex		
+ds006780	group	str	Diagnostic group or cohort label.	4	0	TD, ASD, SIB, n/a		True			nb:Diagnosis		
 ds006780	handedness	str	Self-reported handedness.	3	2	R, L, A, n/a		True					
 ds006780	completed_ASSR	str	Whether data for the ASSR paradigm exist for this participant in this dataset.	2	0	yes, no		True					
 ds006780	completed_AVSRT	str	Whether data for the AVSRT paradigm exist for this participant in this dataset.	2	0	yes, no		True					
@@ -968,10 +968,10 @@ ds006780	mabc_total_ss_dup	float64	Imported from source participants files (mabc
 ds006780	cpt_response_style_dup	str	Imported from source participants files (cpt_response_style_dup).	44	19			False					
 ds006780	ados_css_dup	float64	Imported from source participants files (ados_css_dup).	9	88			True	3.0	15.0			
 ds006780	medication_dup	str	Imported from source participants files (medication_dup).	15	17			False					
-ds005505	participant_id	str	The prticipant ID set in the HBN dataset	136	0			False					
+ds005505	participant_id	str	The prticipant ID set in the HBN dataset	136	0			False			nb:ParticipantID		
 ds005505	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005505	sex	str	Gender	2	0	F, M		True					
-ds005505	age	float64	Age in years	134	0			False	5.162000000000001	21.674			
+ds005505	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005505	age	float64	Age in years	134	0			False	5.162000000000001	21.674	nb:Age		nb:FromFloat
 ds005505	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	51	2			False	-100.05	100.05			
 ds005505	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005505	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -992,14 +992,14 @@ ds005505	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005505	seqLearning6target	str		2	0			True					
 ds005505	seqLearning8target	str		2	0			True					
 ds005505	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds005112	participant_id	str	Unique identifier of the participant.	135	0			False					
-ds005112	age	int64	Age of the participant.	36	0		year	False	8.0	55.0			
-ds005112	sex	str	Sex of the participant as reported by the participant.	2	0	M, F		True					
+ds005112	participant_id	str	Unique identifier of the participant.	135	0			False			nb:ParticipantID		
+ds005112	age	int64	Age of the participant.	36	0		year	False	8.0	55.0	nb:Age		nb:FromFloat
+ds005112	sex	str	Sex of the participant as reported by the participant.	2	0	M, F		True			nb:Sex		
 ds005112	handedness	str	Handedness of the participant as reported by the participant.	3	46	l, r, a		True					
-ds005510	participant_id	str	The prticipant ID set in the HBN dataset	135	0			False					
+ds005510	participant_id	str	The prticipant ID set in the HBN dataset	135	0			False			nb:ParticipantID		
 ds005510	release_number	str	The release in which the dataset was made available via the HBN project	1	0			True					
-ds005510	sex	str	Gender	2	0	F, M		True					
-ds005510	age	float64	Age in years	134	0			False	5.1126	21.0009			
+ds005510	sex	str	Gender	2	0	F, M		True			nb:Sex		
+ds005510	age	float64	Age in years	134	0			False	5.1126	21.0009	nb:Age		nb:FromFloat
 ds005510	ehq_total	float64	Edinburgh Handedness Questionnaire, +100=Fully Right-handed, -100=Fully Left-handed	59	2			False	-100.05	100.05			
 ds005510	commercial_use	str	Did the participant consent to commercial use of data?	1	0	Yes, No		True					
 ds005510	full_pheno	str	Does the participant have a full phenotypic file?	2	0			True					
@@ -1020,16 +1020,16 @@ ds005510	surroundSupp_2	str	Availability status of the 2nd run of the surround s
 ds005510	seqLearning6target	str		2	0			True					
 ds005510	seqLearning8target	str		2	0			True					
 ds005510	symbolSearch	str	Availability status of the symbol search task	3	0			True					
-ds004965	participant_id	str	Unique participant identifier	133	0			False					
-ds004965	age	int64	Age at measurement	29	0		Years	False	18.0	65.0			
-ds004965	sex	str	Sex	2	0	M, F		True					
-ds007116	participant_id	str	participant identifier	132	0			False					
-ds007116	study_group	str	experimental group the participant belonged to	3	0	ADHD, TD/NC, PRO/CHR		True					
-ds007116	sex	str	sex of the participant as reported by the participant	2	0	M, F		True					
+ds004965	participant_id	str	Unique participant identifier	133	0			False			nb:ParticipantID		
+ds004965	age	int64	Age at measurement	29	0		Years	False	18.0	65.0	nb:Age		nb:FromFloat
+ds004965	sex	str	Sex	2	0	M, F		True			nb:Sex		
+ds007116	participant_id	str	participant identifier	132	0			False			nb:ParticipantID		
+ds007116	study_group	str	experimental group the participant belonged to	3	0	ADHD, TD/NC, PRO/CHR		True			nb:Diagnosis		
+ds007116	sex	str	sex of the participant as reported by the participant	2	0	M, F		True			nb:Sex		
 ds007116	race	str	race of the participant as reported by the participant	5	0	White, Black or African American, Asian, Unknown or not reported, More than one race		True					
 ds007116	ethnicity	str	ethnicity of the participant as reported by the participant	2	1	Hispanic, Non - Hispanic, n/a		True					
 ds007116	age_months	int64	age of the participant at baseline intake as in the initial session, might not be correct for other sessions	70	0		month	False	103.0	198.0			
-ds007116	age	int64	age of the participant at baseline intake as in the initial session, might not be correct for other sessions	9	0		year	True	8.0	16.0			
+ds007116	age	int64	age of the participant at baseline intake as in the initial session, might not be correct for other sessions	9	0		year	True	8.0	16.0	nb:Age		nb:FromFloat
 ds007116	dx_none	int64	binary record of whether or not the participant had no clinical diagnoses from the clinical interview at timepoint 1	2	0	0, 1		True	0.0	1.0			
 ds007116	dx_prodromal	int64	binary record of whether or not the participant had prodromal psychosis/subthreshold psychosis spectrum disorder from the clinical interview at timepoint 1	2	0	0, 1		True	0.0	1.0			
 ds007116	dx_prodromal_remit	int64	binary record of whether or not the participant had prodromal psychosis/subthreshold psychosis spectrum disorder that is now in remission from the clinical interview at timepoint 1	2	0	0, 1		True	0.0	1.0			
@@ -1040,22 +1040,22 @@ ds007116	dx_bp	int64	binary record of whether or not the participant had bipolar
 ds007116	dx_adhd	int64	binary record of whether or not the participant had Attention Deficit Hyperactivity Disorder from the clinical interview at timepoint 1	2	0	0, 1		True	0.0	1.0			
 ds007116	dx_ptsd	int64	binary record of whether or not the participant had Post-Traumatic Stress Disorder from the clinical interview at timepoint 1	2	0	0, 1		True	0.0	1.0			
 ds007116	dx_ptsd_remit	int64	binary record of whether or not the participant had Post-Traumatic Stress Disorder that is now in remission from the clinical interview at timepoint 1	2	0	0, 1		True	0.0	1.0			
-ds004627	participant_id	str		130	0			False					
+ds004627	participant_id	str		130	0			False			nb:ParticipantID		
 ds004627	datasharing	int64	1 if the participant consented to broad datasharing, 0 otherwise	1	0			True	1.0	1.0			
-ds004627	sex	str	Biological sex at birth	2	0			True					
+ds004627	sex	str	Biological sex at birth	2	0			True			nb:Sex		
 ds004627	subject	int64		130	0			False	20900.0	24264.0			
-ds005555	participant_id	str	Recording ID, named due to BIDS conventions. See 'pid' for unique participant identifier	128	0			False					
-ds005555	age	float64	Age at the time of the recording based on self-report	43	1			False	18.0	82.0			
-ds005555	sex	str	Sex of the participant based on self-report	2	0	F, M		True					
+ds005555	participant_id	str	Recording ID, named due to BIDS conventions. See 'pid' for unique participant identifier	128	0			False			nb:ParticipantID		
+ds005555	age	float64	Age at the time of the recording based on self-report	43	1			False	18.0	82.0	nb:Age		nb:FromFloat
+ds005555	sex	str	Sex of the participant based on self-report	2	0	F, M		True			nb:Sex		
 ds005555	bmi	float64	Body Mass Index (BMI) based on self-reported height and weight	64	1			False	18.3	33.3			
 ds005555	pid	int64	Unique participant identifier; is the same for all sessions of the same individual	100	0			False	1.0	108.0			
-ds004466	participant_id	str	Participant identifier	127	0			False					
-ds004466	age	int64	Age in years (TODO - verify) as in the initial session, might not be correct for other sessions	43	0			False	18.0	68.0			
-ds004466	sex	str	self-rated by participant, M for male/F for female (TODO: verify)	3	0			True					
-ds004466	group	str	(TODO: adjust - by default everyone is in control group)	2	0			True					
-ds006018	participant_id	str	Participant ID - new IDs created to match BIDS requirements	127	0			False					
+ds004466	participant_id	str	Participant identifier	127	0			False			nb:ParticipantID		
+ds004466	age	int64	Age in years (TODO - verify) as in the initial session, might not be correct for other sessions	43	0			False	18.0	68.0	nb:Age		nb:FromFloat
+ds004466	sex	str	self-rated by participant, M for male/F for female (TODO: verify)	3	0			True			nb:Sex		
+ds004466	group	str	(TODO: adjust - by default everyone is in control group)	2	0			True			nb:Diagnosis		
+ds006018	participant_id	str	Participant ID - new IDs created to match BIDS requirements	127	0			False			nb:ParticipantID		
 ds006018	Age_Grouped	str	Participant age (grouped)	3	0		Years	True					
-ds006018	Gender	str	Participant gender	3	0			True					
+ds006018	Gender	str	Participant gender	3	0			True			nb:Sex		
 ds006018	Handedness	str	Participant dominant hand	3	0			True					
 ds006018	Highest_Edu_Grouped	str	Participant highest education level (grouped)	3	0			True					
 ds006018	Highest_Adult_Edu_Grouped	str	Highest educational attainment level (grouped) completed out of all parents/legal guardians the participant reported living with when they were 10 years old (recoded as Less than a high school diploma; High school diploma; Some college, no degree; Associate degree; Bachelor's degree; Professional or graduate degree)	3	0			True					
@@ -1125,10 +1125,10 @@ ds006018	asrs4_binary	float64	asrs4 re-coded as a binary variable following the 
 ds006018	asrs5_binary	float64	asrs5 re-coded as a binary variable following the categorization procedure described in the ASRS-V1.1	2	19			True	0.0	1.0			
 ds006018	asrs6_binary	float64	asrs6 re-coded as a binary variable following the categorization procedure described in the ASRS-V1.1	2	17			True	0.0	1.0			
 ds006018	ADHD_binary	float64	Binary variable indicating whether the participant has symptoms (1) or does not have symptoms (0) that are highly consistent with ADHD in adults. This variable was coded according to the categorization procedure described in the ASRS-V1.1	2	19			True	0.0	1.0			
-ds005863	participant_id	str		127	0			False					
+ds005863	participant_id	str		127	0			False			nb:ParticipantID		
 ds005863	IDEAID	str	Participant ID - as originally entered in the IDEA studies	127	0			False					
-ds005863	Age	float64	Participant age	115	0		Years	False	18.26	30.07			
-ds005863	Gender	str	Participant gender	3	0			True					
+ds005863	Age	float64	Participant age	115	0		Years	False	18.26	30.07	nb:Age		nb:FromFloat
+ds005863	Gender	str	Participant gender	3	0			True			nb:Sex		
 ds005863	Handedness	str	Participant dominant hand	3	0			True					
 ds005863	Highest_Edu	str	Particpant highest education level	6	0			True					
 ds005863	Occupation	str	Participant occupation	49	9			False					
@@ -1203,56 +1203,56 @@ ds005863	asrs15	str	Response to ASRS item 15 (talking too much in social situati
 ds005863	asrs16	str	Response to ASRS item 16 (finishing sentences of people you are talking to)	5	17			True					
 ds005863	asrs17	str	Response to ASRS item 17 (difficulty waiting your turn)	5	19			True					
 ds005863	asrs18	str	Response to ASRS item 18 (interrupt others when they are busy)	5	19			True					
-ds006883	participant_id	str	Participant identifier(with first digit referencing 2 or 9 mos)	126	0			False					
-ds006883	age	float64	Corrected gestational age in months	64	0			False	1.533	10.367			
-ds006883	sex	str	Declared by caregiver, M for male/F for female	2	0			True					
-ds006883	group	str	All full term infants, no NICU infant data shared. Whether the 2 mo or 9 mo scan point.	2	0			True					
-ds006391	participant_id	str	Participant's unique ID. Synonymous with field 'Subject_ID' in other files.	126	0			False					
-ds006391	Age	int64	Age of the participant	30	0		year	False	18.0	60.0			
-ds006391	Gender	str	Gender of the participant as reported by the participant	3	0	Male, Female, Non-binary		True					
+ds006883	participant_id	str	Participant identifier(with first digit referencing 2 or 9 mos)	126	0			False			nb:ParticipantID		
+ds006883	age	float64	Corrected gestational age in months	64	0			False	1.533	10.367	nb:Age		nb:FromFloat
+ds006883	sex	str	Declared by caregiver, M for male/F for female	2	0			True			nb:Sex		
+ds006883	group	str	All full term infants, no NICU infant data shared. Whether the 2 mo or 9 mo scan point.	2	0			True			nb:Diagnosis		
+ds006391	participant_id	str	Participant's unique ID. Synonymous with field 'Subject_ID' in other files.	126	0			False			nb:ParticipantID		
+ds006391	Age	int64	Age of the participant	30	0		year	False	18.0	60.0	nb:Age		nb:FromFloat
+ds006391	Gender	str	Gender of the participant as reported by the participant	3	0	Male, Female, Non-binary		True			nb:Sex		
 ds006391	Handedness	str	Handedness of the participant as reported by the participant	1	0	Right-hand		True					
 ds006391	Edu_Level	str	Participant's highest level of education	7	0	College (Bachelors), High School / GED, Graduate school (Masters), Graduate school (Doctorate), Middle School, College (Associates), Elementary School		True					
-ds005449	participant_id	str		125	0			False					
-ds005449	age	float64	Age of the participant	12	20		year	False	18.0	29.0			
-ds005449	sex	str	Sex of the participant as reported by the participant	2	20	male, female		True					
-ds005873	participant_id	str		125	0			False					
-ds005873	sex	str	sex of the participant as reported by the participant	2	0	m, f		True					
-ds003474	participant_id	str	unique participant identifier	122	0			False					
+ds005449	participant_id	str		125	0			False			nb:ParticipantID		
+ds005449	age	float64	Age of the participant	12	20		year	False	18.0	29.0	nb:Age		nb:FromFloat
+ds005449	sex	str	Sex of the participant as reported by the participant	2	20	male, female		True			nb:Sex		
+ds005873	participant_id	str		125	0			False			nb:ParticipantID		
+ds005873	sex	str	sex of the participant as reported by the participant	2	0	m, f		True			nb:Sex		
+ds003474	participant_id	str	unique participant identifier	122	0			False			nb:ParticipantID		
 ds003474	Original_ID	int64	participant identifier from recording	122	0			False	507.0	628.0			
-ds003474	sex	float64	sex of the participant	2	1	one, two		True	1.0	2.0			
-ds003474	age	float64	age of the participant	7	2			True	18.0	24.0			
+ds003474	sex	float64	sex of the participant	2	1	one, two		True	1.0	2.0	nb:Sex		
+ds003474	age	float64	age of the participant	7	2			True	18.0	24.0	nb:Age		nb:FromFloat
 ds003474	BDI	float64	Beck Depression Inventory score	26	1			False	0.0	30.0			
 ds003474	STAI	float64	Speilberger Trait Anxiety Inventory score	40	1			False	22.0	69.0			
-ds003478	participant_id	str	unique participant identifier	122	0			False					
+ds003478	participant_id	str	unique participant identifier	122	0			False			nb:ParticipantID		
 ds003478	Original_ID	int64	participant identifier from recording	122	0			False	507.0	628.0			
-ds003478	sex	float64	sex of the participant	2	1	one, two		True	1.0	2.0			
-ds003478	age	float64	age of the participant	7	2			True	18.0	24.0			
+ds003478	sex	float64	sex of the participant	2	1	one, two		True	1.0	2.0	nb:Sex		
+ds003478	age	float64	age of the participant	7	2			True	18.0	24.0	nb:Age		nb:FromFloat
 ds003478	BDI	float64	Beck Depression Inventory score.  Subjects were recruited to be either consistencly low or consistently high.  See Comp Psychiatry paper for more info.	26	1			False	0.0	30.0			
 ds003478	STAI	float64	Speilberger Trait Anxiety Inventory score	40	1			False	22.0	69.0			
 ds003478	SCID	str	Only Hi BDI (no CTL) were invited for SCID.  Many declined, so SCID only available for some high-BDI subjects.	4	0			True					
 ds003478	SCID_notes	str	SCID outcome	19	93			False					
 ds003478	HamD	float64	Only people SCIDed had the HamD	14	90			False	1.0	21.0			
-ds006910	participant_id	str		121	0			False					
-ds006910	age	int64	Age of the participant at time of testing	25	0		years	False	5.0	49.0			
-ds006910	sex	str	Biological sex of the participant	2	0	M, F, O		True					
+ds006910	participant_id	str		121	0			False			nb:ParticipantID		
+ds006910	age	int64	Age of the participant at time of testing	25	0		years	False	5.0	49.0	nb:Age		nb:FromFloat
+ds006910	sex	str	Biological sex of the participant	2	0	M, F, O		True			nb:Sex		
 ds006910	handedness	str	Handedness of the participant	3	0	R, L, A		True					
-ds006777	participant_id	str		121	0			False					
-ds006777	age	float64	Age at recording	43	0		years	False	7.9	14.5			
-ds006777	sex	str	Biological sex	2	0	M, F		True					
+ds006777	participant_id	str		121	0			False			nb:ParticipantID		
+ds006777	age	float64	Age at recording	43	0		years	False	7.9	14.5	nb:Age		nb:FromFloat
+ds006777	sex	str	Biological sex	2	0	M, F		True			nb:Sex		
 ds006777	handedness	str	Handedness	3	1	R, L, A		True					
-ds006777	group	str	Diagnostic/experimental group	3	0	ASD, ASD SIBLING, TD		True					
+ds006777	group	str	Diagnostic/experimental group	3	0	ASD, ASD SIBLING, TD		True			nb:Diagnosis		
 ds006777	fsiq	float64	Full Scale IQ	51	4		standard score	False	65.0	142.0			
 ds006777	srs2_total_t	float64	SRS-2 Total T score	49	5		T-score	False	38.0	100.0			
 ds006777	mabc_total_ss	float64	MABC Total Standard Score	13	6		standard score	False	1.0	15.0			
 ds006777	cpt_response_style	str	CPT Response Style	44	4			False					
 ds006777	ados_css	float64	ADOS Calibrated Severity Score (CSS)	9	73		severity scale	True	3.0	15.0			
 ds006777	medication	str	Current medications at time of recording	15	2			False					
-ds005901	participant_id	str		120	0			False					
-ds005901	Age	int64	Age of the participant	9	0		years	True	15.0	23.0			
-ds005901	Sex	str	Sex of the participant	3	0	F, M		True					
+ds005901	participant_id	str		120	0			False			nb:ParticipantID		
+ds005901	Age	int64	Age of the participant	9	0		years	True	15.0	23.0	nb:Age		nb:FromFloat
+ds005901	Sex	str	Sex of the participant	3	0	F, M		True			nb:Sex		
 ds005901	Weight	float64	Weight of the participant	64	0		kilograms	False	24.4939910958	164.2004588274			
 ds005901	Size	float64	Height of the participant	27	0		meters	False	1.0414020841667	2.0320040666667			
-ds006861	participant_id	str	Unique participant label	120	0			False					
+ds006861	participant_id	str	Unique participant label	120	0			False			nb:ParticipantID		
 ds006861	stimulation_side	str	Side of tDCS stimulation (Left or Right hemisphere).	2	0			True					
 ds006861	UCLA_R_screening	int64	UCLA Loneliness Scale (Revised) score obtained during screening, used to determine participant eligibility for the study.	35	0			False	22.0	70.0			
 ds006861	UCLA_R	int64	UCLA Loneliness Scale (Revised) score, measuring perceived loneliness, administered during the experimental session.	42	0			False	20.0	71.0			
@@ -1261,6 +1261,6 @@ ds006861	CESD	int64	Center for Epidemiologic Studies Depression Scale score, mea
 ds006861	ERQ_CR	int64	Emotion Regulation Questionnaire - Cognitive Reappraisal subscale score.	35	0			False	6.0	42.0			
 ds006861	ERQ_ES	int64	Emotion Regulation Questionnaire - Expressive Suppression subscale score.	23	0			False	4.0	26.0			
 ds006861	SNS	int64	Social Network Scale - measure of objective social isolation.	24	0			False	4.0	30.0			
-ds006861	Gender	str	Participant gender. Values: Female or Male.	2	0			True					
-ds006861	Age	int64	Participant age in years.	18	0			False	18.0	35.0			
-ds006861	Group	str	Loneliness group assignment based on UCLA-R screening score. Values: Low Lonely or High Lonely.	2	0			True					
+ds006861	Gender	str	Participant gender. Values: Female or Male.	2	0			True			nb:Sex		
+ds006861	Age	int64	Participant age in years.	18	0			False	18.0	35.0	nb:Age		nb:FromFloat
+ds006861	Group	str	Loneliness group assignment based on UCLA-R screening score. Values: Low Lonely or High Lonely.	2	0			True			nb:Diagnosis		

@@ -381,10 +381,14 @@ def main():
 
     # Save summary tables with first guesses
     all_columns_df_first_guess.to_csv(
-        f"{COLUMN_SUMMARIES_OUT_FILE.stem}_first_guess.tsv", sep="\t", index=False
+        RESOURCES_DIR / f"{COLUMN_SUMMARIES_OUT_FILE.stem}_first_guess.tsv",
+        sep="\t",
+        index=False,
     )
     all_cat_values_df_first_guess.to_csv(
-        f"{VALUE_SUMMARIES_OUT_FILE.stem}_first_guess.tsv", sep="\t", index=False
+        RESOURCES_DIR / f"{VALUE_SUMMARIES_OUT_FILE.stem}_first_guess.tsv",
+        sep="\t",
+        index=False,
     )
 
 

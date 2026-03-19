@@ -2,6 +2,7 @@ import json
 import logging
 from functools import lru_cache
 from pathlib import Path
+from typing import Any
 
 import pandas as pd
 from tqdm import tqdm
@@ -173,8 +174,9 @@ def infer_age_format(column_data: pd.Series) -> str | None:
     return None
 
 
-def get_value_description(column_json_info: dict, value: str) -> str | None:
+def get_value_description(column_json_info: dict, value: Any) -> str | None:
     """Get the description for a specific value in a column from the participants.json file, if it exists."""
+    value = str(value)
     try:
         return column_json_info.get("Levels", {}).get(value, None)
     # In case the "Levels" key is incorrectly formatted
@@ -182,14 +184,14 @@ def get_value_description(column_json_info: dict, value: str) -> str | None:
         return None
 
 
-def infer_if_missing_value(value: str) -> bool | None:
+def infer_if_missing_value(value: Any) -> bool | None:
     if pd.isna(value) or str(value).lower() in COMMON_MISSING_VALUES:
         return True
     return None
 
 
 def get_common_std_term_mapping_for_sex_value(
-    value: str,
+    value: Any,
 ) -> tuple[str | None, str | None]:
     value = str(value).lower()
     for std_term, std_term_info in COMMON_SEX_VALUES.items():

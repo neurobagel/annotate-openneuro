@@ -72,3 +72,12 @@ This will create a file called `data_overview.tsv`.
 ```bash
 python code/get_openneuro_tabular_overview.py
 ```
+
+### Generate summary mega-tables of all columns and categorical values in all `participants.tsv` files
+
+```bash
+python code/generate_participants_tsv_contents_table.py
+```
+
+This script will also generate a version of the column summaries table with heuristic-based first guesses of standardized variable mappings and age column formats,
+and a version of the value summaries table with heuristic-based first guesses of standardized term mappings for sex column values.

@@ -28,4 +28,4 @@ repos:
     hooks:
       - id: codespell
         args:
-          - --skip=data/*
+          - --skip=data/*,resources/*

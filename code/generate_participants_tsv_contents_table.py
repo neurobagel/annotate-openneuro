@@ -1,5 +1,6 @@
 import json
 import logging
+from functools import lru_cache
 from pathlib import Path
 
 import pandas as pd
@@ -36,16 +37,29 @@ COMMON_COLUMN_MAPPINGS = {
         "subjectid",
         "participantid",
     ],
+    # NOTE: we do not include "ses" since it could be confused with socioeconomic status
     "nb:SessionID": ["session_id", "session"],
     "nb:Sex": ["sex", "gender"],
     "nb:Age": ["age", "age_years", "age_yrs", "participant_age"],
     "nb:Diagnosis": ["diagnosis", "dx", "group_dx", "group", "study_group"],
 }
+COMMON_SEX_VALUES = {
+    "snomed:248153007": {
+        "standardized_label": "Male",
+        "common_values": ["male", "m", "man"],
+    },
+    "snomed:248152002": {
+        "standardized_label": "Female",
+        "common_values": ["female", "f", "woman"],
+    },
+}
 COMMON_MISSING_VALUES = ["none", "nan", "n/a", "na", "null", ""]
+
 # arbitrary threshold for number of unique values to consider a column categorical
 CATEGORICAL_COLUMN_THRESHOLD = 10
 
 
+@lru_cache
 def read_tsv(path: Path) -> pd.DataFrame | None:
     """Read a TSV file into a DataFrame, and check if it has more than one column."""
     df = pd.read_csv(path, sep="\t")
@@ -174,6 +188,16 @@ def infer_if_missing_value(value: str) -> bool | None:
     return None
 
 
+def get_common_std_term_mapping_for_sex_value(
+    value: str,
+) -> tuple[str | None, str | None]:
+    value = str(value).lower()
+    for std_term, std_term_info in COMMON_SEX_VALUES.items():
+        if value in std_term_info["common_values"]:
+            return std_term, std_term_info["standardized_label"]
+    return None, None
+
+
 def get_column_and_value_summaries(
     participants_tsv: pd.DataFrame, participants_json: dict
 ) -> tuple[list[dict], list[dict]]:
@@ -183,7 +207,6 @@ def get_column_and_value_summaries(
         column_json_info = participants_json.get(col_name, {})
 
         bids_levels = get_column_bids_levels(column_json_info)
-        standardized_var = get_common_std_var_mapping(col_name)
 
         col_summary = {
             "column": col_name,
@@ -195,10 +218,6 @@ def get_column_and_value_summaries(
             "bids_units": get_column_bids_units(column_json_info),
             "is_categorical": bool(bids_levels)
             or is_categorical_column_basic(col_data) is True,
-            "standardized_var": standardized_var,
-            "age_format": (
-                infer_age_format(col_data) if standardized_var == "nb:Age" else None
-            ),
         }
         if is_column_numeric_dtype(col_data):
             col_summary["min"] = col_data.min()
@@ -223,6 +242,56 @@ def get_column_and_value_summaries(
                 value_summaries.append(value_summary)
 
     return col_summaries, value_summaries
+
+
+def infer_age_column_formats(column_summaries: pd.DataFrame) -> pd.DataFrame:
+    """
+    Infer the age format for all columns mapped to nb:Age,
+    based on the column values in the corresponding participants.tsv file.
+    """
+    column_summaries = column_summaries.copy()
+    age_columns_mask = column_summaries["standardized_var"] == "nb:Age"
+    for idx, row in tqdm(
+        column_summaries[age_columns_mask].iterrows(),
+        desc="Inferring age formats for nb:Age columns",
+        total=age_columns_mask.sum(),
+    ):
+        dataset_id = row["dataset"]
+        column_name = row["column"]
+        participants_tsv = read_tsv(DATA_DIR / f"{dataset_id}.tsv")
+        if participants_tsv is not None and column_name in participants_tsv.columns:
+            age_format = infer_age_format(participants_tsv[column_name])
+            column_summaries.at[idx, "age_format"] = age_format
+
+    return column_summaries
+
+
+def infer_std_terms_for_sex_column_values(
+    column_summaries: pd.DataFrame, value_summaries: pd.DataFrame
+) -> pd.DataFrame:
+    """
+    Infer standardized term mappings for values in all columns mapped to nb:Sex.
+    """
+    value_summaries = value_summaries.copy()
+    sex_columns_mask = column_summaries["standardized_var"] == "nb:Sex"
+    for _, row in tqdm(
+        column_summaries[sex_columns_mask].iterrows(),
+        desc="Inferring standardized terms for values found in nb:Sex columns",
+        total=sex_columns_mask.sum(),
+    ):
+        dataset_id = row["dataset"]
+        sex_column_name = row["column"]
+        col_values_mask = (value_summaries["dataset"] == dataset_id) & (
+            value_summaries["column"] == sex_column_name
+        )
+        for value_row_idx, value_row in value_summaries[col_values_mask].iterrows():
+            std_term, std_label = get_common_std_term_mapping_for_sex_value(
+                value_row["value"]
+            )
+            value_summaries.at[value_row_idx, "standardized_term"] = std_term
+            value_summaries.at[value_row_idx, "standardized_label"] = std_label
+
+    return value_summaries
 
 
 def main():
@@ -252,6 +321,7 @@ def main():
         "description",
         "is_missing_value",
         "standardized_term",
+        "standardized_label",
     ]
 
     all_columns_df = pd.DataFrame(columns=all_columns_df_order)
@@ -293,8 +363,29 @@ def main():
     all_columns_df = all_columns_df[all_columns_df_order]
     all_cat_values_df = all_cat_values_df[all_cat_values_df_order]
 
+    # Save summary tables
     all_columns_df.to_csv(COLUMN_SUMMARIES_OUT_FILE, sep="\t", index=False)
     all_cat_values_df.to_csv(VALUE_SUMMARIES_OUT_FILE, sep="\t", index=False)
+
+    # Take first guess at standardized variable mappings
+    all_columns_df_first_guess = all_columns_df.copy()
+    all_columns_df_first_guess["standardized_var"] = all_columns_df_first_guess[
+        "column"
+    ].apply(get_common_std_var_mapping)
+    # Take first guess at age format for columns mapped to nb:Age
+    all_columns_df_first_guess = infer_age_column_formats(all_columns_df_first_guess)
+    # Take first guess at standardized term mappings for values in columns mapped to nb:Sex
+    all_cat_values_df_first_guess = infer_std_terms_for_sex_column_values(
+        all_columns_df_first_guess, all_cat_values_df
+    )
+
+    # Save summary tables with first guesses
+    all_columns_df_first_guess.to_csv(
+        f"{COLUMN_SUMMARIES_OUT_FILE.stem}_first_guess.tsv", sep="\t", index=False
+    )
+    all_cat_values_df_first_guess.to_csv(
+        f"{VALUE_SUMMARIES_OUT_FILE.stem}_first_guess.tsv", sep="\t", index=False
+    )
 
 
 if __name__ == "__main__":

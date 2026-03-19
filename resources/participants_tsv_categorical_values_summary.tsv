@@ -5,10 +5,10 @@ ds004186	commercial_use	No	Subject did not give consent to commercial use of dat
 ds004186	commercial_use	Yes	Subject gave consent to commercial use of data			
 ds004186	full_pheno	Yes	Subject has full phenotypic file			
 ds004186	full_pheno	No	Subject does not have full phenotypic file			
-ds005752	release_1	1				
-ds005752	release_1	0				
-ds005752	release_2	0				
-ds005752	release_2	1				
+ds005752	release_1	1	Present			
+ds005752	release_1	0	Not Present			
+ds005752	release_2	0	Not Present			
+ds005752	release_2	1	Present			
 ds005752	sex	female	Female			
 ds005752	sex	male	Male			
 ds005752	sex			True		
@@ -16,82 +16,82 @@ ds005752	handedness	right	Right-handedness (Laterality Quotient between 40 and 1
 ds005752	handedness	left	Left-handedness (Laterality Quotient between -100 and -40)			
 ds005752	handedness	ambidextrous	Ambidexterity (Laterality Quotient between -40 and 40)			
 ds005752	handedness			True		
-ds005752	eligibility	0				
-ds005752	eligibility	1				
-ds005752	MRI	0				
-ds005752	MRI	1				
-ds005752	MEG	0				
-ds005752	MEG	1				
-ds005752	ace	0				
-ds005752	ace	1				
-ds005752	acute_care	0				
-ds005752	acute_care	1				
-ds005752	audit	1				
-ds005752	audit	0				
-ds005752	bai	0				
-ds005752	bai	1				
-ds005752	bdi	0				
-ds005752	bdi	1				
-ds005752	big_five_personality	0				
-ds005752	big_five_personality	1				
-ds005752	blood_chemistry	0				
-ds005752	blood_chemistry	1				
-ds005752	btq	0				
-ds005752	btq	1				
-ds005752	cbc_with_differential	0				
-ds005752	cbc_with_differential	1				
-ds005752	clinical_variable_form	0				
-ds005752	clinical_variable_form	1				
-ds005752	demographics	1				
-ds005752	demographics	0				
-ds005752	drug_use	1				
-ds005752	drug_use	0				
-ds005752	ehi	1				
-ds005752	ehi	0				
-ds005752	figs	0				
-ds005752	figs	1				
-ds005752	gad7	0				
-ds005752	gad7	1				
-ds005752	health_history_checklist_year_1	0				
-ds005752	health_history_checklist_year_1	1				
-ds005752	health_history_questions	1				
-ds005752	health_history_questions	0				
-ds005752	health_rating	1				
-ds005752	health_rating	0				
-ds005752	hematology	0				
-ds005752	hematology	1				
-ds005752	hepatic	0				
-ds005752	hepatic	1				
-ds005752	infectious_disease	0				
-ds005752	infectious_disease	1				
-ds005752	kbit2_vas	0				
-ds005752	kbit2_vas	1				
-ds005752	lipid	0				
-ds005752	lipid	1				
-ds005752	mental_health_questions	1				
-ds005752	mental_health_questions	0				
-ds005752	mri_variables	0				
-ds005752	mri_variables	1				
-ds005752	nih_toolbox	0				
-ds005752	nih_toolbox	1				
-ds005752	other	0				
-ds005752	other	1				
-ds005752	perceived_health_rating	0				
-ds005752	perceived_health_rating	1				
-ds005752	phq9	0				
-ds005752	phq9	1				
-ds005752	satisfaction	0				
-ds005752	satisfaction	1				
-ds005752	scid5	0				
-ds005752	scid5	1				
-ds005752	urinalysis	0				
-ds005752	urinalysis	1				
-ds005752	urine_chemistry	0				
-ds005752	urine_chemistry	1				
-ds005752	vitamin_levels	0				
-ds005752	vitamin_levels	1				
-ds005752	whodas	1				
-ds005752	whodas	0				
+ds005752	eligibility	0	Ineligible			
+ds005752	eligibility	1	Eligible			
+ds005752	MRI	0	Not Present			
+ds005752	MRI	1	Present			
+ds005752	MEG	0	Not Present			
+ds005752	MEG	1	Present			
+ds005752	ace	0	Not Present			
+ds005752	ace	1	Present			
+ds005752	acute_care	0	Not Present			
+ds005752	acute_care	1	Present			
+ds005752	audit	1	Present			
+ds005752	audit	0	Not Present			
+ds005752	bai	0	Not Present			
+ds005752	bai	1	Present			
+ds005752	bdi	0	Not Present			
+ds005752	bdi	1	Present			
+ds005752	big_five_personality	0	Not Present			
+ds005752	big_five_personality	1	Present			
+ds005752	blood_chemistry	0	Not Present			
+ds005752	blood_chemistry	1	Present			
+ds005752	btq	0	Not Present			
+ds005752	btq	1	Present			
+ds005752	cbc_with_differential	0	Not Present			
+ds005752	cbc_with_differential	1	Present			
+ds005752	clinical_variable_form	0	Not Present			
+ds005752	clinical_variable_form	1	Present			
+ds005752	demographics	1	Present			
+ds005752	demographics	0	Not Present			
+ds005752	drug_use	1	Present			
+ds005752	drug_use	0	Not Present			
+ds005752	ehi	1	Present			
+ds005752	ehi	0	Not Present			
+ds005752	figs	0	Not Present			
+ds005752	figs	1	Present			
+ds005752	gad7	0	Not Present			
+ds005752	gad7	1	Present			
+ds005752	health_history_checklist_year_1	0	Not Present			
+ds005752	health_history_checklist_year_1	1	Present			
+ds005752	health_history_questions	1	Present			
+ds005752	health_history_questions	0	Not Present			
+ds005752	health_rating	1	Present			
+ds005752	health_rating	0	Not Present			
+ds005752	hematology	0	Not Present			
+ds005752	hematology	1	Present			
+ds005752	hepatic	0	Not Present			
+ds005752	hepatic	1	Present			
+ds005752	infectious_disease	0	Not Present			
+ds005752	infectious_disease	1	Present			
+ds005752	kbit2_vas	0	Not Present			
+ds005752	kbit2_vas	1	Present			
+ds005752	lipid	0	Not Present			
+ds005752	lipid	1	Present			
+ds005752	mental_health_questions	1	Present			
+ds005752	mental_health_questions	0	Not Present			
+ds005752	mri_variables	0	Not Present			
+ds005752	mri_variables	1	Present			
+ds005752	nih_toolbox	0	Not Present			
+ds005752	nih_toolbox	1	Present			
+ds005752	other	0	Not Present			
+ds005752	other	1	Present			
+ds005752	perceived_health_rating	0	Not Present			
+ds005752	perceived_health_rating	1	Present			
+ds005752	phq9	0	Not Present			
+ds005752	phq9	1	Present			
+ds005752	satisfaction	0	Not Present			
+ds005752	satisfaction	1	Present			
+ds005752	scid5	0	Not Present			
+ds005752	scid5	1	Present			
+ds005752	urinalysis	0	Not Present			
+ds005752	urinalysis	1	Present			
+ds005752	urine_chemistry	0	Not Present			
+ds005752	urine_chemistry	1	Present			
+ds005752	vitamin_levels	0	Not Present			
+ds005752	vitamin_levels	1	Present			
+ds005752	whodas	1	Present			
+ds005752	whodas	0	Not Present			
 ds004889	sex	M	male			
 ds004889	sex	F	female			
 ds004889	sex			True		
@@ -133,8 +133,8 @@ ds005385	late_ses2	1.0
 ds005385	late_ses2	3.0				
 ds005385	late_ses2	19.0				
 ds005385	late_ses2	136.0				
-ds004605	sex	1				
-ds004605	sex	-1				
+ds004605	sex	1	male			
+ds004605	sex	-1	female			
 ds005515	release_number	R10				
 ds005515	sex	M	Male			
 ds005515	sex	F	Female			
@@ -178,13 +178,13 @@ ds005515	symbolSearch	unavailable
 ds005515	symbolSearch	available				
 ds004856	Sex	m	male			
 ds004856	Sex	f	female			
-ds004856	Race	5				
-ds004856	Race	2				
-ds004856	Race	6				
-ds004856	Race	1				
-ds004856	Race	3				
-ds004856	Race	4				
-ds004856	Race	7				
+ds004856	Race	5	White/Caucasian			
+ds004856	Race	2	Black/African American			
+ds004856	Race	6	Other			
+ds004856	Race	1	Asian American/Pacific Islander			
+ds004856	Race	3	Multiracial			
+ds004856	Race	4	Native American			
+ds004856	Race	7	Unknown			
 ds004856	Ethnicity	0.0				
 ds004856	Ethnicity	1.0				
 ds004856	Ethnicity			True		
@@ -396,10 +396,10 @@ ds004395	hand	R	right
 ds004395	hand	L	left			
 ds004395	hand			True		
 ds004395	hand	A	ambidextrous			
-ds007045	sex	1				
-ds007045	sex	0				
-ds007045	MGMT	0				
-ds007045	MGMT	1				
+ds007045	sex	1	male			
+ds007045	sex	0	female			
+ds007045	MGMT	0	non-methylated			
+ds007045	MGMT	1	methylated			
 ds005509	release_number	R5				
 ds005509	sex	M	Male			
 ds005509	sex	F	Female			
@@ -544,10 +544,10 @@ ds007139	Handedness			True
 ds007139	Handedness	1.0				
 ds007139	Handedness	2.0				
 ds007139	Handedness	3.0				
-ds007096	Gender	2.0				
-ds007096	Gender	1.0				
-ds007096	Gender	3.0				
-ds007096	Gender	4.0				
+ds007096	Gender	2.0	female			
+ds007096	Gender	1.0	male			
+ds007096	Gender	3.0	other			
+ds007096	Gender	4.0	prefer not to respond			
 ds007096	Handedness			True		
 ds007096	Handedness	1.0				
 ds007096	Handedness	2.0				
@@ -759,9 +759,9 @@ ds005754	race	UNKNOWN	Race Unknown
 ds005754	race	ASIAN	A person having origins in any of the original people of the Far East, Southeast Asia, or the Indian subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.			
 ds005754	race	AMERICAN INDIAN OR NATIVE ALASKAN				
 ds005754	race	OTHER				
-ds005754	ethnicity	0				
-ds005754	ethnicity	1				
-ds005754	ethnicity	2				
+ds005754	ethnicity	0	Not Hispanic or Latino			
+ds005754	ethnicity	1	"Hispanic or Latino.  A person of Mexican, Puerto Rican, Cuban, South or Central American or other Spanish culture or origin, regardless of race.  The term, ""Spanish origin,"" can be used in addition to ""Hispanic or Latino."""			
+ds005754	ethnicity	2	Check here if you do not wish to provide this infomation.			
 ds005754	highest_education	2.0				
 ds005754	highest_education	1.0				
 ds005754	highest_education	5.0				
@@ -778,18 +778,18 @@ ds005754	income			True
 ds005754	income	1.0				
 ds005754	income	0.0				
 ds005754	income	99.0				
-ds005754	clinical_scores	1				
-ds005754	behavioral_data	1				
-ds005754	fmri_data	1				
-ds005754	fmri_data	0				
-ds005754	AXCPT	1				
-ds005754	AXCPT	0				
-ds005754	AS	1				
-ds005754	AS	0				
-ds005754	SST	1				
-ds005754	SST	0				
-ds005754	Flanker	1				
-ds005754	Flanker	0				
+ds005754	clinical_scores	1	Yes			
+ds005754	behavioral_data	1	Yes			
+ds005754	fmri_data	1	Yes			
+ds005754	fmri_data	0	No			
+ds005754	AXCPT	1	Yes			
+ds005754	AXCPT	0	No			
+ds005754	AS	1	Yes			
+ds005754	AS	0	No			
+ds005754	SST	1	Yes			
+ds005754	SST	0	No			
+ds005754	Flanker	1	Yes			
+ds005754	Flanker	0	No			
 ds005534	Rat_strain	Wistar				
 ds005534	Rat_strain	Sprague Dawley				
 ds005534	Rat_strain	Fischer 344				
@@ -869,8 +869,8 @@ ds005534	Func_sensory_stimulation	mechanical deflection
 ds005534	Func_sensory_stimulation	light				
 ds005595	sex	M	Male			
 ds005595	sex	F	Female			
-ds004796	second_phase	1				
-ds004796	second_phase	0				
+ds004796	second_phase	1	yes			
+ds004796	second_phase	0	no			
 ds004796	session_order	1.0				
 ds004796	session_order	0.0				
 ds004796	session_order			True		
@@ -894,8 +894,8 @@ ds004796	PICALM_rs3851179	A/A
 ds004796	PICALM_rs3851179	G/A				
 ds004796	PICALM_rs3851179	G/G				
 ds004796	PICALM_rs3851179	G/A 				
-ds004796	sex	0				
-ds004796	sex	1				
+ds004796	sex	0	male			
+ds004796	sex	1	female			
 ds004796	education	3.0				
 ds004796	education			True		
 ds004796	education	2.0				
@@ -910,8 +910,8 @@ ds004796	learning_deficits	2	dysorthography
 ds004796	allergies	1.0				
 ds004796	allergies	0.0				
 ds004796	allergies			True		
-ds004796	drugs	1				
-ds004796	drugs	0				
+ds004796	drugs	1	yes			
+ds004796	drugs	0	no			
 ds004796	ibuprofen_intake	1.0				
 ds004796	ibuprofen_intake	2.0				
 ds004796	ibuprofen_intake	0.0				
@@ -926,8 +926,8 @@ ds004796	thyroid_diseases			True
 ds004796	hypertension	1.0				
 ds004796	hypertension	0.0				
 ds004796	hypertension			True		
-ds004796	diabetes	0				
-ds004796	diabetes	1				
+ds004796	diabetes	0	no			
+ds004796	diabetes	1	yes			
 ds004796	other_diseases	0.0				
 ds004796	other_diseases	1.0				
 ds004796	other_diseases			True		
@@ -935,13 +935,13 @@ ds004796	smoking_status	0.0
 ds004796	smoking_status	2.0				
 ds004796	smoking_status	1.0				
 ds004796	smoking_status			True		
-ds004796	coffee_status	3				
-ds004796	coffee_status	1				
-ds004796	coffee_status	0				
-ds004796	coffee_status	2				
-ds004796	dementia_history_parents	0				
-ds004796	dementia_history_parents	1				
-ds004796	dementia_history_parents	2				
+ds004796	coffee_status	3	yes, but only decaffeinated coffee			
+ds004796	coffee_status	1	yes, on a daily basis			
+ds004796	coffee_status	0	no			
+ds004796	coffee_status	2	yes, occasionally			
+ds004796	dementia_history_parents	0	healthy parents			
+ds004796	dementia_history_parents	1	one demented parent			
+ds004796	dementia_history_parents	2	both demented parents			
 ds004796	MINI-COPE_1	3.0				
 ds004796	MINI-COPE_1	1.0				
 ds004796	MINI-COPE_1	2.5				
@@ -1124,64 +1124,64 @@ ds006577	group	Anx	Anxiety
 ds006577	condition			True		
 ds006577	condition	active	Active condition.			
 ds006577	condition	sham	Sham condition.			
-ds006577	mri_pre	1				
-ds006577	mri_pre	0				
-ds006577	mri_post	1				
-ds006577	mri_post	0				
-ds006577	ksads_screening	1				
-ds006577	ksads_screening	0				
-ds006577	ari_child_cbt03	0				
-ds006577	ari_child_cbt03	1				
-ds006577	ari_child_cbt08	0				
-ds006577	ari_child_cbt08	1				
-ds006577	ari_child_cbt12	0				
-ds006577	ari_child_cbt12	1				
-ds006577	cgas_cbt03	0				
-ds006577	cgas_cbt03	1				
-ds006577	cgas_cbt08	0				
-ds006577	cgas_cbt08	1				
-ds006577	cgas_cbt12	0				
-ds006577	cgas_cbt12	1				
-ds006577	mfqc_cbt03	0				
-ds006577	mfqc_cbt03	1				
-ds006577	mfqc_cbt08	0				
-ds006577	mfqc_cbt08	1				
-ds006577	mfqc_cbt12	0				
-ds006577	mfqc_cbt12	1				
-ds006577	pars_cbt03	0				
-ds006577	pars_cbt03	1				
-ds006577	pars_cbt08	0				
-ds006577	pars_cbt08	1				
-ds006577	pars_cbt12	0				
-ds006577	pars_cbt12	1				
-ds006577	scared_child_cbt03	0				
-ds006577	scared_child_cbt03	1				
-ds006577	scared_child_cbt08	0				
-ds006577	scared_child_cbt08	1				
-ds006577	scared_child_cbt12	0				
-ds006577	scared_child_cbt12	1				
-ds006577	scared_parent_cbt03	0				
-ds006577	scared_parent_cbt03	1				
-ds006577	scared_parent_cbt08	0				
-ds006577	scared_parent_cbt08	1				
-ds006577	scared_parent_cbt12	0				
-ds006577	scared_parent_cbt12	1				
-ds006577	staic_cbt03	0				
-ds006577	staic_cbt03	1				
-ds006577	staic_cbt08	0				
-ds006577	staic_cbt08	1				
-ds006577	staic_cbt12	0				
-ds006577	staic_cbt12	1				
-ds006577	cgi_cbt12	0				
-ds006577	cgi_cbt12	1				
-ds005398	methods	1.0				
-ds005398	methods	0.0				
+ds006577	mri_pre	1	Present			
+ds006577	mri_pre	0	Absent			
+ds006577	mri_post	1	Present			
+ds006577	mri_post	0	Absent			
+ds006577	ksads_screening	1	Present			
+ds006577	ksads_screening	0	Absent			
+ds006577	ari_child_cbt03	0	Absent			
+ds006577	ari_child_cbt03	1	Present			
+ds006577	ari_child_cbt08	0	Absent			
+ds006577	ari_child_cbt08	1	Present			
+ds006577	ari_child_cbt12	0	Absent			
+ds006577	ari_child_cbt12	1	Present			
+ds006577	cgas_cbt03	0	Absent			
+ds006577	cgas_cbt03	1	Present			
+ds006577	cgas_cbt08	0	Absent			
+ds006577	cgas_cbt08	1	Present			
+ds006577	cgas_cbt12	0	Absent			
+ds006577	cgas_cbt12	1	Present			
+ds006577	mfqc_cbt03	0	Absent			
+ds006577	mfqc_cbt03	1	Present			
+ds006577	mfqc_cbt08	0	Absent			
+ds006577	mfqc_cbt08	1	Present			
+ds006577	mfqc_cbt12	0	Absent			
+ds006577	mfqc_cbt12	1	Present			
+ds006577	pars_cbt03	0	Absent			
+ds006577	pars_cbt03	1	Present			
+ds006577	pars_cbt08	0	Absent			
+ds006577	pars_cbt08	1	Present			
+ds006577	pars_cbt12	0	Absent			
+ds006577	pars_cbt12	1	Present			
+ds006577	scared_child_cbt03	0	Absent			
+ds006577	scared_child_cbt03	1	Present			
+ds006577	scared_child_cbt08	0	Absent			
+ds006577	scared_child_cbt08	1	Present			
+ds006577	scared_child_cbt12	0	Absent			
+ds006577	scared_child_cbt12	1	Present			
+ds006577	scared_parent_cbt03	0	Absent			
+ds006577	scared_parent_cbt03	1	Present			
+ds006577	scared_parent_cbt08	0	Absent			
+ds006577	scared_parent_cbt08	1	Present			
+ds006577	scared_parent_cbt12	0	Absent			
+ds006577	scared_parent_cbt12	1	Present			
+ds006577	staic_cbt03	0	Absent			
+ds006577	staic_cbt03	1	Present			
+ds006577	staic_cbt08	0	Absent			
+ds006577	staic_cbt08	1	Present			
+ds006577	staic_cbt12	0	Absent			
+ds006577	staic_cbt12	1	Present			
+ds006577	cgi_cbt12	0	Absent			
+ds006577	cgi_cbt12	1	Present			
+ds005398	methods	1.0	Grid			
+ds005398	methods	0.0	SEEG			
 ds005398	sampling_frequency	1000.0				
 ds005398	sampling_frequency	2000.0				
-ds005398	sex	1.0				
-ds005398	sex	0.0				
-ds005398	resection	1.0				
-ds005398	resection	0.0				
+ds005398	sex	1.0	male			
+ds005398	sex	0.0	female			
+ds005398	resection	1.0	yes			
+ds005398	resection	0.0	no			
 ds005398	Engel_Class1	1.0				
 ds005398	Engel_Class1	0.0				
 ds005398	Engel_Class1			True		
@@ -1276,17 +1276,17 @@ ds004199	age_epilepsyonset	8.0
 ds004199	age_epilepsyonset	9.0				
 ds004199	age_epilepsyonset	6.0				
 ds004199	age_epilepsyonset			True		
-ds004199	age_scan	4				
-ds004199	age_scan	7				
-ds004199	age_scan	8				
-ds004199	age_scan	13				
-ds004199	age_scan	6				
-ds004199	age_scan	5				
-ds004199	age_scan	9				
-ds004199	age_scan	11				
-ds004199	age_scan	12				
-ds004199	age_scan	3				
-ds004199	age_scan	10				
+ds004199	age_scan	4	16-20 years			
+ds004199	age_scan	7	31-35 years			
+ds004199	age_scan	8	36-40 years			
+ds004199	age_scan	13	61-65 years			
+ds004199	age_scan	6	26-30 years			
+ds004199	age_scan	5	21-25 years			
+ds004199	age_scan	9	41-45 years			
+ds004199	age_scan	11	51-55 years			
+ds004199	age_scan	12	56-60 years			
+ds004199	age_scan	3	11-15 years			
+ds004199	age_scan	10	46-50 years			
 ds004199	mri_diagnosis	suspicion	Images suggest an FCD type II.			
 ds004199	mri_diagnosis	none	Images did not reveal any pathological changes.	True		
 ds004199	mri_diagnosis	other	Described structural changes, bu no suspected FCD.			
@@ -1303,8 +1303,8 @@ ds004199	pet			True
 ds004199	invasive_EEG	0.0				
 ds004199	invasive_EEG	1.0				
 ds004199	invasive_EEG			True		
-ds004199	op	1				
-ds004199	op	0				
+ds004199	op	1	was performed			
+ds004199	op	0	was not performed			
 ds004199	age_op	4.0				
 ds004199	age_op			True		
 ds004199	age_op	8.0				
@@ -1426,25 +1426,25 @@ ds005166	income	5.0
 ds005166	income	3.0				
 ds005166	income	99.0				
 ds005166	income	4.0				
-ds005166	clinical_scores	0				
-ds005166	clinical_scores	1				
+ds005166	clinical_scores	0	No			
+ds005166	clinical_scores	1	Yes			
 ds005166	fMRI_data	0				
 ds005166	fMRI_data	1				
-ds005166	AXCPT	0				
-ds005166	AXCPT	1				
-ds005166	AS	0				
-ds005166	AS	1				
-ds005166	SST	0				
-ds005166	SST	1				
-ds005166	Flanker	0				
-ds005166	Flanker	1				
-ds005166	CALM_IT	0				
-ds005166	CALM_IT	1				
+ds005166	AXCPT	0	No			
+ds005166	AXCPT	1	Yes			
+ds005166	AS	0	No			
+ds005166	AS	1	Yes			
+ds005166	SST	0	No			
+ds005166	SST	1	Yes			
+ds005166	Flanker	0	No			
+ds005166	Flanker	1	Yes			
+ds005166	CALM_IT	0	No			
+ds005166	CALM_IT	1	Yes			
 ds005460	condition	NEU	Neutral			
 ds005460	condition	ANG	Anger			
 ds005460	condition	HOP	Hope			
-ds005460	sex	0				
-ds005460	sex	1				
+ds005460	sex	0	Female			
+ds005460	sex	1	Male			
 ds005460	age	22				
 ds005460	age	23				
 ds005460	age	20				
@@ -1453,20 +1453,20 @@ ds005460	age	21
 ds005460	age	25				
 ds005460	age	19				
 ds005460	age	26				
-ds005460	residence	0				
-ds005460	residence	3				
-ds005460	residence	2				
-ds005460	residence	1				
-ds005460	residence	4				
-ds005460	education	4				
-ds005460	education	5				
-ds005460	education	6				
-ds005460	education	3				
-ds005460	CCC	2				
-ds005460	CCC	3				
-ds005460	CCC	1				
-ds005460	CCC	0				
-ds005460	CCC	4				
+ds005460	residence	0	Big city			
+ds005460	residence	3	Country village			
+ds005460	residence	2	Small city			
+ds005460	residence	1	Suburbs of a big city			
+ds005460	residence	4	A farm or home in the countryside			
+ds005460	education	4	Upper secondary			
+ds005460	education	5	Bachelor's degree or engineering degree			
+ds005460	education	6	Master's degree or medical degree			
+ds005460	education	3	Vocational			
+ds005460	CCC	2	Somewhat concerned			
+ds005460	CCC	3	Very concerned			
+ds005460	CCC	1	Not very concerned			
+ds005460	CCC	0	Not at all concerned			
+ds005460	CCC	4	Extremely concerned			
 ds005460	actions	2				
 ds005460	actions	1				
 ds005460	actions	5				
@@ -1476,20 +1476,20 @@ ds005460	lifestyle	3
 ds005460	lifestyle	4				
 ds005460	lifestyle	5				
 ds005460	lifestyle	2				
-ds005460	driver	1				
-ds005460	driver	0				
-ds005460	car	1				
-ds005460	car	0				
-ds005460	car	3				
-ds005460	car	2				
-ds005460	politics1	1				
-ds005460	politics1	0				
+ds005460	driver	1	No			
+ds005460	driver	0	Yes			
+ds005460	car	1	Once a month or several times a month			
+ds005460	car	0	Once a year or several times a year			
+ds005460	car	3	Every day			
+ds005460	car	2	Once a week or several times a week			
+ds005460	politics1	1	Yes			
+ds005460	politics1	0	No			
 ds005460	politics2	1.0				
 ds005460	politics2	0.0				
 ds005460	politics2			True		
-ds005460	SES	1				
-ds005460	SES	0				
-ds005460	SES	2				
+ds005460	SES	1	Coping on present income			
+ds005460	SES	0	Living comfortably on present income			
+ds005460	SES	2	Finding it difficult on present income			
 ds005460	PCAE_i	6				
 ds005460	PCAE_i	8				
 ds005460	PCAE_i	3				
@@ -1991,26 +1991,26 @@ ds007116	age	12
 ds007116	age	10				
 ds007116	age	8				
 ds007116	age	16				
-ds007116	dx_none	0				
-ds007116	dx_none	1				
-ds007116	dx_prodromal	0				
-ds007116	dx_prodromal	1				
-ds007116	dx_prodromal_remit	0				
-ds007116	dx_prodromal_remit	1				
-ds007116	dx_psychosis	0				
-ds007116	dx_psychosis	1				
-ds007116	dx_moodnos	1				
-ds007116	dx_moodnos	0				
-ds007116	dx_mdd	0				
-ds007116	dx_mdd	1				
-ds007116	dx_bp	1				
-ds007116	dx_bp	0				
-ds007116	dx_adhd	1				
-ds007116	dx_adhd	0				
-ds007116	dx_ptsd	0				
-ds007116	dx_ptsd	1				
-ds007116	dx_ptsd_remit	0				
-ds007116	dx_ptsd_remit	1				
+ds007116	dx_none	0	participant had at least one clinical diagnosis			
+ds007116	dx_none	1	participant did not have any clinical diagnosis			
+ds007116	dx_prodromal	0	participant did not have a prodromal psychosis/subthreshold psychosis spectrum disorder			
+ds007116	dx_prodromal	1	participant had a prodromal psychosis/subthreshold psychosis spectrum disorder			
+ds007116	dx_prodromal_remit	0	participant did not have a prodromal psychosis/subthresdhold psychosis spectrum disorder that is now in remission			
+ds007116	dx_prodromal_remit	1	participant had a prodromal psychosis/subthreshold psychosis spectrum disorder that is now in remission			
+ds007116	dx_psychosis	0	participant did not have a threshold psychosis diagnosis			
+ds007116	dx_psychosis	1	participant had a threshold psychosis diagnosis			
+ds007116	dx_moodnos	1	participant had a non-specified mood disorder diagnosis			
+ds007116	dx_moodnos	0	participant did not have a non-specified mood disorder diagnosis			
+ds007116	dx_mdd	0	participant did not have a major depressive disorder diagnosis			
+ds007116	dx_mdd	1	participant had a major depressive disorder diagnosis			
+ds007116	dx_bp	1	participant had a bipolar disorder diagnosis			
+ds007116	dx_bp	0	participant did not have a bipolar disorder diagnosis			
+ds007116	dx_adhd	1	participant had an Attention Deficit Hyperactivity Disorder diagnosis			
+ds007116	dx_adhd	0	participant did not have an Attention Deficit Hyperactivity Disorder diagnosis			
+ds007116	dx_ptsd	0	participant did not have a Post-Traumatic Stress Disorder diagnosis that is now in remission			
+ds007116	dx_ptsd	1	participant had a Post-Traumatic Stress Disorder diagnosis that is now in remission			
+ds007116	dx_ptsd_remit	0	participant did not have a Post-Traumatic Stress Disorder diagnosis that is now in remission			
+ds007116	dx_ptsd_remit	1	participant had a Post-Traumatic Stres Disorder diagnosis that is now in remission			
 ds004627	datasharing	1				
 ds004627	sex	M				
 ds004627	sex	F				

@@ -230,8 +230,10 @@ def get_column_summaries(
             or is_categorical_column_basic(col_data) is True,
         }
         if is_column_numeric_dtype(col_data):
-            col_summary["min"] = col_data.min()
-            col_summary["max"] = col_data.max()
+            # Use .item() to convert resulting numpy scalar to native Python type (e.g., np.int64 -> int)
+            # This helps prevent pandas from upcasting min/max values to floats when adding the row to the DataFrame later on
+            col_summary["min"] = col_data.min().item()
+            col_summary["max"] = col_data.max().item()
         else:
             col_summary["min"] = None
             col_summary["max"] = None
@@ -364,6 +366,11 @@ def main():
         # add column summaries for dataset to mega-table
         all_columns_df = pd.concat(
             [all_columns_df, dataset_columns_df], ignore_index=True
+        )
+
+        # log number of detected categorical columns
+        logger.info(
+            f"{dataset_id}: Number of categorical columns detected: {dataset_columns_df['is_categorical'].sum()} / {len(dataset_columns_df)}"
         )
 
         # NOTE: Re-read all columns as strings in order to generate the value summaries table,

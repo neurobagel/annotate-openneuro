@@ -191,11 +191,16 @@ def infer_if_missing_value(value: Any) -> bool | None:
 
 
 def get_common_std_term_mapping_for_sex_value(
-    value: Any,
+    value: Any, description: Any
 ) -> tuple[str | None, str | None]:
+    """Check if a value (or its description) matches any of the common values mapped to sex terms."""
     value = str(value).lower()
+    description = description.lower() if not pd.isna(description) else description
     for std_term, std_term_info in COMMON_SEX_VALUES.items():
-        if value in std_term_info["common_values"]:
+        if (
+            value in std_term_info["common_values"]
+            or description in std_term_info["common_values"]
+        ):
             return std_term, std_term_info["standardized_label"]
     return None, None
 
@@ -288,7 +293,7 @@ def infer_std_terms_for_sex_column_values(
         )
         for value_row_idx, value_row in value_summaries[col_values_mask].iterrows():
             std_term, std_label = get_common_std_term_mapping_for_sex_value(
-                value_row["value"]
+                value_row["value"], value_row["description"]
             )
             value_summaries.at[value_row_idx, "standardized_term"] = std_term
             value_summaries.at[value_row_idx, "standardized_label"] = std_label

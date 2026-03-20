@@ -133,8 +133,8 @@ ds005385	late_ses2	1.0
 ds005385	late_ses2	3.0				
 ds005385	late_ses2	19.0				
 ds005385	late_ses2	136.0				
-ds004605	sex	1	male			
-ds004605	sex	-1	female			
+ds004605	sex	1	male		snomed:248153007	Male
+ds004605	sex	-1	female		snomed:248152002	Female
 ds005515	release_number	R10				
 ds005515	sex	M	Male		snomed:248153007	Male
 ds005515	sex	F	Female		snomed:248152002	Female
@@ -396,8 +396,8 @@ ds004395	hand	R	right
 ds004395	hand	L	left			
 ds004395	hand			True		
 ds004395	hand	A	ambidextrous			
-ds007045	sex	1	male			
-ds007045	sex	0	female			
+ds007045	sex	1	male		snomed:248153007	Male
+ds007045	sex	0	female		snomed:248152002	Female
 ds007045	MGMT	0	non-methylated			
 ds007045	MGMT	1	methylated			
 ds005509	release_number	R5				
@@ -544,8 +544,8 @@ ds007139	Handedness			True
 ds007139	Handedness	1.0				
 ds007139	Handedness	2.0				
 ds007139	Handedness	3.0				
-ds007096	Gender	2.0	female			
-ds007096	Gender	1.0	male			
+ds007096	Gender	2.0	female		snomed:248152002	Female
+ds007096	Gender	1.0	male		snomed:248153007	Male
 ds007096	Gender	3.0	other			
 ds007096	Gender	4.0	prefer not to respond			
 ds007096	Handedness			True		
@@ -894,8 +894,8 @@ ds004796	PICALM_rs3851179	A/A
 ds004796	PICALM_rs3851179	G/A				
 ds004796	PICALM_rs3851179	G/G				
 ds004796	PICALM_rs3851179	G/A 				
-ds004796	sex	0	male			
-ds004796	sex	1	female			
+ds004796	sex	0	male		snomed:248153007	Male
+ds004796	sex	1	female		snomed:248152002	Female
 ds004796	education	3.0				
 ds004796	education			True		
 ds004796	education	2.0				
@@ -1178,8 +1178,8 @@ ds005398	methods	1.0	Grid
 ds005398	methods	0.0	SEEG			
 ds005398	sampling_frequency	1000.0				
 ds005398	sampling_frequency	2000.0				
-ds005398	sex	1.0	male			
-ds005398	sex	0.0	female			
+ds005398	sex	1.0	male		snomed:248153007	Male
+ds005398	sex	0.0	female		snomed:248152002	Female
 ds005398	resection	1.0	yes			
 ds005398	resection	0.0	no			
 ds005398	Engel_Class1	1.0				
@@ -1443,8 +1443,8 @@ ds005166	CALM_IT	1	Yes
 ds005460	condition	NEU	Neutral			
 ds005460	condition	ANG	Anger			
 ds005460	condition	HOP	Hope			
-ds005460	sex	0	Female			
-ds005460	sex	1	Male			
+ds005460	sex	0	Female		snomed:248152002	Female
+ds005460	sex	1	Male		snomed:248153007	Male
 ds005460	age	22				
 ds005460	age	23				
 ds005460	age	20				

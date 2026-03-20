@@ -156,6 +156,22 @@ def is_categorical_column_basic(column_data: pd.Series) -> bool | None:
     return None
 
 
+def get_column_min_max(
+    column_data: pd.Series,
+) -> tuple[int | float | None, int | float | None]:
+    """Get the minimum and maximum values for a numeric column, if applicable."""
+    if not is_column_numeric_dtype(column_data):
+        return None, None
+    min_val = column_data.min()
+    max_val = column_data.max()
+    # Use .item() to convert numpy scalar results to native Python types (e.g., np.int64 -> int)
+    # This helps prevent pandas from upcasting min/max values to floats when adding the row to the DataFrame later on
+    return (
+        min_val.item() if hasattr(min_val, "item") else min_val,
+        max_val.item() if hasattr(max_val, "item") else max_val,
+    )
+
+
 def get_common_std_var_mapping(column_name: str) -> str | None:
     """Check if a column name matches any of the common column names for certain standardized variables."""
     column_name = column_name.lower()
@@ -229,14 +245,7 @@ def get_column_summaries(
             "is_categorical": bool(bids_levels)
             or is_categorical_column_basic(col_data) is True,
         }
-        if is_column_numeric_dtype(col_data):
-            # Use .item() to convert resulting numpy scalar to native Python type (e.g., np.int64 -> int)
-            # This helps prevent pandas from upcasting min/max values to floats when adding the row to the DataFrame later on
-            col_summary["min"] = col_data.min().item()
-            col_summary["max"] = col_data.max().item()
-        else:
-            col_summary["min"] = None
-            col_summary["max"] = None
+        col_summary["min"], col_summary["max"] = get_column_min_max(col_data)
 
         col_summaries.append(col_summary)
 

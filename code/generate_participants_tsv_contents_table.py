@@ -54,16 +54,20 @@ COMMON_SEX_VALUES = {
         "common_values": ["female", "f", "woman"],
     },
 }
-COMMON_MISSING_VALUES = ["none", "nan", "n/a", "na", "null", ""]
+COMMON_MISSING_VALUES = ["none", "nan", "n/a", "na", "null", "<na>", "#na", ""]
 
 # arbitrary threshold for number of unique values to consider a column categorical
 CATEGORICAL_COLUMN_THRESHOLD = 10
 
 
 @lru_cache
-def read_tsv(path: Path) -> pd.DataFrame | None:
+def read_tsv(path: Path, as_strings: bool = False) -> pd.DataFrame | None:
     """Read a TSV file into a DataFrame, and check if it has more than one column."""
-    df = pd.read_csv(path, sep="\t")
+    if as_strings:
+        df = pd.read_csv(path, sep="\t", keep_default_na=False, dtype=str)
+    else:
+        # Use nullable data types to ensure that int columns with missing values aren't upcast to float
+        df = pd.read_csv(path, sep="\t", dtype_backend="numpy_nullable")
     if df.shape[1] == 1:
         logger.warning(f"{path.name} has only one column. Skipping.")
         return None
@@ -205,11 +209,10 @@ def get_common_std_term_mapping_for_sex_value(
     return None, None
 
 
-def get_column_and_value_summaries(
+def get_column_summaries(
     participants_tsv: pd.DataFrame, participants_json: dict
-) -> tuple[list[dict], list[dict]]:
+) -> list[dict]:
     col_summaries = []
-    value_summaries = []
     for col_name, col_data in participants_tsv.items():
         column_json_info = participants_json.get(col_name, {})
 
@@ -235,20 +238,29 @@ def get_column_and_value_summaries(
 
         col_summaries.append(col_summary)
 
-        if col_summary["is_categorical"] is True:
-            # NOTE: This includes NaN values
-            # NOTE: Unique values in the actual column don't always correspond to values listed in the participants.json "Levels"
-            # e.g., an empty cell might be represented in "Levels" as "n/a"
-            for col_value in col_data.unique():
-                value_summary = {
-                    "column": col_name,
-                    "value": col_value,
-                    "description": get_value_description(column_json_info, col_value),
-                    "is_missing_value": infer_if_missing_value(col_value),
-                }
-                value_summaries.append(value_summary)
+    return col_summaries
 
-    return col_summaries, value_summaries
+
+def get_value_summaries(
+    participants_tsv: pd.DataFrame, participants_json: dict
+) -> list[dict]:
+    # NOTE: participants_tsv in this case should contain only raw strings
+    value_summaries = []
+    for col_name, col_data in participants_tsv.items():
+        column_json_info = participants_json.get(col_name, {})
+        # NOTE: This includes NaN values
+        # NOTE: Unique values in the actual column don't always correspond to values listed in the participants.json "Levels"
+        # e.g., an empty cell might be represented in "Levels" as "n/a"
+        for col_value in col_data.unique():
+            value_summary = {
+                "column": col_name,
+                "value": col_value,
+                "description": get_value_description(column_json_info, col_value),
+                "is_missing_value": infer_if_missing_value(col_value),
+            }
+            value_summaries.append(value_summary)
+
+    return value_summaries
 
 
 def infer_age_column_formats(column_summaries: pd.DataFrame) -> pd.DataFrame:
@@ -340,11 +352,7 @@ def main():
             continue
         participants_json = load_json(DATA_DIR / f"{dataset_id}.json")
 
-        dataset_columns, dataset_values = get_column_and_value_summaries(
-            participants_tsv, participants_json
-        )
-
-        # Add column summaries for dataset to mega-table
+        dataset_columns = get_column_summaries(participants_tsv, participants_json)
         dataset_columns_df = pd.DataFrame(dataset_columns)
         dataset_columns_df["dataset"] = dataset_id
         # transform bids_levels into a string for readability
@@ -353,15 +361,27 @@ def main():
         )
         # create empty column to be filled during annotation
         dataset_columns_df["assessment_term"] = None
+        # add column summaries for dataset to mega-table
         all_columns_df = pd.concat(
             [all_columns_df, dataset_columns_df], ignore_index=True
         )
 
-        # Add column value summaries for dataset to mega-table
+        # NOTE: Re-read all columns as strings in order to generate the value summaries table,
+        # to ensure that values are captured as they originally appear
+        participants_tsv_all_str = read_tsv(
+            DATA_DIR / f"{dataset_id}.tsv", as_strings=True
+        )
+        categorical_columns = dataset_columns_df.loc[
+            dataset_columns_df["is_categorical"].eq(True), "column"
+        ].tolist()
+        dataset_values = get_value_summaries(
+            participants_tsv_all_str[categorical_columns], participants_json
+        )
         dataset_values_df = pd.DataFrame(dataset_values)
         dataset_values_df["dataset"] = dataset_id
         # create empty column to be filled during annotation
         dataset_values_df["standardized_term"] = None
+        # add column value summaries for dataset to mega-table
         all_cat_values_df = pd.concat(
             [all_cat_values_df, dataset_values_df], ignore_index=True
         )

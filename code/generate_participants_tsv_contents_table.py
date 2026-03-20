@@ -158,17 +158,19 @@ def is_categorical_column_basic(column_data: pd.Series) -> bool | None:
 
 def get_column_min_max(
     column_data: pd.Series,
-) -> tuple[int | float | None, int | float | None]:
-    """Get the minimum and maximum values for a numeric column, if applicable."""
+) -> tuple[str | None, str | None]:
+    """
+    Get the minimum and maximum values for a numeric column, if applicable,
+    and return them as strings to preserve the original values.
+    This prevents upcasting of varied-type "min" and "max" values to float in the final dataframe.
+    """
     if not is_column_numeric_dtype(column_data):
         return None, None
     min_val = column_data.min()
     max_val = column_data.max()
-    # Use .item() to convert numpy scalar results to native Python types (e.g., np.int64 -> int)
-    # This helps prevent pandas from upcasting min/max values to floats when adding the row to the DataFrame later on
     return (
-        min_val.item() if hasattr(min_val, "item") else min_val,
-        max_val.item() if hasattr(max_val, "item") else max_val,
+        str(min_val) if pd.notna(min_val) else None,
+        str(max_val) if pd.notna(max_val) else None,
     )
 
 
@@ -246,7 +248,6 @@ def get_column_summaries(
             or is_categorical_column_basic(col_data) is True,
         }
         col_summary["min"], col_summary["max"] = get_column_min_max(col_data)
-
         col_summaries.append(col_summary)
 
     return col_summaries

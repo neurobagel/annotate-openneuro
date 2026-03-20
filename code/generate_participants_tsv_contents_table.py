@@ -342,6 +342,7 @@ def main():
         "max",
         "standardized_var",
         "assessment_term",
+        "assessment_label",
         "age_format",
     ]
 
@@ -373,8 +374,6 @@ def main():
         dataset_columns_df["bids_levels"] = dataset_columns_df["bids_levels"].apply(
             lambda x: ", ".join(x) if isinstance(x, list) else x
         )
-        # create empty column to be filled during annotation
-        dataset_columns_df["assessment_term"] = None
         # add column summaries for dataset to mega-table
         all_columns_df = pd.concat(
             [all_columns_df, dataset_columns_df], ignore_index=True
@@ -399,8 +398,6 @@ def main():
         )
         dataset_values_df = pd.DataFrame(dataset_values)
         dataset_values_df["dataset"] = dataset_id
-        # create empty column to be filled during annotation
-        dataset_values_df["standardized_term"] = None
         # add column value summaries for dataset to mega-table
         all_cat_values_df = pd.concat(
             [all_cat_values_df, dataset_values_df], ignore_index=True

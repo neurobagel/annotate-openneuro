@@ -357,7 +357,9 @@ def main():
     all_columns_df = pd.DataFrame(columns=all_columns_df_order)
     all_cat_values_df = pd.DataFrame(columns=all_cat_values_df_order)
 
-    for dataset_id in tqdm(datasets_to_annotate["dataset"], "Processing datasets"):
+    for dataset_idx, dataset_id in enumerate(
+        tqdm(datasets_to_annotate["dataset"], "Processing datasets"), start=1
+    ):
         participants_tsv = read_tsv(DATA_DIR / f"{dataset_id}.tsv")
         if participants_tsv is None:
             continue
@@ -379,7 +381,8 @@ def main():
 
         # log number of detected categorical columns
         logger.info(
-            f"{dataset_id}: Number of categorical columns detected: {dataset_columns_df['is_categorical'].sum()} / {len(dataset_columns_df)}"
+            f"({dataset_idx}/{len(datasets_to_annotate)}) {dataset_id}: "
+            f"Number of categorical columns detected: {dataset_columns_df['is_categorical'].sum()}/{len(dataset_columns_df)}"
         )
 
         # NOTE: Re-read all columns as strings in order to generate the value summaries table,

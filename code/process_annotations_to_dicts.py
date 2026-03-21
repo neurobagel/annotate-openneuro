@@ -176,11 +176,7 @@ def process_annotations_to_dict(
         column_name = ds_column["column"]
         ds_column_values = dataset_values[dataset_values["column"] == column_name]
 
-        if (
-            data_dict.get(column_name) is None
-            or data_dict[column_name].get("Description") is None
-        ):
-            data_dict[column_name] = {"Description": ""}
+        data_dict.setdefault(column_name, {}).setdefault("Description", "")
 
         standardized_var = ds_column["standardized_var"]
         column_annotations = {}
@@ -194,6 +190,7 @@ def process_annotations_to_dict(
             column_annotations = get_sex_annotations(ds_column_values)
 
         if column_annotations:
+            # TODO: Eventually check for and handle any existing annotations for the column
             data_dict[column_name]["Annotations"] = column_annotations
             columns_with_annotations_added += 1
 

@@ -15,6 +15,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 DATA_DIR = Path(__file__).parents[1] / "data"
+OUT_DIR = DATA_DIR
 RESOURCES_DIR = Path(__file__).parents[1] / "resources"
 COLUMN_SUMMARIES_PATH = (
     RESOURCES_DIR / "participants_tsv_columns_summary_first_guess_manual_pass.tsv"
@@ -57,9 +58,8 @@ def get_formats_for_variable(var_term_url: str) -> dict:
 AGE_FORMAT_LABELS = get_formats_for_variable("nb:Age")
 
 
-def load_participants_json(dataset: str) -> dict:
+def load_participants_json(dataset: str, path: Path) -> dict:
     """Load a participants.json file (if it exists) and return its contents as a dictionary."""
-    path = DATA_DIR / f"{dataset}.json"
     if not path.exists():
         logger.warning(f"{dataset}: No participants.json available")
         return {}
@@ -72,11 +72,9 @@ def load_participants_json(dataset: str) -> dict:
         return {}
 
 
-def save_annotated_json(data: dict, dataset: str):
-    path = DATA_DIR / f"{dataset}_annotated.json"
+def save_json(data: dict, path: Path):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    logger.info(f"{dataset}: Saved annotated JSON to {path.name}")
 
 
 def any_columns_annotated(dataset_columns: pd.DataFrame) -> bool:
@@ -167,7 +165,52 @@ def get_sex_annotations(column_values: pd.DataFrame) -> dict:
     return annotations
 
 
+def process_annotations_to_dict(
+    dataset: str,
+    dataset_columns: pd.DataFrame,
+    dataset_values: pd.DataFrame,
+    data_dict: dict,
+) -> dict:
+    columns_with_annotations_added = 0
+    for _, ds_column in dataset_columns.iterrows():
+        column_name = ds_column["column"]
+        ds_column_values = dataset_values[dataset_values["column"] == column_name]
+
+        if (
+            data_dict.get(column_name) is None
+            or data_dict[column_name].get("Description") is None
+        ):
+            data_dict[column_name] = {"Description": ""}
+
+        standardized_var = ds_column["standardized_var"]
+        column_annotations = {}
+        if ds_column["exclude"] == True or not standardized_var:  # noqa: E712
+            pass
+        elif is_identifier_column(standardized_var):
+            column_annotations = get_identifier_annotations(standardized_var)
+        elif standardized_var == "nb:Age":
+            column_annotations = get_age_annotations(ds_column, ds_column_values)
+        elif standardized_var == "nb:Sex":
+            column_annotations = get_sex_annotations(ds_column_values)
+
+        if column_annotations:
+            data_dict[column_name]["Annotations"] = column_annotations
+            columns_with_annotations_added += 1
+
+    logger.info(
+        f"{dataset}: Neurobagel annotations added for {columns_with_annotations_added}/{len(dataset_columns)} columns."
+    )
+    return data_dict
+
+
 def main():
+    """
+    TODO:
+    - Validate data dictionary
+    - Process assessment annotations
+    """
+    OUT_DIR.mkdir(exist_ok=True)
+
     column_summaries = pd.read_csv(
         COLUMN_SUMMARIES_PATH,
         sep="\t",
@@ -188,10 +231,13 @@ def main():
 
     ds_groups = column_summaries.groupby("dataset")
     annotated_data_dicts_created = 0
+
+    # TODO: Remove subsetting for testing
     for idx, (ds_id, ds_columns) in enumerate(
-        tqdm(ds_groups, desc="Processing datasets")
+        tqdm(list(ds_groups)[:3], desc="Processing datasets"), start=1
     ):
-        logger.info(f"({idx} / {len(ds_groups)}): Processing dataset: {ds_id}")
+        out_file = OUT_DIR / f"{ds_id}_annotated.json"
+        logger.info(f"({idx}/{len(ds_groups)}): Processing dataset: {ds_id}")
 
         # Sanity check - do not attempt to create a Neurobagel data dictionary if no columns have been annotated
         if not any_columns_annotated(ds_columns):
@@ -200,41 +246,13 @@ def main():
             )
             continue
 
-        data_dict = load_participants_json(ds_id)
+        data_dict = load_participants_json(ds_id, DATA_DIR / f"{ds_id}.json")
+        ds_values = value_summaries[value_summaries["dataset"] == ds_id]
 
-        columns_with_annotations_added = 0
-        for _, ds_column in ds_columns.iterrows():
-            column_name = ds_column["column"]
-            ds_column_values = value_summaries[
-                (value_summaries["dataset"] == ds_id)
-                & (value_summaries["column"] == column_name)
-            ]
+        data_dict = process_annotations_to_dict(ds_id, ds_columns, ds_values, data_dict)
 
-            if (
-                data_dict.get(column_name) is None
-                or data_dict[column_name].get("Description") is None
-            ):
-                data_dict[column_name] = {"Description": ""}
-
-            standardized_var = ds_column["standardized_var"]
-            column_annotations = {}
-            if ds_column["exclude"] == True or not standardized_var:  # noqa: E712
-                pass
-            elif is_identifier_column(standardized_var):
-                column_annotations = get_identifier_annotations(standardized_var)
-            elif standardized_var == "nb:Age":
-                column_annotations = get_age_annotations(ds_column, ds_column_values)
-            elif standardized_var == "nb:Sex":
-                column_annotations = get_sex_annotations(ds_column_values)
-
-            if column_annotations:
-                data_dict[column_name]["Annotations"] = column_annotations
-                columns_with_annotations_added += 1
-
-        logger.info(
-            f"{ds_id}: Neurobagel annotations added for {columns_with_annotations_added}/{len(ds_columns)} columns."
-        )
-        save_annotated_json(data_dict, ds_id)
+        save_json(data_dict, out_file)
+        logger.info(f"{ds_id}: Saved annotated data dictionary to {out_file.name}")
         annotated_data_dicts_created += 1
 
     logger.info(

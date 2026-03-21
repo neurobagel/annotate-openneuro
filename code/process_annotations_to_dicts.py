@@ -220,8 +220,10 @@ def mark_duplicate_single_instance_vars_for_exclusion(
     include only the first annotated column (based on original TSV column order)
     and mark the rest for exclusion so their annotations are not added to the data dictionary.
 
-    The original TSV column order is used to avoid dependency on the column summaries row order,
-    which can change.
+    The original TSV column order is used here to infer variable precedence,
+    (e.g., a TSV with columns ["participant_id", "age", "age_of_disease_onset"] would
+    likely treat "age" as the primary age column)
+    and to avoid dependency on the column summaries row order, which can change.
 
     TODO: We may want to write out the column summaries with the updated "exclude" column.
     """

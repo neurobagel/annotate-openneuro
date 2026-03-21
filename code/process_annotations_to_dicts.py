@@ -29,6 +29,8 @@ NEUROBAGEL_VARIABLES_VOCAB_URL = "https://raw.githubusercontent.com/neurobagel/c
 
 COMMON_MISSING_VALUES = ["n/a", "N/A", "na", "NA", "nan", "NaN", ""]
 
+TEST_DATASETS = ["ds004856"]
+
 
 def fetch_neurobagel_standardized_vars_as_dict() -> dict:
     response = requests.get(NEUROBAGEL_VARIABLES_VOCAB_URL)
@@ -56,6 +58,14 @@ def get_formats_for_variable(var_term_url: str) -> dict:
 
 
 AGE_FORMAT_LABELS = get_formats_for_variable("nb:Age")
+
+
+def get_single_instance_variables() -> list:
+    return [
+        var_term_url
+        for var_term_url, var_info in NEUROBAGEL_VARS_VOCAB.items()
+        if var_info["can_have_multiple_columns"] is False
+    ]
 
 
 def load_participants_json(dataset: str, path: Path) -> dict:
@@ -133,7 +143,7 @@ def get_age_annotations(column_row: pd.Series, column_values: pd.DataFrame) -> d
         # TODO: This is an extra precautionary step that might be able to be removed in future,
         # since most age columns will be detected as continuous
         detected_missing_values = column_values.loc[
-            column_values["is_missing_value"] == True, "value"  # noqa: E712
+            column_values["is_missing_value"].lower() == "true", "value"
         ].tolist()
         missing_values = list({*detected_missing_values, *COMMON_MISSING_VALUES})
 
@@ -180,7 +190,7 @@ def process_annotations_to_dict(
 
         standardized_var = ds_column["standardized_var"]
         column_annotations = {}
-        if ds_column["exclude"] == True or not standardized_var:  # noqa: E712
+        if ds_column["exclude"].lower() == "true" or not standardized_var:
             pass
         elif is_identifier_column(standardized_var):
             column_annotations = get_identifier_annotations(standardized_var)
@@ -200,6 +210,65 @@ def process_annotations_to_dict(
     return data_dict
 
 
+def mark_duplicate_single_instance_vars_for_exclusion(
+    column_summaries: pd.DataFrame,
+) -> pd.DataFrame:
+    """
+    Mark select duplicate column annotations for exclusion.
+
+    For standardized variables that should have a max of 1 mapped column per dataset,
+    include only the first annotated column (based on original TSV column order)
+    and mark the rest for exclusion so their annotations are not added to the data dictionary.
+
+    The original TSV column order is used to avoid dependency on the column summaries row order,
+    which can change.
+
+    TODO: We may want to write out the column summaries with the updated "exclude" column.
+    """
+    single_instance_vars = get_single_instance_variables()
+    column_summaries = column_summaries.copy()
+
+    # TODO: Remove subsetting for testing
+    # for ds_id, ds_columns in column_summaries.groupby("dataset"):
+    for ds_id, ds_columns in tqdm(
+        list(
+            column_summaries[column_summaries["dataset"].isin(TEST_DATASETS)].groupby(
+                "dataset"
+            )
+        ),
+        desc="Checking single-column variable annotations in datasets",
+    ):
+        ds_columns = ds_columns.copy()
+        ds_tsv_column_order = pd.read_csv(
+            DATA_DIR / f"{ds_id}.tsv", sep="\t", nrows=0
+        ).columns.tolist()
+        ds_columns["_column_order"] = ds_columns["column"].map(
+            {col: idx for idx, col in enumerate(ds_tsv_column_order)}
+        )
+        ds_columns = ds_columns.sort_values("_column_order").drop(
+            columns="_column_order"
+        )
+        standardized_var_duplicates_mask = ds_columns["standardized_var"].isin(
+            single_instance_vars
+        ) & ds_columns.duplicated(subset=["standardized_var"], keep="first")
+
+        for var in single_instance_vars:
+            duplicated_columns = ds_columns[
+                standardized_var_duplicates_mask
+                & (ds_columns["standardized_var"] == var)
+            ]["column"].tolist()
+            if duplicated_columns:
+                logger.warning(
+                    f"{ds_id}: Skipping columns with duplicate annotation to '{var}': {duplicated_columns}."
+                )
+
+        column_summaries.loc[
+            ds_columns.index[standardized_var_duplicates_mask], "exclude"
+        ] = "true"
+
+    return column_summaries
+
+
 def main():
     """
     TODO:
@@ -208,10 +277,17 @@ def main():
     """
     OUT_DIR.mkdir(exist_ok=True)
 
+    # NOTE: keep_default_na=False prevents pandas from converting 'empty' cells to NaN,
+    # which may cause column to not be inferred as non-string dtypes due to resulting mixed values
     column_summaries = pd.read_csv(
         COLUMN_SUMMARIES_PATH,
         sep="\t",
-        dtype={"column": str, "standardized_var": str, "age_format": str},
+        dtype={
+            "column": str,
+            "standardized_var": str,
+            "age_format": str,
+            "exclude": str,
+        },
         keep_default_na=False,
     )
     value_summaries = pd.read_csv(
@@ -222,16 +298,24 @@ def main():
             "value": str,
             "standardized_term": str,
             "standardized_label": str,
+            "is_missing_value": str,
         },
         keep_default_na=False,
     )
 
-    ds_groups = column_summaries.groupby("dataset")
+    column_summaries = mark_duplicate_single_instance_vars_for_exclusion(
+        column_summaries
+    )
+    # ds_groups = column_summaries.groupby("dataset")
+    # TODO: Remove subsetting for testing
+    ds_groups = column_summaries[
+        column_summaries["dataset"].isin(TEST_DATASETS)
+    ].groupby("dataset")
+
     annotated_data_dicts_created = 0
 
-    # TODO: Remove subsetting for testing
     for idx, (ds_id, ds_columns) in enumerate(
-        tqdm(list(ds_groups)[:3], desc="Processing datasets"), start=1
+        tqdm(list(ds_groups), desc="Processing datasets"), start=1
     ):
         out_file = OUT_DIR / f"{ds_id}_annotated.json"
         logger.info(f"({idx}/{len(ds_groups)}): Processing dataset: {ds_id}")

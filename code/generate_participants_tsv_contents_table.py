@@ -38,7 +38,7 @@ COMMON_COLUMN_MAPPINGS = {
         "subjectid",
         "participantid",
     ],
-    # NOTE: we do not include "ses" since it could be confused with socioeconomic status
+    # NOTE: do not include "ses" since it could be confused with socioeconomic status
     "nb:SessionID": ["session_id", "session"],
     "nb:Sex": ["sex", "gender"],
     "nb:Age": ["age", "age_years", "age_yrs", "participant_age"],
@@ -54,16 +54,21 @@ COMMON_SEX_VALUES = {
         "common_values": ["female", "f", "woman"],
     },
 }
-COMMON_MISSING_VALUES = ["none", "nan", "n/a", "na", "null", ""]
+# NOTE: Do not include "none", as it can be a legitimate coded value denoting absence of a condition
+COMMON_MISSING_VALUES = ["nan", "n/a", "na", "null", "<na>", "#na", ""]
 
 # arbitrary threshold for number of unique values to consider a column categorical
 CATEGORICAL_COLUMN_THRESHOLD = 10
 
 
 @lru_cache
-def read_tsv(path: Path) -> pd.DataFrame | None:
+def read_tsv(path: Path, as_strings: bool = False) -> pd.DataFrame | None:
     """Read a TSV file into a DataFrame, and check if it has more than one column."""
-    df = pd.read_csv(path, sep="\t")
+    if as_strings:
+        df = pd.read_csv(path, sep="\t", keep_default_na=False, dtype=str)
+    else:
+        # Use nullable data types to ensure that int columns with missing values aren't upcast to float
+        df = pd.read_csv(path, sep="\t", dtype_backend="numpy_nullable")
     if df.shape[1] == 1:
         logger.warning(f"{path.name} has only one column. Skipping.")
         return None
@@ -152,6 +157,24 @@ def is_categorical_column_basic(column_data: pd.Series) -> bool | None:
     return None
 
 
+def get_column_min_max(
+    column_data: pd.Series,
+) -> tuple[str | None, str | None]:
+    """
+    Get the minimum and maximum values for a numeric column, if applicable,
+    and return them as strings to preserve the original values.
+    This prevents upcasting of varied-type "min" and "max" values to float in the final dataframe.
+    """
+    if not is_column_numeric_dtype(column_data):
+        return None, None
+    min_val = column_data.min()
+    max_val = column_data.max()
+    return (
+        str(min_val) if pd.notna(min_val) else None,
+        str(max_val) if pd.notna(max_val) else None,
+    )
+
+
 def get_common_std_var_mapping(column_name: str) -> str | None:
     """Check if a column name matches any of the common column names for certain standardized variables."""
     column_name = column_name.lower()
@@ -174,9 +197,8 @@ def infer_age_format(column_data: pd.Series) -> str | None:
     return None
 
 
-def get_value_description(column_json_info: dict, value: Any) -> str | None:
+def get_value_description(column_json_info: dict, value: str) -> str | None:
     """Get the description for a specific value in a column from the participants.json file, if it exists."""
-    value = str(value)
     try:
         return column_json_info.get("Levels", {}).get(value, None)
     # In case the "Levels" key is incorrectly formatted
@@ -184,27 +206,31 @@ def get_value_description(column_json_info: dict, value: Any) -> str | None:
         return None
 
 
-def infer_if_missing_value(value: Any) -> bool | None:
-    if pd.isna(value) or str(value).lower() in COMMON_MISSING_VALUES:
+def infer_if_missing_value(value: str) -> bool | None:
+    if value.lower() in COMMON_MISSING_VALUES:
         return True
     return None
 
 
 def get_common_std_term_mapping_for_sex_value(
-    value: Any,
+    value: str, description: Any
 ) -> tuple[str | None, str | None]:
-    value = str(value).lower()
+    """Check if a value (or its description) matches any of the common values mapped to sex terms."""
+    value = value.lower()
+    description = description.lower() if not pd.isna(description) else description
     for std_term, std_term_info in COMMON_SEX_VALUES.items():
-        if value in std_term_info["common_values"]:
+        if (
+            value in std_term_info["common_values"]
+            or description in std_term_info["common_values"]
+        ):
             return std_term, std_term_info["standardized_label"]
     return None, None
 
 
-def get_column_and_value_summaries(
+def get_column_summaries(
     participants_tsv: pd.DataFrame, participants_json: dict
-) -> tuple[list[dict], list[dict]]:
+) -> list[dict]:
     col_summaries = []
-    value_summaries = []
     for col_name, col_data in participants_tsv.items():
         column_json_info = participants_json.get(col_name, {})
 
@@ -221,29 +247,32 @@ def get_column_and_value_summaries(
             "is_categorical": bool(bids_levels)
             or is_categorical_column_basic(col_data) is True,
         }
-        if is_column_numeric_dtype(col_data):
-            col_summary["min"] = col_data.min()
-            col_summary["max"] = col_data.max()
-        else:
-            col_summary["min"] = None
-            col_summary["max"] = None
-
+        col_summary["min"], col_summary["max"] = get_column_min_max(col_data)
         col_summaries.append(col_summary)
 
-        if col_summary["is_categorical"] is True:
-            # NOTE: This includes NaN values
-            # NOTE: Unique values in the actual column don't always correspond to values listed in the participants.json "Levels"
-            # e.g., an empty cell might be represented in "Levels" as "n/a"
-            for col_value in col_data.unique():
-                value_summary = {
-                    "column": col_name,
-                    "value": col_value,
-                    "description": get_value_description(column_json_info, col_value),
-                    "is_missing_value": infer_if_missing_value(col_value),
-                }
-                value_summaries.append(value_summary)
+    return col_summaries
 
-    return col_summaries, value_summaries
+
+def get_value_summaries(
+    participants_tsv: pd.DataFrame, participants_json: dict
+) -> list[dict]:
+    # NOTE: participants_tsv in this case should be a dataframe containing only raw string values
+    value_summaries = []
+    for col_name, col_data in participants_tsv.items():
+        column_json_info = participants_json.get(col_name, {})
+        # NOTE: This includes NaN values
+        # NOTE: Unique values in the actual column don't always correspond to values listed in the participants.json "Levels"
+        # e.g., an empty cell might be represented in "Levels" as "n/a"
+        for col_value in col_data.unique():
+            value_summary = {
+                "column": col_name,
+                "value": col_value,
+                "description": get_value_description(column_json_info, col_value),
+                "is_missing_value": infer_if_missing_value(col_value),
+            }
+            value_summaries.append(value_summary)
+
+    return value_summaries
 
 
 def infer_age_column_formats(column_summaries: pd.DataFrame) -> pd.DataFrame:
@@ -288,7 +317,7 @@ def infer_std_terms_for_sex_column_values(
         )
         for value_row_idx, value_row in value_summaries[col_values_mask].iterrows():
             std_term, std_label = get_common_std_term_mapping_for_sex_value(
-                value_row["value"]
+                value_row["value"], value_row["description"]
             )
             value_summaries.at[value_row_idx, "standardized_term"] = std_term
             value_summaries.at[value_row_idx, "standardized_label"] = std_label
@@ -313,6 +342,7 @@ def main():
         "max",
         "standardized_var",
         "assessment_term",
+        "assessment_label",
         "age_format",
     ]
 
@@ -329,34 +359,46 @@ def main():
     all_columns_df = pd.DataFrame(columns=all_columns_df_order)
     all_cat_values_df = pd.DataFrame(columns=all_cat_values_df_order)
 
-    for dataset_id in tqdm(datasets_to_annotate["dataset"], "Processing datasets"):
+    for dataset_idx, dataset_id in enumerate(
+        tqdm(datasets_to_annotate["dataset"], "Processing datasets"), start=1
+    ):
         participants_tsv = read_tsv(DATA_DIR / f"{dataset_id}.tsv")
         if participants_tsv is None:
             continue
         participants_json = load_json(DATA_DIR / f"{dataset_id}.json")
 
-        dataset_columns, dataset_values = get_column_and_value_summaries(
-            participants_tsv, participants_json
-        )
-
-        # Add column summaries for dataset to mega-table
+        dataset_columns = get_column_summaries(participants_tsv, participants_json)
         dataset_columns_df = pd.DataFrame(dataset_columns)
         dataset_columns_df["dataset"] = dataset_id
         # transform bids_levels into a string for readability
         dataset_columns_df["bids_levels"] = dataset_columns_df["bids_levels"].apply(
             lambda x: ", ".join(x) if isinstance(x, list) else x
         )
-        # create empty column to be filled during annotation
-        dataset_columns_df["assessment_term"] = None
+        # add column summaries for dataset to mega-table
         all_columns_df = pd.concat(
             [all_columns_df, dataset_columns_df], ignore_index=True
         )
 
-        # Add column value summaries for dataset to mega-table
+        # log number of detected categorical columns
+        logger.info(
+            f"({dataset_idx}/{len(datasets_to_annotate)}) {dataset_id}: "
+            f"Number of categorical columns detected: {dataset_columns_df['is_categorical'].sum()}/{len(dataset_columns_df)}"
+        )
+
+        # NOTE: Re-read all columns as strings for generating the value summaries table,
+        # to ensure that values are captured as they originally appear
+        participants_tsv_all_str = read_tsv(
+            DATA_DIR / f"{dataset_id}.tsv", as_strings=True
+        )
+        categorical_columns = dataset_columns_df.loc[
+            dataset_columns_df["is_categorical"].eq(True), "column"
+        ].tolist()
+        dataset_values = get_value_summaries(
+            participants_tsv_all_str[categorical_columns], participants_json
+        )
         dataset_values_df = pd.DataFrame(dataset_values)
         dataset_values_df["dataset"] = dataset_id
-        # create empty column to be filled during annotation
-        dataset_values_df["standardized_term"] = None
+        # add column value summaries for dataset to mega-table
         all_cat_values_df = pd.concat(
             [all_cat_values_df, dataset_values_df], ignore_index=True
         )

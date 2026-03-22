@@ -29,7 +29,7 @@ NEUROBAGEL_VARIABLES_VOCAB_URL = "https://raw.githubusercontent.com/neurobagel/c
 
 COMMON_MISSING_VALUES = ["n/a", "N/A", "na", "NA", "nan", "NaN", ""]
 
-TEST_DATASETS = ["ds004856"]
+TEST_DATASETS = ["ds004856", "ds005237"]
 
 
 def fetch_neurobagel_standardized_vars_as_dict() -> dict:
@@ -85,6 +85,34 @@ def load_participants_json(dataset: str, path: Path) -> dict:
 def save_json(data: dict, path: Path):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def summarize_annotated_columns_by_dataset(column_summaries: pd.DataFrame) -> dict:
+    """
+    Generate a summary of annotated vs unannotated columns by dataset as a dictionary.
+    The output can be saved as a reference to inform future annotation efforts.
+    """
+    annotations_count_by_dataset = {}
+    for ds_id, ds_columns in column_summaries.groupby("dataset"):
+        annotated_columns = ds_columns.loc[
+            ds_columns["standardized_var"] != "", "column"
+        ].tolist()
+        unannotated_columns = ds_columns.loc[
+            ds_columns["standardized_var"] == "", "column"
+        ].tolist()
+        annotations_count_by_dataset[ds_id] = {
+            "total_columns": len(ds_columns),
+            "annotated_columns": {
+                "count": len(annotated_columns),
+                "names": annotated_columns,
+            },
+            "unannotated_columns": {
+                "count": len(unannotated_columns),
+                "names": unannotated_columns,
+            },
+        }
+
+    return annotations_count_by_dataset
 
 
 def any_columns_annotated(dataset_columns: pd.DataFrame) -> bool:
@@ -186,6 +214,7 @@ def process_annotations_to_dict(
         column_name = ds_column["column"]
         ds_column_values = dataset_values[dataset_values["column"] == column_name]
 
+        # Ensure every column has at minimum a description to satisfy the Neurobagel data dictionary model
         data_dict.setdefault(column_name, {}).setdefault("Description", "")
 
         standardized_var = ds_column["standardized_var"]
@@ -292,6 +321,15 @@ def main():
         },
         keep_default_na=False,
     )
+    # Save a summary of annotated vs unannotated columns by dataset as a reference
+    annotated_columns_by_dataset = summarize_annotated_columns_by_dataset(
+        column_summaries
+    )
+    save_json(
+        annotated_columns_by_dataset,
+        RESOURCES_DIR / "annotated_columns_by_dataset.json",
+    )
+
     value_summaries = pd.read_csv(
         VALUE_SUMMARIES_PATH,
         sep="\t",

@@ -54,7 +54,8 @@ COMMON_SEX_VALUES = {
         "common_values": ["female", "f", "woman"],
     },
 }
-COMMON_MISSING_VALUES = ["none", "nan", "n/a", "na", "null", "<na>", "#na", ""]
+# NOTE: Do not include "none", as it can be a legitimate coded value denoting absence of a condition
+COMMON_MISSING_VALUES = ["nan", "n/a", "na", "null", "<na>", "#na", ""]
 
 # arbitrary threshold for number of unique values to consider a column categorical
 CATEGORICAL_COLUMN_THRESHOLD = 10

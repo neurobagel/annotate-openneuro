@@ -15,7 +15,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 DATA_DIR = Path(__file__).parents[1] / "data"
-OUT_DIR = DATA_DIR
+OUT_DIR = Path(__file__).parents[1] / "annotated_dictionaries"
 RESOURCES_DIR = Path(__file__).parents[1] / "resources"
 COLUMN_SUMMARIES_PATH = (
     RESOURCES_DIR / "participants_tsv_columns_summary_first_guess_manual_pass.tsv"

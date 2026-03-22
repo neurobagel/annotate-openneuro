@@ -1,5 +1,7 @@
+jsonschema
 pandas
 pre-commit
 PyGithub
 requests
 tqdm
+

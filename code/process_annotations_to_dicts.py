@@ -18,15 +18,8 @@ logger = logging.getLogger(__name__)
 
 ROOT_PATH = Path(__file__).parents[1]
 DATA_DIR = ROOT_PATH / "data"
-OUT_DIR = ROOT_PATH / "annotated_dictionaries"
 RESOURCES_DIR = ROOT_PATH / "resources"
-COLUMN_SUMMARIES_PATH = (
-    RESOURCES_DIR / "participants_tsv_columns_summary_first_guess_manual_pass.tsv"
-)
-VALUE_SUMMARIES_PATH = (
-    RESOURCES_DIR
-    / "participants_tsv_categorical_values_summary_first_guess_manual_pass.tsv"
-)
+OUT_DIR = DATA_DIR / "annotated_dictionaries"
 
 NEUROBAGEL_VARIABLES_VOCAB_URL = "https://raw.githubusercontent.com/neurobagel/communities/refs/heads/main/configs/Neurobagel/config.json"
 NEUROBAGEL_DATA_DICT_SCHEMA_URL = "https://raw.githubusercontent.com/neurobagel/bagelschema/refs/heads/main/neurobagel_data_dictionary.schema.json"
@@ -54,9 +47,8 @@ def fetch_neurobagel_standardized_vars_as_dict() -> dict:
 
 
 def get_formats_for_variable(var_term_url: str) -> dict:
-    available_formats = NEUROBAGEL_VARS_VOCAB[var_term_url]["formats"]
     formats_dict = {}
-    for available_format in available_formats:
+    for available_format in NEUROBAGEL_VARS_VOCAB[var_term_url]["formats"]:
         formats_dict[f"nb:{available_format['id']}"] = available_format["name"]
     return formats_dict
 
@@ -210,7 +202,7 @@ def get_sex_annotations(column_values: pd.DataFrame) -> dict:
     return annotations
 
 
-def process_annotations_to_dict(
+def process_dataset_annotations_to_dict(
     dataset: str,
     dataset_columns: pd.DataFrame,
     dataset_values: pd.DataFrame,
@@ -317,7 +309,9 @@ def mark_duplicate_single_instance_vars_for_exclusion(
     return column_summaries
 
 
-def main():
+def process_annotations_to_dicts(
+    column_summaries_path: Path, value_summaries_path: Path
+):
     """
     TODO:
     - Process assessment annotations
@@ -327,7 +321,7 @@ def main():
     # NOTE: keep_default_na=False prevents pandas from converting 'empty' cells to NaN,
     # which may cause columns to not be inferred as non-string dtypes due to resulting mixed values
     column_summaries = pd.read_csv(
-        COLUMN_SUMMARIES_PATH,
+        column_summaries_path,
         sep="\t",
         dtype={
             "column": str,
@@ -338,7 +332,7 @@ def main():
         keep_default_na=False,
     )
     value_summaries = pd.read_csv(
-        VALUE_SUMMARIES_PATH,
+        value_summaries_path,
         sep="\t",
         dtype={
             "column": str,
@@ -385,7 +379,9 @@ def main():
         data_dict = load_participants_json(ds_id, DATA_DIR / f"{ds_id}.json")
         ds_values = value_summaries[value_summaries["dataset"] == ds_id]
 
-        data_dict = process_annotations_to_dict(ds_id, ds_columns, ds_values, data_dict)
+        data_dict = process_dataset_annotations_to_dict(
+            ds_id, ds_columns, ds_values, data_dict
+        )
 
         if not is_valid_data_dict(ds_id, data_dict):
             logger.error(
@@ -403,4 +399,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    COLUMN_SUMMARIES_PATH = (
+        RESOURCES_DIR / "participants_tsv_columns_summary_first_guess_manual_pass.tsv"
+    )
+    VALUE_SUMMARIES_PATH = (
+        RESOURCES_DIR
+        / "participants_tsv_categorical_values_summary_first_guess_manual_pass.tsv"
+    )
+    process_annotations_to_dicts(COLUMN_SUMMARIES_PATH, VALUE_SUMMARIES_PATH)

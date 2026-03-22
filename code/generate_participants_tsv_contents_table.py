@@ -38,7 +38,7 @@ COMMON_COLUMN_MAPPINGS = {
         "subjectid",
         "participantid",
     ],
-    # NOTE: we do not include "ses" since it could be confused with socioeconomic status
+    # NOTE: do not include "ses" since it could be confused with socioeconomic status
     "nb:SessionID": ["session_id", "session"],
     "nb:Sex": ["sex", "gender"],
     "nb:Age": ["age", "age_years", "age_yrs", "participant_age"],
@@ -197,9 +197,8 @@ def infer_age_format(column_data: pd.Series) -> str | None:
     return None
 
 
-def get_value_description(column_json_info: dict, value: Any) -> str | None:
+def get_value_description(column_json_info: dict, value: str) -> str | None:
     """Get the description for a specific value in a column from the participants.json file, if it exists."""
-    value = str(value)
     try:
         return column_json_info.get("Levels", {}).get(value, None)
     # In case the "Levels" key is incorrectly formatted
@@ -207,17 +206,17 @@ def get_value_description(column_json_info: dict, value: Any) -> str | None:
         return None
 
 
-def infer_if_missing_value(value: Any) -> bool | None:
-    if pd.isna(value) or str(value).lower() in COMMON_MISSING_VALUES:
+def infer_if_missing_value(value: str) -> bool | None:
+    if value.lower() in COMMON_MISSING_VALUES:
         return True
     return None
 
 
 def get_common_std_term_mapping_for_sex_value(
-    value: Any, description: Any
+    value: str, description: Any
 ) -> tuple[str | None, str | None]:
     """Check if a value (or its description) matches any of the common values mapped to sex terms."""
-    value = str(value).lower()
+    value = value.lower()
     description = description.lower() if not pd.isna(description) else description
     for std_term, std_term_info in COMMON_SEX_VALUES.items():
         if (
@@ -257,7 +256,7 @@ def get_column_summaries(
 def get_value_summaries(
     participants_tsv: pd.DataFrame, participants_json: dict
 ) -> list[dict]:
-    # NOTE: participants_tsv in this case should contain only raw strings
+    # NOTE: participants_tsv in this case should be a dataframe containing only raw string values
     value_summaries = []
     for col_name, col_data in participants_tsv.items():
         column_json_info = participants_json.get(col_name, {})
@@ -386,7 +385,7 @@ def main():
             f"Number of categorical columns detected: {dataset_columns_df['is_categorical'].sum()}/{len(dataset_columns_df)}"
         )
 
-        # NOTE: Re-read all columns as strings in order to generate the value summaries table,
+        # NOTE: Re-read all columns as strings for generating the value summaries table,
         # to ensure that values are captured as they originally appear
         participants_tsv_all_str = read_tsv(
             DATA_DIR / f"{dataset_id}.tsv", as_strings=True

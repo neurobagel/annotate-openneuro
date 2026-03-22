@@ -81,3 +81,14 @@ python code/generate_participants_tsv_contents_table.py
 
 This script will also generate a version of the column summaries table with heuristic-based first guesses of standardized variable mappings and age column formats,
 and a version of the value summaries table with heuristic-based first guesses of standardized term mappings for sex column values.
+
+
+# Create Neurobagel data dictionaries from bulk annotations
+
+```bash
+python code/process_annotations_to_dicts.py
+```
+
+This script will:
+- Create a JSON file summarizing the currently annotated vs. unannotated columns by dataset based on the input column summaries table
+- Create a Neurobagel data dictionary JSON for each dataset from the column summaries table with at least one column annotation

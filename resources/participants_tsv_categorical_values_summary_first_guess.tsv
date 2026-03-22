@@ -643,7 +643,7 @@ ds004884	sex	M	male		snomed:248153007	Male
 ds004884	race	b				
 ds004884	race	w				
 ds004884	race	n/a		True		
-ds004884	wab_type	None	Not Aphasic based on WAB cut offs	True		
+ds004884	wab_type	None	Not Aphasic based on WAB cut offs			
 ds004884	wab_type	Conduction	Conduction			
 ds004884	wab_type	Broca	Broca's Aphasia			
 ds004884	wab_type	Anomic	Anomic as defined by WAB			
@@ -1289,7 +1289,7 @@ ds004199	age_scan	12	56-60 years
 ds004199	age_scan	3	11-15 years			
 ds004199	age_scan	10	46-50 years			
 ds004199	mri_diagnosis	suspicion	Images suggest an FCD type II.			
-ds004199	mri_diagnosis	none	Images did not reveal any pathological changes.	True		
+ds004199	mri_diagnosis	none	Images did not reveal any pathological changes.			
 ds004199	mri_diagnosis	other	Described structural changes, bu no suspected FCD.			
 ds004199	mri_diagnosis	n/a		True		
 ds004199	map	0	was not performed			
@@ -1713,7 +1713,7 @@ ds006923	Displaced by violence	Yes	Yes
 ds006923	Socioeconomic stratum	2				
 ds006923	Socioeconomic stratum	1				
 ds006923	Socioeconomic stratum	3				
-ds006923	Type of crime 1	None	None of the categories	True		
+ds006923	Type of crime 1	None	None of the categories			
 ds006923	Type of crime 1	Homicide	Homicide			
 ds006923	Type of crime 1	Sexual_Abuse	Sexual abuse			
 ds006923	Type of crime 1	Theft	Theft			
@@ -1723,7 +1723,7 @@ ds006923	Type of crime 1	Illegal_Carrying_of_Weapons/Narcotics	Illegal carrying 
 ds006923	Type of crime 1	Illegal_Possession_of_Weapons/Narcotics	Illegal possession of weapons and narcotics			
 ds006923	Type of crime 1	Kidnapping	Kidnapping			
 ds006923	Type of crime 1	Abduction	Abduction			
-ds006923	Type of crime 2	None	None of the categories	True		
+ds006923	Type of crime 2	None	None of the categories			
 ds006923	Type of crime 2	Illegal_Possession_of_Weapons/Narcotics	Illegal possession of weapons and narcotics			
 ds006923	Type of crime 2	Theft	Theft			
 ds006923	Type of crime 2	Violence	Violence			
@@ -1732,10 +1732,10 @@ ds006923	Type of crime 2	Sexual_Abuse	Sexual abuse
 ds006923	Type of crime 2	Carrying_of_Weapons/Narcotics_Violence	Carrying of weapons and narcotics violence			
 ds006923	Type of crime 2	Illegal_Carrying_of_Weapons/Narcotics	Illegal carrying of weapons and narcotics			
 ds006923	Type of crime 2	Homicide	Homicide			
-ds006923	Type of crime 3	None	None of the categories	True		
+ds006923	Type of crime 3	None	None of the categories			
 ds006923	Type of crime 3	Theft	Theft			
 ds006923	Type of crime 3	Illegal_Possession_of_Weapons/Narcotics	Illegal possession of weapons and narcotics			
-ds006923	Type of crime 4	None	None of the categories	True		
+ds006923	Type of crime 4	None	None of the categories			
 ds006923	Type of crime 4	Theft	Theft			
 ds006923	Type of crime 4	Sexual_Abuse	Sexual abuse			
 ds006923	Recidivist	n/a		True		

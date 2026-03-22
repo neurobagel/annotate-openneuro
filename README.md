@@ -90,5 +90,5 @@ python code/process_annotations_to_dicts.py
 ```
 
 This script will:
-- Create a JSON file summarizing the currently annotated vs. unannotated columns by dataset based on the input column summaries table
-- Create a Neurobagel data dictionary JSON for each dataset from the column summaries table with at least one column annotation
+- Create a JSON file (`resources/annotated_columns_by_dataset.json`) summarizing the currently annotated vs. unannotated columns by dataset based on the input column summaries table
+- Create a Neurobagel data dictionary JSON for each dataset from the column summaries table with at least one column annotation, with output files stored in `data/annotated_dictionaries`

@@ -2,6 +2,7 @@ import json
 import logging
 from pathlib import Path
 
+import jsonschema
 import pandas as pd
 import requests
 from tqdm import tqdm
@@ -28,17 +29,21 @@ VALUE_SUMMARIES_PATH = (
 )
 
 NEUROBAGEL_VARIABLES_VOCAB_URL = "https://raw.githubusercontent.com/neurobagel/communities/refs/heads/main/configs/Neurobagel/config.json"
+NEUROBAGEL_DATA_DICT_SCHEMA_URL = "https://raw.githubusercontent.com/neurobagel/bagelschema/refs/heads/main/neurobagel_data_dictionary.schema.json"
 
 COMMON_MISSING_VALUES = ["n/a", "N/A", "na", "NA", "nan", "NaN", ""]
 
 TEST_DATASETS = ["ds004856", "ds005237"]
 
 
-def fetch_neurobagel_standardized_vars_as_dict() -> dict:
-    response = requests.get(NEUROBAGEL_VARIABLES_VOCAB_URL)
+def fetch_file_from_url(url: str) -> dict:
+    response = requests.get(url)
     response.raise_for_status()
-    vocab = response.json()[0]
+    return response.json()
 
+
+def fetch_neurobagel_standardized_vars_as_dict() -> dict:
+    vocab = fetch_file_from_url(NEUROBAGEL_VARIABLES_VOCAB_URL)[0]
     standardized_vars = {}
     # var_prefix = vocab["namespace_prefix"]
     for standardized_var in vocab["standardized_variables"]:
@@ -46,9 +51,6 @@ def fetch_neurobagel_standardized_vars_as_dict() -> dict:
         standardized_vars[var_term_url] = standardized_var
 
     return standardized_vars
-
-
-NEUROBAGEL_VARS_VOCAB = fetch_neurobagel_standardized_vars_as_dict()
 
 
 def get_formats_for_variable(var_term_url: str) -> dict:
@@ -59,6 +61,8 @@ def get_formats_for_variable(var_term_url: str) -> dict:
     return formats_dict
 
 
+DATA_DICT_SCHEMA = fetch_file_from_url(NEUROBAGEL_DATA_DICT_SCHEMA_URL)
+NEUROBAGEL_VARS_VOCAB = fetch_neurobagel_standardized_vars_as_dict()
 AGE_FORMAT_LABELS = get_formats_for_variable("nb:Age")
 
 
@@ -195,6 +199,7 @@ def get_sex_annotations(column_values: pd.DataFrame) -> dict:
         ):
             levels[value] = annotate_term(term_url, label)
         else:
+            # Any unannotated values must be included as missing to avoid CLI errors later on
             missing_values.append(value)
 
     annotations = {
@@ -216,7 +221,7 @@ def process_annotations_to_dict(
         column_name = ds_column["column"]
         ds_column_values = dataset_values[dataset_values["column"] == column_name]
 
-        # Ensure every column has at minimum a description to satisfy the Neurobagel data dictionary model
+        # Ensure each column has at least a description to satisfy the Neurobagel data dictionary model
         data_dict.setdefault(column_name, {}).setdefault("Description", "")
 
         standardized_var = ds_column["standardized_var"]
@@ -231,7 +236,7 @@ def process_annotations_to_dict(
             column_annotations = get_sex_annotations(ds_column_values)
 
         if column_annotations:
-            # TODO: Eventually check for and handle any existing annotations for the column
+            # TODO: Eventually check for and handle any existing annotations for the column?
             data_dict[column_name]["Annotations"] = column_annotations
             columns_with_annotations_added += 1
 
@@ -241,19 +246,29 @@ def process_annotations_to_dict(
     return data_dict
 
 
+def is_valid_data_dict(dataset: str, data_dict: dict) -> bool:
+    """Return True for a valid Neurobagel data dictionary."""
+    try:
+        jsonschema.validate(instance=data_dict, schema=DATA_DICT_SCHEMA)
+        return True
+    except jsonschema.ValidationError as err:
+        logger.error(f"{dataset}: Output data dictionary validation errors: {err}")
+        return False
+
+
 def mark_duplicate_single_instance_vars_for_exclusion(
     column_summaries: pd.DataFrame,
 ) -> pd.DataFrame:
     """
     Mark select duplicate column annotations for exclusion.
 
-    For standardized variables that should have a max of 1 mapped column per dataset,
+    For standardized variables that support a max of 1 mapped column per dataset,
     include only the first annotated column (based on original TSV column order)
     and mark the rest for exclusion so their annotations are not added to the data dictionary.
 
-    The original TSV column order is used here to infer variable precedence,
-    (e.g., a TSV with columns ["participant_id", "age", "age_of_disease_onset"] would
-    likely treat "age" as the primary age column)
+    The original TSV column order is used to infer variable precedence
+    (e.g., in a TSV with columns ["participant_id", "age", "age_of_disease_onset"],
+    "age" is most likely to be the primary age column),
     and to avoid dependency on the column summaries row order, which can change.
 
     TODO: We may want to write out the column summaries with the updated "exclude" column.
@@ -305,13 +320,12 @@ def mark_duplicate_single_instance_vars_for_exclusion(
 def main():
     """
     TODO:
-    - Validate data dictionary
     - Process assessment annotations
     """
     OUT_DIR.mkdir(exist_ok=True)
 
     # NOTE: keep_default_na=False prevents pandas from converting 'empty' cells to NaN,
-    # which may cause column to not be inferred as non-string dtypes due to resulting mixed values
+    # which may cause columns to not be inferred as non-string dtypes due to resulting mixed values
     column_summaries = pd.read_csv(
         COLUMN_SUMMARIES_PATH,
         sep="\t",
@@ -323,15 +337,6 @@ def main():
         },
         keep_default_na=False,
     )
-    # Save a summary of annotated vs unannotated columns by dataset as a reference
-    annotated_columns_by_dataset = summarize_annotated_columns_by_dataset(
-        column_summaries
-    )
-    save_json(
-        annotated_columns_by_dataset,
-        RESOURCES_DIR / "annotated_columns_by_dataset.json",
-    )
-
     value_summaries = pd.read_csv(
         VALUE_SUMMARIES_PATH,
         sep="\t",
@@ -345,6 +350,15 @@ def main():
         keep_default_na=False,
     )
 
+    # Save a summary of annotated vs unannotated columns by dataset as a reference
+    annotated_columns_by_dataset = summarize_annotated_columns_by_dataset(
+        column_summaries
+    )
+    save_json(
+        annotated_columns_by_dataset,
+        RESOURCES_DIR / "annotated_columns_by_dataset.json",
+    )
+
     column_summaries = mark_duplicate_single_instance_vars_for_exclusion(
         column_summaries
     )
@@ -355,7 +369,6 @@ def main():
     ].groupby("dataset")
 
     annotated_data_dicts_created = 0
-
     for idx, (ds_id, ds_columns) in enumerate(
         tqdm(list(ds_groups), desc="Processing datasets"), start=1
     ):
@@ -373,6 +386,12 @@ def main():
         ds_values = value_summaries[value_summaries["dataset"] == ds_id]
 
         data_dict = process_annotations_to_dict(ds_id, ds_columns, ds_values, data_dict)
+
+        if not is_valid_data_dict(ds_id, data_dict):
+            logger.error(
+                f"{ds_id}: Output is not a valid Neurobagel data dictionary. Skipping save."
+            )
+            continue
 
         save_json(data_dict, out_file)
         logger.info(f"{ds_id}: Saved annotated data dictionary to {out_file.name}")

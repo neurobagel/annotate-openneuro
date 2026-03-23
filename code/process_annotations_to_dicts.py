@@ -235,6 +235,8 @@ def process_dataset_annotations_to_dict(
     logger.info(
         f"{dataset}: Neurobagel annotations added for {columns_with_annotations_added}/{len(dataset_columns)} columns."
     )
+    if columns_with_annotations_added == 0:
+        return {}
     return data_dict
 
 
@@ -268,15 +270,6 @@ def mark_duplicate_single_instance_vars_for_exclusion(
     single_instance_vars = get_single_instance_variables()
     column_summaries = column_summaries.copy()
 
-    # TODO: Remove subsetting for testing
-    # for ds_id, ds_columns in tqdm(
-    #     list(
-    #         column_summaries[column_summaries["dataset"].isin(TEST_DATASETS)].groupby(
-    #             "dataset"
-    #         )
-    #     ),
-    #     desc="Checking single-column variable annotations in datasets",
-    # ):
     for ds_id, ds_columns in tqdm(
         list(column_summaries.groupby("dataset")),
         desc="Checking single-column variable annotations in datasets",
@@ -359,12 +352,8 @@ def process_annotations_to_dicts(
     column_summaries = mark_duplicate_single_instance_vars_for_exclusion(
         column_summaries
     )
-    ds_groups = column_summaries.groupby("dataset")
-    # TODO: Remove subsetting for testing
-    # ds_groups = column_summaries[
-    #     column_summaries["dataset"].isin(TEST_DATASETS)
-    # ].groupby("dataset")
 
+    ds_groups = column_summaries.groupby("dataset")
     annotated_data_dicts_created = 0
     for idx, (ds_id, ds_columns) in enumerate(
         tqdm(list(ds_groups), desc="Processing datasets"), start=1
@@ -386,6 +375,11 @@ def process_annotations_to_dicts(
             ds_id, ds_columns, ds_values, data_dict
         )
 
+        if not data_dict:
+            logger.warning(
+                f"{ds_id}: No Neurobagel annotations could be added to the data dictionary. Skipping save."
+            )
+            continue
         if not is_valid_data_dict(ds_id, data_dict):
             logger.error(
                 f"{ds_id}: Output is not a valid Neurobagel data dictionary. Skipping save."

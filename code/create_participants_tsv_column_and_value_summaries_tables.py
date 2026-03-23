@@ -55,6 +55,8 @@ COMMON_SEX_VALUES = {
     },
 }
 # NOTE: Do not include "none", as it can be a legitimate coded value denoting absence of a condition
+# NOTE: BIDS requires missing and non-applicable values to be coded as n/a
+# (https://bids-specification.readthedocs.io/en/stable/common-principles.html#tabular-files)
 COMMON_MISSING_VALUES = ["nan", "n/a", "na", "null", "<na>", "#na", ""]
 
 # arbitrary threshold for number of unique values to consider a column categorical

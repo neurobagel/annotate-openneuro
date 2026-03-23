@@ -169,7 +169,7 @@ def get_age_annotations(column_row: pd.Series, column_values: pd.DataFrame) -> d
         # TODO: This is an extra precautionary step that might be able to be removed in future,
         # since most age columns will be detected as continuous
         detected_missing_values = column_values.loc[
-            column_values["is_missing_value"].lower() == "true", "value"
+            column_values["is_missing_value"].str.lower() == "true", "value"
         ].tolist()
         missing_values = list({*detected_missing_values, *COMMON_MISSING_VALUES})
 
@@ -269,13 +269,16 @@ def mark_duplicate_single_instance_vars_for_exclusion(
     column_summaries = column_summaries.copy()
 
     # TODO: Remove subsetting for testing
-    # for ds_id, ds_columns in column_summaries.groupby("dataset"):
+    # for ds_id, ds_columns in tqdm(
+    #     list(
+    #         column_summaries[column_summaries["dataset"].isin(TEST_DATASETS)].groupby(
+    #             "dataset"
+    #         )
+    #     ),
+    #     desc="Checking single-column variable annotations in datasets",
+    # ):
     for ds_id, ds_columns in tqdm(
-        list(
-            column_summaries[column_summaries["dataset"].isin(TEST_DATASETS)].groupby(
-                "dataset"
-            )
-        ),
+        list(column_summaries.groupby("dataset")),
         desc="Checking single-column variable annotations in datasets",
     ):
         ds_columns = ds_columns.copy()
@@ -356,11 +359,11 @@ def process_annotations_to_dicts(
     column_summaries = mark_duplicate_single_instance_vars_for_exclusion(
         column_summaries
     )
-    # ds_groups = column_summaries.groupby("dataset")
+    ds_groups = column_summaries.groupby("dataset")
     # TODO: Remove subsetting for testing
-    ds_groups = column_summaries[
-        column_summaries["dataset"].isin(TEST_DATASETS)
-    ].groupby("dataset")
+    # ds_groups = column_summaries[
+    #     column_summaries["dataset"].isin(TEST_DATASETS)
+    # ].groupby("dataset")
 
     annotated_data_dicts_created = 0
     for idx, (ds_id, ds_columns) in enumerate(

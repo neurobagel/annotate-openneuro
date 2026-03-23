@@ -63,7 +63,6 @@ def count_json_files_containing_annotations(
     print(
         f"Number of OpenNeuroDatasets participants.json files in {dir_path} containing 'Annotations': {len(jsons_with_annotations)}/{len(json_files)}"
     )
-    # save_text_file(output_path, "\n".join(jsons_with_annotations))
     pd.DataFrame(jsons_with_annotations).to_csv(output_path, index=False, sep="\t")
     print(f"List of dataset IDs with annotations saved to {output_path}")
 

@@ -217,7 +217,9 @@ def get_common_std_term_mapping_for_sex_value(
 ) -> tuple[str | None, str | None]:
     """Check if a value (or its description) matches any of the common values mapped to sex terms."""
     value = value.lower()
-    description = description.lower() if not pd.isna(description) else description
+    # Descriptions are pulled directly from the participants.json file and can be non-string
+    # (e.g., None or a number) so we need to cast before lowercasing
+    description = str(description).lower()
     for std_term, std_term_info in COMMON_SEX_VALUES.items():
         if (
             value in std_term_info["common_values"]

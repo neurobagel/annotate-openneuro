@@ -197,11 +197,16 @@ def get_sex_annotations(column_values: pd.DataFrame) -> dict:
     missing_values = []
     for _, value_row in column_values.iterrows():
         value = value_row["value"]
-        if (term_url := value_row["standardized_term"]) and (
-            label := value_row["standardized_label"]
-        ):
-            levels[value] = annotate_term(term_url, label)
+        term_url = value_row["standardized_term"]
+        term_label = value_row["standardized_label"]
+        if term_url and term_label:
+            levels[value] = annotate_term(term_url, term_label)
         else:
+            if term_url and not term_label:
+                logger.warning(
+                    f"{value_row['dataset']}: Missing label for standardized term '{term_url}'. "
+                    f"Column: '{value_row['column']}', value: '{value}'"
+                )
             # Any unannotated values must be included as missing to avoid CLI errors later on
             missing_values.append(value)
 

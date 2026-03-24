@@ -24,6 +24,8 @@ OUT_DIR = DATA_DIR / "annotated_dictionaries"
 NEUROBAGEL_VARIABLES_VOCAB_URL = "https://raw.githubusercontent.com/neurobagel/communities/refs/heads/main/configs/Neurobagel/config.json"
 NEUROBAGEL_DATA_DICT_SCHEMA_URL = "https://raw.githubusercontent.com/neurobagel/bagelschema/refs/heads/main/neurobagel_data_dictionary.schema.json"
 
+# NOTE: All values in this list should be interpreted by pd.read_csv as missing values by default
+# https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#na-values
 COMMON_MISSING_VALUES = ["n/a", "N/A", "na", "NA", "nan", "NaN", ""]
 
 TEST_DATASETS = ["ds004856", "ds005237"]
@@ -33,6 +35,9 @@ def fetch_file_from_url(url: str) -> dict:
     response = requests.get(url)
     response.raise_for_status()
     return response.json()
+
+
+DATA_DICT_SCHEMA = fetch_file_from_url(NEUROBAGEL_DATA_DICT_SCHEMA_URL)
 
 
 def fetch_neurobagel_standardized_vars_as_dict() -> dict:
@@ -46,6 +51,9 @@ def fetch_neurobagel_standardized_vars_as_dict() -> dict:
     return standardized_vars
 
 
+NEUROBAGEL_VARS_VOCAB = fetch_neurobagel_standardized_vars_as_dict()
+
+
 def get_formats_for_variable(var_term_url: str) -> dict:
     formats_dict = {}
     for available_format in NEUROBAGEL_VARS_VOCAB[var_term_url]["formats"]:
@@ -53,8 +61,6 @@ def get_formats_for_variable(var_term_url: str) -> dict:
     return formats_dict
 
 
-DATA_DICT_SCHEMA = fetch_file_from_url(NEUROBAGEL_DATA_DICT_SCHEMA_URL)
-NEUROBAGEL_VARS_VOCAB = fetch_neurobagel_standardized_vars_as_dict()
 AGE_FORMAT_LABELS = get_formats_for_variable("nb:Age")
 
 
@@ -85,9 +91,9 @@ def save_json(data: dict, path: Path):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def summarize_annotated_columns_by_dataset(column_summaries: pd.DataFrame) -> dict:
+def get_annotated_columns_by_dataset(column_summaries: pd.DataFrame) -> dict:
     """
-    Generate a summary of annotated vs unannotated columns by dataset as a dictionary.
+    Get lists of annotated vs unannotated columns by dataset as a dictionary.
     The output can be saved as a reference to inform future annotation efforts.
     """
     annotations_count_by_dataset = {}
@@ -164,13 +170,18 @@ def get_age_annotations(column_row: pd.Series, column_values: pd.DataFrame) -> d
     )
 
     if column_row["n_empty_values"] > 0:
-        # For age columns with few enough unique values to have been detected as 'categorical',
-        # we could already have annotations for the specific values detected as missing values.
-        # TODO: This is an extra precautionary step that might be able to be removed in future,
-        # since most age columns will be detected as continuous
+        # For age columns with few enough unique values to have been designated 'categorical'
+        # in the column summaries table,
+        # we may already have annotations for the specific values inferred to be missing values.
+        # TODO: This extra check can probably be removed in future,
+        # since most age columns will be detected as continuous.
         detected_missing_values = column_values.loc[
             column_values["is_missing_value"].str.lower() == "true", "value"
         ].tolist()
+        # For columns where n_empty_values is not 0 (meaning pd.read_csv detected at least one missing value),
+        # we also include common missing values by default to the 'MissingValues' annotation.
+        # This is a workaround for continuous columns where unique values are not available
+        # in the value summaries table and thus missing values likely have not been annotated.
         missing_values = list({*detected_missing_values, *COMMON_MISSING_VALUES})
 
     annotations = {
@@ -340,10 +351,8 @@ def process_annotations_to_dicts(
         keep_default_na=False,
     )
 
-    # Save a summary of annotated vs unannotated columns by dataset as a reference
-    annotated_columns_by_dataset = summarize_annotated_columns_by_dataset(
-        column_summaries
-    )
+    # Save lists of annotated vs unannotated columns by dataset as a reference
+    annotated_columns_by_dataset = get_annotated_columns_by_dataset(column_summaries)
     save_json(
         annotated_columns_by_dataset,
         RESOURCES_DIR / "annotated_columns_by_dataset.json",

@@ -1,0 +1,2424 @@
+{
+  "ds002181": {
+    "total_columns": 3,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds002385": {
+    "total_columns": 4,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "age",
+        "participant_id",
+        "ses",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds003474": {
+    "total_columns": 6,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 3,
+      "names": [
+        "BDI",
+        "Original_ID",
+        "STAI"
+      ]
+    }
+  },
+  "ds003478": {
+    "total_columns": 9,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 6,
+      "names": [
+        "BDI",
+        "HamD",
+        "Original_ID",
+        "SCID",
+        "SCID_notes",
+        "STAI"
+      ]
+    }
+  },
+  "ds003655": {
+    "total_columns": 10,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "participant_id",
+        "Sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 7,
+      "names": [
+        "Accuracy_Manipulation_5",
+        "Accuracy_Manipulation_6",
+        "Accuracy_Manipulation_7",
+        "Accuracy_Retention_5",
+        "Accuracy_Retention_6",
+        "Accuracy_Retention_7",
+        "orig_ID"
+      ]
+    }
+  },
+  "ds004118": {
+    "total_columns": 4,
+    "annotated_columns": {
+      "count": 2,
+      "names": [
+        "group",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "legacy_labID",
+        "year_of_birth"
+      ]
+    }
+  },
+  "ds004186": {
+    "total_columns": 7,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 4,
+      "names": [
+        "commercial_use",
+        "full_pheno",
+        "handedness",
+        "release"
+      ]
+    }
+  },
+  "ds004199": {
+    "total_columns": 19,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "group",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 16,
+      "names": [
+        "1year_outcome",
+        "age_epilepsyonset",
+        "age_op",
+        "age_scan",
+        "hemisphere",
+        "histopathology",
+        "invasive_EEG",
+        "latest_outcome",
+        "lobe",
+        "map",
+        "mri_diagnosis",
+        "op",
+        "pet",
+        "spect",
+        "split",
+        "time_follow-up"
+      ]
+    }
+  },
+  "ds004395": {
+    "total_columns": 4,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 1,
+      "names": [
+        "hand"
+      ]
+    }
+  },
+  "ds004466": {
+    "total_columns": 4,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "age",
+        "group",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds004574": {
+    "total_columns": 10,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "AGE",
+        "GENDER",
+        "GROUP",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 6,
+      "names": [
+        "BEHAVIOR",
+        "EEG",
+        "ID",
+        "MOCA",
+        "TYPE",
+        "UPDRS"
+      ]
+    }
+  },
+  "ds004579": {
+    "total_columns": 9,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "AGE",
+        "GENDER",
+        "GROUP",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 5,
+      "names": [
+        "EEG",
+        "ID",
+        "MOCA",
+        "TYPE",
+        "UPDRS"
+      ]
+    }
+  },
+  "ds004580": {
+    "total_columns": 10,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "AGE",
+        "GENDER",
+        "GROUP",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 6,
+      "names": [
+        "BEHAVIOR",
+        "EEG",
+        "ID",
+        "MOCA",
+        "TYPE",
+        "UPDRS"
+      ]
+    }
+  },
+  "ds004584": {
+    "total_columns": 9,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "AGE",
+        "GENDER",
+        "GROUP",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 5,
+      "names": [
+        "EEG",
+        "ID",
+        "MOCA",
+        "TYPE",
+        "UPDRS"
+      ]
+    }
+  },
+  "ds004602": {
+    "total_columns": 8,
+    "annotated_columns": {
+      "count": 5,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id",
+        "Sex",
+        "SubjectID"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 3,
+      "names": [
+        "Ethnicity",
+        "Race",
+        "StudySite"
+      ]
+    }
+  },
+  "ds004605": {
+    "total_columns": 3,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds004627": {
+    "total_columns": 4,
+    "annotated_columns": {
+      "count": 2,
+      "names": [
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "datasharing",
+        "subject"
+      ]
+    }
+  },
+  "ds004711": {
+    "total_columns": 6,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 3,
+      "names": [
+        "bart_run1",
+        "bart_run2",
+        "delay_discounting"
+      ]
+    }
+  },
+  "ds004746": {
+    "total_columns": 6,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 3,
+      "names": [
+        "family_id",
+        "twin_id",
+        "zygosity"
+      ]
+    }
+  },
+  "ds004789": {
+    "total_columns": 4,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 1,
+      "names": [
+        "hand"
+      ]
+    }
+  },
+  "ds004795": {
+    "total_columns": 3,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds004796": {
+    "total_columns": 87,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 84,
+      "names": [
+        "allergies",
+        "APOE_haplotype",
+        "APOE_rs429358",
+        "APOE_rs7412",
+        "AUDIT",
+        "basophils",
+        "basophils_%",
+        "BDI",
+        "BMI",
+        "cholesterol_HDL",
+        "coffee_status",
+        "CVLT_1",
+        "CVLT_10",
+        "CVLT_11",
+        "CVLT_12",
+        "CVLT_13",
+        "CVLT_2",
+        "CVLT_3",
+        "CVLT_4",
+        "CVLT_5",
+        "CVLT_6",
+        "CVLT_7",
+        "CVLT_8",
+        "CVLT_9",
+        "dementia_history_parents",
+        "diabetes",
+        "drugs",
+        "education",
+        "EHI",
+        "eosinophils",
+        "eosinophils_%",
+        "erythrocytes",
+        "hematocrit",
+        "hemoglobin",
+        "HSV_r",
+        "hypertension",
+        "ibuprofen_intake",
+        "LDL_cholesterol",
+        "learning_deficits",
+        "leukocytes",
+        "lymphocytes",
+        "lymphocytes_%",
+        "MCH",
+        "MCHC",
+        "MCV",
+        "MINI-COPE_1",
+        "MINI-COPE_10",
+        "MINI-COPE_11",
+        "MINI-COPE_12",
+        "MINI-COPE_13",
+        "MINI-COPE_14",
+        "MINI-COPE_2",
+        "MINI-COPE_3",
+        "MINI-COPE_4",
+        "MINI-COPE_5",
+        "MINI-COPE_6",
+        "MINI-COPE_7",
+        "MINI-COPE_8",
+        "MINI-COPE_9",
+        "monocytes",
+        "monocytes_%",
+        "MPV",
+        "NEO_AGR",
+        "NEO_CON",
+        "NEO_EXT",
+        "NEO_NEU",
+        "NEO_OPE",
+        "neutrophils",
+        "neutrophils_%",
+        "non-HDL_cholesterol",
+        "other_diseases",
+        "P-LCR",
+        "PDW",
+        "PICALM_rs3851179",
+        "platelets",
+        "RDW-CV",
+        "RPM",
+        "second_phase",
+        "SES",
+        "session_order",
+        "smoking_status",
+        "thyroid_diseases",
+        "total_cholesterol",
+        "triglycerides"
+      ]
+    }
+  },
+  "ds004809": {
+    "total_columns": 4,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 1,
+      "names": [
+        "hand"
+      ]
+    }
+  },
+  "ds004856": {
+    "total_columns": 36,
+    "annotated_columns": {
+      "count": 13,
+      "names": [
+        "AgeCog_W1",
+        "AgeCog_W2",
+        "AgeCog_W3",
+        "AgeMRI_W1",
+        "AgeMRI_W2",
+        "AgeMRI_W3",
+        "AgePETAmy_W1",
+        "AgePETAmy_W2",
+        "AgePETAmy_W3",
+        "AgePETTau_W2",
+        "AgePETTau_W3",
+        "participant_id",
+        "Sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 23,
+      "names": [
+        "BMI_W1",
+        "BMI_W2",
+        "CogW1toW2",
+        "CogW1toW3",
+        "CogW2toW3",
+        "EduComp",
+        "EduYrsEstCap",
+        "Ethnicity",
+        "HandednessScore",
+        "Height_W1",
+        "Height_W2",
+        "MMSE_W1",
+        "MMSE_W2",
+        "MMSE_W3",
+        "MRIW1toW2",
+        "MRIW1toW3",
+        "MRIW2toW3",
+        "PETAmyW1toW2",
+        "PETAmyW1toW3",
+        "PETAmyW2toW3",
+        "Race",
+        "Weight_W1",
+        "Weight_W2"
+      ]
+    }
+  },
+  "ds004883": {
+    "total_columns": 8,
+    "annotated_columns": {
+      "count": 5,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id",
+        "Sex",
+        "SubjectID"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 3,
+      "names": [
+        "Ethnicity",
+        "Race",
+        "StudySite"
+      ]
+    }
+  },
+  "ds004884": {
+    "total_columns": 7,
+    "annotated_columns": {
+      "count": 2,
+      "names": [
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 5,
+      "names": [
+        "age_at_stroke",
+        "race",
+        "wab_aq",
+        "wab_days",
+        "wab_type"
+      ]
+    }
+  },
+  "ds004889": {
+    "total_columns": 10,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 7,
+      "names": [
+        "acuteischaemicstroke",
+        "bmi",
+        "etiology",
+        "gs_rankin_6isdeath",
+        "nihss",
+        "priorstroke",
+        "race"
+      ]
+    }
+  },
+  "ds004965": {
+    "total_columns": 3,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds005016": {
+    "total_columns": 3,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "group",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds005112": {
+    "total_columns": 4,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 1,
+      "names": [
+        "handedness"
+      ]
+    }
+  },
+  "ds005143": {
+    "total_columns": 11,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 8,
+      "names": [
+        "institution",
+        "institution_id",
+        "manufacturer",
+        "manufacturers_model_name",
+        "moco_software",
+        "pathology",
+        "researcher",
+        "segmentation_type"
+      ]
+    }
+  },
+  "ds005166": {
+    "total_columns": 14,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 11,
+      "names": [
+        "AS",
+        "AXCPT",
+        "CALM_IT",
+        "clinical_scores",
+        "ethnicity",
+        "Flanker",
+        "fMRI_data",
+        "highest_education",
+        "income",
+        "race",
+        "SST"
+      ]
+    }
+  },
+  "ds005237": {
+    "total_columns": 6,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "age",
+        "Group",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "Site",
+        "species"
+      ]
+    }
+  },
+  "ds005270": {
+    "total_columns": 11,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 8,
+      "names": [
+        "dwi",
+        "gng",
+        "nbk",
+        "perf",
+        "rest",
+        "t1w",
+        "t2w",
+        "tsw"
+      ]
+    }
+  },
+  "ds005280": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "ID",
+        "Pre_ID"
+      ]
+    }
+  },
+  "ds005292": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "ID",
+        "Pre_ID"
+      ]
+    }
+  },
+  "ds005305": {
+    "total_columns": 8,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 5,
+      "names": [
+        "Comment",
+        "EducationLevel",
+        "Handedness",
+        "Inclusion",
+        "NativeLanguage"
+      ]
+    }
+  },
+  "ds005366": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "handedness",
+        "participant_type"
+      ]
+    }
+  },
+  "ds005385": {
+    "total_columns": 8,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 5,
+      "names": [
+        "handedness",
+        "late_ses1",
+        "late_ses2",
+        "session1",
+        "session2"
+      ]
+    }
+  },
+  "ds005398": {
+    "total_columns": 8,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 5,
+      "names": [
+        "Engel_Class1",
+        "methods",
+        "pathology",
+        "resection",
+        "sampling_frequency"
+      ]
+    }
+  },
+  "ds005449": {
+    "total_columns": 3,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds005460": {
+    "total_columns": 28,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 25,
+      "names": [
+        "actions",
+        "car",
+        "CCC",
+        "condition",
+        "driver",
+        "education",
+        "ICE_anger",
+        "ICE_anxiety",
+        "ICE_discontent",
+        "ICE_enthusiasm",
+        "ICE_guilt",
+        "ICE_isolation",
+        "ICE_powerlessness",
+        "ICE_sorrow",
+        "lifestyle",
+        "NR",
+        "PCAE",
+        "PCAE_c",
+        "PCAE_i",
+        "PD",
+        "politics1",
+        "politics2",
+        "politics3",
+        "residence",
+        "SES"
+      ]
+    }
+  },
+  "ds005498": {
+    "total_columns": 51,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 48,
+      "names": [
+        "Current Alcohol Use",
+        "Current Drug Use",
+        "Current GAD",
+        "Current MDD",
+        "Current PTSD Diagnosis",
+        "Diagnosis Other Misc",
+        "Ethnicity",
+        "FAS Percentile",
+        "FAS Raw",
+        "GAD-7 Score",
+        "IQ Percentile",
+        "IQ_Score",
+        "L-aMFG Scan ( Minus32x42x34)",
+        "L-FP Scan (Minus24x60xMinus2)",
+        "L-pMFG Scan (Minus38x22x48)",
+        "Last Month CAPS-5",
+        "Lifetime CAPS-5",
+        "Lifetime GAD",
+        "Lifetime MDD",
+        "Lifetime PTSD Diagnosis",
+        "Motor Threshold",
+        "No Diagnosis",
+        "OCD",
+        "Other Phobias",
+        "Panic Disorder",
+        "Past Alcohol or Drug Use",
+        "PCL-5 Score",
+        "PHQ-9 Score",
+        "Positive Urine Tox Results",
+        "R-aMFG Scan (30x50x26)",
+        "R-FEF Scan (34x6x62)",
+        "R-FP Scan (24x60xMinus2)",
+        "R-IFJ Scan (50x10x28)",
+        "R-IPL Scan (48xMinus54x46)",
+        "R-M1 Scan (40xMinus18x64)",
+        "R-pMFG Scan (46x26x38)",
+        "R-preSMA Scan (6x2x70)",
+        "Race",
+        "Resting Scan",
+        "Social Phobias",
+        "Stimulation Percent",
+        "Trauma Criterion A",
+        "WASI Matrix Raw",
+        "WASI Matrix T Score",
+        "WASI Matrix Total",
+        "WASI Vocabulary Raw",
+        "WASi Vocabulary T Score",
+        "Years of Education"
+      ]
+    }
+  },
+  "ds005505": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005506": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005507": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005508": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005509": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005510": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005511": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005512": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005514": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005515": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005516": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 21,
+      "names": [
+        "attention",
+        "commercial_use",
+        "contrastChangeDetection_1",
+        "contrastChangeDetection_2",
+        "contrastChangeDetection_3",
+        "DespicableMe",
+        "DiaryOfAWimpyKid",
+        "ehq_total",
+        "externalizing",
+        "full_pheno",
+        "FunwithFractals",
+        "internalizing",
+        "p_factor",
+        "release_number",
+        "RestingState",
+        "seqLearning6target",
+        "seqLearning8target",
+        "surroundSupp_1",
+        "surroundSupp_2",
+        "symbolSearch",
+        "ThePresent"
+      ]
+    }
+  },
+  "ds005534": {
+    "total_columns": 26,
+    "annotated_columns": {
+      "count": 1,
+      "names": [
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 25,
+      "names": [
+        "Anat_contrast",
+        "Anat_sequence",
+        "Anat_TE",
+        "Anat_TR",
+        "Anesthesia_breathing_assistance",
+        "Anesthesia_breathing_rate",
+        "Anesthesia_induction",
+        "Anesthesia_induction_dose",
+        "Anesthesia_maintenance",
+        "Anesthesia_maintenance_dose",
+        "Anesthesia_post_induction_time",
+        "Anesthesia_temperature",
+        "Dataset_id",
+        "Func_FA",
+        "Func_sensory_stimulation",
+        "Func_sensory_system",
+        "Func_sequence",
+        "Func_TE",
+        "Func_TR",
+        "MRI_field_strength",
+        "MRI_vendor",
+        "Rat_age",
+        "Rat_sex",
+        "Rat_strain",
+        "Rat_weight"
+      ]
+    }
+  },
+  "ds005555": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "bmi",
+        "pid"
+      ]
+    }
+  },
+  "ds005595": {
+    "total_columns": 3,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds005752": {
+    "total_columns": 44,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 41,
+      "names": [
+        "ace",
+        "acute_care",
+        "audit",
+        "bai",
+        "bdi",
+        "big_five_personality",
+        "blood_chemistry",
+        "btq",
+        "cbc_with_differential",
+        "clinical_variable_form",
+        "demographics",
+        "drug_use",
+        "ehi",
+        "eligibility",
+        "figs",
+        "gad7",
+        "handedness",
+        "health_history_checklist_year_1",
+        "health_history_questions",
+        "health_rating",
+        "hematology",
+        "hepatic",
+        "infectious_disease",
+        "kbit2_vas",
+        "lipid",
+        "MEG",
+        "mental_health_questions",
+        "MRI",
+        "mri_variables",
+        "nih_toolbox",
+        "other",
+        "perceived_health_rating",
+        "phq9",
+        "release_1",
+        "release_2",
+        "satisfaction",
+        "scid5",
+        "urinalysis",
+        "urine_chemistry",
+        "vitamin_levels",
+        "whodas"
+      ]
+    }
+  },
+  "ds005754": {
+    "total_columns": 14,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 11,
+      "names": [
+        "AS",
+        "AXCPT",
+        "behavioral_data",
+        "clinical_scores",
+        "ethnicity",
+        "Flanker",
+        "fmri_data",
+        "highest_education",
+        "income",
+        "race",
+        "SST"
+      ]
+    }
+  },
+  "ds005851": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "scanner",
+        "TIV"
+      ]
+    }
+  },
+  "ds005863": {
+    "total_columns": 78,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 75,
+      "names": [
+        "AdditionalNotes",
+        "Adult1",
+        "Adult1_Edu",
+        "Adult1_In_Household",
+        "Adult1_Occupation",
+        "Adult1_Other",
+        "Adult2",
+        "Adult2_Edu",
+        "Adult2_In_Household",
+        "Adult2_Occupation",
+        "Adult2_Other",
+        "Adult3",
+        "Adult3_Edu",
+        "Adult3_In_Household",
+        "Adult3_Occupation",
+        "Adult4",
+        "Adult4_Edu",
+        "Adult4_In_Household",
+        "Adult4_Occupation",
+        "asrs1",
+        "asrs10",
+        "asrs11",
+        "asrs12",
+        "asrs13",
+        "asrs14",
+        "asrs15",
+        "asrs16",
+        "asrs17",
+        "asrs18",
+        "asrs2",
+        "asrs3",
+        "asrs4",
+        "asrs5",
+        "asrs6",
+        "asrs7",
+        "asrs8",
+        "asrs9",
+        "CapSize",
+        "Date",
+        "EEG_Tasks",
+        "Employed",
+        "Employed_Yes",
+        "fs1",
+        "fs2",
+        "fs3",
+        "fs4",
+        "fs5",
+        "fs6",
+        "Handedness",
+        "Highest_Adult_Edu",
+        "Highest_Edu",
+        "hnc1a",
+        "hnc1b",
+        "hnc1c",
+        "hnc1d",
+        "hnc2a",
+        "hnc2b",
+        "hnc3",
+        "hnc4",
+        "Household_Members",
+        "IDEAID",
+        "Income",
+        "Income_Household",
+        "Issues",
+        "L1_AoA",
+        "L1_recoded",
+        "L2_AoA",
+        "L2_recoded",
+        "LEARN_L1",
+        "LEARN_L2",
+        "Occupation",
+        "Project",
+        "Replaced_electrode",
+        "Subjective_SES",
+        "Time"
+      ]
+    }
+  },
+  "ds005873": {
+    "total_columns": 2,
+    "annotated_columns": {
+      "count": 2,
+      "names": [
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds005896": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "participant_id",
+        "Sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "Size",
+        "Weight"
+      ]
+    }
+  },
+  "ds005901": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "participant_id",
+        "Sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "Size",
+        "Weight"
+      ]
+    }
+  },
+  "ds006018": {
+    "total_columns": 72,
+    "annotated_columns": {
+      "count": 2,
+      "names": [
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 70,
+      "names": [
+        "ADHD_binary",
+        "Age_Grouped",
+        "asrs1",
+        "asrs1_binary",
+        "asrs10",
+        "asrs11",
+        "asrs12",
+        "asrs13",
+        "asrs14",
+        "asrs15",
+        "asrs16",
+        "asrs17",
+        "asrs18",
+        "asrs2",
+        "asrs2_binary",
+        "asrs3",
+        "asrs3_binary",
+        "asrs4",
+        "asrs4_binary",
+        "asrs5",
+        "asrs5_binary",
+        "asrs6",
+        "asrs6_binary",
+        "asrs7",
+        "asrs8",
+        "asrs9",
+        "BadChannels_AuditoryOddball",
+        "BadChannels_Flanker",
+        "BadChannels_VisualOddball",
+        "BadChannels_VisualSearch",
+        "CapSize",
+        "EEG_Issues",
+        "EEG_Tasks",
+        "FlankerEEG",
+        "FlankerEEG_missingness_reason",
+        "fs1",
+        "fs2",
+        "fs3",
+        "fs4",
+        "fs5",
+        "fs6",
+        "Handedness",
+        "Highest_Adult_Edu_Grouped",
+        "Highest_Edu_Grouped",
+        "hnc1a",
+        "hnc1b",
+        "hnc1c",
+        "hnc1d",
+        "hnc2a",
+        "hnc2b",
+        "hnc3",
+        "hnc4",
+        "L1_AoA",
+        "L1_recoded",
+        "L2_AoA",
+        "L2_recoded",
+        "LEARN_L1",
+        "LEARN_L2",
+        "NumBadChannels_AuditoryOddball",
+        "NumBadChannels_Flanker",
+        "NumBadChannels_VisualOddball",
+        "NumBadChannels_VisualSearch",
+        "PassiveAuditoryOddballEEG",
+        "PassiveAuditoryOddballEEG_missingness_reason",
+        "Subjective_SES",
+        "TimeofSession",
+        "VisualOddballEEG",
+        "VisualOddballEEG_missingness_reason",
+        "VisualSearchEEG",
+        "VisualSearchEEG_missingness_reason"
+      ]
+    }
+  },
+  "ds006107": {
+    "total_columns": 14,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 11,
+      "names": [
+        "asm",
+        "cohort",
+        "daily_seizure",
+        "extent_of_resection",
+        "extra_temporal",
+        "failed_resec_SOZ",
+        "followup",
+        "mri",
+        "outcome",
+        "resected_side",
+        "seizure_capture"
+      ]
+    }
+  },
+  "ds006148": {
+    "total_columns": 2,
+    "annotated_columns": {
+      "count": 2,
+      "names": [
+        "participant_id",
+        "session_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds006218": {
+    "total_columns": 18,
+    "annotated_columns": {
+      "count": 6,
+      "names": [
+        "age ses 1",
+        "age ses 2",
+        "age ses 3",
+        "age ses 4",
+        "gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 12,
+      "names": [
+        "genotype",
+        "name ses1",
+        "name ses2",
+        "name ses3",
+        "name ses4",
+        "species",
+        "strain",
+        "subject number",
+        "weight ses1",
+        "weight ses2",
+        "weight ses3",
+        "weight ses4"
+      ]
+    }
+  },
+  "ds006303": {
+    "total_columns": 3,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds006391": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "Edu_Level",
+        "Handedness"
+      ]
+    }
+  },
+  "ds006577": {
+    "total_columns": 30,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "group",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 27,
+      "names": [
+        "ari_child_cbt03",
+        "ari_child_cbt08",
+        "ari_child_cbt12",
+        "cgas_cbt03",
+        "cgas_cbt08",
+        "cgas_cbt12",
+        "cgi_cbt12",
+        "condition",
+        "ksads_screening",
+        "mfqc_cbt03",
+        "mfqc_cbt08",
+        "mfqc_cbt12",
+        "mri_post",
+        "mri_pre",
+        "pars_cbt03",
+        "pars_cbt08",
+        "pars_cbt12",
+        "race",
+        "scared_child_cbt03",
+        "scared_child_cbt08",
+        "scared_child_cbt12",
+        "scared_parent_cbt03",
+        "scared_parent_cbt08",
+        "scared_parent_cbt12",
+        "staic_cbt03",
+        "staic_cbt08",
+        "staic_cbt12"
+      ]
+    }
+  },
+  "ds006777": {
+    "total_columns": 11,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "age",
+        "group",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 7,
+      "names": [
+        "ados_css",
+        "cpt_response_style",
+        "fsiq",
+        "handedness",
+        "mabc_total_ss",
+        "medication",
+        "srs2_total_t"
+      ]
+    }
+  },
+  "ds006780": {
+    "total_columns": 24,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "age",
+        "group",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 20,
+      "names": [
+        "ados_css",
+        "ados_css_dup",
+        "completed_ASSR",
+        "completed_AVSRT",
+        "completed_Beep-Flash",
+        "completed_FAST",
+        "completed_Illusory_contours",
+        "completed_Motor",
+        "completed_Resting_state",
+        "cpt_response_style",
+        "cpt_response_style_dup",
+        "fsiq",
+        "fsiq_dup",
+        "handedness",
+        "mabc_total_ss",
+        "mabc_total_ss_dup",
+        "medication",
+        "medication_dup",
+        "srs2_total_t",
+        "srs2_total_t_dup"
+      ]
+    }
+  },
+  "ds006861": {
+    "total_columns": 12,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "Age",
+        "Gender",
+        "Group",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 8,
+      "names": [
+        "CESD",
+        "ERQ_CR",
+        "ERQ_ES",
+        "SIAS",
+        "SNS",
+        "stimulation_side",
+        "UCLA_R",
+        "UCLA_R_screening"
+      ]
+    }
+  },
+  "ds006866": {
+    "total_columns": 18,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 15,
+      "names": [
+        "CERQ_A",
+        "CERQ_K",
+        "CERQ_KP",
+        "CERQ_OI",
+        "CERQ_OS",
+        "CERQ_PP",
+        "CERQ_PU",
+        "CERQ_R",
+        "CERQ_SP",
+        "CESD",
+        "ERQ_CR",
+        "LSAS",
+        "Set_Shifting_Cost",
+        "SNS",
+        "UCLA_R"
+      ]
+    }
+  },
+  "ds006883": {
+    "total_columns": 4,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "age",
+        "group",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 0,
+      "names": []
+    }
+  },
+  "ds006910": {
+    "total_columns": 4,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 1,
+      "names": [
+        "handedness"
+      ]
+    }
+  },
+  "ds006923": {
+    "total_columns": 21,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 18,
+      "names": [
+        "Age of first use",
+        "Alcohol",
+        "Cocaine",
+        "Consumer of psychoactive substances",
+        "Displaced by violence",
+        "Domestic violence",
+        "Gang member",
+        "Level of education",
+        "Marijuana",
+        "Recidivist",
+        "School dropout",
+        "Socioeconomic stratum",
+        "Subject type",
+        "Type of crime 1",
+        "Type of crime 2",
+        "Type of crime 3",
+        "Type of crime 4",
+        "Years of education"
+      ]
+    }
+  },
+  "ds007045": {
+    "total_columns": 6,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 3,
+      "names": [
+        "field_strength",
+        "MGMT",
+        "scanner_model"
+      ]
+    }
+  },
+  "ds007052": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "Handedness",
+        "Race"
+      ]
+    }
+  },
+  "ds007056": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "Handedness",
+        "Race"
+      ]
+    }
+  },
+  "ds007069": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "Handedness",
+        "Race"
+      ]
+    }
+  },
+  "ds007096": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "Handedness",
+        "Race"
+      ]
+    }
+  },
+  "ds007116": {
+    "total_columns": 17,
+    "annotated_columns": {
+      "count": 4,
+      "names": [
+        "age",
+        "participant_id",
+        "sex",
+        "study_group"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 13,
+      "names": [
+        "age_months",
+        "dx_adhd",
+        "dx_bp",
+        "dx_mdd",
+        "dx_moodnos",
+        "dx_none",
+        "dx_prodromal",
+        "dx_prodromal_remit",
+        "dx_psychosis",
+        "dx_ptsd",
+        "dx_ptsd_remit",
+        "ethnicity",
+        "race"
+      ]
+    }
+  },
+  "ds007118": {
+    "total_columns": 13,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 10,
+      "names": [
+        "asm_number",
+        "cohort",
+        "daily_seizure",
+        "extent_of_resection",
+        "extratemporal_resection",
+        "mri_lesion",
+        "outcome",
+        "resected_hemisphere",
+        "seizure_capture",
+        "soz_complete_resection"
+      ]
+    }
+  },
+  "ds007119": {
+    "total_columns": 13,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 10,
+      "names": [
+        "asm_number",
+        "cohort",
+        "daily_seizure",
+        "extent_of_resection",
+        "extratemporal_resection",
+        "mri_lesion",
+        "outcome",
+        "resected_hemisphere",
+        "seizure_capture",
+        "soz_complete_resection"
+      ]
+    }
+  },
+  "ds007120": {
+    "total_columns": 13,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 10,
+      "names": [
+        "asm_number",
+        "cohort",
+        "daily_seizure",
+        "extent_of_resection",
+        "extratemporal_resection",
+        "mri_lesion",
+        "outcome",
+        "resected_hemisphere",
+        "seizure_capture",
+        "soz_complete_resection"
+      ]
+    }
+  },
+  "ds007137": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "Handedness",
+        "Race"
+      ]
+    }
+  },
+  "ds007139": {
+    "total_columns": 5,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "Age",
+        "Gender",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 2,
+      "names": [
+        "Handedness",
+        "Race"
+      ]
+    }
+  },
+  "ds007427": {
+    "total_columns": 17,
+    "annotated_columns": {
+      "count": 3,
+      "names": [
+        "age",
+        "participant_id",
+        "sex"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 14,
+      "names": [
+        "Denom_alta",
+        "Denom_baja",
+        "Denom_error",
+        "Denom_med",
+        "Denom_total",
+        "education",
+        "hand",
+        "MM_atenc",
+        "MM_espac",
+        "MM_evoc",
+        "MM_fijac",
+        "MM_leng",
+        "MM_Tiempo",
+        "MM_total"
+      ]
+    }
+  }
+}

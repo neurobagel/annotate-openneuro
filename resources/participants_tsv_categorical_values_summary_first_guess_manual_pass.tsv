@@ -1,0 +1,2615 @@
+dataset	column	value	description	is_missing_value	standardized_term	standardized_label
+ds002181	age	36				
+ds002181	age	6				
+ds002181	sex	n/a		True		
+ds002385	ses	1				
+ds002385	ses	2				
+ds002385	ses	3				
+ds002385	sex	F			snomed:248152002	Female
+ds002385	sex	M			snomed:248153007	Male
+ds002385	ses	n/a		True		
+ds002385	sex	n/a		True		
+ds002385	sex	U				
+ds003474	sex	1			snomed:248152002	Female
+ds003474	age	18				
+ds003474	age	19				
+ds003474	sex	2			snomed:248153007	Male
+ds003474	age	20				
+ds003474	age	21				
+ds003474	age	22				
+ds003474	age	23				
+ds003474	age	24				
+ds003474	age	NaN		True		
+ds003474	sex	NaN		True		
+ds003478	sex	1			snomed:248152002	Female
+ds003478	age	18				
+ds003478	age	19				
+ds003478	sex	2			snomed:248153007	Male
+ds003478	age	20				
+ds003478	age	21				
+ds003478	age	22				
+ds003478	age	23				
+ds003478	age	24				
+ds003478	SCID	Current MDD				
+ds003478	SCID	Do not meet criterion for current or past MDD				
+ds003478	age	NaN		True		
+ds003478	sex	NaN		True		
+ds003478	SCID	No Interview				
+ds003478	SCID	Past MDD				
+ds003655	Accuracy_Retention_5	0.6500000000				
+ds003655	Accuracy_Retention_5	0.7000000000				
+ds003655	Accuracy_Retention_5	0.7500000000				
+ds003655	Accuracy_Retention_5	0.8000000000				
+ds003655	Accuracy_Retention_5	0.8500000000				
+ds003655	Accuracy_Retention_5	0.9000000000				
+ds003655	Accuracy_Retention_5	0.9500000000				
+ds003655	Accuracy_Retention_5	1				
+ds003655	Sex	Female			snomed:248152002	Female
+ds003655	Sex	Male			snomed:248153007	Male
+ds004118	group	Normal				
+ds004186	gender	0				
+ds004186	gender	1				
+ds004186	commercial_use	No	Subject did not give consent to commercial use of data			
+ds004186	full_pheno	No	Subject does not have full phenotypic file			
+ds004186	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds004186	full_pheno	Yes	Subject has full phenotypic file			
+ds004199	invasive_EEG	0	was not performed			
+ds004199	map	0	was not performed			
+ds004199	op	0	was not performed			
+ds004199	pet	0	was not performed			
+ds004199	spect	0	was not performed			
+ds004199	age_epilepsyonset	1	0-5 years			
+ds004199	invasive_EEG	1	was performed			
+ds004199	map	1	was performed			
+ds004199	op	1	was performed			
+ds004199	pet	1	was performed			
+ds004199	spect	1	was performed			
+ds004199	time_follow-up	1	less than 1 year			
+ds004199	age_op	10	46-50 years			
+ds004199	age_scan	10	46-50 years			
+ds004199	age_scan	11	51-55 years			
+ds004199	age_op	12	56-60 years			
+ds004199	age_scan	12	56-60 years			
+ds004199	age_scan	13	61-65 years			
+ds004199	age_epilepsyonset	2	6-10 years			
+ds004199	time_follow-up	2	1-2 years			
+ds004199	age_epilepsyonset	3	11-15 years			
+ds004199	age_op	3	11-15 years			
+ds004199	age_scan	3	11-15 years			
+ds004199	time_follow-up	3	3-4 years			
+ds004199	age_epilepsyonset	4	16-20 years			
+ds004199	age_op	4	16-20 years			
+ds004199	age_scan	4	16-20 years			
+ds004199	time_follow-up	4	5-6 years			
+ds004199	age_epilepsyonset	5	21-25 years			
+ds004199	age_op	5	21-25 years			
+ds004199	age_scan	5	21-25 years			
+ds004199	time_follow-up	5	7-8 years			
+ds004199	age_epilepsyonset	6	26-30 years			
+ds004199	age_op	6	26-30 years			
+ds004199	age_scan	6	26-30 years			
+ds004199	time_follow-up	6	9-10 years			
+ds004199	age_epilepsyonset	7	31-35 years			
+ds004199	age_op	7	31-35 years			
+ds004199	age_scan	7	31-35 years			
+ds004199	time_follow-up	7	11-12 years			
+ds004199	age_epilepsyonset	8	36-40 years			
+ds004199	age_op	8	36-40 years			
+ds004199	age_scan	8	36-40 years			
+ds004199	age_epilepsyonset	9	41-45 years			
+ds004199	age_op	9	41-45 years			
+ds004199	age_scan	9	41-45 years			
+ds004199	sex	F	female		snomed:248152002	Female
+ds004199	group	fcd	person with epilepsy, diagnosed with an FCD			
+ds004199	lobe	FL	frontal lobe			
+ds004199	lobe	FL,PL				
+ds004199	group	hc	healthy control			
+ds004199	1year_outcome	IA	Engel IA: Completely seizure free since surgery			
+ds004199	latest_outcome	IA	Engel IA: Completely seizure free since surgery			
+ds004199	1year_outcome	IB	Engel IB: Nondisabling simple partial seizures only since surgery			
+ds004199	latest_outcome	IC	Engel IC: Some disabling seizures after surgery, but free of disabling seizures for at least 2 years			
+ds004199	1year_outcome	IIA	Engel IIA: Initially free of disabling seizures but has rare seizures now			
+ds004199	histopathology	IIa	Type IIa			
+ds004199	latest_outcome	IIA	Engel IIA: Initially free of disabling seizures but has rare seizures now			
+ds004199	1year_outcome	IIB	Engel IIB: Rare disabling seizures since surgery			
+ds004199	histopathology	IIb	Type IIb			
+ds004199	latest_outcome	IIB	Engel IIB: Rare disabling seizures since surgery			
+ds004199	latest_outcome	IIC	Engel IIC: More than rare disabling seizures since surgery, but rare seizures for the last 2 years			
+ds004199	1year_outcome	IIIA	Engel IIIA: Worthwhile seizure reduction			
+ds004199	latest_outcome	IIIA	Engel IIIA: Worthwhile seizure reduction			
+ds004199	lobe	IL	insular lobe			
+ds004199	1year_outcome	IVB	Engel IVB: No appreciable change			
+ds004199	latest_outcome	IVB	Engel IVB: No appreciable change			
+ds004199	latest_outcome	IVC	Engel IVC: Seizures worse			
+ds004199	hemisphere	L	left			
+ds004199	sex	M	male		snomed:248153007	Male
+ds004199	1year_outcome	n/a		True		
+ds004199	age_epilepsyonset	n/a		True		
+ds004199	age_op	n/a		True		
+ds004199	hemisphere	n/a		True		
+ds004199	histopathology	n/a		True		
+ds004199	invasive_EEG	n/a		True		
+ds004199	latest_outcome	n/a		True		
+ds004199	lobe	n/a		True		
+ds004199	map	n/a		True		
+ds004199	mri_diagnosis	n/a		True		
+ds004199	pet	n/a		True		
+ds004199	spect	n/a		True		
+ds004199	time_follow-up	n/a		True		
+ds004199	mri_diagnosis	none	Images did not reveal any pathological changes.			
+ds004199	lobe	OL	occipital lobe			
+ds004199	mri_diagnosis	other	Described structural changes, bu no suspected FCD.			
+ds004199	lobe	PL	parietal lobe			
+ds004199	hemisphere	R	right			
+ds004199	mri_diagnosis	suspicion	Images suggest an FCD type II.			
+ds004199	split	test				
+ds004199	lobe	TL	temporal lobe			
+ds004199	lobe	TL,OL				
+ds004199	lobe	TL,PL				
+ds004199	split	train				
+ds004395	hand	A	ambidextrous			
+ds004395	sex	F	female		snomed:248152002	Female
+ds004395	hand	L	left			
+ds004395	sex	M	male		snomed:248153007	Male
+ds004395	hand	n/a		True		
+ds004395	sex	n/a		True		
+ds004395	hand	R	right			
+ds004466	group	control				
+ds004466	sex	F			snomed:248152002	Female
+ds004466	sex	M			snomed:248153007	Male
+ds004466	sex	O				
+ds004466	group	syn				
+ds004574	TYPE	0				
+ds004574	TYPE	1				
+ds004574	GROUP	Control				
+ds004574	GENDER	F	Female		snomed:248152002	Female
+ds004574	GENDER	M	Male		snomed:248153007	Male
+ds004574	GROUP	PD				
+ds004579	TYPE	0				
+ds004579	TYPE	1				
+ds004579	GROUP	Control				
+ds004579	GENDER	F	Female		snomed:248152002	Female
+ds004579	GENDER	M	Male		snomed:248153007	Male
+ds004579	GROUP	PD				
+ds004580	TYPE	0				
+ds004580	TYPE	1				
+ds004580	GROUP	Control				
+ds004580	GENDER	F	Female		snomed:248152002	Female
+ds004580	GENDER	M	Male		snomed:248153007	Male
+ds004580	GROUP	PD				
+ds004584	TYPE	0				
+ds004584	TYPE	1				
+ds004584	GROUP	Control				
+ds004584	GENDER	F	Female		snomed:248152002	Female
+ds004584	GENDER	M	Male		snomed:248153007	Male
+ds004584	GROUP	PD				
+ds004602	Race	American Indian/Alaskan				
+ds004602	Race	Asian				
+ds004602	Race	Black/AA				
+ds004602	StudySite	BYU				
+ds004602	Sex	Female			snomed:248152002	Female
+ds004602	Sex	Male			snomed:248153007	Male
+ds004602	Gender	Man			snomed:248153007	Male
+ds004602	Race	Multiracial				
+ds004602	Ethnicity	No				
+ds004602	Gender	Other			snomed:32570681000036106	Other
+ds004602	StudySite	USF				
+ds004602	Race	White				
+ds004602	Gender	Woman			snomed:248152002	Female
+ds004602	Ethnicity	Yes				
+ds004605	sex	-1	female		snomed:248152002	Female
+ds004605	sex	1	male		snomed:248153007	Male
+ds004627	datasharing	1				
+ds004627	sex	F			snomed:248152002	Female
+ds004627	sex	M			snomed:248153007	Male
+ds004711	bart_run1	0				
+ds004711	bart_run2	0				
+ds004711	delay_discounting	0				
+ds004711	bart_run1	1				
+ds004711	bart_run2	1				
+ds004711	delay_discounting	1				
+ds004711	gender	female			snomed:248152002	Female
+ds004711	gender	male			snomed:248153007	Male
+ds004746	zygosity	DZ	dizygotic			
+ds004746	sex	F	female		snomed:248152002	Female
+ds004746	sex	M	male		snomed:248153007	Male
+ds004746	zygosity	MZ	monozygotic			
+ds004746	zygosity	OS	dizygotic opposite sex			
+ds004789	hand	A	ambidextrous			
+ds004789	sex	F	female		snomed:248152002	Female
+ds004789	hand	L	left			
+ds004789	sex	M	male		snomed:248153007	Male
+ds004789	hand	n/a		True		
+ds004789	hand	R	right			
+ds004795	sex	F	Female		snomed:248152002	Female
+ds004795	sex	M	Male		snomed:248153007	Male
+ds004796	learning_deficits	[0. 1 ]				
+ds004796	learning_deficits	[1. 2]				
+ds004796	allergies	0	no			
+ds004796	coffee_status	0	no			
+ds004796	CVLT_10	0				
+ds004796	CVLT_11	0				
+ds004796	CVLT_13	0				
+ds004796	dementia_history_parents	0	healthy parents			
+ds004796	diabetes	0	no			
+ds004796	drugs	0	no			
+ds004796	HSV_r	0	no			
+ds004796	hypertension	0	no			
+ds004796	ibuprofen_intake	0	none			
+ds004796	learning_deficits	0	dyslexia			
+ds004796	MINI-COPE_10	0				
+ds004796	MINI-COPE_11	0				
+ds004796	MINI-COPE_12	0				
+ds004796	MINI-COPE_13	0				
+ds004796	MINI-COPE_14	0				
+ds004796	MINI-COPE_3	0				
+ds004796	MINI-COPE_4	0				
+ds004796	MINI-COPE_5	0				
+ds004796	MINI-COPE_6	0				
+ds004796	MINI-COPE_7	0				
+ds004796	MINI-COPE_8	0				
+ds004796	MINI-COPE_9	0				
+ds004796	other_diseases	0	no			
+ds004796	second_phase	0	no			
+ds004796	session_order	0	first EEG			
+ds004796	sex	0	male		snomed:248153007	Male
+ds004796	smoking_status	0	no			
+ds004796	thyroid_diseases	0	no			
+ds004796	MINI-COPE_1	0.5				
+ds004796	MINI-COPE_10	0.5				
+ds004796	MINI-COPE_11	0.5				
+ds004796	MINI-COPE_12	0.5				
+ds004796	MINI-COPE_13	0.5				
+ds004796	MINI-COPE_14	0.5				
+ds004796	MINI-COPE_2	0.5				
+ds004796	MINI-COPE_3	0.5				
+ds004796	MINI-COPE_4	0.5				
+ds004796	MINI-COPE_5	0.5				
+ds004796	MINI-COPE_6	0.5				
+ds004796	MINI-COPE_7	0.5				
+ds004796	MINI-COPE_8	0.5				
+ds004796	MINI-COPE_9	0.5				
+ds004796	allergies	1	yes			
+ds004796	coffee_status	1	yes, on a daily basis			
+ds004796	CVLT_10	1				
+ds004796	CVLT_11	1				
+ds004796	CVLT_13	1				
+ds004796	dementia_history_parents	1	one demented parent			
+ds004796	diabetes	1	yes			
+ds004796	drugs	1	yes			
+ds004796	education	1	secondary education			
+ds004796	HSV_r	1	yes			
+ds004796	hypertension	1	yes			
+ds004796	ibuprofen_intake	1	very rarely (several times a year)			
+ds004796	learning_deficits	1	dysgraphia			
+ds004796	MINI-COPE_1	1				
+ds004796	MINI-COPE_10	1				
+ds004796	MINI-COPE_11	1				
+ds004796	MINI-COPE_12	1				
+ds004796	MINI-COPE_13	1				
+ds004796	MINI-COPE_14	1				
+ds004796	MINI-COPE_2	1				
+ds004796	MINI-COPE_3	1				
+ds004796	MINI-COPE_4	1				
+ds004796	MINI-COPE_5	1				
+ds004796	MINI-COPE_6	1				
+ds004796	MINI-COPE_7	1				
+ds004796	MINI-COPE_8	1				
+ds004796	MINI-COPE_9	1				
+ds004796	other_diseases	1	yes			
+ds004796	second_phase	1	yes			
+ds004796	session_order	1	yes MRI/fMRI			
+ds004796	sex	1	female		snomed:248152002	Female
+ds004796	smoking_status	1	yes			
+ds004796	thyroid_diseases	1	hypothyroidism			
+ds004796	MINI-COPE_1	1.5				
+ds004796	MINI-COPE_10	1.5				
+ds004796	MINI-COPE_11	1.5				
+ds004796	MINI-COPE_12	1.5				
+ds004796	MINI-COPE_13	1.5				
+ds004796	MINI-COPE_14	1.5				
+ds004796	MINI-COPE_2	1.5				
+ds004796	MINI-COPE_3	1.5				
+ds004796	MINI-COPE_4	1.5				
+ds004796	MINI-COPE_5	1.5				
+ds004796	MINI-COPE_6	1.5				
+ds004796	MINI-COPE_7	1.5				
+ds004796	MINI-COPE_8	1.5				
+ds004796	MINI-COPE_9	1.5				
+ds004796	CVLT_12	10				
+ds004796	CVLT_3	10				
+ds004796	CVLT_12	11				
+ds004796	CVLT_3	11				
+ds004796	CVLT_12	12				
+ds004796	CVLT_3	12				
+ds004796	CVLT_12	13				
+ds004796	CVLT_3	13				
+ds004796	CVLT_11	14				
+ds004796	CVLT_12	14				
+ds004796	CVLT_3	14				
+ds004796	CVLT_12	15				
+ds004796	CVLT_3	15				
+ds004796	CVLT_12	16				
+ds004796	CVLT_3	16				
+ds004796	coffee_status	2	yes, occasionally			
+ds004796	CVLT_10	2				
+ds004796	CVLT_11	2				
+ds004796	CVLT_13	2				
+ds004796	dementia_history_parents	2	both demented parents			
+ds004796	education	2	partial higher education			
+ds004796	ibuprofen_intake	2	rarely (1-4 pills per month)			
+ds004796	learning_deficits	2	dysorthography			
+ds004796	MINI-COPE_1	2				
+ds004796	MINI-COPE_10	2				
+ds004796	MINI-COPE_11	2				
+ds004796	MINI-COPE_12	2				
+ds004796	MINI-COPE_13	2				
+ds004796	MINI-COPE_14	2				
+ds004796	MINI-COPE_2	2				
+ds004796	MINI-COPE_3	2				
+ds004796	MINI-COPE_4	2				
+ds004796	MINI-COPE_5	2				
+ds004796	MINI-COPE_6	2				
+ds004796	MINI-COPE_7	2				
+ds004796	MINI-COPE_8	2				
+ds004796	MINI-COPE_9	2				
+ds004796	smoking_status	2	in the past			
+ds004796	thyroid_diseases	2	hyperthyroidism			
+ds004796	MINI-COPE_1	2.5				
+ds004796	MINI-COPE_11	2.5				
+ds004796	MINI-COPE_12	2.5				
+ds004796	MINI-COPE_13	2.5				
+ds004796	MINI-COPE_14	2.5				
+ds004796	MINI-COPE_2	2.5				
+ds004796	MINI-COPE_3	2.5				
+ds004796	MINI-COPE_4	2.5				
+ds004796	MINI-COPE_5	2.5				
+ds004796	MINI-COPE_6	2.5				
+ds004796	MINI-COPE_7	2.5				
+ds004796	MINI-COPE_8	2.5				
+ds004796	MINI-COPE_9	2.5				
+ds004796	MCH	24				
+ds004796	MCH	27				
+ds004796	MCH	28				
+ds004796	MCH	29				
+ds004796	coffee_status	3	yes, but only decaffeinated coffee			
+ds004796	CVLT_10	3				
+ds004796	CVLT_11	3				
+ds004796	CVLT_13	3				
+ds004796	education	3	higher education			
+ds004796	ibuprofen_intake	3	moderately often (5-11 pills per month)			
+ds004796	MINI-COPE_1	3				
+ds004796	MINI-COPE_11	3				
+ds004796	MINI-COPE_14	3				
+ds004796	MINI-COPE_2	3				
+ds004796	MINI-COPE_3	3				
+ds004796	MINI-COPE_4	3				
+ds004796	MINI-COPE_5	3				
+ds004796	MINI-COPE_6	3				
+ds004796	MINI-COPE_7	3				
+ds004796	MINI-COPE_8	3				
+ds004796	MINI-COPE_9	3				
+ds004796	thyroid_diseases	3	other			
+ds004796	MCH	30				
+ds004796	MCH	31				
+ds004796	MCH	32				
+ds004796	MCH	33				
+ds004796	MCH	34				
+ds004796	CVLT_10	4				
+ds004796	CVLT_11	4				
+ds004796	CVLT_13	4				
+ds004796	ibuprofen_intake	4	often (>12 pills per month)			
+ds004796	learning_deficits	4	none			
+ds004796	CVLT_10	5				
+ds004796	CVLT_11	5				
+ds004796	CVLT_13	5				
+ds004796	CVLT_10	6				
+ds004796	CVLT_13	6				
+ds004796	CVLT_10	7				
+ds004796	CVLT_11	8				
+ds004796	CVLT_3	8				
+ds004796	CVLT_10	9				
+ds004796	CVLT_13	9				
+ds004796	CVLT_3	9				
+ds004796	PICALM_rs3851179	A/A				
+ds004796	APOE_rs429358	C/C				
+ds004796	APOE_rs7412	C/C				
+ds004796	APOE_rs7412	C/T				
+ds004796	APOE_rs7412	C/T				
+ds004796	APOE_haplotype	e2/e2				
+ds004796	APOE_haplotype	e2/e4				
+ds004796	APOE_haplotype	e3/e2				
+ds004796	APOE_haplotype	e3/e2				
+ds004796	APOE_haplotype	e3/e3				
+ds004796	APOE_haplotype	e3/e4				
+ds004796	APOE_haplotype	e4/e4				
+ds004796	PICALM_rs3851179	G/A				
+ds004796	PICALM_rs3851179	G/A				
+ds004796	PICALM_rs3851179	G/G				
+ds004796	allergies	n/a		True		
+ds004796	CVLT_12	n/a		True		
+ds004796	CVLT_13	n/a		True		
+ds004796	education	n/a		True		
+ds004796	HSV_r	n/a		True		
+ds004796	hypertension	n/a		True		
+ds004796	ibuprofen_intake	n/a		True		
+ds004796	learning_deficits	n/a		True		
+ds004796	MCH	n/a		True		
+ds004796	MINI-COPE_1	n/a		True		
+ds004796	MINI-COPE_10	n/a		True		
+ds004796	MINI-COPE_11	n/a		True		
+ds004796	MINI-COPE_13	n/a		True		
+ds004796	MINI-COPE_14	n/a		True		
+ds004796	MINI-COPE_2	n/a		True		
+ds004796	MINI-COPE_3	n/a		True		
+ds004796	MINI-COPE_4	n/a		True		
+ds004796	MINI-COPE_5	n/a		True		
+ds004796	MINI-COPE_6	n/a		True		
+ds004796	MINI-COPE_7	n/a		True		
+ds004796	MINI-COPE_8	n/a		True		
+ds004796	MINI-COPE_9	n/a		True		
+ds004796	other_diseases	n/a		True		
+ds004796	session_order	n/a		True		
+ds004796	smoking_status	n/a		True		
+ds004796	thyroid_diseases	n/a		True		
+ds004796	APOE_rs429358	T/?				
+ds004796	APOE_rs429358	T/C				
+ds004796	APOE_rs7412	T/C				
+ds004796	APOE_rs429358	T/T				
+ds004796	APOE_rs7412	T/T				
+ds004809	hand	A	ambidextrous			
+ds004809	sex	F	female		snomed:248152002	Female
+ds004809	hand	L	left			
+ds004809	sex	M	male		snomed:248153007	Male
+ds004809	hand	n/a		True		
+ds004809	hand	R	right			
+ds004856	Ethnicity	0				
+ds004856	EduComp	1	Less than high school graduate			
+ds004856	Ethnicity	1	Hispanic/Latin(o/a)			
+ds004856	Race	1	Asian American/Pacific Islander			
+ds004856	EduComp	2	High school graduate/GED			
+ds004856	Race	2	Black/African American			
+ds004856	MMSE_W3	24				
+ds004856	MMSE_W2	25				
+ds004856	MMSE_W3	25				
+ds004856	MMSE_W1	26				
+ds004856	MMSE_W2	26				
+ds004856	MMSE_W3	26				
+ds004856	MMSE_W1	27				
+ds004856	MMSE_W2	27				
+ds004856	MMSE_W3	27				
+ds004856	MMSE_W1	28				
+ds004856	MMSE_W2	28				
+ds004856	MMSE_W3	28				
+ds004856	MMSE_W1	29				
+ds004856	MMSE_W2	29				
+ds004856	MMSE_W3	29				
+ds004856	EduComp	3	Some college/trade/technical/business school			
+ds004856	Race	3	Multiracial			
+ds004856	MMSE_W1	30				
+ds004856	MMSE_W2	30				
+ds004856	MMSE_W3	30				
+ds004856	EduComp	4	Bachelor’s degree			
+ds004856	Race	4	Native American			
+ds004856	EduComp	5	Some graduate work			
+ds004856	Race	5	White/Caucasian			
+ds004856	EduComp	6	Master’s degree			
+ds004856	Race	6	Other			
+ds004856	EduComp	7	MD/JD/PhD/other advanced degree			
+ds004856	Race	7	Unknown			
+ds004856	Sex	f	female		snomed:248152002	Female
+ds004856	Sex	m	male		snomed:248153007	Male
+ds004856	EduComp	n/a		True		
+ds004856	Ethnicity	n/a		True		
+ds004856	MMSE_W1	n/a		True		
+ds004856	MMSE_W2	n/a		True		
+ds004856	MMSE_W3	n/a		True		
+ds004883	Race	American Indian/Alaskan				
+ds004883	Race	Asian				
+ds004883	Race	Black/AA				
+ds004883	StudySite	BYU				
+ds004883	Sex	Female			snomed:248152002	Female
+ds004883	Race	Hawaiian/Other PI				
+ds004883	Sex	Male			snomed:248153007	Male
+ds004883	Gender	Man			snomed:248153007	Male
+ds004883	Race	Multiracial				
+ds004883	Ethnicity	No				
+ds004883	Gender	Other			snomed:32570681000036106	Other
+ds004883	StudySite	USF				
+ds004883	Race	White				
+ds004883	Gender	Woman			snomed:248152002	Female
+ds004883	Ethnicity	Yes				
+ds004884	wab_type	Anomic	Anomic as defined by WAB			
+ds004884	race	b				
+ds004884	wab_type	Broca	Broca's Aphasia			
+ds004884	wab_type	Conduction	Conduction			
+ds004884	sex	F	female		snomed:248152002	Female
+ds004884	wab_type	Global	Global			
+ds004884	sex	M	male		snomed:248153007	Male
+ds004884	race	n/a		True		
+ds004884	wab_type	n/a		True		
+ds004884	wab_type	None	Not Aphasic based on WAB cut offs			
+ds004884	wab_type	TranscorticalMotor	Transcortical Motor			
+ds004884	race	w				
+ds004884	wab_type	Wernicke	Wernicke's			
+ds004889	gs_rankin_6isdeath	0				
+ds004889	priorstroke	0	No chronic stroke			
+ds004889	acuteischaemicstroke	1	Acute ischemic stroke			
+ds004889	gs_rankin_6isdeath	1				
+ds004889	priorstroke	1	Previous chronic stroke			
+ds004889	etiology	1: Large-artery atherosclerosis (e.g., carotid or basilar artery stenosis)				
+ds004889	gs_rankin_6isdeath	2				
+ds004889	etiology	2: Cardioembolism (e.g., atrial fibrillation/flutter, prosthetic heart valve, recent MI)				
+ds004889	gs_rankin_6isdeath	3				
+ds004889	etiology	3: Small-vessel disease (e.g., Subcortical or brain stem lacunar infarction <1.5 cm)				
+ds004889	gs_rankin_6isdeath	4				
+ds004889	etiology	4: Stroke of other determined etiology				
+ds004889	gs_rankin_6isdeath	5				
+ds004889	etiology	5: Cryptogenic Stroke				
+ds004889	gs_rankin_6isdeath	6				
+ds004889	race	b	Black or African American			
+ds004889	sex	F	female		snomed:248152002	Female
+ds004889	sex	M	male		snomed:248153007	Male
+ds004889	acuteischaemicstroke	n/a		True		
+ds004889	etiology	n/a		True		
+ds004889	gs_rankin_6isdeath	n/a		True		
+ds004889	priorstroke	n/a		True		
+ds004889	race	n/a		True		
+ds004889	sex	n/a		True		
+ds004889	race	w	White			
+ds004965	sex	F	female		snomed:248152002	Female
+ds004965	sex	M	male		snomed:248153007	Male
+ds005016	sex	female			snomed:248152002	Female
+ds005016	sex	male			snomed:248153007	Male
+ds005016	group	MBSR+				
+ds005016	group	n/a		True		
+ds005016	sex	n/a		True		
+ds005016	group	SMH				
+ds005112	handedness	a	ambidextrous			
+ds005112	sex	F	female		snomed:248152002	Female
+ds005112	handedness	l	left			
+ds005112	sex	M	male		snomed:248153007	Male
+ds005112	handedness	n/a		True		
+ds005112	handedness	r	right			
+ds005143	sex	18				
+ds005143	sex	19				
+ds005143	sex	20				
+ds005143	sex	21				
+ds005143	sex	22				
+ds005143	sex	23				
+ds005143	sex	24				
+ds005143	sex	25				
+ds005143	sex	26				
+ds005143	sex	27				
+ds005143	sex	28				
+ds005143	sex	29				
+ds005143	sex	30				
+ds005143	sex	31				
+ds005143	sex	32				
+ds005143	sex	33				
+ds005143	sex	34				
+ds005143	sex	35				
+ds005143	sex	36				
+ds005143	sex	37				
+ds005143	sex	38				
+ds005143	sex	39				
+ds005143	sex	40				
+ds005143	sex	41				
+ds005143	sex	42				
+ds005143	sex	43				
+ds005143	sex	44				
+ds005143	sex	45				
+ds005143	sex	46				
+ds005143	sex	47				
+ds005143	sex	48				
+ds005143	sex	49				
+ds005143	sex	50				
+ds005143	sex	51				
+ds005143	sex	52				
+ds005143	sex	53				
+ds005143	sex	54				
+ds005143	sex	56				
+ds005143	sex	57				
+ds005143	sex	58				
+ds005143	sex	59				
+ds005143	sex	60				
+ds005143	sex	61				
+ds005143	sex	62				
+ds005143	sex	63				
+ds005143	sex	64				
+ds005143	sex	67				
+ds005143	sex	69				
+ds005143	sex	76				
+ds005143	moco_software	AFNI	Analysis of Functional NeuroImages			
+ds005143	segmentation_type	Automated	Automated segmentation of the spinal cord			
+ds005143	institution	Balgrist University Hospital, University of Zurich				
+ds005143	institution	Centre de recherche de l'Institut Universitaire de Geriatrie de Montreal				
+ds005143	pathology	CSM				
+ds005143	pathology	DCM	Degenerative Cervical Myelopathy (synonymous with CSM - Cervical Spondylotic Myelopathy)			
+ds005143	manufacturers_model_name	Discovery 750 3 Tesla System				
+ds005143	institution	Ecole Polytechnique Federale de Lausanne				
+ds005143	age	F				
+ds005143	pathology	FM	Fibromyalgia			
+ds005143	moco_software	FSL	FMRIB Software Library			
+ds005143	moco_software	FSL & SCT				
+ds005143	manufacturer	GE				
+ds005143	institution_id	geneva				
+ds005143	institution_id	hamburg				
+ds005143	pathology	HC	Healthy Control			
+ds005143	institution_id	leipzig				
+ds005143	age	M				
+ds005143	manufacturers_model_name	Magnetom Prisma Fit 3 Tesla System				
+ds005143	manufacturers_model_name	Magnetom Trio Tim 3 Tesla System				
+ds005143	segmentation_type	Manual	Manual segmentation of the spinal cord			
+ds005143	institution	Max Planck Institute for Human Cognitive and Brain Sciences				
+ds005143	age	N/A		True		
+ds005143	institution	Northwestern University				
+ds005143	institution_id	nw				
+ds005143	institution_id	ouhsc				
+ds005143	moco_software	SCT	Spinal Cord Toolbox			
+ds005143	manufacturer	Siemens				
+ds005143	manufacturers_model_name	Signa Premier 3 Tesla System				
+ds005143	institution_id	stanford				
+ds005143	institution	Stanford University				
+ds005143	institution_id	unf				
+ds005143	institution	University Medical Center Hamburg-Eppendorf				
+ds005143	institution	University of Oklahoma				
+ds005143	institution_id	Zurich				
+ds005166	AS	0	No			
+ds005166	AXCPT	0	No			
+ds005166	CALM_IT	0	No			
+ds005166	clinical_scores	0	No			
+ds005166	Flanker	0	No			
+ds005166	fMRI_data	0				
+ds005166	SST	0	No			
+ds005166	ethnicity	0.0				
+ds005166	AS	1	Yes			
+ds005166	AXCPT	1	Yes			
+ds005166	CALM_IT	1	Yes			
+ds005166	clinical_scores	1	Yes			
+ds005166	Flanker	1	Yes			
+ds005166	fMRI_data	1				
+ds005166	SST	1	Yes			
+ds005166	ethnicity	1.0				
+ds005166	highest_education	1.0				
+ds005166	ethnicity	2.0				
+ds005166	highest_education	2.0				
+ds005166	highest_education	3.0				
+ds005166	income	3.0				
+ds005166	income	4.0				
+ds005166	highest_education	5.0				
+ds005166	income	5.0				
+ds005166	income	7.0				
+ds005166	income	8.0				
+ds005166	income	9.0				
+ds005166	income	99.0				
+ds005166	race	American Indian/Alaska Native				
+ds005166	race	Asian	A person having origins in any of the original people of the Far East, Southeast Asia, or the Indian subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.			
+ds005166	race	Black or African American	A person having origins in an of the black racial groups of Africa.  Terms such as Haitian or Negro can be used in addition to Black or African American.			
+ds005166	sex	F	Female		snomed:248152002	Female
+ds005166	sex	M	Male		snomed:248153007	Male
+ds005166	race	More than One Race	A person who is of more than one race.			
+ds005166	ethnicity	n/a		True		
+ds005166	highest_education	n/a		True		
+ds005166	income	n/a		True		
+ds005166	race	n/a		True		
+ds005166	race	Other				
+ds005166	race	Unknown	Race Unknown			
+ds005166	race	White or Caucasian	A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.			
+ds005237	Site	1				
+ds005237	Site	2				
+ds005237	sex	F			snomed:248152002	Female
+ds005237	Group	GenPop				
+ds005237	species	homo sapiens				
+ds005237	sex	M			snomed:248153007	Male
+ds005237	sex	O				
+ds005237	Group	Patient				
+ds005270	dwi	0				
+ds005270	perf	0				
+ds005270	rest	0				
+ds005270	tsw	0				
+ds005270	dwi	1				
+ds005270	gng	1				
+ds005270	nbk	1				
+ds005270	perf	1				
+ds005270	rest	1				
+ds005270	t1w	1				
+ds005270	t2w	1				
+ds005270	tsw	1				
+ds005270	sex	f	female		snomed:248152002	Female
+ds005270	sex	m	male		snomed:248153007	Male
+ds005280	Gender	F	Physiological female		snomed:248152002	Female
+ds005280	Gender	M	Physiological male		snomed:248153007	Male
+ds005292	Gender	F	Physiological female		snomed:248152002	Female
+ds005292	Gender	M	Physiological male		snomed:248153007	Male
+ds005305	Inclusion	0				
+ds005305	Inclusion	1				
+ds005305	EducationLevel	12				
+ds005305	EducationLevel	13				
+ds005305	EducationLevel	14				
+ds005305	EducationLevel	15				
+ds005305	EducationLevel	16				
+ds005305	EducationLevel	17				
+ds005305	EducationLevel	18				
+ds005305	EducationLevel	19				
+ds005305	EducationLevel	20				
+ds005305	NativeLanguage	french	Of french origin			
+ds005305	Handedness	left-handed				
+ds005305	Gender	man	Biological male		snomed:248153007	Male
+ds005305	NativeLanguage	other	Not of french origin			
+ds005305	Handedness	right-handed				
+ds005305	Gender	woman	Biological female		snomed:248152002	Female
+ds005366	handedness	A	Ambidextrous			
+ds005366	sex	F	female		snomed:248152002	Female
+ds005366	participant_type	healthy	Healthy volunteer			
+ds005366	handedness	L	Left			
+ds005366	sex	M	male		snomed:248153007	Male
+ds005366	participant_type	patient	Participant with neurological condition that led for hospital admission and data acquisition			
+ds005366	handedness	R	Right			
+ds005385	late_ses2	0				
+ds005385	late_ses2	1				
+ds005385	late_ses2	136				
+ds005385	late_ses2	19				
+ds005385	late_ses2	2				
+ds005385	late_ses2	3				
+ds005385	late_ses2	5				
+ds005385	sex	F	female		snomed:248152002	Female
+ds005385	handedness	left	Left handed (LQ <= 0)			
+ds005385	sex	M	male		snomed:248153007	Male
+ds005385	handedness	n/a		True		
+ds005385	late_ses2	n/a		True		
+ds005385	session2	no				
+ds005385	handedness	right	Right handed (LQ > 0)			
+ds005385	session1	yes				
+ds005385	session2	yes				
+ds005398	Engel_Class1	0	no			
+ds005398	methods	0	SEEG			
+ds005398	resection	0	no			
+ds005398	sex	0	female		snomed:248152002	Female
+ds005398	Engel_Class1	1	yes			
+ds005398	methods	1	Grid			
+ds005398	pathology	1	HS			
+ds005398	resection	1	yes			
+ds005398	sex	1	male		snomed:248153007	Male
+ds005398	sampling_frequency	1000				
+ds005398	pathology	2	FCD			
+ds005398	sampling_frequency	2000				
+ds005398	pathology	3	Tumor			
+ds005398	pathology	4	Others			
+ds005398	Engel_Class1	n/a		True		
+ds005398	pathology	n/a		True		
+ds005449	sex	female	female		snomed:248152002	Female
+ds005449	sex	male	male		snomed:248153007	Male
+ds005449	sex	n/a		True		
+ds005460	car	0	Once a year or several times a year			
+ds005460	CCC	0	Not at all concerned			
+ds005460	driver	0	Yes			
+ds005460	politics1	0	No			
+ds005460	politics2	0	No			
+ds005460	residence	0	Big city			
+ds005460	SES	0	Living comfortably on present income			
+ds005460	sex	0	Female		snomed:248152002	Female
+ds005460	actions	1				
+ds005460	car	1	Once a month or several times a month			
+ds005460	CCC	1	Not very concerned			
+ds005460	driver	1	No			
+ds005460	PCAE_i	1				
+ds005460	politics1	1	Yes			
+ds005460	politics2	1	Yes			
+ds005460	residence	1	Suburbs of a big city			
+ds005460	SES	1	Coping on present income			
+ds005460	sex	1	Male		snomed:248153007	Male
+ds005460	age	19				
+ds005460	actions	2				
+ds005460	car	2	Once a week or several times a week			
+ds005460	CCC	2	Somewhat concerned			
+ds005460	lifestyle	2				
+ds005460	PCAE_i	2				
+ds005460	residence	2	Small city			
+ds005460	SES	2	Finding it difficult on present income			
+ds005460	age	20				
+ds005460	age	21				
+ds005460	age	22				
+ds005460	age	23				
+ds005460	age	24				
+ds005460	age	25				
+ds005460	age	26				
+ds005460	actions	3				
+ds005460	car	3	Every day			
+ds005460	CCC	3	Very concerned			
+ds005460	education	3	Vocational			
+ds005460	lifestyle	3				
+ds005460	PCAE_c	3				
+ds005460	PCAE_i	3				
+ds005460	residence	3	Country village			
+ds005460	actions	4				
+ds005460	CCC	4	Extremely concerned			
+ds005460	education	4	Upper secondary			
+ds005460	lifestyle	4				
+ds005460	PCAE_c	4				
+ds005460	PCAE_i	4				
+ds005460	residence	4	A farm or home in the countryside			
+ds005460	actions	5				
+ds005460	education	5	Bachelor's degree or engineering degree			
+ds005460	lifestyle	5				
+ds005460	PCAE_c	5				
+ds005460	PCAE_i	5				
+ds005460	education	6	Master's degree or medical degree			
+ds005460	PCAE_c	6				
+ds005460	PCAE_i	6				
+ds005460	PCAE_c	7				
+ds005460	PCAE_i	7				
+ds005460	PCAE_c	8				
+ds005460	PCAE_i	8				
+ds005460	condition	ANG	Anger			
+ds005460	condition	HOP	Hope			
+ds005460	politics2	n/a		True		
+ds005460	condition	NEU	Neutral			
+ds005498	Current Alcohol Use	0				
+ds005498	Current Drug Use	0				
+ds005498	Current GAD	0				
+ds005498	Current MDD	0				
+ds005498	Current PTSD Diagnosis	0				
+ds005498	Diagnosis Other Misc	0				
+ds005498	L-aMFG Scan ( Minus32x42x34)	0				
+ds005498	L-FP Scan (Minus24x60xMinus2)	0				
+ds005498	L-pMFG Scan (Minus38x22x48)	0				
+ds005498	Lifetime GAD	0				
+ds005498	Lifetime MDD	0				
+ds005498	Lifetime PTSD Diagnosis	0				
+ds005498	No Diagnosis	0				
+ds005498	OCD	0				
+ds005498	Other Phobias	0				
+ds005498	Panic Disorder	0				
+ds005498	Past Alcohol or Drug Use	0				
+ds005498	Positive Urine Tox Results	0				
+ds005498	R-aMFG Scan (30x50x26)	0				
+ds005498	R-FEF Scan (34x6x62)	0				
+ds005498	R-FP Scan (24x60xMinus2)	0				
+ds005498	R-IFJ Scan (50x10x28)	0				
+ds005498	R-IPL Scan (48xMinus54x46)	0				
+ds005498	R-M1 Scan (40xMinus18x64)	0				
+ds005498	R-pMFG Scan (46x26x38)	0				
+ds005498	R-preSMA Scan (6x2x70)	0				
+ds005498	Resting Scan	0				
+ds005498	Social Phobias	0				
+ds005498	Trauma Criterion A	0				
+ds005498	Current Alcohol Use	1				
+ds005498	Current Drug Use	1				
+ds005498	Current GAD	1				
+ds005498	Current MDD	1				
+ds005498	Current PTSD Diagnosis	1				
+ds005498	Diagnosis Other Misc	1				
+ds005498	Ethnicity	1				
+ds005498	Gender	1				
+ds005498	L-aMFG Scan ( Minus32x42x34)	1				
+ds005498	L-FP Scan (Minus24x60xMinus2)	1				
+ds005498	L-pMFG Scan (Minus38x22x48)	1				
+ds005498	Lifetime GAD	1				
+ds005498	Lifetime MDD	1				
+ds005498	Lifetime PTSD Diagnosis	1				
+ds005498	No Diagnosis	1				
+ds005498	OCD	1				
+ds005498	Other Phobias	1				
+ds005498	Panic Disorder	1				
+ds005498	Past Alcohol or Drug Use	1				
+ds005498	Positive Urine Tox Results	1				
+ds005498	R-aMFG Scan (30x50x26)	1				
+ds005498	R-FEF Scan (34x6x62)	1				
+ds005498	R-FP Scan (24x60xMinus2)	1				
+ds005498	R-IFJ Scan (50x10x28)	1				
+ds005498	R-IPL Scan (48xMinus54x46)	1				
+ds005498	R-M1 Scan (40xMinus18x64)	1				
+ds005498	R-pMFG Scan (46x26x38)	1				
+ds005498	R-preSMA Scan (6x2x70)	1				
+ds005498	Resting Scan	1				
+ds005498	Social Phobias	1				
+ds005498	Trauma Criterion A	1				
+ds005498	Ethnicity	2				
+ds005498	Gender	2				
+ds005498	Race	2				
+ds005498	Ethnicity	3				
+ds005498	Gender	3				
+ds005498	Race	3				
+ds005498	Race	4				
+ds005498	Race	5				
+ds005498	Race	6				
+ds005498	Race	7				
+ds005498	Race	8				
+ds005505	contrastChangeDetection_1	available				
+ds005505	contrastChangeDetection_2	available				
+ds005505	contrastChangeDetection_3	available				
+ds005505	DespicableMe	available				
+ds005505	DiaryOfAWimpyKid	available				
+ds005505	FunwithFractals	available				
+ds005505	RestingState	available				
+ds005505	seqLearning6target	available				
+ds005505	seqLearning8target	available				
+ds005505	surroundSupp_1	available				
+ds005505	surroundSupp_2	available				
+ds005505	symbolSearch	available				
+ds005505	ThePresent	available				
+ds005505	contrastChangeDetection_1	caution				
+ds005505	contrastChangeDetection_2	caution				
+ds005505	contrastChangeDetection_3	caution				
+ds005505	symbolSearch	caution				
+ds005505	sex	F	Female		snomed:248152002	Female
+ds005505	sex	M	Male		snomed:248153007	Male
+ds005505	full_pheno	No				
+ds005505	release_number	R1				
+ds005505	contrastChangeDetection_1	unavailable				
+ds005505	contrastChangeDetection_2	unavailable				
+ds005505	contrastChangeDetection_3	unavailable				
+ds005505	DespicableMe	unavailable				
+ds005505	DiaryOfAWimpyKid	unavailable				
+ds005505	FunwithFractals	unavailable				
+ds005505	seqLearning6target	unavailable				
+ds005505	seqLearning8target	unavailable				
+ds005505	surroundSupp_1	unavailable				
+ds005505	surroundSupp_2	unavailable				
+ds005505	symbolSearch	unavailable				
+ds005505	ThePresent	unavailable				
+ds005505	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005505	full_pheno	Yes				
+ds005506	contrastChangeDetection_1	available				
+ds005506	contrastChangeDetection_2	available				
+ds005506	contrastChangeDetection_3	available				
+ds005506	DespicableMe	available				
+ds005506	DiaryOfAWimpyKid	available				
+ds005506	FunwithFractals	available				
+ds005506	RestingState	available				
+ds005506	seqLearning6target	available				
+ds005506	seqLearning8target	available				
+ds005506	surroundSupp_1	available				
+ds005506	surroundSupp_2	available				
+ds005506	symbolSearch	available				
+ds005506	ThePresent	available				
+ds005506	contrastChangeDetection_1	caution				
+ds005506	contrastChangeDetection_2	caution				
+ds005506	contrastChangeDetection_3	caution				
+ds005506	DespicableMe	caution				
+ds005506	DiaryOfAWimpyKid	caution				
+ds005506	RestingState	caution				
+ds005506	surroundSupp_1	caution				
+ds005506	symbolSearch	caution				
+ds005506	sex	F	Female		snomed:248152002	Female
+ds005506	sex	M	Male		snomed:248153007	Male
+ds005506	full_pheno	No				
+ds005506	release_number	R2				
+ds005506	contrastChangeDetection_1	unavailable				
+ds005506	contrastChangeDetection_2	unavailable				
+ds005506	contrastChangeDetection_3	unavailable				
+ds005506	DespicableMe	unavailable				
+ds005506	DiaryOfAWimpyKid	unavailable				
+ds005506	FunwithFractals	unavailable				
+ds005506	seqLearning6target	unavailable				
+ds005506	seqLearning8target	unavailable				
+ds005506	surroundSupp_1	unavailable				
+ds005506	surroundSupp_2	unavailable				
+ds005506	symbolSearch	unavailable				
+ds005506	ThePresent	unavailable				
+ds005506	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005506	full_pheno	Yes				
+ds005507	contrastChangeDetection_1	available				
+ds005507	contrastChangeDetection_2	available				
+ds005507	contrastChangeDetection_3	available				
+ds005507	DespicableMe	available				
+ds005507	DiaryOfAWimpyKid	available				
+ds005507	FunwithFractals	available				
+ds005507	RestingState	available				
+ds005507	seqLearning6target	available				
+ds005507	seqLearning8target	available				
+ds005507	surroundSupp_1	available				
+ds005507	surroundSupp_2	available				
+ds005507	symbolSearch	available				
+ds005507	ThePresent	available				
+ds005507	contrastChangeDetection_1	caution				
+ds005507	contrastChangeDetection_2	caution				
+ds005507	contrastChangeDetection_3	caution				
+ds005507	DespicableMe	caution				
+ds005507	DiaryOfAWimpyKid	caution				
+ds005507	FunwithFractals	caution				
+ds005507	RestingState	caution				
+ds005507	seqLearning8target	caution				
+ds005507	surroundSupp_1	caution				
+ds005507	surroundSupp_2	caution				
+ds005507	symbolSearch	caution				
+ds005507	ThePresent	caution				
+ds005507	sex	F	Female		snomed:248152002	Female
+ds005507	sex	M	Male		snomed:248153007	Male
+ds005507	full_pheno	No				
+ds005507	release_number	R3				
+ds005507	contrastChangeDetection_1	unavailable				
+ds005507	contrastChangeDetection_2	unavailable				
+ds005507	contrastChangeDetection_3	unavailable				
+ds005507	DespicableMe	unavailable				
+ds005507	DiaryOfAWimpyKid	unavailable				
+ds005507	FunwithFractals	unavailable				
+ds005507	seqLearning6target	unavailable				
+ds005507	seqLearning8target	unavailable				
+ds005507	surroundSupp_1	unavailable				
+ds005507	surroundSupp_2	unavailable				
+ds005507	symbolSearch	unavailable				
+ds005507	ThePresent	unavailable				
+ds005507	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005507	full_pheno	Yes				
+ds005508	contrastChangeDetection_1	available				
+ds005508	contrastChangeDetection_2	available				
+ds005508	contrastChangeDetection_3	available				
+ds005508	DespicableMe	available				
+ds005508	DiaryOfAWimpyKid	available				
+ds005508	FunwithFractals	available				
+ds005508	RestingState	available				
+ds005508	seqLearning6target	available				
+ds005508	seqLearning8target	available				
+ds005508	surroundSupp_1	available				
+ds005508	surroundSupp_2	available				
+ds005508	symbolSearch	available				
+ds005508	ThePresent	available				
+ds005508	contrastChangeDetection_1	caution				
+ds005508	contrastChangeDetection_2	caution				
+ds005508	contrastChangeDetection_3	caution				
+ds005508	DespicableMe	caution				
+ds005508	DiaryOfAWimpyKid	caution				
+ds005508	surroundSupp_1	caution				
+ds005508	surroundSupp_2	caution				
+ds005508	symbolSearch	caution				
+ds005508	ThePresent	caution				
+ds005508	sex	F	Female		snomed:248152002	Female
+ds005508	sex	M	Male		snomed:248153007	Male
+ds005508	full_pheno	No				
+ds005508	release_number	R4				
+ds005508	contrastChangeDetection_1	unavailable				
+ds005508	contrastChangeDetection_2	unavailable				
+ds005508	contrastChangeDetection_3	unavailable				
+ds005508	DespicableMe	unavailable				
+ds005508	DiaryOfAWimpyKid	unavailable				
+ds005508	FunwithFractals	unavailable				
+ds005508	RestingState	unavailable				
+ds005508	seqLearning6target	unavailable				
+ds005508	seqLearning8target	unavailable				
+ds005508	surroundSupp_1	unavailable				
+ds005508	surroundSupp_2	unavailable				
+ds005508	symbolSearch	unavailable				
+ds005508	ThePresent	unavailable				
+ds005508	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005508	full_pheno	Yes				
+ds005509	contrastChangeDetection_1	available				
+ds005509	contrastChangeDetection_2	available				
+ds005509	contrastChangeDetection_3	available				
+ds005509	DespicableMe	available				
+ds005509	DiaryOfAWimpyKid	available				
+ds005509	FunwithFractals	available				
+ds005509	RestingState	available				
+ds005509	seqLearning6target	available				
+ds005509	seqLearning8target	available				
+ds005509	surroundSupp_1	available				
+ds005509	surroundSupp_2	available				
+ds005509	symbolSearch	available				
+ds005509	ThePresent	available				
+ds005509	contrastChangeDetection_1	caution				
+ds005509	contrastChangeDetection_2	caution				
+ds005509	contrastChangeDetection_3	caution				
+ds005509	DiaryOfAWimpyKid	caution				
+ds005509	FunwithFractals	caution				
+ds005509	seqLearning8target	caution				
+ds005509	surroundSupp_1	caution				
+ds005509	surroundSupp_2	caution				
+ds005509	symbolSearch	caution				
+ds005509	ThePresent	caution				
+ds005509	sex	F	Female		snomed:248152002	Female
+ds005509	sex	M	Male		snomed:248153007	Male
+ds005509	full_pheno	No				
+ds005509	release_number	R5				
+ds005509	contrastChangeDetection_1	unavailable				
+ds005509	contrastChangeDetection_2	unavailable				
+ds005509	contrastChangeDetection_3	unavailable				
+ds005509	DespicableMe	unavailable				
+ds005509	DiaryOfAWimpyKid	unavailable				
+ds005509	FunwithFractals	unavailable				
+ds005509	RestingState	unavailable				
+ds005509	seqLearning6target	unavailable				
+ds005509	seqLearning8target	unavailable				
+ds005509	surroundSupp_1	unavailable				
+ds005509	surroundSupp_2	unavailable				
+ds005509	symbolSearch	unavailable				
+ds005509	ThePresent	unavailable				
+ds005509	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005509	full_pheno	Yes				
+ds005510	contrastChangeDetection_1	available				
+ds005510	contrastChangeDetection_2	available				
+ds005510	contrastChangeDetection_3	available				
+ds005510	DespicableMe	available				
+ds005510	DiaryOfAWimpyKid	available				
+ds005510	FunwithFractals	available				
+ds005510	RestingState	available				
+ds005510	seqLearning6target	available				
+ds005510	seqLearning8target	available				
+ds005510	surroundSupp_1	available				
+ds005510	surroundSupp_2	available				
+ds005510	symbolSearch	available				
+ds005510	ThePresent	available				
+ds005510	contrastChangeDetection_2	caution				
+ds005510	contrastChangeDetection_3	caution				
+ds005510	RestingState	caution				
+ds005510	surroundSupp_1	caution				
+ds005510	symbolSearch	caution				
+ds005510	ThePresent	caution				
+ds005510	sex	F	Female		snomed:248152002	Female
+ds005510	sex	M	Male		snomed:248153007	Male
+ds005510	full_pheno	No				
+ds005510	release_number	R6				
+ds005510	contrastChangeDetection_1	unavailable				
+ds005510	contrastChangeDetection_2	unavailable				
+ds005510	contrastChangeDetection_3	unavailable				
+ds005510	DespicableMe	unavailable				
+ds005510	DiaryOfAWimpyKid	unavailable				
+ds005510	FunwithFractals	unavailable				
+ds005510	seqLearning6target	unavailable				
+ds005510	seqLearning8target	unavailable				
+ds005510	surroundSupp_1	unavailable				
+ds005510	surroundSupp_2	unavailable				
+ds005510	symbolSearch	unavailable				
+ds005510	ThePresent	unavailable				
+ds005510	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005510	full_pheno	Yes				
+ds005511	contrastChangeDetection_1	available				
+ds005511	contrastChangeDetection_2	available				
+ds005511	contrastChangeDetection_3	available				
+ds005511	DespicableMe	available				
+ds005511	DiaryOfAWimpyKid	available				
+ds005511	FunwithFractals	available				
+ds005511	RestingState	available				
+ds005511	seqLearning6target	available				
+ds005511	seqLearning8target	available				
+ds005511	surroundSupp_1	available				
+ds005511	surroundSupp_2	available				
+ds005511	symbolSearch	available				
+ds005511	ThePresent	available				
+ds005511	contrastChangeDetection_1	caution				
+ds005511	contrastChangeDetection_2	caution				
+ds005511	contrastChangeDetection_3	caution				
+ds005511	DespicableMe	caution				
+ds005511	DiaryOfAWimpyKid	caution				
+ds005511	FunwithFractals	caution				
+ds005511	surroundSupp_1	caution				
+ds005511	surroundSupp_2	caution				
+ds005511	symbolSearch	caution				
+ds005511	ThePresent	caution				
+ds005511	sex	F	Female		snomed:248152002	Female
+ds005511	sex	M	Male		snomed:248153007	Male
+ds005511	full_pheno	No				
+ds005511	release_number	R7				
+ds005511	contrastChangeDetection_1	unavailable				
+ds005511	contrastChangeDetection_2	unavailable				
+ds005511	contrastChangeDetection_3	unavailable				
+ds005511	DespicableMe	unavailable				
+ds005511	DiaryOfAWimpyKid	unavailable				
+ds005511	FunwithFractals	unavailable				
+ds005511	RestingState	unavailable				
+ds005511	seqLearning6target	unavailable				
+ds005511	seqLearning8target	unavailable				
+ds005511	surroundSupp_1	unavailable				
+ds005511	surroundSupp_2	unavailable				
+ds005511	symbolSearch	unavailable				
+ds005511	ThePresent	unavailable				
+ds005511	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005511	full_pheno	Yes				
+ds005512	contrastChangeDetection_1	available				
+ds005512	contrastChangeDetection_2	available				
+ds005512	contrastChangeDetection_3	available				
+ds005512	DespicableMe	available				
+ds005512	DiaryOfAWimpyKid	available				
+ds005512	FunwithFractals	available				
+ds005512	RestingState	available				
+ds005512	seqLearning6target	available				
+ds005512	seqLearning8target	available				
+ds005512	surroundSupp_1	available				
+ds005512	surroundSupp_2	available				
+ds005512	symbolSearch	available				
+ds005512	ThePresent	available				
+ds005512	contrastChangeDetection_1	caution				
+ds005512	contrastChangeDetection_2	caution				
+ds005512	contrastChangeDetection_3	caution				
+ds005512	DespicableMe	caution				
+ds005512	DiaryOfAWimpyKid	caution				
+ds005512	FunwithFractals	caution				
+ds005512	surroundSupp_1	caution				
+ds005512	surroundSupp_2	caution				
+ds005512	symbolSearch	caution				
+ds005512	ThePresent	caution				
+ds005512	sex	F	Female		snomed:248152002	Female
+ds005512	sex	M	Male		snomed:248153007	Male
+ds005512	full_pheno	No				
+ds005512	release_number	R8				
+ds005512	contrastChangeDetection_1	unavailable				
+ds005512	contrastChangeDetection_2	unavailable				
+ds005512	contrastChangeDetection_3	unavailable				
+ds005512	DespicableMe	unavailable				
+ds005512	DiaryOfAWimpyKid	unavailable				
+ds005512	FunwithFractals	unavailable				
+ds005512	RestingState	unavailable				
+ds005512	seqLearning6target	unavailable				
+ds005512	seqLearning8target	unavailable				
+ds005512	surroundSupp_1	unavailable				
+ds005512	surroundSupp_2	unavailable				
+ds005512	symbolSearch	unavailable				
+ds005512	ThePresent	unavailable				
+ds005512	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005512	full_pheno	Yes				
+ds005514	contrastChangeDetection_1	available				
+ds005514	contrastChangeDetection_2	available				
+ds005514	contrastChangeDetection_3	available				
+ds005514	DespicableMe	available				
+ds005514	DiaryOfAWimpyKid	available				
+ds005514	FunwithFractals	available				
+ds005514	RestingState	available				
+ds005514	seqLearning6target	available				
+ds005514	seqLearning8target	available				
+ds005514	surroundSupp_1	available				
+ds005514	surroundSupp_2	available				
+ds005514	symbolSearch	available				
+ds005514	ThePresent	available				
+ds005514	contrastChangeDetection_1	caution				
+ds005514	contrastChangeDetection_2	caution				
+ds005514	contrastChangeDetection_3	caution				
+ds005514	DespicableMe	caution				
+ds005514	DiaryOfAWimpyKid	caution				
+ds005514	FunwithFractals	caution				
+ds005514	seqLearning8target	caution				
+ds005514	surroundSupp_1	caution				
+ds005514	surroundSupp_2	caution				
+ds005514	symbolSearch	caution				
+ds005514	ThePresent	caution				
+ds005514	sex	F	Female		snomed:248152002	Female
+ds005514	sex	M	Male		snomed:248153007	Male
+ds005514	full_pheno	No				
+ds005514	release_number	R9				
+ds005514	contrastChangeDetection_1	unavailable				
+ds005514	contrastChangeDetection_2	unavailable				
+ds005514	contrastChangeDetection_3	unavailable				
+ds005514	DespicableMe	unavailable				
+ds005514	DiaryOfAWimpyKid	unavailable				
+ds005514	FunwithFractals	unavailable				
+ds005514	RestingState	unavailable				
+ds005514	seqLearning6target	unavailable				
+ds005514	seqLearning8target	unavailable				
+ds005514	surroundSupp_1	unavailable				
+ds005514	surroundSupp_2	unavailable				
+ds005514	symbolSearch	unavailable				
+ds005514	ThePresent	unavailable				
+ds005514	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005514	full_pheno	Yes				
+ds005515	contrastChangeDetection_1	available				
+ds005515	contrastChangeDetection_2	available				
+ds005515	contrastChangeDetection_3	available				
+ds005515	DespicableMe	available				
+ds005515	DiaryOfAWimpyKid	available				
+ds005515	FunwithFractals	available				
+ds005515	RestingState	available				
+ds005515	surroundSupp_1	available				
+ds005515	surroundSupp_2	available				
+ds005515	symbolSearch	available				
+ds005515	ThePresent	available				
+ds005515	contrastChangeDetection_1	caution				
+ds005515	contrastChangeDetection_2	caution				
+ds005515	contrastChangeDetection_3	caution				
+ds005515	DespicableMe	caution				
+ds005515	DiaryOfAWimpyKid	caution				
+ds005515	FunwithFractals	caution				
+ds005515	RestingState	caution				
+ds005515	surroundSupp_1	caution				
+ds005515	surroundSupp_2	caution				
+ds005515	symbolSearch	caution				
+ds005515	ThePresent	caution				
+ds005515	sex	F	Female		snomed:248152002	Female
+ds005515	sex	M	Male		snomed:248153007	Male
+ds005515	full_pheno	No				
+ds005515	release_number	R10				
+ds005515	contrastChangeDetection_1	unavailable				
+ds005515	contrastChangeDetection_2	unavailable				
+ds005515	contrastChangeDetection_3	unavailable				
+ds005515	DespicableMe	unavailable				
+ds005515	DiaryOfAWimpyKid	unavailable				
+ds005515	FunwithFractals	unavailable				
+ds005515	RestingState	unavailable				
+ds005515	seqLearning6target	unavailable				
+ds005515	seqLearning8target	unavailable				
+ds005515	surroundSupp_1	unavailable				
+ds005515	surroundSupp_2	unavailable				
+ds005515	symbolSearch	unavailable				
+ds005515	ThePresent	unavailable				
+ds005515	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005515	full_pheno	Yes				
+ds005516	contrastChangeDetection_1	available				
+ds005516	contrastChangeDetection_2	available				
+ds005516	contrastChangeDetection_3	available				
+ds005516	DespicableMe	available				
+ds005516	DiaryOfAWimpyKid	available				
+ds005516	FunwithFractals	available				
+ds005516	RestingState	available				
+ds005516	surroundSupp_1	available				
+ds005516	surroundSupp_2	available				
+ds005516	symbolSearch	available				
+ds005516	ThePresent	available				
+ds005516	contrastChangeDetection_1	caution				
+ds005516	contrastChangeDetection_2	caution				
+ds005516	contrastChangeDetection_3	caution				
+ds005516	DespicableMe	caution				
+ds005516	DiaryOfAWimpyKid	caution				
+ds005516	FunwithFractals	caution				
+ds005516	RestingState	caution				
+ds005516	surroundSupp_1	caution				
+ds005516	surroundSupp_2	caution				
+ds005516	symbolSearch	caution				
+ds005516	ThePresent	caution				
+ds005516	sex	F	Female		snomed:248152002	Female
+ds005516	sex	M	Male		snomed:248153007	Male
+ds005516	full_pheno	No				
+ds005516	release_number	R11				
+ds005516	contrastChangeDetection_1	unavailable				
+ds005516	contrastChangeDetection_2	unavailable				
+ds005516	contrastChangeDetection_3	unavailable				
+ds005516	DespicableMe	unavailable				
+ds005516	DiaryOfAWimpyKid	unavailable				
+ds005516	FunwithFractals	unavailable				
+ds005516	RestingState	unavailable				
+ds005516	seqLearning6target	unavailable				
+ds005516	seqLearning8target	unavailable				
+ds005516	surroundSupp_1	unavailable				
+ds005516	surroundSupp_2	unavailable				
+ds005516	symbolSearch	unavailable				
+ds005516	ThePresent	unavailable				
+ds005516	commercial_use	Yes	Subject gave consent to commercial use of data			
+ds005516	full_pheno	Yes				
+ds005534	Rat_age	0-2				
+ds005534	Anesthesia_maintenance_dose	0.1				
+ds005534	Anesthesia_maintenance_dose	0.25 / 0.015				
+ds005534	Anesthesia_maintenance_dose	0.37 / 0.1				
+ds005534	Func_TR	1.0				
+ds005534	Anesthesia_maintenance_dose	1.3				
+ds005534	Anesthesia_maintenance_dose	1.35 / 0.05				
+ds005534	Func_TR	1.5				
+ds005534	MRI_field_strength	14.0				
+ds005534	MRI_field_strength	17.2				
+ds005534	Rat_age	2-4				
+ds005534	Func_TR	2.0				
+ds005534	Anesthesia_maintenance_dose	26.5 / 2				
+ds005534	Anesthesia_maintenance_dose	26.5 / 2				
+ds005534	Func_TR	3.0				
+ds005534	Anesthesia_maintenance_dose	30				
+ds005534	Func_FA	30				
+ds005534	Anat_sequence	3D-FLASH				
+ds005534	Rat_age	4-6				
+ds005534	Func_TR	4.0				
+ds005534	MRI_field_strength	4.7				
+ds005534	Func_FA	50				
+ds005534	Rat_age	6-8				
+ds005534	Func_FA	60				
+ds005534	Func_FA	62				
+ds005534	Func_FA	65				
+ds005534	MRI_field_strength	7.0				
+ds005534	Anesthesia_maintenance_dose	80 (as an initial bolus), 26.7 (constant infusion)				
+ds005534	MRI_field_strength	9.4				
+ds005534	Func_FA	90				
+ds005534	Func_FA	90º-180º				
+ds005534	Anesthesia_maintenance	alpha-chloralose				
+ds005534	Anesthesia_maintenance	alpha-chloralose/pancuronium				
+ds005534	MRI_vendor	Bruker				
+ds005534	Func_sensory_stimulation	electric				
+ds005534	Func_sequence	EPI				
+ds005534	Func_sensory_system	eye				
+ds005534	Rat_sex	female				
+ds005534	Rat_strain	Fischer 344				
+ds005534	Func_sensory_system	forepaw				
+ds005534	Anesthesia_breathing_assistance	free breathing (hyperoxia state -95%o2)				
+ds005534	Anesthesia_breathing_assistance	free-breathing				
+ds005534	Anat_sequence	FSE				
+ds005534	Func_sequence	GE-EPI				
+ds005534	Func_sensory_system	hindpaw				
+ds005534	Anesthesia_induction	isoflurane				
+ds005534	Anesthesia_maintenance	isoflurane				
+ds005534	Anesthesia_induction	isoflurane / alpha-chloralose				
+ds005534	Anesthesia_induction	isoflurane / medetomidine				
+ds005534	Anesthesia_maintenance	isoflurane / medetomidine				
+ds005534	Anesthesia_induction	ketamine / xylazine				
+ds005534	Func_sensory_stimulation	light				
+ds005534	Rat_strain	Long Evans				
+ds005534	Rat_sex	male				
+ds005534	Func_sensory_stimulation	mechanical deflection				
+ds005534	Anesthesia_maintenance	medetomidine				
+ds005534	Anat_sequence	MSME				
+ds005534	Anesthesia_breathing_assistance	n/a		True		
+ds005534	Anesthesia_maintenance_dose	n/a		True		
+ds005534	Func_FA	n/a		True		
+ds005534	Rat_age	n/a		True		
+ds005534	Func_sensory_stimulation	optogenetic				
+ds005534	Anat_sequence	RARE				
+ds005534	Func_sequence	SE-EPI				
+ds005534	Rat_strain	Sprague Dawley				
+ds005534	Anat_contrast	T1				
+ds005534	Anat_contrast	T2				
+ds005534	Anat_contrast	T3				
+ds005534	Func_sensory_stimulation	thermal				
+ds005534	Anat_sequence	turboRARE				
+ds005534	Anat_sequence	TurboRARE				
+ds005534	Anat_sequence	turboRARE				
+ds005534	MRI_vendor	Varian/Agilent				
+ds005534	Anesthesia_breathing_assistance	ventilated				
+ds005534	Func_sensory_system	visual				
+ds005534	Func_sensory_system	whiskers				
+ds005534	Rat_strain	Wistar				
+ds005555	sex	F	Female		snomed:248152002	Female
+ds005555	sex	M	Male		snomed:248153007	Male
+ds005595	sex	F	Female		snomed:248152002	Female
+ds005595	sex	M	Male		snomed:248153007	Male
+ds005752	ace	0	Not Present			
+ds005752	acute_care	0	Not Present			
+ds005752	audit	0	Not Present			
+ds005752	bai	0	Not Present			
+ds005752	bdi	0	Not Present			
+ds005752	big_five_personality	0	Not Present			
+ds005752	blood_chemistry	0	Not Present			
+ds005752	btq	0	Not Present			
+ds005752	cbc_with_differential	0	Not Present			
+ds005752	clinical_variable_form	0	Not Present			
+ds005752	demographics	0	Not Present			
+ds005752	drug_use	0	Not Present			
+ds005752	ehi	0	Not Present			
+ds005752	eligibility	0	Ineligible			
+ds005752	figs	0	Not Present			
+ds005752	gad7	0	Not Present			
+ds005752	health_history_checklist_year_1	0	Not Present			
+ds005752	health_history_questions	0	Not Present			
+ds005752	health_rating	0	Not Present			
+ds005752	hematology	0	Not Present			
+ds005752	hepatic	0	Not Present			
+ds005752	infectious_disease	0	Not Present			
+ds005752	kbit2_vas	0	Not Present			
+ds005752	lipid	0	Not Present			
+ds005752	MEG	0	Not Present			
+ds005752	mental_health_questions	0	Not Present			
+ds005752	MRI	0	Not Present			
+ds005752	mri_variables	0	Not Present			
+ds005752	nih_toolbox	0	Not Present			
+ds005752	other	0	Not Present			
+ds005752	perceived_health_rating	0	Not Present			
+ds005752	phq9	0	Not Present			
+ds005752	release_1	0	Not Present			
+ds005752	release_2	0	Not Present			
+ds005752	satisfaction	0	Not Present			
+ds005752	scid5	0	Not Present			
+ds005752	urinalysis	0	Not Present			
+ds005752	urine_chemistry	0	Not Present			
+ds005752	vitamin_levels	0	Not Present			
+ds005752	whodas	0	Not Present			
+ds005752	ace	1	Present			
+ds005752	acute_care	1	Present			
+ds005752	audit	1	Present			
+ds005752	bai	1	Present			
+ds005752	bdi	1	Present			
+ds005752	big_five_personality	1	Present			
+ds005752	blood_chemistry	1	Present			
+ds005752	btq	1	Present			
+ds005752	cbc_with_differential	1	Present			
+ds005752	clinical_variable_form	1	Present			
+ds005752	demographics	1	Present			
+ds005752	drug_use	1	Present			
+ds005752	ehi	1	Present			
+ds005752	eligibility	1	Eligible			
+ds005752	figs	1	Present			
+ds005752	gad7	1	Present			
+ds005752	health_history_checklist_year_1	1	Present			
+ds005752	health_history_questions	1	Present			
+ds005752	health_rating	1	Present			
+ds005752	hematology	1	Present			
+ds005752	hepatic	1	Present			
+ds005752	infectious_disease	1	Present			
+ds005752	kbit2_vas	1	Present			
+ds005752	lipid	1	Present			
+ds005752	MEG	1	Present			
+ds005752	mental_health_questions	1	Present			
+ds005752	MRI	1	Present			
+ds005752	mri_variables	1	Present			
+ds005752	nih_toolbox	1	Present			
+ds005752	other	1	Present			
+ds005752	perceived_health_rating	1	Present			
+ds005752	phq9	1	Present			
+ds005752	release_1	1	Present			
+ds005752	release_2	1	Present			
+ds005752	satisfaction	1	Present			
+ds005752	scid5	1	Present			
+ds005752	urinalysis	1	Present			
+ds005752	urine_chemistry	1	Present			
+ds005752	vitamin_levels	1	Present			
+ds005752	whodas	1	Present			
+ds005752	handedness	ambidextrous	Ambidexterity (Laterality Quotient between -40 and 40)			
+ds005752	sex	female	Female		snomed:248152002	Female
+ds005752	handedness	left	Left-handedness (Laterality Quotient between -100 and -40)			
+ds005752	sex	male	Male		snomed:248153007	Male
+ds005752	handedness	n/a	No data available for a response.  The question was not presented or asked to the participant.	True		
+ds005752	sex	n/a	No response, meaning there was no response from participant though a response was possible. Question may have been skipped over by participant.	True		
+ds005752	handedness	right	Right-handedness (Laterality Quotient between 40 and 100)			
+ds005754	AS	0	No			
+ds005754	AXCPT	0	No			
+ds005754	ethnicity	0	Not Hispanic or Latino			
+ds005754	Flanker	0	No			
+ds005754	fmri_data	0	No			
+ds005754	highest_education	0	no response			
+ds005754	income	0	no response			
+ds005754	SST	0	No			
+ds005754	AS	1	Yes			
+ds005754	AXCPT	1	Yes			
+ds005754	behavioral_data	1	Yes			
+ds005754	clinical_scores	1	Yes			
+ds005754	ethnicity	1	Hispanic or Latino.  A person of Mexican, Puerto Rican, Cuban, South or Central American or other Spanish culture or origin, regardless of race.  The term, "Spanish origin," can be used in addition to "Hispanic or Latino."			
+ds005754	Flanker	1	Yes			
+ds005754	fmri_data	1	Yes			
+ds005754	highest_education	1	Graduate professional degree (Masters or above)			
+ds005754	income	1	Under $40000			
+ds005754	SST	1	Yes			
+ds005754	ethnicity	2	Check here if you do not wish to provide this infomation.			
+ds005754	highest_education	2	Standard college graduation			
+ds005754	income	2	$40000 - $89999			
+ds005754	highest_education	3	Partial college (1 yr. or more)			
+ds005754	income	3	$90000 - $179999			
+ds005754	highest_education	4	High school graduation			
+ds005754	income	4	Over $180000			
+ds005754	highest_education	5	Partial high school (grade 10 or 11)			
+ds005754	highest_education	6	Junior high school (7-9)			
+ds005754	highest_education	7	Less than 7 years of school			
+ds005754	income	99	Don't know			
+ds005754	race	AMERICAN INDIAN OR NATIVE ALASKAN				
+ds005754	race	ASIAN	A person having origins in any of the original people of the Far East, Southeast Asia, or the Indian subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.			
+ds005754	race	BLACK OR AFRICAN AMERICAN	A person having origins in an of the black racial groups of Africa.  Terms such as Haitian or Negro can be used in addition to Black or African American.			
+ds005754	sex	F	Female		snomed:248152002	Female
+ds005754	sex	M	Male		snomed:248153007	Male
+ds005754	race	MULTIPLE RACES	A person who is of more than one race.			
+ds005754	highest_education	n/a		True		
+ds005754	income	n/a		True		
+ds005754	race	OTHER				
+ds005754	race	UNKNOWN	Race Unknown			
+ds005754	race	WHITE	A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.			
+ds005851	sex	F	female		snomed:248152002	Female
+ds005851	sex	M	male		snomed:248153007	Male
+ds005851	scanner	quatro	quatro machine			
+ds005851	scanner	trio	trio machine			
+ds005863	Household_Members	1				
+ds005863	Adult4_Edu	1 or more years of college, no degree				
+ds005863	Highest_Edu	1 or more years of college, no degree				
+ds005863	Adult4_Edu	10th grade				
+ds005863	Adult4_Edu	1st, 2nd, 3rd, or 4th grade				
+ds005863	Household_Members	2				
+ds005863	Household_Members	3				
+ds005863	Household_Members	4				
+ds005863	CapSize	48				
+ds005863	Household_Members	5				
+ds005863	CapSize	50				
+ds005863	CapSize	52				
+ds005863	CapSize	54				
+ds005863	CapSize	56				
+ds005863	CapSize	58				
+ds005863	Adult4_Edu	5th or 6th grade				
+ds005863	Household_Members	6				
+ds005863	CapSize	60				
+ds005863	Household_Members	7				
+ds005863	Household_Members	8				
+ds005863	Adult4_Edu	9th grade				
+ds005863	fs4	almost every month				
+ds005863	Handedness	ambidextrous (i.e., both right and left)				
+ds005863	Highest_Adult_Edu	Associate degree				
+ds005863	Highest_Edu	associate degree (2-year college)				
+ds005863	Highest_Adult_Edu	Bachelor's degree				
+ds005863	Adult4_Edu	bachelor's degree (for example: ba, bs)				
+ds005863	Highest_Edu	bachelor's degree (for example: ba, bs)				
+ds005863	Project	COCOA				
+ds005863	L1_recoded	English				
+ds005863	L2_recoded	English				
+ds005863	Adult1	father				
+ds005863	Adult2	father				
+ds005863	Gender	female			snomed:248152002	Female
+ds005863	EEG_Tasks	Flanker (FL), Visual Oddball (VO), Passive Auditory Oddball (TONE)				
+ds005863	EEG_Tasks	Flanker (FL), Visual Search (VS), Visual Oddball (VO)				
+ds005863	EEG_Tasks	Flanker (FL), Visual Search (VS), Visual Oddball (VO), Passive Auditory Oddball (TONE)				
+ds005863	Employed_Yes	full-time				
+ds005863	Adult2	grandparent				
+ds005863	Highest_Adult_Edu	High school diploma				
+ds005863	Adult4_Edu	high school graduate (diploma or ged equivalent)				
+ds005863	Highest_Edu	high school graduate (diploma or ged equivalent)				
+ds005863	LEARN_L1	Home				
+ds005863	LEARN_L2	Home				
+ds005863	Handedness	left				
+ds005863	Adult4_Edu	less than 1st grade				
+ds005863	Highest_Adult_Edu	Less than a high school diploma				
+ds005863	Gender	male			snomed:248153007	Male
+ds005863	Adult4_Edu	master's degree (for example: ma, ms, mba, mfa, msw)				
+ds005863	Highest_Edu	master's degree (for example: ma, ms, mba, mfa, msw)				
+ds005863	Adult1	mother				
+ds005863	Adult2	mother				
+ds005863	CapSize	NaN		True		
+ds005863	Household_Members	NaN		True		
+ds005863	asrs1	never				
+ds005863	asrs10	never				
+ds005863	asrs11	never				
+ds005863	asrs12	never				
+ds005863	asrs13	never				
+ds005863	asrs14	never				
+ds005863	asrs15	never				
+ds005863	asrs16	never				
+ds005863	asrs17	never				
+ds005863	asrs18	never				
+ds005863	asrs2	never				
+ds005863	asrs3	never				
+ds005863	asrs4	never				
+ds005863	asrs5	never				
+ds005863	asrs6	never				
+ds005863	asrs7	never				
+ds005863	asrs8	never				
+ds005863	asrs9	never				
+ds005863	fs1	never true				
+ds005863	fs2	never true				
+ds005863	Adult1_In_Household	no				
+ds005863	Adult2_In_Household	no				
+ds005863	Adult3_In_Household	no				
+ds005863	Adult4_In_Household	no				
+ds005863	Employed	no				
+ds005863	fs3	no				
+ds005863	fs5	no				
+ds005863	fs6	no				
+ds005863	hnc1a	no				
+ds005863	hnc1b	no				
+ds005863	hnc1c	no				
+ds005863	hnc1d	no				
+ds005863	hnc2a	no				
+ds005863	hnc2b	no				
+ds005863	hnc3	no				
+ds005863	Gender	non-binary (amab)				
+ds005863	L1_recoded	Non-English				
+ds005863	L2_recoded	Non-English				
+ds005863	Adult1	not usable; reported non-parent/legal guardian in current household				
+ds005863	Adult2	not usable; reported non-parent/legal guardian in current household				
+ds005863	asrs1	often				
+ds005863	asrs10	often				
+ds005863	asrs11	often				
+ds005863	asrs12	often				
+ds005863	asrs13	often				
+ds005863	asrs14	often				
+ds005863	asrs15	often				
+ds005863	asrs16	often				
+ds005863	asrs17	often				
+ds005863	asrs18	often				
+ds005863	asrs2	often				
+ds005863	asrs3	often				
+ds005863	asrs4	often				
+ds005863	asrs5	often				
+ds005863	asrs6	often				
+ds005863	asrs7	often				
+ds005863	asrs8	often				
+ds005863	asrs9	often				
+ds005863	fs1	often true				
+ds005863	fs2	often true				
+ds005863	fs4	only 1 to 2 months				
+ds005863	Adult1	parent				
+ds005863	Employed_Yes	part-time				
+ds005863	EEG_Tasks	Passive Auditory Oddball (TONE)				
+ds005863	EEG_Tasks	Passive Auditory Oddball (TONE), Visual Oddball (VO)				
+ds005863	Highest_Adult_Edu	Professional or graduate degree				
+ds005863	asrs1	rarely				
+ds005863	asrs10	rarely				
+ds005863	asrs11	rarely				
+ds005863	asrs12	rarely				
+ds005863	asrs13	rarely				
+ds005863	asrs14	rarely				
+ds005863	asrs15	rarely				
+ds005863	asrs16	rarely				
+ds005863	asrs17	rarely				
+ds005863	asrs18	rarely				
+ds005863	asrs2	rarely				
+ds005863	asrs3	rarely				
+ds005863	asrs4	rarely				
+ds005863	asrs5	rarely				
+ds005863	asrs6	rarely				
+ds005863	asrs7	rarely				
+ds005863	asrs8	rarely				
+ds005863	asrs9	rarely				
+ds005863	Handedness	right				
+ds005863	Project	SASA				
+ds005863	LEARN_L1	School				
+ds005863	LEARN_L2	School				
+ds005863	Adult2	sister				
+ds005863	Highest_Edu	some college credit, but less than 1 year				
+ds005863	Highest_Adult_Edu	Some college, no degree				
+ds005863	fs4	some months but not every month				
+ds005863	asrs1	sometimes				
+ds005863	asrs10	sometimes				
+ds005863	asrs11	sometimes				
+ds005863	asrs12	sometimes				
+ds005863	asrs13	sometimes				
+ds005863	asrs14	sometimes				
+ds005863	asrs15	sometimes				
+ds005863	asrs16	sometimes				
+ds005863	asrs17	sometimes				
+ds005863	asrs18	sometimes				
+ds005863	asrs2	sometimes				
+ds005863	asrs3	sometimes				
+ds005863	asrs4	sometimes				
+ds005863	asrs5	sometimes				
+ds005863	asrs6	sometimes				
+ds005863	asrs7	sometimes				
+ds005863	asrs8	sometimes				
+ds005863	asrs9	sometimes				
+ds005863	fs1	sometimes true				
+ds005863	fs2	sometimes true				
+ds005863	hnc4	somewhat safe				
+ds005863	hnc4	somewhat unsafe				
+ds005863	Adult2	step father				
+ds005863	Adult2	step-parent				
+ds005863	Adult2	stepparent				
+ds005863	Adult1	uncle (parental guardian)				
+ds005863	asrs1	very often				
+ds005863	asrs10	very often				
+ds005863	asrs11	very often				
+ds005863	asrs12	very often				
+ds005863	asrs13	very often				
+ds005863	asrs14	very often				
+ds005863	asrs15	very often				
+ds005863	asrs16	very often				
+ds005863	asrs17	very often				
+ds005863	asrs18	very often				
+ds005863	asrs2	very often				
+ds005863	asrs3	very often				
+ds005863	asrs4	very often				
+ds005863	asrs5	very often				
+ds005863	asrs6	very often				
+ds005863	asrs7	very often				
+ds005863	asrs8	very often				
+ds005863	asrs9	very often				
+ds005863	hnc4	very safe				
+ds005863	hnc4	very unsafe				
+ds005863	Adult1_In_Household	yes				
+ds005863	Adult2_In_Household	yes				
+ds005863	Adult3_In_Household	yes				
+ds005863	Adult4_In_Household	yes				
+ds005863	Employed	yes				
+ds005863	fs3	yes				
+ds005863	fs5	yes				
+ds005863	fs6	yes				
+ds005863	hnc1a	yes				
+ds005863	hnc1b	yes				
+ds005863	hnc1c	yes				
+ds005863	hnc1d	yes				
+ds005863	hnc2a	yes				
+ds005863	hnc2b	yes				
+ds005863	hnc3	yes				
+ds005863	Adult1_Other			True		
+ds005863	Adult2			True		
+ds005863	Adult2_In_Household			True		
+ds005863	Adult2_Other			True		
+ds005863	Adult3_In_Household			True		
+ds005863	Adult4_Edu			True		
+ds005863	Adult4_In_Household			True		
+ds005863	asrs1			True		
+ds005863	asrs10			True		
+ds005863	asrs11			True		
+ds005863	asrs12			True		
+ds005863	asrs13			True		
+ds005863	asrs14			True		
+ds005863	asrs15			True		
+ds005863	asrs16			True		
+ds005863	asrs17			True		
+ds005863	asrs18			True		
+ds005863	asrs2			True		
+ds005863	asrs3			True		
+ds005863	asrs4			True		
+ds005863	asrs5			True		
+ds005863	asrs6			True		
+ds005863	asrs7			True		
+ds005863	asrs8			True		
+ds005863	asrs9			True		
+ds005863	Employed_Yes			True		
+ds005863	fs1			True		
+ds005863	fs2			True		
+ds005863	fs3			True		
+ds005863	fs4			True		
+ds005863	fs5			True		
+ds005863	fs6			True		
+ds005863	hnc1a			True		
+ds005863	hnc1b			True		
+ds005863	hnc1c			True		
+ds005863	hnc1d			True		
+ds005863	hnc2a			True		
+ds005863	hnc2b			True		
+ds005863	hnc3			True		
+ds005863	hnc4			True		
+ds005863	L1_recoded			True		
+ds005863	L2_recoded			True		
+ds005863	LEARN_L1			True		
+ds005863	LEARN_L2			True		
+ds005863	Replaced_electrode			True		
+ds005873	sex	f	female		snomed:248152002	Female
+ds005873	sex	m	male		snomed:248153007	Male
+ds005896	Sex	F	Female		snomed:248152002	Female
+ds005896	Sex	M	Male		snomed:248153007	Male
+ds005901	Age	15				
+ds005901	Age	16				
+ds005901	Age	17				
+ds005901	Age	18				
+ds005901	Age	19				
+ds005901	Age	20				
+ds005901	Age	21				
+ds005901	Age	22				
+ds005901	Age	23				
+ds005901	Sex	F	Female		snomed:248152002	Female
+ds005901	Sex	M	Male		snomed:248153007	Male
+ds005901	Sex	O				
+ds006018	FlankerEEG	0				
+ds006018	PassiveAuditoryOddballEEG	0				
+ds006018	VisualOddballEEG	0				
+ds006018	VisualSearchEEG	0				
+ds006018	ADHD_binary	0.0				
+ds006018	asrs1_binary	0.0				
+ds006018	asrs2_binary	0.0				
+ds006018	asrs3_binary	0.0				
+ds006018	asrs4_binary	0.0				
+ds006018	asrs5_binary	0.0				
+ds006018	asrs6_binary	0.0				
+ds006018	NumBadChannels_AuditoryOddball	0.0				
+ds006018	NumBadChannels_Flanker	0.0				
+ds006018	NumBadChannels_VisualOddball	0.0				
+ds006018	NumBadChannels_VisualSearch	0.0				
+ds006018	FlankerEEG	1				
+ds006018	PassiveAuditoryOddballEEG	1				
+ds006018	VisualOddballEEG	1				
+ds006018	VisualSearchEEG	1				
+ds006018	ADHD_binary	1.0				
+ds006018	asrs1_binary	1.0				
+ds006018	asrs2_binary	1.0				
+ds006018	asrs3_binary	1.0				
+ds006018	asrs4_binary	1.0				
+ds006018	asrs5_binary	1.0				
+ds006018	asrs6_binary	1.0				
+ds006018	NumBadChannels_AuditoryOddball	1.0				
+ds006018	NumBadChannels_Flanker	1.0				
+ds006018	NumBadChannels_VisualOddball	1.0				
+ds006018	NumBadChannels_VisualSearch	1.0				
+ds006018	Age_Grouped	18 to 22				
+ds006018	NumBadChannels_AuditoryOddball	2.0				
+ds006018	NumBadChannels_Flanker	2.0				
+ds006018	NumBadChannels_VisualOddball	2.0				
+ds006018	NumBadChannels_VisualSearch	2.0				
+ds006018	Age_Grouped	23 to 26				
+ds006018	Age_Grouped	27 to 30				
+ds006018	NumBadChannels_Flanker	3.0				
+ds006018	CapSize	48				
+ds006018	CapSize	50				
+ds006018	CapSize	52				
+ds006018	CapSize	54				
+ds006018	CapSize	56				
+ds006018	CapSize	58				
+ds006018	CapSize	60				
+ds006018	fs4	almost every month				
+ds006018	Handedness	ambidextrous (i.e., both right and left)				
+ds006018	Highest_Adult_Edu_Grouped	Bachelor's Degree or Higher				
+ds006018	Highest_Edu_Grouped	Bachelor's Degree or Higher				
+ds006018	Gender	cannot be disclosed				
+ds006018	L1_recoded	English				
+ds006018	L2_recoded	English				
+ds006018	PassiveAuditoryOddballEEG_missingness_reason	Experimenter error				
+ds006018	Gender	female			snomed:248152002	Female
+ds006018	Highest_Edu_Grouped	High School				
+ds006018	Highest_Adult_Edu_Grouped	High School or Less				
+ds006018	LEARN_L1	Home				
+ds006018	LEARN_L2	Home				
+ds006018	Handedness	left				
+ds006018	Gender	male			snomed:248153007	Male
+ds006018	asrs1	never				
+ds006018	asrs10	never				
+ds006018	asrs11	never				
+ds006018	asrs12	never				
+ds006018	asrs13	never				
+ds006018	asrs14	never				
+ds006018	asrs15	never				
+ds006018	asrs16	never				
+ds006018	asrs17	never				
+ds006018	asrs18	never				
+ds006018	asrs2	never				
+ds006018	asrs3	never				
+ds006018	asrs4	never				
+ds006018	asrs5	never				
+ds006018	asrs6	never				
+ds006018	asrs7	never				
+ds006018	asrs8	never				
+ds006018	asrs9	never				
+ds006018	fs1	never true				
+ds006018	fs2	never true				
+ds006018	fs3	no				
+ds006018	fs5	no				
+ds006018	fs6	no				
+ds006018	hnc1a	no				
+ds006018	hnc1b	no				
+ds006018	hnc1c	no				
+ds006018	hnc1d	no				
+ds006018	hnc2a	no				
+ds006018	hnc2b	no				
+ds006018	hnc3	no				
+ds006018	L1_recoded	Non-English				
+ds006018	L2_recoded	Non-English				
+ds006018	asrs1	often				
+ds006018	asrs10	often				
+ds006018	asrs11	often				
+ds006018	asrs12	often				
+ds006018	asrs13	often				
+ds006018	asrs14	often				
+ds006018	asrs15	often				
+ds006018	asrs16	often				
+ds006018	asrs17	often				
+ds006018	asrs18	often				
+ds006018	asrs2	often				
+ds006018	asrs3	often				
+ds006018	asrs4	often				
+ds006018	asrs5	often				
+ds006018	asrs6	often				
+ds006018	asrs7	often				
+ds006018	asrs8	often				
+ds006018	asrs9	often				
+ds006018	fs1	often true				
+ds006018	fs2	often true				
+ds006018	fs4	only 1 to 2 months				
+ds006018	VisualOddballEEG_missingness_reason	Participant-related issue				
+ds006018	VisualSearchEEG_missingness_reason	Participant-related issue				
+ds006018	EEG_Tasks	Passive Auditory Oddball (TONE)				
+ds006018	EEG_Tasks	Passive Auditory Oddball (TONE), Visual Oddball (VO)				
+ds006018	EEG_Tasks	Passive Auditory Oddball (TONE), Visual Oddball (VO), Flanker (FL)				
+ds006018	EEG_Tasks	Passive Auditory Oddball (TONE), Visual Oddball (VO), Visual Search (VS), Flanker (FL)				
+ds006018	asrs1	rarely				
+ds006018	asrs10	rarely				
+ds006018	asrs11	rarely				
+ds006018	asrs12	rarely				
+ds006018	asrs13	rarely				
+ds006018	asrs14	rarely				
+ds006018	asrs15	rarely				
+ds006018	asrs16	rarely				
+ds006018	asrs17	rarely				
+ds006018	asrs18	rarely				
+ds006018	asrs2	rarely				
+ds006018	asrs3	rarely				
+ds006018	asrs4	rarely				
+ds006018	asrs5	rarely				
+ds006018	asrs6	rarely				
+ds006018	asrs7	rarely				
+ds006018	asrs8	rarely				
+ds006018	asrs9	rarely				
+ds006018	Handedness	right				
+ds006018	LEARN_L1	School				
+ds006018	LEARN_L2	School				
+ds006018	Highest_Adult_Edu_Grouped	Some College or Associate Degree				
+ds006018	Highest_Edu_Grouped	Some College or Associate Degree				
+ds006018	fs4	some months but not every month				
+ds006018	asrs1	sometimes				
+ds006018	asrs10	sometimes				
+ds006018	asrs11	sometimes				
+ds006018	asrs12	sometimes				
+ds006018	asrs13	sometimes				
+ds006018	asrs14	sometimes				
+ds006018	asrs15	sometimes				
+ds006018	asrs16	sometimes				
+ds006018	asrs17	sometimes				
+ds006018	asrs18	sometimes				
+ds006018	asrs2	sometimes				
+ds006018	asrs3	sometimes				
+ds006018	asrs4	sometimes				
+ds006018	asrs5	sometimes				
+ds006018	asrs6	sometimes				
+ds006018	asrs7	sometimes				
+ds006018	asrs8	sometimes				
+ds006018	asrs9	sometimes				
+ds006018	fs1	sometimes true				
+ds006018	fs2	sometimes true				
+ds006018	hnc4	somewhat safe				
+ds006018	hnc4	somewhat unsafe				
+ds006018	FlankerEEG_missingness_reason	Task not administered				
+ds006018	PassiveAuditoryOddballEEG_missingness_reason	Task not administered				
+ds006018	VisualOddballEEG_missingness_reason	Task not administered				
+ds006018	VisualSearchEEG_missingness_reason	Task not administered				
+ds006018	asrs1	very often				
+ds006018	asrs10	very often				
+ds006018	asrs11	very often				
+ds006018	asrs12	very often				
+ds006018	asrs13	very often				
+ds006018	asrs14	very often				
+ds006018	asrs15	very often				
+ds006018	asrs16	very often				
+ds006018	asrs17	very often				
+ds006018	asrs18	very often				
+ds006018	asrs2	very often				
+ds006018	asrs3	very often				
+ds006018	asrs4	very often				
+ds006018	asrs5	very often				
+ds006018	asrs6	very often				
+ds006018	asrs7	very often				
+ds006018	asrs8	very often				
+ds006018	asrs9	very often				
+ds006018	hnc4	very safe				
+ds006018	hnc4	very unsafe				
+ds006018	EEG_Tasks	Visual Oddball (VO), Visual Search (VS), Flanker (FL)				
+ds006018	fs3	yes				
+ds006018	fs5	yes				
+ds006018	fs6	yes				
+ds006018	hnc1a	yes				
+ds006018	hnc1b	yes				
+ds006018	hnc1c	yes				
+ds006018	hnc1d	yes				
+ds006018	hnc2a	yes				
+ds006018	hnc2b	yes				
+ds006018	hnc3	yes				
+ds006018	ADHD_binary			True		
+ds006018	asrs1			True		
+ds006018	asrs1_binary			True		
+ds006018	asrs10			True		
+ds006018	asrs11			True		
+ds006018	asrs12			True		
+ds006018	asrs13			True		
+ds006018	asrs14			True		
+ds006018	asrs15			True		
+ds006018	asrs16			True		
+ds006018	asrs17			True		
+ds006018	asrs18			True		
+ds006018	asrs2			True		
+ds006018	asrs2_binary			True		
+ds006018	asrs3			True		
+ds006018	asrs3_binary			True		
+ds006018	asrs4			True		
+ds006018	asrs4_binary			True		
+ds006018	asrs5			True		
+ds006018	asrs5_binary			True		
+ds006018	asrs6			True		
+ds006018	asrs6_binary			True		
+ds006018	asrs7			True		
+ds006018	asrs8			True		
+ds006018	asrs9			True		
+ds006018	FlankerEEG_missingness_reason			True		
+ds006018	fs1			True		
+ds006018	fs2			True		
+ds006018	fs3			True		
+ds006018	fs4			True		
+ds006018	fs5			True		
+ds006018	fs6			True		
+ds006018	hnc1a			True		
+ds006018	hnc1b			True		
+ds006018	hnc1c			True		
+ds006018	hnc1d			True		
+ds006018	hnc2a			True		
+ds006018	hnc2b			True		
+ds006018	hnc3			True		
+ds006018	hnc4			True		
+ds006018	L1_recoded			True		
+ds006018	L2_recoded			True		
+ds006018	LEARN_L1			True		
+ds006018	LEARN_L2			True		
+ds006018	NumBadChannels_AuditoryOddball			True		
+ds006018	NumBadChannels_Flanker			True		
+ds006018	NumBadChannels_VisualOddball			True		
+ds006018	NumBadChannels_VisualSearch			True		
+ds006018	PassiveAuditoryOddballEEG_missingness_reason			True		
+ds006018	VisualOddballEEG_missingness_reason			True		
+ds006018	VisualSearchEEG_missingness_reason			True		
+ds006107	asm	1				
+ds006107	outcome	1				
+ds006107	asm	2				
+ds006107	outcome	2				
+ds006107	asm	3				
+ds006107	outcome	3				
+ds006107	asm	4				
+ds006107	outcome	4				
+ds006107	asm	5				
+ds006107	outcome	5				
+ds006107	daily_seizure	Absence				
+ds006107	mri	Absence				
+ds006107	cohort	Derivation				
+ds006107	failed_resec_SOZ	Failed				
+ds006107	sex	Female			snomed:248152002	Female
+ds006107	resected_side	Left				
+ds006107	sex	Male			snomed:248153007	Male
+ds006107	extra_temporal	Needed				
+ds006107	seizure_capture	No				
+ds006107	failed_resec_SOZ	Not failed				
+ds006107	extra_temporal	Not needed				
+ds006107	daily_seizure	Presence				
+ds006107	mri	Presence				
+ds006107	resected_side	Right				
+ds006107	cohort	Validation				
+ds006107	seizure_capture	Yes				
+ds006148	session_id	ses-S001				
+ds006148	session_id	ses-S002				
+ds006148	session_id	ses-S003				
+ds006218	name ses2	10Mbase				
+ds006218	age ses 3	13				
+ds006218	age ses 3	14				
+ds006218	name ses1	16Mbase				
+ds006218	age ses 4	25				
+ds006218	age ses 4	26				
+ds006218	age ses 4	27				
+ds006218	age ses 4	28				
+ds006218	name ses3	3Mbase				
+ds006218	age ses 2	41				
+ds006218	age ses 2	42				
+ds006218	age ses 2	43				
+ds006218	age ses 2	44				
+ds006218	age ses 2	45				
+ds006218	age ses 1	67				
+ds006218	age ses 1	68				
+ds006218	age ses 1	69				
+ds006218	name ses4	6Mbase				
+ds006218	strain	C57BL/6J				
+ds006218	gender	Female			snomed:248152002	Female
+ds006218	genotype	HET				
+ds006218	gender	male			snomed:248153007	Male
+ds006218	gender	Male			snomed:248153007	Male
+ds006218	species	mus musculus				
+ds006218	age ses 1	n/a		True		
+ds006218	age ses 2	n/a		True		
+ds006218	age ses 3	n/a		True		
+ds006218	age ses 4	n/a		True		
+ds006218	genotype	WT				
+ds006303	sex	-1				
+ds006303	sex	1				
+ds006391	Edu_Level	College (Associates)	College (Associates)			
+ds006391	Edu_Level	College (Bachelors)	College (Bachelors)			
+ds006391	Edu_Level	Elementary School	Elementary School			
+ds006391	Gender	Female	Female		snomed:248152002	Female
+ds006391	Edu_Level	Graduate school (Doctorate)	Graduate school (Doctorate)			
+ds006391	Edu_Level	Graduate school (Masters)	Graduate school (Masters)			
+ds006391	Edu_Level	High School / GED	High School / GED			
+ds006391	Gender	Male	Male		snomed:248153007	Male
+ds006391	Edu_Level	Middle School	Middle School			
+ds006391	Gender	Non-binary	Non-binary			
+ds006391	Handedness	Right-hand	Right-hand			
+ds006577	ari_child_cbt03	0	Absent			
+ds006577	ari_child_cbt08	0	Absent			
+ds006577	ari_child_cbt12	0	Absent			
+ds006577	cgas_cbt03	0	Absent			
+ds006577	cgas_cbt08	0	Absent			
+ds006577	cgas_cbt12	0	Absent			
+ds006577	cgi_cbt12	0	Absent			
+ds006577	ksads_screening	0	Absent			
+ds006577	mfqc_cbt03	0	Absent			
+ds006577	mfqc_cbt08	0	Absent			
+ds006577	mfqc_cbt12	0	Absent			
+ds006577	mri_post	0	Absent			
+ds006577	mri_pre	0	Absent			
+ds006577	pars_cbt03	0	Absent			
+ds006577	pars_cbt08	0	Absent			
+ds006577	pars_cbt12	0	Absent			
+ds006577	scared_child_cbt03	0	Absent			
+ds006577	scared_child_cbt08	0	Absent			
+ds006577	scared_child_cbt12	0	Absent			
+ds006577	scared_parent_cbt03	0	Absent			
+ds006577	scared_parent_cbt08	0	Absent			
+ds006577	scared_parent_cbt12	0	Absent			
+ds006577	staic_cbt03	0	Absent			
+ds006577	staic_cbt08	0	Absent			
+ds006577	staic_cbt12	0	Absent			
+ds006577	ari_child_cbt03	1	Present			
+ds006577	ari_child_cbt08	1	Present			
+ds006577	ari_child_cbt12	1	Present			
+ds006577	cgas_cbt03	1	Present			
+ds006577	cgas_cbt08	1	Present			
+ds006577	cgas_cbt12	1	Present			
+ds006577	cgi_cbt12	1	Present			
+ds006577	ksads_screening	1	Present			
+ds006577	mfqc_cbt03	1	Present			
+ds006577	mfqc_cbt08	1	Present			
+ds006577	mfqc_cbt12	1	Present			
+ds006577	mri_post	1	Present			
+ds006577	mri_pre	1	Present			
+ds006577	pars_cbt03	1	Present			
+ds006577	pars_cbt08	1	Present			
+ds006577	pars_cbt12	1	Present			
+ds006577	scared_child_cbt03	1	Present			
+ds006577	scared_child_cbt08	1	Present			
+ds006577	scared_child_cbt12	1	Present			
+ds006577	scared_parent_cbt03	1	Present			
+ds006577	scared_parent_cbt08	1	Present			
+ds006577	scared_parent_cbt12	1	Present			
+ds006577	staic_cbt03	1	Present			
+ds006577	staic_cbt08	1	Present			
+ds006577	staic_cbt12	1	Present			
+ds006577	condition	active	Active condition.			
+ds006577	race	AMERICAN INDIAN OR ALASKAN NATIVE	A person having origins in any of the original peoples of North Central or South America and who maintains tribal affiliation or community attachment.			
+ds006577	group	Anx	Anxiety			
+ds006577	race	ASIAN	A person having origins in any of the original people of the Far East Southeast Asia or the Indian subcontinent including for example Cambodia China India Japan Korea Malaysia Pakistan the Philippine Islands Thailand and Vietnam.			
+ds006577	race	BLACK OR AFRICAN AMERICAN	A person having origins in an of the black racial groups of Africa.			
+ds006577	sex	FEMALE	Female		snomed:248152002	Female
+ds006577	group	HV	Healthy Volunteer			
+ds006577	sex	MALE	Male		snomed:248153007	Male
+ds006577	race	MULTIPLE RACES	Multiple races.			
+ds006577	condition	n/a		True		
+ds006577	condition	sham	Sham condition.			
+ds006577	race	UNKNOWN	Unknown race.			
+ds006577	race	WHITE	A person having origins in any of the original peoples of Europe the Middle East or North Africa.			
+ds006777	ados_css	10.0				
+ds006777	ados_css	15.0				
+ds006777	ados_css	3.0				
+ds006777	ados_css	4.0				
+ds006777	ados_css	5.0				
+ds006777	ados_css	6.0				
+ds006777	ados_css	7.0				
+ds006777	ados_css	8.0				
+ds006777	ados_css	9.0				
+ds006777	handedness	A	ambidextrous			
+ds006777	group	ASD	autism spectrum disorder			
+ds006777	group	ASD SIBLING	ASD SIBLING			
+ds006777	sex	F	female		snomed:248152002	Female
+ds006777	handedness	L	left			
+ds006777	sex	M	male		snomed:248153007	Male
+ds006777	ados_css	n/a		True		
+ds006777	handedness	n/a		True		
+ds006777	handedness	R	right			
+ds006777	group	TD	typically developing			
+ds006780	ados_css	10.0				
+ds006780	ados_css_dup	10.0				
+ds006780	ados_css	15.0				
+ds006780	ados_css_dup	15.0				
+ds006780	ados_css	3.0				
+ds006780	ados_css_dup	3.0				
+ds006780	ados_css	4.0				
+ds006780	ados_css_dup	4.0				
+ds006780	ados_css	5.0				
+ds006780	ados_css_dup	5.0				
+ds006780	ados_css	6.0				
+ds006780	ados_css_dup	6.0				
+ds006780	ados_css	7.0				
+ds006780	ados_css_dup	7.0				
+ds006780	ados_css	8.0				
+ds006780	ados_css_dup	8.0				
+ds006780	ados_css	9.0				
+ds006780	ados_css_dup	9.0				
+ds006780	handedness	A	ambidextrous			
+ds006780	group	ASD	autism spectrum disorder			
+ds006780	group	ASD SIBLING				
+ds006780	sex	f	female		snomed:248152002	Female
+ds006780	handedness	L	left			
+ds006780	sex	m	male		snomed:248153007	Male
+ds006780	ados_css	n/a		True		
+ds006780	ados_css_dup	n/a		True		
+ds006780	handedness	n/a	not available	True		
+ds006780	sex	n/a	not available	True		
+ds006780	group	NAN		True		
+ds006780	completed_ASSR	no	absent			
+ds006780	completed_AVSRT	no	absent			
+ds006780	completed_Beep-Flash	no	absent			
+ds006780	completed_FAST	no	absent			
+ds006780	completed_Illusory_contours	no	absent			
+ds006780	completed_Motor	no	absent			
+ds006780	completed_Resting_state	no	absent			
+ds006780	handedness	R	right			
+ds006780	group	TD	typically developing			
+ds006780	completed_ASSR	yes	present			
+ds006780	completed_AVSRT	yes	present			
+ds006780	completed_Beep-Flash	yes	present			
+ds006780	completed_FAST	yes	present			
+ds006780	completed_Illusory_contours	yes	present			
+ds006780	completed_Motor	yes	present			
+ds006780	completed_Resting_state	yes	present			
+ds006861	Gender	Female			snomed:248152002	Female
+ds006861	Group	High Lonely				
+ds006861	stimulation_side	Left				
+ds006861	Group	Low Lonely				
+ds006861	Gender	Male			snomed:248153007	Male
+ds006861	stimulation_side	Right				
+ds006866	Gender	1			snomed:248152002	Female
+ds006866	Gender	2			snomed:248153007	Male
+ds006883	group	2mo_control				
+ds006883	group	9mo_control				
+ds006883	sex	F			snomed:248152002	Female
+ds006883	sex	M			snomed:248153007	Male
+ds006910	handedness	A	ambidextrous			
+ds006910	sex	F	female		snomed:248152002	Female
+ds006910	handedness	L	left			
+ds006910	sex	M	male		snomed:248153007	Male
+ds006910	handedness	R	right			
+ds006923	Socioeconomic stratum	1				
+ds006923	Age	14				
+ds006923	Age	15				
+ds006923	Age	16				
+ds006923	Age	17				
+ds006923	Age	18				
+ds006923	Age	19				
+ds006923	Socioeconomic stratum	2				
+ds006923	Socioeconomic stratum	3				
+ds006923	Type of crime 1	Abduction	Abduction			
+ds006923	Level of education	Basic primary	Basic primary			
+ds006923	Level of education	Basic secondary	Basic secondary			
+ds006923	Type of crime 2	Carrying_of_Weapons/Narcotics_Violence	Carrying of weapons and narcotics violence			
+ds006923	Level of education	High school	High school			
+ds006923	Type of crime 1	Homicide	Homicide			
+ds006923	Type of crime 2	Homicide	Homicide			
+ds006923	Type of crime 1	Illegal	Illegal			
+ds006923	Type of crime 1	Illegal_Carrying_of_Weapons/Narcotics	Illegal carrying of weapons and narcotics			
+ds006923	Type of crime 2	Illegal_Carrying_of_Weapons/Narcotics	Illegal carrying of weapons and narcotics			
+ds006923	Type of crime 1	Illegal_Possession_of_Weapons/Narcotics	Illegal possession of weapons and narcotics			
+ds006923	Type of crime 2	Illegal_Possession_of_Weapons/Narcotics	Illegal possession of weapons and narcotics			
+ds006923	Type of crime 3	Illegal_Possession_of_Weapons/Narcotics	Illegal possession of weapons and narcotics			
+ds006923	Type of crime 1	Kidnapping	Kidnapping			
+ds006923	Type of crime 2	Larceny	Larceny			
+ds006923	Gender	Male	Male		snomed:248153007	Male
+ds006923	Level of education	Middle school	Middle school			
+ds006923	Recidivist	n/a		True		
+ds006923	Alcohol	No	No			
+ds006923	Cocaine	No	No			
+ds006923	Consumer of psychoactive substances	No	No			
+ds006923	Displaced by violence	No	No			
+ds006923	Domestic violence	No	No			
+ds006923	Gang member	No	No			
+ds006923	Marijuana	No	No			
+ds006923	Recidivist	No	No			
+ds006923	School dropout	No	No			
+ds006923	Subject type	No Offender	Juvenile no offender			
+ds006923	Type of crime 1	None	None of the categories			
+ds006923	Type of crime 2	None	None of the categories			
+ds006923	Type of crime 3	None	None of the categories			
+ds006923	Type of crime 4	None	None of the categories			
+ds006923	Subject type	Offender	Juvenile offender			
+ds006923	Type of crime 1	Sexual_Abuse	Sexual abuse			
+ds006923	Type of crime 2	Sexual_Abuse	Sexual abuse			
+ds006923	Type of crime 4	Sexual_Abuse	Sexual abuse			
+ds006923	Level of education	Technical	Technical			
+ds006923	Type of crime 1	Theft	Theft			
+ds006923	Type of crime 2	Theft	Theft			
+ds006923	Type of crime 3	Theft	Theft			
+ds006923	Type of crime 4	Theft	Theft			
+ds006923	Level of education	University	University			
+ds006923	Type of crime 1	Violence	Violence			
+ds006923	Type of crime 2	Violence	Violence			
+ds006923	Alcohol	Yes	Yes			
+ds006923	Cocaine	Yes	Yes			
+ds006923	Consumer of psychoactive substances	Yes	Yes			
+ds006923	Displaced by violence	Yes	Yes			
+ds006923	Domestic violence	Yes	Yes			
+ds006923	Gang member	Yes	Yes			
+ds006923	Marijuana	Yes	Yes			
+ds006923	Recidivist	Yes	Yes			
+ds006923	School dropout	Yes	Yes			
+ds007045	MGMT	0	non-methylated			
+ds007045	sex	0	female		snomed:248152002	Female
+ds007045	MGMT	1	methylated			
+ds007045	sex	1	male		snomed:248153007	Male
+ds007052	Gender	1	male		snomed:248153007	Male
+ds007052	Handedness	1	right			
+ds007052	Gender	2	female		snomed:248152002	Female
+ds007052	Handedness	2	left			
+ds007052	Gender	3	other		snomed:32570681000036106	Other
+ds007052	Handedness	3	both			
+ds007052	Gender	4	prefer not to respond			
+ds007052	Gender		empty	True		
+ds007052	Handedness		empty	True		
+ds007056	Gender	1	male		snomed:248153007	Male
+ds007056	Handedness	1	right			
+ds007056	Gender	2	female		snomed:248152002	Female
+ds007056	Handedness	2	left			
+ds007056	Gender	3	other		snomed:32570681000036106	Other
+ds007056	Handedness	3	both			
+ds007056	Gender	4	prefer not to respond			
+ds007056	Gender		empty	True		
+ds007056	Handedness		empty	True		
+ds007069	Gender	1	male		snomed:248153007	Male
+ds007069	Handedness	1	right			
+ds007069	Gender	2	female		snomed:248152002	Female
+ds007069	Handedness	2	left			
+ds007069	Gender	3	other		snomed:32570681000036106	Other
+ds007069	Handedness	3	both			
+ds007069	Gender	4	prefer not to respond			
+ds007069	Gender		empty	True		
+ds007069	Handedness		empty	True		
+ds007096	Gender	1	male		snomed:248153007	Male
+ds007096	Handedness	1	right			
+ds007096	Gender	2	female		snomed:248152002	Female
+ds007096	Handedness	2	left			
+ds007096	Gender	3	other		snomed:32570681000036106	Other
+ds007096	Handedness	3	both			
+ds007096	Gender	4	prefer not to respond			
+ds007096	Handedness		empty	True		
+ds007116	dx_adhd	0	participant did not have an Attention Deficit Hyperactivity Disorder diagnosis			
+ds007116	dx_bp	0	participant did not have a bipolar disorder diagnosis			
+ds007116	dx_mdd	0	participant did not have a major depressive disorder diagnosis			
+ds007116	dx_moodnos	0	participant did not have a non-specified mood disorder diagnosis			
+ds007116	dx_none	0	participant had at least one clinical diagnosis			
+ds007116	dx_prodromal	0	participant did not have a prodromal psychosis/subthreshold psychosis spectrum disorder			
+ds007116	dx_prodromal_remit	0	participant did not have a prodromal psychosis/subthresdhold psychosis spectrum disorder that is now in remission			
+ds007116	dx_psychosis	0	participant did not have a threshold psychosis diagnosis			
+ds007116	dx_ptsd	0	participant did not have a Post-Traumatic Stress Disorder diagnosis that is now in remission			
+ds007116	dx_ptsd_remit	0	participant did not have a Post-Traumatic Stress Disorder diagnosis that is now in remission			
+ds007116	dx_adhd	1	participant had an Attention Deficit Hyperactivity Disorder diagnosis			
+ds007116	dx_bp	1	participant had a bipolar disorder diagnosis			
+ds007116	dx_mdd	1	participant had a major depressive disorder diagnosis			
+ds007116	dx_moodnos	1	participant had a non-specified mood disorder diagnosis			
+ds007116	dx_none	1	participant did not have any clinical diagnosis			
+ds007116	dx_prodromal	1	participant had a prodromal psychosis/subthreshold psychosis spectrum disorder			
+ds007116	dx_prodromal_remit	1	participant had a prodromal psychosis/subthreshold psychosis spectrum disorder that is now in remission			
+ds007116	dx_psychosis	1	participant had a threshold psychosis diagnosis			
+ds007116	dx_ptsd	1	participant had a Post-Traumatic Stress Disorder diagnosis that is now in remission			
+ds007116	dx_ptsd_remit	1	participant had a Post-Traumatic Stres Disorder diagnosis that is now in remission			
+ds007116	age	10				
+ds007116	age	11				
+ds007116	age	12				
+ds007116	age	13				
+ds007116	age	14				
+ds007116	age	15				
+ds007116	age	16				
+ds007116	age	8				
+ds007116	age	9				
+ds007116	study_group	ADHD	participants with ADHD			
+ds007116	race	Asian	Asian			
+ds007116	race	Black or African American	Black of African American			
+ds007116	sex	F	female		snomed:248152002	Female
+ds007116	ethnicity	Hispanic	Hispanic			
+ds007116	sex	M	male		snomed:248153007	Male
+ds007116	race	More than one race	More than one race			
+ds007116	ethnicity	n/a	Unknown or not reported	True		
+ds007116	ethnicity	Non - Hispanic	Non-Hispanic			
+ds007116	study_group	PRO/CHR	participants with psychosis or at clinical high risk for psychosis			
+ds007116	study_group	TD/NC	typically developing comparator participants			
+ds007116	race	Unknown or not reported	Unknown or not reported			
+ds007116	race	White	White			
+ds007118	asm_number	1				
+ds007118	outcome	1				
+ds007118	asm_number	2				
+ds007118	outcome	2				
+ds007118	asm_number	3				
+ds007118	outcome	3				
+ds007118	asm_number	4				
+ds007118	outcome	4				
+ds007118	asm_number	5				
+ds007118	outcome	5				
+ds007118	outcome	6				
+ds007118	daily_seizure	absence	absence			
+ds007118	mri_lesion	absence	absence			
+ds007118	cohort	Derivation_cohort	Dataset used for training the SOZ classification model or the outcome prediction model			
+ds007118	sex	female	female		snomed:248152002	Female
+ds007118	cohort	Geographical_external_cohort1	Independent test dataset from another institution (1)			
+ds007118	cohort	Geographical_external_cohort2	Independent test dataset from another institution (2)			
+ds007118	resected_hemisphere	left	left hemisphere was resected			
+ds007118	sex	male	male		snomed:248153007	Male
+ds007118	extratemporal_resection	no	no			
+ds007118	seizure_capture	no	no			
+ds007118	soz_complete_resection	no	no			
+ds007118	daily_seizure	presence	presence			
+ds007118	mri_lesion	presence	presence			
+ds007118	resected_hemisphere	right	right hemisphere was resected			
+ds007118	cohort	Temporal_external_cohort	Independent test dataset from the same institution as the derivation cohort			
+ds007118	extratemporal_resection	yes	yes			
+ds007118	seizure_capture	yes	yes			
+ds007118	soz_complete_resection	yes	yes, SOZ was completely resected			
+ds007119	asm_number	1				
+ds007119	outcome	1				
+ds007119	asm_number	2				
+ds007119	outcome	2				
+ds007119	asm_number	3				
+ds007119	outcome	3				
+ds007119	asm_number	4				
+ds007119	outcome	4				
+ds007119	asm_number	5				
+ds007119	outcome	5				
+ds007119	outcome	6				
+ds007119	daily_seizure	absence	absence			
+ds007119	mri_lesion	absence	absence			
+ds007119	cohort	Derivation_cohort	Dataset used for training the SOZ classification model or the outcome prediction model			
+ds007119	sex	female	female		snomed:248152002	Female
+ds007119	cohort	Geographical_external_cohort1	Independent test dataset from another institution (1)			
+ds007119	cohort	Geographical_external_cohort2	Independent test dataset from another institution (2)			
+ds007119	resected_hemisphere	left	left hemisphere was resected			
+ds007119	sex	male	male		snomed:248153007	Male
+ds007119	extratemporal_resection	no	no			
+ds007119	seizure_capture	no	no			
+ds007119	soz_complete_resection	no	no			
+ds007119	daily_seizure	presence	presence			
+ds007119	mri_lesion	presence	presence			
+ds007119	resected_hemisphere	right	right hemisphere was resected			
+ds007119	cohort	Temporal_external_cohort	Independent test dataset from the same institution as the derivation cohort			
+ds007119	extratemporal_resection	yes	yes			
+ds007119	seizure_capture	yes	yes			
+ds007119	soz_complete_resection	yes	yes, SOZ was completely resected			
+ds007120	asm_number	1				
+ds007120	outcome	1				
+ds007120	asm_number	2				
+ds007120	outcome	2				
+ds007120	asm_number	3				
+ds007120	outcome	3				
+ds007120	asm_number	4				
+ds007120	outcome	4				
+ds007120	asm_number	5				
+ds007120	outcome	5				
+ds007120	outcome	6				
+ds007120	daily_seizure	absence	absence			
+ds007120	mri_lesion	absence	absence			
+ds007120	cohort	Derivation_cohort	Dataset used for training the SOZ classification model or the outcome prediction model			
+ds007120	sex	female	female		snomed:248152002	Female
+ds007120	cohort	Geographical_external_cohort1	Independent test dataset from another institution (1)			
+ds007120	cohort	Geographical_external_cohort2	Independent test dataset from another institution (2)			
+ds007120	resected_hemisphere	left	left hemisphere was resected			
+ds007120	sex	male	male		snomed:248153007	Male
+ds007120	extratemporal_resection	no	no			
+ds007120	seizure_capture	no	no			
+ds007120	soz_complete_resection	no	no			
+ds007120	daily_seizure	presence	presence			
+ds007120	mri_lesion	presence	presence			
+ds007120	resected_hemisphere	right	right hemisphere was resected			
+ds007120	cohort	Temporal_external_cohort	Independent test dataset from the same institution as the derivation cohort			
+ds007120	extratemporal_resection	yes	yes			
+ds007120	seizure_capture	yes	yes			
+ds007120	soz_complete_resection	yes	yes, SOZ was completely resected			
+ds007137	Gender	1	male		snomed:248153007	Male
+ds007137	Handedness	1	right			
+ds007137	Gender	2	female		snomed:248152002	Female
+ds007137	Handedness	2	left			
+ds007137	Gender	3	other		snomed:32570681000036106	Other
+ds007137	Handedness	3	both			
+ds007137	Gender	4	prefer not to respond			
+ds007137	Gender		empty	True		
+ds007137	Handedness		empty	True		
+ds007139	Gender	1	male		snomed:248153007	Male
+ds007139	Handedness	1	right			
+ds007139	Gender	2	female		snomed:248152002	Female
+ds007139	Handedness	2	left			
+ds007139	Gender	3	other		snomed:32570681000036106	Other
+ds007139	Handedness	3	both			
+ds007139	Gender	4	prefer not to respond			
+ds007139	Gender		empty	True		
+ds007139	Handedness		empty	True		
+ds007427	Denom_error	0.0				
+ds007427	MM_espac	0.0				
+ds007427	MM_evoc	0.0				
+ds007427	MM_Tiempo	0.0				
+ds007427	Denom_baja	1.0				
+ds007427	Denom_error	1.0				
+ds007427	Denom_med	1.0				
+ds007427	MM_atenc	1.0				
+ds007427	MM_evoc	1.0				
+ds007427	MM_Tiempo	1.0				
+ds007427	Denom_baja	2.0				
+ds007427	Denom_error	2.0				
+ds007427	Denom_med	2.0				
+ds007427	MM_atenc	2.0				
+ds007427	MM_espac	2.0				
+ds007427	MM_evoc	2.0				
+ds007427	MM_Tiempo	2.0				
+ds007427	Denom_baja	3.0				
+ds007427	Denom_error	3.0				
+ds007427	Denom_med	3.0				
+ds007427	MM_atenc	3.0				
+ds007427	MM_evoc	3.0				
+ds007427	MM_fijac	3.0				
+ds007427	MM_Tiempo	3.0				
+ds007427	Denom_alta	4.0				
+ds007427	Denom_baja	4.0				
+ds007427	Denom_error	4.0				
+ds007427	Denom_med	4.0				
+ds007427	MM_atenc	4.0				
+ds007427	MM_espac	4.0				
+ds007427	MM_Tiempo	4.0				
+ds007427	Denom_alta	5.0				
+ds007427	Denom_baja	5.0				
+ds007427	Denom_error	5.0				
+ds007427	Denom_med	5.0				
+ds007427	MM_atenc	5.0				
+ds007427	MM_espac	5.0				
+ds007427	MM_Tiempo	5.0				
+ds007427	Denom_error	6.0				
+ds007427	Denom_error	7.0				
+ds007427	MM_leng	7.0				
+ds007427	MM_leng	8.0				
+ds007427	MM_leng	9.0				
+ds007427	sex	F	female		snomed:248152002	Female
+ds007427	sex	M	male		snomed:248153007	Male
+ds007427	hand	n/a		True		
+ds007427	sex	n/a		True		
+ds007427	Denom_alta			True		
+ds007427	Denom_baja			True		
+ds007427	Denom_error			True		
+ds007427	Denom_med			True		
+ds007427	MM_atenc			True		
+ds007427	MM_espac			True		
+ds007427	MM_evoc			True		
+ds007427	MM_fijac			True		
+ds007427	MM_leng			True		
+ds007427	MM_Tiempo			True		

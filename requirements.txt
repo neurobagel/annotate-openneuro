@@ -1,3 +1,4 @@
+jsonschema
 pandas>=2
 pre-commit
 PyGithub

@@ -1,5 +1,5 @@
 jsonschema
-pandas
+pandas>=2
 pre-commit
 PyGithub
 requests

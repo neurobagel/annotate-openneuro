@@ -169,20 +169,15 @@ def get_age_annotations(column_row: pd.Series, column_values: pd.DataFrame) -> d
         format_term_url, AGE_FORMAT_LABELS[format_term_url]
     )
 
-    if column_row["n_empty_values"] > 0:
-        # For age columns with few enough unique values to have been designated 'categorical'
-        # in the column summaries table,
-        # we may already have annotations for the specific values inferred to be missing values.
-        # TODO: This extra check can probably be removed in future,
-        # since most age columns will be detected as continuous.
-        detected_missing_values = column_values.loc[
-            column_values["is_missing_value"].str.lower() == "true", "value"
-        ].tolist()
-        # For columns where n_empty_values is not 0 (meaning pd.read_csv detected at least one missing value),
-        # we also include common missing values by default to the 'MissingValues' annotation.
-        # This is a workaround for continuous columns where unique values are not available
-        # in the value summaries table and thus missing values likely have not been annotated.
-        missing_values = list({*detected_missing_values, *COMMON_MISSING_VALUES})
+    # For age columns with few enough unique values to have been marked 'categorical' in the column summaries table,
+    # we may already have annotations for the specific values detected as being missing values.
+    # TODO: This extra check can probably be removed in future, since most age columns will be detected as continuous.
+    detected_missing_values = column_values.loc[
+        column_values["is_missing_value"].str.lower() == "true", "value"
+    ].tolist()
+    # Also include common missing values by default as a workaround for accurately detecting them in age columns
+    # (especially columns where unique values are not available in the value summaries table).
+    missing_values = list({*detected_missing_values, *COMMON_MISSING_VALUES})
 
     annotations = {
         **get_base_annotations("nb:Age"),

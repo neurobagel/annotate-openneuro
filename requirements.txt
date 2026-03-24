@@ -4,4 +4,3 @@ pre-commit
 PyGithub
 requests
 tqdm
-

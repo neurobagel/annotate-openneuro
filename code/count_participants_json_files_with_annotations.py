@@ -1,5 +1,5 @@
 """
-Identify participants.json files in data/ that contain Neurobagel annotations
+Helper script to identify participants.json files in data/ that contain Neurobagel annotations
 and whether those datasets were previously annotated internally.
 """
 

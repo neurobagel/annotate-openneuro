@@ -1,0 +1,56 @@
+{
+  "age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "BDI": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273306008",
+    "assessment_label": "Beck depression inventory",
+    "confidence": "high"
+  },
+  "HamD": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273503001",
+    "assessment_label": "Hamilton rating scale for depression",
+    "confidence": "high"
+  },
+  "Original_ID": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "SCID": {
+    "variable_id": "Other",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  },
+  "SCID_notes": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "STAI": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  }
+}

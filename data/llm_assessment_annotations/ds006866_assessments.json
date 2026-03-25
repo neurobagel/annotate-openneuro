@@ -1,0 +1,110 @@
+{
+  "Age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "CERQ_A": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273370003",
+    "assessment_label": "Cognitive Emotion Regulation Questionnaire - Acceptance subscale score",
+    "confidence": "high"
+  },
+  "CERQ_K": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273370003",
+    "assessment_label": "Cognitive Emotion Regulation Questionnaire - Catastrophizing subscale score",
+    "confidence": "high"
+  },
+  "CERQ_KP": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273370003",
+    "assessment_label": "Cognitive Emotion Regulation Questionnaire - Refocus on planning subscale score",
+    "confidence": "high"
+  },
+  "CERQ_OI": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273370003",
+    "assessment_label": "Cognitive Emotion Regulation Questionnaire - Other-blame subscale score",
+    "confidence": "high"
+  },
+  "CERQ_OS": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273370003",
+    "assessment_label": "Cognitive Emotion Regulation Questionnaire - Self-blame subscale score",
+    "confidence": "high"
+  },
+  "CERQ_PP": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273370003",
+    "assessment_label": "Cognitive Emotion Regulation Questionnaire - Positive reappraisal subscale score",
+    "confidence": "high"
+  },
+  "CERQ_PU": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273370003",
+    "assessment_label": "Cognitive Emotion Regulation Questionnaire - Positive refocusing subscale score",
+    "confidence": "high"
+  },
+  "CERQ_R": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273370003",
+    "assessment_label": "Cognitive Emotion Regulation Questionnaire - Rumination subscale score",
+    "confidence": "high"
+  },
+  "CERQ_SP": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273370003",
+    "assessment_label": "Cognitive Emotion Regulation Questionnaire - Putting into perspective subscale score",
+    "confidence": "high"
+  },
+  "CESD": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273870003",
+    "assessment_label": "Center for Epidemiologic Studies Depression Scale score, measuring depressive symptoms",
+    "confidence": "high"
+  },
+  "ERQ_CR": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273870003",
+    "assessment_label": "Emotion Regulation Questionnaire Cognitive Reappraisal score, assessing cognitive reappraisal tendencies",
+    "confidence": "high"
+  },
+  "Gender": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "LSAS": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:1231512007",
+    "assessment_label": "Liebowitz Social Anxiety Scale score, assessing social anxiety",
+    "confidence": "high"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Set_Shifting_Cost": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "SNS": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273870003",
+    "assessment_label": "Social Network Scale - Measure of objective social isolation",
+    "confidence": "high"
+  },
+  "UCLA_R": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:1103791000000109",
+    "assessment_label": "UCLA Loneliness Scale (Revised) score, measuring perceived loneliness",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "ADHD_binary": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "Age_Grouped": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "asrs1": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs1_binary": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs10": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs11": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs12": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs13": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs14": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs15": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs16": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs17": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs18": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs2": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs2_binary": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs3": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs3_binary": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs4": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs4_binary": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs5": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs5_binary": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs6": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs6_binary": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs7": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs8": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "asrs9": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:769390009",
+    "assessment_label": "World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale",
+    "confidence": "high"
+  },
+  "BadChannels_AuditoryOddball": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "BadChannels_Flanker": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "BadChannels_VisualOddball": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "BadChannels_VisualSearch": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "CapSize": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "EEG_Issues": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "EEG_Tasks": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "FlankerEEG": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "FlankerEEG_missingness_reason": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "fs1": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "fs2": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "fs3": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "fs4": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "fs5": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "fs6": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Gender": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Handedness": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Highest_Adult_Edu_Grouped": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Highest_Edu_Grouped": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "hnc1a": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "hnc1b": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "hnc1c": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "hnc1d": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "hnc2a": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "hnc2b": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "hnc3": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "hnc4": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "L1_AoA": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "L1_recoded": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "L2_AoA": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "L2_recoded": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "LEARN_L1": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "LEARN_L2": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "NumBadChannels_AuditoryOddball": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "NumBadChannels_Flanker": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "NumBadChannels_VisualOddball": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "NumBadChannels_VisualSearch": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "PassiveAuditoryOddballEEG": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "PassiveAuditoryOddballEEG_missingness_reason": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Subjective_SES": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "TimeofSession": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "VisualOddballEEG": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "VisualOddballEEG_missingness_reason": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "VisualSearchEEG": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "VisualSearchEEG_missingness_reason": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  }
+}

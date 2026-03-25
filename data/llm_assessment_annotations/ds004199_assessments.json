@@ -1,0 +1,116 @@
+{
+  "1year_outcome": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "age_epilepsyonset": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "age_op": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "age_scan": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "group": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "hemisphere": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "histopathology": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "invasive_EEG": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "latest_outcome": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "lobe": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "map": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "mri_diagnosis": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "op": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "pet": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "spect": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "split": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "time_follow-up": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  }
+}

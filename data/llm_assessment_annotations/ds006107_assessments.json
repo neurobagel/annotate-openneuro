@@ -1,0 +1,86 @@
+{
+  "age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "asm": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  },
+  "cohort": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "daily_seizure": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "extent_of_resection": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "extra_temporal": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "failed_resec_SOZ": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "followup": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "mri": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "outcome": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "resected_side": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "seizure_capture": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  }
+}

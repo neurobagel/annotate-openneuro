@@ -1,0 +1,146 @@
+{
+  "age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "attention": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273265007",
+    "assessment_label": "Alcohol use disorders identification test",
+    "confidence": "medium"
+  },
+  "commercial_use": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "contrastChangeDetection_1": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "contrastChangeDetection_2": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "contrastChangeDetection_3": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "DespicableMe": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "DiaryOfAWimpyKid": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "ehq_total": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273231000000009",
+    "assessment_label": "Edinburgh Handedness Questionnaire",
+    "confidence": "high"
+  },
+  "externalizing": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273244000000104",
+    "assessment_label": "Externalizing Problems",
+    "confidence": "medium"
+  },
+  "full_pheno": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "FunwithFractals": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "internalizing": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273248000000100",
+    "assessment_label": "Internalizing Problems",
+    "confidence": "medium"
+  },
+  "p_factor": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273224000000105",
+    "assessment_label": "Psychiatric Comorbidity Factor",
+    "confidence": "medium"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "release_number": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "RestingState": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "seqLearning6target": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "seqLearning8target": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "surroundSupp_1": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "surroundSupp_2": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "symbolSearch": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "ThePresent": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "AS": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  },
+  "AXCPT": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  },
+  "CALM_IT": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  },
+  "clinical_scores": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  },
+  "ethnicity": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Flanker": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  },
+  "fMRI_data": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "highest_education": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "income": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "race": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "SST": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  }
+}

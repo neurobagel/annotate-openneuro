@@ -1,0 +1,68 @@
+{
+  "ados_css": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:2741000123102",
+    "assessment_label": "Autism Diagnostic Observation Schedule Calibrated Severity Score",
+    "confidence": "high"
+  },
+  "age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "cpt_response_style": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "fsiq": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:621131000124106",
+    "assessment_label": "Wechsler Adult Intelligence Scale fourth edition",
+    "confidence": "medium"
+  },
+  "group": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "handedness": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "mabc_total_ss": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:725886007",
+    "assessment_label": "Movement Assessment Battery for Children Checklist Second Edition",
+    "confidence": "medium"
+  },
+  "medication": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "srs2_total_t": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:1802241000000106",
+    "assessment_label": "RCADS-25 - Revised Children's Anxiety and Depression Scale-25",
+    "confidence": "medium"
+  }
+}

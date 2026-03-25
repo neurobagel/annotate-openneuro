@@ -1,0 +1,170 @@
+{
+  "actions": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "car": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "CCC": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "condition": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "driver": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "education": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "ICE_anger": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273306008",
+    "assessment_label": "Beck anger inventory",
+    "confidence": "medium"
+  },
+  "ICE_anxiety": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273307004",
+    "assessment_label": "Beck anxiety standardized rating scale",
+    "confidence": "medium"
+  },
+  "ICE_discontent": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273365005",
+    "assessment_label": "Impact of event scale",
+    "confidence": "medium"
+  },
+  "ICE_enthusiasm": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273865002",
+    "assessment_label": "Positive and negative affect schedule",
+    "confidence": "medium"
+  },
+  "ICE_guilt": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273304009",
+    "assessment_label": "Beck hopelessness scale",
+    "confidence": "medium"
+  },
+  "ICE_isolation": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273306008",
+    "assessment_label": "Beck anger inventory",
+    "confidence": "medium"
+  },
+  "ICE_powerlessness": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273307004",
+    "assessment_label": "Beck anxiety standardized rating scale",
+    "confidence": "medium"
+  },
+  "ICE_sorrow": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273365005",
+    "assessment_label": "Impact of event scale",
+    "confidence": "medium"
+  },
+  "lifestyle": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "NR": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273590008",
+    "assessment_label": "Medical outcomes study short form general health survey",
+    "confidence": "medium"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "PCAE": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273650002",
+    "assessment_label": "Patient Satisfaction Questionnaire",
+    "confidence": "medium"
+  },
+  "PCAE_c": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273683001",
+    "assessment_label": "Modified Strengths and Difficulties Questionnaire 8 - Parent",
+    "confidence": "medium"
+  },
+  "PCAE_i": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273515002",
+    "assessment_label": "Health status index",
+    "confidence": "medium"
+  },
+  "PD": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273623005",
+    "assessment_label": "Disability rating scale",
+    "confidence": "medium"
+  },
+  "politics1": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "politics2": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "politics3": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "residence": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "SES": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  }
+}

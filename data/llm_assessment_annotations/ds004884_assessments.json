@@ -1,0 +1,44 @@
+{
+  "age_at_stroke": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "race": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "wab_aq": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273927008",
+    "assessment_label": "Western Aphasia Battery",
+    "confidence": "high"
+  },
+  "wab_days": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "wab_type": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  }
+}

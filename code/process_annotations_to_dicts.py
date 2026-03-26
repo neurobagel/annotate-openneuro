@@ -471,7 +471,7 @@ def process_annotations_to_dicts(
 if __name__ == "__main__":
     COLUMN_SUMMARIES_PATH = (
         RESOURCES_DIR
-        / "participants_tsv_columns_summary_with_assessment_annotations.tsv"
+        / "participants_tsv_columns_summary_with_reviewed_assessment_annotations.tsv"
     )
     VALUE_SUMMARIES_PATH = (
         RESOURCES_DIR

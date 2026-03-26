@@ -24,6 +24,8 @@ OPENROUTER_REQUEST_HEADERS = {
     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
     "Content-Type": "application/json",
 }
+MODEL = "gpt-4o-mini"
+
 ASSESSMENT_VOCAB_URL = "https://raw.githubusercontent.com/neurobagel/communities/refs/heads/main/configs/Neurobagel/assessment.json"
 
 
@@ -40,7 +42,7 @@ def fetch_file_from_url(url: str) -> dict:
 
 def send_prompt_to_llm(prompt: str) -> dict:
     data = {
-        "model": "gpt-4o-mini",
+        "model": MODEL,
         "messages": [{"role": "user", "content": prompt}],
     }
 

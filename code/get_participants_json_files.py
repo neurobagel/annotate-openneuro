@@ -23,10 +23,10 @@ DATA_DIR = Path(__file__).parents[1] / "data"
 
 logging.basicConfig(
     level=logging.INFO,
-    format="%(levelname)s: %(message)s",
+    format="%(asctime)s %(levelname)s: %(message)s",
     filename=Path(__file__).parent / "logs" / f"{Path(__file__).stem}.log",
 )
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(Path(__file__).stem)
 
 
 def get_app_private_key():

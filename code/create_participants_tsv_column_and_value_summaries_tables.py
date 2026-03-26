@@ -9,11 +9,11 @@ from tqdm import tqdm
 
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s %(name)s %(levelname)s: %(message)s",
+    format="%(asctime)s %(levelname)s: %(message)s",
     datefmt="[%Y-%m-%d %H:%M:%S]",
     filename=Path(__file__).parent / "logs" / f"{Path(__file__).stem}.log",
 )
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(Path(__file__).stem)
 
 DATA_DIR = Path(__file__).parents[1] / "data"
 RESOURCES_DIR = Path(__file__).parents[1] / "resources"

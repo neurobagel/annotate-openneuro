@@ -122,7 +122,10 @@ def get_annotated_columns_in_data_dict_by_dataset(
     The output dictionary can be saved as a reference to inform future annotation efforts.
     """
     column_annotations_overview = {}
-    for ds_id, ds_columns in column_summaries.groupby("dataset"):
+    for ds_id, ds_columns in tqdm(
+        list(column_summaries.groupby("dataset")),
+        desc="Summarizing annotated vs unannotated columns in datasets",
+    ):
         annotated_columns = []
         unannotated_columns = []
 

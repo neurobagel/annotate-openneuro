@@ -1,0 +1,470 @@
+{
+  "AdditionalNotes": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult1": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult1_Edu": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult1_In_Household": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult1_Occupation": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult1_Other": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult2": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult2_Edu": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult2_In_Household": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult2_Occupation": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult2_Other": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult3": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult3_Edu": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult3_In_Household": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult3_Occupation": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult4": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult4_Edu": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult4_In_Household": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Adult4_Occupation": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "asrs1": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs10": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs11": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs12": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs13": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs14": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs15": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs16": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs17": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs18": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs2": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs3": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs4": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs5": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs6": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs7": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs8": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "asrs9": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273860007",
+    "assessment_label": "Symptom checklist",
+    "confidence": "high"
+  },
+  "CapSize": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Date": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "EEG_Tasks": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Employed": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Employed_Yes": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "fs1": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "fs2": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "fs3": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "fs4": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "fs5": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "fs6": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Gender": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Handedness": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Highest_Adult_Edu": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Highest_Edu": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "hnc1a": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "hnc1b": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "hnc1c": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "hnc1d": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "hnc2a": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "hnc2b": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "hnc3": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "hnc4": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Household_Members": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "IDEAID": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Income": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Income_Household": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Issues": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "L1_AoA": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "L1_recoded": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "L2_AoA": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "L2_recoded": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "LEARN_L1": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "LEARN_L2": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Occupation": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Project": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Replaced_electrode": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Subjective_SES": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Time": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "high"
+  },
+  "BDI": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273306008",
+    "assessment_label": "Beck depression inventory",
+    "confidence": "high"
+  },
+  "Original_ID": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "high"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "high"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "high"
+  },
+  "STAI": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "medium"
+  }
+}

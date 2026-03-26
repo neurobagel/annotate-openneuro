@@ -1,0 +1,74 @@
+{
+  "Age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "CESD": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:1231439001",
+    "assessment_label": "Calgary Depression Scale for Schizophrenia",
+    "confidence": "medium"
+  },
+  "ERQ_CR": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "ERQ_ES": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "Gender": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Group": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "SIAS": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "SNS": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "other assessment",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "stimulation_side": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "UCLA_R": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:1103791000000107",
+    "assessment_label": "Revised UCLA (University of California Los Angeles) Loneliness scale",
+    "confidence": "high"
+  },
+  "UCLA_R_screening": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:1129571000000106",
+    "assessment_label": "UCLA (University of California Los Angeles) Loneliness Scale (Version 3)",
+    "confidence": "medium"
+  }
+}

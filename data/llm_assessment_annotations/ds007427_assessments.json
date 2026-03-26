@@ -1,0 +1,104 @@
+{
+  "age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Denom_alta": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Denom_baja": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Denom_error": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Denom_med": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "Denom_total": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "education": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "hand": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "MM_atenc": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273369004",
+    "assessment_label": "Clinical evaluation of language function revised",
+    "confidence": "medium"
+  },
+  "MM_espac": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273369004",
+    "assessment_label": "Clinical evaluation of language function revised",
+    "confidence": "medium"
+  },
+  "MM_evoc": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273369004",
+    "assessment_label": "Clinical evaluation of language function revised",
+    "confidence": "medium"
+  },
+  "MM_fijac": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273369004",
+    "assessment_label": "Clinical evaluation of language function revised",
+    "confidence": "medium"
+  },
+  "MM_leng": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273369004",
+    "assessment_label": "Clinical evaluation of language function revised",
+    "confidence": "medium"
+  },
+  "MM_Tiempo": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273369004",
+    "assessment_label": "Clinical evaluation of language function revised",
+    "confidence": "medium"
+  },
+  "MM_total": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  }
+}

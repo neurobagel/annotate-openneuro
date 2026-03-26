@@ -93,3 +93,14 @@ python code/process_annotations_to_dicts.py
 This script will:
 - Create a JSON file (`resources/annotated_columns_by_dataset.json`) summarizing the currently annotated vs. unannotated columns by dataset based on the input column summaries table
 - Create a Neurobagel data dictionary JSON for each dataset from the column summaries table with at least one column annotation, with output files stored in `data/annotated_dictionaries`
+
+### First-pass LLM assessment annotation
+1. Set the environment variable `OPENROUTER_API_KEY` to the value of your API key for OpenRouter 
+2. Run the LLM classification (note: can take up to several minutes per dataset):
+    ```bash
+    python code/llm_classify_assessments.py
+    ```
+3. Add the LLM annotation information for columns classified as assessment back to the column summaries table:
+    ```bash
+    python code/add_llm_annotations_to_column_summaries_table.py
+    ```

@@ -1,0 +1,182 @@
+{
+  "ari_child_cbt03": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "ari_child_cbt08": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "ari_child_cbt12": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "cgas_cbt03": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "cgas_cbt08": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "cgas_cbt12": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "cgi_cbt12": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450756001",
+    "assessment_label": "Clinical Global Impression",
+    "confidence": "high"
+  },
+  "condition": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "group": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "ksads_screening": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273409000",
+    "assessment_label": "Diagnostic interview for children and adolescents",
+    "confidence": "high"
+  },
+  "mfqc_cbt03": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "mfqc_cbt08": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "mfqc_cbt12": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "mri_post": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "mri_pre": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "pars_cbt03": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "pars_cbt08": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "pars_cbt12": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "race": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "scared_child_cbt03": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "scared_child_cbt08": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "scared_child_cbt12": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "scared_parent_cbt03": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "scared_parent_cbt08": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "scared_parent_cbt12": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "staic_cbt03": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "staic_cbt08": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  },
+  "staic_cbt12": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:450740006",
+    "assessment_label": "Children's global assessment scale",
+    "confidence": "high"
+  }
+}

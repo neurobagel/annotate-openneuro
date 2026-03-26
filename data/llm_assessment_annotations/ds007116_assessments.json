@@ -1,0 +1,104 @@
+{
+  "age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "age_months": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "dx_adhd": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "dx_bp": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "dx_mdd": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "dx_moodnos": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "dx_none": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "dx_prodromal": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "dx_prodromal_remit": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "dx_psychosis": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "dx_ptsd": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "dx_ptsd_remit": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "low"
+  },
+  "ethnicity": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "race": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "study_group": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  }
+}

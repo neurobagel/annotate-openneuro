@@ -1,0 +1,146 @@
+{
+  "age": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "attention": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:311406000",
+    "assessment_label": "Attention process training questionnaire",
+    "confidence": "high"
+  },
+  "commercial_use": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "contrastChangeDetection_1": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "contrastChangeDetection_2": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "contrastChangeDetection_3": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "DespicableMe": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "DiaryOfAWimpyKid": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "ehq_total": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273257009",
+    "assessment_label": "Edinburgh Handedness Questionnaire",
+    "confidence": "high"
+  },
+  "externalizing": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273364009",
+    "assessment_label": "Externalizing behavior assessment",
+    "confidence": "high"
+  },
+  "full_pheno": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "FunwithFractals": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "internalizing": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:273375008",
+    "assessment_label": "Internalizing behavior assessment",
+    "confidence": "high"
+  },
+  "p_factor": {
+    "variable_id": "nb:Assessment",
+    "assessment_id": "snomed:276571000000104",
+    "assessment_label": "Psychiatric disorder comorbidity assessment",
+    "confidence": "medium"
+  },
+  "participant_id": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "release_number": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "RestingState": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "seqLearning6target": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "seqLearning8target": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "sex": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "surroundSupp_1": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "surroundSupp_2": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "symbolSearch": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  },
+  "ThePresent": {
+    "variable_id": "Other",
+    "assessment_id": "n/a",
+    "assessment_label": "n/a",
+    "confidence": "n/a"
+  }
+}

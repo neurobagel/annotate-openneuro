@@ -85,15 +85,19 @@ def get_single_instance_variables() -> list:
     ]
 
 
+def load_json(path: Path) -> dict:
+    # Use encoding "utf-8-sig" to handle potential BOM in JSON files - common in Windows-created files
+    with open(path, "r", encoding="utf-8-sig") as f:
+        return json.load(f)
+
+
 def load_participants_json(dataset: str, path: Path) -> dict:
     """Load a participants.json file (if it exists) and return its contents as a dictionary."""
     if not path.exists():
         logger.warning(f"{dataset}: No participants.json available")
         return {}
     try:
-        # Use encoding "utf-8-sig" to handle potential BOM in JSON files - common in Windows-created files
-        with open(path, "r", encoding="utf-8-sig") as f:
-            return json.load(f)
+        return load_json(path)
     except Exception as e:
         logger.warning(f"{dataset}: Error loading JSON file {path.name}: {e}")
         return {}
@@ -104,20 +108,36 @@ def save_json(data: dict, path: Path):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def get_annotated_columns_by_dataset(column_summaries: pd.DataFrame) -> dict:
+def get_annotated_columns_in_data_dict_by_dataset(
+    column_summaries: pd.DataFrame,
+) -> dict:
     """
-    Get lists of annotated vs unannotated columns by dataset as a dictionary.
-    The output can be saved as a reference to inform future annotation efforts.
+    Create a dict containing lists of columns with and without Neurobagel data dictionary annotations by dataset,
+    based on the annotated data dictionaries created by this script and the original column summaries TSV.
+
+    We use the annotated data dictionaries created by this script as the source of truth for
+    which columns have a complete and validated annotation (e.g., some columns in the column summaries table
+    may be mapped to a standardized variable but could be lacking value annotations or have other data quality issues).
+
+    The output dictionary can be saved as a reference to inform future annotation efforts.
     """
-    annotations_count_by_dataset = {}
+    column_annotations_overview = {}
     for ds_id, ds_columns in column_summaries.groupby("dataset"):
-        annotated_columns = ds_columns.loc[
-            ds_columns["standardized_var"] != "", "column"
-        ].tolist()
-        unannotated_columns = ds_columns.loc[
-            ds_columns["standardized_var"] == "", "column"
-        ].tolist()
-        annotations_count_by_dataset[ds_id] = {
+        annotated_columns = []
+        unannotated_columns = []
+
+        annotated_dict_path = OUT_DIR / f"{ds_id}_annotated.json"
+        if annotated_dict_path.exists():
+            annotated_dict = load_json(annotated_dict_path)
+            for column, contents in annotated_dict.items():
+                if "Annotations" in contents:
+                    annotated_columns.append(column)
+                else:
+                    unannotated_columns.append(column)
+        else:
+            unannotated_columns = ds_columns["column"].tolist()
+
+        column_annotations_overview[ds_id] = {
             "total_columns": len(ds_columns),
             "annotated_columns": {
                 "count": len(annotated_columns),
@@ -129,11 +149,18 @@ def get_annotated_columns_by_dataset(column_summaries: pd.DataFrame) -> dict:
             },
         }
 
-    return annotations_count_by_dataset
+    return column_annotations_overview
 
 
 def any_columns_annotated(dataset_columns: pd.DataFrame) -> bool:
-    return dataset_columns["standardized_var"].any()
+    """
+    Return True if any columns in the dataset have been mapped to a standardized variable,
+    either through manual/heuristic-based annotation or LLM classification.
+    """
+    return (
+        dataset_columns["standardized_var"].any()
+        or dataset_columns["llm_classification"].any()
+    )
 
 
 def is_identifier_column(var_term_url: str) -> bool:
@@ -284,8 +311,11 @@ def process_dataset_annotations_to_dict(
         data_dict.setdefault(column_name, {}).setdefault("Description", "")
 
         standardized_var = ds_column["standardized_var"]
+        llm_classified_var = ds_column["llm_classification"]
         column_annotations = {}
-        if ds_column["exclude"].lower() == "true" or not standardized_var:
+        if ds_column["exclude"].lower() == "true" or (
+            not standardized_var and not llm_classified_var
+        ):
             pass
         elif is_identifier_column(standardized_var):
             column_annotations = get_identifier_annotations(standardized_var)
@@ -294,7 +324,7 @@ def process_dataset_annotations_to_dict(
         elif standardized_var == "nb:Sex":
             column_annotations = get_sex_annotations(ds_column_values)
         # Assessments were annotated by an LLM and then human-reviewed
-        elif ds_column["llm_classification"] == "nb:Assessment":
+        elif llm_classified_var == "nb:Assessment":
             column_annotations = get_assessment_annotations(ds_column, ds_column_values)
 
         if column_annotations:
@@ -415,13 +445,6 @@ def process_annotations_to_dicts(
         keep_default_na=False,
     )
 
-    # Save lists of annotated vs unannotated columns by dataset as a reference
-    annotated_columns_by_dataset = get_annotated_columns_by_dataset(column_summaries)
-    save_json(
-        annotated_columns_by_dataset,
-        RESOURCES_DIR / "annotated_columns_by_dataset.json",
-    )
-
     column_summaries = mark_duplicate_single_instance_vars_for_exclusion(
         column_summaries
     )
@@ -465,6 +488,15 @@ def process_annotations_to_dicts(
 
     logger.info(
         f"Created annotated data dictionaries for {annotated_data_dicts_created}/{len(ds_groups)} datasets."
+    )
+
+    # Save lists of annotated vs unannotated columns by dataset as a reference
+    annotated_columns_by_dataset = get_annotated_columns_in_data_dict_by_dataset(
+        column_summaries
+    )
+    save_json(
+        annotated_columns_by_dataset,
+        RESOURCES_DIR / "annotated_columns_by_dataset.json",
     )
 
 

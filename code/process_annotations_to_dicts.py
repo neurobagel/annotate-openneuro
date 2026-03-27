@@ -220,7 +220,10 @@ def get_age_annotations(column_row: pd.Series, column_values: pd.DataFrame) -> d
     ].tolist()
     # Also include common missing values by default as a workaround for not accurately detecting them in age columns
     # (especially columns where unique values are not available in the value summaries table).
-    missing_values = list({*detected_missing_values, *COMMON_MISSING_VALUES})
+    # NOTE: this is a trick to ensure unique values while also preserving order
+    missing_values = list(
+        dict.fromkeys([*COMMON_MISSING_VALUES, *detected_missing_values])
+    )
 
     annotations = {
         **get_base_annotations("nb:Age"),
@@ -288,7 +291,9 @@ def get_assessment_annotations(
     ].tolist()
     # Also include common missing values by default as a workaround for not accurately
     # detecting them in assessment columns
-    missing_values = list({*detected_missing_values, *COMMON_MISSING_VALUES})
+    missing_values = list(
+        dict.fromkeys([*COMMON_MISSING_VALUES, *detected_missing_values])
+    )
 
     annotations = {
         **get_base_annotations("nb:Assessment"),

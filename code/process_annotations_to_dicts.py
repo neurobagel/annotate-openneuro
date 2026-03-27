@@ -277,7 +277,7 @@ def get_assessment_annotations(
     term_label = NEUROBAGEL_ASSESSMENTS_VOCAB.get(snomed_term_id)
     if not term_label:
         logger.warning(
-            f"{column_row['dataset']}: Unknown assessment term for column {column_row['column']}: {term_id}. "
+            f"{column_row['dataset']}: Unknown assessment term for column '{column_row['column']}': '{term_id}'. "
             "Skipping assessment annotation."
         )
         return {}

@@ -22,6 +22,7 @@ RESOURCES_DIR = ROOT_PATH / "resources"
 OUT_DIR = DATA_DIR / "annotated_dictionaries"
 
 NEUROBAGEL_VARIABLES_VOCAB_URL = "https://raw.githubusercontent.com/neurobagel/communities/refs/heads/main/configs/Neurobagel/config.json"
+NEUROBAGEL_ASSESSMENTS_VOCAB_URL = "https://raw.githubusercontent.com/neurobagel/communities/refs/heads/main/configs/Neurobagel/assessment.json"
 NEUROBAGEL_DATA_DICT_SCHEMA_URL = "https://raw.githubusercontent.com/neurobagel/bagelschema/refs/heads/main/neurobagel_data_dictionary.schema.json"
 
 # NOTE: All values in this list should be interpreted by pd.read_csv as missing values by default
@@ -64,6 +65,18 @@ def get_formats_for_variable(var_term_url: str) -> dict:
 AGE_FORMAT_LABELS = get_formats_for_variable("nb:Age")
 
 
+def fetch_assessments_vocabulary_as_dict() -> dict:
+    vocab = fetch_file_from_url(NEUROBAGEL_ASSESSMENTS_VOCAB_URL)[0]
+    assessments = {}
+    for term in vocab["terms"]:
+        term_url = f"snomed:{term['id']}"
+        assessments[term_url] = term["name"]
+    return assessments
+
+
+NEUROBAGEL_ASSESSMENTS_VOCAB = fetch_assessments_vocabulary_as_dict()
+
+
 def get_single_instance_variables() -> list:
     return [
         var_term_url
@@ -72,15 +85,19 @@ def get_single_instance_variables() -> list:
     ]
 
 
+def load_json(path: Path) -> dict:
+    # Use encoding "utf-8-sig" to handle potential BOM in JSON files - common in Windows-created files
+    with open(path, "r", encoding="utf-8-sig") as f:
+        return json.load(f)
+
+
 def load_participants_json(dataset: str, path: Path) -> dict:
     """Load a participants.json file (if it exists) and return its contents as a dictionary."""
     if not path.exists():
         logger.warning(f"{dataset}: No participants.json available")
         return {}
     try:
-        # Use encoding "utf-8-sig" to handle potential BOM in JSON files - common in Windows-created files
-        with open(path, "r", encoding="utf-8-sig") as f:
-            return json.load(f)
+        return load_json(path)
     except Exception as e:
         logger.warning(f"{dataset}: Error loading JSON file {path.name}: {e}")
         return {}
@@ -91,20 +108,39 @@ def save_json(data: dict, path: Path):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def get_annotated_columns_by_dataset(column_summaries: pd.DataFrame) -> dict:
+def get_annotated_columns_in_data_dict_by_dataset(
+    column_summaries: pd.DataFrame,
+) -> dict:
     """
-    Get lists of annotated vs unannotated columns by dataset as a dictionary.
-    The output can be saved as a reference to inform future annotation efforts.
+    Create a dict containing lists of columns with and without Neurobagel data dictionary annotations by dataset,
+    based on the annotated data dictionaries created by this script and the original column summaries TSV.
+
+    We use the annotated data dictionaries created by this script as the source of truth for
+    which columns have a complete and validated annotation (e.g., some columns in the column summaries table
+    may be mapped to a standardized variable but could be lacking value annotations or have other data quality issues).
+
+    The output dictionary can be saved as a reference to inform future annotation efforts.
     """
-    annotations_count_by_dataset = {}
-    for ds_id, ds_columns in column_summaries.groupby("dataset"):
-        annotated_columns = ds_columns.loc[
-            ds_columns["standardized_var"] != "", "column"
-        ].tolist()
-        unannotated_columns = ds_columns.loc[
-            ds_columns["standardized_var"] == "", "column"
-        ].tolist()
-        annotations_count_by_dataset[ds_id] = {
+    column_annotations_overview = {}
+    for ds_id, ds_columns in tqdm(
+        list(column_summaries.groupby("dataset")),
+        desc="Summarizing annotated vs unannotated columns in datasets",
+    ):
+        annotated_columns = []
+        unannotated_columns = []
+
+        annotated_dict_path = OUT_DIR / f"{ds_id}_annotated.json"
+        if annotated_dict_path.exists():
+            annotated_dict = load_json(annotated_dict_path)
+            for column, contents in annotated_dict.items():
+                if "Annotations" in contents:
+                    annotated_columns.append(column)
+                else:
+                    unannotated_columns.append(column)
+        else:
+            unannotated_columns = ds_columns["column"].tolist()
+
+        column_annotations_overview[ds_id] = {
             "total_columns": len(ds_columns),
             "annotated_columns": {
                 "count": len(annotated_columns),
@@ -116,11 +152,18 @@ def get_annotated_columns_by_dataset(column_summaries: pd.DataFrame) -> dict:
             },
         }
 
-    return annotations_count_by_dataset
+    return column_annotations_overview
 
 
 def any_columns_annotated(dataset_columns: pd.DataFrame) -> bool:
-    return dataset_columns["standardized_var"].any()
+    """
+    Return True if any columns in the dataset have been mapped to a standardized variable,
+    either through manual/heuristic-based annotation or LLM classification.
+    """
+    return (
+        dataset_columns["standardized_var"].any()
+        or dataset_columns["llm_classification"].any()
+    )
 
 
 def is_identifier_column(var_term_url: str) -> bool:
@@ -175,9 +218,12 @@ def get_age_annotations(column_row: pd.Series, column_values: pd.DataFrame) -> d
     detected_missing_values = column_values.loc[
         column_values["is_missing_value"].str.lower() == "true", "value"
     ].tolist()
-    # Also include common missing values by default as a workaround for accurately detecting them in age columns
+    # Also include common missing values by default as a workaround for not accurately detecting them in age columns
     # (especially columns where unique values are not available in the value summaries table).
-    missing_values = list({*detected_missing_values, *COMMON_MISSING_VALUES})
+    # NOTE: this is a trick to ensure unique values while also preserving order
+    missing_values = list(
+        dict.fromkeys([*COMMON_MISSING_VALUES, *detected_missing_values])
+    )
 
     annotations = {
         **get_base_annotations("nb:Age"),
@@ -203,6 +249,8 @@ def get_sex_annotations(column_values: pd.DataFrame) -> dict:
                     f"Column: '{value_row['column']}', value: '{value}'"
                 )
             # Any unannotated values must be included as missing to avoid CLI errors later on
+            # This will also capture any values where "is_missing_value" was marked True,
+            # since those rows will also have empty values for "standardized_term" and "standardized_label"
             missing_values.append(value)
 
     annotations = {
@@ -210,6 +258,49 @@ def get_sex_annotations(column_values: pd.DataFrame) -> dict:
         "Levels": levels,
         "MissingValues": missing_values,
     }
+    return annotations
+
+
+def get_assessment_annotations(
+    column_row: pd.Series, column_values: pd.DataFrame
+) -> dict:
+    term_id = ""
+    if manual_term_id := column_row["assessment_term"]:
+        term_id = manual_term_id
+    elif column_row["reviewer_rating"] == "correct":
+        term_id = column_row["llm_snomed_term"]
+    else:
+        # Assessment annotation was invalid or uses an unsupported assessment term
+        return {}
+
+    # NOTE: Assessment term IDs in the table did not have prefixes in order to enable easier lookup,
+    # so we add it back here
+    snomed_term_id = f"snomed:{term_id.removeprefix('snomed:')}"
+
+    term_label = NEUROBAGEL_ASSESSMENTS_VOCAB.get(snomed_term_id)
+    if not term_label:
+        logger.warning(
+            f"{column_row['dataset']}: Unknown assessment term for column '{column_row['column']}': '{term_id}'. "
+            "Skipping assessment annotation."
+        )
+        return {}
+
+    # Include any values that may already have been marked as missing
+    detected_missing_values = column_values.loc[
+        column_values["is_missing_value"].str.lower() == "true", "value"
+    ].tolist()
+    # Also include common missing values by default as a workaround for not accurately
+    # detecting them in assessment columns
+    missing_values = list(
+        dict.fromkeys([*COMMON_MISSING_VALUES, *detected_missing_values])
+    )
+
+    annotations = {
+        **get_base_annotations("nb:Assessment"),
+        "IsPartOf": annotate_term(snomed_term_id, term_label),
+        "MissingValues": missing_values,
+    }
+
     return annotations
 
 
@@ -228,8 +319,11 @@ def process_dataset_annotations_to_dict(
         data_dict.setdefault(column_name, {}).setdefault("Description", "")
 
         standardized_var = ds_column["standardized_var"]
+        llm_classified_var = ds_column["llm_classification"]
         column_annotations = {}
-        if ds_column["exclude"].lower() == "true" or not standardized_var:
+        if ds_column["exclude"].lower() == "true" or (
+            not standardized_var and not llm_classified_var
+        ):
             pass
         elif is_identifier_column(standardized_var):
             column_annotations = get_identifier_annotations(standardized_var)
@@ -237,6 +331,9 @@ def process_dataset_annotations_to_dict(
             column_annotations = get_age_annotations(ds_column, ds_column_values)
         elif standardized_var == "nb:Sex":
             column_annotations = get_sex_annotations(ds_column_values)
+        # Assessments were annotated by an LLM and then human-reviewed
+        elif llm_classified_var == "nb:Assessment":
+            column_annotations = get_assessment_annotations(ds_column, ds_column_values)
 
         if column_annotations:
             # TODO: Eventually check for and handle any existing annotations for the column?
@@ -319,10 +416,6 @@ def mark_duplicate_single_instance_vars_for_exclusion(
 def process_annotations_to_dicts(
     column_summaries_path: Path, value_summaries_path: Path
 ):
-    """
-    TODO:
-    - Process assessment annotations
-    """
     OUT_DIR.mkdir(exist_ok=True)
 
     # NOTE: keep_default_na=False prevents pandas from converting 'empty' cells to NaN,
@@ -335,9 +428,18 @@ def process_annotations_to_dicts(
             "standardized_var": str,
             "age_format": str,
             "exclude": str,
+            "llm_classification": str,  # "nb:Assessment" for columns classified as an assessment by the LLM
+            "llm_snomed_term": str,  # LLM-designated SNOMED term ID
+            "reviewer_rating": str,  # one of "correct", "missed", or "incorrect" for LLM-annotated columns
+            "assessment_term": str,  # manually annotated SNOMED term ID for columns missed / incorrectly annotated by LLM
         },
         keep_default_na=False,
     )
+    # Drop some columns we don't need
+    column_summaries = column_summaries.drop(
+        columns=["llm_confidence", "reviewer_notes", "reviewer_name"]
+    )
+
     value_summaries = pd.read_csv(
         value_summaries_path,
         sep="\t",
@@ -349,13 +451,6 @@ def process_annotations_to_dicts(
             "is_missing_value": str,
         },
         keep_default_na=False,
-    )
-
-    # Save lists of annotated vs unannotated columns by dataset as a reference
-    annotated_columns_by_dataset = get_annotated_columns_by_dataset(column_summaries)
-    save_json(
-        annotated_columns_by_dataset,
-        RESOURCES_DIR / "annotated_columns_by_dataset.json",
     )
 
     column_summaries = mark_duplicate_single_instance_vars_for_exclusion(
@@ -403,10 +498,20 @@ def process_annotations_to_dicts(
         f"Created annotated data dictionaries for {annotated_data_dicts_created}/{len(ds_groups)} datasets."
     )
 
+    # Save lists of annotated vs unannotated columns by dataset as a reference
+    annotated_columns_by_dataset = get_annotated_columns_in_data_dict_by_dataset(
+        column_summaries
+    )
+    save_json(
+        annotated_columns_by_dataset,
+        RESOURCES_DIR / "annotated_columns_by_dataset.json",
+    )
+
 
 if __name__ == "__main__":
     COLUMN_SUMMARIES_PATH = (
-        RESOURCES_DIR / "participants_tsv_columns_summary_first_guess_manual_pass.tsv"
+        RESOURCES_DIR
+        / "participants_tsv_columns_summary_with_reviewed_assessment_annotations.tsv"
     )
     VALUE_SUMMARIES_PATH = (
         RESOURCES_DIR

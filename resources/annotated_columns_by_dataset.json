@@ -33,41 +33,41 @@
   "ds003474": {
     "total_columns": 6,
     "annotated_columns": {
-      "count": 3,
+      "count": 5,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age",
+        "BDI",
+        "STAI"
       ]
     },
     "unannotated_columns": {
-      "count": 3,
+      "count": 1,
       "names": [
-        "BDI",
-        "Original_ID",
-        "STAI"
+        "Original_ID"
       ]
     }
   },
   "ds003478": {
     "total_columns": 9,
     "annotated_columns": {
-      "count": 3,
+      "count": 5,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age",
+        "BDI",
+        "STAI"
       ]
     },
     "unannotated_columns": {
-      "count": 6,
+      "count": 4,
       "names": [
-        "BDI",
-        "HamD",
         "Original_ID",
         "SCID",
         "SCID_notes",
-        "STAI"
+        "HamD"
       ]
     }
   },
@@ -76,38 +76,38 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "Age",
         "participant_id",
-        "Sex"
+        "Sex",
+        "Age"
       ]
     },
     "unannotated_columns": {
       "count": 7,
       "names": [
+        "orig_ID",
         "Accuracy_Manipulation_5",
         "Accuracy_Manipulation_6",
         "Accuracy_Manipulation_7",
         "Accuracy_Retention_5",
         "Accuracy_Retention_6",
-        "Accuracy_Retention_7",
-        "orig_ID"
+        "Accuracy_Retention_7"
       ]
     }
   },
   "ds004118": {
     "total_columns": 4,
     "annotated_columns": {
-      "count": 2,
+      "count": 1,
       "names": [
-        "group",
         "participant_id"
       ]
     },
     "unannotated_columns": {
-      "count": 2,
+      "count": 3,
       "names": [
-        "legacy_labID",
-        "year_of_birth"
+        "group",
+        "year_of_birth",
+        "legacy_labID"
       ]
     }
   },
@@ -116,50 +116,50 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
+        "participant_id",
         "gender",
-        "participant_id"
+        "age"
       ]
     },
     "unannotated_columns": {
       "count": 4,
       "names": [
-        "commercial_use",
-        "full_pheno",
+        "release",
         "handedness",
-        "release"
+        "commercial_use",
+        "full_pheno"
       ]
     }
   },
   "ds004199": {
     "total_columns": 19,
     "annotated_columns": {
-      "count": 3,
+      "count": 2,
       "names": [
-        "group",
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
-      "count": 16,
+      "count": 17,
       "names": [
-        "1year_outcome",
+        "group",
         "age_epilepsyonset",
-        "age_op",
         "age_scan",
-        "hemisphere",
-        "histopathology",
-        "invasive_EEG",
-        "latest_outcome",
-        "lobe",
-        "map",
         "mri_diagnosis",
-        "op",
-        "pet",
+        "map",
         "spect",
-        "split",
-        "time_follow-up"
+        "pet",
+        "invasive_EEG",
+        "op",
+        "age_op",
+        "histopathology",
+        "1year_outcome",
+        "latest_outcome",
+        "time_follow-up",
+        "hemisphere",
+        "lobe",
+        "split"
       ]
     }
   },
@@ -168,8 +168,8 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
@@ -183,126 +183,127 @@
   "ds004466": {
     "total_columns": 4,
     "annotated_columns": {
-      "count": 4,
+      "count": 3,
       "names": [
-        "age",
-        "group",
         "participant_id",
+        "age",
         "sex"
       ]
     },
     "unannotated_columns": {
-      "count": 0,
-      "names": []
+      "count": 1,
+      "names": [
+        "group"
+      ]
     }
   },
   "ds004574": {
     "total_columns": 10,
     "annotated_columns": {
-      "count": 4,
+      "count": 5,
       "names": [
-        "AGE",
+        "participant_id",
         "GENDER",
-        "GROUP",
-        "participant_id"
+        "AGE",
+        "MOCA",
+        "UPDRS"
       ]
     },
     "unannotated_columns": {
-      "count": 6,
+      "count": 5,
       "names": [
-        "BEHAVIOR",
-        "EEG",
+        "GROUP",
         "ID",
-        "MOCA",
-        "TYPE",
-        "UPDRS"
+        "EEG",
+        "BEHAVIOR",
+        "TYPE"
       ]
     }
   },
   "ds004579": {
     "total_columns": 9,
     "annotated_columns": {
-      "count": 4,
+      "count": 5,
       "names": [
-        "AGE",
+        "participant_id",
         "GENDER",
-        "GROUP",
-        "participant_id"
+        "AGE",
+        "MOCA",
+        "UPDRS"
       ]
     },
     "unannotated_columns": {
-      "count": 5,
+      "count": 4,
       "names": [
-        "EEG",
+        "GROUP",
         "ID",
-        "MOCA",
-        "TYPE",
-        "UPDRS"
+        "EEG",
+        "TYPE"
       ]
     }
   },
   "ds004580": {
     "total_columns": 10,
     "annotated_columns": {
-      "count": 4,
+      "count": 5,
       "names": [
-        "AGE",
+        "participant_id",
         "GENDER",
-        "GROUP",
-        "participant_id"
+        "AGE",
+        "MOCA",
+        "UPDRS"
       ]
     },
     "unannotated_columns": {
-      "count": 6,
+      "count": 5,
       "names": [
-        "BEHAVIOR",
-        "EEG",
+        "GROUP",
         "ID",
-        "MOCA",
-        "TYPE",
-        "UPDRS"
+        "EEG",
+        "BEHAVIOR",
+        "TYPE"
       ]
     }
   },
   "ds004584": {
     "total_columns": 9,
     "annotated_columns": {
-      "count": 4,
+      "count": 5,
       "names": [
-        "AGE",
+        "participant_id",
         "GENDER",
-        "GROUP",
-        "participant_id"
+        "AGE",
+        "MOCA",
+        "UPDRS"
       ]
     },
     "unannotated_columns": {
-      "count": 5,
+      "count": 4,
       "names": [
-        "EEG",
+        "GROUP",
         "ID",
-        "MOCA",
-        "TYPE",
-        "UPDRS"
+        "EEG",
+        "TYPE"
       ]
     }
   },
   "ds004602": {
     "total_columns": 8,
     "annotated_columns": {
-      "count": 5,
+      "count": 3,
       "names": [
-        "Age",
         "Gender",
-        "participant_id",
-        "Sex",
-        "SubjectID"
+        "Age",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
-      "count": 3,
+      "count": 5,
       "names": [
-        "Ethnicity",
+        "SubjectID",
+        "Sex",
         "Race",
+        "Ethnicity",
         "StudySite"
       ]
     }
@@ -312,8 +313,8 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
@@ -327,8 +328,8 @@
     "annotated_columns": {
       "count": 2,
       "names": [
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
@@ -344,9 +345,9 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
+        "participant_id",
         "gender",
-        "participant_id"
+        "age"
       ]
     },
     "unannotated_columns": {
@@ -364,16 +365,16 @@
       "count": 3,
       "names": [
         "age",
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
       "count": 3,
       "names": [
+        "zygosity",
         "family_id",
-        "twin_id",
-        "zygosity"
+        "twin_id"
       ]
     }
   },
@@ -382,8 +383,8 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
@@ -399,9 +400,9 @@
     "annotated_columns": {
       "count": 3,
       "names": [
+        "sex",
         "age",
-        "participant_id",
-        "sex"
+        "participant_id"
       ]
     },
     "unannotated_columns": {
@@ -412,32 +413,16 @@
   "ds004796": {
     "total_columns": 87,
     "annotated_columns": {
-      "count": 3,
+      "count": 20,
       "names": [
-        "age",
         "participant_id",
-        "sex"
-      ]
-    },
-    "unannotated_columns": {
-      "count": 84,
-      "names": [
-        "allergies",
-        "APOE_haplotype",
-        "APOE_rs429358",
-        "APOE_rs7412",
-        "AUDIT",
-        "basophils",
-        "basophils_%",
+        "age",
+        "sex",
         "BDI",
-        "BMI",
-        "cholesterol_HDL",
-        "coffee_status",
+        "SES",
+        "RPM",
+        "AUDIT",
         "CVLT_1",
-        "CVLT_10",
-        "CVLT_11",
-        "CVLT_12",
-        "CVLT_13",
         "CVLT_2",
         "CVLT_3",
         "CVLT_4",
@@ -446,33 +431,41 @@
         "CVLT_7",
         "CVLT_8",
         "CVLT_9",
-        "dementia_history_parents",
-        "diabetes",
-        "drugs",
+        "CVLT_10",
+        "CVLT_11",
+        "CVLT_12",
+        "CVLT_13"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 67,
+      "names": [
+        "second_phase",
+        "session_order",
+        "APOE_rs429358",
+        "APOE_rs7412",
+        "APOE_haplotype",
+        "PICALM_rs3851179",
         "education",
-        "EHI",
-        "eosinophils",
-        "eosinophils_%",
-        "erythrocytes",
-        "hematocrit",
-        "hemoglobin",
-        "HSV_r",
-        "hypertension",
-        "ibuprofen_intake",
-        "LDL_cholesterol",
         "learning_deficits",
-        "leukocytes",
-        "lymphocytes",
-        "lymphocytes_%",
-        "MCH",
-        "MCHC",
-        "MCV",
+        "BMI",
+        "allergies",
+        "drugs",
+        "ibuprofen_intake",
+        "thyroid_diseases",
+        "hypertension",
+        "diabetes",
+        "other_diseases",
+        "smoking_status",
+        "coffee_status",
+        "dementia_history_parents",
+        "EHI",
+        "NEO_NEU",
+        "NEO_EXT",
+        "NEO_OPE",
+        "NEO_AGR",
+        "NEO_CON",
         "MINI-COPE_1",
-        "MINI-COPE_10",
-        "MINI-COPE_11",
-        "MINI-COPE_12",
-        "MINI-COPE_13",
-        "MINI-COPE_14",
         "MINI-COPE_2",
         "MINI-COPE_3",
         "MINI-COPE_4",
@@ -481,31 +474,39 @@
         "MINI-COPE_7",
         "MINI-COPE_8",
         "MINI-COPE_9",
-        "monocytes",
-        "monocytes_%",
-        "MPV",
-        "NEO_AGR",
-        "NEO_CON",
-        "NEO_EXT",
-        "NEO_NEU",
-        "NEO_OPE",
-        "neutrophils",
-        "neutrophils_%",
-        "non-HDL_cholesterol",
-        "other_diseases",
-        "P-LCR",
-        "PDW",
-        "PICALM_rs3851179",
-        "platelets",
+        "MINI-COPE_10",
+        "MINI-COPE_11",
+        "MINI-COPE_12",
+        "MINI-COPE_13",
+        "MINI-COPE_14",
+        "leukocytes",
+        "erythrocytes",
+        "hemoglobin",
+        "hematocrit",
+        "MCV",
+        "MCH",
+        "MCHC",
         "RDW-CV",
-        "RPM",
-        "second_phase",
-        "SES",
-        "session_order",
-        "smoking_status",
-        "thyroid_diseases",
+        "platelets",
+        "PDW",
+        "MPV",
+        "P-LCR",
+        "neutrophils",
+        "lymphocytes",
+        "monocytes",
+        "eosinophils",
+        "basophils",
+        "neutrophils_%",
+        "lymphocytes_%",
+        "monocytes_%",
+        "eosinophils_%",
+        "basophils_%",
         "total_cholesterol",
-        "triglycerides"
+        "cholesterol_HDL",
+        "non-HDL_cholesterol",
+        "LDL_cholesterol",
+        "triglycerides",
+        "HSV_r"
       ]
     }
   },
@@ -514,8 +515,8 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
@@ -529,69 +530,69 @@
   "ds004856": {
     "total_columns": 36,
     "annotated_columns": {
-      "count": 13,
+      "count": 6,
       "names": [
-        "AgeCog_W1",
-        "AgeCog_W2",
-        "AgeCog_W3",
-        "AgeMRI_W1",
-        "AgeMRI_W2",
-        "AgeMRI_W3",
-        "AgePETAmy_W1",
-        "AgePETAmy_W2",
-        "AgePETAmy_W3",
-        "AgePETTau_W2",
-        "AgePETTau_W3",
         "participant_id",
-        "Sex"
+        "AgeCog_W1",
+        "Sex",
+        "MMSE_W1",
+        "MMSE_W2",
+        "MMSE_W3"
       ]
     },
     "unannotated_columns": {
-      "count": 23,
+      "count": 30,
       "names": [
-        "BMI_W1",
-        "BMI_W2",
-        "CogW1toW2",
-        "CogW1toW3",
-        "CogW2toW3",
-        "EduComp",
-        "EduYrsEstCap",
+        "AgeMRI_W1",
+        "AgePETAmy_W1",
+        "AgeCog_W2",
+        "AgeMRI_W2",
+        "AgePETAmy_W2",
+        "AgePETTau_W2",
+        "AgeCog_W3",
+        "AgeMRI_W3",
+        "AgePETAmy_W3",
+        "AgePETTau_W3",
+        "Race",
         "Ethnicity",
+        "EduYrsEstCap",
+        "EduComp",
         "HandednessScore",
         "Height_W1",
-        "Height_W2",
-        "MMSE_W1",
-        "MMSE_W2",
-        "MMSE_W3",
-        "MRIW1toW2",
-        "MRIW1toW3",
-        "MRIW2toW3",
-        "PETAmyW1toW2",
-        "PETAmyW1toW3",
-        "PETAmyW2toW3",
-        "Race",
         "Weight_W1",
-        "Weight_W2"
+        "BMI_W1",
+        "Height_W2",
+        "Weight_W2",
+        "BMI_W2",
+        "CogW1toW2",
+        "CogW2toW3",
+        "CogW1toW3",
+        "MRIW1toW2",
+        "MRIW2toW3",
+        "MRIW1toW3",
+        "PETAmyW1toW2",
+        "PETAmyW2toW3",
+        "PETAmyW1toW3"
       ]
     }
   },
   "ds004883": {
     "total_columns": 8,
     "annotated_columns": {
-      "count": 5,
+      "count": 3,
       "names": [
-        "Age",
         "Gender",
-        "participant_id",
-        "Sex",
-        "SubjectID"
+        "Age",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
-      "count": 3,
+      "count": 5,
       "names": [
-        "Ethnicity",
+        "SubjectID",
+        "Sex",
         "Race",
+        "Ethnicity",
         "StudySite"
       ]
     }
@@ -599,43 +600,44 @@
   "ds004884": {
     "total_columns": 7,
     "annotated_columns": {
-      "count": 2,
+      "count": 4,
       "names": [
-        "participant_id",
-        "sex"
+        "sex",
+        "wab_aq",
+        "wab_type",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
-      "count": 5,
+      "count": 3,
       "names": [
         "age_at_stroke",
-        "race",
-        "wab_aq",
         "wab_days",
-        "wab_type"
+        "race"
       ]
     }
   },
   "ds004889": {
     "total_columns": 10,
     "annotated_columns": {
-      "count": 3,
+      "count": 4,
       "names": [
-        "age",
-        "participant_id",
-        "sex"
+        "sex",
+        "nihss",
+        "gs_rankin_6isdeath",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
       "count": 7,
       "names": [
+        "age",
+        "race",
         "acuteischaemicstroke",
-        "bmi",
-        "etiology",
-        "gs_rankin_6isdeath",
-        "nihss",
         "priorstroke",
-        "race"
+        "lesion_size_cc",
+        "bmi",
+        "etiology"
       ]
     }
   },
@@ -644,8 +646,8 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
@@ -657,16 +659,17 @@
   "ds005016": {
     "total_columns": 3,
     "annotated_columns": {
-      "count": 3,
+      "count": 2,
       "names": [
-        "group",
         "participant_id",
         "sex"
       ]
     },
     "unannotated_columns": {
-      "count": 0,
-      "names": []
+      "count": 1,
+      "names": [
+        "group"
+      ]
     }
   },
   "ds005112": {
@@ -674,8 +677,8 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
@@ -689,23 +692,23 @@
   "ds005143": {
     "total_columns": 11,
     "annotated_columns": {
-      "count": 3,
+      "count": 1,
       "names": [
-        "age",
-        "participant_id",
-        "sex"
+        "participant_id"
       ]
     },
     "unannotated_columns": {
-      "count": 8,
+      "count": 10,
       "names": [
-        "institution",
+        "sex",
+        "age",
         "institution_id",
+        "institution",
         "manufacturer",
         "manufacturers_model_name",
-        "moco_software",
-        "pathology",
         "researcher",
+        "pathology",
+        "moco_software",
         "segmentation_type"
       ]
     }
@@ -715,42 +718,43 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
     "unannotated_columns": {
-      "count": 11,
+      "count": 12,
       "names": [
-        "AS",
-        "AXCPT",
-        "CALM_IT",
-        "clinical_scores",
+        "race",
         "ethnicity",
-        "Flanker",
-        "fMRI_data",
         "highest_education",
         "income",
-        "race",
-        "SST"
+        "clinical_scores",
+        "fmri_data",
+        "AXCPT",
+        "AS",
+        "SST",
+        "Flanker",
+        "CALM_IT",
+        "fMRI_data"
       ]
     }
   },
   "ds005237": {
     "total_columns": 6,
     "annotated_columns": {
-      "count": 4,
+      "count": 3,
       "names": [
         "age",
-        "Group",
         "participant_id",
         "sex"
       ]
     },
     "unannotated_columns": {
-      "count": 2,
+      "count": 3,
       "names": [
+        "Group",
         "Site",
         "species"
       ]
@@ -761,22 +765,22 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
     "unannotated_columns": {
       "count": 8,
       "names": [
-        "dwi",
-        "gng",
-        "nbk",
-        "perf",
-        "rest",
         "t1w",
         "t2w",
-        "tsw"
+        "dwi",
+        "rest",
+        "nbk",
+        "tsw",
+        "gng",
+        "perf"
       ]
     }
   },
@@ -821,19 +825,19 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "Age",
+        "participant_id",
         "Gender",
-        "participant_id"
+        "Age"
       ]
     },
     "unannotated_columns": {
       "count": 5,
       "names": [
-        "Comment",
+        "NativeLanguage",
         "EducationLevel",
         "Handedness",
         "Inclusion",
-        "NativeLanguage"
+        "Comment"
       ]
     }
   },
@@ -842,8 +846,8 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
@@ -860,8 +864,8 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
@@ -869,10 +873,10 @@
       "count": 5,
       "names": [
         "handedness",
-        "late_ses1",
-        "late_ses2",
         "session1",
-        "session2"
+        "late_ses1",
+        "session2",
+        "late_ses2"
       ]
     }
   },
@@ -881,19 +885,19 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
     "unannotated_columns": {
       "count": 5,
       "names": [
-        "Engel_Class1",
         "methods",
-        "pathology",
+        "sampling_frequency",
         "resection",
-        "sampling_frequency"
+        "Engel_Class1",
+        "pathology"
       ]
     }
   },
@@ -903,8 +907,8 @@
       "count": 3,
       "names": [
         "age",
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
@@ -917,54 +921,60 @@
     "annotated_columns": {
       "count": 3,
       "names": [
+        "sex",
         "age",
-        "participant_id",
-        "sex"
+        "participant_id"
       ]
     },
     "unannotated_columns": {
       "count": 25,
       "names": [
-        "actions",
-        "car",
-        "CCC",
         "condition",
-        "driver",
+        "residence",
         "education",
-        "ICE_anger",
-        "ICE_anxiety",
-        "ICE_discontent",
-        "ICE_enthusiasm",
-        "ICE_guilt",
-        "ICE_isolation",
-        "ICE_powerlessness",
-        "ICE_sorrow",
+        "CCC",
+        "actions",
         "lifestyle",
-        "NR",
-        "PCAE",
-        "PCAE_c",
-        "PCAE_i",
-        "PD",
+        "driver",
+        "car",
         "politics1",
         "politics2",
         "politics3",
-        "residence",
-        "SES"
+        "SES",
+        "PCAE_i",
+        "PCAE_c",
+        "PCAE",
+        "PD",
+        "NR",
+        "ICE_anger",
+        "ICE_discontent",
+        "ICE_enthusiasm",
+        "ICE_powerlessness",
+        "ICE_guilt",
+        "ICE_isolation",
+        "ICE_anxiety",
+        "ICE_sorrow"
       ]
     }
   },
   "ds005498": {
     "total_columns": 51,
     "annotated_columns": {
-      "count": 3,
+      "count": 9,
       "names": [
         "Age",
+        "GAD-7 Score",
         "Gender",
-        "participant_id"
+        "participant_id",
+        "PCL-5 Score",
+        "PHQ-9 Score",
+        "WASI Matrix Raw",
+        "WASI Matrix T Score",
+        "WASI Matrix Total"
       ]
     },
     "unannotated_columns": {
-      "count": 48,
+      "count": 42,
       "names": [
         "Current Alcohol Use",
         "Current Drug Use",
@@ -975,7 +985,6 @@
         "Ethnicity",
         "FAS Percentile",
         "FAS Raw",
-        "GAD-7 Score",
         "IQ Percentile",
         "IQ_Score",
         "L-aMFG Scan ( Minus32x42x34)",
@@ -992,8 +1001,6 @@
         "Other Phobias",
         "Panic Disorder",
         "Past Alcohol or Drug Use",
-        "PCL-5 Score",
-        "PHQ-9 Score",
         "Positive Urine Tox Results",
         "R-aMFG Scan (30x50x26)",
         "R-FEF Scan (34x6x62)",
@@ -1008,9 +1015,6 @@
         "Social Phobias",
         "Stimulation Percent",
         "Trauma Criterion A",
-        "WASI Matrix Raw",
-        "WASI Matrix T Score",
-        "WASI Matrix Total",
         "WASI Vocabulary Raw",
         "WASi Vocabulary T Score",
         "Years of Education"
@@ -1022,35 +1026,36 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 21,
+      "count": 22,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
+        "seqLearning",
         "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target"
       ]
     }
   },
@@ -1059,35 +1064,36 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 21,
+      "count": 22,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
+        "seqLearning",
         "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target"
       ]
     }
   },
@@ -1096,35 +1102,36 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 21,
+      "count": 22,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
+        "seqLearning",
         "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target"
       ]
     }
   },
@@ -1133,35 +1140,36 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 21,
+      "count": 22,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
+        "seqLearning",
         "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target"
       ]
     }
   },
@@ -1170,35 +1178,36 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 21,
+      "count": 22,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
+        "seqLearning",
         "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target"
       ]
     }
   },
@@ -1207,35 +1216,36 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 21,
+      "count": 22,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
+        "seqLearning",
         "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target"
       ]
     }
   },
@@ -1244,35 +1254,36 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 21,
+      "count": 22,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
+        "seqLearning",
         "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target"
       ]
     }
   },
@@ -1281,35 +1292,36 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 21,
+      "count": 22,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
+        "seqLearning",
         "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target"
       ]
     }
   },
@@ -1318,35 +1330,36 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 21,
+      "count": 22,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
+        "seqLearning",
         "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target"
       ]
     }
   },
@@ -1355,35 +1368,35 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
       "count": 21,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
-        "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target",
+        "symbolSearch"
       ]
     }
   },
@@ -1392,35 +1405,35 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
       "count": 21,
       "names": [
-        "attention",
+        "release_number",
+        "ehq_total",
         "commercial_use",
+        "full_pheno",
+        "p_factor",
+        "attention",
+        "internalizing",
+        "externalizing",
+        "RestingState",
+        "DespicableMe",
+        "FunwithFractals",
+        "ThePresent",
+        "DiaryOfAWimpyKid",
         "contrastChangeDetection_1",
         "contrastChangeDetection_2",
         "contrastChangeDetection_3",
-        "DespicableMe",
-        "DiaryOfAWimpyKid",
-        "ehq_total",
-        "externalizing",
-        "full_pheno",
-        "FunwithFractals",
-        "internalizing",
-        "p_factor",
-        "release_number",
-        "RestingState",
-        "seqLearning6target",
-        "seqLearning8target",
         "surroundSupp_1",
         "surroundSupp_2",
-        "symbolSearch",
-        "ThePresent"
+        "seqLearning6target",
+        "seqLearning8target",
+        "symbolSearch"
       ]
     }
   },
@@ -1435,31 +1448,31 @@
     "unannotated_columns": {
       "count": 25,
       "names": [
-        "Anat_contrast",
-        "Anat_sequence",
-        "Anat_TE",
-        "Anat_TR",
-        "Anesthesia_breathing_assistance",
-        "Anesthesia_breathing_rate",
+        "Dataset_id",
+        "Rat_strain",
+        "Rat_sex",
+        "Rat_age",
+        "Rat_weight",
         "Anesthesia_induction",
         "Anesthesia_induction_dose",
         "Anesthesia_maintenance",
         "Anesthesia_maintenance_dose",
         "Anesthesia_post_induction_time",
+        "Anesthesia_breathing_assistance",
+        "Anesthesia_breathing_rate",
         "Anesthesia_temperature",
-        "Dataset_id",
-        "Func_FA",
-        "Func_sensory_stimulation",
-        "Func_sensory_system",
-        "Func_sequence",
-        "Func_TE",
-        "Func_TR",
-        "MRI_field_strength",
         "MRI_vendor",
-        "Rat_age",
-        "Rat_sex",
-        "Rat_strain",
-        "Rat_weight"
+        "MRI_field_strength",
+        "Anat_sequence",
+        "Anat_contrast",
+        "Anat_TR",
+        "Anat_TE",
+        "Func_sequence",
+        "Func_TR",
+        "Func_TE",
+        "Func_FA",
+        "Func_sensory_system",
+        "Func_sensory_stimulation"
       ]
     }
   },
@@ -1468,9 +1481,9 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
+        "sex",
         "participant_id",
-        "sex"
+        "age"
       ]
     },
     "unannotated_columns": {
@@ -1486,8 +1499,8 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
@@ -1499,21 +1512,30 @@
   "ds005752": {
     "total_columns": 44,
     "annotated_columns": {
-      "count": 3,
+      "count": 8,
       "names": [
-        "age",
         "participant_id",
-        "sex"
-      ]
-    },
-    "unannotated_columns": {
-      "count": 41,
-      "names": [
-        "ace",
-        "acute_care",
+        "sex",
         "audit",
         "bai",
         "bdi",
+        "gad7",
+        "phq9",
+        "whodas"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 36,
+      "names": [
+        "release_1",
+        "release_2",
+        "age",
+        "handedness",
+        "eligibility",
+        "MRI",
+        "MEG",
+        "ace",
+        "acute_care",
         "big_five_personality",
         "blood_chemistry",
         "btq",
@@ -1522,10 +1544,7 @@
         "demographics",
         "drug_use",
         "ehi",
-        "eligibility",
         "figs",
-        "gad7",
-        "handedness",
         "health_history_checklist_year_1",
         "health_history_questions",
         "health_rating",
@@ -1534,22 +1553,16 @@
         "infectious_disease",
         "kbit2_vas",
         "lipid",
-        "MEG",
         "mental_health_questions",
-        "MRI",
         "mri_variables",
         "nih_toolbox",
         "other",
         "perceived_health_rating",
-        "phq9",
-        "release_1",
-        "release_2",
         "satisfaction",
         "scid5",
         "urinalysis",
         "urine_chemistry",
-        "vitamin_levels",
-        "whodas"
+        "vitamin_levels"
       ]
     }
   },
@@ -1558,25 +1571,25 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
     "unannotated_columns": {
       "count": 11,
       "names": [
-        "AS",
-        "AXCPT",
-        "behavioral_data",
-        "clinical_scores",
+        "race",
         "ethnicity",
-        "Flanker",
-        "fmri_data",
         "highest_education",
         "income",
-        "race",
-        "SST"
+        "clinical_scores",
+        "behavioral_data",
+        "fmri_data",
+        "AXCPT",
+        "AS",
+        "SST",
+        "Flanker"
       ]
     }
   },
@@ -1586,51 +1599,34 @@
       "count": 3,
       "names": [
         "age",
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
       "count": 2,
       "names": [
-        "scanner",
-        "TIV"
+        "TIV",
+        "scanner"
       ]
     }
   },
   "ds005863": {
     "total_columns": 78,
     "annotated_columns": {
-      "count": 3,
+      "count": 21,
       "names": [
         "Age",
         "Gender",
-        "participant_id"
-      ]
-    },
-    "unannotated_columns": {
-      "count": 75,
-      "names": [
-        "AdditionalNotes",
-        "Adult1",
-        "Adult1_Edu",
-        "Adult1_In_Household",
-        "Adult1_Occupation",
-        "Adult1_Other",
-        "Adult2",
-        "Adult2_Edu",
-        "Adult2_In_Household",
-        "Adult2_Occupation",
-        "Adult2_Other",
-        "Adult3",
-        "Adult3_Edu",
-        "Adult3_In_Household",
-        "Adult3_Occupation",
-        "Adult4",
-        "Adult4_Edu",
-        "Adult4_In_Household",
-        "Adult4_Occupation",
         "asrs1",
+        "asrs2",
+        "asrs3",
+        "asrs4",
+        "asrs5",
+        "asrs6",
+        "asrs7",
+        "asrs8",
+        "asrs9",
         "asrs10",
         "asrs11",
         "asrs12",
@@ -1640,28 +1636,56 @@
         "asrs16",
         "asrs17",
         "asrs18",
-        "asrs2",
-        "asrs3",
-        "asrs4",
-        "asrs5",
-        "asrs6",
-        "asrs7",
-        "asrs8",
-        "asrs9",
-        "CapSize",
-        "Date",
-        "EEG_Tasks",
+        "participant_id"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 58,
+      "names": [
+        "participant_ID",
+        "IDEAID",
+        "Handedness",
+        "Highest_Edu",
+        "Occupation",
         "Employed",
         "Employed_Yes",
+        "Income",
+        "Income_Household",
+        "Household_Members",
+        "Adult1",
+        "Adult1_Other",
+        "Adult1_Edu",
+        "Adult1_Occupation",
+        "Adult1_In_Household",
+        "Adult2",
+        "Adult2_Other",
+        "Adult2_Edu",
+        "Adult2_Occupation",
+        "Adult2_In_Household",
+        "Adult3",
+        "Adult3_Edu",
+        "Adult3_Occupation",
+        "Adult3_In_Household",
+        "Adult4",
+        "Adult4_Edu",
+        "Adult4_Occupation",
+        "Adult4_In_Household",
+        "Highest_Adult_Edu",
+        "Project",
+        "EEG_Tasks",
+        "Date",
+        "Time",
+        "CapSize",
+        "Issues",
+        "Replaced_electrode",
+        "AdditionalNotes",
+        "Subjective_SES",
         "fs1",
         "fs2",
         "fs3",
         "fs4",
         "fs5",
         "fs6",
-        "Handedness",
-        "Highest_Adult_Edu",
-        "Highest_Edu",
         "hnc1a",
         "hnc1b",
         "hnc1c",
@@ -1670,22 +1694,12 @@
         "hnc2b",
         "hnc3",
         "hnc4",
-        "Household_Members",
-        "IDEAID",
-        "Income",
-        "Income_Household",
-        "Issues",
-        "L1_AoA",
         "L1_recoded",
-        "L2_AoA",
-        "L2_recoded",
+        "L1_AoA",
         "LEARN_L1",
-        "LEARN_L2",
-        "Occupation",
-        "Project",
-        "Replaced_electrode",
-        "Subjective_SES",
-        "Time"
+        "L2_recoded",
+        "L2_AoA",
+        "LEARN_L2"
       ]
     }
   },
@@ -1694,8 +1708,8 @@
     "annotated_columns": {
       "count": 2,
       "names": [
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
@@ -1709,15 +1723,15 @@
       "count": 3,
       "names": [
         "Age",
-        "participant_id",
-        "Sex"
+        "Sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
       "count": 2,
       "names": [
-        "Size",
-        "Weight"
+        "Weight",
+        "Size"
       ]
     }
   },
@@ -1727,34 +1741,34 @@
       "count": 3,
       "names": [
         "Age",
-        "participant_id",
-        "Sex"
+        "Sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
       "count": 2,
       "names": [
-        "Size",
-        "Weight"
+        "Weight",
+        "Size"
       ]
     }
   },
   "ds006018": {
     "total_columns": 72,
     "annotated_columns": {
-      "count": 2,
+      "count": 26,
       "names": [
+        "participant_id",
         "Gender",
-        "participant_id"
-      ]
-    },
-    "unannotated_columns": {
-      "count": 70,
-      "names": [
-        "ADHD_binary",
-        "Age_Grouped",
         "asrs1",
-        "asrs1_binary",
+        "asrs2",
+        "asrs3",
+        "asrs4",
+        "asrs5",
+        "asrs6",
+        "asrs7",
+        "asrs8",
+        "asrs9",
         "asrs10",
         "asrs11",
         "asrs12",
@@ -1764,37 +1778,48 @@
         "asrs16",
         "asrs17",
         "asrs18",
-        "asrs2",
+        "asrs1_binary",
         "asrs2_binary",
-        "asrs3",
         "asrs3_binary",
-        "asrs4",
         "asrs4_binary",
-        "asrs5",
         "asrs5_binary",
-        "asrs6",
-        "asrs6_binary",
-        "asrs7",
-        "asrs8",
-        "asrs9",
-        "BadChannels_AuditoryOddball",
-        "BadChannels_Flanker",
-        "BadChannels_VisualOddball",
-        "BadChannels_VisualSearch",
-        "CapSize",
-        "EEG_Issues",
-        "EEG_Tasks",
+        "asrs6_binary"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 46,
+      "names": [
+        "Age_Grouped",
+        "Handedness",
+        "Highest_Edu_Grouped",
+        "Highest_Adult_Edu_Grouped",
+        "PassiveAuditoryOddballEEG",
+        "PassiveAuditoryOddballEEG_missingness_reason",
+        "VisualOddballEEG",
+        "VisualOddballEEG_missingness_reason",
+        "VisualSearchEEG",
+        "VisualSearchEEG_missingness_reason",
         "FlankerEEG",
         "FlankerEEG_missingness_reason",
+        "EEG_Tasks",
+        "TimeofSession",
+        "CapSize",
+        "EEG_Issues",
+        "NumBadChannels_AuditoryOddball",
+        "BadChannels_AuditoryOddball",
+        "NumBadChannels_VisualOddball",
+        "BadChannels_VisualOddball",
+        "NumBadChannels_Flanker",
+        "BadChannels_Flanker",
+        "NumBadChannels_VisualSearch",
+        "BadChannels_VisualSearch",
+        "Subjective_SES",
         "fs1",
         "fs2",
         "fs3",
         "fs4",
         "fs5",
         "fs6",
-        "Handedness",
-        "Highest_Adult_Edu_Grouped",
-        "Highest_Edu_Grouped",
         "hnc1a",
         "hnc1b",
         "hnc1c",
@@ -1803,24 +1828,13 @@
         "hnc2b",
         "hnc3",
         "hnc4",
-        "L1_AoA",
         "L1_recoded",
-        "L2_AoA",
-        "L2_recoded",
+        "L1_AoA",
         "LEARN_L1",
+        "L2_recoded",
+        "L2_AoA",
         "LEARN_L2",
-        "NumBadChannels_AuditoryOddball",
-        "NumBadChannels_Flanker",
-        "NumBadChannels_VisualOddball",
-        "NumBadChannels_VisualSearch",
-        "PassiveAuditoryOddballEEG",
-        "PassiveAuditoryOddballEEG_missingness_reason",
-        "Subjective_SES",
-        "TimeofSession",
-        "VisualOddballEEG",
-        "VisualOddballEEG_missingness_reason",
-        "VisualSearchEEG",
-        "VisualSearchEEG_missingness_reason"
+        "ADHD_binary"
       ]
     }
   },
@@ -1830,24 +1844,24 @@
       "count": 3,
       "names": [
         "age",
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
       "count": 11,
       "names": [
-        "asm",
-        "cohort",
         "daily_seizure",
-        "extent_of_resection",
-        "extra_temporal",
-        "failed_resec_SOZ",
-        "followup",
-        "mri",
-        "outcome",
+        "asm",
         "resected_side",
-        "seizure_capture"
+        "mri",
+        "seizure_capture",
+        "failed_resec_SOZ",
+        "extra_temporal",
+        "extent_of_resection",
+        "outcome",
+        "followup",
+        "cohort"
       ]
     }
   },
@@ -1868,26 +1882,28 @@
   "ds006218": {
     "total_columns": 18,
     "annotated_columns": {
-      "count": 6,
+      "count": 2,
       "names": [
+        "participant_id",
+        "gender"
+      ]
+    },
+    "unannotated_columns": {
+      "count": 18,
+      "names": [
+        "species",
+        "strain",
+        "weight",
+        "age",
+        "genotype",
         "age ses 1",
         "age ses 2",
         "age ses 3",
         "age ses 4",
-        "gender",
-        "participant_id"
-      ]
-    },
-    "unannotated_columns": {
-      "count": 12,
-      "names": [
-        "genotype",
         "name ses1",
         "name ses2",
         "name ses3",
         "name ses4",
-        "species",
-        "strain",
         "subject number",
         "weight ses1",
         "weight ses2",
@@ -1901,14 +1917,16 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
-        "sex"
+        "sex",
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 0,
-      "names": []
+      "count": 1,
+      "names": [
+        "group"
+      ]
     }
   },
   "ds006391": {
@@ -1916,102 +1934,106 @@
     "annotated_columns": {
       "count": 3,
       "names": [
+        "participant_id",
         "Age",
-        "Gender",
-        "participant_id"
+        "Gender"
       ]
     },
     "unannotated_columns": {
       "count": 2,
       "names": [
-        "Edu_Level",
-        "Handedness"
+        "Handedness",
+        "Edu_Level"
       ]
     }
   },
   "ds006577": {
     "total_columns": 30,
     "annotated_columns": {
-      "count": 3,
+      "count": 5,
       "names": [
-        "group",
         "participant_id",
-        "sex"
+        "sex",
+        "staic_cbt03",
+        "staic_cbt08",
+        "staic_cbt12"
       ]
     },
     "unannotated_columns": {
-      "count": 27,
+      "count": 25,
       "names": [
+        "race",
+        "group",
+        "condition",
+        "mri_pre",
+        "mri_post",
+        "ksads_screening",
         "ari_child_cbt03",
         "ari_child_cbt08",
         "ari_child_cbt12",
         "cgas_cbt03",
         "cgas_cbt08",
         "cgas_cbt12",
-        "cgi_cbt12",
-        "condition",
-        "ksads_screening",
         "mfqc_cbt03",
         "mfqc_cbt08",
         "mfqc_cbt12",
-        "mri_post",
-        "mri_pre",
         "pars_cbt03",
         "pars_cbt08",
         "pars_cbt12",
-        "race",
         "scared_child_cbt03",
         "scared_child_cbt08",
         "scared_child_cbt12",
         "scared_parent_cbt03",
         "scared_parent_cbt08",
         "scared_parent_cbt12",
-        "staic_cbt03",
-        "staic_cbt08",
-        "staic_cbt12"
+        "cgi_cbt12"
       ]
     }
   },
   "ds006777": {
     "total_columns": 11,
     "annotated_columns": {
-      "count": 4,
+      "count": 5,
       "names": [
         "age",
-        "group",
-        "participant_id",
-        "sex"
+        "sex",
+        "fsiq",
+        "mabc_total_ss",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
-      "count": 7,
+      "count": 6,
       "names": [
-        "ados_css",
-        "cpt_response_style",
-        "fsiq",
         "handedness",
-        "mabc_total_ss",
-        "medication",
-        "srs2_total_t"
+        "group",
+        "srs2_total_t",
+        "cpt_response_style",
+        "ados_css",
+        "medication"
       ]
     }
   },
   "ds006780": {
     "total_columns": 24,
     "annotated_columns": {
-      "count": 4,
+      "count": 7,
       "names": [
-        "age",
-        "group",
         "participant_id",
-        "sex"
+        "age",
+        "sex",
+        "fsiq",
+        "mabc_total_ss",
+        "fsiq_dup",
+        "mabc_total_ss_dup"
       ]
     },
     "unannotated_columns": {
-      "count": 20,
+      "count": 18,
       "names": [
-        "ados_css",
-        "ados_css_dup",
+        "group",
+        "handedness",
+        "diagnosis",
         "completed_ASSR",
         "completed_AVSRT",
         "completed_Beep-Flash",
@@ -2019,90 +2041,88 @@
         "completed_Illusory_contours",
         "completed_Motor",
         "completed_Resting_state",
-        "cpt_response_style",
-        "cpt_response_style_dup",
-        "fsiq",
-        "fsiq_dup",
-        "handedness",
-        "mabc_total_ss",
-        "mabc_total_ss_dup",
-        "medication",
-        "medication_dup",
         "srs2_total_t",
-        "srs2_total_t_dup"
+        "cpt_response_style",
+        "ados_css",
+        "medication",
+        "srs2_total_t_dup",
+        "cpt_response_style_dup",
+        "ados_css_dup",
+        "medication_dup"
       ]
     }
   },
   "ds006861": {
     "total_columns": 12,
     "annotated_columns": {
-      "count": 4,
+      "count": 5,
       "names": [
-        "Age",
+        "participant_id",
+        "UCLA_R_screening",
+        "UCLA_R",
         "Gender",
-        "Group",
-        "participant_id"
+        "Age"
       ]
     },
     "unannotated_columns": {
-      "count": 8,
+      "count": 7,
       "names": [
+        "stimulation_side",
+        "SIAS",
         "CESD",
         "ERQ_CR",
         "ERQ_ES",
-        "SIAS",
         "SNS",
-        "stimulation_side",
-        "UCLA_R",
-        "UCLA_R_screening"
+        "Group"
       ]
     }
   },
   "ds006866": {
     "total_columns": 18,
     "annotated_columns": {
-      "count": 3,
+      "count": 5,
       "names": [
-        "Age",
+        "participant_id",
+        "UCLA_R",
+        "LSAS",
         "Gender",
-        "participant_id"
+        "Age"
       ]
     },
     "unannotated_columns": {
-      "count": 15,
+      "count": 13,
       "names": [
-        "CERQ_A",
-        "CERQ_K",
-        "CERQ_KP",
-        "CERQ_OI",
-        "CERQ_OS",
-        "CERQ_PP",
-        "CERQ_PU",
-        "CERQ_R",
-        "CERQ_SP",
         "CESD",
         "ERQ_CR",
-        "LSAS",
         "Set_Shifting_Cost",
-        "SNS",
-        "UCLA_R"
+        "CERQ_OS",
+        "CERQ_A",
+        "CERQ_R",
+        "CERQ_PU",
+        "CERQ_KP",
+        "CERQ_PP",
+        "CERQ_SP",
+        "CERQ_K",
+        "CERQ_OI",
+        "SNS"
       ]
     }
   },
   "ds006883": {
     "total_columns": 4,
     "annotated_columns": {
-      "count": 4,
+      "count": 2,
       "names": [
-        "age",
-        "group",
         "participant_id",
         "sex"
       ]
     },
     "unannotated_columns": {
-      "count": 0,
-      "names": []
+      "count": 2,
+      "names": [
+        "age",
+        "group"
+      ]
     }
   },
   "ds006910": {
@@ -2111,8 +2131,8 @@
       "count": 3,
       "names": [
         "age",
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
@@ -2125,16 +2145,13 @@
   "ds006923": {
     "total_columns": 21,
     "annotated_columns": {
-      "count": 3,
-      "names": [
-        "Age",
-        "Gender",
-        "participant_id"
-      ]
+      "count": 0,
+      "names": []
     },
     "unannotated_columns": {
-      "count": 18,
+      "count": 21,
       "names": [
+        "Age",
         "Age of first use",
         "Alcohol",
         "Cocaine",
@@ -2142,8 +2159,10 @@
         "Displaced by violence",
         "Domestic violence",
         "Gang member",
+        "Gender",
         "Level of education",
         "Marijuana",
+        "participant_id",
         "Recidivist",
         "School dropout",
         "Socioeconomic stratum",
@@ -2161,16 +2180,16 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
     "unannotated_columns": {
       "count": 3,
       "names": [
-        "field_strength",
         "MGMT",
+        "field_strength",
         "scanner_model"
       ]
     }
@@ -2180,16 +2199,16 @@
     "annotated_columns": {
       "count": 3,
       "names": [
+        "participant_id",
         "Age",
-        "Gender",
-        "participant_id"
+        "Gender"
       ]
     },
     "unannotated_columns": {
       "count": 2,
       "names": [
-        "Handedness",
-        "Race"
+        "Race",
+        "Handedness"
       ]
     }
   },
@@ -2198,16 +2217,16 @@
     "annotated_columns": {
       "count": 3,
       "names": [
+        "participant_id",
         "Age",
-        "Gender",
-        "participant_id"
+        "Gender"
       ]
     },
     "unannotated_columns": {
       "count": 2,
       "names": [
-        "Handedness",
-        "Race"
+        "Race",
+        "Handedness"
       ]
     }
   },
@@ -2216,16 +2235,16 @@
     "annotated_columns": {
       "count": 3,
       "names": [
+        "participant_id",
         "Age",
-        "Gender",
-        "participant_id"
+        "Gender"
       ]
     },
     "unannotated_columns": {
       "count": 2,
       "names": [
-        "Handedness",
-        "Race"
+        "Race",
+        "Handedness"
       ]
     }
   },
@@ -2234,46 +2253,46 @@
     "annotated_columns": {
       "count": 3,
       "names": [
+        "participant_id",
         "Age",
-        "Gender",
-        "participant_id"
+        "Gender"
       ]
     },
     "unannotated_columns": {
       "count": 2,
       "names": [
-        "Handedness",
-        "Race"
+        "Race",
+        "Handedness"
       ]
     }
   },
   "ds007116": {
     "total_columns": 17,
     "annotated_columns": {
-      "count": 4,
+      "count": 3,
       "names": [
-        "age",
         "participant_id",
         "sex",
-        "study_group"
+        "age"
       ]
     },
     "unannotated_columns": {
-      "count": 13,
+      "count": 14,
       "names": [
+        "study_group",
+        "race",
+        "ethnicity",
         "age_months",
-        "dx_adhd",
-        "dx_bp",
-        "dx_mdd",
-        "dx_moodnos",
         "dx_none",
         "dx_prodromal",
         "dx_prodromal_remit",
         "dx_psychosis",
+        "dx_moodnos",
+        "dx_mdd",
+        "dx_bp",
+        "dx_adhd",
         "dx_ptsd",
-        "dx_ptsd_remit",
-        "ethnicity",
-        "race"
+        "dx_ptsd_remit"
       ]
     }
   },
@@ -2283,23 +2302,23 @@
       "count": 3,
       "names": [
         "age",
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
       "count": 10,
       "names": [
         "asm_number",
-        "cohort",
-        "daily_seizure",
-        "extent_of_resection",
-        "extratemporal_resection",
         "mri_lesion",
-        "outcome",
-        "resected_hemisphere",
+        "daily_seizure",
         "seizure_capture",
-        "soz_complete_resection"
+        "soz_complete_resection",
+        "resected_hemisphere",
+        "extratemporal_resection",
+        "extent_of_resection",
+        "outcome",
+        "cohort"
       ]
     }
   },
@@ -2309,23 +2328,23 @@
       "count": 3,
       "names": [
         "age",
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
       "count": 10,
       "names": [
         "asm_number",
-        "cohort",
-        "daily_seizure",
-        "extent_of_resection",
-        "extratemporal_resection",
         "mri_lesion",
-        "outcome",
-        "resected_hemisphere",
+        "daily_seizure",
         "seizure_capture",
-        "soz_complete_resection"
+        "soz_complete_resection",
+        "resected_hemisphere",
+        "extratemporal_resection",
+        "extent_of_resection",
+        "outcome",
+        "cohort"
       ]
     }
   },
@@ -2335,23 +2354,23 @@
       "count": 3,
       "names": [
         "age",
-        "participant_id",
-        "sex"
+        "sex",
+        "participant_id"
       ]
     },
     "unannotated_columns": {
       "count": 10,
       "names": [
         "asm_number",
-        "cohort",
-        "daily_seizure",
-        "extent_of_resection",
-        "extratemporal_resection",
         "mri_lesion",
-        "outcome",
-        "resected_hemisphere",
+        "daily_seizure",
         "seizure_capture",
-        "soz_complete_resection"
+        "soz_complete_resection",
+        "resected_hemisphere",
+        "extratemporal_resection",
+        "extent_of_resection",
+        "outcome",
+        "cohort"
       ]
     }
   },
@@ -2360,16 +2379,16 @@
     "annotated_columns": {
       "count": 3,
       "names": [
+        "participant_id",
         "Age",
-        "Gender",
-        "participant_id"
+        "Gender"
       ]
     },
     "unannotated_columns": {
       "count": 2,
       "names": [
-        "Handedness",
-        "Race"
+        "Race",
+        "Handedness"
       ]
     }
   },
@@ -2378,16 +2397,16 @@
     "annotated_columns": {
       "count": 3,
       "names": [
+        "participant_id",
         "Age",
-        "Gender",
-        "participant_id"
+        "Gender"
       ]
     },
     "unannotated_columns": {
       "count": 2,
       "names": [
-        "Handedness",
-        "Race"
+        "Race",
+        "Handedness"
       ]
     }
   },
@@ -2396,21 +2415,21 @@
     "annotated_columns": {
       "count": 3,
       "names": [
-        "age",
         "participant_id",
+        "age",
         "sex"
       ]
     },
     "unannotated_columns": {
       "count": 14,
       "names": [
+        "hand",
         "Denom_alta",
         "Denom_baja",
         "Denom_error",
         "Denom_med",
         "Denom_total",
         "education",
-        "hand",
         "MM_atenc",
         "MM_espac",
         "MM_evoc",

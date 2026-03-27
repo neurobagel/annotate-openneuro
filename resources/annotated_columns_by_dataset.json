@@ -1512,19 +1512,20 @@
   "ds005752": {
     "total_columns": 44,
     "annotated_columns": {
-      "count": 7,
+      "count": 8,
       "names": [
         "participant_id",
         "sex",
         "audit",
         "bai",
         "bdi",
+        "gad7",
         "phq9",
         "whodas"
       ]
     },
     "unannotated_columns": {
-      "count": 37,
+      "count": 36,
       "names": [
         "release_1",
         "release_2",
@@ -1544,7 +1545,6 @@
         "drug_use",
         "ehi",
         "figs",
-        "gad7",
         "health_history_checklist_year_1",
         "health_history_questions",
         "health_rating",

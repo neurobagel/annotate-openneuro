@@ -237,6 +237,9 @@ def get_column_summaries(
     col_summaries = []
     for col_name, col_data in participants_tsv.items():
         column_json_info = participants_json.get(col_name, {})
+        # Some data dictionary e.g., ds007275 columns are strings instead of a dictionary
+        if not isinstance(column_json_info, dict):
+            column_json_info = {}
 
         bids_levels = get_column_bids_levels(column_json_info)
 

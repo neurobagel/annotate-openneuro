@@ -17,6 +17,7 @@ logging.basicConfig(
 logger = logging.getLogger(Path(__file__).stem)
 
 
+PERCENTAGE = 1.0
 OPENNEURO_DATA_DIR = Path(__file__).parents[1] / "data"
 RESOURCES_DIR = Path(__file__).parents[1] / "resources"
 # Assumes openneuro-annotations has been cloned into the parent directory of this repo
@@ -38,7 +39,7 @@ def add_dataset_annotated_status(
 
 
 def get_datasets_covering_x_percent_participants(
-    overview: pd.DataFrame, percentage=0.5
+    overview: pd.DataFrame, percentage=PERCENTAGE
 ) -> pd.DataFrame:
     overview = overview.copy()
     total_participants = overview["n_participants"].sum()
@@ -108,7 +109,7 @@ def main():
     ].cumsum()
     # Determine datasets needed to cover ~50% of all participants across datasets
     top_50_perc = get_datasets_covering_x_percent_participants(
-        overview=datasets_with_tsvs_sorted, percentage=0.5
+        overview=datasets_with_tsvs_sorted, percentage=PERCENTAGE
     )
     top_50_perc_unannotated = top_50_perc[~top_50_perc["annotated"]]
     # Get unannotated dataset in top 50 with the biggest n_columns
@@ -121,19 +122,19 @@ def main():
     ]
 
     logger.info(
-        f"Datasets needed to cover ~50% of participants: {len(top_50_perc)}/{len(datasets_with_tsvs_sorted)}"
+        f"Datasets needed to cover {PERCENTAGE*100}% of participants: {len(top_50_perc)}/{len(datasets_with_tsvs_sorted)}"
     )
     logger.info(
-        f"Num. annotated datasets in top 50%: {top_50_perc['annotated'].sum()}/{len(top_50_perc)}"
+        f"Num. annotated datasets in top {PERCENTAGE*100}%: {top_50_perc['annotated'].sum()}/{len(top_50_perc)}"
     )
     logger.info(
-        f"Num. datasets requiring annotation in top 50%: {len(top_50_perc_unannotated)}/{len(top_50_perc)}"
+        f"Num. datasets requiring annotation in top {PERCENTAGE*100}%: {len(top_50_perc_unannotated)}/{len(top_50_perc)}"
     )
     logger.info(
-        f"Unannotated dataset in top 50% with most columns: {unannotated_max_cols_row['dataset']}, n_columns: {unannotated_max_cols_row['n_columns']}"
+        f"Unannotated dataset in top {PERCENTAGE*100}% with most columns: {unannotated_max_cols_row['dataset']}, n_columns: {unannotated_max_cols_row['n_columns']}"
     )
     logger.info(
-        f"Unannotated dataset in top 50% with fewest columns: {unannotated_min_cols_row['dataset']}, n_columns: {unannotated_min_cols_row['n_columns']}"
+        f"Unannotated dataset in top {PERCENTAGE*100}% with fewest columns: {unannotated_min_cols_row['dataset']}, n_columns: {unannotated_min_cols_row['n_columns']}"
     )
 
     write_tsv(datasets_with_tsvs_sorted, RESOURCES_DIR / "openneuro_tabular.tsv")

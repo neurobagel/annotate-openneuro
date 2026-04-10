@@ -316,14 +316,14 @@ def process_dataset_annotations_to_dict(
         ds_column_values = dataset_values[dataset_values["column"] == column_name]
 
         # Ensure each column has at least a description to satisfy the Neurobagel data dictionary model
-        data_dict.setdefault(column_name, {}).setdefault("Description", "")
+        data_dict.setdefault(column_name, {})
+        if not isinstance(data_dict[column_name], dict):
+            data_dict[column_name] = {}
+        data_dict[column_name].setdefault("Description", "")
 
         standardized_var = ds_column["standardized_var"]
-        llm_classified_var = ds_column["llm_classification"]
         column_annotations = {}
-        if ds_column["exclude"].lower() == "true" or (
-            not standardized_var and not llm_classified_var
-        ):
+        if not standardized_var:
             pass
         elif is_identifier_column(standardized_var):
             column_annotations = get_identifier_annotations(standardized_var)
@@ -331,9 +331,6 @@ def process_dataset_annotations_to_dict(
             column_annotations = get_age_annotations(ds_column, ds_column_values)
         elif standardized_var == "nb:Sex":
             column_annotations = get_sex_annotations(ds_column_values)
-        # Assessments were annotated by an LLM and then human-reviewed
-        elif llm_classified_var == "nb:Assessment":
-            column_annotations = get_assessment_annotations(ds_column, ds_column_values)
 
         if column_annotations:
             # TODO: Eventually check for and handle any existing annotations for the column?
@@ -436,9 +433,9 @@ def process_annotations_to_dicts(
         keep_default_na=False,
     )
     # Drop some columns we don't need
-    column_summaries = column_summaries.drop(
-        columns=["llm_confidence", "reviewer_notes", "reviewer_name"]
-    )
+    # column_summaries = column_summaries.drop(
+    #     columns=["llm_confidence", "reviewer_notes", "reviewer_name"]
+    # )
 
     value_summaries = pd.read_csv(
         value_summaries_path,
@@ -510,11 +507,9 @@ def process_annotations_to_dicts(
 
 if __name__ == "__main__":
     COLUMN_SUMMARIES_PATH = (
-        RESOURCES_DIR
-        / "participants_tsv_columns_summary_with_reviewed_assessment_annotations.tsv"
+        RESOURCES_DIR / "participants_tsv_columns_summary_first_guess.tsv"
     )
     VALUE_SUMMARIES_PATH = (
-        RESOURCES_DIR
-        / "participants_tsv_categorical_values_summary_first_guess_manual_pass.tsv"
+        RESOURCES_DIR / "participants_tsv_categorical_values_summary_first_guess.tsv"
     )
     process_annotations_to_dicts(COLUMN_SUMMARIES_PATH, VALUE_SUMMARIES_PATH)

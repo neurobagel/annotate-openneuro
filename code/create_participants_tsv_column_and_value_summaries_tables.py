@@ -42,7 +42,7 @@ COMMON_COLUMN_MAPPINGS = {
     "nb:SessionID": ["session_id", "session"],
     "nb:Sex": ["sex", "gender"],
     "nb:Age": ["age", "age_years", "age_yrs", "participant_age"],
-    "nb:Diagnosis": ["diagnosis", "dx", "group_dx", "group", "study_group"],
+    # "nb:Diagnosis": ["diagnosis", "dx", "group_dx", "group", "study_group"],
 }
 COMMON_SEX_VALUES = {
     "snomed:248153007": {

@@ -317,13 +317,21 @@ def process_dataset_annotations_to_dict(
 
         # Ensure each column has at least a description to satisfy the Neurobagel data dictionary model
         data_dict.setdefault(column_name, {})
+        # Ensure column data dict entry is a dict by resetting it if existing value has wrong type
         if not isinstance(data_dict[column_name], dict):
+            logger.warning(
+                f"{dataset}: Raw data dict entry for column '{column_name}' is malformed. "
+                "Instead of skipping it, we are fixing it by overriding the original data dictionary entry."
+            )
             data_dict[column_name] = {}
         data_dict[column_name].setdefault("Description", "")
 
         standardized_var = ds_column["standardized_var"]
+        llm_classified_var = ds_column.get("llm_classification", "")
         column_annotations = {}
-        if not standardized_var:
+        if str(ds_column.get("exclude", "")).lower() == "true" or (
+            not standardized_var and not llm_classified_var
+        ):
             pass
         elif is_identifier_column(standardized_var):
             column_annotations = get_identifier_annotations(standardized_var)
@@ -331,6 +339,8 @@ def process_dataset_annotations_to_dict(
             column_annotations = get_age_annotations(ds_column, ds_column_values)
         elif standardized_var == "nb:Sex":
             column_annotations = get_sex_annotations(ds_column_values)
+        elif llm_classified_var == "nb:Assessment":
+            column_annotations = get_assessment_annotations(ds_column, ds_column_values)
 
         if column_annotations:
             # TODO: Eventually check for and handle any existing annotations for the column?

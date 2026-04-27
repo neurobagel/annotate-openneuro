@@ -67,7 +67,10 @@ python code/create_data_overview.py
 This will create a file called `data_overview.tsv`.
 
 
-### Determine datasets needed to cover ~50% of all participants
+### Determine datasets needed to cover a target percentage of all participants
+
+> [!TIP]
+> To adjust the target percentage, modify the `PERCENTAGE` constant in `code/get_openneuro_tabular_overview.py`.
 
 ```bash
 python code/get_openneuro_tabular_overview.py

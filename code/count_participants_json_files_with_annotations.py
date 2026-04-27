@@ -12,7 +12,9 @@ ROOT_DIR = Path(__file__).parents[1]
 DATA_DIR = ROOT_DIR / "data"
 RESOURCES_DIR = ROOT_DIR / "resources"
 # Overview file with info about which datasets have already been annotated by us
-OPENNEURO_TABULAR_DATASETS_OVERVIEW = RESOURCES_DIR / "openneuro_tabular.tsv"
+OPENNEURO_TABULAR_DATASETS_OVERVIEW = (
+    RESOURCES_DIR / "openneuro_tabular_all_datasets.tsv"
+)
 
 OUTPUT_PATH = RESOURCES_DIR / "participants_json_files_with_annotations.txt"
 

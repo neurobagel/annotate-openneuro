@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Any
 
 import pandas as pd
+from get_openneuro_tabular_overview import PERCENTAGE
 from tqdm import tqdm
 
 logging.basicConfig(
@@ -15,10 +16,12 @@ logging.basicConfig(
 )
 logger = logging.getLogger(Path(__file__).stem)
 
+
 DATA_DIR = Path(__file__).parents[1] / "data"
 RESOURCES_DIR = Path(__file__).parents[1] / "resources"
 DATASETS_TO_ANNOTATE = (
-    RESOURCES_DIR / "openneuro_tabular_top_50_percent_unannotated.tsv"
+    RESOURCES_DIR
+    / f"openneuro_tabular_top_{int(PERCENTAGE*100)}_percent_unannotated.tsv"
 )
 
 COLUMN_SUMMARIES_OUT_FILE = RESOURCES_DIR / "participants_tsv_columns_summary.tsv"
@@ -232,11 +235,18 @@ def get_common_std_term_mapping_for_sex_value(
 
 
 def get_column_summaries(
-    participants_tsv: pd.DataFrame, participants_json: dict
+    participants_tsv: pd.DataFrame, participants_json: dict, dataset_id: str
 ) -> list[dict]:
     col_summaries = []
     for col_name, col_data in participants_tsv.items():
         column_json_info = participants_json.get(col_name, {})
+        # Some data dictionary e.g., ds007275 columns are strings instead of a dictionary
+        if not isinstance(column_json_info, dict):
+            logger.warning(
+                f"{dataset_id}: Raw data dict entry for column '{col_name}' is malformed. "
+                "Instead of skipping it, we are fixing it by overriding the original data dictionary entry."
+            )
+            column_json_info = {}
 
         bids_levels = get_column_bids_levels(column_json_info)
 
@@ -371,7 +381,9 @@ def main():
             continue
         participants_json = load_json(DATA_DIR / f"{dataset_id}.json")
 
-        dataset_columns = get_column_summaries(participants_tsv, participants_json)
+        dataset_columns = get_column_summaries(
+            participants_tsv, participants_json, dataset_id
+        )
         dataset_columns_df = pd.DataFrame(dataset_columns)
         dataset_columns_df["dataset"] = dataset_id
         # transform bids_levels into a string for readability
